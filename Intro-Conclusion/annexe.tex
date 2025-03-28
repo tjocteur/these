@@ -1,0 +1,619 @@
+\chapter*{Annexe}
+\label{chapter:annexe}
+\addcontentsline{toc}{chapter}{Annexe}
+
+\setcounter{chapter}{6}
+\setcounter{section}{0}
+
+\section{Matériels généraux}
+
+\subsection{Conventions}
+
+\label{sec:conv_fourier}
+
+\subparagraph{}Dans tout cet ouvrage, nous définissons la transformée de Fourier d'une fonction $f(\mathbf{r})$ selon :
+
+\begin{equation}
+	\hat{f}(\mathbf{q}) = \int \mathrm{d}\mathbf{r}~f(\mathbf{r})e^{-i\mathbf{q}\cdot\mathbf{r}}
+\end{equation}
+
+\noindent et de manière réciproque :
+
+\begin{equation}
+	\hat{f}(\mathbf{r}) = \frac{1}{(2\pi)^D}\int \mathrm{d}\mathbf{q}~f(\mathbf{q})e^{i\mathbf{q}\cdot\mathbf{r}}
+\end{equation}
+
+\noindent avec $D$ la dimension de l'espace. Nous utilisons aussi parfois par ailleurs la notation $\mathcal{F}[\cdot]$ à la place de la notation $\hat{\cdot}$ pour des soucis de lisibilité.
+
+\subsection{Implémentation discrète des propagateurs}
+
+\label{sec:impl_disc_propag}
+
+\subparagraph{}
+
+\subsection{Réalisation expérimentales de la transition de dépiégeage}
+
+\label{sec:exp_depinning}
+
+\subparagraph{}Dans cette sous-section, nous présentons deux réalisation de la transition de dépiégeage en matière molle.
+
+\paragraph{Dynamique de mouillage à la ligne triple}
+
+\subparagraph{}En condition de mouillage non-total, lorsque l'on dépose une goutte sur un substrat solide, il se forme trois interfaces : une entre le liquide et le solide, une entre le solide et le gaz et une entre le liquide et le gaz. La ligne reliant ces trois interfaces est appelée ligne triple. Cette ligne est soumise à différentes forces : une force de pesanteur, favorisant l'étalement de la goutte, une force de tension de surface, favorisant la minimisation des interfaces, et, dans le cas d'un solide rugueux, non-homogène, une force d'attraction exercée par les asperités. On reconnaît là tous les ingrédients nécessaire au phénomène de la transition de depinning \cite{joanny_model_1984, rosso_depiegeage_2002, le_priol_long_range_2020} : la pesanteur joue le rôle de force extérieure, la tension de surface la force de rappel élastique et l'interaction avec le solide la force de piégeage.
+
+\subparagraph{}Dans cette optique, des expériences ont été mises en place pour reproduire le phénomène du depinning dans le cadre du mouillage \cite{moulinet_roughness_2002, le_doussal_height_2009}. Par exemple, dans \cite{moulinet_roughness_2002}, un substrat solide de verre chromé est retiré d'un bain liquide d'un mélange eau-glycérol à vitesse constante. Ce protocole correspond alors au phénomène de depinning avec vitesse imposée de l'interface (et non la force extérieure). Via une capture optique du système, les auteurs ont pu analysé le mouvement de l'interface au cours du temps et sa structure, révélant une rugosité non-triviale, caractéristique du phénomène.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{Chapitre1/Figures/Depinning/expdepinning.pdf}
+	\caption{Illustrations des dispositifs expérimentaux permettant l'observation de la transition de depinning dans des conditions réelles. (a) Expérience (et figure) tirée de \cite{moulinet_roughness_2002} sur la propagation d'une ligne de mouillage. (b) Expérience (et figure) tirée de \cite{schmittbuhl_direct_1997} sur la propagation d'un front de fracture solide dans un bloc de plexiglas.}
+	\label{fig:expdepinning}
+\end{figure}
+
+\paragraph{Propagation d'une fracture}
+
+\subparagraph{}La propagation des fractures dans les solides désordonnés représente un autre exemple de la transition de depinning. Dans l'exemple présenté à la \autoref{fig:expdepinning}-(b), un matériau est fracturé selon un mode I de fracture \cite{le_priol_long_range_2020}, i.e. en tirant une plaque perpendiculairement à la direction de propagation du front de fracture. Dans ce cadre, la limite entre les deux morceaux du solide peut être associée à une interface soumise au phénomène de depinning. On y retrouve en effet tous les ingrédients nécessaires à cette transition : une force de rappel élastique exercée via l'élasticité du solide en volume, une force extérieure via la traction de la plaque inférieure, et une force de piégeage aléatoire directement associée à la structure amorphe du solide.
+
+\subparagraph{}Comme pour le phénomène de mouillage, des expériences réelles ont permis d'étudier la propagation de ce front \cite{schmittbuhl_direct_1997, delaplace_high_1999, santucci_fracture_2010, le_priol_universal_2020}. Dans ce cas, l'analyse de la dynamique de l'interface et de sa rugosité a permis de confirmer sa compréhension dans le cadre de la théorie du depinning.
+
+\subsection{Propagateur de Eshelby}
+
+\label{sec:Annexe_Eshelby}
+
+\subparagraph{}Dans cette sous-section, nous présentons en détail le calcul du propagateur d'Eshelby dont la forme a été introduite à la \autoref{sec:ref_interac_elast}.
+
+\subparagraph{}Afin de comprendre comment la contrainte est redistribuée dans le milieu au cours d'un réarrangement plastique dans le cadre de la transition vers l'écoulement, nous présentons la résolution de ce problème, déjà abordé à de nombreuses reprises dans la littérature, dans le cadre de la théorie de l'élasticité linéaire. Le problème initial est alors le suivant : comment est modifié le champ de contrainte local $\sigma$ sous forçage suite à une déformation plastique locale $\epsilon^\text{pl}$ ?
+
+\subparagraph{}Pour répondre à cette question, nous reprenons les calculs des travaux \cite{picard_elastic_2004, goff_flow_2021}. Considérons un milieu continu élastique infini, isotrope et incompressible dans lequel nous définissons un champ de déplacement $u_i(\mathbf{r}) = u_i^\text{él}(\mathbf{r}) + u_i^\text{pl}(\mathbf{r})$, décomposable en une composante élastique et une composante plastique. \`A ce champ est associé un tenseur de déformation $\epsilon_{ij}$ défini comme :
+
+\begin{equation}
+	\epsilon_{ij}(\mathbf{r}) = \epsilon^\text{él}_{ij}(\mathbf{r})+\epsilon^\text{pl}_{ij}(\mathbf{r}) = \frac{1}{2}\left( \partial_i u_j^\text{él}(\mathbf{r}) + \partial_j u_i^\text{él}(\mathbf{r}) \right) + \frac{1}{2}\left( \partial_i u_j^\text{pl}(\mathbf{r}) + \partial_j u_i^\text{pl}(\mathbf{r}) \right)
+	\label{eq:tenseurdeformation}
+\end{equation}
+
+et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompressibilité comme :
+
+\begin{equation}
+	\sigma_{ij} = 2\mu\epsilon^\text{él}_{ij}(\mathbf{r}) = 2\mu\epsilon_{ij}(\mathbf{r}) - 2\mu \epsilon^\text{pl}_{ij}(\mathbf{r})
+	\label{eq:tenseurcontrainte}
+\end{equation}
+
+\subparagraph{}Dans le cas de notre étude, il est d'usage de décomposer les champs dans le milieu en une partie de réponse purement élastique au forçage ($\sigma^0$, $u^0$) et une partie de réponse à la déformation plastique ($\sigma^1$, $u^1$), donnant alors avec ces notations :
+
+\begin{equation}
+	\epsilon_{ij}^{\text{él}} = \epsilon_{ij}^{\text{él}, 0} + \epsilon_{ij}^{\text{él}, 1}, \quad \epsilon_{ij}^{\text{pl}} = \epsilon_{ij}^{\text{pl}, 1}, \quad \sigma_{ij} = \sigma_{ij}^0 + \sigma_{ij}^1
+\end{equation}
+
+\noindent L'effet non-trivial de la déformation plastique est alors encodé dans les équations :
+
+\begin{equation}
+\left\{
+\begin{aligned}
+	-\partial_i P^1(\mathbf{r}) + \partial_j\sigma_{ij}^1(\mathbf{r}) &= 0\\
+	\partial_k u^1_k(\mathbf{r})&=0
+	\end{aligned}
+	\right.
+\end{equation}
+
+\noindent la première équation correspondant à la condition d'équilibre mécanique et la seconde à l'incompressibilité du matériau. L'objectif est alors de déterminer $\sigma_{ij}^1$ en fonction de $\epsilon_{ij}^{\text{pl},1}$ à partir de ces équations. Dans la suite, nous omettrons les notations $^1$ et $(\mathbf{r})$ pour alléger l'écriture.
+
+\subparagraph{}En utilisant l'\autoref{eq:tenseurdeformation} et l'\autoref{eq:tenseurcontrainte}, nous pouvons ré-exprimer la condition d'équilibre mécanique comme suit :
+
+\begin{equation}
+	-\partial_i P + \mu \partial_j\partial_j u_i = 2\mu \partial_j\epsilon_{ij}^\text{pl}
+\end{equation}
+
+\noindent En passant dans l'espace de Fourier, avec les conventions exposées dans la \autoref{sec:conv_fourier}, on obtient grâce à la condition d'incompressibilité :
+
+\begin{equation}
+	\hat{P} = -2\mu\frac{q_iq_j}{q^2}\hat{\epsilon}_{ij}^\text{pl}
+\end{equation}
+
+\noindent soit :
+
+\begin{equation}
+	\hat{u}_i = \left( q_j\hat{\epsilon}_{ij}^\text{pl}-q_i\frac{q_\alpha q_\beta}{q^2}\hat{\epsilon}_{\alpha\beta}^\text{pl} \right)\frac{2i}{q^2}
+\end{equation}
+
+\noindent En se rapportant à la définition du tenseur des contraintes dans l'espace de Fourier on a alors finalement :
+
+\begin{equation}
+\begin{aligned}
+	\hat{\sigma}_{ij} &= 2\mu \hat{G}_{ijkl}\hat{\epsilon}_{kl}^\text{pl}\\
+	\hat{G}_{ijkl} &= \frac{q_i q_l\delta_{kj}+q_j q_l\delta_{ki}}{q^2}-2\frac{q_iq_jq_kq_l}{q^4}-\delta_{ki}\delta{jl}
+\end{aligned}
+\label{eq:eshelbygene}
+\end{equation}
+
+\subparagraph{}Afin d'obtenir une expression finale du champ de contrainte suite au réarrangement plastique, nous faisons l'hypothèse que celui-ci possède la même symétrie que le forçage, que nous prenons comme un cisaillement simple dans la direction $\hat{\mathbf{e}}_x$. Sous cette hypothèse, on a alors en deux dimensions $\hat{\epsilon}_{xy}^\text{pl} = \hat{\epsilon}_{yx}^\text{pl} = \hat{\epsilon}^\text{pl} \neq 0$ et $\hat{\epsilon}_{xx}^\text{pl} = \hat{\epsilon}_{yy}^\text{pl} = 0$. L'\autoref{eq:eshelbygene} nous permet alors d'obtenir l'expression :
+
+\begin{equation}
+	\hat{\sigma}_{xy} = 2\mu \hat{G} \epsilon^\text{pl}, \quad \hat{G}(\mathbf{q}) = -4\frac{q_x^2q_y^2}{q^4}
+\end{equation}
+
+\noindent qui relie directement la perturbation du champ de contrainte au réarrangement plastique. Des expressions similaires peuvent être obtenues pour les composantes $\sigma_{xx}$ et $\sigma_{yy}$ du tenseur des contraintes. En espace réel, cette relation devient :
+
+\begin{equation}
+	\sigma_{xy}(\mathbf{r}) = \int\mathrm{d}\mathbf{r}^\prime~G(\mathbf{r}-\mathbf{r}^\prime)\epsilon^\text{pl}(\mathbf{r}^\prime), \quad G(\mathbf{r}) = \frac{\cos (4\theta)}{\pi r^2}
+	\label{eq:EshelbyReel}
+\end{equation}
+
+\subparagraph{}On appelle alors le propagateur $G$ propagateur d'Eshelby. Celui-ci correspond à la redistribution de contrainte de cisaillement induite par un réarrangement plastique infiniment localisé (de la forme $\epsilon^\text{pl}(\mathbf{r}) = \epsilon_0 \delta (\mathbf{r})$) ou de manière équivalente à celle induite en champ lointain par un évènement d'extension finie.
+
+\subsection{Propagateurs hydrodynamiques}
+
+\label{sec:Annexe_Interactions_Hydro}
+
+\subparagraph{}Dans cette partie, nous développons le raisonnement dont les conclusions ont été exposées à la \autoref{sec:ref_interac_visc}. Nous proposons donc de montrer que l'interaction hydrodynamique entre deux particule immergées dans un fluide est génériquement à longue portée. En commençant par dériver sa forme dans le cas idéal, nous montrerons comment un raisonnement basé sur des principes simples de conservation permet d'appliquer cette analyse à toute une zoologie de systèmes, confirmant l'omniprésence de la longue portée dans les dispositifs expérimentaux et donc, a fortiori, dans la transition de réversibilité.
+
+\paragraph{Hydrodynamique en milieu infini}
+
+\subparagraph{}Dans le cas de la transition de réversibilité, lorsqu'une particule interagi irréversiblement avec une autre particule au cours d'un cycle, elle quitte son orbite initiale en appliquant une certaine force sur le fluide. Cette force va alors modifier l'écoulement du fluide via les lois régissant sa dynamique et donc affecter le mouvement des particules environnantes. La question est de savoir comment. Pour y répondre, nous nous concentrons sur un problème générique à deux particules : une particule $1$ située en $\mathbf{r}$ exerce une force $\mathbf{F}^1(\mathbf{r})$ sur le fluide et induit un écoulement qui entraîne le déplacement d'une particule $2$ située en $\mathbf{r}^\prime$ à la vitesse $\mathbf{v}^2$. En considérant le fluide suspendant comme incompressible et dans la limite de bas Reynolds, son écoulement suit une dynamique régie par les équations de Stokes :
+
+\begin{equation}
+\begin{aligned}
+	-\partial_i P + \eta \partial_j\partial_j v_i + f_i &= 0 \\
+	\partial_j v_j = 0
+\end{aligned}
+\end{equation}
+
+\noindent avec $\mathbf{v}(\mathbf{r})$ le champ de vitesse eulérien du fluide, $P(\mathbf{r})$ le champ de pression, $\eta$ la viscosité dynamique et $\mathbf{f}(\mathbf{r})$ le champ de force extérieur. Dans la limite de champ lointain, i.e. à grande distance des particules, celles-ci peuvent être assimilées à des objets ponctuels. Dans cette approximation, nous pouvons décrire la force exercée par la particule $1$ sur le fluide comme infiniment localisée $\mathbf{F}^1(\mathbf{r}) = \mathbf{F}^1\delta (\mathbf{r})$ et la vitesse de la particule $2$ comme correspondant à celle du fluide en ce point $\mathbf{v}^2 = \mathbf{v}(\mathbf{r}^\prime)$ \cite{diamant_hydrodynamic_2009}. La résolution de ce problème revient donc à résoudre les équations de Stokes pour obtenir le champ de vitesse du fluide en $\mathbf{r}^\prime$ sous l'action du champ de force extérieur $\mathbf{f}(\mathbf{r}) = \mathbf{F}^1\delta (\mathbf{r})$. En d'autres termes, cela revient à calculer la fonction de Green associée aux équations de Stokes \cite{noauthor_physique_nodate}.
+
+\subparagraph{}La résolution de ce problème bien connu (voir \cite{lisicki_four_2013} par exemple) permet de définir le tenseur d'Oseen $G_{ij}$, reliant $\mathbf{F}^1$ à $\mathbf{v}(\mathbf{r}^\prime)$ par la relation linéaire :
+
+\begin{equation}
+	v_i (\mathbf{r}^\prime) = G_{ij}(\mathbf{r} -\mathbf{r}^\prime)F^1_j, \quad G_{ij}(\mathbf{r}) = \frac{1}{8\pi\eta r}\left( \delta_{ij}+\frac{r_ir_j}{r^2} \right)
+\end{equation}
+
+\noindent définissant ainsi une interaction hydrodynamique entre les deux particules, décroissant comme $\sim 1/r$ dans un milieu tridimensionnel infini.
+
+\subparagraph{}Ce résultat calculatoire peut aussi se comprendre plus intuitivement, comme l'explique très clairement l'étude \cite{diamant_hydrodynamic_2009}. Dans la suite de cette partie, nous présentons le raisonnement de l'auteur. En fait, les équations de Stokes dérivent de deux lois de conservation fondamentales : celle de la quantité de mouvement et celle de la masse. Lorsqu'une particule applique une force locale sur le fluide, celle-ci se comporte comme une source de quantité de mouvement. Pour que cette dernière soit conservée, le flux local de quantité de mouvement émanant de la particule doit décroître comme $\sim 1/r^2$ en 3D. Or ce flux local de quantité de mouvement n'étant autre que le tenseur des contraintes $\sigma$ associé au fluide, cette conservation implique directement $\sigma \sim 1/r^2$. La partie associée au cisaillement de ce tenseur étant $\sigma_\text{cis}\sim \eta \mathbf{\nabla} \mathbf{v}$ on a donc $\mathbf{v}\sim 1/\eta r$. De plus, par des considération de symétrie, la partie adimensionnelle du propagateur hydrodynamique prend nécessairement la forme $\delta_{ij}+C\frac{r_ir_j}{r^2}$. On retrouve donc finalement, basé sur ces arguments simples :
+
+\begin{equation}
+	G_{ij} \sim \frac{1}{\eta r}\left( \delta_{ij}+C\frac{r_ir_j}{r^2} \right)
+	\label{eq:diamantinfini}
+\end{equation}
+
+\noindent avec $C$ une constante qui peut être déterminée par conservation de la masse (en imposant $\partial_i G_{ij}=0$) pour donner $C=1$.
+
+\subparagraph{}En plus de ce premier effet, nous pouvons identifier une autre source de modification de l'écoulement. Celle-ci vient de la conservation de la masse de fluide. En fait, lors de son déplacement, la particule $1$ modifie la répartition de masse dans le fluide. Celle-ci peut alors être vue, en plus d'une source de quantité de mouvement, comme un dipôle de source de matière (avec création de masse à l'avant du mouvement et suppression de masse à l'arrière). En 3D, un tel dipôle génère une vitesse d'écoulement décroissant comme $\sim 1/r^3$, générant ainsi un terme additionnel à l'\autoref{eq:diamantinfini} en $\sim 1/r^3$. Cependant, à grande distance, cette contribution est négligeable devant celle décroissant comme $\sim 1/r$. On retrouve donc bien en champ lointain le tenseur d'Oseen.
+
+\subparagraph{}Ce résultat basé sur les deux principes de conservation sont très généraux et permettent facilement d'étendre leur validité à d'autre situations. Notamment, dans une suspensions de plus de deux particules, la forme de l'interaction en champ lointain ne sera pas modifiée puisque dans ce cas on a toujours conservation de la quantité de mouvement et de la masse \cite{diamant_hydrodynamic_2009}. A priori, dans un système assimilé à un milieu infini, les interactions hydrodynamiques entre les particules lors d'un cycle de cisaillement sont donc bien à longue portée. Toutefois une telle approximation de milieu infini est parfois non valable dans les dispositifs expérimentaux réalisant la transition de réversibilité. Dans ces cas là, le raisonnement doit être adapté.
+
+\paragraph{Hydrodynamique en milieux complexes}
+
+\subparagraph{}Un premier exemple vient des systèmes quasi-2D. Lorsque le fluide suspendant est confiné entre deux plaques rigides, espacées d'une faible distance $\lambda$, les frottements avec le solide constituent une perte de quantité de mouvement dans la direction orthogonale aux plaques. Dans ce cas, le flux local de quantité de mouvement généré par la particule $1$ décroît exponentiellement avec la distance au-delà de cette distance typique de confinement $r>\lambda$. Toutefois, dans une telle configuration, la masse du fluide est toujours conservée. Le déplacement de la particule $1$ peut toujours être vu comme un dipôle de source de matière mais prenant cette fois place dans un milieu 2D. La vitesse de l'écoulement associé décroît alors comme $\sim 1/r^2$, amenant à un propagateur hydrodynamique de la forme :
+
+\begin{equation}
+	G_{ij} \sim \frac{1}{\eta r^2}\left( \delta_{ij}-2\frac{r_ir_j}{r^2} \right)
+\end{equation}
+
+\noindent Ainsi, sous confinement, les interactions médiées par le fluide restent à longue portée.
+
+\subparagraph{}Un autre système envisageable est celui d'un fluide contenu dans un film suspendu (i.e. entouré de gaz par exemple, comme dans une bulle de savon). Dans ce cas, la quantité de mouvement et la masse sont conservées mais l'écoulement prend place dans un milieu 2D. La conservation de la quantité de mouvement implique donc cette fois un flux local évoluant comme $\sim 1/r$ et donc une vitesse d'écoulement se comportant comme $\sim \ln (r)$, soit des interactions d'une portée extrêmement grande.
+
+\subparagraph{}Enfin une dernière situation envisageable, bien que peut-être moins pertinente dans le cas de la transition de réversibilité, est celle d'un écoulement dans un milieu poreux. Dans ce cas, la quantité de mouvement n'est pas conservée, comme dans le cas du confinement entre deux plaques, mais cette fois la conservation de la masse prend place dans un espace 3D. Dans ce cas, le raisonnement de conservation nous amène à un propagateur hydrodynamique décroissant comme $\sim 1/r^3$.
+
+\subparagraph{}De manière toute à fait générale, le fluide suspendant permet donc de médier des interactions entre les particules, représentée par un propagateur hydrodynamique de la forme :
+
+\begin{equation}
+	G_{ij} \sim \frac{1}{r^\alpha}\left( \delta_{ij}-2\frac{r_ir_j}{r^2} \right)
+\end{equation}
+
+\noindent avec $\alpha$ un entier pouvant prendre différentes valeurs en fonction du dispositif spécifique étudié. Via a minima la conservation de la masse, ces interactions présentent donc toujours la particularité d'être à longue portée. Dans une modélisation plus spécifique de la transition de réversibilité, les interactions irréversibles de contact entre deux particules peuvent être vues comme des dipôles de force sur le fluide. Les résultats présentés précédemment sont alors modifiés selon $\alpha \rightarrow \alpha +1$. Par exemple, en milieu 3D infini, nous nous attendons à ce qu'un évènement affecte les autres particules du système via une interaction décroissant comme $\sim 1/r^2$.
+
+\section{Transport à longue portée}
+
+\subsection{Mesures d'hyperuniformité dans le modèle LR-Manna}
+
+\label{sec:mesures_HU_Manna}
+
+\subparagraph{}Dans cette section, nous présentons les résultats obtenus dans le cadre de l'étude de l'hyperuniformité dans les modèles LR-Manna. Plus précisément, nous présentons sur les figures suivantes les redimensionnements obtenus de la même façon que dans le cas $\alpha=4$ représenté par la \autoref{fig:MannaCMHU_rescale_gamma4}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma375.pdf}
+	\caption{Idem que la \autoref{fig:MannaCMHU_rescale_gamma4}, seulement pour $\alpha=3.75$}
+	\label{fig:MannaCMHU_rescale_gamma375}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma35.pdf}
+	\caption{Idem que la \autoref{fig:MannaCMHU_rescale_gamma4}, seulement pour $\alpha=3.5$}
+	\label{fig:MannaCMHU_rescale_gamma35}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma325.pdf}
+	\caption{Idem que la \autoref{fig:MannaCMHU_rescale_gamma4}, seulement pour $\alpha=3.25$}
+	\label{fig:MannaCMHU_rescale_gamma325}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma3.pdf}
+	\caption{Idem que la \autoref{fig:MannaCMHU_rescale_gamma4}, seulement pour $\alpha=3$}
+	\label{fig:MannaCMHU_rescale_gamma3}
+\end{figure}
+
+\section{Transition de réversibilité}
+
+\subsection{Transformée de Fourier des propagateurs}
+
+\label{sec:TFinverse_susp}
+
+\subsection{Test de l'approximation scalaire}
+
+\label{sec:ApproxScalaire}
+
+\subparagraph{}Afin de comprendre si la simplification de la forme du propagateur hydrodynamique dans le $\alpha$-ROM joue un rôle dans le comportement critique du système, nous étudions un modèle proche qui prend en compte ces interactions de manière tensorielle. Dans celui-ci, ... il faut regarder le code je m'en souviens plus.
+
+\subsection{Résolution numérique du modèle $\mu$-Hébraud-Lequeux}
+
+\label{sec:ResolNumMuHL}
+
+\subparagraph{}Afin d'étudier le comportement critique du modèle $\mu$-Hébraud-Lequeux dans le cadre de la modélisation champ moyen du $\alpha$-ROM, nous proposons une méthode d'intégration numérique de l'\autoref{eq:muHL}. Dans le cas du modèle original de Hébraud-Lequeux, différents travaux en ont proposé une résolution numérique via une dynamique de population. Dans cette partie, nous transposons cette méthode de résolution à l'intégration des équations du modèle $\mu$-Hébraud-Lequeux. En fait, l'équation suivante : 
+
+\begin{equation}
+    \partial_t P(\mathbf{r}, t) = \alpha\Gamma (t)|\nabla|^{\mu} P(\mathbf{r}, t) - \frac{1}{\tau}\Theta(|\mathbf{r}|>R)P(\mathbf{r}, t) + \delta(\mathbf{r})\Gamma (t), \quad \Gamma (t) = \frac{1}{\tau}\int_{|\mathbf{r}|>R}\mathrm{d}\mathbf{r}~P(\mathbf{r}, t)
+\end{equation}
+
+\noindent peut être vue comme une équation de Fokker-Planck. Suivant cette idée, nous pouvons associer à ce modèle une dynamique de Langevin simple sur la variable $\mathbf{r}$ qui permet, statistiquement, de reconstruire le comportement de la distribution $P$.
+
+\subparagraph{}En pratique, nous considérons donc $N$ particules dont les positions $\mathbf{r}_i$ évoluent dans un espace de dimension $D$, présentant une barrière en $|\mathbf{r}|=R$. La dynamique du mouvement des particules se fait en temps continu, discrétisé selon un pas de temps $\Delta t$. \`A chaque pas de temps $t_i$, chaque particule effectue un saut distribué selon une loi stable $S_\mu(xx)$, permettant de modéliser le terme de dérivée fractionnaire dans l'équation de Fokker-Planck associée \cite{hinrichsen_non_equilibrium_2007, jespersen_levy_1999}. Lorsqu'une particule est au-delà de la barrière, celle-ci est remise à l'origine du repère selon un taux $1/\tau$, représentant alors les deux derniers termes du membre de droite dans l'équation de Fokker-Planck.
+
+\subparagraph{}Dans ce modèle, les particules n'interagissent pas directement entre elles, mais indirectement via la distribution de sauts qui dépend de l'activité dans le système $\tau\Gamma (t)$. Celle-ci est calculée à chaque pas de temps comme la proportion de particules au-delà de la barrière située en $|\mathbf{r}|=R$. Nous représentons à la \textbf{Fig XX} La dynamique d'une de ces particules en 2D pour différentes valeurs de $\mu$.
+
+\begin{figure}
+	\centering
+	figure random walk pour différents mu
+\end{figure}
+
+\subparagraph{}En simulant le mouvement de ces particules, nous pouvons remonter à la forme instantanée de la distribution $P(\mathbf{r},t)$ prise alors comme la distribution des positions des différentes particules. Pour déterminer le comportement critique de cette transition, nous mesurons la valeur de l'activité moyenne $\Gamma$ dans l'état stationnaire pour différentes valeurs de $R$ afin d'identifier l'exposant $\beta$ définissant la relation :
+
+\begin{equation}
+	\Gamma \sim (R-R_c)^\beta
+\end{equation}
+
+\subparagraph{} Les résultats présentés à la \autoref{fig:LHLNum} ont été obtenus pour les valeurs des paramètres répertoriées dans le \textbf{Tableau XX}. Dans le cas $\mu = 2$ où la loi stable devient une loi normale, nous vérifions que nous retrouvons les résultats attendus soit $\beta = 2$ et $R_c = xx$.
+
+\paragraph{Détails d'implémentation}
+
+\subparagraph{}L'algorithme présenté a été implémenté en langage C++/CUDA pour fonctionner sur cartes graphiques. Les détails d'implémentation peuvent être retrouvés sur xxx.
+
+\subsection{Modèle $\alpha$-ROM avec sauts infinis en dimension supérieure}
+
+
+
+\subsection{Fonctions de corrélation de paire}
+
+\label{sec:PCorr}
+
+\subsubsection{$\alpha$-ROM en 2D avec sauts infinis des particules actives}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha3.pdf}
+\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha25.pdf}
+\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha225.pdf}
+\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha2.pdf}
+\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha15.pdf}
+\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha125.pdf}
+\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha1.pdf}
+\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha05.pdf}
+\caption{}
+\label{fig:annexePcorrAlphaMF}
+\end{figure}
+
+\subsubsection{$\alpha$-ROM en 2D avec sauts infinis des particules actives}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha3_mean.pdf}
+\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha2_mean.pdf}
+\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha175_mean.pdf}
+\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha15_mean.pdf}
+\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha125_mean.pdf}
+\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha1_mean.pdf}
+\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha05_mean.pdf}
+\caption{}
+\label{fig:annexePcorrAlpha}
+\end{figure}
+
+\subsection{Avalanches dans le modèle $\alpha$-ROM}
+
+\label{sec:AvTBLRRAnnexe}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\textwidth]{Chapitre3/Figures/Avalanches/Rescale_Av_alpha3.pdf}
+\includegraphics[width=\textwidth]{Chapitre3/Figures/Avalanches/Rescale_Av_alpha2.pdf}
+\includegraphics[width=\textwidth]{Chapitre3/Figures/Avalanches/Rescale_Av_alpha175.pdf}
+\caption{}
+\label{fig:annexeAvTBLRR1}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\textwidth]{Chapitre3/Figures/Avalanches/Rescale_Av_alpha15.pdf}
+\includegraphics[width=\textwidth]{Chapitre3/Figures/Avalanches/Rescale_Av_alpha125.pdf}
+\includegraphics[width=\textwidth]{Chapitre3/Figures/Avalanches/Rescale_Av_alpha05.pdf}
+\caption{}
+\label{fig:annexeAvTBLRR2}
+\end{figure}
+
+\section{Transition vers l'écoulement}
+
+
+
+\subsection{Modèles $\alpha$-Picard}
+
+\subsubsection{Transformée de Fourier inverse du propagateur}
+
+\todo{Refaire le calcul au moins une fois}
+
+\label{sec:TFinverse}
+
+\subparagraph{}Dans cette partie, nous faisons le lien entre les formes spectrales des propagateurs dans les modèles $\alpha$-Picard présentées au \autoref{chapter:yielding} et leur forme dans l'espace réel. Pour ce faire, nous cherchons la transformée de Fourier inverse en espace continue de la fonction :
+
+\begin{equation}
+	f(\mathbf{q}) = \frac{q_x^2 q_y^2}{q^{6-\alpha}}
+\end{equation}
+
+\noindent et nous notons $\beta = 6 - \alpha$ pour simplifier les notations dans le calcul qui suit.
+
+\paragraph{}Nous commençons par partir du résultat général :
+
+\begin{equation}
+    \mathcal{F}\left( \frac{1}{r^\alpha} \right)=\frac{\pi^{\alpha-d / 2} \Gamma((d-\alpha) / 2)}{\Gamma(\alpha / 2)} \times\frac{1}{|k|^{d-\alpha}}
+\end{equation}
+
+\noindent avec $\mathbf{q} = 2\pi \mathbf{q}$ et $d$ la dimension de l'espace. Ce résultat est valable pour $0<\alpha<d$ dans le sens des fonctions mais peut être étendu à tout $\alpha$ au sens des distributions. De manière équivalente nous avons donc :
+
+\begin{equation}
+    \mathcal{F}^{-1}\left( \frac{1}{\lvert k \rvert^\beta} \right) = \frac{\Gamma\left( 1-\frac{\beta}{2} \right)}{\pi^{1-\beta}\Gamma\left( \frac{\beta}{2} \right)}\times\frac{1}{r^{2-\beta}}
+\end{equation}
+
+\noindent et donc :
+
+\begin{equation}
+\begin{aligned}
+    (2\pi)^4\mathcal{F}^{-1}\left( \frac{k_x^2k_y^2}{\lvert k \rvert^\beta} \right) &= \partial_x^2\partial_y^2\mathcal{F}^{-1}\left( \frac{1}{\lvert k \rvert^\beta} \right)\\
+    &=\frac{\Gamma\left( 1-\frac{\beta}{2} \right)}{\pi^{1-\beta}\Gamma\left( \frac{\beta}{2} \right)}\partial_x^2\partial_y^2\left( \frac{1}{r^{2-\beta}} \right)
+\end{aligned}
+\end{equation}
+
+\noindent Le calcul des dérivées donne :
+
+\begin{equation}
+    \partial_x^2\partial_y^2\left( \frac{1}{r^{2-\beta}} \right) = \frac{1}{r^{10-\beta}}(8-6\beta+\beta^2)\times\left(x^4(\beta-5)+y^4(\beta-5)+x^2y^2(38-12\beta+\beta^2)\right)
+\end{equation}
+
+\noindent et nous pouvons simplifier cette expression en utilisant  $r^2=x^2+y^2$ et $(x,y)=(r\cos\theta,r\sin\theta)$ selon :
+
+\begin{equation}
+    \partial_x^2\partial_y^2\left( \frac{1}{r^{2-\beta}} \right) = \frac{1}{r^{6-\beta}}(8-6\beta+\beta^2)\times\left(\beta-5+\cos^2\theta\sin^2\theta(48-14\beta+\beta^2)\right)
+\end{equation}
+
+\noindent puis en utilisant la relation trigonométrique $\cos^2\theta\sin^2\theta = \frac{1}{8}(1-\cos4\theta)$ on a :
+
+\begin{equation}
+    \partial_x^2\partial_y^2\left( \frac{1}{r^{2-\beta}} \right) = \frac{1}{8r^{6-\beta}}(8-6\beta+\beta^2)\times\left((8-6\beta+\beta^2)-\cos4\theta(48-14\beta+\beta^2)\right)
+\end{equation}
+
+\noindent et donc en factorisant on a finalement :
+
+\begin{equation}
+    (2\pi)^4\mathcal{F}^{-1}\left( \frac{k_x^2k_y^2}{\lvert k \rvert^\beta} \right) = \frac{\Gamma\left( 1-\frac{\beta}{2} \right)}{\pi^{1-\beta}\Gamma\left( \frac{\beta}{2} \right)}\times\frac{(\beta-4)(\beta-2)}{8r^{6-\beta}}\left( (\beta-4)(\beta-2)-\cos4\theta(\beta-8)(\beta-6) \right)
+\end{equation}
+
+\noindent soit :
+
+\begin{equation}
+    \mathcal{F}^{-1}\left( \frac{q_x^2q_y^2}{\lvert q \rvert^\beta} \right) = \frac{\Gamma\left( 1-\frac{\beta}{2} \right)}{\pi 2^\beta\Gamma\left( \frac{\beta}{2} \right)}\times\frac{(\beta-4)(\beta-2)}{8r^{6-\beta}}\left( (\beta-4)(\beta-2)-\cos4\theta(\beta-8)(\beta-6) \right)
+\end{equation}
+
+\noindent ce qui permet de retrouver la forme donnée à l'\autoref{eq:RealAlphaPicard}.
+
+
+\paragraph{Développement autour de $\beta = 4$/$\alpha=2$}
+
+\subparagraph{}Les entiers négatifs (zéro inclut) sont des pôles de la fonction $\Gamma$. Le cas $\beta = 4$ correspondant au propagateur d'Eshelby doit être pris comme une limite. Pour ce faire, nous utilisons le développement :
+
+\begin{equation}
+    \Gamma(-n+\epsilon) = \frac{(-1)^n}{n!}\left( \frac{1}{\epsilon}+\mathcal{O}(1) \right)
+\end{equation}
+
+\noindent qui nous permet donc d'obtenir pour $\beta=4+\epsilon$ :
+
+\begin{equation}
+    (2\pi)^4\mathcal{F}^{-1}\left( \frac{k_x^2k_y^2}{\lvert k \rvert^{4+\epsilon}} \right)=\frac{2/\epsilon}{\pi^{-3-\epsilon/2}\Gamma\left( 2+\frac{\epsilon}{2} \right)}\times\frac{(\epsilon+2)\epsilon}{8r^{2-\epsilon}}((\epsilon+2)\epsilon-\cos4\theta(\epsilon-2)(\epsilon-4))
+\end{equation}
+
+\noindent qui permet d'arriver dans la limite $\epsilon \rightarrow 0$ à :
+
+\begin{equation}
+    \mathcal{F}^{-1}\left( \frac{-4q_x^2q_y^2}{\lvert q \rvert^{4}} \right)=\frac{\cos4\theta}{\pi r^2}
+\end{equation}
+
+\subsubsection{Détermination des points critiques}
+
+\label{sec:CP_aPicard}
+
+\subparagraph{}Dans cette partie, nous présentons simplement sur la \autoref{fig:CP_aPicard} les données ayant permis la détermination des contraintes critiques $\Sigma_c$ et de l'exposant $\beta$ pour chaque déclinaison du modèle $\alpha$-Picard. La détermination est réalisée à contrainte imposée, de la même manière que pour les modèles d'écoulement de courte portée Picard-CP et FES$^\pm$.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{Chapitre6/Figures/CP_alphaPicard.pdf}
+	\label{fig:CP_aPicard}
+	\caption{Détermination de la contrainte critique $\Sigma_c$ et de l'exposant $\beta$ pour les modèles $\alpha$-Picard avec $\alpha \in \{ 5, 4, 3, 1.5, 1 \}$. En encart, la forme du propagateur dans l'espace réel implémenté de la façon présentée à la \autoref{sec:alphaPicard}}
+\end{figure}
+
+\subsubsection{Avalanches}
+
+\subparagraph{}Dans cette partie, nous présentons à la \autoref{fig:Av_rescale_alpha_annexe} les données utilisées pour la caractérisation des avalanches à contrainte imposée dans les modèles $\alpha$-Picard pour les portées non présentées au \autoref{chapter:yielding}. Le protocole utilisé est celui présenté à la \autoref{sec:Av_PicardMain}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{Chapitre4/Figures/Avalanches/Rescale_Av_alpha5.pdf}
+	\includegraphics[width=\textwidth]{Chapitre4/Figures/Avalanches/Rescale_Av_alpha4.pdf}
+	\includegraphics[width=\textwidth]{Chapitre4/Figures/Avalanches/Rescale_Av_alpha2.pdf}
+	\caption{Distributions de tailles (a), de durées (b) et de surfaces (c) d'avalanche redimensionnées dans le modèle $\alpha$-Picard pour $\alpha \in \{5, 4, 2 \}$.}
+	\label{fig:Av_rescale_alpha_annexe}
+\end{figure}
+
+\subsection{Dépendance en protocole des avalanches à contrainte imposée dans les modèles élastoplastiques}
+
+\label{sec:article2}
+
+\includepdf[noautoscale=true, width=\paperwidth, pages=-]{PhysRevE.111.024101.pdf}
+
+\subsection{Modèle de Picard écranté}
+
+\label{sec:lambda_picard}
+
+\paragraph{Ecrantage de l'interaction d'Eshelby}
+
+\subparagraph{}De la même façon que dans le cas des suspensions, les dispositifs expérimentaux étudiés peuvent agir significativement sur la portée des interactions. Si le cas de l'interaction d'Eshelby est le plus plébiscité dans la communauté des matériaux amorphes, nous pouvons imaginer une variation de la redistribution de contrainte dans un dispositif différent. En effet, si l'on considère un écoulement quasi-2D entre deux plaques rigides, alors les frottements entre le matériau et les plaques vont induire la présence d'un nouveau terme de dissipation dans la condition d'équilibre mécanique :
+
+\begin{equation}
+	-\partial_i P^1(\mathbf{r}) + \partial_j\sigma_{ij}^1(\mathbf{r}) - \mu\lambda u^1_{i}= 0
+\end{equation}
+
+\noindent avec $\lambda$ un coefficient retranscrivant l'intensité de la dissipation et définissant une longueur d'écrantage $\xi \sim 1/\sqrt{\lambda}$. Par une résolution similaire, cette étude mène à un propagateur dans l'espace réciproque  qui prend les formes asymptotiques suivantes (voir \textbf{Annexe}) :
+
+\begin{equation}
+\begin{aligned}
+    \hat{G}_\lambda(\mathbf{q})\xrightarrow[q\gg \lambda]{}-4\frac{q_x^2q_y^2}{q^4} \quad &\Rightarrow \quad G_\lambda(\mathbf{r})\xrightarrow[r\ll \xi]{}\sim\frac{\cos 4\theta}{r^2}\\
+    \hat{G}_\lambda(\mathbf{q})\xrightarrow[q \ll \lambda]{}-4\frac{q_x^2q_y^2}{\lambda^2 q^2}-1 \quad &\Rightarrow \quad G_\lambda(\mathbf{r})\xrightarrow[r \gg \xi]{}\sim\frac{\cos 4\theta}{r^4}
+\end{aligned}
+\end{equation}
+
+\noindent Ainsi, dans l'espace réel, en dehors de la relaxation globale imposée par le terme de dissipation, la redistribution du système écranté est la même que celle dans le problème original à petite distance $r\ll \xi$, décroissant comme $\sim 1/r^2$, mais, au-delà de la longueur d'écrantage, celle-ci décroît significativement plus vite, comme $\sim 1/r^4$. Ainsi, comme dans le cas des suspensions, l'écrantage ne supprime pas le caractère de longue portée de l'interaction mais change son évolution algébrique.
+
+\subsubsection{Transformée de Fourier inverse du propagateur}
+
+\paragraph{}Dans l'espace de Fourier, le propagateur d'Eshleby écranté prend la forme :
+
+\begin{equation}
+    \mathcal{G}_\lambda(\mathbf{q}) = -4\frac{q_x^2q_y^2}{q^2(q^2+\lambda^2)}-\frac{\lambda^2}{\lambda^2+q^2}
+    \label{eq:screenedEshelby}
+\end{equation}
+
+\noindent avec $\lambda$ un paramètre définissant l'intensité de la dissipation locale. De cette forme, nous pouvons directement déduire les limites asymptotiques :
+
+\begin{equation}
+    \mathcal{G}_\lambda(\mathbf{q})\xrightarrow[\lambda\ll q]{}-4\frac{q_x^2q_y^2}{q^4}
+\end{equation}
+
+\begin{equation}
+    \mathcal{G}_\lambda(\mathbf{q})\xrightarrow[\lambda\gg q]{}-4\frac{q_x^2q_y^2}{\lambda^2 q^2}-1
+\end{equation}
+
+\noindent qui correspondent en espace réel à :
+
+\begin{equation}
+    \mathcal{G}_\lambda(\mathbf{r})\xrightarrow[\lambda\ll q]{}\sim\frac{\cos 4\theta}{r^2}
+\end{equation}
+
+\begin{equation}
+    \mathcal{G}_\lambda(\mathbf{r})\xrightarrow[\lambda\gg q]{}\sim\frac{\cos 4\theta}{r^4}
+\end{equation}
+
+\subparagraph{}Pour obtenir l'expression complète du propagateur en espace réel, nous pouvons décomposer le premier terme de l'\autoref{eq:screenedEshelby} de la manière suivante :
+
+\begin{equation}
+    \mathcal{G}_\lambda(\mathbf{q}) = -4\frac{q_x^2q_y^2}{\lambda^2 q^2} + 4\frac{q_x^2q_y^2}{\lambda^2 (\lambda^2 + q^2)}-\frac{\lambda^2}{\lambda^2+q^2}
+\end{equation}
+
+\noindent pour obtenir dans l'espace réel :
+
+\begin{equation}
+    \mathcal{G}(r,\theta) = \frac{12}{\pi\lambda^2}\frac{\cos 4\theta}{r^4}-\frac{\lambda^2}{2\pi}K_0(\lambda r)+\frac{2}{\pi\lambda^2}\partial_x^2\partial_y^2K_0(\lambda r)
+\end{equation}
+
+\noindent En calculant les dérivées associées au troisème terme de cette égalité, nous obtenons donc :
+
+\begin{equation}
+    \mathcal{G}(r,\theta) = \frac{12}{\pi\lambda^2}\frac{\cos 4\theta}{r^4} - \frac{1}{32\pi\lambda r^3}\sum_{n=0}^{4}K_n(\lambda r)\left(P_n^{(0)}(\lambda r) + P_n^{(1)}(\lambda r)\cos 4\theta\right)
+\end{equation}
+
+\noindent avec :
+
+\begin{equation}
+    \begin{aligned}
+        &P_0^{(0)}(X) = X(4+13X^2), \quad &P_0^{(1)}(X) = 3X(20+X^2)\\
+        &P_1^{(0)}(X) = 8+12X^2,\quad &P_1^{(1)}(X) = 120+36X^2\\
+        &P_2^{(0)}(X) = 4X(1-X^2),\quad &P_2^{(1)}(X) = 60X^3\\
+        &P_3^{(0)}(X) = 4X^2,\quad &P_3^{(1)}(X) = 12X^2\\
+        &P_4^{(0)}(X) = -X^3,\quad &P_4^{(1)}(X) = X^3\\
+    \end{aligned}
+\end{equation}
+
+\subsubsection{Avalanches}
+
+\subparagraph{}Le modèle de Picard écranté ne conservant pas la contrainte globale du système, il n'est pas possible de générer des avalanches selon le protocole RTP. Toutefois, l'approche quasistatique de l'AQS est tout à fait réalisable. Pour différentes tailles de systèmes $L$ et différents écrantages $\lambda$, nous mesurons les distributions de tailles d'avalanche avec le protocole AQS dans ce modèle. Les résultats sont présentés à la \autoref{fig:EvolLambdaAv}.
+
+\label{sec:screenedav}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{Chapitre4/Figures/Avalanches/EvolLambdaAv.pdf}
+	\label{fig:EvolLambdaAv}
+	\caption{Distributions de tailles d'avalanche quasistatiques dans le modèle de Picard écranté pour différentes valeurs de l'écrantage $\lambda$}
+\end{figure}
+
+\subparagraph{}Pour le plus faible écrantage ($\lambda = 10^{-3}$), nous retrouvons des distributions en loi de puissance avec $\tau \approx 1.35$ comme dans le cas du modèle de Picard ($\lambda = 0$). Par contre, à mesure que $\lambda$ augmente, ces lois de puissance sont soumises à un cut-off de plus en plus faible. De ce fait, à $\lambda=1$ la criticalité avalancheuse est perdue à toutes les tailles. Cette diminution du cut-off ne dépendant pas de la taille du système, cela suggère qu'il est uniquement contrôlé par la longueur d'écrantage $\xi \sim 1/\sqrt{\lambda}$. En d'autres termes, il n'y aurait des avalanches qu'en dessous de la longueur d'écrantage. Au-delà, le système perd sa criticalité. Etant donné qu'en dessous de $\xi$ le propagateur prend la forme de celui d'Eshleby, il est raisonnable de penser que les avalanches ont la même structure que celle dans le modèle de Picard dans la zone non-écrantée. Pour valider cette hypothèse, nous redimensionnons les distributions obtenues pour les systèmes de plus grande taille selon :
+
+\begin{equation}
+	P(S) \rightarrow \frac{P(S)}{\xi^{-\tau_\text{eff}d_{f,\text{eff}}}},\quad S\rightarrow \frac{S}{\xi^{d_{f,\text{eff}}}}
+\end{equation}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.65\textwidth]{Chapitre4/Figures/Avalanches/RescaleScreenedAv.pdf}
+	\label{fig:RescaleScreenedAv}
+	\caption{Redimensionnement des distributions de tailles d'avalanche via la longueur d'écrantage $\xi$ dans le modèle de Picard écranté. En inset, les données avant redimensionnement. La taille du système est $L=512$.}
+\end{figure}
+
+\subparagraph{}La meilleure superposition des courbes est alors représentée à la \autoref{fig:RescaleScreenedAv} pour $d_{f,\text{eff}}\approx 0.9$ et $\tau_\text{eff} \approx 1.36$. La valeur des exposants déterminée ainsi étant très porche de celles déterminées dans le cas du modèle de Picard avec un redimensionnement par $L$, cela conforte notre hypothèse. Ainsi, l'écrantage sur une longueur $\xi$ n'aurait comme effet que de supprimer la criticalité du système au-delà de cette échelle de longueur.
+
+\subparagraph{}Ainsi, même si au-delà de $\xi$ la redistribution de la contrainte décroît comme $1/r^4$, la criticalité du système observée n'est pas celle du modèle 4-Picard. Des mesures annexes suggèrent que cette perte de criticalité est due à la forme de la relaxation globale dans le cas du modèle de Picard écranté, qui est concentrée sur le site actif.
+
+\subsection{Modèle élastoplastique décorrélé}
+
+\label{sec:EPMdiscret}
+
+\paragraph{Modèle élastoplastique isotrope}
+
+\subparagraph{}Une hypothèse est donc que c'est cette structure du propagateur qui rend l'agencement de la plasticité non-triviale qui est à l'origine d'un désccord avec le modèle $\mu$-HL. Afin de conforter cette hypothèse, nous avons mis en place un nouveau modèle élastoplastique supprimant ces corrélations.
+
+\subparagraph{}Pour ce faire, nous programmons une dynamique très simplifiée, discrète dans le temps, et dont les règles à chaque pas de temps sont les suivantes :
+
+\begin{enumerate}
+	\item Tous les sites avec $\sigma_i > \sigma_c$ sont considérés comme actifs $A_i=1$.
+	\item Chaque site reçoit un kick de contrainte aléatoire et de taille typique $\delta\sigma_i$ définit comme la convolution $\sqrt{\sum_{j}G_{ij}A_j}$ avec $G_{ij}$ le propagateur définit de la même façon que dans le $\alpha$-ROM, i.e. isotrope et décroissant comme $\sim 1/r^{2\alpha}$.
+	\item La contrainte des sites actifs est relaxée vers une valeur $\sigma_0$
+	\item Chaque site reçoit un ajout de contrainte $\delta\Sigma$ permettant de conserver la contrainte globale $\Sigma$.
+\end{enumerate}
+
+\noindent Ce schéma numérique est alors à mi-chemin entre les modèles $\alpha$-ROM et $\alpha$-Picard. 
+
+\subparagraph{}Avec ce modèle, nous pouvons mesurer l'activité moyenne $\langle A \rangle $ dans l'état stationnaire pour différentes contraintes globales $\Sigma$ afin de déterminer l'exposant critique $\beta$ et son évolution avec la portée $\alpha$. Dans ce cas, des résultats préliminaires sont présentés à la \textbf{Fig XX}.
+
+\section{Théories continues pour les transitions convexes}
+
+\subsection{Intégration des équations stochastiques avec bruit multiplicatif}
+
+\label{sec:Dornic}
+
+\subsection{Théorie continue inspirée du $\alpha$-ROM}
+
+\label{sec:EqChampROM}
+
+\subsection{Approches de champ moyen en présence d'un bruit multiplicatif}
+
+\label{sec:Munoz}
+

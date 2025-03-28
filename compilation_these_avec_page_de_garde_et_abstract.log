@@ -1,0 +1,2891 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.10.26)  28 MAR 2025 17:48
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**compilation_these_avec_page_de_garde_et_abstract.tex
+(./compilation_these_avec_page_de_garde_et_abstract.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21>
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (./preambule_these.tex (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.
+sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+(/usr/share/texmf/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2022/01/26 3.70 The Babel package
+\babel@savecnt=\count194
+\U@D=\dimen139
+\l@unhyphenated=\language87
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count195
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-french/french.ldf
+Language: french 2021/07/20 v3.5m French support from the babel system
+Package babel Info: Hyphen rules for 'acadian' set to \l@french
+(babel)             (\language15). Reported on input line 91.
+Package babel Info: Hyphen rules for 'canadien' set to \l@french
+(babel)             (\language15). Reported on input line 92.
+\FB@nonchar=\count196
+Package babel Info: Making : an active character on input line 430.
+Package babel Info: Making ; an active character on input line 431.
+Package babel Info: Making ! an active character on input line 432.
+Package babel Info: Making ? an active character on input line 433.
+\FBguill@level=\count197
+\FBold@everypar=\toks18
+\FB@Mht=\dimen140
+\mc@charclass=\count198
+\mc@charfam=\count199
+\mc@charslot=\count266
+\std@mcc=\count267
+\dec@mcc=\count268
+\listindentFB=\dimen141
+\descindentFB=\dimen142
+\labelindentFB=\dimen143
+\labelwidthFB=\dimen144
+\leftmarginFB=\dimen145
+\parindentFFN=\dimen146
+\FBfnindent=\dimen147
+))
+(/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks20
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+Package bm Info: No bold for \OMX/lmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen148
+\Gin@req@width=\dimen149
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count269
+\float@exts=\toks21
+\float@box=\box50
+\@float@everytoks=\toks22
+\@floatcapt=\box51
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen150
+\ar@mcellbox=\box52
+\extrarowheight=\dimen151
+\NC@list=\toks23
+\extratabsurround=\skip49
+\backup@length=\skip50
+\ar@cellbox=\box53
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count270
+\mult@box=\box54
+\multicol@leftmargin=\dimen152
+\c@unbalance=\count271
+\c@collectmore=\count272
+\doublecol@number=\count273
+\multicoltolerance=\count274
+\multicolpretolerance=\count275
+\full@width=\dimen153
+\page@free=\dimen154
+\premulticols=\dimen155
+\postmulticols=\dimen156
+\multicolsep=\skip51
+\multicolbaselineskip=\skip52
+\partial@page=\box55
+\last@line=\box56
+\maxbalancingoverflow=\dimen157
+\mult@rightbox=\box57
+\mult@grightbox=\box58
+\mult@firstbox=\box59
+\mult@gfirstbox=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\c@minrows=\count276
+\c@columnbadness=\count277
+\c@finalcolumnbadness=\count278
+\last@try=\dimen158
+\multicolovershoot=\dimen159
+\multicolundershoot=\dimen160
+\mult@nat@firstbox=\box97
+\colbreak@box=\box98
+\mc@col@check@num=\count279
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen161
+\captionmargin@=\dimen162
+\captionwidth=\dimen163
+\caption@tempdima=\dimen164
+\caption@indent=\dimen165
+\caption@parindent=\dimen166
+\caption@hangindent=\dimen167
+Package caption Info: Standard document class detected.
+Package caption Info: french babel package is loaded.
+)
+\c@caption@flags=\count280
+\c@continuedfloat=\count281
+Package caption Info: float package is loaded.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+\c@subfigure=\count282
+\c@subtable=\count283
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count284
+\Gm@cntv=\count285
+\c@Gm@tempcnt=\count286
+\Gm@bindingoffset=\dimen168
+\Gm@wd@mp=\dimen169
+\Gm@odd@mp=\dimen170
+\Gm@even@mp=\dimen171
+\Gm@layoutwidth=\dimen172
+\Gm@layoutheight=\dimen173
+\Gm@layouthoffset=\dimen174
+\Gm@layoutvoffset=\dimen175
+\Gm@dimlist=\toks24
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip53
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks25
+\ex@=\dimen176
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+LaTeX Info: Redefining \boldsymbol on input line 28.
+\pmbraise@=\dimen177
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count287
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count288
+\leftroot@=\count289
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count290
+\DOTSCASE@=\count291
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box99
+\strutbox@=\box100
+\big@size=\dimen178
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count292
+\c@MaxMatrixCols=\count293
+\dotsspace@=\muskip16
+\c@parentequation=\count294
+\dspbrk@lvl=\count295
+\tag@help=\toks26
+\row@=\count296
+\column@=\count297
+\maxfields@=\count298
+\andhelp@=\toks27
+\eqnshift@=\dimen179
+\alignsep@=\dimen180
+\tagshift@=\dimen181
+\tagwidth@=\dimen182
+\totwidth@=\dimen183
+\lineht@=\dimen184
+\@envbody=\toks28
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks29
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks30
+\thm@bodyfont=\toks31
+\thm@headfont=\toks32
+\thm@notefont=\toks33
+\thm@headpunct=\toks34
+\thm@preskip=\skip56
+\thm@postskip=\skip57
+\thm@headsep=\skip58
+\dth@everypar=\toks35
+)
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup9
+)
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2022-02-02 v3.0.46 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen185
+\l__siunitx_angle_marker_box=\box101
+\l__siunitx_angle_unit_box=\box102
+\l__siunitx_compound_count_int=\count299
+
+(/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/01/04 v1.11 internationalization of LaTeX2e packages
+ (CN)
+
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count300
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+\l__siunitx_number_exponent_fixed_int=\count301
+\l__siunitx_number_min_decimal_int=\count302
+\l__siunitx_number_min_integer_int=\count303
+\l__siunitx_number_round_precision_int=\count304
+\l__siunitx_number_group_minimum_int=\count305
+\l__siunitx_table_tmp_box=\box103
+\l__siunitx_table_tmp_dim=\dimen186
+\l__siunitx_table_column_width_dim=\dimen187
+\l__siunitx_table_integer_box=\box104
+\l__siunitx_table_decimal_box=\box105
+\l__siunitx_table_before_box=\box106
+\l__siunitx_table_after_box=\box107
+\l__siunitx_table_before_dim=\dimen188
+\l__siunitx_table_carry_dim=\dimen189
+\l__siunitx_unit_tmp_int=\count306
+\l__siunitx_unit_position_int=\count307
+\l__siunitx_unit_total_int=\count308
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-01-21 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count309
+\l__pdf_internal_box=\box108
+))
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+))
+
+Package siunitx Info: Option "separate-uncertainty" has been deprecated in
+(siunitx)             this release.
+(siunitx)             
+(siunitx)             Use "uncertainty-mode = separate" as a replacement.
+
+
+Package siunitx Info: Option "multi-part-units = single" has been deprecated
+(siunitx)             in this release.
+(siunitx)             
+(siunitx)             Use "separate-uncertainty-units = single" as a
+(siunitx)             replacement.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks36
+\XKV@tempa@toks=\toks37
+)
+\XKV@depth=\count310
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box109
+)
+\tc@llx=\dimen190
+\tc@lly=\dimen191
+\tc@urx=\dimen192
+\tc@ury=\dimen193
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen194
+\adjbox@Height=\dimen195
+\adjbox@Depth=\dimen196
+\adjbox@Totalheight=\dimen197
+\adjbox@pwidth=\dimen198
+\adjbox@pheight=\dimen199
+\adjbox@pdepth=\dimen256
+\adjbox@ptotalheight=\dimen257
+
+(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count311
+)
+(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box110
+\sift@deathcycles=\count312
+\@vwid@loff=\dimen258
+\@vwid@roff=\dimen259
+))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen260
+\lightrulewidth=\dimen261
+\cmidrulewidth=\dimen262
+\belowrulesep=\dimen263
+\belowbottomsep=\dimen264
+\aboverulesep=\dimen265
+\abovetopsep=\dimen266
+\cmidrulesep=\dimen267
+\cmidrulekern=\dimen268
+\defaultaddspace=\dimen269
+\@cmidla=\count313
+\@cmidlb=\count314
+\@aboverulesep=\dimen270
+\@belowrulesep=\dimen271
+\@thisruleclass=\count315
+\@lastruleclass=\count316
+\@thisrulewidth=\dimen272
+)
+(/usr/share/texlive/texmf-dist/tex/latex/paralist/paralist.sty
+Package: paralist 2017/01/22 v2.7 Extended list environments
+\pltopsep=\skip59
+\plpartopsep=\skip60
+\plitemsep=\skip61
+\plparsep=\skip62
+\pl@lab=\toks38
+)
+(/usr/share/texlive/texmf-dist/tex/latex/esint/esint.sty
+Package: esint 
+\symlargesymbolsA=\mathgroup10
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip63
+\f@nch@O@elh=\skip64
+\f@nch@O@erh=\skip65
+\f@nch@O@olh=\skip66
+\f@nch@O@orh=\skip67
+\f@nch@O@elf=\skip68
+\f@nch@O@erf=\skip69
+\f@nch@O@olf=\skip70
+\f@nch@O@orf=\skip71
+)
+(/usr/share/texlive/texmf-dist/tex/latex/emptypage/emptypage.sty
+Package: emptypage 2010/05/30 v1.2 Suppress page numbers and headings on empty 
+pages
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fncychap/fncychap.sty
+Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
+\RW=\skip72
+\mylen=\skip73
+\myhi=\skip74
+\px=\skip75
+\py=\skip76
+\pyy=\skip77
+\pxx=\skip78
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip79
+\cftbeforetoctitleskip=\skip80
+\cftaftertoctitleskip=\skip81
+\cftbeforepartskip=\skip82
+\cftpartnumwidth=\skip83
+\cftpartindent=\skip84
+\cftbeforechapskip=\skip85
+\cftchapindent=\skip86
+\cftchapnumwidth=\skip87
+\cftbeforesecskip=\skip88
+\cftsecindent=\skip89
+\cftsecnumwidth=\skip90
+\cftbeforesubsecskip=\skip91
+\cftsubsecindent=\skip92
+\cftsubsecnumwidth=\skip93
+\cftbeforesubsubsecskip=\skip94
+\cftsubsubsecindent=\skip95
+\cftsubsubsecnumwidth=\skip96
+\cftbeforeparaskip=\skip97
+\cftparaindent=\skip98
+\cftparanumwidth=\skip99
+\cftbeforesubparaskip=\skip100
+\cftsubparaindent=\skip101
+\cftsubparanumwidth=\skip102
+\cftbeforeloftitleskip=\skip103
+\cftafterloftitleskip=\skip104
+\cftbeforefigskip=\skip105
+\cftfigindent=\skip106
+\cftfignumwidth=\skip107
+\c@lofdepth=\count317
+\c@lotdepth=\count318
+\cftbeforelottitleskip=\skip108
+\cftafterlottitleskip=\skip109
+\cftbeforetabskip=\skip110
+\cfttabindent=\skip111
+\cfttabnumwidth=\skip112
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/epigraph/epigraph.sty
+Package: epigraph 2020/01/02 v1.5e typesetting epigraphs
+
+(/usr/share/texlive/texmf-dist/tex/latex/nextpage/nextpage.sty
+Package: nextpage 2009/09/03 v1.1a additional page commands
+)
+\beforeepigraphskip=\skip113
+\afterepigraphskip=\skip114
+\epigraphwidth=\skip115
+\epigraphrule=\skip116
+)
+(/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen273
+\Hy@linkcounter=\count319
+\Hy@pagecounter=\count320
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
+nguages
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count321
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count322
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen274
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count323
+\Field@Width=\dimen275
+\Fld@charsize=\dimen276
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring OFF on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count324
+\c@Item=\count325
+\c@Hfootnote=\count326
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count327
+\c@bookmark@seq@number=\count328
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip117
+)
+(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
+\BKM@id=\count329
+))
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2022/01/29 v0.5u Insert pages of external PDF documents (AM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count330
+\calc@Bcount=\count331
+\calc@Adimen=\dimen277
+\calc@Bdimen=\dimen278
+\calc@Askip=\skip118
+\calc@Bskip=\skip119
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count332
+\calc@Cskip=\skip120
+)
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen279
+\ESO@tempdimb=\dimen280
+)
+\AM@pagewidth=\dimen281
+\AM@pageheight=\dimen282
+\AM@fboxrule=\dimen283
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2022/01/29 v0.5u Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count333
+\AM@pagebox=\box111
+\AM@global@opts=\toks39
+\AM@pagecnt=\count334
+\AM@toc@title=\toks40
+\c@AM@survey=\count335
+\AM@templatesizebox=\box112
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 131.
+
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box113
+\beforetitleunit=\skip121
+\aftertitleunit=\skip122
+\ttl@plus=\dimen284
+\ttl@minus=\dimen285
+\ttl@toksa=\toks41
+\titlewidth=\dimen286
+\titlewidthlast=\dimen287
+\titlewidthfirst=\dimen288
+))
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 9.
+
+
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+(./compilation_these_avec_page_de_garde_et_abstract.aux
+
+LaTeX Warning: Label `fig:YieldingCDP' multiply defined.
+
+
+LaTeX Warning: Label `eq:muHLDiff' multiply defined.
+
+)
+\openout1 = `compilation_these_avec_page_de_garde_et_abstract.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Info: Redefining \degres on input line 9.
+Package french.ldf Info: Setting StandardItemizeEnv=true for
+(french.ldf)             compatibility with paralist package,
+(french.ldf)             reported on input line 9.
+Package french.ldf Info: Setting StandardEnumerateEnv=true for
+(french.ldf)             compatibility with paralist package,
+(french.ldf)             reported on input line 9.
+LaTeX Info: Redefining \up on input line 9.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count336
+\scratchdimen=\dimen289
+\scratchbox=\box114
+\nofMPsegments=\count337
+\nofMParguments=\count338
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count339
+\MPscratchDim=\dimen290
+\MPnumerator=\count340
+\makeMPintoPDFobject=\count341
+\everyMPtoPDFconversion=\toks43
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=674.33032pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-23.85716pt
+* \headheight=17.07164pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=88.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
+nary-french.trsl
+File: translations-basic-dictionary-french.trsl (french translation file `trans
+lations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `french'. on input line 9.
+Package hyperref Info: Link coloring ON on input line 9.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count342
+)
+LaTeX Info: Redefining \ref on input line 9.
+LaTeX Info: Redefining \pageref on input line 9.
+LaTeX Info: Redefining \nameref on input line 9.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+(./Intro-Conclusion/page_de_garde.tex
+<couverture_these.pdf, id=4, 597.23125pt x 845.1575pt>
+File: couverture_these.pdf Graphic file (type pdf)
+<use couverture_these.pdf>
+Package pdftex.def Info: couverture_these.pdf  used on input line 3.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: couverture_these.pdf Graphic file (type pdf)
+<use couverture_these.pdf>
+Package pdftex.def Info: couverture_these.pdf  used on input line 3.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+<couverture_these.pdf, id=7, page=1, 597.23125pt x 845.1575pt>
+File: couverture_these.pdf Graphic file (type pdf)
+<use couverture_these.pdf, page 1>
+Package pdftex.def Info: couverture_these.pdf , page1 used on input line 3.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: couverture_these.pdf Graphic file (type pdf)
+<use couverture_these.pdf, page 1>
+Package pdftex.def Info: couverture_these.pdf , page1 used on input line 3.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: couverture_these.pdf Graphic file (type pdf)
+<use couverture_these.pdf, page 1>
+Package pdftex.def Info: couverture_these.pdf , page1 used on input line 3.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: couverture_these.pdf Graphic file (type pdf)
+<use couverture_these.pdf, page 1>
+Package pdftex.def Info: couverture_these.pdf , page1 used on input line 3.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+ [1
+
+
+ <./couverture_these.pdf>])
+(./compilation_these_avec_page_de_garde_et_abstract.toc
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+2.
+
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+2.
+
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+12.
+
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+12.
+
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 12.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 12.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 12.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 12
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Trying to load font information for U+esint on input line 1
+2.
+
+(/usr/share/texlive/texmf-dist/tex/latex/esint/uesint.fd
+File: uesint.fd 
+) [2{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [3])
+\tf@toc=\write3
+\openout3 = `compilation_these_avec_page_de_garde_et_abstract.toc'.
+
+ [4] (./Intro-Conclusion/introduction.tex
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 12.
+[1
+
+
+] [2]) (./Chapitre1/chapitre1.tex [3] [4
+
+]
+Chapitre 1.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
+.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+) [5]
+<Chapitre1/Figures/Chapo/suspensions.pdf, id=330, 565.11125pt x 206.7725pt>
+File: Chapitre1/Figures/Chapo/suspensions.pdf Graphic file (type pdf)
+<use Chapitre1/Figures/Chapo/suspensions.pdf>
+Package pdftex.def Info: Chapitre1/Figures/Chapo/suspensions.pdf  used on input
+ line 19.
+(pdftex.def)             Requested size: 455.24411pt x 166.57613pt.
+ [6 <./Chapitre1/Figures/Chapo/suspensions.pdf>]
+<Chapitre1/Figures/Chapo/yielding.pdf, id=454, 562.1pt x 191.71625pt>
+File: Chapitre1/Figures/Chapo/yielding.pdf Graphic file (type pdf)
+<use Chapitre1/Figures/Chapo/yielding.pdf>
+Package pdftex.def Info: Chapitre1/Figures/Chapo/yielding.pdf  used on input li
+ne 34.
+(pdftex.def)             Requested size: 455.24411pt x 155.27174pt.
+ [7 <./Chapitre1/Figures/Chapo/yielding.pdf>]
+<Chapitre1/Figures/Chapo/Resume.pdf, id=489, 549.01456pt x 439.88489pt>
+File: Chapitre1/Figures/Chapo/Resume.pdf Graphic file (type pdf)
+<use Chapitre1/Figures/Chapo/Resume.pdf>
+Package pdftex.def Info: Chapitre1/Figures/Chapo/Resume.pdf  used on input line
+ 51.
+(pdftex.def)             Requested size: 455.24411pt x 364.76204pt.
+
+[8 <./Chapitre1/Figures/Chapo/Resume.pdf>]
+Underfull \vbox (badness 1755) has occurred while \output is active []
+
+ [9]
+<Chapitre1/Figures/PhenomenesCritiques/PT_conceptCorrLength_fuse.pdf, id=697, 3
+58.3911pt x 194.25531pt>
+File: Chapitre1/Figures/PhenomenesCritiques/PT_conceptCorrLength_fuse.pdf Graph
+ic file (type pdf)
+<use Chapitre1/Figures/PhenomenesCritiques/PT_conceptCorrLength_fuse.pdf>
+Package pdftex.def Info: Chapitre1/Figures/PhenomenesCritiques/PT_conceptCorrLe
+ngth_fuse.pdf  used on input line 76.
+(pdftex.def)             Requested size: 455.24411pt x 246.76076pt.
+
+[10 <./Chapitre1/Figures/PhenomenesCritiques/PT_conceptCorrLength_fuse.pdf>]
+<Chapitre1/Figures/PhenomenesCritiques/decoupageXI.pdf, id=714, 448.35686pt x 3
+17.22711pt>
+File: Chapitre1/Figures/PhenomenesCritiques/decoupageXI.pdf Graphic file (type 
+pdf)
+<use Chapitre1/Figures/PhenomenesCritiques/decoupageXI.pdf>
+Package pdftex.def Info: Chapitre1/Figures/PhenomenesCritiques/decoupageXI.pdf 
+ used on input line 104.
+(pdftex.def)             Requested size: 136.57462pt x 96.63069pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[11] [12 <./Chapitre1/Figures/PhenomenesCritiques/decoupageXI.pdf>]
+Overfull \hbox (4.11638pt too wide) in paragraph at lines 167--168
+\T1/lmr/m/n/12 si bien que ce re-di-men-sion-ne-ment re-vient à ob-te-nir une é
+qua-tion équi-va-lente à l'[][]équation 1.6[][][]
+ []
+
+[13] [14]
+<Chapitre1/Figures/TphiAbs/Kirbies.pdf, id=768, 538.31245pt x 298.73396pt>
+File: Chapitre1/Figures/TphiAbs/Kirbies.pdf Graphic file (type pdf)
+<use Chapitre1/Figures/TphiAbs/Kirbies.pdf>
+Package pdftex.def Info: Chapitre1/Figures/TphiAbs/Kirbies.pdf  used on input l
+ine 197.
+(pdftex.def)             Requested size: 455.24411pt x 252.64874pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15]
+<Chapitre1/Figures/TphiAbs/expabs.pdf, id=779, 429.605pt x 198.7425pt>
+File: Chapitre1/Figures/TphiAbs/expabs.pdf Graphic file (type pdf)
+<use Chapitre1/Figures/TphiAbs/expabs.pdf>
+Package pdftex.def Info: Chapitre1/Figures/TphiAbs/expabs.pdf  used on input li
+ne 212.
+(pdftex.def)             Requested size: 455.24411pt x 210.60841pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[16 <./Chapitre1/Figures/TphiAbs/Kirbies.pdf>] [17 <./Chapitre1/Figures/TphiAbs
+/expabs.pdf>]
+<Chapitre1/Figures/CDP/Percol.pdf, id=811, 447.6725pt x 142.5325pt>
+File: Chapitre1/Figures/CDP/Percol.pdf Graphic file (type pdf)
+<use Chapitre1/Figures/CDP/Percol.pdf>
+Package pdftex.def Info: Chapitre1/Figures/CDP/Percol.pdf  used on input line 2
+53.
+(pdftex.def)             Requested size: 455.24411pt x 144.94623pt.
+
+
+LaTeX Warning: Command \o invalid in math mode on input line 263.
+
+[18 <./Chapitre1/Figures/CDP/Percol.pdf>] [19]
+<Chapitre1/Figures/CDP/Manna.pdf, id=852, 223.83624pt x 71.26625pt>
+File: Chapitre1/Figures/CDP/Manna.pdf Graphic file (type pdf)
+<use Chapitre1/Figures/CDP/Manna.pdf>
+Package pdftex.def Info: Chapitre1/Figures/CDP/Manna.pdf  used on input line 31
+1.
+(pdftex.def)             Requested size: 273.14923pt x 86.97511pt.
+ [20 <./Chapitre1/Figures/CDP/Manna.pdf>]
+<Chapitre1/Figures/CDP/ROM.pdf, id=867, 338.26375pt x 110.4125pt>
+File: Chapitre1/Figures/CDP/ROM.pdf Graphic file (type pdf)
+<use Chapitre1/Figures/CDP/ROM.pdf>
+Package pdftex.def Info: Chapitre1/Figures/CDP/ROM.pdf  used on input line 326.
+
+(pdftex.def)             Requested size: 386.96027pt x 126.31126pt.
+ [21 <./Chapitre1/Figures/CDP/ROM.pdf>] [22]
+<Chapitre1/Figures/Depinning/depinningbase.pdf, id=906, 592.98994pt x 353.4447p
+t>
+File: Chapitre1/Figures/Depinning/depinningbase.pdf Graphic file (type pdf)
+<use Chapitre1/Figures/Depinning/depinningbase.pdf>
+Package pdftex.def Info: Chapitre1/Figures/Depinning/depinningbase.pdf  used on
+ input line 375.
+(pdftex.def)             Requested size: 455.24411pt x 271.34967pt.
+ [23 <./Chapitre1/Figures/Depinning/depinningbase.pdf>] [24] [25] [26] [27]
+<Chapitre1/Figures/CDP/hyperuniformite.pdf, id=1019, 564.1075pt x 259.97125pt>
+File: Chapitre1/Figures/CDP/hyperuniformite.pdf Graphic file (type pdf)
+<use Chapitre1/Figures/CDP/hyperuniformite.pdf>
+Package pdftex.def Info: Chapitre1/Figures/CDP/hyperuniformite.pdf  used on inp
+ut line 505.
+(pdftex.def)             Requested size: 455.24411pt x 209.80202pt.
+ [28 <./Chapitre1/Figures/CDP/hyperuniformite.pdf>]
+Overfull \hbox (29.49188pt too wide) in paragraph at lines 524--524
+|[]\T1/lmr/bx/n/17.28 Comprendre les tran-si-tions de ré-ver-si-bi-lité et d'éc
+ou-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (17.07164pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.04488pt}.
+
+[29]
+<Chapitre1/Figures/InterpretationCDP/SuspensionsAPT.pdf, id=1043, 460.72125pt x
+ 257.96375pt>
+File: Chapitre1/Figures/InterpretationCDP/SuspensionsAPT.pdf Graphic file (type
+ pdf)
+<use Chapitre1/Figures/InterpretationCDP/SuspensionsAPT.pdf>
+Package pdftex.def Info: Chapitre1/Figures/InterpretationCDP/SuspensionsAPT.pdf
+  used on input line 539.
+(pdftex.def)             Requested size: 455.24411pt x 254.89679pt.
+ [30 <./Chapitre1/Figures/InterpretationCDP/SuspensionsAPT.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (17.07164pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.04488pt}.
+
+[31] [32]
+<Chapitre1/Figures/InterpretationCDP/YieldingAPT.pdf, id=1408, 459.7175pt x 261
+.97874pt>
+File: Chapitre1/Figures/InterpretationCDP/YieldingAPT.pdf Graphic file (type pd
+f)
+<use Chapitre1/Figures/InterpretationCDP/YieldingAPT.pdf>
+Package pdftex.def Info: Chapitre1/Figures/InterpretationCDP/YieldingAPT.pdf  u
+sed on input line 602.
+(pdftex.def)             Requested size: 455.24411pt x 259.4437pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package fancyhdr Warning: \headheight is too small (17.07164pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.04488pt}.
+
+[33] [34 <./Chapitre1/Figures/InterpretationCDP/YieldingAPT.pdf>]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 633.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 633.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 633.
+
+
+Package fancyhdr Warning: \headheight is too small (17.07164pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.04488pt}.
+
+[35]
+<Chapitre1/Figures/InterpretationCDP/EshelbyExp.pdf, id=1447, 565.11125pt x 185
+.69376pt>
+File: Chapitre1/Figures/InterpretationCDP/EshelbyExp.pdf Graphic file (type pdf
+)
+<use Chapitre1/Figures/InterpretationCDP/EshelbyExp.pdf>
+Package pdftex.def Info: Chapitre1/Figures/InterpretationCDP/EshelbyExp.pdf  us
+ed on input line 647.
+(pdftex.def)             Requested size: 455.24411pt x 149.59508pt.
+ [36 <./Chapitre1/Figures/InterpretationCDP/EshelbyExp.pdf>] [37]
+<Chapitre1/Figures/LongRange/ExpShear.pdf, id=1494, 337.26pt x 112.42pt>
+File: Chapitre1/Figures/LongRange/ExpShear.pdf Graphic file (type pdf)
+<use Chapitre1/Figures/LongRange/ExpShear.pdf>
+Package pdftex.def Info: Chapitre1/Figures/LongRange/ExpShear.pdf  used on inpu
+t line 691.
+(pdftex.def)             Requested size: 455.24411pt x 151.75186pt.
+ [38 <./Chapitre1/Figures/LongRange/ExpShear.pdf>] [39]
+<Chapitre1/Figures/Pb/bruit.pdf, id=1572, 518.93875pt x 147.55125pt>
+File: Chapitre1/Figures/Pb/bruit.pdf Graphic file (type pdf)
+<use Chapitre1/Figures/Pb/bruit.pdf>
+Package pdftex.def Info: Chapitre1/Figures/Pb/bruit.pdf  used on input line 729
+.
+(pdftex.def)             Requested size: 455.24411pt x 129.44698pt.
+ [40 <./Chapitre1/Figures/Pb/bruit.pdf>]
+Overfull \hbox (33.52069pt too wide) in paragraph at lines 744--745
+[] [][] \T1/lmr/m/n/12 Fi-na-le-ment, dans ces deux tran-si-tions pré-sen-tant 
+un com-por-te-ment cri-tique non-conventionnel,
+ []
+
+[41] [42]) (./Chapitre2/chapitre2.tex [43] [44]
+Chapitre 2.
+[45
+
+]
+<Chapitre1/Figures/LongRange/beta_base.pdf, id=1681, 416.55624pt x 246.9225pt>
+File: Chapitre1/Figures/LongRange/beta_base.pdf Graphic file (type pdf)
+<use Chapitre1/Figures/LongRange/beta_base.pdf>
+Package pdftex.def Info: Chapitre1/Figures/LongRange/beta_base.pdf  used on inp
+ut line 31.
+(pdftex.def)             Requested size: 318.66948pt x 188.90637pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[46]
+Overfull \hbox (23.42903pt too wide) detected at line 52
+[][][][]
+ []
+
+[47 <./Chapitre1/Figures/LongRange/beta_base.pdf>] [48] [49]
+<Chapitre2/Figures/eta_kay.pdf, id=1730, 650.43pt x 289.08pt>
+File: Chapitre2/Figures/eta_kay.pdf Graphic file (type pdf)
+<use Chapitre2/Figures/eta_kay.pdf>
+Package pdftex.def Info: Chapitre2/Figures/eta_kay.pdf  used on input line 112.
+
+(pdftex.def)             Requested size: 409.71692pt x 182.0993pt.
+ [50 <./Chapitre2/Figures/eta_kay.pdf>] [51] [52]
+<Chapitre2/Figures/Modeles/MannaJumps.pdf, id=1784, 648.00645pt x 256.24895pt>
+File: Chapitre2/Figures/Modeles/MannaJumps.pdf Graphic file (type pdf)
+<use Chapitre2/Figures/Modeles/MannaJumps.pdf>
+Package pdftex.def Info: Chapitre2/Figures/Modeles/MannaJumps.pdf  used on inpu
+t line 174.
+(pdftex.def)             Requested size: 455.24411pt x 180.0221pt.
+ [53 <./Chapitre2/Figures/Modeles/MannaJumps.pdf>] [54] [55]
+<Chapitre2/Figures/Methodes/Phic.pdf, id=1836, 524.47163pt x 140.1937pt>
+File: Chapitre2/Figures/Methodes/Phic.pdf Graphic file (type pdf)
+<use Chapitre2/Figures/Methodes/Phic.pdf>
+Package pdftex.def Info: Chapitre2/Figures/Methodes/Phic.pdf  used on input lin
+e 259.
+(pdftex.def)             Requested size: 455.24411pt x 121.68729pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[56]
+<Chapitre2/Figures/Phi_cindep.pdf, id=1849, 433.62pt x 289.08pt>
+File: Chapitre2/Figures/Phi_cindep.pdf Graphic file (type pdf)
+<use Chapitre2/Figures/Phi_cindep.pdf>
+Package pdftex.def Info: Chapitre2/Figures/Phi_cindep.pdf  used on input line 2
+70.
+(pdftex.def)             Requested size: 273.14923pt x 182.10812pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[57 <./Chapitre2/Figures/Methodes/Phic.pdf>] [58 <./Chapitre2/Figures/Phi_cinde
+p.pdf>]
+<Chapitre2/Figures/Methodes/Delta.pdf, id=1899, 547.89667pt x 171.09679pt>
+File: Chapitre2/Figures/Methodes/Delta.pdf Graphic file (type pdf)
+<use Chapitre2/Figures/Methodes/Delta.pdf>
+Package pdftex.def Info: Chapitre2/Figures/Methodes/Delta.pdf  used on input li
+ne 302.
+(pdftex.def)             Requested size: 455.24411pt x 142.16693pt.
+ [59 <./Chapitre2/Figures/Methodes/Delta.pdf>] [60] [61] [62]
+<Chapitre2/Figures/Exposants/Deter_phic_gamma375_LRROM.pdf, id=1975, 433.62pt x
+ 289.08pt>
+File: Chapitre2/Figures/Exposants/Deter_phic_gamma375_LRROM.pdf Graphic file (t
+ype pdf)
+<use Chapitre2/Figures/Exposants/Deter_phic_gamma375_LRROM.pdf>
+Package pdftex.def Info: Chapitre2/Figures/Exposants/Deter_phic_gamma375_LRROM.
+pdf  used on input line 402.
+(pdftex.def)             Requested size: 318.66948pt x 212.4558pt.
+ [63 <./Chapitre2/Figures/Exposants/Deter_phic_gamma375_LRROM.pdf>]
+<Chapitre2/Figures/Exposants/DeltaDeter.pdf, id=2014, 469.755pt x 343.2825pt>
+File: Chapitre2/Figures/Exposants/DeltaDeter.pdf Graphic file (type pdf)
+<use Chapitre2/Figures/Exposants/DeltaDeter.pdf>
+Package pdftex.def Info: Chapitre2/Figures/Exposants/DeltaDeter.pdf  used on in
+put line 433.
+(pdftex.def)             Requested size: 318.66948pt x 232.87376pt.
+<Chapitre2/Figures/Exposants/exp_suspensions_jumps.pdf, id=2015, 361.35pt x 397
+.485pt>
+File: Chapitre2/Figures/Exposants/exp_suspensions_jumps.pdf Graphic file (type 
+pdf)
+<use Chapitre2/Figures/Exposants/exp_suspensions_jumps.pdf>
+Package pdftex.def Info: Chapitre2/Figures/Exposants/exp_suspensions_jumps.pdf 
+ used on input line 441.
+(pdftex.def)             Requested size: 273.14923pt x 300.46628pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[64 <./Chapitre2/Figures/Exposants/DeltaDeter.pdf>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[65 <./Chapitre2/Figures/Exposants/exp_suspensions_jumps.pdf>]
+<Chapitre2/Figures/Hyperuniformity/FigHULRROM.pdf, id=2062, 433.62pt x 289.08pt
+>
+File: Chapitre2/Figures/Hyperuniformity/FigHULRROM.pdf Graphic file (type pdf)
+<use Chapitre2/Figures/Hyperuniformity/FigHULRROM.pdf>
+Package pdftex.def Info: Chapitre2/Figures/Hyperuniformity/FigHULRROM.pdf  used
+ on input line 478.
+(pdftex.def)             Requested size: 295.90588pt x 197.28197pt.
+ [66 <./Chapitre2/Figures/Hyperuniformity/FigHULRROM.pdf>]
+<Chapitre2/Figures/Hyperuniformity/eta_alpha_jumps.pdf, id=2086, 578.16pt x 216
+.81pt>
+File: Chapitre2/Figures/Hyperuniformity/eta_alpha_jumps.pdf Graphic file (type 
+pdf)
+<use Chapitre2/Figures/Hyperuniformity/eta_alpha_jumps.pdf>
+Package pdftex.def Info: Chapitre2/Figures/Hyperuniformity/eta_alpha_jumps.pdf 
+ used on input line 494.
+(pdftex.def)             Requested size: 409.71692pt x 153.64174pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[67]
+<Chapitre2/Figures/Hyperuniformity/ImportanceCMHU.pdf, id=2108, 794.97pt x 252.
+945pt>
+File: Chapitre2/Figures/Hyperuniformity/ImportanceCMHU.pdf Graphic file (type p
+df)
+<use Chapitre2/Figures/Hyperuniformity/ImportanceCMHU.pdf>
+Package pdftex.def Info: Chapitre2/Figures/Hyperuniformity/ImportanceCMHU.pdf  
+used on input line 509.
+(pdftex.def)             Requested size: 455.24411pt x 144.85558pt.
+ [68 <./Chapitre2/Figures/Hyperuniformity/eta_alpha_jumps.pdf> <./Chapitre2/Fig
+ures/Hyperuniformity/ImportanceCMHU.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapitre2/Figures/Hyperuniformity/Imp
+ortanceCMHU.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
+>]
+<Chapitre2/Figures/Hyperuniformity/GammaEff_ROM.pdf, id=2139, 678.74673pt x 209
+.96954pt>
+File: Chapitre2/Figures/Hyperuniformity/GammaEff_ROM.pdf Graphic file (type pdf
+)
+<use Chapitre2/Figures/Hyperuniformity/GammaEff_ROM.pdf>
+Package pdftex.def Info: Chapitre2/Figures/Hyperuniformity/GammaEff_ROM.pdf  us
+ed on input line 539.
+(pdftex.def)             Requested size: 455.24411pt x 140.83264pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[69] [70 <./Chapitre2/Figures/Hyperuniformity/GammaEff_ROM.pdf>]
+<Chapitre2/Figures/Hyperuniformity/MannaCM_gamma4_results.pdf, id=2178, 476.982
+01pt x 260.17201pt>
+File: Chapitre2/Figures/Hyperuniformity/MannaCM_gamma4_results.pdf Graphic file
+ (type pdf)
+<use Chapitre2/Figures/Hyperuniformity/MannaCM_gamma4_results.pdf>
+Package pdftex.def Info: Chapitre2/Figures/Hyperuniformity/MannaCM_gamma4_resul
+ts.pdf  used on input line 561.
+(pdftex.def)             Requested size: 409.71692pt x 223.4855pt.
+ [71 <./Chapitre2/Figures/Hyperuniformity/MannaCM_gamma4_results.pdf>]
+<Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma4.pdf, id=2208, 794.9
+7pt x 289.08pt>
+File: Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma4.pdf Graphic fi
+le (type pdf)
+<use Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma4.pdf>
+Package pdftex.def Info: Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Ga
+mma4.pdf  used on input line 589.
+(pdftex.def)             Requested size: 455.24411pt x 165.54922pt.
+ [72]
+<Chapitre2/Figures/Hyperuniformity/eta_alpha_jumpsManna.pdf, id=2219, 539.19362
+pt x 170.27286pt>
+File: Chapitre2/Figures/Hyperuniformity/eta_alpha_jumpsManna.pdf Graphic file (
+type pdf)
+<use Chapitre2/Figures/Hyperuniformity/eta_alpha_jumpsManna.pdf>
+Package pdftex.def Info: Chapitre2/Figures/Hyperuniformity/eta_alpha_jumpsManna
+.pdf  used on input line 598.
+(pdftex.def)             Requested size: 455.24411pt x 143.76349pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[73 <./Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma4.pdf>]
+[74 <./Chapitre2/Figures/Hyperuniformity/eta_alpha_jumpsManna.pdf>])
+(./Chapitre3/chapitre3.tex [75] [76
+
+]
+Chapitre 3.
+[77] [78] [79]
+<Chapitre3/Figures/Method/equivROMSusp.pdf, id=2340, 483.16046pt x 277.29715pt>
+
+File: Chapitre3/Figures/Method/equivROMSusp.pdf Graphic file (type pdf)
+<use Chapitre3/Figures/Method/equivROMSusp.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Method/equivROMSusp.pdf  used on inp
+ut line 61.
+(pdftex.def)             Requested size: 386.96027pt x 222.08342pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Chapitre3/Figures/Method/phivsgamma.pdf, id=2345, 463.43831pt x 180.46887pt>
+File: Chapitre3/Figures/Method/phivsgamma.pdf Graphic file (type pdf)
+<use Chapitre3/Figures/Method/phivsgamma.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Method/phivsgamma.pdf  used on input
+ line 70.
+(pdftex.def)             Requested size: 409.71692pt x 159.55936pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[80] [81 <./Chapitre3/Figures/Method/equivROMSusp.pdf>] [82 <./Chapitre3/Figure
+s/Method/phivsgamma.pdf>] [83]
+<Chapitre3/Figures/Method/Model.pdf, id=2895, 851.38756pt x 213.11548pt>
+File: Chapitre3/Figures/Method/Model.pdf Graphic file (type pdf)
+<use Chapitre3/Figures/Method/Model.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Method/Model.pdf  used on input line
+ 145.
+(pdftex.def)             Requested size: 409.71692pt x 102.55766pt.
+ [84 <./Chapitre3/Figures/Method/Model.pdf>]
+[85]
+<Chapitre3/Figures/Method/PropagTBLRR2D.pdf, id=2945, 899.76398pt x 242.08398pt
+>
+File: Chapitre3/Figures/Method/PropagTBLRR2D.pdf Graphic file (type pdf)
+<use Chapitre3/Figures/Method/PropagTBLRR2D.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Method/PropagTBLRR2D.pdf  used on in
+put line 195.
+(pdftex.def)             Requested size: 455.24411pt x 122.48601pt.
+ [86 <./Chapitre3/Figures/Method/PropagTBLRR2D.pdf>]
+<Chapitre3/Figures/BetaGamma/EvolMeanDeter.pdf, id=3001, 776.15753pt x 289.08pt
+>
+File: Chapitre3/Figures/BetaGamma/EvolMeanDeter.pdf Graphic file (type pdf)
+<use Chapitre3/Figures/BetaGamma/EvolMeanDeter.pdf>
+Package pdftex.def Info: Chapitre3/Figures/BetaGamma/EvolMeanDeter.pdf  used on
+ input line 233.
+(pdftex.def)             Requested size: 455.24411pt x 169.55882pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[87]
+<Chapitre3/Figures/BetaGamma/EvolMeanVar_edited.pdf, id=3019, 607.46088pt x 246
+.30849pt>
+File: Chapitre3/Figures/BetaGamma/EvolMeanVar_edited.pdf Graphic file (type pdf
+)
+<use Chapitre3/Figures/BetaGamma/EvolMeanVar_edited.pdf>
+Package pdftex.def Info: Chapitre3/Figures/BetaGamma/EvolMeanVar_edited.pdf  us
+ed on input line 252.
+(pdftex.def)             Requested size: 409.71692pt x 166.13454pt.
+ [88 <./Chapitre3/Figures/BetaGamma/EvolMeanDeter.pdf>]
+Overfull \hbox (13.02672pt too wide) in paragraph at lines 262--275
+[][] 
+ []
+
+
+Overfull \hbox (13.02672pt too wide) in paragraph at lines 279--289
+[][] 
+ []
+
+<Chapitre3/Figures/BetaGamma/exp_suspensions.pdf, id=3096, 361.35pt x 361.35pt>
+
+File: Chapitre3/Figures/BetaGamma/exp_suspensions.pdf Graphic file (type pdf)
+<use Chapitre3/Figures/BetaGamma/exp_suspensions.pdf>
+Package pdftex.def Info: Chapitre3/Figures/BetaGamma/exp_suspensions.pdf  used 
+on input line 296.
+(pdftex.def)             Requested size: 218.51521pt x 218.51543pt.
+<Chapitre3/Figures/BetaGamma/exp_suspensions3D.pdf, id=3097, 361.35pt x 361.35p
+t>
+File: Chapitre3/Figures/BetaGamma/exp_suspensions3D.pdf Graphic file (type pdf)
+
+<use Chapitre3/Figures/BetaGamma/exp_suspensions3D.pdf>
+Package pdftex.def Info: Chapitre3/Figures/BetaGamma/exp_suspensions3D.pdf  use
+d on input line 297.
+(pdftex.def)             Requested size: 218.51521pt x 218.51543pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 1178) has occurred while \output is active []
+
+ [89 <./Chapitre3/Figures/BetaGamma/EvolMeanVar_edited.pdf>] [90 <./Chapitre3/F
+igures/BetaGamma/exp_suspensions.pdf> <./Chapitre3/Figures/BetaGamma/exp_suspen
+sions3D.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapitre3/Figures/BetaGamma/exp_suspe
+nsions3D.pdf): PDF inclusion: multiple pdfs with page group included in a singl
+e page
+>] [91]
+<Chapitre3/Figures/Delta/DeltaDetermination.pdf, id=3170, 469.755pt x 343.2825p
+t>
+File: Chapitre3/Figures/Delta/DeltaDetermination.pdf Graphic file (type pdf)
+<use Chapitre3/Figures/Delta/DeltaDetermination.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Delta/DeltaDetermination.pdf  used o
+n input line 344.
+(pdftex.def)             Requested size: 273.14923pt x 199.60683pt.
+ [92 <./Chapitre3/Figures/Delta/DeltaDetermination.pdf>]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
+65.
+
+(/usr/share/texmf/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [93]
+<Chapitre3/Figures/BetaGamma/EvolMeanVar3D_edited.pdf, id=3204, 606.06111pt x 2
+46.30849pt>
+File: Chapitre3/Figures/BetaGamma/EvolMeanVar3D_edited.pdf Graphic file (type p
+df)
+<use Chapitre3/Figures/BetaGamma/EvolMeanVar3D_edited.pdf>
+Package pdftex.def Info: Chapitre3/Figures/BetaGamma/EvolMeanVar3D_edited.pdf  
+used on input line 375.
+(pdftex.def)             Requested size: 409.71692pt x 166.51788pt.
+ [94 <./Chapitre3/Figures/BetaGamma/EvolMeanVar3D_edited.pdf>] [95]
+<Chapitre3/Figures/HU/HUTBLRR.pdf, id=3266, 679.73247pt x 246.1242pt>
+File: Chapitre3/Figures/HU/HUTBLRR.pdf Graphic file (type pdf)
+<use Chapitre3/Figures/HU/HUTBLRR.pdf>
+Package pdftex.def Info: Chapitre3/Figures/HU/HUTBLRR.pdf  used on input line 4
+08.
+(pdftex.def)             Requested size: 455.24411pt x 164.8385pt.
+ [96 <./Chapitre3/Figures/HU/HUTBLRR.pdf>]
+Overfull \hbox (4.27869pt too wide) in paragraph at lines 421--422
+[] [][] \T1/lmr/m/n/12 Fi-na-le-ment, cette ana-lyse qua-li-ta-tive des pro-pri
+é-tés d'hy-per-uni-for-mité du $\OML/lmm/m/it/12 $\T1/lmr/m/n/12 -ROM semble
+ []
+
+[97] [98] [99]
+<Chapitre3/Figures/Interpretation/LHLModel.pdf, id=3365, 499.79987pt x 484.9362
+pt>
+File: Chapitre3/Figures/Interpretation/LHLModel.pdf Graphic file (type pdf)
+<use Chapitre3/Figures/Interpretation/LHLModel.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Interpretation/LHLModel.pdf  used on
+ input line 472.
+(pdftex.def)             Requested size: 227.62206pt x 220.8535pt.
+ [100 <./Chapitre3/Figures/Interpretation/LHLModel.pdf>] [101]
+[102] [103]
+Overfull \hbox (14.68565pt too wide) in paragraph at lines 617--618
+\T1/lmr/m/n/12 avec $\OML/lmm/m/it/12 ^^V < \OT1/lmr/m/n/12 2$[][][][][]\T1/lmr
+/m/n/12 . Dans notre mo-dé-li-sa-tion pro-ba-bi-liste, cela re-vient donc à mo-
+di-fier l'[][]équation 5.4[][][]
+ []
+
+
+Overfull \hbox (1.84003pt too wide) in paragraph at lines 637--638
+[] [][] \T1/lmr/m/n/12 Nous nom-mons le mo-dèle gé-né-ra-lisé re-pré-senté par 
+l'[][]équation 3.35[][][], le mo-dèle $\OML/lmm/m/it/12 ^^V$\T1/lmr/m/n/12 -Héb
+raud-
+ []
+
+[104] [105]
+<Chapitre3/Figures/Interpretation/beta_alpha_LevyHL2D.pdf, id=3464, 433.62pt x 
+252.945pt>
+File: Chapitre3/Figures/Interpretation/beta_alpha_LevyHL2D.pdf Graphic file (ty
+pe pdf)
+<use Chapitre3/Figures/Interpretation/beta_alpha_LevyHL2D.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Interpretation/beta_alpha_LevyHL2D.p
+df  used on input line 698.
+(pdftex.def)             Requested size: 273.14923pt x 159.3446pt.
+ [106 <./Chapitre3/Figures/Interpretation/beta_alpha_LevyHL2D.pdf>]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 710.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 710.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\alpha' on input line 710.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 710.
+
+[107]
+<Chapitre3/Figures/Interpretation/D_dependence.pdf, id=3491, 361.35pt x 216.81p
+t>
+File: Chapitre3/Figures/Interpretation/D_dependence.pdf Graphic file (type pdf)
+
+<use Chapitre3/Figures/Interpretation/D_dependence.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Interpretation/D_dependence.pdf  use
+d on input line 734.
+(pdftex.def)             Requested size: 227.62206pt x 136.57448pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[108]
+<Chapitre3/Figures/Interpretation/beta_alphaMF.pdf, id=3500, 578.16pt x 252.945
+pt>
+File: Chapitre3/Figures/Interpretation/beta_alphaMF.pdf Graphic file (type pdf)
+
+<use Chapitre3/Figures/Interpretation/beta_alphaMF.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Interpretation/beta_alphaMF.pdf  use
+d on input line 757.
+(pdftex.def)             Requested size: 364.19667pt x 159.33302pt.
+ [109 <./Chapitre3/Figures/Interpretation/D_dependence.pdf>] [110 <./Chapitre3/
+Figures/Interpretation/beta_alphaMF.pdf>]
+<Chapitre3/Figures/Interpretation/PCorr_alphaMF.pdf, id=3532, 722.7pt x 289.08p
+t>
+File: Chapitre3/Figures/Interpretation/PCorr_alphaMF.pdf Graphic file (type pdf
+)
+<use Chapitre3/Figures/Interpretation/PCorr_alphaMF.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorr_alphaMF.pdf  us
+ed on input line 782.
+(pdftex.def)             Requested size: 455.24411pt x 182.0993pt.
+ [111 <./Chapitre3/Figures/Interpretation/PCorr_alphaMF.pdf>]
+<Chapitre3/Figures/Interpretation/beta_theta_alphaMF.pdf, id=3552, 361.35pt x 2
+89.08pt>
+File: Chapitre3/Figures/Interpretation/beta_theta_alphaMF.pdf Graphic file (typ
+e pdf)
+<use Chapitre3/Figures/Interpretation/beta_theta_alphaMF.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Interpretation/beta_theta_alphaMF.pd
+f  used on input line 805.
+(pdftex.def)             Requested size: 227.62206pt x 182.0993pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[112]
+<Chapitre3/Figures/Interpretation/Beta_Mu1.pdf, id=3560, 722.7pt x 216.81pt>
+File: Chapitre3/Figures/Interpretation/Beta_Mu1.pdf Graphic file (type pdf)
+<use Chapitre3/Figures/Interpretation/Beta_Mu1.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Interpretation/Beta_Mu1.pdf  used on
+ input line 821.
+(pdftex.def)             Requested size: 455.24411pt x 136.57448pt.
+
+Underfull \vbox (badness 1215) has occurred while \output is active []
+
+ [113 <./Chapitre3/Figures/Interpretation/beta_theta_alphaMF.pdf> <./Chapitre3/
+Figures/Interpretation/Beta_Mu1.pdf>]
+<Chapitre3/Figures/Interpretation/PCorr_alpha.pdf, id=3587, 722.7pt x 289.08pt>
+
+File: Chapitre3/Figures/Interpretation/PCorr_alpha.pdf Graphic file (type pdf)
+<use Chapitre3/Figures/Interpretation/PCorr_alpha.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorr_alpha.pdf  used
+ on input line 836.
+(pdftex.def)             Requested size: 455.24411pt x 182.0993pt.
+ [114 <./Chapitre3/Figures/Interpretation/PCorr_alpha.pdf>]
+<Chapitre3/Figures/Interpretation/Beta_Theta.pdf, id=3603, 361.35pt x 216.81pt>
+
+File: Chapitre3/Figures/Interpretation/Beta_Theta.pdf Graphic file (type pdf)
+<use Chapitre3/Figures/Interpretation/Beta_Theta.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Interpretation/Beta_Theta.pdf  used 
+on input line 845.
+(pdftex.def)             Requested size: 273.14923pt x 163.89069pt.
+ [115 <./Chapitre3/Figures/Interpretation/Beta_Theta.pdf>] [116]
+<Chapitre3/Figures/Interpretation/RangeInterpretation.pdf, id=3627, 390.65378pt
+ x 201.50925pt>
+File: Chapitre3/Figures/Interpretation/RangeInterpretation.pdf Graphic file (ty
+pe pdf)
+<use Chapitre3/Figures/Interpretation/RangeInterpretation.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Interpretation/RangeInterpretation.p
+df  used on input line 878.
+(pdftex.def)             Requested size: 318.66948pt x 164.38692pt.
+ [117 <./Chapitre3/Figures/Interpretation/RangeInterpretation.pdf>] [118]
+<Chapitre3/Figures/Avalanches/Av_alpha15_edited.pdf, id=3662, 823.41464pt x 243
+.82181pt>
+File: Chapitre3/Figures/Avalanches/Av_alpha15_edited.pdf Graphic file (type pdf
+)
+<use Chapitre3/Figures/Avalanches/Av_alpha15_edited.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Avalanches/Av_alpha15_edited.pdf  us
+ed on input line 922.
+(pdftex.def)             Requested size: 455.24411pt x 134.80183pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[119]
+<Chapitre3/Figures/Avalanches/Rescale_Av_alpha15.pdf, id=3677, 867.24pt x 289.0
+8pt>
+File: Chapitre3/Figures/Avalanches/Rescale_Av_alpha15.pdf Graphic file (type pd
+f)
+<use Chapitre3/Figures/Avalanches/Rescale_Av_alpha15.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Avalanches/Rescale_Av_alpha15.pdf  u
+sed on input line 937.
+(pdftex.def)             Requested size: 455.24411pt x 151.74721pt.
+ [120 <./Chapitre3/Figures/Avalanches/Av_alpha15_edited.pdf> <./Chapitre3/Figur
+es/Avalanches/Rescale_Av_alpha15.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapitre3/Figures/Avalanches/Rescale_
+Av_alpha15.pdf): PDF inclusion: multiple pdfs with page group included in a sin
+gle page
+>]
+<Chapitre3/Figures/Avalanches/Recap_AvSuspensions.pdf, id=3710, 752.95108pt x 1
+70.1607pt>
+File: Chapitre3/Figures/Avalanches/Recap_AvSuspensions.pdf Graphic file (type p
+df)
+<use Chapitre3/Figures/Avalanches/Recap_AvSuspensions.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Avalanches/Recap_AvSuspensions.pdf  
+used on input line 970.
+(pdftex.def)             Requested size: 455.24411pt x 102.88132pt.
+ [121]) (./Chapitre4/chapitre4.tex [122 <./Chapitre3/Figures/Avalanches/Recap_A
+vSuspensions.pdf>] [123] [124
+
+]
+Chapitre 4.
+[125] [126]
+
+LaTeX Warning: Reference `sec:YieldingAsAnAPT' on page 127 undefined on input l
+ine 46.
+
+
+LaTeX Warning: Reference `sec:introduction' on page 127 undefined on input line
+ 54.
+
+[127]
+
+LaTeX Warning: Reference `sec:introduction' on page 128 undefined on input line
+ 81.
+
+[128]
+<Chapitre4/Figures/Methode/Mesoscaling.pdf, id=3794, 558.71632pt x 173.10411pt>
+
+File: Chapitre4/Figures/Methode/Mesoscaling.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/Methode/Mesoscaling.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Methode/Mesoscaling.pdf  used on inp
+ut line 87.
+(pdftex.def)             Requested size: 364.19667pt x 112.84122pt.
+ [129 <./Chapitre4/Figures/Methode/Mesoscaling.pdf>]
+<Chapitre4/Figures/Methode/PicardTau.pdf, id=3853, 215.41089pt x 112.81644pt>
+File: Chapitre4/Figures/Methode/PicardTau.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/Methode/PicardTau.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Methode/PicardTau.pdf  used on input
+ line 106.
+(pdftex.def)             Requested size: 227.62206pt x 119.213pt.
+
+
+LaTeX Warning: Reference `sec:introduction' on page 130 undefined on input line
+ 124.
+
+[130 <./Chapitre4/Figures/Methode/PicardTau.pdf>] [131]
+<Chapitre4/Figures/Methode/ModeleResults.pdf, id=3883, 982.87122pt x 260.17122p
+t>
+File: Chapitre4/Figures/Methode/ModeleResults.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/Methode/ModeleResults.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Methode/ModeleResults.pdf  used on i
+nput line 172.
+(pdftex.def)             Requested size: 455.24411pt x 120.50594pt.
+
+Underfull \vbox (badness 1496) has occurred while \output is active []
+
+ [132 <./Chapitre4/Figures/Methode/ModeleResults.pdf>] [133]
+<Chapitre4/Figures/CasPhysique/CP_Classic.pdf, id=3956, 389.69025pt x 210.08566
+pt>
+File: Chapitre4/Figures/CasPhysique/CP_Classic.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/CasPhysique/CP_Classic.pdf>
+Package pdftex.def Info: Chapitre4/Figures/CasPhysique/CP_Classic.pdf  used on 
+input line 215.
+(pdftex.def)             Requested size: 295.90588pt x 159.52571pt.
+ [134 <./Chapitre4/Figures/CasPhysique/CP_Classic.pdf>]
+<Chapitre4/Figures/CasPhysique/ApprocheFSS.pdf, id=4080, 285.69379pt x 169.3363
+3pt>
+File: Chapitre4/Figures/CasPhysique/ApprocheFSS.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/CasPhysique/ApprocheFSS.pdf>
+Package pdftex.def Info: Chapitre4/Figures/CasPhysique/ApprocheFSS.pdf  used on
+ input line 242.
+(pdftex.def)             Requested size: 273.14923pt x 161.90213pt.
+
+
+LaTeX Warning: Reference `sec:introduction' on page 135 undefined on input line
+ 247.
+
+[135] [136 <./Chapitre4/Figures/CasPhysique/ApprocheFSS.pdf>]
+<Chapitre4/Figures/CasPhysique/FSS_Classic_edited.pdf, id=4111, 838.33122pt x 2
+96.30621pt>
+File: Chapitre4/Figures/CasPhysique/FSS_Classic_edited.pdf Graphic file (type p
+df)
+<use Chapitre4/Figures/CasPhysique/FSS_Classic_edited.pdf>
+Package pdftex.def Info: Chapitre4/Figures/CasPhysique/FSS_Classic_edited.pdf  
+used on input line 296.
+(pdftex.def)             Requested size: 455.24411pt x 160.90721pt.
+ [137 <./Chapitre4/Figures/CasPhysique/FSS_Classic_edited.pdf>]
+
+LaTeX Warning: Reference `sec:introduction' on page 138 undefined on input line
+ 319.
+
+[138]
+<Chapitre4/Figures/CourtePortee/Prog_CP.pdf, id=4277, 806.88794pt x 225.99486pt
+>
+File: Chapitre4/Figures/CourtePortee/Prog_CP.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/CourtePortee/Prog_CP.pdf>
+Package pdftex.def Info: Chapitre4/Figures/CourtePortee/Prog_CP.pdf  used on in
+put line 348.
+(pdftex.def)             Requested size: 455.24411pt x 127.50455pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[139]
+<Chapitre4/Figures/CourtePortee/FSS_SRP_edited.pdf, id=4287, 824.28656pt x 494.
+30763pt>
+File: Chapitre4/Figures/CourtePortee/FSS_SRP_edited.pdf Graphic file (type pdf)
+
+<use Chapitre4/Figures/CourtePortee/FSS_SRP_edited.pdf>
+Package pdftex.def Info: Chapitre4/Figures/CourtePortee/FSS_SRP_edited.pdf  use
+d on input line 357.
+(pdftex.def)             Requested size: 455.24411pt x 273.0014pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[140 <./Chapitre4/Figures/CourtePortee/Prog_CP.pdf>]
+<Chapitre4/Figures/CourtePortee/ZMCP.pdf, id=4368, 653.91365pt x 227.80542pt>
+File: Chapitre4/Figures/CourtePortee/ZMCP.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/CourtePortee/ZMCP.pdf>
+Package pdftex.def Info: Chapitre4/Figures/CourtePortee/ZMCP.pdf  used on input
+ line 376.
+(pdftex.def)             Requested size: 364.19667pt x 126.87495pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[141 <./Chapitre4/Figures/CourtePortee/FSS_SRP_edited.pdf>]
+<Chapitre4/Figures/CourtePortee/StrainLoc.pdf, id=4540, 606.52727pt x 289.08pt>
+
+File: Chapitre4/Figures/CourtePortee/StrainLoc.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/CourtePortee/StrainLoc.pdf>
+Package pdftex.def Info: Chapitre4/Figures/CourtePortee/StrainLoc.pdf  used on 
+input line 385.
+(pdftex.def)             Requested size: 364.19667pt x 173.58607pt.
+ [142 <./Chapitre4/Figures/CourtePortee/ZMCP.pdf> <./Chapitre4/Figures/CourtePo
+rtee/StrainLoc.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapitre4/Figures/CourtePortee/Strain
+Loc.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
+e
+>]
+<Chapitre4/Figures/CourtePortee/FSS_SRNC_edited.pdf, id=4587, 838.33122pt x 513
+.11621pt>
+File: Chapitre4/Figures/CourtePortee/FSS_SRNC_edited.pdf Graphic file (type pdf
+)
+<use Chapitre4/Figures/CourtePortee/FSS_SRNC_edited.pdf>
+Package pdftex.def Info: Chapitre4/Figures/CourtePortee/FSS_SRNC_edited.pdf  us
+ed on input line 419.
+(pdftex.def)             Requested size: 455.24411pt x 278.64453pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[143]
+<Chapitre4/Figures/CourtePortee/MapsofActSR.pdf, id=4600, 436.50801pt x 173.919
+3pt>
+File: Chapitre4/Figures/CourtePortee/MapsofActSR.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/CourtePortee/MapsofActSR.pdf>
+Package pdftex.def Info: Chapitre4/Figures/CourtePortee/MapsofActSR.pdf  used o
+n input line 430.
+(pdftex.def)             Requested size: 295.90588pt x 117.89996pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `sec:introduction' on page 144 undefined on input line
+ 437.
+
+[144 <./Chapitre4/Figures/CourtePortee/FSS_SRNC_edited.pdf>] [145 <./Chapitre4/
+Figures/CourtePortee/MapsofActSR.pdf>] [146]
+Overfull \hbox (31.00835pt too wide) detected at line 531
+[][]\OML/lmm/m/it/12 G\OT1/lmr/m/n/12 (\OML/lmm/m/it/12 r; ^^R\OT1/lmr/m/n/12 )
+ = \OML/lmm/m/it/12 B[][];  B[] \OT1/lmr/m/n/12 = \OML/lmm/m/it/12 b[][];  C[] 
+\OT1/lmr/m/n/12 = []
+ []
+
+<Chapitre4/Figures/LonguePortee/ResolutionOscillationsPropagateur.pdf, id=4767,
+ 693.79121pt x 260.17122pt>
+File: Chapitre4/Figures/LonguePortee/ResolutionOscillationsPropagateur.pdf Grap
+hic file (type pdf)
+<use Chapitre4/Figures/LonguePortee/ResolutionOscillationsPropagateur.pdf>
+Package pdftex.def Info: Chapitre4/Figures/LonguePortee/ResolutionOscillationsP
+ropagateur.pdf  used on input line 541.
+(pdftex.def)             Requested size: 386.96027pt x 145.11131pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[147]
+<Chapitre4/Figures/LonguePortee/AlphaPicard.pdf, id=4787, 535.19087pt x 241.638
+32pt>
+File: Chapitre4/Figures/LonguePortee/AlphaPicard.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/LonguePortee/AlphaPicard.pdf>
+Package pdftex.def Info: Chapitre4/Figures/LonguePortee/AlphaPicard.pdf  used o
+n input line 564.
+(pdftex.def)             Requested size: 455.24411pt x 205.54102pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[148 <./Chapitre4/Figures/LonguePortee/ResolutionOscillationsPropagateur.pdf>]
+[149 <./Chapitre4/Figures/LonguePortee/AlphaPicard.pdf>] [150] [151]
+<Chapitre4/Figures/LonguePortee/axe_alpha.pdf, id=4974, 443.03194pt x 158.2438p
+t>
+File: Chapitre4/Figures/LonguePortee/axe_alpha.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/LonguePortee/axe_alpha.pdf>
+Package pdftex.def Info: Chapitre4/Figures/LonguePortee/axe_alpha.pdf  used on 
+input line 686.
+(pdftex.def)             Requested size: 318.66948pt x 113.8292pt.
+ [152 <./Chapitre4/Figures/LonguePortee/axe_alpha.pdf>]
+
+LaTeX Warning: Reference `sec:introduction' on page 153 undefined on input line
+ 697.
+
+[153] [154]
+
+LaTeX Warning: Reference `sec:introduction' on page 155 undefined on input line
+ 767.
+
+[155]
+<Chapitre4/Figures/Correlations/Sfact_SRPNC.pdf, id=5079, 794.97pt x 289.08pt>
+File: Chapitre4/Figures/Correlations/Sfact_SRPNC.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/Correlations/Sfact_SRPNC.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Correlations/Sfact_SRPNC.pdf  used o
+n input line 822.
+(pdftex.def)             Requested size: 455.24411pt x 165.54922pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Chapitre4/Figures/Correlations/Sfact_Disp_SRPNC.pdf, id=5080, 794.97pt x 289.0
+8pt>
+File: Chapitre4/Figures/Correlations/Sfact_Disp_SRPNC.pdf Graphic file (type pd
+f)
+<use Chapitre4/Figures/Correlations/Sfact_Disp_SRPNC.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Correlations/Sfact_Disp_SRPNC.pdf  u
+sed on input line 830.
+(pdftex.def)             Requested size: 455.24411pt x 165.54922pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[156]
+Underfull \vbox (badness 1117) has occurred while \output is active []
+
+ [157 <./Chapitre4/Figures/Correlations/Sfact_SRPNC.pdf> <./Chapitre4/Figures/C
+orrelations/Sfact_Disp_SRPNC.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapitre4/Figures/Correlations/Sfact_
+Disp_SRPNC.pdf): PDF inclusion: multiple pdfs with page group included in a sin
+gle page
+>]
+<Chapitre4/Figures/Correlations/Sfact_SRP.pdf, id=5139, 794.97pt x 289.08pt>
+File: Chapitre4/Figures/Correlations/Sfact_SRP.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/Correlations/Sfact_SRP.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Correlations/Sfact_SRP.pdf  used on 
+input line 849.
+(pdftex.def)             Requested size: 455.24411pt x 165.54922pt.
+ [158 <./Chapitre4/Figures/Correlations/Sfact_SRP.pdf>]
+<Chapitre4/Figures/Correlations/Evol_Sfact.pdf, id=5174, 678.26054pt x 248.9966
+1pt>
+File: Chapitre4/Figures/Correlations/Evol_Sfact.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/Correlations/Evol_Sfact.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Correlations/Evol_Sfact.pdf  used on
+ input line 862.
+(pdftex.def)             Requested size: 455.24411pt x 167.127pt.
+
+Overfull \hbox (4.50117pt too wide) in paragraph at lines 884--885
+[] [][] \T1/lmr/m/n/12 Nous re-mar-quons alors une évo-lu-tion a priori conti-n
+ue de l'hy-per-uni-for-mité de contrainte,
+ []
+
+[159 <./Chapitre4/Figures/Correlations/Evol_Sfact.pdf>] [160]
+<Chapitre4/Figures/Avalanches/Pheno.pdf, id=5247, 422.10432pt x 122.383pt>
+File: Chapitre4/Figures/Avalanches/Pheno.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/Avalanches/Pheno.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Avalanches/Pheno.pdf  used on input 
+line 927.
+(pdftex.def)             Requested size: 455.24411pt x 131.99425pt.
+ [161 <./Chapitre4/Figures/Avalanches/Pheno.pdf>]
+<Chapitre4/Figures/Avalanches/AQS.pdf, id=5273, 501.50291pt x 245.67554pt>
+File: Chapitre4/Figures/Avalanches/AQS.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/Avalanches/AQS.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Avalanches/AQS.pdf  used on input li
+ne 938.
+(pdftex.def)             Requested size: 273.14923pt x 133.8099pt.
+
+Overfull \hbox (12.11163pt too wide) in paragraph at lines 955--956
+[] [][] \T1/lmr/m/n/12 D'un point de vue ana-ly-tique, comme nous l'avons men-t
+ionné à la [][]sous-sous-section 4.1.3.1[][][],
+ []
+
+[162 <./Chapitre4/Figures/Avalanches/AQS.pdf>] [163] [164]
+<Chapitre4/Figures/Avalanches/PbContrainte.pdf, id=5330, 439.08876pt x 129.6582
+2pt>
+File: Chapitre4/Figures/Avalanches/PbContrainte.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/Avalanches/PbContrainte.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Avalanches/PbContrainte.pdf  used on
+ input line 993.
+(pdftex.def)             Requested size: 455.24411pt x 134.43576pt.
+ [165 <./Chapitre4/Figures/Avalanches/PbContrainte.pdf>] [166]
+<Chapitre4/Figures/Avalanches/Comparaison_Distrib.pdf, id=5368, 471.53117pt x 1
+46.2401pt>
+File: Chapitre4/Figures/Avalanches/Comparaison_Distrib.pdf Graphic file (type p
+df)
+<use Chapitre4/Figures/Avalanches/Comparaison_Distrib.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Avalanches/Comparaison_Distrib.pdf  
+used on input line 1030.
+(pdftex.def)             Requested size: 455.24411pt x 141.19667pt.
+ [167 <./Chapitre4/Figures/Avalanches/Comparaison_Distrib.pdf>]
+<Chapitre4/Figures/Avalanches/Collapse.pdf, id=5545, 965.2382pt x 332.83076pt>
+File: Chapitre4/Figures/Avalanches/Collapse.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/Avalanches/Collapse.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Avalanches/Collapse.pdf  used on inp
+ut line 1045.
+(pdftex.def)             Requested size: 455.24411pt x 156.97388pt.
+ [168 <./Chapitre4/Figures/Avalanches/Collapse.pdf>]
+[169]
+<Chapitre4/Figures/Avalanches/Rescale_Av_alpha3.pdf, id=5587, 867.24pt x 289.08
+pt>
+File: Chapitre4/Figures/Avalanches/Rescale_Av_alpha3.pdf Graphic file (type pdf
+)
+<use Chapitre4/Figures/Avalanches/Rescale_Av_alpha3.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Avalanches/Rescale_Av_alpha3.pdf  us
+ed on input line 1087.
+(pdftex.def)             Requested size: 455.24411pt x 151.74721pt.
+
+
+LaTeX Warning: Reference `sec:Susp' on page 170 undefined on input line 1110.
+
+[170 <./Chapitre4/Figures/Avalanches/Rescale_Av_alpha3.pdf>]
+
+LaTeX Warning: Reference `sec:introduction' on page 171 undefined on input line
+ 1116.
+
+[171]) (./Chapitre5/chapitre5.tex [172]
+Chapitre 5.
+[173
+
+] [174]
+Overfull \hbox (37.24333pt too wide) in paragraph at lines 54--68
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[175]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [176]
+[177] [178] [179] [180] [181] [182]
+<Chapitre5/Figures/DiscreteEPM.pdf, id=5716, 743.04622pt x 242.46301pt>
+File: Chapitre5/Figures/DiscreteEPM.pdf Graphic file (type pdf)
+<use Chapitre5/Figures/DiscreteEPM.pdf>
+Package pdftex.def Info: Chapitre5/Figures/DiscreteEPM.pdf  used on input line 
+208.
+(pdftex.def)             Requested size: 455.24411pt x 148.54965pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Chapitre5/Figures/FigRecap.pdf, id=5720, 609.05417pt x 826.51375pt>
+File: Chapitre5/Figures/FigRecap.pdf Graphic file (type pdf)
+<use Chapitre5/Figures/FigRecap.pdf>
+Package pdftex.def Info: Chapitre5/Figures/FigRecap.pdf  used on input line 217
+.
+(pdftex.def)             Requested size: 409.71692pt x 556.01881pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [183]
+Overfull \vbox (175.03816pt too high) has occurred while \output is active []
+
+
+[184 <./Chapitre5/Figures/DiscreteEPM.pdf> <./Chapitre5/Figures/FigRecap.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapitre5/Figures/FigRecap.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+>]
+Overfull \hbox (0.10722pt too wide) in paragraph at lines 233--233
+|[]\T1/lmr/bx/n/17.28 Équations de champ pour les tran-si-tions convexes| 
+ []
+
+[185] [186] [187]
+<Chapitre5/Figures/YieldingD.pdf, id=5864, 794.97pt x 289.08pt>
+File: Chapitre5/Figures/YieldingD.pdf Graphic file (type pdf)
+<use Chapitre5/Figures/YieldingD.pdf>
+Package pdftex.def Info: Chapitre5/Figures/YieldingD.pdf  used on input line 30
+5.
+(pdftex.def)             Requested size: 455.24411pt x 165.54922pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[188]
+<Chapitre5/Figures/SuspensionsB.pdf, id=5880, 794.97pt x 289.08pt>
+File: Chapitre5/Figures/SuspensionsB.pdf Graphic file (type pdf)
+<use Chapitre5/Figures/SuspensionsB.pdf>
+Package pdftex.def Info: Chapitre5/Figures/SuspensionsB.pdf  used on input line
+ 329.
+(pdftex.def)             Requested size: 455.24411pt x 165.54922pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[189 <./Chapitre5/Figures/YieldingD.pdf>] [190 <./Chapitre5/Figures/Suspensions
+B.pdf>]
+<Chapitre5/Figures/MFCDP32.pdf, id=5934, 794.97pt x 289.08pt>
+File: Chapitre5/Figures/MFCDP32.pdf Graphic file (type pdf)
+<use Chapitre5/Figures/MFCDP32.pdf>
+Package pdftex.def Info: Chapitre5/Figures/MFCDP32.pdf  used on input line 354.
+
+(pdftex.def)             Requested size: 455.24411pt x 165.54922pt.
+ [191 <./Chapitre5/Figures/MFCDP32.pdf>])
+(./Intro-Conclusion/conclusion.tex [192])
+(./compilation_these_avec_page_de_garde_et_abstract.bbl [193
+
+] [194
+
+] [195]
+Underfull \hbox (badness 10000) in paragraph at lines 95--101
+[]\T1/lmr/m/n/12 D. J. Bi-shop, ``Study of the su-per-fluid tran-si-tion in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--101
+\T1/lmr/m/n/12 two-dimensional <span class="aps-inline-formula"><math
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--101
+\T1/lmr/m/n/12 xmlns="http ://www.w3.org/1998/Math/MathML" dis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--101
+\T1/lmr/m/n/12 play="inline"><mrow><mmultiscripts><mrow><mi ma-th-va-
+ []
+
+
+Overfull \hbox (650.80183pt too wide) in paragraph at lines 95--101
+\T1/lmr/m/n/12 riant="normal">He</mi></mrow><mprescripts></mprescripts><mrow></
+mrow><mrow><mn>4</mn></mrow><mrow></mrow><mrow></mrow></mmultiscripts></mrow></
+math></span>
+ []
+
+[196]
+Underfull \hbox (badness 1199) in paragraph at lines 163--166
+[]\T1/lmr/m/n/12 R. Pastor-Satorras and A. Ves-pi-gnani, ``Reaction-diffusion s
+ys-tem with self-
+ []
+
+[197] [198] [199]
+Underfull \hbox (badness 1540) in paragraph at lines 411--419
+[]\T1/lmr/m/n/12 T. B. dos San-tos, C. I. N. Sam-paio Filho, N. A. M. Araújo, C
+. L. N.
+ []
+
+[200]
+Underfull \hbox (badness 10000) in paragraph at lines 566--569
+[]\T1/lmr/m/n/12 W. H. Her-schel and R. Bulk-ley, ``Kon-sis-tenz-mes-sun-gen vo
+n Gummi-
+ []
+
+[201] [202] [203] [204]) (./Intro-Conclusion/annexe.tex [205] [206
+
+] [207]
+<Chapitre1/Figures/Depinning/expdepinning.pdf, id=6056, 561.09625pt x 185.69376
+pt>
+File: Chapitre1/Figures/Depinning/expdepinning.pdf Graphic file (type pdf)
+<use Chapitre1/Figures/Depinning/expdepinning.pdf>
+Package pdftex.def Info: Chapitre1/Figures/Depinning/expdepinning.pdf  used on 
+input line 48.
+(pdftex.def)             Requested size: 455.24411pt x 150.66046pt.
+
+[208 <./Chapitre1/Figures/Depinning/expdepinning.pdf>]
+Overfull \hbox (5.41759pt too wide) in paragraph at lines 106--107
+\T1/lmr/m/n/12 En pas-sant dans l'es-pace de Fou-rier, avec les conven-tions ex
+-po-sées dans la [][]sous-section 6.1.1[][][],
+ []
+
+[209] [210] [211] [212]
+<Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma375.pdf, id=6123, 794
+.97pt x 289.08pt>
+File: Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma375.pdf Graphic 
+file (type pdf)
+<use Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma375.pdf>
+Package pdftex.def Info: Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Ga
+mma375.pdf  used on input line 215.
+(pdftex.def)             Requested size: 455.24411pt x 165.54922pt.
+<Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma35.pdf, id=6126, 794.
+97pt x 289.08pt>
+File: Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma35.pdf Graphic f
+ile (type pdf)
+<use Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma35.pdf>
+Package pdftex.def Info: Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Ga
+mma35.pdf  used on input line 222.
+(pdftex.def)             Requested size: 455.24411pt x 165.54922pt.
+ [213 <./Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma375.pdf>]
+<Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma325.pdf, id=6149, 794
+.97pt x 289.08pt>
+File: Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma325.pdf Graphic 
+file (type pdf)
+<use Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma325.pdf>
+Package pdftex.def Info: Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Ga
+mma325.pdf  used on input line 229.
+(pdftex.def)             Requested size: 455.24411pt x 165.54922pt.
+<Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma3.pdf, id=6152, 794.9
+7pt x 289.08pt>
+File: Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma3.pdf Graphic fi
+le (type pdf)
+<use Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma3.pdf>
+Package pdftex.def Info: Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Ga
+mma3.pdf  used on input line 236.
+(pdftex.def)             Requested size: 455.24411pt x 165.54922pt.
+
+Underfull \vbox (badness 2846) has occurred while \output is active []
+
+ [214 <./Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma35.pdf> <./Ch
+apitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma325.pdf> <./Chapitre2/Fi
+gures/Hyperuniformity/RescaleHU_MannaCM_Gamma3.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 253.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mu' on input line 253.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 253.
+
+[215]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 286.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\alpha' on input line 286.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 286.
+
+<Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha3.pdf, id=6211
+, 361.35pt x 289.08pt>
+File: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha3.pdf Gra
+phic file (type pdf)
+<use Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha3.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescale
+d_MF_alpha3.pdf  used on input line 298.
+(pdftex.def)             Requested size: 204.85846pt x 163.88628pt.
+<Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha25.pdf, id=621
+2, 361.35pt x 289.08pt>
+File: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha25.pdf Gr
+aphic file (type pdf)
+<use Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha25.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescale
+d_MF_alpha25.pdf  used on input line 299.
+(pdftex.def)             Requested size: 204.85846pt x 163.88628pt.
+<Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha225.pdf, id=62
+13, 361.35pt x 289.08pt>
+File: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha225.pdf G
+raphic file (type pdf)
+<use Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha225.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescale
+d_MF_alpha225.pdf  used on input line 300.
+(pdftex.def)             Requested size: 204.85846pt x 163.88628pt.
+<Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha2.pdf, id=6214
+, 361.35pt x 289.08pt>
+File: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha2.pdf Gra
+phic file (type pdf)
+<use Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha2.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescale
+d_MF_alpha2.pdf  used on input line 301.
+(pdftex.def)             Requested size: 204.85846pt x 163.88628pt.
+<Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha15.pdf, id=621
+5, 361.35pt x 289.08pt>
+File: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha15.pdf Gr
+aphic file (type pdf)
+<use Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha15.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescale
+d_MF_alpha15.pdf  used on input line 302.
+(pdftex.def)             Requested size: 204.85846pt x 163.88628pt.
+<Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha125.pdf, id=62
+16, 361.35pt x 289.08pt>
+File: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha125.pdf G
+raphic file (type pdf)
+<use Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha125.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescale
+d_MF_alpha125.pdf  used on input line 303.
+(pdftex.def)             Requested size: 204.85846pt x 163.88628pt.
+<Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha1.pdf, id=6217
+, 361.35pt x 289.08pt>
+File: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha1.pdf Gra
+phic file (type pdf)
+<use Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha1.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescale
+d_MF_alpha1.pdf  used on input line 304.
+(pdftex.def)             Requested size: 204.85846pt x 163.88628pt.
+<Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha05.pdf, id=621
+8, 361.35pt x 289.08pt>
+File: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha05.pdf Gr
+aphic file (type pdf)
+<use Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha05.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescale
+d_MF_alpha05.pdf  used on input line 305.
+(pdftex.def)             Requested size: 204.85846pt x 163.88628pt.
+
+LaTeX Warning: Float too large for page by 7.81477pt on input line 308.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha3_mean.pdf, id=6219
+, 361.35pt x 289.08pt>
+File: Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha3_mean.pdf Gra
+phic file (type pdf)
+<use Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha3_mean.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_
+alpha3_mean.pdf  used on input line 314.
+(pdftex.def)             Requested size: 204.85846pt x 163.88628pt.
+<Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha2_mean.pdf, id=6220
+, 361.35pt x 289.08pt>
+File: Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha2_mean.pdf Gra
+phic file (type pdf)
+<use Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha2_mean.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_
+alpha2_mean.pdf  used on input line 315.
+(pdftex.def)             Requested size: 204.85846pt x 163.88628pt.
+<Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha175_mean.pdf, id=62
+21, 361.35pt x 289.08pt>
+File: Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha175_mean.pdf G
+raphic file (type pdf)
+<use Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha175_mean.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_
+alpha175_mean.pdf  used on input line 316.
+(pdftex.def)             Requested size: 204.85846pt x 163.88628pt.
+<Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha15_mean.pdf, id=622
+2, 361.35pt x 289.08pt>
+File: Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha15_mean.pdf Gr
+aphic file (type pdf)
+<use Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha15_mean.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_
+alpha15_mean.pdf  used on input line 317.
+(pdftex.def)             Requested size: 204.85846pt x 163.88628pt.
+<Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha125_mean.pdf, id=62
+23, 361.35pt x 289.08pt>
+File: Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha125_mean.pdf G
+raphic file (type pdf)
+<use Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha125_mean.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_
+alpha125_mean.pdf  used on input line 318.
+(pdftex.def)             Requested size: 204.85846pt x 163.88628pt.
+<Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha1_mean.pdf, id=6224
+, 361.35pt x 289.08pt>
+File: Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha1_mean.pdf Gra
+phic file (type pdf)
+<use Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha1_mean.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_
+alpha1_mean.pdf  used on input line 319.
+(pdftex.def)             Requested size: 204.85846pt x 163.88628pt.
+<Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha05_mean.pdf, id=622
+5, 361.35pt x 289.08pt>
+File: Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha05_mean.pdf Gr
+aphic file (type pdf)
+<use Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha05_mean.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_
+alpha05_mean.pdf  used on input line 320.
+(pdftex.def)             Requested size: 204.85846pt x 163.88628pt.
+
+LaTeX Warning: Float too large for page by 7.81477pt on input line 323.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 325.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\alpha' on input line 325.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 325.
+
+<Chapitre3/Figures/Avalanches/Rescale_Av_alpha3.pdf, id=6226, 867.24pt x 289.08
+pt>
+File: Chapitre3/Figures/Avalanches/Rescale_Av_alpha3.pdf Graphic file (type pdf
+)
+<use Chapitre3/Figures/Avalanches/Rescale_Av_alpha3.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Avalanches/Rescale_Av_alpha3.pdf  us
+ed on input line 331.
+(pdftex.def)             Requested size: 455.24411pt x 151.74721pt.
+<Chapitre3/Figures/Avalanches/Rescale_Av_alpha2.pdf, id=6227, 867.24pt x 289.08
+pt>
+File: Chapitre3/Figures/Avalanches/Rescale_Av_alpha2.pdf Graphic file (type pdf
+)
+<use Chapitre3/Figures/Avalanches/Rescale_Av_alpha2.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Avalanches/Rescale_Av_alpha2.pdf  us
+ed on input line 332.
+(pdftex.def)             Requested size: 455.24411pt x 151.74721pt.
+<Chapitre3/Figures/Avalanches/Rescale_Av_alpha175.pdf, id=6228, 867.24pt x 289.
+08pt>
+File: Chapitre3/Figures/Avalanches/Rescale_Av_alpha175.pdf Graphic file (type p
+df)
+<use Chapitre3/Figures/Avalanches/Rescale_Av_alpha175.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Avalanches/Rescale_Av_alpha175.pdf  
+used on input line 333.
+(pdftex.def)             Requested size: 455.24411pt x 151.74721pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Chapitre3/Figures/Avalanches/Rescale_Av_alpha15.pdf Graphic file (type pd
+f)
+<use Chapitre3/Figures/Avalanches/Rescale_Av_alpha15.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Avalanches/Rescale_Av_alpha15.pdf  u
+sed on input line 340.
+(pdftex.def)             Requested size: 455.24411pt x 151.74721pt.
+<Chapitre3/Figures/Avalanches/Rescale_Av_alpha125.pdf, id=6229, 867.24pt x 289.
+08pt>
+File: Chapitre3/Figures/Avalanches/Rescale_Av_alpha125.pdf Graphic file (type p
+df)
+<use Chapitre3/Figures/Avalanches/Rescale_Av_alpha125.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Avalanches/Rescale_Av_alpha125.pdf  
+used on input line 341.
+(pdftex.def)             Requested size: 455.24411pt x 151.74721pt.
+<Chapitre3/Figures/Avalanches/Rescale_Av_alpha05.pdf, id=6230, 867.24pt x 289.0
+8pt>
+File: Chapitre3/Figures/Avalanches/Rescale_Av_alpha05.pdf Graphic file (type pd
+f)
+<use Chapitre3/Figures/Avalanches/Rescale_Av_alpha05.pdf>
+Package pdftex.def Info: Chapitre3/Figures/Avalanches/Rescale_Av_alpha05.pdf  u
+sed on input line 342.
+(pdftex.def)             Requested size: 455.24411pt x 151.74721pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 351.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\alpha' on input line 351.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 351.
+
+[216]
+Overfull \hbox (10.81693pt too wide) in paragraph at lines 394--395
+\T1/lmr/m/n/12 et nous pou-vons sim-pli-fier cette ex-pres-sion en uti-li-sant 
+$\OML/lmm/m/it/12 r[] \OT1/lmr/m/n/12 = \OML/lmm/m/it/12 x[] \OT1/lmr/m/n/12 + 
+\OML/lmm/m/it/12 y[]$ \T1/lmr/m/n/12 et $\OT1/lmr/m/n/12 (\OML/lmm/m/it/12 x; y
+\OT1/lmr/m/n/12 ) = (\OML/lmm/m/it/12 r [] ^^R; r [] ^^R\OT1/lmr/m/n/12 )$
+ []
+
+[217]
+
+Package caption Warning: \label without proper reference on input line 450.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:CP_aPicard' on page 218 undefined on input line 4
+45.
+
+<Chapitre6/Figures/CP_alphaPicard.pdf, id=6255, 785.30229pt x 752.19606pt>
+File: Chapitre6/Figures/CP_alphaPicard.pdf Graphic file (type pdf)
+<use Chapitre6/Figures/CP_alphaPicard.pdf>
+Package pdftex.def Info: Chapitre6/Figures/CP_alphaPicard.pdf  used on input li
+ne 449.
+(pdftex.def)             Requested size: 455.24411pt x 436.05594pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [218]
+<Chapitre4/Figures/Avalanches/Rescale_Av_alpha5.pdf, id=6269, 867.24pt x 289.08
+pt>
+File: Chapitre4/Figures/Avalanches/Rescale_Av_alpha5.pdf Graphic file (type pdf
+)
+<use Chapitre4/Figures/Avalanches/Rescale_Av_alpha5.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Avalanches/Rescale_Av_alpha5.pdf  us
+ed on input line 460.
+(pdftex.def)             Requested size: 455.24411pt x 151.74721pt.
+<Chapitre4/Figures/Avalanches/Rescale_Av_alpha4.pdf, id=6270, 867.24pt x 289.08
+pt>
+File: Chapitre4/Figures/Avalanches/Rescale_Av_alpha4.pdf Graphic file (type pdf
+)
+<use Chapitre4/Figures/Avalanches/Rescale_Av_alpha4.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Avalanches/Rescale_Av_alpha4.pdf  us
+ed on input line 461.
+(pdftex.def)             Requested size: 455.24411pt x 151.74721pt.
+<Chapitre4/Figures/Avalanches/Rescale_Av_alpha2.pdf, id=6271, 867.24pt x 289.08
+pt>
+File: Chapitre4/Figures/Avalanches/Rescale_Av_alpha2.pdf Graphic file (type pdf
+)
+<use Chapitre4/Figures/Avalanches/Rescale_Av_alpha2.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Avalanches/Rescale_Av_alpha2.pdf  us
+ed on input line 462.
+(pdftex.def)             Requested size: 455.24411pt x 151.74721pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [219 <./Chapitre6/Figures/CP_alphaPicard.pdf>]
+<PhysRevE.111.024101.pdf, id=6366, 609.81427pt x 813.0375pt>
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf>
+Package pdftex.def Info: PhysRevE.111.024101.pdf  used on input line 471.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf>
+Package pdftex.def Info: PhysRevE.111.024101.pdf  used on input line 471.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+<PhysRevE.111.024101.pdf, id=6369, page=1, 609.81427pt x 813.0375pt>
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 1>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page1 used on input line 471
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+ [220 <./Chapitre4/Figures/Avalanches/Rescale_Av_alpha5.pdf> <./Chapitre4/Figur
+es/Avalanches/Rescale_Av_alpha4.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapitre4/Figures/Avalanches/Rescale_
+Av_alpha4.pdf): PDF inclusion: multiple pdfs with page group included in a sing
+le page
+> <./Chapitre4/Figures/Avalanches/Rescale_Av_alpha2.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapitre4/Figures/Avalanches/Rescale_
+Av_alpha2.pdf): PDF inclusion: multiple pdfs with page group included in a sing
+le page
+>]
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 1>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page1 used on input line 471
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 1>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page1 used on input line 471
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 1>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page1 used on input line 471
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+ [221 <./PhysRevE.111.024101.pdf>]
+<PhysRevE.111.024101.pdf, id=6411, page=2, 609.81427pt x 813.0375pt>
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 2>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page2 used on input line 471
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 2>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page2 used on input line 471
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 2>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page2 used on input line 471
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+ [222 <./PhysRevE.111.024101.pdf>]
+<PhysRevE.111.024101.pdf, id=6436, page=3, 609.81427pt x 813.0375pt>
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 3>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page3 used on input line 471
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 3>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page3 used on input line 471
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 3>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page3 used on input line 471
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+ [223 <./PhysRevE.111.024101.pdf>]
+<PhysRevE.111.024101.pdf, id=6455, page=4, 609.81427pt x 813.0375pt>
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 4>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page4 used on input line 471
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 4>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page4 used on input line 471
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 4>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page4 used on input line 471
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+ [224 <./PhysRevE.111.024101.pdf>]
+<PhysRevE.111.024101.pdf, id=6462, page=5, 609.81427pt x 813.0375pt>
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 5>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page5 used on input line 471
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 5>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page5 used on input line 471
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 5>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page5 used on input line 471
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+ [225 <./PhysRevE.111.024101.pdf>]
+<PhysRevE.111.024101.pdf, id=6473, page=6, 609.81427pt x 813.0375pt>
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 6>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page6 used on input line 471
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 6>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page6 used on input line 471
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 6>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page6 used on input line 471
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+ [226 <./PhysRevE.111.024101.pdf>]
+<PhysRevE.111.024101.pdf, id=6484, page=7, 609.81427pt x 813.0375pt>
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 7>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page7 used on input line 471
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 7>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page7 used on input line 471
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 7>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page7 used on input line 471
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+ [227 <./PhysRevE.111.024101.pdf>]
+<PhysRevE.111.024101.pdf, id=6491, page=8, 609.81427pt x 813.0375pt>
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 8>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page8 used on input line 471
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 8>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page8 used on input line 471
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 8>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page8 used on input line 471
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+ [228 <./PhysRevE.111.024101.pdf>]
+<PhysRevE.111.024101.pdf, id=6496, page=9, 609.81427pt x 813.0375pt>
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 9>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page9 used on input line 471
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 9>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page9 used on input line 471
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 9>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page9 used on input line 471
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+ [229 <./PhysRevE.111.024101.pdf>]
+<PhysRevE.111.024101.pdf, id=6509, page=10, 609.81427pt x 813.0375pt>
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 10>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page10 used on input line 47
+1.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 10>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page10 used on input line 47
+1.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 10>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page10 used on input line 47
+1.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+
+[230 <./PhysRevE.111.024101.pdf>]
+<PhysRevE.111.024101.pdf, id=6518, page=11, 609.81427pt x 813.0375pt>
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 11>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page11 used on input line 47
+1.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 11>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page11 used on input line 47
+1.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 11>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page11 used on input line 47
+1.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+ [231 <./PhysRevE.111.024101.pdf>] [232]
+
+Package caption Warning: \label without proper reference on input line 564.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:EvolLambdaAv' on page 233 undefined on input line
+ 557.
+
+<Chapitre4/Figures/Avalanches/EvolLambdaAv.pdf, id=6537, 867.24pt x 289.08pt>
+File: Chapitre4/Figures/Avalanches/EvolLambdaAv.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/Avalanches/EvolLambdaAv.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Avalanches/EvolLambdaAv.pdf  used on
+ input line 563.
+(pdftex.def)             Requested size: 455.24411pt x 151.74721pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[233]
+<Chapitre4/Figures/Avalanches/RescaleScreenedAv.pdf, id=6549, 462.52798pt x 346
+.89601pt>
+File: Chapitre4/Figures/Avalanches/RescaleScreenedAv.pdf Graphic file (type pdf
+)
+<use Chapitre4/Figures/Avalanches/RescaleScreenedAv.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Avalanches/RescaleScreenedAv.pdf  us
+ed on input line 576.
+(pdftex.def)             Requested size: 295.90588pt x 221.93858pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package caption Warning: \label without proper reference on input line 577.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:RescaleScreenedAv' on page 234 undefined on input
+ line 581.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 612.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\alpha' on input line 612.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 612.
+
+) [234] [235] [236] [237 <./Chapitre3/Figures/Interpretation/PCorrMF/PCorr_resc
+aled_MF_alpha3.pdf> <./Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_
+MF_alpha25.pdf> <./Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_a
+lpha225.pdf> <./Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alph
+a2.pdf> <./Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha15.p
+df> <./Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha125.pdf>
+ <./Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha1.pdf> <./C
+hapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha05.pdf>]
+[238 <./Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha3_mean.pdf> 
+<./Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha2_mean.pdf> <./Ch
+apitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha175_mean.pdf> <./Chapi
+tre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha15_mean.pdf> <./Chapitre3
+/Figures/Interpretation/PCorr/PCorr_rescaled_alpha125_mean.pdf> <./Chapitre3/Fi
+gures/Interpretation/PCorr/PCorr_rescaled_alpha1_mean.pdf> <./Chapitre3/Figures
+/Interpretation/PCorr/PCorr_rescaled_alpha05_mean.pdf>] [239 <./Chapitre3/Figur
+es/Avalanches/Rescale_Av_alpha3.pdf> <./Chapitre3/Figures/Avalanches/Rescale_Av
+_alpha2.pdf> <./Chapitre3/Figures/Avalanches/Rescale_Av_alpha175.pdf>] [240 <./
+Chapitre3/Figures/Avalanches/Rescale_Av_alpha125.pdf> <./Chapitre3/Figures/Aval
+anches/Rescale_Av_alpha05.pdf>] [241 <./Chapitre4/Figures/Avalanches/EvolLambda
+Av.pdf> <./Chapitre4/Figures/Avalanches/RescaleScreenedAv.pdf>]
+(./compilation_these_avec_page_de_garde_et_abstract.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 24222 strings out of 478287
+ 470361 string characters out of 5849288
+ 728922 words of memory out of 5000000
+ 40843 multiletter control sequences out of 15000+600000
+ 602067 words of font info for 137 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 76i,17n,82p,2011b,1074s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
+vips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/shar
+e/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ma
+thsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texlive
+/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/esint-type1/esint10.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/pub
+lic/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmm
+i6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/font
+s/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmib10.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/symbols/msam9.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
+times/utmr8a.pfb>
+Output written on compilation_these_avec_page_de_garde_et_abstract.pdf (245 pag
+es, 11833342 bytes).
+PDF statistics:
+ 7768 PDF objects out of 8907 (max. 8388607)
+ 6033 compressed objects within 61 object streams
+ 1000 named destinations out of 1000 (max. 500000)
+ 1689 words of extra memory for PDF output out of 10000 (max. 10000000)
+

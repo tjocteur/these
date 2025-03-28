@@ -1,0 +1,98 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}The Hébraud-Lequeux model}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Derivation of a normal form}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Solution stationnaire}{1}{subsection.1.1.1}%
+\contentsline {subsubsection}{Résultat}{1}{section*.1}%
+\contentsline {paragraph}{}{1}{section*.2}%
+\contentsline {paragraph}{}{2}{section*.3}%
+\contentsline {paragraph}{}{2}{section*.4}%
+\contentsline {subsubsection}{Développement à petit $h$}{2}{section*.5}%
+\contentsline {paragraph}{}{2}{section*.6}%
+\contentsline {subsection}{\numberline {1.1.2}Equation d'état sur $h$ à $\langle x \rangle $ imposé}{3}{subsection.1.1.2}%
+\contentsline {paragraph}{}{3}{section*.7}%
+\contentsline {subsection}{\numberline {1.1.3}Equation linéarisée}{3}{subsection.1.1.3}%
+\contentsline {subsubsection}{Cadre}{3}{section*.8}%
+\contentsline {paragraph}{}{3}{section*.9}%
+\contentsline {subsubsection}{Résolution dans l'espace réel}{3}{section*.10}%
+\contentsline {paragraph}{}{3}{section*.11}%
+\contentsline {paragraph}{Région $x>1$}{4}{section*.12}%
+\contentsline {paragraph}{Région $0<x<1$}{4}{section*.13}%
+\contentsline {paragraph}{}{5}{section*.14}%
+\contentsline {paragraph}{Région $-1<x<0$}{5}{section*.15}%
+\contentsline {paragraph}{}{5}{section*.16}%
+\contentsline {paragraph}{Région $x < -1$}{5}{section*.17}%
+\contentsline {paragraph}{}{5}{section*.18}%
+\contentsline {paragraph}{Conditions aux limites}{5}{section*.19}%
+\contentsline {paragraph}{}{5}{section*.20}%
+\contentsline {subsubsection}{Ordre dominant en $h_0$}{6}{section*.21}%
+\contentsline {paragraph}{}{6}{section*.22}%
+\contentsline {paragraph}{Développement à petit $s$}{6}{section*.23}%
+\contentsline {paragraph}{}{6}{section*.24}%
+\contentsline {subsection}{\numberline {1.1.4}Développement en couches limites}{7}{subsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.1.5}Ansatz}{7}{subsection.1.1.5}%
+\contentsline {paragraph}{}{7}{section*.25}%
+\contentsline {subsubsection}{Equation interne}{7}{section*.26}%
+\contentsline {paragraph}{}{7}{section*.27}%
+\contentsline {subsubsection}{Equation externe}{7}{section*.28}%
+\contentsline {paragraph}{}{7}{section*.29}%
+\contentsline {subsubsection}{Equation d'état}{8}{section*.30}%
+\contentsline {paragraph}{}{8}{section*.31}%
+\contentsline {subsubsection}{Résolution des équations}{8}{section*.32}%
+\contentsline {paragraph}{Résolution externe}{8}{section*.33}%
+\contentsline {paragraph}{}{8}{section*.34}%
+\contentsline {paragraph}{}{8}{section*.35}%
+\contentsline {paragraph}{Retour à l'équation d'état}{9}{section*.36}%
+\contentsline {paragraph}{}{9}{section*.37}%
+\contentsline {paragraph}{Retour aux équations externes}{9}{section*.38}%
+\contentsline {paragraph}{}{9}{section*.39}%
+\contentsline {paragraph}{Retour à l'équation d'état}{9}{section*.40}%
+\contentsline {paragraph}{}{9}{section*.41}%
+\contentsline {paragraph}{}{10}{section*.42}%
+\contentsline {paragraph}{Résolution interne}{10}{section*.43}%
+\contentsline {paragraph}{}{10}{section*.44}%
+\contentsline {paragraph}{}{10}{section*.45}%
+\contentsline {paragraph}{}{10}{section*.46}%
+\contentsline {paragraph}{}{11}{section*.47}%
+\contentsline {paragraph}{}{11}{section*.48}%
+\contentsline {paragraph}{Résolution interne de la seconde équation}{12}{section*.49}%
+\contentsline {paragraph}{}{12}{section*.50}%
+\contentsline {subsubsection}{Approximation positive}{12}{section*.51}%
+\contentsline {paragraph}{}{12}{section*.52}%
+\contentsline {subsubsection}{Développement asymptotique en temps}{13}{section*.53}%
+\contentsline {paragraph}{}{13}{section*.54}%
+\contentsline {section}{\numberline {1.2}Analytical variations of the Hébraud-Lequeux model}{14}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Une autre version du bruit mécanique}{14}{subsection.1.2.1}%
+\contentsline {paragraph}{}{14}{section*.55}%
+\contentsline {subsubsection}{Solution}{14}{section*.56}%
+\contentsline {paragraph}{}{14}{section*.57}%
+\contentsline {subsubsection}{Développement}{15}{section*.59}%
+\contentsline {paragraph}{}{15}{section*.60}%
+\contentsline {subsubsection}{Contrainte moyenne et contrainte seuil}{15}{section*.61}%
+\contentsline {paragraph}{}{15}{section*.62}%
+\contentsline {subsubsection}{Limite $\beta \rightarrow 0$}{16}{section*.63}%
+\contentsline {paragraph}{}{16}{section*.64}%
+\contentsline {subsection}{\numberline {1.2.2}Hébraud-Lequeux model at low coupling}{17}{subsection.1.2.2}%
+\contentsline {subsubsection}{Numerical resolution}{17}{section*.65}%
+\contentsline {paragraph}{}{17}{section*.66}%
+\contentsline {paragraph}{}{17}{section*.68}%
+\contentsline {paragraph}{}{17}{section*.70}%
+\contentsline {subsection}{\numberline {1.2.3}Hébraud-Lequeux model with Poissonian noise}{18}{subsection.1.2.3}%
+\contentsline {paragraph}{}{19}{section*.72}%
+\contentsline {paragraph}{Attention il y avait une erreur dans le scaling !!!}{19}{section*.73}%
+\contentsline {section}{\numberline {1.3}Numerical variations of the Hébraud-Lequeux model}{20}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Fully connected Hébraud-Lequeux}{20}{subsection.1.3.1}%
+\contentsline {paragraph}{Problem solved}{21}{section*.77}%
+\contentsline {subsection}{\numberline {1.3.2}Poorly connected Hébraud-Lequeux}{21}{subsection.1.3.2}%
+\contentsline {subsubsection}{Method}{21}{section*.79}%
+\contentsline {paragraph}{}{21}{section*.80}%
+\contentsline {subsubsection}{First results}{22}{section*.82}%
+\contentsline {paragraph}{}{22}{section*.83}%
+\contentsline {paragraph}{}{26}{section*.96}%
+\contentsline {subsection}{\numberline {1.3.3}Modèle de Hébraud-Lequeux et diffusion anormale}{26}{subsection.1.3.3}%
+\contentsline {paragraph}{}{26}{section*.97}%
+\contentsline {subsubsection}{Piste de résolution analytique}{26}{section*.98}%
+\contentsline {paragraph}{}{26}{section*.99}%
+\contentsline {paragraph}{}{27}{section*.100}%
+\contentsline {subsubsection}{Résolution numérique indirecte par les marches aléatoires}{27}{section*.101}%
+\contentsline {paragraph}{Valeurs de la distribution au seuil}{27}{section*.102}%
+\contentsline {chapter}{Bibliography}{29}{chapter*.104}%

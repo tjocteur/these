@@ -1,0 +1,339 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\begin{document}
+
+\textbf{Elements manquants : introduction de Hébraud-Lequeux. Je vois une place soit dans l'état de l'art du chapitre EPM soit dans la partie réconciliation avec LHL.}
+
+\tableofcontents
+
+\section{Introduction}
+
+\textbf{Objectif} : Donner du sens à ce qu'on fait et introduire toutes les notions qu'on utilisera par la suite.
+
+\subsection{Transitions de phases absorbantes}
+
+\textit{Partie pour introduire les phénomènes critiques, absorbants, puis la classe d'universalité principale que l'on étudie}
+
+\subsubsection{Phénomènes critiques}
+
+\textit{Introduction simple et concise aux phénomènes ciritiques}
+
+\begin{itemize}
+	\item Présenter le cadre de travail des phénomènes critiques (phénoménologie, hypothèse de scaling, exposants, classes d'universalité, relations entre exposants)
+\end{itemize}
+
+\subsubsection{Transitions vers un état absorbant}
+
+\textit{Introduction à la notion d'état absorbant et à la phénoménologie résultante}
+
+\begin{itemize}
+	\item Définition et exemples de réalisation notamment en matière molle.
+	\item Comportements spécifiques, exposants pertinents
+	\item Classes d'universalité pour les APT (citer et exemples de réalisation)
+\end{itemize}
+
+\subsubsection{Percolation dirigée conservée}
+
+\textit{Présentation de la classe connue de référence sur laquelle on va se baser dans la suite. Important d'être rigoureux ici.}
+
+\begin{itemize}
+	\item Définition (conjecture de Grassberger, ...) et réalisations notamment en matière molle.
+	\item Exposants et relations de scaling
+	\item Théorie de champ associée, résultats théoriques
+	\item Introduction de la notion d'hyperuniformité et état de l'art pour CDP.
+	\item Introduction de la notion d'avalanches et des observables associées + état de l'art dans CDP.
+\end{itemize}
+
+\subsection{Interactions à longue portée en matière molle}
+
+\textit{Montrer que les interactions à longue portée sont omniprésentes, d'autant plus en matière molle, et montrer leur diversité}
+
+\subsubsection{Interactions dans un milieu élastique ou visqueux}
+
+\begin{itemize}
+	\item Exemples de systèmes (pourquoi pas des exemple qu'on aurait cités avant)
+	\item Calcul de kernels d'interaction en milieux infinis (Stokeslet et équivalents)
+\end{itemize}
+
+\subsubsection{Milieux complexes et conditions aux limites}
+
+\begin{itemize}
+	\item Reprendre le Diamant pour montrer la diversité possible des portées d'interaction. Avoir un axe pour représenter les différents cas possibles pour figure finale.
+\end{itemize}
+
+\subsection{Cas canonique de l'influence des interactions à longue portée sur le comportement critique}
+
+\textit{Présenter le cadre habituel pour le traitement de la longue portée dans les transition de phase, à l'équilibre et hors équilibre.}
+
+\begin{itemize}
+	\item Cas classique modèle d'Ising / phi4
+	\item Cas des transition de phases absorbantes : DP et depinning. LP comprise au sens de transport de l'activité à longue portée.
+\end{itemize}
+
+\subsection{Transitions de phases convexes, interactions médiées}
+
+\textit{Introduire clairement les deux systèmes qui vont constituer notre étude et montrer en quoi ce sont des cas intéressants à étudier}
+
+\subsubsection{Ecoulement des matériaux amorphes}
+
+\begin{itemize}
+	\item Motivations (systèmes)
+	\item Phénoménologie (T1, Eshelby, yield stress...)
+	\item Point de vue APT (contrainte imposée)
+	\item Résultats ($\beta>1$)
+\end{itemize}
+
+\subsubsection{Suspensions cisaillées cycliquement}
+
+\begin{itemize}
+	\item Motivation (système)
+	\item Phénoménologie
+	\item Point de vue APT
+	\item Résultats ($\beta>1$, $\gamma^\prime<0$)
+\end{itemize}
+
+\subsection{Problématisation}
+
+\begin{itemize}
+	\item Rapprochement des deux systèmes (bruit interne, bords absorbants)
+	\item Poser les questions auxquelles on va répondre tout ou partie.
+\end{itemize}
+
+\section{Transport d'activité à longue portée}
+
+\textbf{Objectif}
+
+\begin{itemize}
+	\item Vérifier et quantifier le comportement classique attendu sur les modèles classiques de CDP.
+\end{itemize}
+
+\subsection{Motivations}
+
+\textit{Motiver l'intérêt}
+
+\begin{itemize}
+	\item Systèmes associés
+	\item Intérêt via le mapping sur le depinning (confirmation du mapping en LP)
+\end{itemize}
+
+\textit{Mesuré pour partie dans le depinning LR (dimensions, exposants non exhaustifs) mais pas trop (pas du tout ?) dans un modèle directement CDP. C'est donc l'objet de ce chapitre}
+
+\subsection{Modèles}
+
+\textit{Introduction des modèles CDP utilisés pour étudier l'évolution du comportement CDP avec l'ajout d'un transport à LP.}
+
+\subsubsection{Cas canonique : modèle Manna}
+
+\begin{itemize}
+	\item Description et motivations
+	\item Implémentation numérique
+\end{itemize}
+
+\subsubsection{Suspensions cisaillées cycliquement : ROM}
+
+\begin{itemize}
+	\item Motivations (point de vue stroboscopique, le système aura déjà été introduit en introduction)
+	\item Implémentation numérique (sauts à LP notamment)
+\end{itemize}
+
+\subsection{Exposants critiques}
+
+\begin{itemize}
+	\item exposants $\beta$ et $\gamma^\prime$, principe de mesure, évolution avec la portée, comparaison avec la théorie et l'état de l'art.
+	\item exposant $\delta$, principe de mesure, évolution avec la portée, comparaison avec la théorie et l'état de l'art.
+\end{itemize}
+
+\subsection{Hyperuniformité}
+
+\begin{itemize}
+	\item Principe de mesure et lien entre les exposants.
+	\item Résultats dans le LR-ROM, évolution avec la portée. Discussion : corrections log, conservation du CDM, influence des CLP.
+	\item Résultats avec Manna, évolution avec la portée avec et sans CDM conservé. Même discussion
+\end{itemize}
+
+\subsection{Conclusion de chapitre}
+
+\textit{Cadre théorique clair et relativement robuste mais ne permet pas de rendre compte de certaines APT avec notion de longue portée (interactions médiées). On propose une étude détaillée des deux exemples de l'intro et on va essayer de les rapprocher par un nouveau type de cadre.}
+
+\section{Interactions médiées par la viscosité - suspensions cisaillées cycliquement}
+
+\subsection{Motivations}
+
+\textit{Montrer que les interactions longue portée sont présentes dans le cas de cette transition et rappeler les résultats déjà obtenus en champ moyen qui motivent le travail}
+
+\begin{itemize}
+	\item Présence de la longue portée dans les systèmes concernés et sa diversité potentielle.
+	\item Point de départ : article R. Mari.
+\end{itemize}
+
+\subsection{Méthodes}
+
+\textit{Description de la méthode utilisée pour modéliser les interactions médiées en la discutant car non unique}
+
+\begin{itemize}
+	\item Implémentation numérique (propagateur, coarse-graining de l'activité, décorrélation validée par le test tensoriel, ...)
+\end{itemize}
+
+\subsection{Exposants critiques}
+
+\textit{Montrer l'évolution des exposants avec la portée}
+
+\begin{itemize}
+	\item Exposant $\beta$ et $\gamma^\prime$ : méthode de détermination, résultats, discussion (hyperscaling, raccord au cas courte portée et mean-field, aspect non mean-field, bornes d'évolution)
+	\item Exposant $\delta$ : methode de détermination, résultats, discussion (raccord, borne d'évolution, confirmation de l'aspect non totalement mean-field)
+	\item Confirmer le désaccord avec LR-CDP
+\end{itemize}
+
+\subsection{Hyperuniformité}
+
+\textit{Montrer l'évolution de l'hyperuniformité avec la portée}
+
+\begin{itemize}
+	\item Méthodes déjà introduites dans le chapitre précédent
+	\item Résultat à distance fixée du point critique
+	\item Résultat à quelques portées pour différentes distances du PC
+	 \item Discussion : conclure ou non sur l'HU perdu à partir d'une certaine portée. Différence avec le cas canonique
+\end{itemize}
+
+\subsection{Interpretation}
+
+\subsubsection{Le modèle LHL : un modèle mean-field convexe}
+
+\textit{Partie importante. Introduction du modèle LHL qui propose une explication pour l'importance du bruit interne à très longue portée}
+
+\begin{itemize}
+	\item Introduction du modèle LHL pour répondre au désaccord
+	\item Modèle et résultats numériques (peut-être aussi analytiques) sur le modèle LHL
+\end{itemize}
+
+\subsubsection{Interprêtation mean-field de la transition}
+
+\textit{Montrer que le modèle LHL est le bon mean-field et permet même des prédictions en dimension finie}
+
+\begin{itemize}
+	\item Destruction des corrélation avec le modèle à sauts infinis
+	\item Accroche au modèle mean-field par la détermination d'un mu effectif (Mesure du bruit sur un pas de temps, exposant de Hurst, mesure de theta)
+	\item Retour au modèle à sauts finis (validation du mean-field mais pas des autres)
+	\item Aspect non mean-field à portée infinie : résultats en $n$ dimensions.
+\end{itemize}
+
+\subsubsection{Zone concave}
+
+\textit{Souligner la part d'ombre pour l'interprêtation du départ de CDP par le bruit.}
+
+\begin{itemize}
+	\item Zone $\beta<1$ : Impossibilité d'interprêtation en termes de LR-CDP.
+\end{itemize}
+
+\subsection{Avalanches}
+
+\textit{Utiliser la caractérisation dynamique de la transition pour essayer de mieux comprendre ce qu'il se passe au niveau de la zone grise ($\beta<1$)}
+
+\begin{itemize}
+	\item Introduire les avalanches à densité imposée par opposition à SOC présenté dans l'intro
+	\item Quantités d'intérêt et exposants
+	\item Résultats en fonction de la portée
+	\item Discussion : changement du signe de $d-d_f$, forme de la distribution, corrections log ?
+\end{itemize}
+
+\subsection{Conclusion de chapitre}
+
+\section{Interaction médiées par l'élasticité - écoulement des matériaux amorphes}
+
+\subsection{Motivations et état de l'art}
+
+\begin{itemize}
+	\item Bref rappel de la pertinence de l'étude 
+	\item Point sur les méthodes d'étude de la transition (expérimentales, numériques et théoriques)
+\end{itemize}
+
+\subsection{Méthode}
+
+\begin{itemize}
+	\item Présentation du point de vue élastoplastique
+	\item Modèle de Picard
+	\item Implémentation numérique
+\end{itemize}
+
+\subsection{Comportement critique}
+
+\textit{Ca c'est une reprise de l'article en gros}
+
+\begin{itemize}
+	\item Yielding classique (Introduire les modes 0, méthode de détermination du PC et de $\beta$, difficulté des APT, Scaling de taille finie, résultats, hyperscaling et explication en termes d'avalanches)
+	\item Yielding à courte portée (CDP-0, exclusion de CDP)
+	\item Yielding à portée intermédiaire (motivation par le cas confiné par exemple, implémentation et résultats)
+	\item Modes zéros et classification en opposition au depinning (argumentaire de l'article)
+	\item Hyperuniformité et fonction de corrélation en contrainte (Résultats numériques préliminaires et théorie simple de l'article)
+\end{itemize}
+
+\subsection{Réconciliation avec la vision LHL}
+
+\textit{Essayer de rapprocher le yielding du système de suspensions}
+
+\begin{itemize}
+	\item Comparaison avec LHL = très mauvaise hors mean-field
+	\item Invocation des modes zéro comme explication et validation avec les résultats du modèle de yielding décorrélé à pas de temps discrets.
+	\item Parler de l'étude de Ferrero et de l'exposant de Hurst mesuré (avec réserves parce que je suis pas 100\% convaincu)
+\end{itemize}
+
+\subsection{Avalanches dans les EPM}
+
+\textit{Partie motivée par les avalanches sur les suspensions, on peut peut-être aussi rapprocher les deux systèmes par leur comportement critique dynamique}
+
+\subsubsection{Phénoménologie et état de l'art}
+
+\textit{Présenter les avalanches plastiques}
+
+\begin{itemize}
+	\item Phénoménologie à déformation imposée/quasistatique et quantités d'intérêt
+	\item Résultats de la littérature via les différentes méthodes
+	\item Résultats dans les modèles élastoplastiques
+\end{itemize}
+
+\subsubsection{Avalanches à contrainte imposée et importance du protocole}
+
+\textit{Mentionner la non-universalité des protocoles dans notre cadre d'étude.}
+
+\begin{itemize}
+	\item Problèmes soulevés par la contrainte imposée etc..
+	\item Reprise de l'article en gros
+	\item Pourquoi pas revenir rapidement sur les suspensions à ce moment là pour dire que ça sera peut-être pareil.
+\end{itemize}
+
+\subsubsection{Avalanches en fonction de la portée}
+
+\begin{itemize}
+	\item Si résultats le permettent, même analyse que pour les suspensions.
+	\item Avalanches avec écrantage.
+\end{itemize}
+
+\subsection{Conclusion de chapitre}
+
+\section{Discussion}
+
+Pas encore très clair pour moi mais en vrac :
+
+\subsection{Trouver une théorie de champ convexe}
+
+\begin{itemize}
+	\item Mentionner l'essai de la forme normales à partir de Hébraud-Lequeux ?
+	\item Méthode de simulation des équations de champ
+	\item Résultats
+	\item Interpretation avec le calcul à la Munoz
+\end{itemize}
+
+\subsection{Autres approches pour arriver à la convexité}
+
+\begin{itemize}
+	\item changer le bruit (exemple de la classe MN)
+	\item changer la "dynamique temporelle" (exemple des taux de transition dépendant de la contrainte pour montrer les résultats partiels).
+	\item exemple de Hébraud-Lequeux avec pas finis ?
+\end{itemize}
+
+\section{Conclusion}
+
+\end{document}

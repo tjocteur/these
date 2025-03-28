@@ -1,0 +1,1474 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.10.26)  13 NOV 2024 11:16
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**compilation_chapitre4.tex
+(./compilation_chapitre4.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21>
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (./preambule_these.tex (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.
+sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+(/usr/share/texmf/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2022/01/26 3.70 The Babel package
+\babel@savecnt=\count194
+\U@D=\dimen139
+\l@unhyphenated=\language87
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count195
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language62). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language62). Reported on input line 108.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks18
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+Package bm Info: No bold for \OMX/lmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen140
+\Gin@req@width=\dimen141
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count196
+\float@exts=\toks20
+\float@box=\box50
+\@float@everytoks=\toks21
+\@floatcapt=\box51
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count197
+\Gm@cntv=\count198
+\c@Gm@tempcnt=\count199
+\Gm@bindingoffset=\dimen142
+\Gm@wd@mp=\dimen143
+\Gm@odd@mp=\dimen144
+\Gm@even@mp=\dimen145
+\Gm@layoutwidth=\dimen146
+\Gm@layoutheight=\dimen147
+\Gm@layouthoffset=\dimen148
+\Gm@layoutvoffset=\dimen149
+\Gm@dimlist=\toks22
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks23
+\ex@=\dimen150
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+LaTeX Info: Redefining \boldsymbol on input line 28.
+\pmbraise@=\dimen151
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count266
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count267
+\leftroot@=\count268
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count269
+\DOTSCASE@=\count270
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+\big@size=\dimen152
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count271
+\c@MaxMatrixCols=\count272
+\dotsspace@=\muskip16
+\c@parentequation=\count273
+\dspbrk@lvl=\count274
+\tag@help=\toks24
+\row@=\count275
+\column@=\count276
+\maxfields@=\count277
+\andhelp@=\toks25
+\eqnshift@=\dimen153
+\alignsep@=\dimen154
+\tagshift@=\dimen155
+\tagwidth@=\dimen156
+\totwidth@=\dimen157
+\lineht@=\dimen158
+\@envbody=\toks26
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks27
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks28
+\thm@bodyfont=\toks29
+\thm@headfont=\toks30
+\thm@notefont=\toks31
+\thm@headpunct=\toks32
+\thm@preskip=\skip52
+\thm@postskip=\skip53
+\thm@headsep=\skip54
+\dth@everypar=\toks33
+)
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup9
+)
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2022-02-02 v3.0.46 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen159
+\l__siunitx_angle_marker_box=\box54
+\l__siunitx_angle_unit_box=\box55
+\l__siunitx_compound_count_int=\count278
+
+(/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/01/04 v1.11 internationalization of LaTeX2e packages
+ (CN)
+
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count279
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+\l__siunitx_number_exponent_fixed_int=\count280
+\l__siunitx_number_min_decimal_int=\count281
+\l__siunitx_number_min_integer_int=\count282
+\l__siunitx_number_round_precision_int=\count283
+\l__siunitx_number_group_minimum_int=\count284
+\l__siunitx_table_tmp_box=\box56
+\l__siunitx_table_tmp_dim=\dimen160
+\l__siunitx_table_column_width_dim=\dimen161
+\l__siunitx_table_integer_box=\box57
+\l__siunitx_table_decimal_box=\box58
+\l__siunitx_table_before_box=\box59
+\l__siunitx_table_after_box=\box60
+\l__siunitx_table_before_dim=\dimen162
+\l__siunitx_table_carry_dim=\dimen163
+\l__siunitx_unit_tmp_int=\count285
+\l__siunitx_unit_position_int=\count286
+\l__siunitx_unit_total_int=\count287
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-01-21 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count288
+\l__pdf_internal_box=\box61
+))
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen164
+\ar@mcellbox=\box62
+\extrarowheight=\dimen165
+\NC@list=\toks34
+\extratabsurround=\skip55
+\backup@length=\skip56
+\ar@cellbox=\box63
+))
+
+Package siunitx Info: Option "separate-uncertainty" has been deprecated in
+(siunitx)             this release.
+(siunitx)             
+(siunitx)             Use "uncertainty-mode = separate" as a replacement.
+
+
+Package siunitx Info: Option "multi-part-units = single" has been deprecated
+(siunitx)             in this release.
+(siunitx)             
+(siunitx)             Use "separate-uncertainty-units = single" as a
+(siunitx)             replacement.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks35
+\XKV@tempa@toks=\toks36
+)
+\XKV@depth=\count289
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box64
+)
+\tc@llx=\dimen166
+\tc@lly=\dimen167
+\tc@urx=\dimen168
+\tc@ury=\dimen169
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen170
+\adjbox@Height=\dimen171
+\adjbox@Depth=\dimen172
+\adjbox@Totalheight=\dimen173
+\adjbox@pwidth=\dimen174
+\adjbox@pheight=\dimen175
+\adjbox@pdepth=\dimen176
+\adjbox@ptotalheight=\dimen177
+
+(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count290
+)
+(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box65
+\sift@deathcycles=\count291
+\@vwid@loff=\dimen178
+\@vwid@roff=\dimen179
+))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen180
+\captionmargin@=\dimen181
+\captionwidth=\dimen182
+\caption@tempdima=\dimen183
+\caption@indent=\dimen184
+\caption@parindent=\dimen185
+\caption@hangindent=\dimen186
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count292
+\c@continuedfloat=\count293
+Package caption Info: float package is loaded.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+\c@subfigure=\count294
+\c@subtable=\count295
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen187
+\lightrulewidth=\dimen188
+\cmidrulewidth=\dimen189
+\belowrulesep=\dimen190
+\belowbottomsep=\dimen191
+\aboverulesep=\dimen192
+\abovetopsep=\dimen193
+\cmidrulesep=\dimen194
+\cmidrulekern=\dimen195
+\defaultaddspace=\dimen196
+\@cmidla=\count296
+\@cmidlb=\count297
+\@aboverulesep=\dimen197
+\@belowrulesep=\dimen198
+\@thisruleclass=\count298
+\@lastruleclass=\count299
+\@thisrulewidth=\dimen199
+)
+(/usr/share/texlive/texmf-dist/tex/latex/paralist/paralist.sty
+Package: paralist 2017/01/22 v2.7 Extended list environments
+\pltopsep=\skip57
+\plpartopsep=\skip58
+\plitemsep=\skip59
+\plparsep=\skip60
+\pl@lab=\toks37
+)
+(/usr/share/texlive/texmf-dist/tex/latex/esint/esint.sty
+Package: esint 
+\symlargesymbolsA=\mathgroup10
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip61
+\f@nch@O@elh=\skip62
+\f@nch@O@erh=\skip63
+\f@nch@O@olh=\skip64
+\f@nch@O@orh=\skip65
+\f@nch@O@elf=\skip66
+\f@nch@O@erf=\skip67
+\f@nch@O@olf=\skip68
+\f@nch@O@orf=\skip69
+)
+(/usr/share/texlive/texmf-dist/tex/latex/emptypage/emptypage.sty
+Package: emptypage 2010/05/30 v1.2 Suppress page numbers and headings on empty 
+pages
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fncychap/fncychap.sty
+Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
+\RW=\skip70
+\mylen=\skip71
+\myhi=\skip72
+\px=\skip73
+\py=\skip74
+\pyy=\skip75
+\pxx=\skip76
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip77
+\cftbeforetoctitleskip=\skip78
+\cftaftertoctitleskip=\skip79
+\cftbeforepartskip=\skip80
+\cftpartnumwidth=\skip81
+\cftpartindent=\skip82
+\cftbeforechapskip=\skip83
+\cftchapindent=\skip84
+\cftchapnumwidth=\skip85
+\cftbeforesecskip=\skip86
+\cftsecindent=\skip87
+\cftsecnumwidth=\skip88
+\cftbeforesubsecskip=\skip89
+\cftsubsecindent=\skip90
+\cftsubsecnumwidth=\skip91
+\cftbeforesubsubsecskip=\skip92
+\cftsubsubsecindent=\skip93
+\cftsubsubsecnumwidth=\skip94
+\cftbeforeparaskip=\skip95
+\cftparaindent=\skip96
+\cftparanumwidth=\skip97
+\cftbeforesubparaskip=\skip98
+\cftsubparaindent=\skip99
+\cftsubparanumwidth=\skip100
+\cftbeforeloftitleskip=\skip101
+\cftafterloftitleskip=\skip102
+\cftbeforefigskip=\skip103
+\cftfigindent=\skip104
+\cftfignumwidth=\skip105
+\c@lofdepth=\count300
+\c@lotdepth=\count301
+\cftbeforelottitleskip=\skip106
+\cftafterlottitleskip=\skip107
+\cftbeforetabskip=\skip108
+\cfttabindent=\skip109
+\cfttabnumwidth=\skip110
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/epigraph/epigraph.sty
+Package: epigraph 2020/01/02 v1.5e typesetting epigraphs
+
+(/usr/share/texlive/texmf-dist/tex/latex/nextpage/nextpage.sty
+Package: nextpage 2009/09/03 v1.1a additional page commands
+)
+\beforeepigraphskip=\skip111
+\afterepigraphskip=\skip112
+\epigraphwidth=\skip113
+\epigraphrule=\skip114
+)
+(/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(/usr/share/texlive/texmf-dist/tex/latex/esvect/esvect.sty
+Package: esvect 
+\symesvector=\mathgroup11
+LaTeX Font Info:    Redeclaring math symbol \fldr on input line 38.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen256
+\Hy@linkcounter=\count302
+\Hy@pagecounter=\count303
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
+nguages
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count304
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count305
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen257
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count306
+\Field@Width=\dimen258
+\Fld@charsize=\dimen259
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring OFF on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count307
+\c@Item=\count308
+\c@Hfootnote=\count309
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count310
+\c@bookmark@seq@number=\count311
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip115
+)
+(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
+\BKM@id=\count312
+))
+Package hyperref Info: Option `colorlinks' set `true' on input line 124.
+)
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 9.
+
+
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) (./compilation_chapitre4.aux)
+\openout1 = `compilation_chapitre4.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count313
+\scratchdimen=\dimen260
+\scratchbox=\box66
+\nofMPsegments=\count314
+\nofMParguments=\count315
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count316
+\MPscratchDim=\dimen261
+\MPnumerator=\count317
+\makeMPintoPDFobject=\count318
+\everyMPtoPDFconversion=\toks39
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=674.33032pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-23.85716pt
+* \headheight=17.07164pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=88.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
+nary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 9.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring ON on input line 9.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count319
+)
+LaTeX Info: Redefining \ref on input line 9.
+LaTeX Info: Redefining \pageref on input line 9.
+LaTeX Info: Redefining \nameref on input line 9.
+
+(./compilation_chapitre4.toc
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
+.
+ (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
+.
+
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+2.
+
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+2.
+
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 2.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Trying to load font information for U+esint on input line 2
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/esint/uesint.fd
+File: uesint.fd 
+)
+LaTeX Font Info:    Trying to load font information for U+esvect on input line 
+2.
+
+(/usr/share/texlive/texmf-dist/tex/latex/esvect/uesvect.fd
+File: uesvect.fd 
+))
+\tf@toc=\write3
+\openout3 = `compilation_chapitre4.toc'.
+
+ [1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+
+] (./Chapitre4/chapitre4.tex
+Chapter 4.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
+.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+Overfull \hbox (2.71132pt too wide) in paragraph at lines 6--7
+ [][] \T1/lmr/m/n/12 Dans la même op-tique que l'étude [[][]1[][]], on se pro-p
+ose d'étudier ici l'influence d'interactions
+ []
+
+<Chapitre4/Figures/Schemas/ActivityField.pdf, id=50, 537.07542pt x 213.11548pt>
+
+File: Chapitre4/Figures/Schemas/ActivityField.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/Schemas/ActivityField.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Schemas/ActivityField.pdf  used on i
+nput line 12.
+(pdftex.def)             Requested size: 250.38564pt x 99.35455pt.
+[1
+
+ <./Chapitre4/Figures/Schemas/ActivityField.pdf>]
+Overfull \hbox (39.72446pt too wide) in paragraph at lines 35--35
+[]\T1/lmr/bx/n/14.4 Evolution du com-porte-ment cri-tique avec la portée d'inte
+raction 
+ []
+
+<Chapitre4/Figures/RangeAlpha/beta_1r3.pdf, id=86, 578.16pt x 289.08pt>
+File: Chapitre4/Figures/RangeAlpha/beta_1r3.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/RangeAlpha/beta_1r3.pdf>
+Package pdftex.def Info: Chapitre4/Figures/RangeAlpha/beta_1r3.pdf  used on inp
+ut line 45.
+(pdftex.def)             Requested size: 273.14923pt x 136.57336pt.
+<Chapitre4/Figures/RangeAlpha/beta_1r2.pdf, id=87, 578.16pt x 289.08pt>
+File: Chapitre4/Figures/RangeAlpha/beta_1r2.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/RangeAlpha/beta_1r2.pdf>
+Package pdftex.def Info: Chapitre4/Figures/RangeAlpha/beta_1r2.pdf  used on inp
+ut line 50.
+(pdftex.def)             Requested size: 273.14923pt x 136.57336pt.
+<Chapitre4/Figures/RangeAlpha/beta_1r15.pdf, id=88, 578.16pt x 289.08pt>
+File: Chapitre4/Figures/RangeAlpha/beta_1r15.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/RangeAlpha/beta_1r15.pdf>
+Package pdftex.def Info: Chapitre4/Figures/RangeAlpha/beta_1r15.pdf  used on in
+put line 55.
+(pdftex.def)             Requested size: 273.14923pt x 136.57336pt.
+[2 <./Chapitre4/Figures/RangeAlpha/beta_1r3.pdf> <./Chapitre4/Figures/RangeAlph
+a/beta_1r2.pdf>]
+<Chapitre4/Figures/RangeAlpha/beta_1r125.pdf, id=138, 578.16pt x 289.08pt>
+File: Chapitre4/Figures/RangeAlpha/beta_1r125.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/RangeAlpha/beta_1r125.pdf>
+Package pdftex.def Info: Chapitre4/Figures/RangeAlpha/beta_1r125.pdf  used on i
+nput line 60.
+(pdftex.def)             Requested size: 273.14923pt x 136.57336pt.
+<Chapitre4/Figures/RangeAlpha/beta_1r1.pdf, id=139, 578.16pt x 289.08pt>
+File: Chapitre4/Figures/RangeAlpha/beta_1r1.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/RangeAlpha/beta_1r1.pdf>
+Package pdftex.def Info: Chapitre4/Figures/RangeAlpha/beta_1r1.pdf  used on inp
+ut line 65.
+(pdftex.def)             Requested size: 273.14923pt x 136.57336pt.
+<Chapitre4/Figures/RangeAlpha/beta_1r05.pdf, id=140, 578.16pt x 289.08pt>
+File: Chapitre4/Figures/RangeAlpha/beta_1r05.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/RangeAlpha/beta_1r05.pdf>
+Package pdftex.def Info: Chapitre4/Figures/RangeAlpha/beta_1r05.pdf  used on in
+put line 70.
+(pdftex.def)             Requested size: 273.14923pt x 136.57336pt.
+<Chapitre4/Figures/RangeAlpha/beta_alpha_suspensions.pdf, id=141, 361.35pt x 21
+6.81pt>
+File: Chapitre4/Figures/RangeAlpha/beta_alpha_suspensions.pdf Graphic file (typ
+e pdf)
+<use Chapitre4/Figures/RangeAlpha/beta_alpha_suspensions.pdf>
+Package pdftex.def Info: Chapitre4/Figures/RangeAlpha/beta_alpha_suspensions.pd
+f  used on input line 77.
+(pdftex.def)             Requested size: 273.14923pt x 163.89069pt.
+ [3 <./Chapitre4/Figures/RangeAlpha/beta_1r15.pdf> <./Chapitre4/Figures/RangeAl
+pha/beta_1r125.pdf> <./Chapitre4/Figures/RangeAlpha/beta_1r1.pdf> <./Chapitre4/
+Figures/RangeAlpha/beta_1r05.pdf>]
+<Chapitre4/Figures/Hurst/Hurst_RecapCourt_alpha6.pdf, id=212, 578.16pt x 289.08
+pt>
+File: Chapitre4/Figures/Hurst/Hurst_RecapCourt_alpha6.pdf Graphic file (type pd
+f)
+<use Chapitre4/Figures/Hurst/Hurst_RecapCourt_alpha6.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Hurst/Hurst_RecapCourt_alpha6.pdf  u
+sed on input line 99.
+(pdftex.def)             Requested size: 318.66948pt x 159.33412pt.
+
+Underfull \vbox (badness 1024) has occurred while \output is active []
+
+ [4 <./Chapitre4/Figures/RangeAlpha/beta_alpha_suspensions.pdf>]
+<Chapitre4/Figures/Hurst/Hurst_RecapCourt_alpha2.pdf, id=232, 578.16pt x 289.08
+pt>
+File: Chapitre4/Figures/Hurst/Hurst_RecapCourt_alpha2.pdf Graphic file (type pd
+f)
+<use Chapitre4/Figures/Hurst/Hurst_RecapCourt_alpha2.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Hurst/Hurst_RecapCourt_alpha2.pdf  u
+sed on input line 105.
+(pdftex.def)             Requested size: 318.66948pt x 159.33412pt.
+<Chapitre4/Figures/Hurst/Hurst_RecapCourt_alpha15.pdf, id=233, 578.16pt x 289.0
+8pt>
+File: Chapitre4/Figures/Hurst/Hurst_RecapCourt_alpha15.pdf Graphic file (type p
+df)
+<use Chapitre4/Figures/Hurst/Hurst_RecapCourt_alpha15.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Hurst/Hurst_RecapCourt_alpha15.pdf  
+used on input line 111.
+(pdftex.def)             Requested size: 318.66948pt x 159.33412pt.
+<Chapitre4/Figures/Hurst/Hurst_RecapCourt_alpha125.pdf, id=234, 578.16pt x 289.
+08pt>
+File: Chapitre4/Figures/Hurst/Hurst_RecapCourt_alpha125.pdf Graphic file (type 
+pdf)
+<use Chapitre4/Figures/Hurst/Hurst_RecapCourt_alpha125.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Hurst/Hurst_RecapCourt_alpha125.pdf 
+ used on input line 117.
+(pdftex.def)             Requested size: 318.66948pt x 159.33412pt.
+
+Underfull \vbox (badness 6641) has occurred while \output is active []
+
+ [5 <./Chapitre4/Figures/Hurst/Hurst_RecapCourt_alpha6.pdf> <./Chapitre4/Figure
+s/Hurst/Hurst_RecapCourt_alpha2.pdf> <./Chapitre4/Figures/Hurst/Hurst_RecapCour
+t_alpha15.pdf>]
+<Chapitre4/Figures/Hurst/Hurst_RecapCourt_alpha1.pdf, id=283, 578.16pt x 289.08
+pt>
+File: Chapitre4/Figures/Hurst/Hurst_RecapCourt_alpha1.pdf Graphic file (type pd
+f)
+<use Chapitre4/Figures/Hurst/Hurst_RecapCourt_alpha1.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Hurst/Hurst_RecapCourt_alpha1.pdf  u
+sed on input line 123.
+(pdftex.def)             Requested size: 318.66948pt x 159.33412pt.
+<Chapitre4/Figures/Hurst/Hurst_RecapCourt_alpha05.pdf, id=284, 578.16pt x 289.0
+8pt>
+File: Chapitre4/Figures/Hurst/Hurst_RecapCourt_alpha05.pdf Graphic file (type p
+df)
+<use Chapitre4/Figures/Hurst/Hurst_RecapCourt_alpha05.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Hurst/Hurst_RecapCourt_alpha05.pdf  
+used on input line 129.
+(pdftex.def)             Requested size: 318.66948pt x 159.33412pt.
+<Chapitre4/Figures/Hurst/Hurst_RecapLong_alpha6.pdf, id=285, 578.16pt x 289.08p
+t>
+File: Chapitre4/Figures/Hurst/Hurst_RecapLong_alpha6.pdf Graphic file (type pdf
+)
+<use Chapitre4/Figures/Hurst/Hurst_RecapLong_alpha6.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Hurst/Hurst_RecapLong_alpha6.pdf  us
+ed on input line 141.
+(pdftex.def)             Requested size: 318.66948pt x 159.33412pt.
+ [6 <./Chapitre4/Figures/Hurst/Hurst_RecapCourt_alpha125.pdf> <./Chapitre4/Figu
+res/Hurst/Hurst_RecapCourt_alpha1.pdf> <./Chapitre4/Figures/Hurst/Hurst_RecapCo
+urt_alpha05.pdf>]
+<Chapitre4/Figures/Hurst/Hurst_RecapLong_alpha4.pdf, id=333, 578.16pt x 289.08p
+t>
+File: Chapitre4/Figures/Hurst/Hurst_RecapLong_alpha4.pdf Graphic file (type pdf
+)
+<use Chapitre4/Figures/Hurst/Hurst_RecapLong_alpha4.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Hurst/Hurst_RecapLong_alpha4.pdf  us
+ed on input line 147.
+(pdftex.def)             Requested size: 318.66948pt x 159.33412pt.
+<Chapitre4/Figures/Hurst/Hurst_RecapLong_alpha3.pdf, id=334, 578.16pt x 289.08p
+t>
+File: Chapitre4/Figures/Hurst/Hurst_RecapLong_alpha3.pdf Graphic file (type pdf
+)
+<use Chapitre4/Figures/Hurst/Hurst_RecapLong_alpha3.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Hurst/Hurst_RecapLong_alpha3.pdf  us
+ed on input line 153.
+(pdftex.def)             Requested size: 318.66948pt x 159.33412pt.
+<Chapitre4/Figures/Hurst/Hurst_RecapLong_alpha25.pdf, id=335, 578.16pt x 289.08
+pt>
+File: Chapitre4/Figures/Hurst/Hurst_RecapLong_alpha25.pdf Graphic file (type pd
+f)
+<use Chapitre4/Figures/Hurst/Hurst_RecapLong_alpha25.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Hurst/Hurst_RecapLong_alpha25.pdf  u
+sed on input line 159.
+(pdftex.def)             Requested size: 318.66948pt x 159.33412pt.
+ [7 <./Chapitre4/Figures/Hurst/Hurst_RecapLong_alpha6.pdf> <./Chapitre4/Figures
+/Hurst/Hurst_RecapLong_alpha4.pdf> <./Chapitre4/Figures/Hurst/Hurst_RecapLong_a
+lpha3.pdf>]
+<Chapitre4/Figures/Hurst/Hurst_RecapLong_alpha2.pdf, id=384, 578.16pt x 289.08p
+t>
+File: Chapitre4/Figures/Hurst/Hurst_RecapLong_alpha2.pdf Graphic file (type pdf
+)
+<use Chapitre4/Figures/Hurst/Hurst_RecapLong_alpha2.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Hurst/Hurst_RecapLong_alpha2.pdf  us
+ed on input line 165.
+(pdftex.def)             Requested size: 318.66948pt x 159.33412pt.
+<Chapitre4/Figures/Hurst/Hurst_RecapLong_alpha1.pdf, id=385, 578.16pt x 289.08p
+t>
+File: Chapitre4/Figures/Hurst/Hurst_RecapLong_alpha1.pdf Graphic file (type pdf
+)
+<use Chapitre4/Figures/Hurst/Hurst_RecapLong_alpha1.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Hurst/Hurst_RecapLong_alpha1.pdf  us
+ed on input line 171.
+(pdftex.def)             Requested size: 318.66948pt x 159.33412pt.
+<Chapitre4/Figures/Hurst/Hurst_MoyComb_alpha6.pdf, id=386, 361.35pt x 289.08pt>
+
+File: Chapitre4/Figures/Hurst/Hurst_MoyComb_alpha6.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/Hurst/Hurst_MoyComb_alpha6.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Hurst/Hurst_MoyComb_alpha6.pdf  used
+ on input line 183.
+(pdftex.def)             Requested size: 227.62206pt x 182.0993pt.
+ [8 <./Chapitre4/Figures/Hurst/Hurst_RecapLong_alpha25.pdf> <./Chapitre4/Figure
+s/Hurst/Hurst_RecapLong_alpha2.pdf> <./Chapitre4/Figures/Hurst/Hurst_RecapLong_
+alpha1.pdf>]
+<Chapitre4/Figures/Hurst/Hurst_MoyComb_alpha4.pdf, id=435, 361.35pt x 289.08pt>
+
+File: Chapitre4/Figures/Hurst/Hurst_MoyComb_alpha4.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/Hurst/Hurst_MoyComb_alpha4.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Hurst/Hurst_MoyComb_alpha4.pdf  used
+ on input line 189.
+(pdftex.def)             Requested size: 227.62206pt x 182.0993pt.
+<Chapitre4/Figures/Hurst/Hurst_MoyComb_alpha3.pdf, id=436, 361.35pt x 289.08pt>
+
+File: Chapitre4/Figures/Hurst/Hurst_MoyComb_alpha3.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/Hurst/Hurst_MoyComb_alpha3.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Hurst/Hurst_MoyComb_alpha3.pdf  used
+ on input line 195.
+(pdftex.def)             Requested size: 227.62206pt x 182.0993pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9 <./Chapitre4/Figures/Hurst/Hurst_MoyComb_alpha6.pdf> <./Chapitre4/Figures/H
+urst/Hurst_MoyComb_alpha4.pdf>]
+<Chapitre4/Figures/Hurst/Hurst_MoyComb_alpha25.pdf, id=471, 361.35pt x 289.08pt
+>
+File: Chapitre4/Figures/Hurst/Hurst_MoyComb_alpha25.pdf Graphic file (type pdf)
+
+<use Chapitre4/Figures/Hurst/Hurst_MoyComb_alpha25.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Hurst/Hurst_MoyComb_alpha25.pdf  use
+d on input line 201.
+(pdftex.def)             Requested size: 227.62206pt x 182.0993pt.
+<Chapitre4/Figures/Hurst/Hurst_MoyComb_alpha2.pdf, id=472, 361.35pt x 289.08pt>
+
+File: Chapitre4/Figures/Hurst/Hurst_MoyComb_alpha2.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/Hurst/Hurst_MoyComb_alpha2.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Hurst/Hurst_MoyComb_alpha2.pdf  used
+ on input line 207.
+(pdftex.def)             Requested size: 227.62206pt x 182.0993pt.
+<Chapitre4/Figures/Hurst/Hurst_MoyComb_alpha1.pdf, id=473, 361.35pt x 289.08pt>
+
+File: Chapitre4/Figures/Hurst/Hurst_MoyComb_alpha1.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/Hurst/Hurst_MoyComb_alpha1.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Hurst/Hurst_MoyComb_alpha1.pdf  used
+ on input line 213.
+(pdftex.def)             Requested size: 227.62206pt x 182.0993pt.
+ [10 <./Chapitre4/Figures/Hurst/Hurst_MoyComb_alpha3.pdf> <./Chapitre4/Figures/
+Hurst/Hurst_MoyComb_alpha25.pdf> <./Chapitre4/Figures/Hurst/Hurst_MoyComb_alpha
+2.pdf>]
+<Chapitre4/Figures/DistanceAtActivation/Par_alpha35.pdf, id=521, 361.35pt x 289
+.08pt>
+File: Chapitre4/Figures/DistanceAtActivation/Par_alpha35.pdf Graphic file (type
+ pdf)
+<use Chapitre4/Figures/DistanceAtActivation/Par_alpha35.pdf>
+Package pdftex.def Info: Chapitre4/Figures/DistanceAtActivation/Par_alpha35.pdf
+  used on input line 231.
+(pdftex.def)             Requested size: 227.62206pt x 182.0993pt.
+ [11 <./Chapitre4/Figures/Hurst/Hurst_MoyComb_alpha1.pdf>]
+<Chapitre4/Figures/DistanceAtActivation/Par_act_alpha35.pdf, id=546, 361.35pt x
+ 289.08pt>
+File: Chapitre4/Figures/DistanceAtActivation/Par_act_alpha35.pdf Graphic file (
+type pdf)
+<use Chapitre4/Figures/DistanceAtActivation/Par_act_alpha35.pdf>
+Package pdftex.def Info: Chapitre4/Figures/DistanceAtActivation/Par_act_alpha35
+.pdf  used on input line 237.
+(pdftex.def)             Requested size: 227.62206pt x 182.0993pt.
+<Chapitre4/Figures/DistanceAtActivation/Par_jump_alpha35.pdf, id=547, 361.35pt 
+x 289.08pt>
+File: Chapitre4/Figures/DistanceAtActivation/Par_jump_alpha35.pdf Graphic file 
+(type pdf)
+<use Chapitre4/Figures/DistanceAtActivation/Par_jump_alpha35.pdf>
+Package pdftex.def Info: Chapitre4/Figures/DistanceAtActivation/Par_jump_alpha3
+5.pdf  used on input line 245.
+(pdftex.def)             Requested size: 227.62206pt x 182.0993pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12 <./Chapitre4/Figures/DistanceAtActivation/Par_alpha35.pdf> <./Chapitre4/Fi
+gures/DistanceAtActivation/Par_act_alpha35.pdf>]
+<Chapitre4/Figures/DistanceAtActivation/Par_real_closerbigger_alpha35.pdf, id=5
+81, 361.35pt x 289.08pt>
+File: Chapitre4/Figures/DistanceAtActivation/Par_real_closerbigger_alpha35.pdf 
+Graphic file (type pdf)
+<use Chapitre4/Figures/DistanceAtActivation/Par_real_closerbigger_alpha35.pdf>
+Package pdftex.def Info: Chapitre4/Figures/DistanceAtActivation/Par_real_closer
+bigger_alpha35.pdf  used on input line 257.
+(pdftex.def)             Requested size: 227.62206pt x 182.0993pt.
+<Chapitre4/Figures/DistanceAtActivation/Par_real_furtherbigger_alpha35.pdf, id=
+582, 361.35pt x 289.08pt>
+File: Chapitre4/Figures/DistanceAtActivation/Par_real_furtherbigger_alpha35.pdf
+ Graphic file (type pdf)
+<use Chapitre4/Figures/DistanceAtActivation/Par_real_furtherbigger_alpha35.pdf>
+
+Package pdftex.def Info: Chapitre4/Figures/DistanceAtActivation/Par_real_furthe
+rbigger_alpha35.pdf  used on input line 263.
+(pdftex.def)             Requested size: 227.62206pt x 182.0993pt.
+ [13 <./Chapitre4/Figures/DistanceAtActivation/Par_jump_alpha35.pdf> <./Chapitr
+e4/Figures/DistanceAtActivation/Par_real_closerbigger_alpha35.pdf>]
+<Chapitre4/Figures/Tensorial/beta_1r3Tens.pdf, id=619, 289.08pt x 289.08pt>
+File: Chapitre4/Figures/Tensorial/beta_1r3Tens.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/Tensorial/beta_1r3Tens.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Tensorial/beta_1r3Tens.pdf  used on 
+input line 299.
+(pdftex.def)             Requested size: 159.33821pt x 159.33855pt.
+ [14 <./Chapitre4/Figures/DistanceAtActivation/Par_real_furtherbigger_alpha35.p
+df>]
+Overfull \hbox (8.1941pt too wide) in paragraph at lines 309--310
+ [][] \T1/lmr/m/n/12 De la même manière que précédem-ment, on déter-mine dans l
+e cas l'évolution de l'exposant
+ []
+
+<Chapitre4/Figures/BetaMFActive/beta_MF_1r25.pdf, id=643, 578.16pt x 289.08pt>
+File: Chapitre4/Figures/BetaMFActive/beta_MF_1r25.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/BetaMFActive/beta_MF_1r25.pdf>
+Package pdftex.def Info: Chapitre4/Figures/BetaMFActive/beta_MF_1r25.pdf  used 
+on input line 313.
+(pdftex.def)             Requested size: 273.14923pt x 136.57336pt.
+<Chapitre4/Figures/BetaMFActive/beta_MF_1r225.pdf, id=644, 578.16pt x 289.08pt>
+
+File: Chapitre4/Figures/BetaMFActive/beta_MF_1r225.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/BetaMFActive/beta_MF_1r225.pdf>
+Package pdftex.def Info: Chapitre4/Figures/BetaMFActive/beta_MF_1r225.pdf  used
+ on input line 318.
+(pdftex.def)             Requested size: 273.14923pt x 136.57336pt.
+
+Underfull \vbox (badness 1205) has occurred while \output is active []
+
+ [15 <./Chapitre4/Figures/Tensorial/beta_1r3Tens.pdf> <./Chapitre4/Figures/Beta
+MFActive/beta_MF_1r25.pdf>]
+<Chapitre4/Figures/BetaMFActive/beta_MF_1r2.pdf, id=683, 578.16pt x 289.08pt>
+File: Chapitre4/Figures/BetaMFActive/beta_MF_1r2.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/BetaMFActive/beta_MF_1r2.pdf>
+Package pdftex.def Info: Chapitre4/Figures/BetaMFActive/beta_MF_1r2.pdf  used o
+n input line 323.
+(pdftex.def)             Requested size: 273.14923pt x 136.57336pt.
+<Chapitre4/Figures/BetaMFActive/beta_MF_1r15.pdf, id=684, 578.16pt x 289.08pt>
+File: Chapitre4/Figures/BetaMFActive/beta_MF_1r15.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/BetaMFActive/beta_MF_1r15.pdf>
+Package pdftex.def Info: Chapitre4/Figures/BetaMFActive/beta_MF_1r15.pdf  used 
+on input line 328.
+(pdftex.def)             Requested size: 273.14923pt x 136.57336pt.
+<Chapitre4/Figures/BetaMFActive/beta_MF_1r125.pdf, id=685, 578.16pt x 289.08pt>
+
+File: Chapitre4/Figures/BetaMFActive/beta_MF_1r125.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/BetaMFActive/beta_MF_1r125.pdf>
+Package pdftex.def Info: Chapitre4/Figures/BetaMFActive/beta_MF_1r125.pdf  used
+ on input line 333.
+(pdftex.def)             Requested size: 273.14923pt x 136.57336pt.
+<Chapitre4/Figures/BetaMFActive/beta_MF_1r1.pdf, id=686, 578.16pt x 289.08pt>
+File: Chapitre4/Figures/BetaMFActive/beta_MF_1r1.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/BetaMFActive/beta_MF_1r1.pdf>
+Package pdftex.def Info: Chapitre4/Figures/BetaMFActive/beta_MF_1r1.pdf  used o
+n input line 338.
+(pdftex.def)             Requested size: 273.14923pt x 136.57336pt.
+ [16 <./Chapitre4/Figures/BetaMFActive/beta_MF_1r225.pdf> <./Chapitre4/Figures/
+BetaMFActive/beta_MF_1r2.pdf> <./Chapitre4/Figures/BetaMFActive/beta_MF_1r15.pd
+f> <./Chapitre4/Figures/BetaMFActive/beta_MF_1r125.pdf>]
+<Chapitre4/Figures/BetaMFActive/beta_MF_1r05.pdf, id=756, 578.16pt x 289.08pt>
+File: Chapitre4/Figures/BetaMFActive/beta_MF_1r05.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/BetaMFActive/beta_MF_1r05.pdf>
+Package pdftex.def Info: Chapitre4/Figures/BetaMFActive/beta_MF_1r05.pdf  used 
+on input line 343.
+(pdftex.def)             Requested size: 273.14923pt x 136.57336pt.
+<Chapitre4/Figures/BetaMFActive/beta_alphaMF.pdf, id=757, 361.35pt x 216.81pt>
+File: Chapitre4/Figures/BetaMFActive/beta_alphaMF.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/BetaMFActive/beta_alphaMF.pdf>
+Package pdftex.def Info: Chapitre4/Figures/BetaMFActive/beta_alphaMF.pdf  used 
+on input line 350.
+(pdftex.def)             Requested size: 227.62206pt x 136.57448pt.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
+59.
+
+(/usr/share/texmf/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [17 <./Chapitre4/Figures/BetaMFActive/beta_MF_1r1.pdf> <./Chapitre4/Figures/B
+etaMFActive/beta_MF_1r05.pdf> <./Chapitre4/Figures/BetaMFActive/beta_alphaMF.pd
+f>]
+Overfull \hbox (17.68672pt too wide) in paragraph at lines 360--361
+[]\T1/lmr/m/n/12 Une autre pour-rait être que la re-dis-tri-bu-tion des par-tic
+-ules ac-tives (présence d'activation
+ []
+
+<Chapitre4/Figures/BetaMFActive/grp1_alphaMF_1.pdf, id=806, 361.35pt x 289.08pt
+>
+File: Chapitre4/Figures/BetaMFActive/grp1_alphaMF_1.pdf Graphic file (type pdf)
+
+<use Chapitre4/Figures/BetaMFActive/grp1_alphaMF_1.pdf>
+Package pdftex.def Info: Chapitre4/Figures/BetaMFActive/grp1_alphaMF_1.pdf  use
+d on input line 370.
+(pdftex.def)             Requested size: 136.57462pt x 109.26045pt.
+<Chapitre4/Figures/BetaMFActive/grp1_alphaMF_25.pdf, id=807, 361.35pt x 289.08p
+t>
+File: Chapitre4/Figures/BetaMFActive/grp1_alphaMF_25.pdf Graphic file (type pdf
+)
+<use Chapitre4/Figures/BetaMFActive/grp1_alphaMF_25.pdf>
+Package pdftex.def Info: Chapitre4/Figures/BetaMFActive/grp1_alphaMF_25.pdf  us
+ed on input line 371.
+(pdftex.def)             Requested size: 136.57462pt x 109.26045pt.
+<Chapitre4/Figures/BetaMFActive/grp1_alphaMF_3.pdf, id=808, 361.35pt x 289.08pt
+>
+File: Chapitre4/Figures/BetaMFActive/grp1_alphaMF_3.pdf Graphic file (type pdf)
+
+<use Chapitre4/Figures/BetaMFActive/grp1_alphaMF_3.pdf>
+Package pdftex.def Info: Chapitre4/Figures/BetaMFActive/grp1_alphaMF_3.pdf  use
+d on input line 372.
+(pdftex.def)             Requested size: 136.57462pt x 109.26045pt.
+<Chapitre4/Figures/BetaMFActive/grp1_alphaMF_4.pdf, id=809, 361.35pt x 289.08pt
+>
+File: Chapitre4/Figures/BetaMFActive/grp1_alphaMF_4.pdf Graphic file (type pdf)
+
+<use Chapitre4/Figures/BetaMFActive/grp1_alphaMF_4.pdf>
+Package pdftex.def Info: Chapitre4/Figures/BetaMFActive/grp1_alphaMF_4.pdf  use
+d on input line 373.
+(pdftex.def)             Requested size: 136.57462pt x 109.26045pt.
+<Chapitre4/Figures/BetaMFActive/grp1_alphaMF_5.pdf, id=810, 361.35pt x 289.08pt
+>
+File: Chapitre4/Figures/BetaMFActive/grp1_alphaMF_5.pdf Graphic file (type pdf)
+
+<use Chapitre4/Figures/BetaMFActive/grp1_alphaMF_5.pdf>
+Package pdftex.def Info: Chapitre4/Figures/BetaMFActive/grp1_alphaMF_5.pdf  use
+d on input line 374.
+(pdftex.def)             Requested size: 136.57462pt x 109.26045pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--375
+[][] [] []
+ []
+
+[18 <./Chapitre4/Figures/BetaMFActive/grp1_alphaMF_1.pdf> <./Chapitre4/Figures/
+BetaMFActive/grp1_alphaMF_25.pdf> <./Chapitre4/Figures/BetaMFActive/grp1_alphaM
+F_3.pdf> <./Chapitre4/Figures/BetaMFActive/grp1_alphaMF_4.pdf> <./Chapitre4/Fig
+ures/BetaMFActive/grp1_alphaMF_5.pdf>]
+<Chapitre4/Figures/Jumps/beta_gamma6.pdf, id=925, 578.16pt x 289.08pt>
+File: Chapitre4/Figures/Jumps/beta_gamma6.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/Jumps/beta_gamma6.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Jumps/beta_gamma6.pdf  used on input
+ line 399.
+(pdftex.def)             Requested size: 273.14923pt x 136.57336pt.
+<Chapitre4/Figures/Jumps/beta_gamma5.pdf, id=926, 578.16pt x 289.08pt>
+File: Chapitre4/Figures/Jumps/beta_gamma5.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/Jumps/beta_gamma5.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Jumps/beta_gamma5.pdf  used on input
+ line 404.
+(pdftex.def)             Requested size: 273.14923pt x 136.57336pt.
+<Chapitre4/Figures/Jumps/beta_gamma4.pdf, id=927, 578.16pt x 289.08pt>
+File: Chapitre4/Figures/Jumps/beta_gamma4.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/Jumps/beta_gamma4.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Jumps/beta_gamma4.pdf  used on input
+ line 409.
+(pdftex.def)             Requested size: 273.14923pt x 136.57336pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19 <./Chapitre4/Figures/Jumps/beta_gamma6.pdf> <./Chapitre4/Figures/Jumps/bet
+a_gamma5.pdf>]
+<Chapitre4/Figures/Jumps/beta_gamma375.pdf, id=967, 578.16pt x 289.08pt>
+File: Chapitre4/Figures/Jumps/beta_gamma375.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/Jumps/beta_gamma375.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Jumps/beta_gamma375.pdf  used on inp
+ut line 414.
+(pdftex.def)             Requested size: 273.14923pt x 136.57336pt.
+<Chapitre4/Figures/Jumps/beta_gamma35.pdf, id=968, 578.16pt x 289.08pt>
+File: Chapitre4/Figures/Jumps/beta_gamma35.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/Jumps/beta_gamma35.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Jumps/beta_gamma35.pdf  used on inpu
+t line 419.
+(pdftex.def)             Requested size: 273.14923pt x 136.57336pt.
+<Chapitre4/Figures/Jumps/beta_gamma325.pdf, id=969, 578.16pt x 289.08pt>
+File: Chapitre4/Figures/Jumps/beta_gamma325.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/Jumps/beta_gamma325.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Jumps/beta_gamma325.pdf  used on inp
+ut line 424.
+(pdftex.def)             Requested size: 273.14923pt x 136.57336pt.
+<Chapitre4/Figures/Jumps/beta_gamma3.pdf, id=970, 578.16pt x 289.08pt>
+File: Chapitre4/Figures/Jumps/beta_gamma3.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/Jumps/beta_gamma3.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Jumps/beta_gamma3.pdf  used on input
+ line 429.
+(pdftex.def)             Requested size: 273.14923pt x 136.57336pt.
+ [20 <./Chapitre4/Figures/Jumps/beta_gamma4.pdf> <./Chapitre4/Figures/Jumps/bet
+a_gamma375.pdf> <./Chapitre4/Figures/Jumps/beta_gamma35.pdf> <./Chapitre4/Figur
+es/Jumps/beta_gamma325.pdf>]
+<Chapitre4/Figures/Jumps/beta_gamma25.pdf, id=1039, 578.16pt x 289.08pt>
+File: Chapitre4/Figures/Jumps/beta_gamma25.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/Jumps/beta_gamma25.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Jumps/beta_gamma25.pdf  used on inpu
+t line 434.
+(pdftex.def)             Requested size: 273.14923pt x 136.57336pt.
+<Chapitre4/Figures/Jumps/beta_jumps.pdf, id=1040, 397.485pt x 216.81pt>
+File: Chapitre4/Figures/Jumps/beta_jumps.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/Jumps/beta_jumps.pdf>
+Package pdftex.def Info: Chapitre4/Figures/Jumps/beta_jumps.pdf  used on input 
+line 441.
+(pdftex.def)             Requested size: 273.14923pt x 148.99364pt.
+<Chapitre4/Figures/JumpsLowAlpha/beta_gamma45_alpha6.pdf, id=1041, 578.16pt x 2
+89.08pt>
+File: Chapitre4/Figures/JumpsLowAlpha/beta_gamma45_alpha6.pdf Graphic file (typ
+e pdf)
+<use Chapitre4/Figures/JumpsLowAlpha/beta_gamma45_alpha6.pdf>
+Package pdftex.def Info: Chapitre4/Figures/JumpsLowAlpha/beta_gamma45_alpha6.pd
+f  used on input line 454.
+(pdftex.def)             Requested size: 273.14923pt x 136.57336pt.
+ [21 <./Chapitre4/Figures/Jumps/beta_gamma3.pdf> <./Chapitre4/Figures/Jumps/bet
+a_gamma25.pdf> <./Chapitre4/Figures/Jumps/beta_jumps.pdf>]
+<Chapitre4/Figures/JumpsLowAlpha/beta_gamma4_alpha6.pdf, id=1090, 578.16pt x 28
+9.08pt>
+File: Chapitre4/Figures/JumpsLowAlpha/beta_gamma4_alpha6.pdf Graphic file (type
+ pdf)
+<use Chapitre4/Figures/JumpsLowAlpha/beta_gamma4_alpha6.pdf>
+Package pdftex.def Info: Chapitre4/Figures/JumpsLowAlpha/beta_gamma4_alpha6.pdf
+  used on input line 459.
+(pdftex.def)             Requested size: 273.14923pt x 136.57336pt.
+<Chapitre4/Figures/JumpsLowAlpha/beta_gamma375_alpha6.pdf, id=1091, 578.16pt x 
+289.08pt>
+File: Chapitre4/Figures/JumpsLowAlpha/beta_gamma375_alpha6.pdf Graphic file (ty
+pe pdf)
+<use Chapitre4/Figures/JumpsLowAlpha/beta_gamma375_alpha6.pdf>
+Package pdftex.def Info: Chapitre4/Figures/JumpsLowAlpha/beta_gamma375_alpha6.p
+df  used on input line 464.
+(pdftex.def)             Requested size: 273.14923pt x 136.57336pt.
+<Chapitre4/Figures/JumpsLowAlpha/beta_gamma35_alpha6.pdf, id=1092, 578.16pt x 2
+89.08pt>
+File: Chapitre4/Figures/JumpsLowAlpha/beta_gamma35_alpha6.pdf Graphic file (typ
+e pdf)
+<use Chapitre4/Figures/JumpsLowAlpha/beta_gamma35_alpha6.pdf>
+Package pdftex.def Info: Chapitre4/Figures/JumpsLowAlpha/beta_gamma35_alpha6.pd
+f  used on input line 469.
+(pdftex.def)             Requested size: 273.14923pt x 136.57336pt.
+<Chapitre4/Figures/JumpsLowAlpha/beta_gamma325_alpha6.pdf, id=1093, 578.16pt x 
+289.08pt>
+File: Chapitre4/Figures/JumpsLowAlpha/beta_gamma325_alpha6.pdf Graphic file (ty
+pe pdf)
+<use Chapitre4/Figures/JumpsLowAlpha/beta_gamma325_alpha6.pdf>
+Package pdftex.def Info: Chapitre4/Figures/JumpsLowAlpha/beta_gamma325_alpha6.p
+df  used on input line 474.
+(pdftex.def)             Requested size: 273.14923pt x 136.57336pt.
+ [22 <./Chapitre4/Figures/JumpsLowAlpha/beta_gamma45_alpha6.pdf> <./Chapitre4/F
+igures/JumpsLowAlpha/beta_gamma4_alpha6.pdf> <./Chapitre4/Figures/JumpsLowAlpha
+/beta_gamma375_alpha6.pdf> <./Chapitre4/Figures/JumpsLowAlpha/beta_gamma35_alph
+a6.pdf>]
+<Chapitre4/Figures/JumpsLowAlpha/beta_gamma3_alpha6.pdf, id=1163, 578.16pt x 28
+9.08pt>
+File: Chapitre4/Figures/JumpsLowAlpha/beta_gamma3_alpha6.pdf Graphic file (type
+ pdf)
+<use Chapitre4/Figures/JumpsLowAlpha/beta_gamma3_alpha6.pdf>
+Package pdftex.def Info: Chapitre4/Figures/JumpsLowAlpha/beta_gamma3_alpha6.pdf
+  used on input line 479.
+(pdftex.def)             Requested size: 273.14923pt x 136.57336pt.
+<Chapitre4/Figures/JumpsLowAlpha/beta_gamma25_alpha6.pdf, id=1164, 578.16pt x 2
+89.08pt>
+File: Chapitre4/Figures/JumpsLowAlpha/beta_gamma25_alpha6.pdf Graphic file (typ
+e pdf)
+<use Chapitre4/Figures/JumpsLowAlpha/beta_gamma25_alpha6.pdf>
+Package pdftex.def Info: Chapitre4/Figures/JumpsLowAlpha/beta_gamma25_alpha6.pd
+f  used on input line 484.
+(pdftex.def)             Requested size: 273.14923pt x 136.57336pt.
+<Chapitre4/Figures/JumpsLowAlpha/beta_jumps_lowalpha.pdf, id=1165, 361.35pt x 2
+16.81pt>
+File: Chapitre4/Figures/JumpsLowAlpha/beta_jumps_lowalpha.pdf Graphic file (typ
+e pdf)
+<use Chapitre4/Figures/JumpsLowAlpha/beta_jumps_lowalpha.pdf>
+Package pdftex.def Info: Chapitre4/Figures/JumpsLowAlpha/beta_jumps_lowalpha.pd
+f  used on input line 489.
+(pdftex.def)             Requested size: 273.14923pt x 163.89069pt.
+ [23 <./Chapitre4/Figures/JumpsLowAlpha/beta_gamma325_alpha6.pdf> <./Chapitre4/
+Figures/JumpsLowAlpha/beta_gamma3_alpha6.pdf> <./Chapitre4/Figures/JumpsLowAlph
+a/beta_gamma25_alpha6.pdf> <./Chapitre4/Figures/JumpsLowAlpha/beta_jumps_lowalp
+ha.pdf>]
+<Chapitre4/Figures/beta_DA_1r6.pdf, id=1230, 289.08pt x 289.08pt>
+File: Chapitre4/Figures/beta_DA_1r6.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/beta_DA_1r6.pdf>
+Package pdftex.def Info: Chapitre4/Figures/beta_DA_1r6.pdf  used on input line 
+506.
+(pdftex.def)             Requested size: 182.09486pt x 182.0949pt.
+<Chapitre4/Figures/beta_DA_1r1.pdf, id=1231, 289.08pt x 289.08pt>
+File: Chapitre4/Figures/beta_DA_1r1.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/beta_DA_1r1.pdf>
+Package pdftex.def Info: Chapitre4/Figures/beta_DA_1r1.pdf  used on input line 
+507.
+(pdftex.def)             Requested size: 182.09486pt x 182.0949pt.
+<Chapitre4/Figures/MeanFieldLR.pdf, id=1233, 289.08pt x 289.08pt>
+File: Chapitre4/Figures/MeanFieldLR.pdf Graphic file (type pdf)
+<use Chapitre4/Figures/MeanFieldLR.pdf>
+Package pdftex.def Info: Chapitre4/Figures/MeanFieldLR.pdf  used on input line 
+526.
+(pdftex.def)             Requested size: 182.09486pt x 182.0949pt.
+ [24 <./Chapitre4/Figures/beta_DA_1r6.pdf> <./Chapitre4/Figures/beta_DA_1r1.pdf
+>]) (./compilation_chapitre4.bbl [25 <./Chapitre4/Figures/MeanFieldLR.pdf>] [26
+
+]) [27] (./compilation_chapitre4.aux) ) 
+Here is how much of TeX's memory you used:
+ 20291 strings out of 478287
+ 390993 string characters out of 5849288
+ 639393 words of memory out of 5000000
+ 37906 multiletter control sequences out of 15000+600000
+ 526335 words of font info for 78 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 76i,12n,120p,1018b,849s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-
+ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/
+enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr
+/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips
+/lm/lm-mathit.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/esint-type1/esint10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx1
+2.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/font
+s/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb>
+</usr/share/texmf/fonts/type1/public/lm/lmmib10.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
+mr8a.pfb>
+Output written on compilation_chapitre4.pdf (29 pages, 7755919 bytes).
+PDF statistics:
+ 1471 PDF objects out of 1728 (max. 8388607)
+ 1252 compressed objects within 13 object streams
+ 163 named destinations out of 1000 (max. 500000)
+ 454 words of extra memory for PDF output out of 10000 (max. 10000000)
+

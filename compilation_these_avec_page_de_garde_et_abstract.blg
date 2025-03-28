@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: compilation_these_avec_page_de_garde_et_abstract.aux
+The style file: ieeetr.bst
+Database file #1: biblio.bib
+Warning--empty note in schott_multiscale_2024
+Warning--empty journal in wiese_longrange
+Warning--empty author and editor in noauthor_physique_nodate
+Warning--empty publisher in noauthor_physique_nodate
+Warning--empty year in noauthor_physique_nodate
+You've used 154 entries,
+            1876 wiz_defined-function locations,
+            1275 strings with 30438 characters,
+and the built_in function-call counts, 44495 in all, are:
+= -- 4915
+> -- 1448
+< -- 0
++ -- 550
+- -- 396
+* -- 2967
+:= -- 5993
+add.period$ -- 246
+call.type$ -- 154
+change.case$ -- 148
+chr.to.int$ -- 0
+cite$ -- 159
+duplicate$ -- 2455
+empty$ -- 3668
+format.name$ -- 396
+if$ -- 11086
+int.to.chr$ -- 0
+int.to.str$ -- 154
+missing$ -- 147
+newline$ -- 558
+num.names$ -- 155
+pop$ -- 230
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 2197
+stack$ -- 0
+substring$ -- 2869
+swap$ -- 1363
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 5
+while$ -- 397
+width$ -- 157
+write$ -- 1681
+(There were 5 warnings)
