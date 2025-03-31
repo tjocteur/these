@@ -3,6 +3,7 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: compilation_these_avec_page_de_garde_et_abstract.aux
 The style file: ieeetr.bst
 Database file #1: biblio.bib
+Warning--I didn't find a database entry for "tyukodi_dépiégeage_2016"
 Warning--empty note in schott_multiscale_2024
 Warning--empty journal in wiese_longrange
 Warning--empty author and editor in noauthor_physique_nodate
@@ -10,7 +11,7 @@ Warning--empty publisher in noauthor_physique_nodate
 Warning--empty year in noauthor_physique_nodate
 You've used 154 entries,
             1876 wiz_defined-function locations,
-            1275 strings with 30438 characters,
+            1276 strings with 30463 characters,
 and the built_in function-call counts, 44495 in all, are:
 = -- 4915
 > -- 1448
@@ -49,4 +50,4 @@ warning$ -- 5
 while$ -- 397
 width$ -- 157
 write$ -- 1681
-(There were 5 warnings)
+(There were 6 warnings)

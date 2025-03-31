@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.1.12)  31 MAR 2025 09:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.10.26)  31 MAR 2025 19:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -80,9 +80,9 @@ Package: babel 2022/01/26 3.70 The Babel package
 (/usr/share/texlive/texmf-dist/tex/generic/babel-french/french.ldf
 Language: french 2021/07/20 v3.5m French support from the babel system
 Package babel Info: Hyphen rules for 'acadian' set to \l@french
-(babel)             (\language54). Reported on input line 91.
+(babel)             (\language15). Reported on input line 91.
 Package babel Info: Hyphen rules for 'canadien' set to \l@french
-(babel)             (\language54). Reported on input line 92.
+(babel)             (\language15). Reported on input line 92.
 \FB@nonchar=\count196
 Package babel Info: Making : an active character on input line 430.
 Package babel Info: Making ; an active character on input line 431.
@@ -1751,240 +1751,193 @@ vSuspensions.pdf>] [123] [124
 
 ]
 Chapitre 4.
-[125] [126]
-
-LaTeX Warning: Reference `sec:YieldingAsAnAPT' on page 127 undefined on input l
-ine 46.
-
-
-LaTeX Warning: Reference `sec:introduction' on page 127 undefined on input line
- 54.
-
-[127]
-
-LaTeX Warning: Reference `sec:introduction' on page 128 undefined on input line
- 81.
-
-[128]
-<Chapitre4/Figures/Methode/Mesoscaling.pdf, id=3794, 558.71632pt x 173.10411pt>
+[125] [126] [127] [128]
+<Chapitre4/Figures/Methode/Mesoscaling.pdf, id=3800, 558.71632pt x 173.10411pt>
 
 File: Chapitre4/Figures/Methode/Mesoscaling.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/Methode/Mesoscaling.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Methode/Mesoscaling.pdf  used on inp
-ut line 87.
+ut line 89.
 (pdftex.def)             Requested size: 364.19667pt x 112.84122pt.
- [129 <./Chapitre4/Figures/Methode/Mesoscaling.pdf>]
-<Chapitre4/Figures/Methode/PicardTau.pdf, id=3853, 215.41089pt x 112.81644pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[129]
+<Chapitre4/Figures/Methode/PicardTau.pdf, id=3811, 215.41089pt x 112.81644pt>
 File: Chapitre4/Figures/Methode/PicardTau.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/Methode/PicardTau.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Methode/PicardTau.pdf  used on input
- line 106.
+ line 108.
 (pdftex.def)             Requested size: 227.62206pt x 119.213pt.
+ [130 <./Chapitre4/Figures/Methode/Mesoscaling.pdf> <./Chapitre4/Figures/Method
+e/PicardTau.pdf
 
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapitre4/Figures/Methode/PicardTau.p
+df): PDF inclusion: multiple pdfs with page group included in a single page
+>]
 
-LaTeX Warning: Reference `sec:introduction' on page 130 undefined on input line
- 124.
+LaTeX Warning: Reference `sec:introduction' on page 131 undefined on input line
+ 126.
 
-[130 <./Chapitre4/Figures/Methode/PicardTau.pdf>] [131]
-<Chapitre4/Figures/Methode/ModeleResults.pdf, id=3883, 982.87122pt x 260.17122p
+[131]
+<Chapitre4/Figures/Methode/ModeleResults.pdf, id=3886, 982.87122pt x 260.17122p
 t>
 File: Chapitre4/Figures/Methode/ModeleResults.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/Methode/ModeleResults.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Methode/ModeleResults.pdf  used on i
-nput line 172.
+nput line 174.
 (pdftex.def)             Requested size: 455.24411pt x 120.50594pt.
-
-Underfull \vbox (badness 1496) has occurred while \output is active []
-
  [132 <./Chapitre4/Figures/Methode/ModeleResults.pdf>] [133]
-<Chapitre4/Figures/CasPhysique/CP_Classic.pdf, id=3956, 389.69025pt x 210.08566
+<Chapitre4/Figures/CasPhysique/CP_Classic.pdf, id=3958, 389.69025pt x 210.08566
 pt>
 File: Chapitre4/Figures/CasPhysique/CP_Classic.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/CasPhysique/CP_Classic.pdf>
 Package pdftex.def Info: Chapitre4/Figures/CasPhysique/CP_Classic.pdf  used on 
-input line 215.
+input line 217.
 (pdftex.def)             Requested size: 295.90588pt x 159.52571pt.
- [134 <./Chapitre4/Figures/CasPhysique/CP_Classic.pdf>]
-<Chapitre4/Figures/CasPhysique/ApprocheFSS.pdf, id=4080, 285.69379pt x 169.3363
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[134] [135 <./Chapitre4/Figures/CasPhysique/CP_Classic.pdf>]
+<Chapitre4/Figures/CasPhysique/ApprocheFSS.pdf, id=4088, 285.69379pt x 169.3363
 3pt>
 File: Chapitre4/Figures/CasPhysique/ApprocheFSS.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/CasPhysique/ApprocheFSS.pdf>
 Package pdftex.def Info: Chapitre4/Figures/CasPhysique/ApprocheFSS.pdf  used on
- input line 242.
+ input line 244.
 (pdftex.def)             Requested size: 273.14923pt x 161.90213pt.
 
 
-LaTeX Warning: Reference `sec:introduction' on page 135 undefined on input line
- 247.
+LaTeX Warning: Reference `sec:introduction' on page 136 undefined on input line
+ 249.
 
-[135] [136 <./Chapitre4/Figures/CasPhysique/ApprocheFSS.pdf>]
-<Chapitre4/Figures/CasPhysique/FSS_Classic_edited.pdf, id=4111, 838.33122pt x 2
+[136 <./Chapitre4/Figures/CasPhysique/ApprocheFSS.pdf>]
+<Chapitre4/Figures/CasPhysique/FSS_Classic_edited.pdf, id=4109, 838.33122pt x 2
 96.30621pt>
 File: Chapitre4/Figures/CasPhysique/FSS_Classic_edited.pdf Graphic file (type p
 df)
 <use Chapitre4/Figures/CasPhysique/FSS_Classic_edited.pdf>
 Package pdftex.def Info: Chapitre4/Figures/CasPhysique/FSS_Classic_edited.pdf  
-used on input line 296.
+used on input line 298.
 (pdftex.def)             Requested size: 455.24411pt x 160.90721pt.
- [137 <./Chapitre4/Figures/CasPhysique/FSS_Classic_edited.pdf>]
-
-LaTeX Warning: Reference `sec:introduction' on page 138 undefined on input line
- 319.
-
-[138]
-<Chapitre4/Figures/CourtePortee/Prog_CP.pdf, id=4277, 806.88794pt x 225.99486pt
+ [137] [138 <./Chapitre4/Figures/CasPhysique/FSS_Classic_edited.pdf>] [139]
+<Chapitre4/Figures/CourtePortee/Prog_CP.pdf, id=4285, 806.88794pt x 225.99486pt
 >
 File: Chapitre4/Figures/CourtePortee/Prog_CP.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/CourtePortee/Prog_CP.pdf>
 Package pdftex.def Info: Chapitre4/Figures/CourtePortee/Prog_CP.pdf  used on in
-put line 348.
+put line 350.
 (pdftex.def)             Requested size: 455.24411pt x 127.50455pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[139]
-<Chapitre4/Figures/CourtePortee/FSS_SRP_edited.pdf, id=4287, 824.28656pt x 494.
+<Chapitre4/Figures/CourtePortee/FSS_SRP_edited.pdf, id=4289, 824.28656pt x 494.
 30763pt>
 File: Chapitre4/Figures/CourtePortee/FSS_SRP_edited.pdf Graphic file (type pdf)
 
 <use Chapitre4/Figures/CourtePortee/FSS_SRP_edited.pdf>
 Package pdftex.def Info: Chapitre4/Figures/CourtePortee/FSS_SRP_edited.pdf  use
-d on input line 357.
+d on input line 359.
 (pdftex.def)             Requested size: 455.24411pt x 273.0014pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [140 <./Chapitre4/Figures/CourtePortee/Prog_CP.pdf>]
-<Chapitre4/Figures/CourtePortee/ZMCP.pdf, id=4368, 653.91365pt x 227.80542pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [141 <./Chapitre4/Figures/CourtePortee/FSS_SRP_edited.pdf>]
+<Chapitre4/Figures/CourtePortee/ZMCP.pdf, id=4532, 653.91365pt x 227.80542pt>
 File: Chapitre4/Figures/CourtePortee/ZMCP.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/CourtePortee/ZMCP.pdf>
 Package pdftex.def Info: Chapitre4/Figures/CourtePortee/ZMCP.pdf  used on input
- line 376.
+ line 378.
 (pdftex.def)             Requested size: 364.19667pt x 126.87495pt.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Citation `tyukodi_dÃ©piÃ©geage_2016' on page 142 undefined on in
+put line 383.
 
-[141 <./Chapitre4/Figures/CourtePortee/FSS_SRP_edited.pdf>]
-<Chapitre4/Figures/CourtePortee/StrainLoc.pdf, id=4540, 606.52727pt x 289.08pt>
+<Chapitre4/Figures/CourtePortee/StrainLoc.pdf, id=4538, 606.52727pt x 289.08pt>
 
 File: Chapitre4/Figures/CourtePortee/StrainLoc.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/CourtePortee/StrainLoc.pdf>
 Package pdftex.def Info: Chapitre4/Figures/CourtePortee/StrainLoc.pdf  used on 
-input line 385.
+input line 387.
 (pdftex.def)             Requested size: 364.19667pt x 173.58607pt.
- [142 <./Chapitre4/Figures/CourtePortee/ZMCP.pdf> <./Chapitre4/Figures/CourtePo
-rtee/StrainLoc.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./Chapitre4/Figures/CourtePortee/Strain
-Loc.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
-e
->]
-<Chapitre4/Figures/CourtePortee/FSS_SRNC_edited.pdf, id=4587, 838.33122pt x 513
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[142 <./Chapitre4/Figures/CourtePortee/ZMCP.pdf>] [143 <./Chapitre4/Figures/Cou
+rtePortee/StrainLoc.pdf>]
+<Chapitre4/Figures/CourtePortee/FSS_SRNC_edited.pdf, id=4597, 838.33122pt x 513
 .11621pt>
 File: Chapitre4/Figures/CourtePortee/FSS_SRNC_edited.pdf Graphic file (type pdf
 )
 <use Chapitre4/Figures/CourtePortee/FSS_SRNC_edited.pdf>
 Package pdftex.def Info: Chapitre4/Figures/CourtePortee/FSS_SRNC_edited.pdf  us
-ed on input line 419.
+ed on input line 421.
 (pdftex.def)             Requested size: 455.24411pt x 278.64453pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[143]
-<Chapitre4/Figures/CourtePortee/MapsofActSR.pdf, id=4600, 436.50801pt x 173.919
+ [144 <./Chapitre4/Figures/CourtePortee/FSS_SRNC_edited.pdf>]
+<Chapitre4/Figures/CourtePortee/MapsofActSR.pdf, id=4722, 436.50801pt x 173.919
 3pt>
 File: Chapitre4/Figures/CourtePortee/MapsofActSR.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/CourtePortee/MapsofActSR.pdf>
 Package pdftex.def Info: Chapitre4/Figures/CourtePortee/MapsofActSR.pdf  used o
-n input line 430.
+n input line 432.
 (pdftex.def)             Requested size: 295.90588pt x 117.89996pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `sec:introduction' on page 144 undefined on input line
- 437.
-
-[144 <./Chapitre4/Figures/CourtePortee/FSS_SRNC_edited.pdf>] [145 <./Chapitre4/
-Figures/CourtePortee/MapsofActSR.pdf>] [146]
-Overfull \hbox (31.00835pt too wide) detected at line 531
+ [145 <./Chapitre4/Figures/CourtePortee/MapsofActSR.pdf>] [146]
+Overfull \hbox (31.00835pt too wide) detected at line 533
 [][]\OML/lmm/m/it/12 G\OT1/lmr/m/n/12 (\OML/lmm/m/it/12 r; ^^R\OT1/lmr/m/n/12 )
  = \OML/lmm/m/it/12 B[][];  B[] \OT1/lmr/m/n/12 = \OML/lmm/m/it/12 b[][];  C[] 
 \OT1/lmr/m/n/12 = []
  []
 
-<Chapitre4/Figures/LonguePortee/ResolutionOscillationsPropagateur.pdf, id=4767,
+[147]
+<Chapitre4/Figures/LonguePortee/ResolutionOscillationsPropagateur.pdf, id=4780,
  693.79121pt x 260.17122pt>
 File: Chapitre4/Figures/LonguePortee/ResolutionOscillationsPropagateur.pdf Grap
 hic file (type pdf)
 <use Chapitre4/Figures/LonguePortee/ResolutionOscillationsPropagateur.pdf>
 Package pdftex.def Info: Chapitre4/Figures/LonguePortee/ResolutionOscillationsP
-ropagateur.pdf  used on input line 541.
+ropagateur.pdf  used on input line 543.
 (pdftex.def)             Requested size: 386.96027pt x 145.11131pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[147]
-<Chapitre4/Figures/LonguePortee/AlphaPicard.pdf, id=4787, 535.19087pt x 241.638
+ [148 <./Chapitre4/Figures/LonguePortee/ResolutionOscillationsPropagateur.pdf>]
+<Chapitre4/Figures/LonguePortee/AlphaPicard.pdf, id=4810, 535.19087pt x 241.638
 32pt>
 File: Chapitre4/Figures/LonguePortee/AlphaPicard.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/LonguePortee/AlphaPicard.pdf>
 Package pdftex.def Info: Chapitre4/Figures/LonguePortee/AlphaPicard.pdf  used o
-n input line 564.
-(pdftex.def)             Requested size: 455.24411pt x 205.54102pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[148 <./Chapitre4/Figures/LonguePortee/ResolutionOscillationsPropagateur.pdf>]
-[149 <./Chapitre4/Figures/LonguePortee/AlphaPicard.pdf>] [150] [151]
-<Chapitre4/Figures/LonguePortee/axe_alpha.pdf, id=4974, 443.03194pt x 158.2438p
+n input line 566.
+(pdftex.def)             Requested size: 409.71692pt x 184.98544pt.
+ [149 <./Chapitre4/Figures/LonguePortee/AlphaPicard.pdf>] [150] [151]
+[152]
+<Chapitre4/Figures/LonguePortee/axe_alpha.pdf, id=4981, 443.03194pt x 158.2438p
 t>
 File: Chapitre4/Figures/LonguePortee/axe_alpha.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/LonguePortee/axe_alpha.pdf>
 Package pdftex.def Info: Chapitre4/Figures/LonguePortee/axe_alpha.pdf  used on 
-input line 686.
+input line 679.
 (pdftex.def)             Requested size: 318.66948pt x 113.8292pt.
- [152 <./Chapitre4/Figures/LonguePortee/axe_alpha.pdf>]
-
-LaTeX Warning: Reference `sec:introduction' on page 153 undefined on input line
- 697.
-
-[153] [154]
+ [153 <./Chapitre4/Figures/LonguePortee/axe_alpha.pdf>] [154]
 
 LaTeX Warning: Reference `sec:introduction' on page 155 undefined on input line
- 767.
+ 760.
 
-[155]
-<Chapitre4/Figures/Correlations/Sfact_SRPNC.pdf, id=5079, 794.97pt x 289.08pt>
+[155] [156]
+<Chapitre4/Figures/Correlations/Sfact_SRPNC.pdf, id=5087, 794.97pt x 289.08pt>
 File: Chapitre4/Figures/Correlations/Sfact_SRPNC.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/Correlations/Sfact_SRPNC.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Correlations/Sfact_SRPNC.pdf  used o
-n input line 822.
+n input line 815.
 (pdftex.def)             Requested size: 455.24411pt x 165.54922pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Chapitre4/Figures/Correlations/Sfact_Disp_SRPNC.pdf, id=5080, 794.97pt x 289.0
+<Chapitre4/Figures/Correlations/Sfact_Disp_SRPNC.pdf, id=5088, 794.97pt x 289.0
 8pt>
 File: Chapitre4/Figures/Correlations/Sfact_Disp_SRPNC.pdf Graphic file (type pd
 f)
 <use Chapitre4/Figures/Correlations/Sfact_Disp_SRPNC.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Correlations/Sfact_Disp_SRPNC.pdf  u
-sed on input line 830.
+sed on input line 823.
 (pdftex.def)             Requested size: 455.24411pt x 165.54922pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[156]
-Underfull \vbox (badness 1117) has occurred while \output is active []
-
  [157 <./Chapitre4/Figures/Correlations/Sfact_SRPNC.pdf> <./Chapitre4/Figures/C
 orrelations/Sfact_Disp_SRPNC.pdf
 
@@ -1996,84 +1949,104 @@ gle page
 File: Chapitre4/Figures/Correlations/Sfact_SRP.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/Correlations/Sfact_SRP.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Correlations/Sfact_SRP.pdf  used on 
-input line 849.
+input line 842.
 (pdftex.def)             Requested size: 455.24411pt x 165.54922pt.
  [158 <./Chapitre4/Figures/Correlations/Sfact_SRP.pdf>]
-<Chapitre4/Figures/Correlations/Evol_Sfact.pdf, id=5174, 678.26054pt x 248.9966
+<Chapitre4/Figures/Correlations/Evol_Sfact.pdf, id=5176, 678.26054pt x 248.9966
 1pt>
 File: Chapitre4/Figures/Correlations/Evol_Sfact.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/Correlations/Evol_Sfact.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Correlations/Evol_Sfact.pdf  used on
- input line 862.
+ input line 855.
 (pdftex.def)             Requested size: 455.24411pt x 167.127pt.
 
-Overfull \hbox (4.50117pt too wide) in paragraph at lines 884--885
+Overfull \hbox (4.50117pt too wide) in paragraph at lines 877--878
 [] [][] \T1/lmr/m/n/12 Nous re-mar-quons alors une évo-lu-tion a priori conti-n
 ue de l'hy-per-uni-for-mité de contrainte,
  []
 
 [159 <./Chapitre4/Figures/Correlations/Evol_Sfact.pdf>] [160]
-<Chapitre4/Figures/Avalanches/Pheno.pdf, id=5247, 422.10432pt x 122.383pt>
+<Chapitre4/Figures/Avalanches/Pheno.pdf, id=5248, 422.10432pt x 122.383pt>
 File: Chapitre4/Figures/Avalanches/Pheno.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/Avalanches/Pheno.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Avalanches/Pheno.pdf  used on input 
-line 927.
+line 920.
 (pdftex.def)             Requested size: 455.24411pt x 131.99425pt.
- [161 <./Chapitre4/Figures/Avalanches/Pheno.pdf>]
-<Chapitre4/Figures/Avalanches/AQS.pdf, id=5273, 501.50291pt x 245.67554pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[161]
+<Chapitre4/Figures/Avalanches/AQS.pdf, id=5258, 501.50291pt x 245.67554pt>
 File: Chapitre4/Figures/Avalanches/AQS.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/Avalanches/AQS.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Avalanches/AQS.pdf  used on input li
-ne 938.
+ne 931.
 (pdftex.def)             Requested size: 273.14923pt x 133.8099pt.
+ [162 <./Chapitre4/Figures/Avalanches/Pheno.pdf> <./Chapitre4/Figures/Avalanche
+s/AQS.pdf
 
-Overfull \hbox (12.11163pt too wide) in paragraph at lines 955--956
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapitre4/Figures/Avalanches/AQS.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+>]
+Overfull \hbox (12.11163pt too wide) in paragraph at lines 948--949
 [] [][] \T1/lmr/m/n/12 D'un point de vue ana-ly-tique, comme nous l'avons men-t
 ionné à la [][]sous-sous-section 4.1.3.1[][][],
  []
 
-[162 <./Chapitre4/Figures/Avalanches/AQS.pdf>] [163] [164]
-<Chapitre4/Figures/Avalanches/PbContrainte.pdf, id=5330, 439.08876pt x 129.6582
+[163] [164]
+<Chapitre4/Figures/Avalanches/PbContrainte.pdf, id=5331, 439.08876pt x 129.6582
 2pt>
 File: Chapitre4/Figures/Avalanches/PbContrainte.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/Avalanches/PbContrainte.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Avalanches/PbContrainte.pdf  used on
- input line 993.
+ input line 986.
 (pdftex.def)             Requested size: 455.24411pt x 134.43576pt.
- [165 <./Chapitre4/Figures/Avalanches/PbContrainte.pdf>] [166]
-<Chapitre4/Figures/Avalanches/Comparaison_Distrib.pdf, id=5368, 471.53117pt x 1
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[165] [166 <./Chapitre4/Figures/Avalanches/PbContrainte.pdf>]
+<Chapitre4/Figures/Avalanches/Comparaison_Distrib.pdf, id=5369, 471.53117pt x 1
 46.2401pt>
 File: Chapitre4/Figures/Avalanches/Comparaison_Distrib.pdf Graphic file (type p
 df)
 <use Chapitre4/Figures/Avalanches/Comparaison_Distrib.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Avalanches/Comparaison_Distrib.pdf  
-used on input line 1030.
+used on input line 1023.
 (pdftex.def)             Requested size: 455.24411pt x 141.19667pt.
- [167 <./Chapitre4/Figures/Avalanches/Comparaison_Distrib.pdf>]
-<Chapitre4/Figures/Avalanches/Collapse.pdf, id=5545, 965.2382pt x 332.83076pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[167]
+<Chapitre4/Figures/Avalanches/Collapse.pdf, id=5378, 965.2382pt x 332.83076pt>
 File: Chapitre4/Figures/Avalanches/Collapse.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/Avalanches/Collapse.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Avalanches/Collapse.pdf  used on inp
-ut line 1045.
+ut line 1038.
 (pdftex.def)             Requested size: 455.24411pt x 156.97388pt.
- [168 <./Chapitre4/Figures/Avalanches/Collapse.pdf>]
-[169]
-<Chapitre4/Figures/Avalanches/Rescale_Av_alpha3.pdf, id=5587, 867.24pt x 289.08
+ [168 <./Chapitre4/Figures/Avalanches/Comparaison_Distrib.pdf> <./Chapitre4/Fig
+ures/Avalanches/Collapse.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapitre4/Figures/Avalanches/Collapse
+.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [169]
+<Chapitre4/Figures/Avalanches/Rescale_Av_alpha3.pdf, id=5584, 867.24pt x 289.08
 pt>
 File: Chapitre4/Figures/Avalanches/Rescale_Av_alpha3.pdf Graphic file (type pdf
 )
 <use Chapitre4/Figures/Avalanches/Rescale_Av_alpha3.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Avalanches/Rescale_Av_alpha3.pdf  us
-ed on input line 1087.
+ed on input line 1080.
 (pdftex.def)             Requested size: 455.24411pt x 151.74721pt.
+ [170 <./Chapitre4/Figures/Avalanches/Rescale_Av_alpha3.pdf>]
 
+LaTeX Warning: Reference `sec:Susp' on page 171 undefined on input line 1103.
 
-LaTeX Warning: Reference `sec:Susp' on page 170 undefined on input line 1110.
-
-[170 <./Chapitre4/Figures/Avalanches/Rescale_Av_alpha3.pdf>]
 
 LaTeX Warning: Reference `sec:introduction' on page 171 undefined on input line
- 1116.
+ 1109.
 
 [171]) (./Chapitre5/chapitre5.tex [172]
 Chapitre 5.
@@ -2843,9 +2816,9 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 24222 strings out of 478287
- 470361 string characters out of 5849289
- 728921 words of memory out of 5000000
+ 24219 strings out of 478287
+ 470322 string characters out of 5849288
+ 728945 words of memory out of 5000000
  40843 multiletter control sequences out of 15000+600000
  602067 words of font info for 137 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2882,10 +2855,10 @@ ts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb>
 Output written on compilation_these_avec_page_de_garde_et_abstract.pdf (245 pag
-es, 11833342 bytes).
+es, 11832516 bytes).
 PDF statistics:
  7768 PDF objects out of 8907 (max. 8388607)
  6033 compressed objects within 61 object streams
- 1000 named destinations out of 1000 (max. 500000)
+ 997 named destinations out of 1000 (max. 500000)
  1689 words of extra memory for PDF output out of 10000 (max. 10000000)
 
