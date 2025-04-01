@@ -708,11 +708,6 @@ E.~Lerner, ``Simple argument for emergent anisotropic stress correlations in
   disordered solids,'' {\em The Journal of Chemical Physics}, vol.~153,
   p.~216101, Dec. 2020.
 
-\bibitem{chaikin_principles_1995}
-P.~M. Chaikin and T.~C. Lubensky, {\em Principles of {Condensed} {Matter}
-  {Physics}}.
-\newblock Cambridge: Cambridge University Press, 1995.
-
 \bibitem{semeikin_roughness_2024}
 M.~N. Semeikin and K.~J. Wiese, ``Roughness and critical force for depinning at
   3-loop order,'' {\em Physical Review B}, vol.~109, p.~134203, Apr. 2024.
@@ -764,27 +759,11 @@ C.~Le~Priol, ``Spatial {Clustering} of {Depinning} {Avalanches} in {Presence}
   of {Long}-{Range} {Interactions},'' {\em Physical Review Letters}, vol.~126,
   no.~2, 2021.
 
-\bibitem{weiss_finite_2014}
-J.~Weiss, L.~Girard, F.~Gimbert, D.~Amitrano, and D.~Vandembroucq, ``({Finite})
-  statistical size effects on compressive strength,'' {\em Proceedings of the
-  National Academy of Sciences}, vol.~111, pp.~6231--6236, Apr. 2014.
-\newblock Publisher: Proceedings of the National Academy of Sciences.
-
-\bibitem{dornic_integration_2005}
-I.~Dornic, H.~Chaté, and M.~A. Muñoz, ``Integration of {Langevin} {Equations}
-  with {Multiplicative} {Noise} and the {Viability} of {Field} {Theories} for
-  {Absorbing} {Phase} {Transitions},'' {\em Physical Review Letters}, vol.~94,
-  p.~100601, Mar. 2005.
+\bibitem{jocteur_protocol_2025}
+T.~Jocteur, E.~Bertin, R.~Mari, and K.~Martens, ``Protocol dependence for
+  avalanches under constant stress in elastoplastic models,'' {\em Physical
+  Review E}, vol.~111, p.~024101, Feb. 2025.
 \newblock Publisher: American Physical Society.
-
-\bibitem{munoz_mean_field_2005}
-M.~A. Muñoz, ``Mean-field limit of systems with multiplicative noise,'' {\em
-  Physical Review E}, vol.~72, no.~5, 2005.
-
-\bibitem{munoz_multiplicative_2003}
-M.~A. Munoz, ``Multiplicative {Noise} in {Non}-equilibrium {Phase}
-  {Transitions}: {A} tutorial,'' May 2003.
-\newblock arXiv:cond-mat/0303650.
 
 \bibitem{joanny_model_1984}
 J.~F. Joanny and P.~G. de~Gennes, ``A model for contact angle hysteresis,''
@@ -850,5 +829,27 @@ S.~Jespersen, R.~Metzler, and H.~C. Fogedby, ``L{\textbackslash}'evy flights in
   and their solutions,'' {\em Physical Review E}, vol.~59, pp.~2736--2745, Mar.
   1999.
 \newblock Publisher: American Physical Society.
+
+\bibitem{weiss_finite_2014}
+J.~Weiss, L.~Girard, F.~Gimbert, D.~Amitrano, and D.~Vandembroucq, ``({Finite})
+  statistical size effects on compressive strength,'' {\em Proceedings of the
+  National Academy of Sciences}, vol.~111, pp.~6231--6236, Apr. 2014.
+\newblock Publisher: Proceedings of the National Academy of Sciences.
+
+\bibitem{dornic_integration_2005}
+I.~Dornic, H.~Chaté, and M.~A. Muñoz, ``Integration of {Langevin} {Equations}
+  with {Multiplicative} {Noise} and the {Viability} of {Field} {Theories} for
+  {Absorbing} {Phase} {Transitions},'' {\em Physical Review Letters}, vol.~94,
+  p.~100601, Mar. 2005.
+\newblock Publisher: American Physical Society.
+
+\bibitem{munoz_mean_field_2005}
+M.~A. Muñoz, ``Mean-field limit of systems with multiplicative noise,'' {\em
+  Physical Review E}, vol.~72, no.~5, 2005.
+
+\bibitem{munoz_multiplicative_2003}
+M.~A. Munoz, ``Multiplicative {Noise} in {Non}-equilibrium {Phase}
+  {Transitions}: {A} tutorial,'' May 2003.
+\newblock arXiv:cond-mat/0303650.
 
 \end{thebibliography}

@@ -1,4 +1,4 @@
-\chapter*{Annexe}
+\chapter*{Annexes}
 \label{chapter:annexe}
 \addcontentsline{toc}{chapter}{Annexe}
 
@@ -24,6 +24,8 @@
 \end{equation}
 
 \noindent avec $D$ la dimension de l'espace. Nous utilisons aussi parfois par ailleurs la notation $\mathcal{F}[\cdot]$ à la place de la notation $\hat{\cdot}$ pour des soucis de lisibilité.
+
+\subparagraph{}Dans le cas de grandeurs discrètes définies sur un réseau, nous utiliserons aussi la notation $\hat{\cdot}$ pour désigner la transformée de Fourier discrète associée. Celle-ci est alors définie selon les conventions choisies par le module CuFFT de CUDA \cite{cuda}.
 
 \subsection{Implémentation discrète des propagateurs}
 
@@ -202,6 +204,8 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \noindent avec $\alpha$ un entier pouvant prendre différentes valeurs en fonction du dispositif spécifique étudié. Via a minima la conservation de la masse, ces interactions présentent donc toujours la particularité d'être à longue portée. Dans une modélisation plus spécifique de la transition de réversibilité, les interactions irréversibles de contact entre deux particules peuvent être vues comme des dipôles de force sur le fluide. Les résultats présentés précédemment sont alors modifiés selon $\alpha \rightarrow \alpha +1$. Par exemple, en milieu 3D infini, nous nous attendons à ce qu'un évènement affecte les autres particules du système via une interaction décroissant comme $\sim 1/r^2$.
 
+\FloatBarrier
+
 \section{Transport à longue portée}
 
 \subsection{Mesures d'hyperuniformité dans le modèle LR-Manna}
@@ -238,6 +242,8 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 	\label{fig:MannaCMHU_rescale_gamma3}
 \end{figure}
 
+\FloatBarrier
+
 \section{Transition de réversibilité}
 
 \subsection{Transformée de Fourier des propagateurs}
@@ -266,7 +272,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \subparagraph{}Dans ce modèle, les particules n'interagissent pas directement entre elles, mais indirectement via la distribution de sauts qui dépend de l'activité dans le système $\tau\Gamma (t)$. Celle-ci est calculée à chaque pas de temps comme la proportion de particules au-delà de la barrière située en $|\mathbf{r}|=R$. Nous représentons à la \textbf{Fig XX} La dynamique d'une de ces particules en 2D pour différentes valeurs de $\mu$.
 
-\begin{figure}
+\begin{figure}[h]
 	\centering
 	figure random walk pour différents mu
 \end{figure}
@@ -344,6 +350,8 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 \label{fig:annexeAvTBLRR2}
 \end{figure}
 
+\FloatBarrier
+
 \section{Transition vers l'écoulement}
 
 
@@ -351,8 +359,6 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 \subsection{Modèles $\alpha$-Picard}
 
 \subsubsection{Transformée de Fourier inverse du propagateur}
-
-\todo{Refaire le calcul au moins une fois}
 
 \label{sec:TFinverse}
 
@@ -476,7 +482,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \paragraph{Ecrantage de l'interaction d'Eshelby}
 
-\subparagraph{}De la même façon que dans le cas des suspensions, les dispositifs expérimentaux étudiés peuvent agir significativement sur la portée des interactions. Si le cas de l'interaction d'Eshelby est le plus plébiscité dans la communauté des matériaux amorphes, nous pouvons imaginer une variation de la redistribution de contrainte dans un dispositif différent. En effet, si l'on considère un écoulement quasi-2D entre deux plaques rigides, alors les frottements entre le matériau et les plaques vont induire la présence d'un nouveau terme de dissipation dans la condition d'équilibre mécanique :
+\subparagraph{}De la même façon que dans le cas des suspensions, les dispositifs expérimentaux étudiés peuvent agir significativement sur la portée des interactions. Si le cas de l'interaction d'Eshelby est le plus plébiscité dans la communauté des matériaux amorphes, nous pouvons imaginer une variation de la redistribution de contrainte dans un dispositif différent. En effet, si l'on considère un écoulement quasi-2D entre deux plaques rigides, alors les frottements entre le matériau et les plaques vont induire la présence d'un nouveau terme de dissipation dans la condition d'équilibre mécanique (voir \autoref{sec:Annexe_Eshelby}) :
 
 \begin{equation}
 	-\partial_i P^1(\mathbf{r}) + \partial_j\sigma_{ij}^1(\mathbf{r}) - \mu\lambda u^1_{i}= 0
@@ -582,6 +588,8 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \subparagraph{}Ainsi, même si au-delà de $\xi$ la redistribution de la contrainte décroît comme $1/r^4$, la criticalité du système observée n'est pas celle du modèle 4-Picard. Des mesures annexes suggèrent que cette perte de criticalité est due à la forme de la relaxation globale dans le cas du modèle de Picard écranté, qui est concentrée sur le site actif.
 
+\section{Discussion}
+
 \subsection{Modèle élastoplastique décorrélé}
 
 \label{sec:EPMdiscret}
@@ -603,17 +611,139 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \subparagraph{}Avec ce modèle, nous pouvons mesurer l'activité moyenne $\langle A \rangle $ dans l'état stationnaire pour différentes contraintes globales $\Sigma$ afin de déterminer l'exposant critique $\beta$ et son évolution avec la portée $\alpha$. Dans ce cas, des résultats préliminaires sont présentés à la \textbf{Fig XX}.
 
-\section{Théories continues pour les transitions convexes}
+\FloatBarrier
 
-\subsection{Intégration des équations stochastiques avec bruit multiplicatif}
+\subsection{Équations de champ pour les transitions convexes}
 
-\label{sec:Dornic}
+\subsubsection{Motivations et difficultés}
 
-\subsection{Théorie continue inspirée du $\alpha$-ROM}
+\subparagraph{}Pour intégrer toute la complexité d'un phénomène critique dans une théorie simple, l'approche naturelle est celle des théories de champs. Via les méthodes du groupe de renormalisation, connaître la théorie de champ associée à un phénomène permet, en principe, d'en caractériser parfaitement la criticalité. Un exemple édifiant est celui de la transition de dépiégeage (et en définitive de la classe CDP) dont le traitement analytique a permis de nombreux progrès sur la compréhension du phénomène. Pour aller au-delà des descriptions champ moyen proposées par les modèles de type $\mu$-HL, il est donc naturel de vouloir déterminer une théorie de champ associée aux transitions convexes faisant intervenir une dynamique de bruit interne.
 
-\label{sec:EqChampROM}
+\subparagraph{}Cette motivation n'est en réalité pas nouvelle, autant du point de vue de la transition vers l'écoulement que du point de vue de la transition de réversibilité. En effet, du fait de sa proximité avec la transition de dépiégeage, certaines études ont cherché à établir une théorie continue homologue dans le cas de la transition vers l'écoulement \cite{tyukodi_depinning_2016, weiss_finite_2014}. Les équations proposées sont alors directement tirées des règles dynamiques des modèles élastoplastiques. Le problème est que celles-ci font intervenir la notion d'un seuil local, inadaptée à une approche macroscopique à grande échelle. Par ailleurs, l'introduction de l'interaction d'Eshelby dans une théorie continue sans seuil comme l'équation de quenched-Edward-Wilkinson pose problème, puisque la non-positivité du propagateur rend la procédure de renormalisation habituelle impossible \cite{wiese_blabla}. Une description continue adéquate manque donc toujours à la transition vers l'écoulement.
 
-\subsection{Approches de champ moyen en présence d'un bruit multiplicatif}
+\subparagraph{}Du côté de la transition de réversibilité, l'étude menée par Mari et al. \cite{mari_absorbing_2022} avait mené à la suggestion d'une théorie de champ expliquant la convexité de la transition. Les auteurs ont proposé une traduction du mécanisme de diffusion vers l'activité comme une modification du terme non-linéaire en $\sim A^2$ dans l'équation CDP sur le champ d'activité en un terme en $\sim A^{3/2}$. Dans une approche champ moyen naïve, cela permet effectivement d'obtenir un exposant $\beta = 2$ et donc une transition convexe. Toutefois, si cette théorie était appuyée sur des arguments microscopiques, elle n'a jamais été testée afin de comprendre si cette convexité est effectivement retrouvée en dimension finie.
 
-\label{sec:Munoz}
+\subparagraph{}Il existe une tension entre cette recherche classique d'une théorie continue pour les transitions convexes et le cadre de champ moyen adapté que nous avons présenté précédemment avec les modèles de type Hébraud-Lequeux. En effet, il n'est pas évident de voir comment l'approche statistique sur la quantité conservée peut être traduite dans un langage de théorie de champ.
+
+\subparagraph{}Dans cette section, nous présentons des résultats préliminaires obtenus sur cet axe de réflexion. Plus précisément nous essayons d'inférer des équations de champ adéquates pour reproduire la convexité de ces transitions, en se basant sur les théories de champ des classes CDP et LR-CDP. Pour tester ces équations, nous ne les étudions pas analytiquement mais plutôt numériquement en les intégrant directement. Ainsi, il est possible d'étudier les criticalités qu'elles décrivent de la même façon que les modèles microscopiques déjà considérés tout au long de cet ouvrage.
+
+\subsubsection{Cadre de travail}
+
+\subparagraph{}Établir une théorie de champ n'est de façon générale pas quelque chose d'évident, et encore moins lorsque l'on n'est pas spécialiste du domaine. Dans le cas des classes DP et CDP, les théories continues associées sont dérivées, plus ou moins directement, des processus de réaction-diffusion mentionnés dans le \autoref{chapter:introduction}. Dans notre cas, il est difficile d'imaginer un tel processus représentant l'effet du bruit interne sur la dynamique. Les systèmes que nous avons étudié ressemblant par de nombreux aspects aux modèles appartenant à la classe CDP, nous proposons de partir de la théorie continue la décrivant et d'en proposer des modifications. Pour rappel, celle-ci est représentée par les deux équations couplées suivantes :
+
+\begin{equation}
+\begin{aligned}
+	&\partial_t A(\mathbf{r}, t) = (\omega\rho (\mathbf{r}, t) - r)A(\mathbf{r}, t) - uA^2(\mathbf{r}, t) + \kappa\Delta A (\mathbf{r}, t) + \sigma \sqrt{A(\mathbf{r}, t)} \eta(\mathbf{r}, t)\\
+	&\partial_t \rho (\mathbf{r}, t) = \kappa\Delta A (\mathbf{r}, t)
+\end{aligned}
+\label{eq:CDP2}
+\end{equation}
+
+\noindent avec $A(\mathbf{r}, t)$ le champ d'activité et $\rho (\mathbf{r}, t)$ le champ conservé.
+
+\subparagraph{}En principe, intégrer numériquement ces équations n'est pas chose simple, et ce pour une raison principale : dû à la présence du bruit dans l'équation sur l'activité, sans précaution particulière celle-ci peut devenir négative, ce qui est totalement proscrit. En théorie, les équations préservent la positivité de l'activité, mais en pratique, via un schéma d'intégration avec un pas de temps $\Delta t$ fini, celle-ci n'est pas assurée. Pour résoudre ce problème, nous utilisons un algorithme d'intégration proposé précédemment par Dornic et al. \cite{dornic_integration_2005}, permettant d'introduire le bruit multiplicatif tout en préservant la positivité de l'activité. Son principe et son implémentation sont détaillés à la \autoref{sec:Dornic}.
+
+\subsubsection{Enjeux pratiques}
+
+\subparagraph{}Dans cette sous-section, nous mettons en évidence les difficultés pratiques concernant l'établissement de telles théories de champ en prenant l'exemple représentatif de la transition vers l'écoulement.
+
+\subparagraph{}Par équivalence avec la transition de dépiégeage, une théorie de champ intuitive pour la transition vers l'écoulement reviendrait à remplacer les termes en $\Delta A$ dans l'\autoref{eq:CDP2} par des convolutions avec le propagateur élastique de type Eshelby $\mathcal{G}\ast A$. Si cette formulation est en théorie valable pour l'équation sur la quantité conservée, elle pose un problème de principe dans le cas de l'équation sur l'activité. En effet, le propagateur associé présentant des parties négatives, cela signifie qu'une zone inactive caractérisée par $A = 0$ est susceptible de se voir attribuer une activité négative sous l'effet de cette interaction non-locale. Une solution intuitive à ce problème serait alors d'ajouter une partie locale à ce terme d'interaction afin qu'il prenne la forme $A\times \mathcal{G}\ast A$, assurant de ce fait que l'activité d'une zone inactive ne puisse pas être diminuée. Toutefois cela pose un second problème : dans ce cadre, une zone inactive ne peut pas être activée à distance (puisque le terme d'interaction à longue portée associé est nul), ce qui constitue un aspect essentiel du mécanisme que l'on cherche à modéliser.
+
+\subparagraph{}La dynamique de bruit interne semblant devoir faire intervenir des interactions à longue portée de signes alternés (i.e. capables de favoriser comme de défavoriser la création d'activité), cette difficulté se retrouve dans toutes les théories intuitives que l'on peut proposer pour les différentes transitions. Les équations de champ que nous avons envisagées permettent donc toutes de répondre à ces deux critères :
+
+\begin{itemize}
+	\item faire intervenir des interactions capables de créer de l'activité dans des zones inactives à longue portée
+	\item faire intervenir des interactions inhibitrices de l'activité à longue portée préservant la positivité de l'activité en tout point.
+\end{itemize}
+
+\subsubsection{Résultats préliminaires}
+
+\subparagraph{}Dans cette section, nous présentons des théories que nous avons envisagé dans le cadre de la modélisation des transitions de réversibilité et d'écoulement. Les résultats préliminaires que nous avons obtenus montrent que les formulations intuitives des équations de champ pour modéliser les transitions convexes sont inadéquates. Plus particulièrement, nous montrons qu'avec des interactions associées à longue portée, celles-ci ne permettent pas de dépasser le paradigme $\beta \approx 1$. Afin de ne pas tomber dans l'écueil de présenter exhaustivement toutes nos tentatives non fructueuses, nous proposons dans cette sous-section de présenter simplement trois théories motivées par les modèles microscopiques que nous avons étudié dans cet ouvrage.
+
+\paragraph{Exemple de théorie motivée par le modèle de Picard}
+
+\subparagraph{}Dans le cadre de la modélisation continue du modèle de Picard, une théorie envisageable est celle représentée par les équations suivantes :
+
+\begin{equation}
+    \begin{aligned}
+        \partial_t A (\mathbf{r}, t) &= \left(\omega \rho (\mathbf{r}, t)-r\right) A (\mathbf{r}, t) - uA^2 (\mathbf{r}, t) + \kappa \left(\mathcal{G}^+\ast A \right)(\mathbf{r}, t) + \kappa\left(\mathcal{G}\ast A \right)(\mathbf{r}, t)A (\mathbf{r}, t) \\
+        &+\sigma \sqrt{A (\mathbf{r}, t)}\eta(\mathbf{r}, t)\\
+        \partial_t \rho (\mathbf{r}, t) &= \kappa_\sigma \left(\mathcal{G}\ast A \right)(\mathbf{r}, t)
+    \end{aligned}
+\label{eq:YieldingD}
+\end{equation}
+
+\noindent avec $\mathcal{G}$ le porpagateur d'Eshelby et $\mathcal{G}^+$ sa partie positive définie selon :
+
+\begin{equation}
+	\mathcal{G}^+(\mathbf{r}) = \mathcal{G}(\mathbf{r})\Theta\left(\mathcal{G}(\mathbf{r})\right)
+\end{equation}
+
+\noindent avec $\Theta$ la fonction de Heaviside. Sous cette formulation, les deux critères énoncés précédemment sont respectés : le terme en $\sim \mathcal{G}^+\ast A$ permet une création à distance d'activité dans les zones inactives et le terme en $A\times \mathcal{G}\ast A$ permet une inhibition de l'activité à distance tout en préservant sa positivité.
+
+\subparagraph{}En variant la valeur du paramètre $r$, l'intégration numérique de ces équations révèle bien la présence d'une transition de phase absorbante. Pour $r>r_c$, le système se stabilise à temps long dans un état stationnaire caractérisé par $\langle A \rangle > 0$ alors que pour $r<r_c$ il finit par tomber dans un état absorbant caractérisé par $A = 0$. Toutefois, en analysant l'évolution de l'activité en fonction de la distance au point critique $\delta r$, nous remarquons que cette transition semble caractérisée trivialement par $\beta \approx 1$, comme cela est illustré à la \autoref{fig:YieldingD}. D'après ces résultats préliminaires, cette formulation ne semble donc pas permettre de retranscrire la convexité de la transition et donc le processus de bruit interne inhérent à la dynamique modélisée.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{Chapitre5/Figures/YieldingD.pdf}
+	\caption{Intégration numérique de l'\autoref{eq:YieldingD} dans un système 2D de taille $L=512$ avec comme valeur des paramètres : $\omega = 1$, $u = 1$, $\kappa = 0.25$, $\kappa_\sigma = 0.25$, $\sigma = 1$ et une valeur moyenne du champ conservé $\bar{\rho} = 1$. Le paramètre $r$ est varié dans l'ensemble $\{ 0.5214,  0.6153, 0.6726, 0.7076, 0.7290, 0.7420, 0.7500, 0.7549\}$. (a) Evolution de la valeur moyenne du champ d'activité en fonction du temps pour des différentes valeurs du paramètre $r$. (b) Evolution de la valeur moyenne de l'activité dans l'état stationnaire en fonction de la distance au point critique $\delta r$. Nous estimons ici $r_c \approx 0.7625$.}
+	\label{fig:YieldingD}
+\end{figure}
+
+\paragraph{Exemple de théorie motivée par le modèle $\alpha$-ROM}
+
+\subparagraph{}Dans l'étude menée par Mari et al. \cite{mari_absorbing_2022} sur le $0$-ROM, les auteurs ont proposé une théorie continue dérivée de celle de CDP en y introduisant un terme de création d'activité dû à la diffusion des particules passives. Dans le cadre d'interactions spatialisées comme nous avons considéré dans le cas du $\alpha$-ROM, cette théorie continue peut se généraliser simplement par la forme suivante (voir \autoref{sec:EqChampROM}) :
+
+\begin{equation}
+    \begin{aligned}
+        \partial_t A (\mathbf{r}, t) &= \left(\omega \rho (\mathbf{r}, t)-r\right) A (\mathbf{r}, t) - uA^2 (\mathbf{r}, t) +\kappa \Delta A (\mathbf{r}, t)\\
+        &+ \kappa \left(G\ast A \right)(\mathbf{r}, t)\left(1-\gamma \sqrt{ \left(G\ast A \right)(\mathbf{r}, t)}\right)\rho (\mathbf{r}, t)+ \sigma \sqrt{A (\mathbf{r}, t)}\eta (\mathbf{r}, t)\\
+        \partial_t \rho (\mathbf{r}, t) &= \kappa_\sigma \Delta A (\mathbf{r}, t)
+    \end{aligned}
+\label{eq:SuspensionsB}
+\end{equation}
+
+\noindent avec $G(\mathbf{r})$ un propagateur positif décroissant comme $\sim 1/r^{2\alpha}$ à grande distance. En pratique, nous considérons le même propagateur que dans les modèles $\alpha$-ROM et conservons son implémentation décrite au \autoref{chapter:Susp}.
+
+\subparagraph{}Afin de voir si cette formulation permet de reproduire la convexité de la transition, nous intégrons ces équations stochastiques pour différentes valeurs de $r$. Nous retrouvons alors une transition de phase absorbante dont la caractérisation préliminaire est présentée sur la \autoref{fig:SuspensionsB}. Via une analyse similaire au cas précédent, nous déterminons $\beta \approx 1.09$ pour $\alpha = 0.5$, la valeur $\beta = 1$ étant comprise dans les incertitudes de détermination. \`A cette valeur de la portée, nous sommes dans la limite de portée infinie du $\alpha$-ROM caractérisée précédemment par $\beta \approx 1.85$. Ce résultat $\beta \approx 1$ suggère donc que cette théorie continue ne permet pas non plus d'expliquer la convexité de la transition dans le modèle de particules.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{Chapitre5/Figures/SuspensionsB.pdf}
+	\caption{Intégration numérique de l'\autoref{eq:SuspensionsB} dans un système 2D de taille $L=1024$ avec comme valeur des paramètres : $\omega = 0.04$, $u = 1$, $\kappa = 0.25$, $\kappa_\sigma = 0.01$, $\sigma = 1$, $\gamma = 0.1$ et une valeur moyenne du champ conservé $\bar{\rho} = 25$. Le paramètre $r$ est varié dans l'ensemble $\{ 0.602, 0.711, 0.777, 0.816, 0.842, 0.857, 0.867, 0.872\}$. (a) Evolution de la valeur moyenne du champ d'activité en fonction du temps pour des différentes valeurs du paramètre $r$. (b) Evolution de la valeur moyenne de l'activité dans l'état stationnaire en fonction de la distance au point critique $\delta r$. Nous estimons ici $r_c \approx 0.8813$.}
+	\label{fig:SuspensionsB}
+\end{figure}
+
+\paragraph{Approche naïve via l'attendu champ moyen}
+
+\subparagraph{}Face aux difficultés posées par la prise en compte d'interactions à longue portée non-monotones, nous pouvons imaginer une autre voie vers la convexité via la modification des termes locaux de la théorie de champ CDP. C'est notamment l'idée déjà proposée par Mari et al. \cite{mari_absorbing_2022} qui considère les équations de champ suivantes dans le cas d'une portée d'interaction infinie :
+
+\begin{equation}
+\begin{aligned}
+	&\partial_t A(\mathbf{r}, t) = (\omega\rho (\mathbf{r}, t) - r)A(\mathbf{r}, t) - uA^{3/2}(\mathbf{r}, t) + \kappa\Delta A (\mathbf{r}, t) + \sigma \sqrt{A(\mathbf{r}, t)} \eta(\mathbf{r}, t)\\
+	&\partial_t \rho (\mathbf{r}, t) = \kappa\Delta A (\mathbf{r}, t)
+\end{aligned}
+\label{eq:CDP32}
+\end{equation}
+
+\noindent Dans une approche habituelle de la théorie de champ moyen qui équivaut à négliger les termes de bruit et d'interaction, cette théorie amène en effet à un exposant $\beta^\text{MF} = 2$.
+
+\subparagraph{}Pour comprendre si cette formulation permet effectivement de retrouver une transition convexe caractérisée par $\beta > 1$, nous intégrons l'\autoref{eq:CDP32} dans sa forme champ moyen. Pour ce faire, le terme d'interaction local $\Delta A$ est remplacé par $\bar{A}-A$ avec $\bar{A}$ la valeur moyenne instantanée du champ d'activation. Toujours en faisant varier le paramètre $r$, nous observons une transition de phase absorbante mais dont la criticalité semble être encore caractérisée par $\beta \approx 1$, comme nous le représentons à la \autoref{fig:MFCDP32}. Bien que ces résultats restent préliminaires, cette étude présente une approche du point critique raisonnable qui suggère que la transition n'est effectivement pas convexe dans la limite de très longue portée.
+
+\subparagraph{}Même si cela peut apparaître surprenant, dans la \autoref{sec:Munoz}, nous montrons que ce résultat est en fait prévisible d'un point de vue analytique. Comme des études précédentes l'ont montré, les théories de champ faisant intervenir des bruits multiplicatifs ne possèdent pas des propriétés champ moyen dérivables trivialement \cite{munoz_mean_field_2005, munoz_multiplicative_2003}. \`A la place, un autre traitement du champ moyen doit être opéré. Celui-ci mène alors à un exposant $\beta^\text{MF} = 1$ quel que soit le degré de non-linéarité choisi dans une théorie présentant un terme de bruit multiplicatif en $\sim \sqrt{A(\mathbf{r}, t)}$.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{Chapitre5/Figures/MFCDP32.pdf}
+	\caption{Intégration numérique de l'\autoref{eq:CDP32} dans un système 2D de taille $L=1024$ avec comme valeur des paramètres : $\omega = 1$, $u = 0.5$, $\kappa = 0.25$, $\kappa_\sigma = 0.01$, $\sigma = 1$, $\gamma = 0.1$ et une valeur moyenne du champ conservé $\bar{\rho} = 1$. Le paramètre $r$ est varié dans l'ensemble $\{ 0.2462, 0.3010, 0.3295, 0.3442, 0.3518, 0.3558, 0.3578, 0.3589\}$. (a) Evolution de la valeur moyenne du champ d'activité en fonction du temps pour des différentes valeurs du paramètre $r$. (b) Evolution de la valeur moyenne de l'activité dans l'état stationnaire en fonction de la distance au point critique $\delta r$. Nous estimons ici $r_c \approx 0.36083$.}
+	\label{fig:MFCDP32}
+\end{figure}
+
+\subsubsection{Conclusion de la section}
+
+\subparagraph{}En conclusion, il ne semble pas aisé de mettre en évidence des équations de champ permettant de produire une transition de phase absorbante convexe. Que ce soit via l'introduction d'interactions à longue portée de signe alterné, l'introduction d'une non-analyticité dans le terme non-local ou la modification du degré de non-linéarité du terme non-linéaire local, le comportement critique dans la limite de longue portée semble être toujours limité à $\beta = 1$. Les tests d'intégration que nous avons présenté ici sont les représentants de nombreux autres essais pointant vers le même résultat. 
+
+\subparagraph{}Ces difficultés suggèrent que le cadre représenté par les équations de type CDP/LR-CDP n'est pas le bon point de départ. Pour poursuivre dans cette direction, il faudrait donc considérer des modifications plus profondes de ces théories afin d'appréhender plus justement le mécanisme de diffusion vers un bord absorbant, qui est l'élément central de ces transitions. Nous pourrions imaginer que cette modélisation passe par la considération d'une nouvelle forme de bruit non-locale, celle d'une dynamique d'un champ complémentaire représentant la distance au bord absorbant ou encore celle d'une complexification de l'équation sur la dynamique du champ conservé. Notons par ailleurs que la modification de la forme du bruit dans l'équation sur l'activité ou l'ajout d'un bruit dans la dynamique du champ conservé ne sont pas des éléments directs à implémenter et nécessitent la modification de tout notre schéma numérique. Une telle investigation gagnerait donc à être sérieusement motivée par des arguments émergents des dynamiques microscopiques.
+
+\subparagraph{}La différence de formulation entre ces théories de champs et les modèle à la Hébraud-Lequeux pourrait être un indice de ces potentielles profondes modifications. Une autre piste d'ouverture pourrait donc être d'essayer de réaliser une équivalence entre ces modèles et une équation de champ triviale dans la limite de champ moyen. \`A ce stade de notre recherche, nous n'avons toutefois pas encore pu explorer cette pistes de manière pertinente.
 

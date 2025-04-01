@@ -10,43 +10,43 @@ Warning--empty publisher in noauthor_physique_nodate
 Warning--empty year in noauthor_physique_nodate
 You've used 156 entries,
             1876 wiz_defined-function locations,
-            1283 strings with 30689 characters,
-and the built_in function-call counts, 45135 in all, are:
-= -- 4991
-> -- 1460
+            1284 strings with 30766 characters,
+and the built_in function-call counts, 45292 in all, are:
+= -- 5011
+> -- 1466
 < -- 0
-+ -- 555
-- -- 399
-* -- 3005
-:= -- 6072
++ -- 557
+- -- 401
+* -- 3017
+:= -- 6091
 add.period$ -- 249
 call.type$ -- 156
-change.case$ -- 150
+change.case$ -- 151
 chr.to.int$ -- 0
 cite$ -- 161
-duplicate$ -- 2493
-empty$ -- 3721
-format.name$ -- 399
-if$ -- 11250
+duplicate$ -- 2504
+empty$ -- 3723
+format.name$ -- 401
+if$ -- 11290
 int.to.chr$ -- 0
 int.to.str$ -- 156
-missing$ -- 149
+missing$ -- 148
 newline$ -- 565
 num.names$ -- 157
-pop$ -- 232
+pop$ -- 227
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2236
+skip$ -- 2254
 stack$ -- 0
-substring$ -- 2921
-swap$ -- 1387
+substring$ -- 2933
+swap$ -- 1399
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 403
+while$ -- 404
 width$ -- 159
-write$ -- 1703
+write$ -- 1706
 (There were 5 warnings)
