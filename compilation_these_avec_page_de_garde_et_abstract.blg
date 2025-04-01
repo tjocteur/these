@@ -3,51 +3,50 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: compilation_these_avec_page_de_garde_et_abstract.aux
 The style file: ieeetr.bst
 Database file #1: biblio.bib
-Warning--I didn't find a database entry for "tyukodi_dépiégeage_2016"
 Warning--empty note in schott_multiscale_2024
 Warning--empty journal in wiese_longrange
 Warning--empty author and editor in noauthor_physique_nodate
 Warning--empty publisher in noauthor_physique_nodate
 Warning--empty year in noauthor_physique_nodate
-You've used 154 entries,
+You've used 156 entries,
             1876 wiz_defined-function locations,
-            1276 strings with 30463 characters,
-and the built_in function-call counts, 44495 in all, are:
-= -- 4915
-> -- 1448
+            1283 strings with 30689 characters,
+and the built_in function-call counts, 45135 in all, are:
+= -- 4991
+> -- 1460
 < -- 0
-+ -- 550
-- -- 396
-* -- 2967
-:= -- 5993
-add.period$ -- 246
-call.type$ -- 154
-change.case$ -- 148
++ -- 555
+- -- 399
+* -- 3005
+:= -- 6072
+add.period$ -- 249
+call.type$ -- 156
+change.case$ -- 150
 chr.to.int$ -- 0
-cite$ -- 159
-duplicate$ -- 2455
-empty$ -- 3668
-format.name$ -- 396
-if$ -- 11086
+cite$ -- 161
+duplicate$ -- 2493
+empty$ -- 3721
+format.name$ -- 399
+if$ -- 11250
 int.to.chr$ -- 0
-int.to.str$ -- 154
-missing$ -- 147
-newline$ -- 558
-num.names$ -- 155
-pop$ -- 230
+int.to.str$ -- 156
+missing$ -- 149
+newline$ -- 565
+num.names$ -- 157
+pop$ -- 232
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2197
+skip$ -- 2236
 stack$ -- 0
-substring$ -- 2869
-swap$ -- 1363
+substring$ -- 2921
+swap$ -- 1387
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 397
-width$ -- 157
-write$ -- 1681
-(There were 6 warnings)
+while$ -- 403
+width$ -- 159
+write$ -- 1703
+(There were 5 warnings)
