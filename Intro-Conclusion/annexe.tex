@@ -11,7 +11,7 @@
 
 \label{sec:conv_fourier}
 
-\subparagraph{}Dans tout cet ouvrage, nous définissons la transformée de Fourier d'une fonction $f(\mathbf{r})$ selon :
+\subparagraph{}Dans tout cet ouvrage, nous définissons la transformée de Fourier d'une fonction $f(\mathbf{r})$ dans l'espace continu selon la convention :
 
 \begin{equation}
 	\hat{f}(\mathbf{q}) = \int \mathrm{d}\mathbf{r}~f(\mathbf{r})e^{-i\mathbf{q}\cdot\mathbf{r}}
@@ -20,20 +20,45 @@
 \noindent et de manière réciproque :
 
 \begin{equation}
-	\hat{f}(\mathbf{r}) = \frac{1}{(2\pi)^D}\int \mathrm{d}\mathbf{q}~f(\mathbf{q})e^{i\mathbf{q}\cdot\mathbf{r}}
+	f(\mathbf{r}) = \frac{1}{(2\pi)^D}\int \mathrm{d}\mathbf{q}~\hat{f}(\mathbf{q})e^{i\mathbf{q}\cdot\mathbf{r}}
 \end{equation}
 
 \noindent avec $D$ la dimension de l'espace. Nous utilisons aussi parfois par ailleurs la notation $\mathcal{F}[\cdot]$ à la place de la notation $\hat{\cdot}$ pour des soucis de lisibilité.
 
-\subparagraph{}Dans le cas de grandeurs discrètes définies sur un réseau, nous utiliserons aussi la notation $\hat{\cdot}$ pour désigner la transformée de Fourier discrète associée. Celle-ci est alors définie selon les conventions choisies par le module CuFFT de CUDA \cite{cuda}.
+\subparagraph{}Dans le cas de grandeurs discrètes définies sur un réseau, nous utiliserons aussi la notation $\hat{\cdot}$ pour désigner la transformée de Fourier discrète associée. Celle-ci est alors définie selon les conventions choisies par le module cuFFT de CUDA \cite{cuda}. Pour un réseau 1D de taille $L$ dans l'espace réel défini par les positions $x_n = n$ (réseau de pas $1$) on a :
+
+\begin{equation}
+	\hat{f}(q_m = \frac{2\pi}{L}m) = \sum_{n} f(x_n)e^{-i q_m x_n}
+	\label{eq:TFdisc}
+\end{equation}
 
 \subsection{Implémentation discrète des propagateurs}
 
 \label{sec:impl_disc_propag}
 
-\subparagraph{}
+\subparagraph{}Comme nous l'avons relevé dans le \autoref{chapter:yielding}, l'implémentation des propagateurs d'interaction dans l'espace de Fourier discret doit être réalisée d'une certaine manière afin d'obtenir, dans l'espace réel discret, une évolution bien définie (i.e. ne présentant pas d'instabilités numériques, voir \autoref{sec:instab_yielding}). Pour ce faire, entre la forme continue $\hat{\mathcal{G}}(\mathbf{q})$ du propagateur dans l'espace de Fourier et la forme discrète associée $\hat{G}(\mathbf{q}_n)$, une conversion est à réaliser pour l'équivalence entre le nombre d'onde continu $\mathbf{q}$ et le nombre d'onde discret $\mathbf{q}_n$. 
 
-\subsection{Réalisation expérimentales de la transition de dépiégeage}
+\subparagraph{}Une manière de comprendre cette conversion est de considérer l'exemple simple du propagateur représenté par l'opérateur laplacien $\nabla^2$ en 1D. Dans l'espace continu, on a :
+
+\begin{equation}
+	\nabla^2 f(x) \xrightarrow[]{\mathcal{F}} -q^2 \hat{f}(q)
+\end{equation}
+
+\noindent Dans l'espace discret représenté par le réseau de positions $\{x_n = n\}$, l'opérateur laplacien est calculé par une méthode de différence finie selon :
+
+\begin{equation}
+	\nabla^2 f(x_n) \equiv f(x_{n+1})+f(x_{n-1})-2f(x_n)
+\end{equation}
+
+\noindent en appliquant la transformée de Fourier discrète donnée par l'\autoref{eq:TFdisc}, on obtient :
+
+\begin{equation}
+	\nabla^2 f(x_n) \xrightarrow[]{\mathcal{F}} [2\cos(q_n)-2]\hat{f}(q_n)
+\end{equation}
+
+\noindent Ainsi, pour retrouver l'équivalence entre forme continue et forme discrète dans l'espace de Fourier, la conversion $q^2 \rightarrow 2(1-\cos (q_n))$ est nécessaire. C'est donc selon ce raisonnement que les propagateurs d'interaction sont implémentés numériquement dans les \autoref{chapter:Susp} et \autoref{chapter:yielding}.
+
+\subsection{Réalisations expérimentales de la transition de dépiégeage}
 
 \label{sec:exp_depinning}
 
@@ -250,31 +275,82 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \label{sec:TFinverse_susp}
 
-\subsection{Test de l'approximation scalaire}
+\subparagraph{}Dans cette sous-section, nous présentons le calcul dans l'espace continu de la transformée de Fourier des propagateurs $\mathcal{G}^2$ utilisés dans le $\alpha$-ROM et donnés par :
 
-\label{sec:ApproxScalaire}
+\begin{equation}
+	\mathcal{G}^2(\mathbf{r}) = \frac{c}{\left(1+\left(\frac{r}{D_p}\right)^2\right)^\alpha}, \quad c > 0
+\end{equation}
 
-\subparagraph{}Afin de comprendre si la simplification de la forme du propagateur hydrodynamique dans le $\alpha$-ROM joue un rôle dans le comportement critique du système, nous étudions un modèle proche qui prend en compte ces interactions de manière tensorielle. Dans celui-ci, ... il faut regarder le code je m'en souviens plus.
+\noindent Nous prenons alors $D_p = 1$ (comme dans nos simulations numériques) et notons $f(\mathbf{r}) = \mathcal{G}^2(\mathbf{r})$ pour alléger l'écriture.
+
+\subparagraph{}Nous commençons par utiliser le lien entre transformée de Fourier d'une fonction radiale et transformée de Hankel \cite{poularikas_transforms_2018} permettant d'obtenir\footnote{Il suffit, à partir de la définition de la transformée de Fourier, de faire l'intégrale sur la variable angulaire $\theta$ qui permet d'obtenir la fonction de Bessel de première espèce.} :
+
+\begin{equation}
+	\hat{f}(\mathbf{q}) = q^{\frac{2-D}{2}}(2\pi)^{\frac{D}{2}}\int\mathrm{d}r~J_{\frac{D-2}{2}}(qr)r^\frac{D-2}{2}f(\mathbf{r})r
+\end{equation}
+
+\noindent qui dans notre cas amène à : 
+
+\begin{equation}
+	\hat{f}(\mathbf{q}) = c q^{\frac{2-D}{2}}(2\pi)^{\frac{D}{2}}\int\mathrm{d}r~J_{\frac{D-2}{2}}(qr)\frac{r^\frac{D}{2}}{(1+r^2)^\alpha}
+\end{equation}
+
+\noindent Puis nous utilisons le résultat suivant concernant les fonctions de Bessel \cite{zwillinger_6_7_2014} :
+
+\begin{equation}
+\int_0^{\infty} \frac{J_\nu(b x) x^{\nu+1}}{\left(x^2+a^2\right)^{\mu+1}} d x=\frac{a^{\nu-\mu} b^\mu}{2^\mu \Gamma(\mu+1)} K_{\nu-\mu}(a b), \quad -1 < \nu < 2\mu + \frac{3}{2}
+\end{equation}
+
+\noindent Par identification des deux équations on arrive alors directement à :
+
+\begin{equation}
+	\hat{f}(\mathbf{q}) = c q^{\frac{2-D}{2}}(2\pi)^{\frac{D}{2}}\frac{q^{\alpha-1}}{2^{\alpha - 1}\Gamma(\alpha)}K_{\frac{D-2}{2}-(\alpha-1)}(q)
+\end{equation}
+
+\noindent soit en simplifiant et en utilisant $K_\nu (q) = K_{-\nu}(q)$ :
+
+\begin{equation}
+	\frac{(2\pi)^{\frac{D}{2}}}{2^{\alpha-1}\Gamma(\alpha)}q^{\alpha-\frac{D}{2}}K_{\alpha-\frac{D}{2}}(q), \quad \alpha > \frac{D-1}{4}
+\end{equation}
+
+\noindent ce qui nous permet bien de retrouver les expressions données au \autoref{chapter:Susp} pour $D=2$ et $D=3$.
 
 \subsection{Résolution numérique du modèle $\mu$-Hébraud-Lequeux}
 
 \label{sec:ResolNumMuHL}
 
-\subparagraph{}Afin d'étudier le comportement critique du modèle $\mu$-Hébraud-Lequeux dans le cadre de la modélisation champ moyen du $\alpha$-ROM, nous proposons une méthode d'intégration numérique de l'\autoref{eq:muHL}. Dans le cas du modèle original de Hébraud-Lequeux, différents travaux en ont proposé une résolution numérique via une dynamique de population. Dans cette partie, nous transposons cette méthode de résolution à l'intégration des équations du modèle $\mu$-Hébraud-Lequeux. En fait, l'équation suivante : 
+\subparagraph{}Afin d'étudier le comportement critique du modèle $\mu$-Hébraud-Lequeux dans le cadre de la modélisation champ moyen du $\alpha$-ROM, nous proposons une méthode d'intégration numérique indirecte de l'\autoref{eq:muHL}. Dans le cas du modèle original de Hébraud-Lequeux, différents travaux ont proposé une résolution numérique des équations associées via une dynamique de population \cite{bouchaud_spontaneous_2016}. Dans cette partie, nous transposons cette méthode de résolution à l'intégration des équations du modèle $\mu$-Hébraud-Lequeux. En fait, l'équation suivante : 
 
 \begin{equation}
-    \partial_t P(\mathbf{r}, t) = \alpha\Gamma (t)|\nabla|^{\mu} P(\mathbf{r}, t) - \frac{1}{\tau}\Theta(|\mathbf{r}|>R)P(\mathbf{r}, t) + \delta(\mathbf{r})\Gamma (t), \quad \Gamma (t) = \frac{1}{\tau}\int_{|\mathbf{r}|>R}\mathrm{d}\mathbf{r}~P(\mathbf{r}, t)
+\begin{aligned}
+    \partial_t P(\mathbf{r}, t) &= -a\Gamma (t)|\nabla|^{\mu} P(\mathbf{r}, t) - \frac{1}{\tau}\Theta(|\mathbf{r}|>R)P(\mathbf{r}, t) + \delta(\mathbf{r})\Gamma (t)\\
+     \Gamma (t) &= \frac{1}{\tau}\int_{|\mathbf{r}|>R}\mathrm{d}\mathbf{r}~P(\mathbf{r}, t)
+\end{aligned}
 \end{equation}
 
 \noindent peut être vue comme une équation de Fokker-Planck. Suivant cette idée, nous pouvons associer à ce modèle une dynamique de Langevin simple sur la variable $\mathbf{r}$ qui permet, statistiquement, de reconstruire le comportement de la distribution $P$.
 
-\subparagraph{}En pratique, nous considérons donc $N$ particules dont les positions $\mathbf{r}_i$ évoluent dans un espace de dimension $D$, présentant une barrière en $|\mathbf{r}|=R$. La dynamique du mouvement des particules se fait en temps continu, discrétisé selon un pas de temps $\Delta t$. \`A chaque pas de temps $t_i$, chaque particule effectue un saut distribué selon une loi stable $S_\mu(xx)$, permettant de modéliser le terme de dérivée fractionnaire dans l'équation de Fokker-Planck associée \cite{hinrichsen_non_equilibrium_2007, jespersen_levy_1999}. Lorsqu'une particule est au-delà de la barrière, celle-ci est remise à l'origine du repère selon un taux $1/\tau$, représentant alors les deux derniers termes du membre de droite dans l'équation de Fokker-Planck.
+\subparagraph{}En pratique, nous considérons donc $N$ particules dont les positions $\mathbf{r}_i$ évoluent dans un espace de dimension $D$, présentant une barrière en $|\mathbf{r}|=R$. La dynamique du mouvement des particules se fait en temps continu, discrétisé selon un pas de temps $\Delta t$. \`A chaque pas de temps $t_i$, chaque particule effectue un saut distribué selon une loi de Lévy stable $S_\mu(0,c,0)$ définie par sa fonction caractéristique :
 
-\subparagraph{}Dans ce modèle, les particules n'interagissent pas directement entre elles, mais indirectement via la distribution de sauts qui dépend de l'activité dans le système $\tau\Gamma (t)$. Celle-ci est calculée à chaque pas de temps comme la proportion de particules au-delà de la barrière située en $|\mathbf{r}|=R$. Nous représentons à la \textbf{Fig XX} La dynamique d'une de ces particules en 2D pour différentes valeurs de $\mu$.
+\begin{equation}
+	\phi(k) = \exp (-|ck|^\mu)
+\end{equation}
+
+\noindent modélisant le terme en dérivée fractionnaire dans l'équation sur $P$ \cite{hinrichsen_non_equilibrium_2007, jespersen_levy_1999}. Par équivalence des deux descriptions, la constante $c$ est alors définie selon :
+
+\begin{equation}
+	c = \left( s \Gamma(t) \Delta t \right)^{1/\alpha}
+\end{equation}
+
+\noindent la constante $s$ dans la vision dynamique de population jouant un rôle similaire à la constante $a$ dans l'équation d'évolution de la distribution. Il est théoriquement possible de relier $a$ à $s$ mais ce n'est pas nécessaire dans notre cas puisque nous nous intéressons simplement au comportement critique associé. Lorsqu'une particule est au-delà de la barrière, celle-ci est remise à l'origine du repère selon un taux $1/\tau$, représentant alors les deux derniers termes du membre de droite dans l'équation de Fokker-Planck.
+
+\subparagraph{}Dans ce modèle, les particules n'interagissent pas directement entre elles, mais indirectement via la distribution de sauts qui dépend de l'activité dans le système $\tau\Gamma (t)$. Celle-ci est calculée à chaque pas de temps comme la proportion de particules au-delà de la barrière située en $|\mathbf{r}|=R$. Nous représentons à la \autoref{fig:walker} La dynamique d'une de ces particules en 2D pour différentes valeurs de $\mu$.
 
 \begin{figure}[h]
 	\centering
-	figure random walk pour différents mu
+	\includegraphics[width= 0.8\textwidth]{walker.pdf}
+	\caption{Trajectoire d'une particule dans la résolution numérique des équations du modèle $\mu$-Hébraud-Lequeux via une dynamique de population pour $\mu = 1.5$ (panel de gauche) et $\mu = 0.75$ (panel de droite). Ces deux trajectoires correspondent à un état stationnaire de la dynamique de population avec une distance au point critique $\delta R = \frac{R_c-R}{R_c}\approx 10^{-1}$}
+	 \label{fig:walker}
 \end{figure}
 
 \subparagraph{}En simulant le mouvement de ces particules, nous pouvons remonter à la forme instantanée de la distribution $P(\mathbf{r},t)$ prise alors comme la distribution des positions des différentes particules. Pour déterminer le comportement critique de cette transition, nous mesurons la valeur de l'activité moyenne $\Gamma$ dans l'état stationnaire pour différentes valeurs de $R$ afin d'identifier l'exposant $\beta$ définissant la relation :
@@ -283,21 +359,19 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 	\Gamma \sim (R-R_c)^\beta
 \end{equation}
 
-\subparagraph{} Les résultats présentés à la \autoref{fig:LHLNum} ont été obtenus pour les valeurs des paramètres répertoriées dans le \textbf{Tableau XX}. Dans le cas $\mu = 2$ où la loi stable devient une loi normale, nous vérifions que nous retrouvons les résultats attendus soit $\beta = 2$ et $R_c = xx$.
+\subparagraph{} Les résultats présentés à la \autoref{fig:LHLNum} ont été obtenus pour les valeurs des paramètres $s=1$, $\Delta t  = 10^{-2}$, $\tau = 1$ et $N \sim 10^7$. Dans le cas $\mu = 2$ où la loi stable devient une loi normale, nous vérifions que nous retrouvons les résultats attendus soit $\beta = 2$ et $R_c = \sqrt{2a}$, et la distribution stationnaire  prédite via la résolution analytique (rendue possible dans ce cas). Cela confirme la validité de notre approche.
 
 \paragraph{Détails d'implémentation}
 
-\subparagraph{}L'algorithme présenté a été implémenté en langage C++/CUDA pour fonctionner sur cartes graphiques. Les détails d'implémentation peuvent être retrouvés sur xxx.
-
-\subsection{Modèle $\alpha$-ROM avec sauts infinis en dimension supérieure}
-
-
+\subparagraph{}L'algorithme présenté a été implémenté en langage C++/CUDA pour fonctionner sur cartes graphiques. Les détails d'implémentation peuvent être retrouvés sur xxx. Les nombres aléatoires distribués selon des lois stables, utilisés pour générer les sauts des particules, ont été générés via la méthode Chambers-Mallows-Stuck \cite{chambers_method_1976, weron_chambers_mallows_stuck_1996}.
 
 \subsection{Fonctions de corrélation de paire}
 
 \label{sec:PCorr}
 
 \subsubsection{$\alpha$-ROM en 2D avec sauts infinis des particules actives}
+
+\subparagraph{}Dans cette partie, nous présentons les résultats obtenus concernant les mesures de fonctions de corrélation de paire entre particules passives dans le $\alpha$-ROM en 2D avec sauts infinis des particules actives.
 
 \begin{figure}[h]
 \centering

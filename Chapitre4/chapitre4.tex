@@ -568,6 +568,8 @@ CDP \cite{lubeck_universal_2004} & 0.64 & 0.37 & 0.80 & 2.23 \\
 
 \subsubsection{Implémentation numérique et instabilités}
 
+\label{sec:instab_yielding}
+
 \subparagraph{}En implémentant naïvement le modèle comme dans les cas précédents, les propagateurs de redistribution obtenus pour $\alpha>2$ présentent une très forte instabilité numérique (voir \autoref{fig:instabnum}-(a)). En réalité, même si moindre, cette instabilité est déjà visible dans le cas $\alpha=2$ comme c'est le cas sur la \autoref{fig:instabnum}-(b). Une méthode proposée pour remédier à cette instabilité numérique a été présentée dans \cite{nicolas_ecoulements_2014}. Celle-ci consiste à passer par un raffinement de la discrétisation. En d'autres termes, l'interaction est calculée sur une grille deux fois plus fine, puis le résultat est moyenné/coarse-grainé afin de gommer l'instabilité (qui a une période de deux sites). Cette technique fonctionne mais cache en fait un problème à la racine. 
 
 \begin{figure}[h]

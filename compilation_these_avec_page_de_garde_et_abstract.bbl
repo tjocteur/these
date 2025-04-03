@@ -823,12 +823,34 @@ M.~Lisicki, ``Four approaches to hydrodynamic {Green}'s functions -- the
   {Oseen} tensors,'' Dec. 2013.
 \newblock arXiv:1312.6231 [physics].
 
+\bibitem{poularikas_transforms_2018}
+A.~D. Poularikas, ed., {\em Transforms and {Applications} {Handbook}}.
+\newblock Boca Raton: CRC Press, 3~ed., Sept. 2018.
+
+\bibitem{zwillinger_6_7_2014}
+``6-7 - {Definite} {Integrals} of {Special} {Functions},'' in {\em Table of
+  {Integrals}, {Series}, and {Products} ({Eighth} {Edition})} (D.~Zwillinger,
+  V.~Moll, I.~S. Gradshteyn, and I.~M. Ryzhik, eds.), pp.~637--775, Boston:
+  Academic Press, Jan. 2014.
+
 \bibitem{jespersen_levy_1999}
 S.~Jespersen, R.~Metzler, and H.~C. Fogedby, ``L{\textbackslash}'evy flights in
   external force fields: {Langevin} and fractional {Fokker}-{Planck} equations
   and their solutions,'' {\em Physical Review E}, vol.~59, pp.~2736--2745, Mar.
   1999.
 \newblock Publisher: American Physical Society.
+
+\bibitem{chambers_method_1976}
+J.~M. Chambers, C.~L. Mallows, and B.~W. Stuck, ``A {Method} for {Simulating}
+  {Stable} {Random} {Variables},'' {\em Journal of the American Statistical
+  Association}, vol.~71, no.~354, pp.~340--344, 1976.
+\newblock Publisher: [American Statistical Association, Taylor \& Francis,
+  Ltd.].
+
+\bibitem{weron_chambers_mallows_stuck_1996}
+R.~Weron, ``On the {Chambers}-{Mallows}-{Stuck} method for simulating skewed
+  stable random variables,'' {\em Statistics \& Probability Letters}, vol.~28,
+  pp.~165--171, June 1996.
 
 \bibitem{weiss_finite_2014}
 J.~Weiss, L.~Girard, F.~Gimbert, D.~Amitrano, and D.~Vandembroucq, ``({Finite})
