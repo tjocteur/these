@@ -895,111 +895,113 @@
 \contentsline {subsection}{\numberline {6.1.2}Implémentation discrète des propagateurs}{207}{subsection.6.1.2}%
 \contentsline {subparagraph}{}{207}{subsection.6.1.2}%
 \contentsline {subparagraph}{}{208}{subsection.6.1.2}%
-\contentsline {subsection}{\numberline {6.1.3}Réalisations expérimentales de la transition de dépiégeage}{208}{subsection.6.1.3}%
-\contentsline {subparagraph}{}{208}{subsection.6.1.3}%
-\contentsline {paragraph}{Dynamique de mouillage à la ligne triple}{208}{subsection.6.1.3}%
-\contentsline {subparagraph}{}{208}{subsection.6.1.3}%
-\contentsline {subparagraph}{}{208}{subsection.6.1.3}%
+\contentsline {section}{\numberline {6.2}Annexes au chapitre 1}{208}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Réalisations expérimentales de la transition de dépiégeage}{208}{subsection.6.2.1}%
+\contentsline {subparagraph}{}{208}{subsection.6.2.1}%
+\contentsline {paragraph}{Dynamique de mouillage à la ligne triple}{208}{subsection.6.2.1}%
+\contentsline {subparagraph}{}{208}{subsection.6.2.1}%
+\contentsline {subparagraph}{}{208}{subsection.6.2.1}%
 \contentsline {paragraph}{Propagation d'une fracture}{209}{figure.caption.96}%
 \contentsline {subparagraph}{}{209}{figure.caption.96}%
 \contentsline {subparagraph}{}{209}{figure.caption.96}%
-\contentsline {subsection}{\numberline {6.1.4}Propagateur de Eshelby}{209}{subsection.6.1.4}%
-\contentsline {subparagraph}{}{209}{subsection.6.1.4}%
-\contentsline {subparagraph}{}{209}{subsection.6.1.4}%
-\contentsline {subparagraph}{}{210}{subsection.6.1.4}%
-\contentsline {subparagraph}{}{210}{equation.6.1.16}%
-\contentsline {subparagraph}{}{210}{equation.6.1.18}%
-\contentsline {subparagraph}{}{211}{equation.6.1.22}%
-\contentsline {subparagraph}{}{211}{equation.6.1.24}%
-\contentsline {subsection}{\numberline {6.1.5}Propagateurs hydrodynamiques}{211}{subsection.6.1.5}%
-\contentsline {subparagraph}{}{211}{subsection.6.1.5}%
-\contentsline {paragraph}{Hydrodynamique en milieu infini}{211}{subsection.6.1.5}%
-\contentsline {subparagraph}{}{211}{subsection.6.1.5}%
-\contentsline {subparagraph}{}{212}{equation.6.1.25}%
-\contentsline {subparagraph}{}{212}{equation.6.1.26}%
-\contentsline {subparagraph}{}{212}{equation.6.1.27}%
-\contentsline {subparagraph}{}{213}{equation.6.1.27}%
-\contentsline {paragraph}{Hydrodynamique en milieux complexes}{213}{equation.6.1.27}%
-\contentsline {subparagraph}{}{213}{equation.6.1.27}%
-\contentsline {subparagraph}{}{213}{equation.6.1.28}%
-\contentsline {subparagraph}{}{213}{equation.6.1.28}%
-\contentsline {subparagraph}{}{213}{equation.6.1.28}%
-\contentsline {section}{\numberline {6.2}Transport à longue portée}{214}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Mesures d'hyperuniformité dans le modèle LR-Manna}{214}{subsection.6.2.1}%
-\contentsline {subparagraph}{}{214}{subsection.6.2.1}%
-\contentsline {section}{\numberline {6.3}Transition de réversibilité}{215}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Transformée de Fourier des propagateurs}{215}{subsection.6.3.1}%
-\contentsline {subparagraph}{}{215}{subsection.6.3.1}%
-\contentsline {subparagraph}{}{215}{equation.6.3.30}%
-\contentsline {subsection}{\numberline {6.3.2}Résolution numérique du modèle $\mu $-Hébraud-Lequeux}{216}{subsection.6.3.2}%
-\contentsline {subparagraph}{}{216}{subsection.6.3.2}%
-\contentsline {subparagraph}{}{216}{equation.6.3.36}%
-\contentsline {subparagraph}{}{217}{equation.6.3.38}%
+\contentsline {subsection}{\numberline {6.2.2}Propagateur de Eshelby}{209}{subsection.6.2.2}%
+\contentsline {subparagraph}{}{209}{subsection.6.2.2}%
+\contentsline {subparagraph}{}{209}{subsection.6.2.2}%
+\contentsline {subparagraph}{}{210}{subsection.6.2.2}%
+\contentsline {subparagraph}{}{210}{equation.6.2.16}%
+\contentsline {subparagraph}{}{210}{equation.6.2.18}%
+\contentsline {subparagraph}{}{211}{equation.6.2.22}%
+\contentsline {subparagraph}{}{211}{equation.6.2.24}%
+\contentsline {subsection}{\numberline {6.2.3}Propagateurs hydrodynamiques}{211}{subsection.6.2.3}%
+\contentsline {subparagraph}{}{211}{subsection.6.2.3}%
+\contentsline {paragraph}{Hydrodynamique en milieu infini}{211}{subsection.6.2.3}%
+\contentsline {subparagraph}{}{211}{subsection.6.2.3}%
+\contentsline {subparagraph}{}{212}{equation.6.2.25}%
+\contentsline {subparagraph}{}{212}{equation.6.2.26}%
+\contentsline {subparagraph}{}{212}{equation.6.2.27}%
+\contentsline {subparagraph}{}{213}{equation.6.2.27}%
+\contentsline {paragraph}{Hydrodynamique en milieux complexes}{213}{equation.6.2.27}%
+\contentsline {subparagraph}{}{213}{equation.6.2.27}%
+\contentsline {subparagraph}{}{213}{equation.6.2.28}%
+\contentsline {subparagraph}{}{213}{equation.6.2.28}%
+\contentsline {subparagraph}{}{213}{equation.6.2.28}%
+\contentsline {section}{\numberline {6.3}Annexes au chapitre 2}{214}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Mesures d'hyperuniformité dans le modèle LR-Manna}{214}{subsection.6.3.1}%
+\contentsline {subparagraph}{}{214}{subsection.6.3.1}%
+\contentsline {section}{\numberline {6.4}Annexes au chapitre 3}{215}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Transformée de Fourier des propagateurs}{215}{subsection.6.4.1}%
+\contentsline {subparagraph}{}{215}{subsection.6.4.1}%
+\contentsline {subparagraph}{}{215}{equation.6.4.30}%
+\contentsline {subsection}{\numberline {6.4.2}Résolution numérique du modèle $\mu $-Hébraud-Lequeux}{216}{subsection.6.4.2}%
+\contentsline {subparagraph}{}{216}{subsection.6.4.2}%
+\contentsline {subparagraph}{}{216}{equation.6.4.36}%
+\contentsline {subparagraph}{}{217}{equation.6.4.38}%
 \contentsline {subparagraph}{}{217}{figure.caption.101}%
-\contentsline {subparagraph}{}{218}{equation.6.3.39}%
-\contentsline {paragraph}{Détails d'implémentation}{218}{equation.6.3.39}%
-\contentsline {subparagraph}{}{218}{equation.6.3.39}%
-\contentsline {subsection}{\numberline {6.3.3}Fonctions de corrélation de paire}{218}{subsection.6.3.3}%
-\contentsline {subsubsection}{\numberline {6.3.3.1}$\alpha $-ROM en 2D avec sauts infinis des particules actives}{218}{subsubsection.6.3.3.1}%
-\contentsline {subparagraph}{}{218}{subsubsection.6.3.3.1}%
-\contentsline {subsubsection}{\numberline {6.3.3.2}$\alpha $-ROM en 2D avec sauts infinis des particules actives}{218}{subsubsection.6.3.3.2}%
-\contentsline {subsection}{\numberline {6.3.4}Avalanches dans le modèle $\alpha $-ROM}{218}{subsection.6.3.4}%
-\contentsline {section}{\numberline {6.4}Transition vers l'écoulement}{223}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}Modèles $\alpha $-Picard}{223}{subsection.6.4.1}%
-\contentsline {subsubsection}{\numberline {6.4.1.1}Transformée de Fourier inverse du propagateur}{223}{subsubsection.6.4.1.1}%
-\contentsline {subparagraph}{}{223}{subsubsection.6.4.1.1}%
-\contentsline {paragraph}{}{223}{equation.6.4.40}%
-\contentsline {paragraph}{Développement autour de $\beta = 4$/$\alpha =2$}{224}{equation.6.4.48}%
-\contentsline {subparagraph}{}{224}{equation.6.4.48}%
-\contentsline {subsubsection}{\numberline {6.4.1.2}Détermination des points critiques}{224}{subsubsection.6.4.1.2}%
-\contentsline {subparagraph}{}{224}{subsubsection.6.4.1.2}%
-\contentsline {subsubsection}{\numberline {6.4.1.3}Avalanches}{225}{subsubsection.6.4.1.3}%
-\contentsline {subparagraph}{}{225}{subsubsection.6.4.1.3}%
-\contentsline {subsection}{\numberline {6.4.2}Dépendance en protocole des avalanches à contrainte imposée dans les modèles élastoplastiques}{226}{subsection.6.4.2}%
-\contentsline {subsection}{\numberline {6.4.3}Modèle de Picard écranté}{238}{subsection.6.4.3}%
-\contentsline {paragraph}{Ecrantage de l'interaction d'Eshelby}{238}{subsection.6.4.3}%
-\contentsline {subparagraph}{}{238}{subsection.6.4.3}%
-\contentsline {subsubsection}{\numberline {6.4.3.1}Transformée de Fourier inverse du propagateur}{238}{subsubsection.6.4.3.1}%
-\contentsline {paragraph}{}{238}{subsubsection.6.4.3.1}%
-\contentsline {subparagraph}{}{239}{equation.6.4.58}%
-\contentsline {subsubsection}{\numberline {6.4.3.2}Avalanches}{239}{subsubsection.6.4.3.2}%
-\contentsline {subparagraph}{}{239}{subsubsection.6.4.3.2}%
-\contentsline {subparagraph}{}{239}{figure.caption.108}%
+\contentsline {subparagraph}{}{218}{equation.6.4.39}%
+\contentsline {paragraph}{Détails d'implémentation}{218}{equation.6.4.39}%
+\contentsline {subparagraph}{}{218}{equation.6.4.39}%
+\contentsline {subsection}{\numberline {6.4.3}Fonctions de corrélation de paire}{218}{subsection.6.4.3}%
+\contentsline {subsubsection}{\numberline {6.4.3.1}$\alpha $-ROM en 2D avec sauts infinis des particules actives}{218}{subsubsection.6.4.3.1}%
+\contentsline {subparagraph}{}{218}{subsubsection.6.4.3.1}%
+\contentsline {subsubsection}{\numberline {6.4.3.2}$\alpha $-ROM en 2D avec sauts infinis des particules actives}{218}{subsubsection.6.4.3.2}%
+\contentsline {subsection}{\numberline {6.4.4}Avalanches dans le modèle $\alpha $-ROM}{218}{subsection.6.4.4}%
+\contentsline {section}{\numberline {6.5}Annexes au chapitre 4}{223}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Modèles $\alpha $-Picard}{223}{subsection.6.5.1}%
+\contentsline {subsubsection}{\numberline {6.5.1.1}Transformée de Fourier inverse du propagateur}{223}{subsubsection.6.5.1.1}%
+\contentsline {subparagraph}{}{223}{subsubsection.6.5.1.1}%
+\contentsline {paragraph}{}{223}{equation.6.5.40}%
+\contentsline {paragraph}{Développement autour de $\beta = 4$/$\alpha =2$}{224}{equation.6.5.48}%
+\contentsline {subparagraph}{}{224}{equation.6.5.48}%
+\contentsline {subsubsection}{\numberline {6.5.1.2}Détermination des points critiques}{224}{subsubsection.6.5.1.2}%
+\contentsline {subparagraph}{}{224}{subsubsection.6.5.1.2}%
+\contentsline {subsubsection}{\numberline {6.5.1.3}Avalanches}{225}{subsubsection.6.5.1.3}%
+\contentsline {subparagraph}{}{225}{subsubsection.6.5.1.3}%
+\contentsline {subsection}{\numberline {6.5.2}Dépendance en protocole des avalanches à contrainte imposée dans les modèles élastoplastiques}{226}{subsection.6.5.2}%
+\contentsline {subsection}{\numberline {6.5.3}Modèle de Picard écranté}{238}{subsection.6.5.3}%
+\contentsline {paragraph}{Ecrantage de l'interaction d'Eshelby}{238}{subsection.6.5.3}%
+\contentsline {subparagraph}{}{238}{subsection.6.5.3}%
+\contentsline {subsubsection}{\numberline {6.5.3.1}Transformée de Fourier inverse du propagateur}{238}{subsubsection.6.5.3.1}%
+\contentsline {paragraph}{}{238}{subsubsection.6.5.3.1}%
+\contentsline {subparagraph}{}{239}{equation.6.5.59}%
+\contentsline {subsubsection}{\numberline {6.5.3.2}Avalanches}{239}{subsubsection.6.5.3.2}%
+\contentsline {subparagraph}{}{239}{subsubsection.6.5.3.2}%
+\contentsline {subparagraph}{}{240}{figure.caption.108}%
 \contentsline {subparagraph}{}{240}{figure.caption.109}%
-\contentsline {subparagraph}{}{241}{figure.caption.109}%
-\contentsline {section}{\numberline {6.5}Discussion}{241}{section.6.5}%
-\contentsline {subsection}{\numberline {6.5.1}Modèle élastoplastique décorrélé}{241}{subsection.6.5.1}%
-\contentsline {paragraph}{Modèle élastoplastique isotrope}{241}{subsection.6.5.1}%
-\contentsline {subparagraph}{}{241}{subsection.6.5.1}%
-\contentsline {subparagraph}{}{241}{subsection.6.5.1}%
-\contentsline {subparagraph}{}{241}{Item.4}%
-\contentsline {subsection}{\numberline {6.5.2}Équations de champ pour les transitions convexes}{241}{subsection.6.5.2}%
-\contentsline {subsubsection}{\numberline {6.5.2.1}Motivations et difficultés}{241}{subsubsection.6.5.2.1}%
-\contentsline {subparagraph}{}{241}{subsubsection.6.5.2.1}%
-\contentsline {subparagraph}{}{242}{subsubsection.6.5.2.1}%
-\contentsline {subparagraph}{}{242}{subsubsection.6.5.2.1}%
-\contentsline {subparagraph}{}{242}{subsubsection.6.5.2.1}%
-\contentsline {subparagraph}{}{242}{subsubsection.6.5.2.1}%
-\contentsline {subsubsection}{\numberline {6.5.2.2}Cadre de travail}{242}{subsubsection.6.5.2.2}%
-\contentsline {subparagraph}{}{242}{subsubsection.6.5.2.2}%
-\contentsline {subparagraph}{}{243}{equation.6.5.64}%
-\contentsline {subsubsection}{\numberline {6.5.2.3}Enjeux pratiques}{243}{subsubsection.6.5.2.3}%
-\contentsline {subparagraph}{}{243}{subsubsection.6.5.2.3}%
-\contentsline {subparagraph}{}{243}{subsubsection.6.5.2.3}%
-\contentsline {subparagraph}{}{243}{subsubsection.6.5.2.3}%
-\contentsline {subsubsection}{\numberline {6.5.2.4}Résultats préliminaires}{244}{subsubsection.6.5.2.4}%
-\contentsline {subparagraph}{}{244}{subsubsection.6.5.2.4}%
-\contentsline {paragraph}{Exemple de théorie motivée par le modèle de Picard}{244}{subsubsection.6.5.2.4}%
-\contentsline {subparagraph}{}{244}{subsubsection.6.5.2.4}%
-\contentsline {subparagraph}{}{244}{equation.6.5.66}%
-\contentsline {paragraph}{Exemple de théorie motivée par le modèle $\alpha $-ROM}{244}{figure.caption.110}%
-\contentsline {subparagraph}{}{244}{figure.caption.110}%
-\contentsline {subparagraph}{}{245}{equation.6.5.67}%
-\contentsline {paragraph}{Approche naïve via l'attendu champ moyen}{245}{figure.caption.111}%
-\contentsline {subparagraph}{}{245}{figure.caption.111}%
-\contentsline {subparagraph}{}{246}{equation.6.5.68}%
-\contentsline {subparagraph}{}{246}{equation.6.5.68}%
-\contentsline {subsubsection}{\numberline {6.5.2.5}Conclusion de la section}{247}{subsubsection.6.5.2.5}%
-\contentsline {subparagraph}{}{247}{subsubsection.6.5.2.5}%
-\contentsline {subparagraph}{}{247}{subsubsection.6.5.2.5}%
-\contentsline {subparagraph}{}{247}{subsubsection.6.5.2.5}%
+\contentsline {subparagraph}{}{240}{figure.caption.109}%
+\contentsline {section}{\numberline {6.6}Annexes au chapitre 5}{241}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Modèle élastoplastique décorrélé}{241}{subsection.6.6.1}%
+\contentsline {subparagraph}{}{241}{subsection.6.6.1}%
+\contentsline {subparagraph}{}{241}{subsection.6.6.1}%
+\contentsline {subparagraph}{}{241}{subsection.6.6.1}%
+\contentsline {subparagraph}{}{242}{Item.4}%
+\contentsline {subsection}{\numberline {6.6.2}Équations de champ pour les transitions convexes}{242}{subsection.6.6.2}%
+\contentsline {subsubsection}{\numberline {6.6.2.1}Motivations et difficultés}{242}{subsubsection.6.6.2.1}%
+\contentsline {subparagraph}{}{242}{subsubsection.6.6.2.1}%
+\contentsline {subparagraph}{}{242}{subsubsection.6.6.2.1}%
+\contentsline {subparagraph}{}{243}{subsubsection.6.6.2.1}%
+\contentsline {subparagraph}{}{243}{subsubsection.6.6.2.1}%
+\contentsline {subparagraph}{}{243}{subsubsection.6.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.6.2.2}Cadre de travail}{243}{subsubsection.6.6.2.2}%
+\contentsline {subparagraph}{}{243}{subsubsection.6.6.2.2}%
+\contentsline {subparagraph}{}{243}{equation.6.6.65}%
+\contentsline {paragraph}{Méthode d'intégration numérique}{244}{equation.6.6.65}%
+\contentsline {subsubsection}{\numberline {6.6.2.3}Enjeux pratiques}{244}{subsubsection.6.6.2.3}%
+\contentsline {subparagraph}{}{244}{subsubsection.6.6.2.3}%
+\contentsline {subparagraph}{}{244}{subsubsection.6.6.2.3}%
+\contentsline {subparagraph}{}{244}{subsubsection.6.6.2.3}%
+\contentsline {subsubsection}{\numberline {6.6.2.4}Résultats préliminaires}{244}{subsubsection.6.6.2.4}%
+\contentsline {subparagraph}{}{244}{subsubsection.6.6.2.4}%
+\contentsline {paragraph}{Exemple de théorie motivée par le modèle de Picard}{245}{subsubsection.6.6.2.4}%
+\contentsline {subparagraph}{}{245}{subsubsection.6.6.2.4}%
+\contentsline {subparagraph}{}{245}{equation.6.6.67}%
+\contentsline {paragraph}{Exemple de théorie motivée par le modèle $\alpha $-ROM}{245}{figure.caption.110}%
+\contentsline {subparagraph}{}{245}{figure.caption.110}%
+\contentsline {subparagraph}{}{246}{equation.6.6.68}%
+\contentsline {paragraph}{Approche naïve via l'attendu champ moyen}{246}{figure.caption.111}%
+\contentsline {subparagraph}{}{246}{figure.caption.111}%
+\contentsline {subparagraph}{}{247}{equation.6.6.69}%
+\contentsline {subparagraph}{}{247}{equation.6.6.69}%
+\contentsline {subsubsection}{\numberline {6.6.2.5}Conclusion de la section}{247}{subsubsection.6.6.2.5}%
+\contentsline {subparagraph}{}{247}{subsubsection.6.6.2.5}%
+\contentsline {subparagraph}{}{248}{subsubsection.6.6.2.5}%
+\contentsline {subparagraph}{}{248}{subsubsection.6.6.2.5}%

@@ -58,6 +58,8 @@
 
 \noindent Ainsi, pour retrouver l'équivalence entre forme continue et forme discrète dans l'espace de Fourier, la conversion $q^2 \rightarrow 2(1-\cos (q_n))$ est nécessaire. C'est donc selon ce raisonnement que les propagateurs d'interaction sont implémentés numériquement dans les \autoref{chapter:Susp} et \autoref{chapter:yielding}.
 
+\section{Annexes au chapitre 1}
+
 \subsection{Réalisations expérimentales de la transition de dépiégeage}
 
 \label{sec:exp_depinning}
@@ -231,7 +233,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \FloatBarrier
 
-\section{Transport à longue portée}
+\section{Annexes au chapitre 2}
 
 \subsection{Mesures d'hyperuniformité dans le modèle LR-Manna}
 
@@ -269,7 +271,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \FloatBarrier
 
-\section{Transition de réversibilité}
+\section{Annexes au chapitre 3}
 
 \subsection{Transformée de Fourier des propagateurs}
 
@@ -426,7 +428,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \FloatBarrier
 
-\section{Transition vers l'écoulement}
+\section{Annexes au chapitre 4}
 
 
 
@@ -556,13 +558,20 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \paragraph{Ecrantage de l'interaction d'Eshelby}
 
-\subparagraph{}De la même façon que dans le cas des suspensions, les dispositifs expérimentaux étudiés peuvent agir significativement sur la portée des interactions. Si le cas de l'interaction d'Eshelby est le plus plébiscité dans la communauté des matériaux amorphes, nous pouvons imaginer une variation de la redistribution de contrainte dans un dispositif différent. En effet, si l'on considère un écoulement quasi-2D entre deux plaques rigides, alors les frottements entre le matériau et les plaques vont induire la présence d'un nouveau terme de dissipation dans la condition d'équilibre mécanique (voir \autoref{sec:Annexe_Eshelby}) :
+\subparagraph{}De la même façon que dans le cas des suspensions, les dispositifs expérimentaux étudiés dans le cas de la transition vers l'écoulement peuvent agir significativement sur la portée des interactions. Si le cas de l'interaction d'Eshelby est le plus plébiscité dans la communauté des matériaux amorphes, nous pouvons imaginer une variation de la modification de contrainte induite par un réarrangement plastique dans un dispositif différent. En effet, si l'on considère un écoulement quasi-2D entre deux plaques rigides, alors les frottements entre le matériau s'écoulant et les plaques vont induire la présence d'un nouveau terme de dissipation dans la condition d'équilibre mécanique (voir \autoref{sec:Annexe_Eshelby}) :
 
 \begin{equation}
-	-\partial_i P^1(\mathbf{r}) + \partial_j\sigma_{ij}^1(\mathbf{r}) - \mu\lambda u^1_{i}= 0
+	-\partial_i P^1(\mathbf{r}) + \partial_j\sigma_{ij}^1(\mathbf{r}) - \mu\lambda^2 u^1_{i}= 0
 \end{equation}
 
-\noindent avec $\lambda$ un coefficient retranscrivant l'intensité de la dissipation et définissant une longueur d'écrantage $\xi \sim 1/\sqrt{\lambda}$. Par une résolution similaire, cette étude mène à un propagateur dans l'espace réciproque  qui prend les formes asymptotiques suivantes (voir \textbf{Annexe}) :
+\noindent avec $\lambda$ un coefficient retranscrivant l'intensité de la dissipation et définissant une longueur d'écrantage $\xi \sim 1/\sqrt{\lambda}$. Par une résolution similaire à celle présentée dans la \autoref{sec:Annexe_Eshelby}, ce cas de figure nous amène à un propagateur dans l'espace réciproque dont la forme est la suivante :
+
+\begin{equation}
+    \mathcal{G}_\lambda(\mathbf{q}) = -4\frac{q_x^2q_y^2}{q^2(q^2+\lambda^2)}-\frac{\lambda^2}{\lambda^2+q^2}
+    \label{eq:screenedEshelby}
+\end{equation}
+
+\noindent dont on peut déterminer les formes asymptotiques suivantes en se basant sur la forme dans l'espace réel des propagateurs des modèles $\alpha$-Picard :
 
 \begin{equation}
 \begin{aligned}
@@ -662,28 +671,28 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \subparagraph{}Ainsi, même si au-delà de $\xi$ la redistribution de la contrainte décroît comme $1/r^4$, la criticalité du système observée n'est pas celle du modèle 4-Picard. Des mesures annexes suggèrent que cette perte de criticalité est due à la forme de la relaxation globale dans le cas du modèle de Picard écranté, qui est concentrée sur le site actif.
 
-\section{Discussion}
+\section{Annexes au chapitre 5}
 
 \subsection{Modèle élastoplastique décorrélé}
 
 \label{sec:EPMdiscret}
 
-\paragraph{Modèle élastoplastique isotrope}
+\subparagraph{}Dans cette partie, nous présentons le modèle élastoplastique que nous avons implémenté pour déterminer l'influence de la structure spatiale du propagateur dans le modèle de Picard (voir \autoref{chapter:discussion}).
 
-\subparagraph{}Une hypothèse est donc que c'est cette structure du propagateur qui rend l'agencement de la plasticité non-triviale qui est à l'origine d'un désccord avec le modèle $\mu$-HL. Afin de conforter cette hypothèse, nous avons mis en place un nouveau modèle élastoplastique supprimant ces corrélations.
+\subparagraph{}Nous considérons un modèle élastoplastique analogue au modèle de Picard mais dont l'influence d'un réarrangement plastique est isotrope. En fait, ce modèle présente exactement la même philosophie que celle portée par la modélisation dans le $\alpha$-ROM : l'influence d'un évènement d'activité sur les agents du système est prise en compte de manière statistique (voir \autoref{sec:ImplNumTBLRR}). Afin de mettre en place cette dynamique, elle est, comme dans le cas du $\alpha$-ROM, discrétisée en pas de temps indivisibles. Dans le $\alpha$-ROM, un pas de temps représente le déplacement des particules actives, dans ce modèle élastoplastique, le pas de temps représente la relaxation d'un site plastique. La dynamique est donc intrinséquement discrète dans le temps, à la différence du modèle de Picard qui reposait sur des règle d'évolution continue dans le temps (voir l'\autoref{eq:PicardRules})
 
-\subparagraph{}Pour ce faire, nous programmons une dynamique très simplifiée, discrète dans le temps, et dont les règles à chaque pas de temps sont les suivantes :
+\subparagraph{}En pratique, nous considérons, comme dans le cas du modèle de Picard, $N = L\times L$ sites élastoplastiques, indexé par un entier $i$, disposés sur un réseau carré bipériodique. \`A chaque site est affecté une contrainte locale $\sigma_i$, une contrainte seuil $\sigma_Y$ et un état $n_i$. \`A chaque pas de temps $t_n$ de la dynamique, l'algorithme suivi est le suivant :
 
 \begin{enumerate}
-	\item Tous les sites avec $\sigma_i > \sigma_c$ sont considérés comme actifs $A_i=1$.
-	\item Chaque site reçoit un kick de contrainte aléatoire et de taille typique $\delta\sigma_i$ définit comme la convolution $\sqrt{\sum_{j}G_{ij}A_j}$ avec $G_{ij}$ le propagateur définit de la même façon que dans le $\alpha$-ROM, i.e. isotrope et décroissant comme $\sim 1/r^{2\alpha}$.
-	\item La contrainte des sites actifs est relaxée vers une valeur $\sigma_0$
-	\item Chaque site reçoit un ajout de contrainte $\delta\Sigma$ permettant de conserver la contrainte globale $\Sigma$.
+	\item Tous les sites avec $\sigma_i > \sigma_Y$ sont considérés comme actifs $n_i=1$.
+	\item Chaque site reçoit un kick de contrainte aléatoire et de taille typique $\delta\sigma_i$, défini comme la convolution $\sqrt{\sum_{j\neq i}G_{ij}^2A_j}$ avec $G_{ij}^2$ le propagateur défini de la même façon que le propagateur dans le $\alpha$-ROM, i.e. isotrope et décroissant comme $\sim 1/r^{2\alpha}$ (voir \autoref{sec:ImplNumTBLRR}).
+	\item La contrainte des sites actifs est relaxée vers une valeur $\sigma_0 < \sigma_Y$.
+	\item Chaque site reçoit un ajout de contrainte $\delta\Sigma$ permettant de conserver la contrainte globale $\Sigma = \frac{1}{N}\sum_{i}\sigma_i$.
 \end{enumerate}
 
-\noindent Ce schéma numérique est alors à mi-chemin entre les modèles $\alpha$-ROM et $\alpha$-Picard. 
+\noindent Ce schéma numérique est alors à mi-chemin entre les modèles $\alpha$-ROM et $\alpha$-Picard. En regard de l'analyse proposée au \autoref{chapter:discussion}, l'étape 2 représente le processus de création d'activité par diffusion et l'étape 4 représente le processus de création d'activité par transport de la quantité conservée (qui prend ici un aspect champ moyen). L'implémentation détaillée peut-être retrouvée sur : \textbf{Lien github ?}
 
-\subparagraph{}Avec ce modèle, nous pouvons mesurer l'activité moyenne $\langle A \rangle $ dans l'état stationnaire pour différentes contraintes globales $\Sigma$ afin de déterminer l'exposant critique $\beta$ et son évolution avec la portée $\alpha$. Dans ce cas, des résultats préliminaires sont présentés à la \textbf{Fig XX}.
+\subparagraph{}Avec ce modèle, nous pouvons mesurer l'activité moyenne $\langle A \rangle = \langle \frac{1}{N}\sum_{i}n_i \rangle $ dans l'état stationnaire pour différentes contraintes globales $\Sigma$. En déterminant la contrainte critique $\Sigma_c$ séparant la phase active de la phase absorbante, nous pouvons alors déterminer l'exposant critique $\beta$ défini comme $\langle A \rangle \sim (\Sigma - \Sigma_c)^\beta$ et son évolution avec la portée $\alpha$. Les méthodes utilisées sont les mêmes que dans le cas de la détermination de l'exposant $\beta$ pour les modèles $\alpha$-Picard. Des résultats préliminaires concernant ces déterminations sont présentés à la \autoref{fig:DiscreteEPM}.
 
 \FloatBarrier
 
@@ -717,7 +726,11 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \noindent avec $A(\mathbf{r}, t)$ le champ d'activité et $\rho (\mathbf{r}, t)$ le champ conservé.
 
-\subparagraph{}En principe, intégrer numériquement ces équations n'est pas chose simple, et ce pour une raison principale : dû à la présence du bruit dans l'équation sur l'activité, sans précaution particulière celle-ci peut devenir négative, ce qui est totalement proscrit. En théorie, les équations préservent la positivité de l'activité, mais en pratique, via un schéma d'intégration avec un pas de temps $\Delta t$ fini, celle-ci n'est pas assurée. Pour résoudre ce problème, nous utilisons un algorithme d'intégration proposé précédemment par Dornic et al. \cite{dornic_integration_2005}, permettant d'introduire le bruit multiplicatif tout en préservant la positivité de l'activité. Son principe et son implémentation sont détaillés à la \autoref{sec:Dornic}.
+\subparagraph{}En principe, intégrer numériquement ces équations n'est pas chose simple, et ce pour une raison principale : dû à la présence du bruit dans l'équation sur l'activité, sans précaution particulière celle-ci peut devenir négative, ce qui est totalement proscrit. En théorie, les équations préservent la positivité de l'activité, mais en pratique, via un schéma d'intégration avec un pas de temps $\Delta t$ fini, celle-ci n'est pas assurée. Pour résoudre ce problème, nous utilisons un algorithme d'intégration proposé précédemment par Dornic et al. \cite{dornic_integration_2005}, permettant d'introduire le bruit multiplicatif tout en préservant la positivité de l'activité.
+
+\paragraph{Méthode d'intégration numérique}
+
+\todo{à écrire}
 
 \subsubsection{Enjeux pratiques}
 
