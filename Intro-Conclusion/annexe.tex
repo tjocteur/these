@@ -556,22 +556,26 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \label{sec:lambda_picard}
 
-\paragraph{Ecrantage de l'interaction d'Eshelby}
+\subparagraph{}Dans cette partie nous présentons une très brève étude de la transition vers l'écoulement dans un dispositif quasi-2D représentant un confinement entre deux plaques rigides. Pour ce faire, nous commençons par exposer la modification du propagateur de redistribution de la contrainte locale dans ce cas. Puis, via son analyse dans le cadre du modèle de Picard, nous montrons que cette nouvelle forme de l'interaction, toujours à longue portée, induit une perte de criticalité au delà d'une certaine longueur d'écrantage définie par le confinement.
 
-\subparagraph{}De la même façon que dans le cas des suspensions, les dispositifs expérimentaux étudiés dans le cas de la transition vers l'écoulement peuvent agir significativement sur la portée des interactions. Si le cas de l'interaction d'Eshelby est le plus plébiscité dans la communauté des matériaux amorphes, nous pouvons imaginer une variation de la modification de contrainte induite par un réarrangement plastique dans un dispositif différent. En effet, si l'on considère un écoulement quasi-2D entre deux plaques rigides, alors les frottements entre le matériau s'écoulant et les plaques vont induire la présence d'un nouveau terme de dissipation dans la condition d'équilibre mécanique (voir \autoref{sec:Annexe_Eshelby}) :
+\subsubsection{Ecrantage de l'interaction d'Eshelby}
+
+\subparagraph{}De la même façon que dans le cas des suspensions, les dispositifs expérimentaux étudiés dans le cas de la transition vers l'écoulement peuvent agir significativement sur la portée des interactions. Si le cas de l'interaction d'Eshelby est le plus plébiscité dans la communauté des matériaux amorphes, nous pouvons imaginer une variation de la modification de contrainte induite par un réarrangement plastique dans un dispositif différent. En effet, si l'on considère un écoulement quasi-2D dans le plan $(\hat{\mathbf{e}}_x, \hat{\mathbf{e}}_y)$ entre deux plaques rigides parallèles aux plans de côte $z$ constante, alors les frottements entre le fluide à seuil s'écoulant et les plaques vont induire une dissipation modifiant la redistribution de contrainte suite à un évènement plastique. 
+
+\subparagraph{}Pour le comprendre, nous proposons modéliser ces frottements par un terme de dissipation proportionnel à la défomation du fluide de la même manière que dans le cas de l'étude des écoulements en milieux poreux \cite{long_note_2001}. Dans ce cadre, la condition d'équilibre mécanique dans l'espace 2D effectif devient (voir \autoref{sec:Annexe_Eshelby}) :
 
 \begin{equation}
 	-\partial_i P^1(\mathbf{r}) + \partial_j\sigma_{ij}^1(\mathbf{r}) - \mu\lambda^2 u^1_{i}= 0
 \end{equation}
 
-\noindent avec $\lambda$ un coefficient retranscrivant l'intensité de la dissipation et définissant une longueur d'écrantage $\xi \sim 1/\sqrt{\lambda}$. Par une résolution similaire à celle présentée dans la \autoref{sec:Annexe_Eshelby}, ce cas de figure nous amène à un propagateur dans l'espace réciproque dont la forme est la suivante :
+\noindent avec $\lambda$ un coefficient retranscrivant l'intensité de la dissipation et définissant une longueur d'écrantage $\xi \sim 1/\lambda$. Par une résolution similaire à celle présentée dans la \autoref{sec:Annexe_Eshelby}, ce cas de figure nous amène à un propagateur dans l'espace réciproque dont la forme est la suivante :
 
 \begin{equation}
     \mathcal{G}_\lambda(\mathbf{q}) = -4\frac{q_x^2q_y^2}{q^2(q^2+\lambda^2)}-\frac{\lambda^2}{\lambda^2+q^2}
     \label{eq:screenedEshelby}
 \end{equation}
 
-\noindent dont on peut déterminer les formes asymptotiques suivantes en se basant sur la forme dans l'espace réel des propagateurs des modèles $\alpha$-Picard :
+\noindent et dont on peut déterminer les formes asymptotiques en se basant sur la forme dans l'espace réel des propagateurs des modèles $\alpha$-Picard :
 
 \begin{equation}
 \begin{aligned}
@@ -582,34 +586,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \noindent Ainsi, dans l'espace réel, en dehors de la relaxation globale imposée par le terme de dissipation, la redistribution du système écranté est la même que celle dans le problème original à petite distance $r\ll \xi$, décroissant comme $\sim 1/r^2$, mais, au-delà de la longueur d'écrantage, celle-ci décroît significativement plus vite, comme $\sim 1/r^4$. Ainsi, comme dans le cas des suspensions, l'écrantage ne supprime pas le caractère de longue portée de l'interaction mais change son évolution algébrique.
 
-\subsubsection{Transformée de Fourier inverse du propagateur}
-
-\paragraph{}Dans l'espace de Fourier, le propagateur d'Eshleby écranté prend la forme :
-
-\begin{equation}
-    \mathcal{G}_\lambda(\mathbf{q}) = -4\frac{q_x^2q_y^2}{q^2(q^2+\lambda^2)}-\frac{\lambda^2}{\lambda^2+q^2}
-    \label{eq:screenedEshelby}
-\end{equation}
-
-\noindent avec $\lambda$ un paramètre définissant l'intensité de la dissipation locale. De cette forme, nous pouvons directement déduire les limites asymptotiques :
-
-\begin{equation}
-    \mathcal{G}_\lambda(\mathbf{q})\xrightarrow[\lambda\ll q]{}-4\frac{q_x^2q_y^2}{q^4}
-\end{equation}
-
-\begin{equation}
-    \mathcal{G}_\lambda(\mathbf{q})\xrightarrow[\lambda\gg q]{}-4\frac{q_x^2q_y^2}{\lambda^2 q^2}-1
-\end{equation}
-
-\noindent qui correspondent en espace réel à :
-
-\begin{equation}
-    \mathcal{G}_\lambda(\mathbf{r})\xrightarrow[\lambda\ll q]{}\sim\frac{\cos 4\theta}{r^2}
-\end{equation}
-
-\begin{equation}
-    \mathcal{G}_\lambda(\mathbf{r})\xrightarrow[\lambda\gg q]{}\sim\frac{\cos 4\theta}{r^4}
-\end{equation}
+\paragraph{Transformée de Fourier inverse du propagateur}
 
 \subparagraph{}Pour obtenir l'expression complète du propagateur en espace réel, nous pouvons décomposer le premier terme de l'\autoref{eq:screenedEshelby} de la manière suivante :
 
@@ -641,11 +618,20 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
     \end{aligned}
 \end{equation}
 
-\subsubsection{Avalanches}
-
-\subparagraph{}Le modèle de Picard écranté ne conservant pas la contrainte globale du système, il n'est pas possible de générer des avalanches selon le protocole RTP. Toutefois, l'approche quasistatique de l'AQS est tout à fait réalisable. Pour différentes tailles de systèmes $L$ et différents écrantages $\lambda$, nous mesurons les distributions de tailles d'avalanche avec le protocole AQS dans ce modèle. Les résultats sont présentés à la \autoref{fig:EvolLambdaAv}.
+\subsubsection{Etude des avalanches dans le modèle $\lambda$-Picard}
 
 \label{sec:screenedav}
+
+\subparagraph{}Pour étudier la transition vers l'écoulement dans un dispositif confiné quasi-2D, nous implémentons la forme du propagateur donnée par l'\autoref{eq:screenedEshelby} dans le modèle de Picard de la même façon que dans le cas du modèle $\alpha$-Picard. Ce modèle dépend d'un paramètre continu $\lambda$ et nous le baptisons alors modèle $\lambda$-Picard. Via cette implémentation, nous obtenons les formes de décroissance du propagateur représentées à la \autoref{fig:screenedprop} et compatibles avec les comportements asymptotiques en $\sim 1/r^2$ et en $\sim 1/r^4$.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{Chapitre6/Figures/ScreenedPropagators.pdf}
+	\caption{Images des propagateurs de redistribution dans le modèle $\lambda$-Picard. La figure montre l'évolution du propagateur le long de la ligne $y=0$ pour différentes valeurs d'écrantage $\lambda$.}
+	\label{fig:screenedprop}
+\end{figure}
+
+\subparagraph{}Le modèle de Picard écranté ne conservant pas la contrainte globale du système, il n'est pas possible de générer des avalanches selon le protocole RTP. Toutefois, l'approche quasistatique de l'AQS est tout à fait réalisable. Pour différentes tailles de systèmes $L$ et différents écrantages $\lambda$, nous mesurons les distributions de tailles d'avalanche avec le protocole AQS dans ce modèle. Les résultats sont présentés à la \autoref{fig:EvolLambdaAv}.
 
 \begin{figure}[h]
 	\centering
@@ -662,9 +648,9 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.65\textwidth]{Chapitre4/Figures/Avalanches/RescaleScreenedAv.pdf}
+	\includegraphics[width=0.65\textwidth]{Chapitre6/Figures/RescaleScreenedAv.pdf}
 	\label{fig:RescaleScreenedAv}
-	\caption{Redimensionnement des distributions de tailles d'avalanche via la longueur d'écrantage $\xi$ dans le modèle de Picard écranté. En inset, les données avant redimensionnement. La taille du système est $L=512$.}
+	\caption{Redimensionnement des distributions de tailles d'avalanche via la longueur d'écrantage $\xi$ dans le modèle de Picard écranté. En encart, les données avant redimensionnement. La taille du système est $L=512$.}
 \end{figure}
 
 \subparagraph{}La meilleure superposition des courbes est alors représentée à la \autoref{fig:RescaleScreenedAv} pour $d_{f,\text{eff}}\approx 0.9$ et $\tau_\text{eff} \approx 1.36$. La valeur des exposants déterminée ainsi étant très porche de celles déterminées dans le cas du modèle de Picard avec un redimensionnement par $L$, cela conforte notre hypothèse. Ainsi, l'écrantage sur une longueur $\xi$ n'aurait comme effet que de supprimer la criticalité du système au-delà de cette échelle de longueur.
@@ -690,13 +676,17 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 	\item Chaque site reçoit un ajout de contrainte $\delta\Sigma$ permettant de conserver la contrainte globale $\Sigma = \frac{1}{N}\sum_{i}\sigma_i$.
 \end{enumerate}
 
-\noindent Ce schéma numérique est alors à mi-chemin entre les modèles $\alpha$-ROM et $\alpha$-Picard. En regard de l'analyse proposée au \autoref{chapter:discussion}, l'étape 2 représente le processus de création d'activité par diffusion et l'étape 4 représente le processus de création d'activité par transport de la quantité conservée (qui prend ici un aspect champ moyen). L'implémentation détaillée peut-être retrouvée sur : \textbf{Lien github ?}
+\noindent Ce schéma numérique est alors à mi-chemin entre les modèles $\alpha$-ROM et $\alpha$-Picard. En regard de l'analyse proposée au \autoref{chapter:discussion}, l'étape 2 représente le processus de création d'activité par diffusion et l'étape 4 représente le processus de création d'activité par transport de la quantité conservée (qui prend ici un aspect champ moyen). L'implémentation détaillée peut-être retrouvée sur : \textbf{Lien github}
 
 \subparagraph{}Avec ce modèle, nous pouvons mesurer l'activité moyenne $\langle A \rangle = \langle \frac{1}{N}\sum_{i}n_i \rangle $ dans l'état stationnaire pour différentes contraintes globales $\Sigma$. En déterminant la contrainte critique $\Sigma_c$ séparant la phase active de la phase absorbante, nous pouvons alors déterminer l'exposant critique $\beta$ défini comme $\langle A \rangle \sim (\Sigma - \Sigma_c)^\beta$ et son évolution avec la portée $\alpha$. Les méthodes utilisées sont les mêmes que dans le cas de la détermination de l'exposant $\beta$ pour les modèles $\alpha$-Picard. Des résultats préliminaires concernant ces déterminations sont présentés à la \autoref{fig:DiscreteEPM}.
 
 \FloatBarrier
 
 \subsection{Équations de champ pour les transitions convexes}
+
+\label{sec:eqchampconvexe}
+
+\todo{changer a en r sur les figures}
 
 \label{sec:eqChampConv}
 
@@ -706,15 +696,15 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \subparagraph{}Cette motivation n'est en réalité pas nouvelle, autant du point de vue de la transition vers l'écoulement que du point de vue de la transition de réversibilité. En effet, du fait de sa proximité avec la transition de dépiégeage, certaines études ont cherché à établir une théorie continue homologue dans le cas de la transition vers l'écoulement \cite{tyukodi_depinning_2016, weiss_finite_2014}. Les équations proposées sont alors directement tirées des règles dynamiques des modèles élastoplastiques. Le problème est que celles-ci font intervenir la notion d'un seuil local, inadaptée à une approche macroscopique à grande échelle. Par ailleurs, l'introduction de l'interaction d'Eshelby dans une théorie continue sans seuil comme l'équation de quenched-Edward-Wilkinson pose problème, puisque la non-positivité du propagateur rend la procédure de renormalisation habituelle impossible \cite{wiese_blabla}. Une description continue adéquate manque donc toujours à la transition vers l'écoulement.
 
-\subparagraph{}Du côté de la transition de réversibilité, l'étude menée par Mari et al. \cite{mari_absorbing_2022} avait mené à la suggestion d'une théorie de champ expliquant la convexité de la transition. Les auteurs ont proposé une traduction du mécanisme de diffusion vers l'activité comme une modification du terme non-linéaire en $\sim A^2$ dans l'équation CDP sur le champ d'activité en un terme en $\sim A^{3/2}$. Dans une approche champ moyen naïve, cela permet effectivement d'obtenir un exposant $\beta = 2$ et donc une transition convexe. Toutefois, si cette théorie était appuyée sur des arguments microscopiques, elle n'a jamais été testée afin de comprendre si cette convexité est effectivement retrouvée en dimension finie.
+\subparagraph{}Du côté de la transition de réversibilité, l'étude menée par Mari et al. \cite{mari_absorbing_2022} avait mené à la suggestion d'une théorie de champ expliquant la convexité de la transition. Les auteurs ont proposé une traduction du mécanisme de de création d'activité par diffusion comme une modification du terme non-linéaire en $\sim A^2$ dans l'équation CDP sur le champ d'activité en un terme en $\sim A^{3/2}$. Dans une approche champ moyen naïve, cela permet effectivement d'obtenir un exposant $\beta = 2$ et donc une transition convexe. Toutefois, si cette théorie était appuyée sur des arguments microscopiques, elle n'a jamais été testée afin de comprendre si cette convexité est effectivement retrouvée en dimension finie.
 
-\subparagraph{}Il existe une tension entre cette recherche classique d'une théorie continue pour les transitions convexes et le cadre de champ moyen adapté que nous avons présenté précédemment avec les modèles de type Hébraud-Lequeux. En effet, il n'est pas évident de voir comment l'approche statistique sur la quantité conservée peut être traduite dans un langage de théorie de champ.
+\subparagraph{}Il existe une tension entre cette recherche classique d'une théorie continue pour les transitions convexes et le cadre de champ moyen adapté que nous avons présenté précédemment avec les modèles de type Hébraud-Lequeux. En effet, il n'est pas évident de voir comment l'approche intrinsèquement microscopique ou mésoscopique sur la quantité conservée peut être traduite dans un langage de théorie de champ.
 
 \subparagraph{}Dans cette section, nous présentons des résultats préliminaires obtenus sur cet axe de réflexion. Plus précisément nous essayons d'inférer des équations de champ adéquates pour reproduire la convexité de ces transitions, en se basant sur les théories de champ des classes CDP et LR-CDP. Pour tester ces équations, nous ne les étudions pas analytiquement mais plutôt numériquement en les intégrant directement. Ainsi, il est possible d'étudier les criticalités qu'elles décrivent de la même façon que les modèles microscopiques déjà considérés tout au long de cet ouvrage.
 
 \subsubsection{Cadre de travail}
 
-\subparagraph{}Établir une théorie de champ n'est de façon générale pas quelque chose d'évident, et encore moins lorsque l'on n'est pas spécialiste du domaine. Dans le cas des classes DP et CDP, les théories continues associées sont dérivées, plus ou moins directement, des processus de réaction-diffusion mentionnés dans le \autoref{chapter:introduction}. Dans notre cas, il est difficile d'imaginer un tel processus représentant l'effet du bruit interne sur la dynamique. Les systèmes que nous avons étudié ressemblant par de nombreux aspects aux modèles appartenant à la classe CDP, nous proposons de partir de la théorie continue la décrivant et d'en proposer des modifications. Pour rappel, celle-ci est représentée par les deux équations couplées suivantes :
+\subparagraph{}Établir une théorie de champ n'est de façon générale pas quelque chose d'évident, et encore moins lorsque l'on n'est pas spécialiste du domaine. Dans le cas des classes DP et CDP, les théories continues associées sont dérivées, plus ou moins directement, des processus de réaction-diffusion mentionnés dans le \autoref{chapter:introduction}. Dans notre cas, il est difficile d'imaginer un tel processus représentant l'effet du bruit interne sur la dynamique. Les systèmes que nous avons étudiés ressemblant par de nombreux aspects aux modèles appartenant à la classe CDP, nous proposons de partir de la théorie continue la décrivant et d'en proposer des modifications. Pour rappel, celle-ci est représentée par les deux équations couplées suivantes :
 
 \begin{equation}
 \begin{aligned}
@@ -726,11 +716,22 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \noindent avec $A(\mathbf{r}, t)$ le champ d'activité et $\rho (\mathbf{r}, t)$ le champ conservé.
 
-\subparagraph{}En principe, intégrer numériquement ces équations n'est pas chose simple, et ce pour une raison principale : dû à la présence du bruit dans l'équation sur l'activité, sans précaution particulière celle-ci peut devenir négative, ce qui est totalement proscrit. En théorie, les équations préservent la positivité de l'activité, mais en pratique, via un schéma d'intégration avec un pas de temps $\Delta t$ fini, celle-ci n'est pas assurée. Pour résoudre ce problème, nous utilisons un algorithme d'intégration proposé précédemment par Dornic et al. \cite{dornic_integration_2005}, permettant d'introduire le bruit multiplicatif tout en préservant la positivité de l'activité.
+\subparagraph{}En principe, intégrer numériquement ces équations n'est pas chose simple, et ce pour une raison principale : dû à la présence du bruit dans l'équation sur l'activité, sans précaution particulière celle-ci peut devenir négative, ce qui est totalement proscrit. En théorie, les équations préservent la positivité de l'activité, mais en pratique, via un schéma d'intégration avec un pas de temps $\Delta t$ fini, celle-ci n'est pas assurée. Pour résoudre ce problème, nous utilisons un algorithme d'intégration proposé précédemment par Dornic et al. \cite{dornic_integration_2005}, permettant d'introduire le bruit multiplicatif tout en préservant la positivité de l'activité. Simplement, nous l'implémentons de manière parallélisé via le langage CUDA afin de gagner en efficacité. De manière schématique, cette méthode permet de décomposer l'intégration en une intégration déterministe réalisée via les méthodes habituelles\footnote{Dans notre cas, nous utilisons une méthode d'Euler ou une méthode de Runge-Kutta d'ordre 4}, et une intégration du terme stochastique via la résolution analytique de l'équation constituée par les termes restants. De ce fait, le bruit multiplicatif ne peut pas mener à une activité négative.
 
-\paragraph{Méthode d'intégration numérique}
+\subsubsection{Vérification de la méthode d'intégration numérique}
 
-\todo{à écrire}
+\subparagraph{}Avant de tester de nouvelles théories de champs pour modéliser les transitions de réversibilité et d'écoulement, nous vérifions le bon fonctionnement de notre schéma numérique en intégrant les équations associées à la classe CDP.
+
+\subparagraph{}Pour ce faire, nous intégrons numériquement l'\autoref{eq:CDP2} pour différentes valeurs du paramètre $r$, la valeur des autres paramètres étant gardée constante. Nous observons alors effectivement une transition de phase absorbante dont le point critique représenté par la valeur $r_c$ sépare une phase active, dans laquelle la valeur moyenne de l'activité $\langle A \rangle$ est positive dans l'état stationnaire, d'une phase absorbante où le système tombe à temps long dans l'état $A(\mathbf{r}, t) = 0$.
+
+\subparagraph{}En déterminant la valeur du paramètre critique $r_c$ et de l'exposant de convexité $\beta$ avec la méthode présentée au \autoref{chapter:TransportLP}, nous obtenons les résultats présentés sur la \autoref{fig:TestDornicCDP}. Nous mesurons alors $\beta = 0.64 \pm 0.02$, soit une valeur en parfait accord avec celle attendue pour la classe CDP $\beta = 0.639 \pm 0.009$ \cite{lubeck_universal_2004}. Nous considérons cette mesure comme une preuve suffisante du bon fonctionnement de notre algorithme implémenté.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\textwidth]{Chapitre6/Figures/betaCDP_Langevin.pdf}
+	\caption{Intégration numérique des équations de champs CDP. (a) Evolution de l'activité dans le système $ A $ en fonction du temps $t$ pour différentes distances au point critique $\delta r = \frac{r-r_c}{r_c}$. (b) Détermination de l'exposant $\beta$. Nous mesurons $r_c \approx -0.14418$ pour les valeurs de paramètres $\omega = 1$, $u = 1$, $\kappa = 0.25$, $\sigma = 1.4$ et une valeur moyenne du champ conservé $\bar{\sigma} = 1$.}
+	\label{fig:TestDornicCDP}
+\end{figure}
 
 \subsubsection{Enjeux pratiques}
 
@@ -819,7 +820,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \subparagraph{}Pour comprendre si cette formulation permet effectivement de retrouver une transition convexe caractérisée par $\beta > 1$, nous intégrons l'\autoref{eq:CDP32} dans sa forme champ moyen. Pour ce faire, le terme d'interaction local $\Delta A$ est remplacé par $\bar{A}-A$ avec $\bar{A}$ la valeur moyenne instantanée du champ d'activation. Toujours en faisant varier le paramètre $r$, nous observons une transition de phase absorbante mais dont la criticalité semble être encore caractérisée par $\beta \approx 1$, comme nous le représentons à la \autoref{fig:MFCDP32}. Bien que ces résultats restent préliminaires, cette étude présente une approche du point critique raisonnable qui suggère que la transition n'est effectivement pas convexe dans la limite de très longue portée.
 
-\subparagraph{}Même si cela peut apparaître surprenant, dans la \autoref{sec:Munoz}, nous montrons que ce résultat est en fait prévisible d'un point de vue analytique. Comme des études précédentes l'ont montré, les théories de champ faisant intervenir des bruits multiplicatifs ne possèdent pas des propriétés champ moyen dérivables trivialement \cite{munoz_mean_field_2005, munoz_multiplicative_2003}. \`A la place, un autre traitement du champ moyen doit être opéré. Celui-ci mène alors à un exposant $\beta^\text{MF} = 1$ quel que soit le degré de non-linéarité choisi dans une théorie présentant un terme de bruit multiplicatif en $\sim \sqrt{A(\mathbf{r}, t)}$.
+\subparagraph{}Même si cela peut apparaître surprenant, dans la partie suivante, nous montrons que ce résultat est en fait prévisible d'un point de vue analytique. Comme des études précédentes l'ont montré, les théories de champ faisant intervenir des bruits multiplicatifs ne possèdent pas des propriétés champ moyen dérivables trivialement \cite{munoz_mean_field_2005, munoz_multiplicative_2003}. \`A la place, un autre traitement du champ moyen doit être opéré. Celui-ci mène alors à un exposant $\beta^\text{MF} = 1$ quel que soit le degré de non-linéarité choisi dans une théorie présentant un terme de bruit multiplicatif en $\sim \sqrt{A(\mathbf{r}, t)}$.
 
 \begin{figure}[h]
 	\centering
@@ -827,6 +828,18 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 	\caption{Intégration numérique de l'\autoref{eq:CDP32} dans un système 2D de taille $L=1024$ avec comme valeur des paramètres : $\omega = 1$, $u = 0.5$, $\kappa = 0.25$, $\kappa_\sigma = 0.01$, $\sigma = 1$, $\gamma = 0.1$ et une valeur moyenne du champ conservé $\bar{\rho} = 1$. Le paramètre $r$ est varié dans l'ensemble $\{ 0.2462, 0.3010, 0.3295, 0.3442, 0.3518, 0.3558, 0.3578, 0.3589\}$. (a) Evolution de la valeur moyenne du champ d'activité en fonction du temps pour des différentes valeurs du paramètre $r$. (b) Evolution de la valeur moyenne de l'activité dans l'état stationnaire en fonction de la distance au point critique $\delta r$. Nous estimons ici $r_c \approx 0.36083$.}
 	\label{fig:MFCDP32}
 \end{figure}
+
+\subsubsection{Approches champ moyen des transitions avec bruit multiplicatif}
+
+\subparagraph{}Dans cette partie, nous expliquons pourquoi les théories de champ faisant intervenir un bruit multiplicatif ne peuvent pas être associées à un comportement champ moyen via la méthode habituelle. D'habitude, pour déterminer l'exposant $\beta$ dans la limite champ moyen, il est d'usage de simplifier les équations de champ associées en supprimer les dépendances spatiales et le bruit. Si l'on prend l'exemple de la théorie DP, celle-ci devient dans ce cas (voir \autoref{eq:eqDP}) :
+
+\begin{equation}
+	\frac{\mathrm{d}A}{\mathrm{d}t} = rA(t) - u A^2(t)
+\end{equation}
+
+\noindent dont on tire de la solution stationnaire $\beta = 1$.
+
+\subparagraph{}Dans le cadre général d'une équation de champ représentée par un bruit multiplicatif, cette méthode ne tient plus, comme l'ont montré les travaux de Munoz et al. \cite{munoz_multiplicative_2003, munoz_multiplicative_2003}. \todo{à poursuivre mais je suis pas bien là}
 
 \subsubsection{Conclusion de la section}
 
