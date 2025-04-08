@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.10.26)  8 APR 2025 09:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.10.26)  8 APR 2025 11:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1961,7 +1961,7 @@ ue de l'hy-per-uni-for-mité de contrainte,
 File: Chapitre4/Figures/Avalanches/Pheno.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/Avalanches/Pheno.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Avalanches/Pheno.pdf  used on input 
-line 965.
+line 967.
 (pdftex.def)             Requested size: 455.24411pt x 131.99425pt.
 
 
@@ -1972,7 +1972,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: Chapitre4/Figures/Avalanches/AQS.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/Avalanches/AQS.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Avalanches/AQS.pdf  used on input li
-ne 976.
+ne 978.
 (pdftex.def)             Requested size: 273.14923pt x 133.8099pt.
  [162 <./Chapitre4/Figures/Avalanches/Pheno.pdf> <./Chapitre4/Figures/Avalanche
 s/AQS.pdf
@@ -1980,7 +1980,7 @@ s/AQS.pdf
 pdfTeX warning: /usr/bin/pdflatex (file ./Chapitre4/Figures/Avalanches/AQS.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
 >]
-Overfull \hbox (12.11163pt too wide) in paragraph at lines 993--994
+Overfull \hbox (12.11163pt too wide) in paragraph at lines 995--996
 [] [][] \T1/lmr/m/n/12 D'un point de vue ana-ly-tique, comme nous l'avons men-t
 ionné à la [][]sous-sous-section 4.1.3.1[][][],
  []
@@ -1991,7 +1991,7 @@ ionné à la [][]sous-sous-section 4.1.3.1[][][],
 File: Chapitre4/Figures/Avalanches/PbContrainte.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/Avalanches/PbContrainte.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Avalanches/PbContrainte.pdf  used on
- input line 1031.
+ input line 1033.
 (pdftex.def)             Requested size: 455.24411pt x 134.43576pt.
 
 
@@ -2004,13 +2004,13 @@ File: Chapitre4/Figures/Avalanches/Comparaison_Distrib.pdf Graphic file (type p
 df)
 <use Chapitre4/Figures/Avalanches/Comparaison_Distrib.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Avalanches/Comparaison_Distrib.pdf  
-used on input line 1068.
+used on input line 1070.
 (pdftex.def)             Requested size: 455.24411pt x 141.19667pt.
 <Chapitre4/Figures/Avalanches/Collapse.pdf, id=5392, 965.2382pt x 332.83076pt>
 File: Chapitre4/Figures/Avalanches/Collapse.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/Avalanches/Collapse.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Avalanches/Collapse.pdf  used on inp
-ut line 1083.
+ut line 1085.
 (pdftex.def)             Requested size: 455.24411pt x 156.97388pt.
  [168 <./Chapitre4/Figures/Avalanches/Comparaison_Distrib.pdf> <./Chapitre4/Fig
 ures/Avalanches/Collapse.pdf
@@ -2027,7 +2027,7 @@ File: Chapitre4/Figures/Avalanches/Rescale_Av_alpha3.pdf Graphic file (type pdf
 )
 <use Chapitre4/Figures/Avalanches/Rescale_Av_alpha3.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Avalanches/Rescale_Av_alpha3.pdf  us
-ed on input line 1125.
+ed on input line 1127.
 (pdftex.def)             Requested size: 455.24411pt x 151.74721pt.
 
 
@@ -2824,7 +2824,7 @@ See the caption package documentation for explanation.
 LaTeX Warning: Reference `fig:EvolLambdaAv' on page 243 undefined on input line
  634.
 
-<Chapitre4/Figures/Avalanches/EvolLambdaAv.pdf, id=6968, 867.24pt x 289.08pt>
+<Chapitre4/Figures/Avalanches/EvolLambdaAv.pdf, id=6969, 867.24pt x 289.08pt>
 File: Chapitre4/Figures/Avalanches/EvolLambdaAv.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/Avalanches/EvolLambdaAv.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Avalanches/EvolLambdaAv.pdf  used on
@@ -2834,14 +2834,17 @@ Package pdftex.def Info: Chapitre4/Figures/Avalanches/EvolLambdaAv.pdf  used on
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [243]
-<Chapitre6/Figures/RescaleScreenedAv.pdf, id=6980, 462.52798pt x 346.89601pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [244 <./Chapitre6/Figures/ScreenedPropagators.pdf> <./Chapitre4/Figures/Avalan
+ches/EvolLambdaAv.pdf>]
+<Chapitre6/Figures/RescaleScreenedAv.pdf, id=7073, 462.52798pt x 346.89601pt>
 File: Chapitre6/Figures/RescaleScreenedAv.pdf Graphic file (type pdf)
 <use Chapitre6/Figures/RescaleScreenedAv.pdf>
 Package pdftex.def Info: Chapitre6/Figures/RescaleScreenedAv.pdf  used on input
  line 651.
 (pdftex.def)             Requested size: 295.90588pt x 221.93858pt.
- [244 <./Chapitre6/Figures/ScreenedPropagators.pdf> <./Chapitre4/Figures/Avalan
-ches/EvolLambdaAv.pdf>]
+
 
 Package caption Warning: \label without proper reference on input line 652.
 See the caption package documentation for explanation.
@@ -2850,18 +2853,18 @@ See the caption package documentation for explanation.
 LaTeX Warning: Reference `fig:RescaleScreenedAv' on page 245 undefined on input
  line 656.
 
-[245 <./Chapitre6/Figures/RescaleScreenedAv.pdf>] [246] [247]
-<Chapitre6/Figures/betaCDP_Langevin.pdf, id=7137, 612.74649pt x 243.01596pt>
+[245 <./Chapitre6/Figures/RescaleScreenedAv.pdf>] [246]
+Underfull \vbox (badness 1342) has occurred while \output is active []
+
+ [247]
+[248]
+<Chapitre6/Figures/betaCDP_Langevin.pdf, id=7145, 612.74649pt x 243.01596pt>
 File: Chapitre6/Figures/betaCDP_Langevin.pdf Graphic file (type pdf)
 <use Chapitre6/Figures/betaCDP_Langevin.pdf>
 Package pdftex.def Info: Chapitre6/Figures/betaCDP_Langevin.pdf  used on input 
 line 731.
 (pdftex.def)             Requested size: 409.71692pt x 162.50095pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[248] [249 <./Chapitre6/Figures/betaCDP_Langevin.pdf>]
+ [249 <./Chapitre6/Figures/betaCDP_Langevin.pdf>]
 <Chapitre5/Figures/YieldingD.pdf, id=7185, 794.97pt x 289.08pt>
 File: Chapitre5/Figures/YieldingD.pdf Graphic file (type pdf)
 <use Chapitre5/Figures/YieldingD.pdf>
@@ -2877,7 +2880,7 @@ LaTeX Warning: Reference `sec:EqChampROM' on page 250 undefined on input line 7
 85.
 
 [250]
-<Chapitre5/Figures/SuspensionsB.pdf, id=7198, 794.97pt x 289.08pt>
+<Chapitre5/Figures/SuspensionsB.pdf, id=7199, 794.97pt x 289.08pt>
 File: Chapitre5/Figures/SuspensionsB.pdf Graphic file (type pdf)
 <use Chapitre5/Figures/SuspensionsB.pdf>
 Package pdftex.def Info: Chapitre5/Figures/SuspensionsB.pdf  used on input line
@@ -2887,19 +2890,27 @@ Package pdftex.def Info: Chapitre5/Figures/SuspensionsB.pdf  used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[251 <./Chapitre5/Figures/YieldingD.pdf>]
-<Chapitre5/Figures/MFCDP32.pdf, id=7227, 794.97pt x 289.08pt>
+[251 <./Chapitre5/Figures/YieldingD.pdf>] [252 <./Chapitre5/Figures/Suspensions
+B.pdf>]
+<Chapitre5/Figures/MFCDP32.pdf, id=7249, 794.97pt x 289.08pt>
 File: Chapitre5/Figures/MFCDP32.pdf Graphic file (type pdf)
 <use Chapitre5/Figures/MFCDP32.pdf>
-Package pdftex.def Info: Chapitre5/Figures/MFCDP32.pdf  used on input line 827.
+Package pdftex.def Info: Chapitre5/Figures/MFCDP32.pdf  used on input line 829.
 
+(pdftex.def)             Requested size: 455.24411pt x 165.54922pt.
+ [253 <./Chapitre5/Figures/MFCDP32.pdf>] [254]
+<Chapitre6/Figures/MathematicaMunozDP.pdf, id=7294, 794.97pt x 289.08pt>
+File: Chapitre6/Figures/MathematicaMunozDP.pdf Graphic file (type pdf)
+<use Chapitre6/Figures/MathematicaMunozDP.pdf>
+Package pdftex.def Info: Chapitre6/Figures/MathematicaMunozDP.pdf  used on inpu
+t line 940.
 (pdftex.def)             Requested size: 455.24411pt x 165.54922pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[252 <./Chapitre5/Figures/SuspensionsB.pdf>] [253 <./Chapitre5/Figures/MFCDP32.
-pdf>]) [254] [255] (./compilation_these_avec_page_de_garde_et_abstract.aux)
+[255]) [256 <./Chapitre6/Figures/MathematicaMunozDP.pdf>] [257]
+(./compilation_these_avec_page_de_garde_et_abstract.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -2908,10 +2919,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 24330 strings out of 478287
- 472966 string characters out of 5849288
- 728233 words of memory out of 5000000
- 40906 multiletter control sequences out of 15000+600000
+ 24360 strings out of 478287
+ 473615 string characters out of 5849288
+ 728707 words of memory out of 5000000
+ 40919 multiletter control sequences out of 15000+600000
  606330 words of font info for 138 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,17n,82p,2011b,1074s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2947,11 +2958,11 @@ pe1/public/amsfonts/symbols/msam9.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmr8a.pfb>
-Output written on compilation_these_avec_page_de_garde_et_abstract.pdf (259 pag
-es, 12175163 bytes).
+Output written on compilation_these_avec_page_de_garde_et_abstract.pdf (261 pag
+es, 12193174 bytes).
 PDF statistics:
- 8031 PDF objects out of 8907 (max. 8388607)
- 6259 compressed objects within 63 object streams
- 1037 named destinations out of 1200 (max. 500000)
- 1701 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 8084 PDF objects out of 8907 (max. 8388607)
+ 6304 compressed objects within 64 object streams
+ 1053 named destinations out of 1200 (max. 500000)
+ 1706 words of extra memory for PDF output out of 10000 (max. 10000000)
 

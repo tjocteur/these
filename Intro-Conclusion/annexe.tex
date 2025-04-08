@@ -321,7 +321,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \label{sec:ResolNumMuHL}
 
-\subparagraph{}Afin d'étudier le comportement critique du modèle $\mu$-Hébraud-Lequeux dans le cadre de la modélisation champ moyen du $\alpha$-ROM, nous proposons une méthode d'intégration numérique indirecte de l'\autoref{eq:muHL}. Dans le cas du modèle original de Hébraud-Lequeux, différents travaux ont proposé une résolution numérique des équations associées via une dynamique de population \cite{bouchaud_spontaneous_2016}. Dans cette partie, nous transposons cette méthode de résolution à l'intégration des équations du modèle $\mu$-Hébraud-Lequeux. En fait, l'équation suivante : 
+\subparagraph{}Afin d'étudier le comportement critique du modèle $\mu$-Hébraud-Lequeux dans le cadre de la modélisation champ moyen du $\alpha$-ROM, nous proposons une méthode d'intégration numérique indirecte de l'\autoref{eq:muHL}. Dans le cas du modèle original de Hébraud-Lequeux, il est possible de résoudre les équations associées via une dynamique de population \cite{bouchaud_spontaneous_2016}. Dans cette partie, nous transposons cette méthode de résolution à l'intégration des équations du modèle $\mu$-Hébraud-Lequeux. En fait, l'équation suivante : 
 
 \begin{equation}
 \begin{aligned}
@@ -361,11 +361,11 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 	\Gamma \sim (R-R_c)^\beta
 \end{equation}
 
-\subparagraph{} Les résultats présentés à la \autoref{fig:LHLNum} ont été obtenus pour les valeurs des paramètres $s=1$, $\Delta t  = 10^{-2}$, $\tau = 1$ et $N \sim 10^7$. Dans le cas $\mu = 2$ où la loi stable devient une loi normale, nous vérifions que nous retrouvons les résultats attendus soit $\beta = 2$ et $R_c = \sqrt{2a}$, et la distribution stationnaire  prédite via la résolution analytique (rendue possible dans ce cas). Cela confirme la validité de notre approche.
+\subparagraph{} Les résultats présentés à la \autoref{fig:LHLNum} ont été obtenus pour les valeurs des paramètres $s=1$, $\Delta t  = 10^{-2}$, $\tau = 1$ et $N \sim 10^7$. Dans le cas $\mu = 2$ où la loi stable devient une loi normale, nous vérifions que nous retrouvons les résultats attendus soit $\beta = 2$ et $R_c = \sqrt{2a}$, et la distribution stationnaire  prédite via la résolution analytique (rendue possible dans ce cas). Cela suggère la validité de notre approche.
 
 \paragraph{Détails d'implémentation}
 
-\subparagraph{}L'algorithme présenté a été implémenté en langage C++/CUDA pour fonctionner sur cartes graphiques. Les détails d'implémentation peuvent être retrouvés sur xxx. Les nombres aléatoires distribués selon des lois stables, utilisés pour générer les sauts des particules, ont été générés via la méthode Chambers-Mallows-Stuck \cite{chambers_method_1976, weron_chambers_mallows_stuck_1996}.
+\subparagraph{}L'algorithme présenté a été implémenté en langage C++/CUDA pour fonctionner sur cartes graphiques. Les détails d'implémentation peuvent être retrouvés sur \textbf{lien github}. Les nombres aléatoires distribués selon des lois stables, utilisés pour générer les sauts des particules, ont été générés via la méthode Chambers-Mallows-Stuck \cite{chambers_method_1976, weron_chambers_mallows_stuck_1996}.
 
 \subsection{Fonctions de corrélation de paire}
 
@@ -552,13 +552,13 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \includepdf[noautoscale=true, width=\paperwidth, pages=-]{PhysRevE.111.024101.pdf}
 
-\subsection{Modèle de Picard écranté}
+\subsection{Modèle de Picard confiné}
 
 \label{sec:lambda_picard}
 
-\subparagraph{}Dans cette partie nous présentons une très brève étude de la transition vers l'écoulement dans un dispositif quasi-2D représentant un confinement entre deux plaques rigides. Pour ce faire, nous commençons par exposer la modification du propagateur de redistribution de la contrainte locale dans ce cas. Puis, via son analyse dans le cadre du modèle de Picard, nous montrons que cette nouvelle forme de l'interaction, toujours à longue portée, induit une perte de criticalité au delà d'une certaine longueur d'écrantage définie par le confinement.
+\subparagraph{}Dans cette partie nous présentons une très brève étude de la transition vers l'écoulement dans un dispositif quasi-2D représentant un confinement entre deux plaques rigides. Pour ce faire, nous commençons par exposer la modification du propagateur de redistribution de la contrainte locale dans ce cas. Puis, via son analyse dans le cadre du modèle de Picard, nous montrons que cette nouvelle forme de l'interaction, toujours à longue portée, induit une perte de criticalité au-delà d'une certaine longueur d'écrantage définie par le confinement.
 
-\subsubsection{Ecrantage de l'interaction d'Eshelby}
+\subsubsection{Confinement et interaction d'Eshelby}
 
 \subparagraph{}De la même façon que dans le cas des suspensions, les dispositifs expérimentaux étudiés dans le cas de la transition vers l'écoulement peuvent agir significativement sur la portée des interactions. Si le cas de l'interaction d'Eshelby est le plus plébiscité dans la communauté des matériaux amorphes, nous pouvons imaginer une variation de la modification de contrainte induite par un réarrangement plastique dans un dispositif différent. En effet, si l'on considère un écoulement quasi-2D dans le plan $(\hat{\mathbf{e}}_x, \hat{\mathbf{e}}_y)$ entre deux plaques rigides parallèles aux plans de côte $z$ constante, alors les frottements entre le fluide à seuil s'écoulant et les plaques vont induire une dissipation modifiant la redistribution de contrainte suite à un évènement plastique. 
 
@@ -571,7 +571,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 \noindent avec $\lambda$ un coefficient retranscrivant l'intensité de la dissipation et définissant une longueur d'écrantage $\xi \sim 1/\lambda$. Par une résolution similaire à celle présentée dans la \autoref{sec:Annexe_Eshelby}, ce cas de figure nous amène à un propagateur dans l'espace réciproque dont la forme est la suivante :
 
 \begin{equation}
-    \mathcal{G}_\lambda(\mathbf{q}) = -4\frac{q_x^2q_y^2}{q^2(q^2+\lambda^2)}-\frac{\lambda^2}{\lambda^2+q^2}
+    \hat{G}_\lambda(\mathbf{q}) = -4\frac{q_x^2q_y^2}{q^2(q^2+\lambda^2)}-\frac{\lambda^2}{\lambda^2+q^2}
     \label{eq:screenedEshelby}
 \end{equation}
 
@@ -584,26 +584,26 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 \end{aligned}
 \end{equation}
 
-\noindent Ainsi, dans l'espace réel, en dehors de la relaxation globale imposée par le terme de dissipation, la redistribution du système écranté est la même que celle dans le problème original à petite distance $r\ll \xi$, décroissant comme $\sim 1/r^2$, mais, au-delà de la longueur d'écrantage, celle-ci décroît significativement plus vite, comme $\sim 1/r^4$. Ainsi, comme dans le cas des suspensions, l'écrantage ne supprime pas le caractère de longue portée de l'interaction mais change son évolution algébrique.
+\noindent Ainsi, dans l'espace réel, en dehors de la relaxation globale imposée par le terme de dissipation, la redistribution du système confiné est la même que celle dans le problème original à petite distance $r\ll \xi$, décroissant comme $\sim 1/r^2$, mais, au-delà de la longueur d'écrantage, celle-ci décroît significativement plus vite, comme $\sim 1/r^4$. Ainsi, comme dans le cas des suspensions, le confinement ne supprime pas le caractère de longue portée de l'interaction mais change son évolution algébrique.
 
 \paragraph{Transformée de Fourier inverse du propagateur}
 
 \subparagraph{}Pour obtenir l'expression complète du propagateur en espace réel, nous pouvons décomposer le premier terme de l'\autoref{eq:screenedEshelby} de la manière suivante :
 
 \begin{equation}
-    \mathcal{G}_\lambda(\mathbf{q}) = -4\frac{q_x^2q_y^2}{\lambda^2 q^2} + 4\frac{q_x^2q_y^2}{\lambda^2 (\lambda^2 + q^2)}-\frac{\lambda^2}{\lambda^2+q^2}
+    \hat{G}_\lambda(\mathbf{q}) = -4\frac{q_x^2q_y^2}{\lambda^2 q^2} + 4\frac{q_x^2q_y^2}{\lambda^2 (\lambda^2 + q^2)}-\frac{\lambda^2}{\lambda^2+q^2}
 \end{equation}
 
 \noindent pour obtenir dans l'espace réel :
 
 \begin{equation}
-    \mathcal{G}(r,\theta) = \frac{12}{\pi\lambda^2}\frac{\cos 4\theta}{r^4}-\frac{\lambda^2}{2\pi}K_0(\lambda r)+\frac{2}{\pi\lambda^2}\partial_x^2\partial_y^2K_0(\lambda r)
+    G(r,\theta) = \frac{12}{\pi\lambda^2}\frac{\cos 4\theta}{r^4}-\frac{\lambda^2}{2\pi}K_0(\lambda r)+\frac{2}{\pi\lambda^2}\partial_x^2\partial_y^2K_0(\lambda r)
 \end{equation}
 
-\noindent En calculant les dérivées associées au troisème terme de cette égalité, nous obtenons donc :
+\noindent En calculant les dérivées associées au troisème terme du membre de droite, nous obtenons donc :
 
 \begin{equation}
-    \mathcal{G}(r,\theta) = \frac{12}{\pi\lambda^2}\frac{\cos 4\theta}{r^4} - \frac{1}{32\pi\lambda r^3}\sum_{n=0}^{4}K_n(\lambda r)\left(P_n^{(0)}(\lambda r) + P_n^{(1)}(\lambda r)\cos 4\theta\right)
+    G(r,\theta) = \frac{12}{\pi\lambda^2}\frac{\cos 4\theta}{r^4} - \frac{1}{32\pi\lambda r^3}\sum_{n=0}^{4}K_n(\lambda r)\left(P_n^{(0)}(\lambda r) + P_n^{(1)}(\lambda r)\cos 4\theta\right)
 \end{equation}
 
 \noindent avec :
@@ -631,7 +631,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 	\label{fig:screenedprop}
 \end{figure}
 
-\subparagraph{}Le modèle de Picard écranté ne conservant pas la contrainte globale du système, il n'est pas possible de générer des avalanches selon le protocole RTP. Toutefois, l'approche quasistatique de l'AQS est tout à fait réalisable. Pour différentes tailles de systèmes $L$ et différents écrantages $\lambda$, nous mesurons les distributions de tailles d'avalanche avec le protocole AQS dans ce modèle. Les résultats sont présentés à la \autoref{fig:EvolLambdaAv}.
+\subparagraph{}Le modèle de Picard confiné ne conservant pas la contrainte globale du système, il n'est pas possible de générer des avalanches selon le protocole de contrainte imposée RTP (voir \autoref{sec:AvYielding}). Toutefois, l'approche quasistatique de l'AQS est tout à fait réalisable. Pour différentes tailles de systèmes $L$ et différents écrantages $\lambda$, nous mesurons donc les distributions de tailles d'avalanche avec le protocole AQS dans ce modèle. Les résultats sont présentés à la \autoref{fig:EvolLambdaAv}.
 
 \begin{figure}[h]
 	\centering
@@ -640,10 +640,10 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 	\caption{Distributions de tailles d'avalanche quasistatiques dans le modèle de Picard écranté pour différentes valeurs de l'écrantage $\lambda$}
 \end{figure}
 
-\subparagraph{}Pour le plus faible écrantage ($\lambda = 10^{-3}$), nous retrouvons des distributions en loi de puissance avec $\tau \approx 1.35$ comme dans le cas du modèle de Picard ($\lambda = 0$). Par contre, à mesure que $\lambda$ augmente, ces lois de puissance sont soumises à un cut-off de plus en plus faible. De ce fait, à $\lambda=1$ la criticalité avalancheuse est perdue à toutes les tailles. Cette diminution du cut-off ne dépendant pas de la taille du système, cela suggère qu'il est uniquement contrôlé par la longueur d'écrantage $\xi \sim 1/\sqrt{\lambda}$. En d'autres termes, il n'y aurait des avalanches qu'en dessous de la longueur d'écrantage. Au-delà, le système perd sa criticalité. Etant donné qu'en dessous de $\xi$ le propagateur prend la forme de celui d'Eshleby, il est raisonnable de penser que les avalanches ont la même structure que celle dans le modèle de Picard dans la zone non-écrantée. Pour valider cette hypothèse, nous redimensionnons les distributions obtenues pour les systèmes de plus grande taille selon :
+\subparagraph{}Pour le plus faible écrantage ($\lambda^2 = 10^{-3}$), nous retrouvons des distributions en loi de puissance avec $\tau \approx 1.35$ comme dans le cas du modèle de Picard ($\lambda = 0$). Par contre, à mesure que $\lambda$ augmente, ces lois de puissance montrent un cut-off $S_c(\lambda)$ diminuant peu à peu. De ce fait, à $\lambda=1$ la criticalité avalancheuse est perdue à toutes les tailles. Cette diminution du cut-off ne dépendant pas de la taille du système, cela suggère qu'il est uniquement contrôlé par la longueur d'écrantage $\xi \sim 1/\sqrt{\lambda}$. En d'autres termes, il n'y aurait des avalanches qu'en dessous de la longueur d'écrantage. Au-delà, le système perd sa criticalité. Etant donné qu'en dessous de $\xi$ le propagateur prend la forme de celui du propagateur d'Eshelby, il est raisonnable de penser que les avalanches ont la même structure que celles dans le modèle de Picard dans la zone non-écrantée. Pour valider cette hypothèse, nous redimensionnons les distributions obtenues pour les systèmes de plus grande taille ($L=512$) selon :
 
 \begin{equation}
-	P(S) \rightarrow \frac{P(S)}{\xi^{-\tau_\text{eff}d_{f,\text{eff}}}},\quad S\rightarrow \frac{S}{\xi^{d_{f,\text{eff}}}}
+	P(S) \rightarrow \frac{P(S)}{\xi^{-\tau_\text{eff}d_{f,\text{eff}}}},\quad S\rightarrow \frac{S}{\xi^{d_{f,\text{eff}}}}, \quad \xi = \frac{1}{\lambda}
 \end{equation}
 
 \begin{figure}[h]
@@ -653,9 +653,9 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 	\caption{Redimensionnement des distributions de tailles d'avalanche via la longueur d'écrantage $\xi$ dans le modèle de Picard écranté. En encart, les données avant redimensionnement. La taille du système est $L=512$.}
 \end{figure}
 
-\subparagraph{}La meilleure superposition des courbes est alors représentée à la \autoref{fig:RescaleScreenedAv} pour $d_{f,\text{eff}}\approx 0.9$ et $\tau_\text{eff} \approx 1.36$. La valeur des exposants déterminée ainsi étant très porche de celles déterminées dans le cas du modèle de Picard avec un redimensionnement par $L$, cela conforte notre hypothèse. Ainsi, l'écrantage sur une longueur $\xi$ n'aurait comme effet que de supprimer la criticalité du système au-delà de cette échelle de longueur.
+\subparagraph{}La meilleure superposition des courbes est alors représentée à la \autoref{fig:RescaleScreenedAv} pour $d_{f,\text{eff}}\approx 0.9$ et $\tau_\text{eff} \approx 1.36$. Les valeurs des exposants déterminées ainsi étant proches de celles déterminées dans le cas du modèle de Picard avec un redimensionnement par $L$, cela conforte notre hypothèse. Ainsi, l'écrantage sur une longueur $\xi$ n'aurait comme effet que de supprimer la criticalité du système au-delà de cette échelle de longueur.
 
-\subparagraph{}Ainsi, même si au-delà de $\xi$ la redistribution de la contrainte décroît comme $1/r^4$, la criticalité du système observée n'est pas celle du modèle 4-Picard. Des mesures annexes suggèrent que cette perte de criticalité est due à la forme de la relaxation globale dans le cas du modèle de Picard écranté, qui est concentrée sur le site actif.
+\subparagraph{}Ainsi, même si au-delà de $\xi$ la redistribution de la contrainte décroît comme $1/r^4$, la criticalité du système observée n'est pas celle du modèle $\alpha$-Picard avec $\alpha = 4$. Des mesures annexes suggèrent que cette perte de criticalité est due à la forme de la relaxation globale dans le cas du modèle de Picard écranté, qui est concentrée sur le site actif et non répartie uniformément sur tous les sites constituant le système.
 
 \section{Annexes au chapitre 5}
 
@@ -806,6 +806,8 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \paragraph{Approche naïve via l'attendu champ moyen}
 
+\label{sec:CMnaif}
+
 \subparagraph{}Face aux difficultés posées par la prise en compte d'interactions à longue portée non-monotones, nous pouvons imaginer une autre voie vers la convexité via la modification des termes locaux de la théorie de champ CDP. C'est notamment l'idée déjà proposée par Mari et al. \cite{mari_absorbing_2022} qui considère les équations de champ suivantes dans le cas d'une portée d'interaction infinie :
 
 \begin{equation}
@@ -831,7 +833,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \subsubsection{Approches champ moyen des transitions avec bruit multiplicatif}
 
-\subparagraph{}Dans cette partie, nous expliquons pourquoi les théories de champ faisant intervenir un bruit multiplicatif ne peuvent pas être associées à un comportement champ moyen via la méthode habituelle. D'habitude, pour déterminer l'exposant $\beta$ dans la limite champ moyen, il est d'usage de simplifier les équations de champ associées en supprimer les dépendances spatiales et le bruit. Si l'on prend l'exemple de la théorie DP, celle-ci devient dans ce cas (voir \autoref{eq:eqDP}) :
+\subparagraph{}Dans cette partie, nous expliquons pourquoi les théories de champ faisant intervenir un bruit multiplicatif ne peuvent pas être associées à un comportement champ moyen via la méthode habituelle. D'habitude, pour déterminer l'exposant $\beta$ dans la limite champ moyen, il est d'usage de simplifier les équations de champs associées en supprimant les termes de dépendances spatiales et de bruit. Si l'on prend l'exemple de la théorie DP, celle-ci devient dans ce cas (voir \autoref{eq:eqDP}) :
 
 \begin{equation}
 	\frac{\mathrm{d}A}{\mathrm{d}t} = rA(t) - u A^2(t)
@@ -839,7 +841,108 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \noindent dont on tire de la solution stationnaire $\beta = 1$.
 
-\subparagraph{}Dans le cadre général d'une équation de champ représentée par un bruit multiplicatif, cette méthode ne tient plus, comme l'ont montré les travaux de Munoz et al. \cite{munoz_multiplicative_2003, munoz_multiplicative_2003}. \todo{à poursuivre mais je suis pas bien là}
+\paragraph{Principe de l'approche}
+
+\subparagraph{}Dans le cadre général d'une équation de champ représentée par un bruit multiplicatif, cette méthode ne tient plus, comme l'ont montré les travaux de Munoz et al. \cite{munoz_multiplicative_2003, munoz_multiplicative_2003}. Dans ces études, les auteurs se sont concentrés sur la théorie de champ suivante :
+
+\begin{equation}
+	\partial_t A(\mathbf{r}, t) = rA(\mathbf{r}, t) - uA^{p+1}(\mathbf{r}, t) + \kappa\nabla^2 A (\mathbf{r}, t) + \sigma A(\mathbf{r}, t) \eta(\mathbf{r}, t)
+	\label{eq:eqMN}
+\end{equation}
+
+\noindent représentant la classe \textit{multiplicative noise} (MN). Au lieu de déterminer l'exposant $\beta$ via la méthode habituelle qui ne permettait l'accord avec les résultats numériques, Munoz et al. ont proposé de rendre cette équation 0-dimensionnelle en considérant un système discret de $N$ sites dans la limite de couplage total. Dans ce cas, l'opérateur laplacien pour un site $i$ devient :
+
+\begin{equation}
+    \nabla^2 A_i = \frac{1}{N-1}\sum_{j\neq i}\left( A_j - A_i \right) = \mathcal{A} - A_i
+\end{equation}
+
+\noindent avec $\mathcal{A}$ la valeur moyenne de l'activité. Dans la limite de couplage total où tous le sites sont équivalents, on a donc, en abandonnant la notation indicielle :
+
+\begin{equation}
+	\partial_t A = (r-\kappa)A - uA^{p+1} + \kappa\mathcal{A} + \sigma A \eta
+	\label{eq:eqMN0}
+\end{equation}
+
+\subparagraph{}Nous pouvons alors associer à cette équation de Langevin une équation de Fokker-Planck stationnaire au sens de Ito :
+
+\begin{equation}
+    0 = -\partial_A\left( \left[(r-\kappa)A - b\phi^{p+1}+\kappa\mathcal{A} \right] P(A)\right) + \frac{\sigma^2}{2}\partial_A^2\left( A^2 P(A)\right)
+\end{equation}
+
+\noindent dont on peut dériver la solution analytique :
+
+\begin{equation}
+    P(A) = A^{-2-2(\kappa-r)/\sigma^2}\exp\left( -\frac{2u}{p\sigma^2}A^p - \frac{2\mathcal{A} \kappa}{\sigma^2}\frac{1}{A} \right)
+\end{equation}
+
+\subparagraph{}Afin de déterminer le comportement critique associé à l'\autoref{eq:eqMN0}, il suffit alors de développer la relation d'auto-cohérence :
+
+\begin{equation}
+    \mathcal{A} = \langle A \rangle = \frac{\int_0^\infty\mathrm{d}A~\phi P(A)}{\int_0^\infty\mathrm{d}A~P(A)}
+\end{equation}
+
+\noindent pour déterminer l'exposant $\beta$ tel que $\langle A \rangle \sim r^\beta$. Le calcul développé dans \cite{munoz_multiplicative_2003, munoz_multiplicative_2003} amènent alors à :
+
+\begin{equation}
+	\beta = \mathrm{max}\left\{ \frac{1}{p}, \frac{\sigma^2}{2\kappa}\right\}
+\end{equation}
+
+\noindent qui ne permet de retrouver la prédiction naïve $\beta = 1/p$ que dans un régime de faible bruit $\sigma^2 < 2\kappa/p$.
+
+\paragraph{Application au cas de la théorie DP généralisée}
+
+\subparagraph{}Dans cette partie, nous proposons de suivre cette approche dans le cas des équations de champ associées à la classe DP avec un degré de non-linéarité arbitraire, i.e. avec un terme de bruit en $\sim \sqrt{A}$ et non en $\sim A$ comme dans le cas de la classe MN :
+
+\begin{equation}
+	\partial_t A(\mathbf{r}, t) = rA(\mathbf{r}, t) - uA^{p+1}(\mathbf{r}, t) + \kappa\nabla^2 A (\mathbf{r}, t) + \sigma \sqrt{A(\mathbf{r}, t)} \eta(\mathbf{r}, t)
+	\label{eq:eqDParb}
+\end{equation}
+
+\noindent En suivant le même raisonnement, nous obtenons la distribution stationnaire de l'activité :
+
+\begin{equation}
+    P(A)=A^{-1+2\kappa\mathcal{A}/\sigma^2}\exp\left( \frac{2(r-\kappa)}{\sigma^2}A-\frac{2u}{(p+1)\sigma^2}A^{p+1} \right)
+\end{equation}
+
+\noindent et la relation d'auto-cohérence :
+
+\begin{equation}
+    \mathcal{A} = \frac{\int_ 0^\infty \mathrm{d}A~A^{2\kappa\mathcal{A}/\sigma^2}\exp\left( -2\frac{(\kappa-r)}{\sigma^2} A - \frac{2u}{(p+1)\sigma^2}A^{p+1} \right)}{\int_ 0^\infty \mathrm{d}A~A^{-1+2\kappa\mathcal{A}/\sigma^2}\exp\left( -2\frac{(\kappa-r)}{\sigma^2} A - \frac{2u}{(p+1)\sigma^2}A^{p+1} \right)}
+\end{equation}
+
+\subparagraph{}La difficulté réside dans le fait que le dénominateur du membre de droite diverge. Toutefois, en menant une intégration par partie nous pouvons obtenir la relation suivante :
+
+\begin{equation}
+    \frac{f\left( \mathcal{A} + p\sigma^2/2\kappa, r \right)}{f\left(\mathcal{A}, r\right)}=\frac{r}{u},\quad f(\mathcal{A}, r) = \int_ 0^\infty \mathrm{d}A~A^{2\kappa\mathcal{A}/\sigma^2}\exp\left( -2\frac{(\kappa-r)}{\sigma^2} A - \frac{2u}{(p+1)\sigma^2}A^{p+1} \right)
+    \label{eq:selfconsistencyDP}
+\end{equation}
+
+\noindent qui est a priori cette fois bien définie. Nous définisson alors le paramètre critique $r_c$ selon la relation :
+
+\begin{equation}
+    r_c = u\frac{f\left(p\sigma^2/2\kappa, r_c \right)}{f\left(0, r_c\right)}
+\end{equation}
+
+\noindent En considérant que la fonction $f$ se comporte bien, on peut la développer en série pour obtenir : 
+
+\begin{equation}
+    \mathcal{A} = \frac{1-r_c\left( \frac{\partial_r f(\frac{p\sigma^2}{2\kappa},r_c)}{f(\frac{p\sigma^2}{2\kappa},r_c)}- \frac{\partial_rf(0,r_c)}{f(0,r_c)} \right)}{r_c\left( \frac{\partial_\mathcal{A} f(\frac{p\sigma^2}{2\kappa},r_c)}{f(\frac{p\sigma^2}{2\kappa},r_c)}- \frac{\partial_\mathcal{A} f(0,r_c)}{f(0,r_c)} \right)}\epsilon,\quad \epsilon = \frac{r-r_c}{r_c}
+\end{equation}
+
+\noindent ce qui suggère que l'on a $\beta^\text{CM} = 1$ peu importe le degré de non-linéarité $p$ de l'équation de champ.
+
+\paragraph{Résolution numérique}
+
+\subparagraph{}Pour contrôler nos calculs et les hypothèses faites, nous résolvons numériquement l'équation d'auto-cohérence \autoref{eq:selfconsistencyDP} pour obtenir $\mathcal{A} = f(r)$ avec le logiciel Mathematica. Sur la figure \autoref{fig:MathematicaMunoz} nous présentons les résultats obtenus pour la détermination de l'exposant $\beta$ pour différents degrés de non-linéarité $p$. Comme nous pouvons le remarquer, la mesure $\beta^\text{CM}=1$ semble être retrouvée peu importe la valeur de $p$.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{Chapitre6/Figures/MathematicaMunozDP.pdf}
+	\caption{Détermination de l'exposant $\beta$ via la résolution numérique de l'\autoref{eq:selfconsistencyDP} pour différentes valeurs du degré de non-linéarité $p$.}
+	\label{fig:MathematicaMunoz}
+\end{figure}
+
+\subparagraph{}Ainsi, ce raisonnement, peut-être discutable, semble montrer qu'en effet, le degré de non-linéarité dans l'équation de champ ne permet pas de modifier la valeur de l'exposant $\beta$ dans la limite de champ moyen. Cela permet de proposer une explication aux résultats suprenant de la \autoref{sec:CMnaif}.
 
 \subsubsection{Conclusion de la section}
 
