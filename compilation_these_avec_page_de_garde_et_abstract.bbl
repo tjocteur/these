@@ -227,17 +227,17 @@ P.~Bak, C.~Tang, and K.~Wiesenfeld, ``Self-organized criticality,'' {\em
 D.~L. Turcotte, ``Self-organized criticality,'' {\em Reports on Progress in
   Physics}, vol.~62, p.~1377, Oct. 1999.
 
-\bibitem{nattermann_dynamics_1992}
-T.~Nattermann, S.~Stepanow, L.-H. Tang, and H.~Leschhorn, ``Dynamics of
-  interface depinning in a disordered medium,'' {\em Journal de Physique II},
-  vol.~2, pp.~1483--1488, Aug. 1992.
-\newblock Publisher: EDP Sciences.
-
 \bibitem{wiese_hyperuniformity_2024}
 K.~J. Wiese, ``Hyperuniformity in the {Manna} {Model}, {Conserved} {Directed}
   {Percolation} and {Depinning},'' {\em Physical Review Letters}, vol.~133,
   p.~067103, Aug. 2024.
 \newblock Publisher: American Physical Society.
+
+\bibitem{nattermann_dynamics_1992}
+T.~Nattermann, S.~Stepanow, L.-H. Tang, and H.~Leschhorn, ``Dynamics of
+  interface depinning in a disordered medium,'' {\em Journal de Physique II},
+  vol.~2, pp.~1483--1488, Aug. 1992.
+\newblock Publisher: EDP Sciences.
 
 \bibitem{lubeck_moment_2000}
 S.~Lübeck, ``Moment analysis of the probability distribution of different

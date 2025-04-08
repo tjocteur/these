@@ -37,7 +37,7 @@
 \contentsline {subsubsection}{\numberline {1.2.1.2}Hypothèse de scaling}{11}{subsubsection.1.2.1.2}%
 \contentsline {subparagraph}{}{11}{subsubsection.1.2.1.2}%
 \contentsline {subparagraph}{}{11}{subsubsection.1.2.1.2}%
-\contentsline {subparagraph}{}{11}{figure.caption.5}%
+\contentsline {subparagraph}{}{12}{figure.caption.5}%
 \contentsline {subparagraph}{}{12}{equation.1.2.3}%
 \contentsline {subparagraph}{}{12}{equation.1.2.4}%
 \contentsline {subsubsection}{\numberline {1.2.1.3}Universalité}{12}{subsubsection.1.2.1.3}%
@@ -71,18 +71,18 @@
 \contentsline {subparagraph}{}{19}{table.caption.9}%
 \contentsline {section}{\numberline {1.3}Percolation dirigée conservée}{19}{section.1.3}%
 \contentsline {subparagraph}{}{19}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Conditions d'appartenance}{19}{subsection.1.3.1}%
-\contentsline {subparagraph}{}{19}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.1}Conditions d'appartenance}{20}{subsection.1.3.1}%
+\contentsline {subparagraph}{}{20}{subsection.1.3.1}%
 \contentsline {subparagraph}{}{20}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}Modèles représentatifs}{20}{subsection.1.3.2}%
 \contentsline {subsubsection}{\numberline {1.3.2.1}Modèle Manna}{20}{subsubsection.1.3.2.1}%
 \contentsline {subparagraph}{}{20}{subsubsection.1.3.2.1}%
 \contentsline {subparagraph}{}{20}{figure.caption.10}%
-\contentsline {subparagraph}{}{20}{figure.caption.10}%
+\contentsline {subparagraph}{}{21}{figure.caption.10}%
 \contentsline {subsubsection}{\numberline {1.3.2.2}Random Organization model}{21}{subsubsection.1.3.2.2}%
 \contentsline {subparagraph}{}{21}{subsubsection.1.3.2.2}%
 \contentsline {subparagraph}{}{21}{figure.caption.11}%
-\contentsline {subparagraph}{}{21}{figure.caption.11}%
+\contentsline {subparagraph}{}{22}{figure.caption.11}%
 \contentsline {subparagraph}{}{22}{figure.caption.11}%
 \contentsline {subsection}{\numberline {1.3.3}Comportement critique}{22}{subsection.1.3.3}%
 \contentsline {subparagraph}{}{22}{subsection.1.3.3}%
@@ -120,7 +120,7 @@
 \contentsline {subparagraph}{}{28}{equation.1.3.29}%
 \contentsline {paragraph}{Hyperuniformité dans les modèles de particules appartenant à la classe CDP}{28}{figure.caption.13}%
 \contentsline {subparagraph}{}{28}{figure.caption.13}%
-\contentsline {subsection}{\numberline {1.3.7}Conclusion de la section}{29}{subsection.1.3.7}%
+\contentsline {subsection}{\numberline {1.3.7}Bilan}{29}{subsection.1.3.7}%
 \contentsline {subparagraph}{}{29}{subsection.1.3.7}%
 \contentsline {section}{\numberline {1.4}Comprendre les transitions de réversibilité et d'écoulement comme des transitions de phase absorbante}{29}{section.1.4}%
 \contentsline {subparagraph}{}{29}{section.1.4}%
@@ -140,7 +140,7 @@
 \contentsline {subparagraph}{}{32}{equation.1.4.33}%
 \contentsline {subsection}{\numberline {1.4.2}Transition vers l'écoulement}{32}{subsection.1.4.2}%
 \contentsline {subparagraph}{}{32}{subsection.1.4.2}%
-\contentsline {subsubsection}{\numberline {1.4.2.1}L'écoulement comme une succession de réarrangement}{33}{subsubsection.1.4.2.1}%
+\contentsline {subsubsection}{\numberline {1.4.2.1}L'écoulement comme une succession de réarrangements}{33}{subsubsection.1.4.2.1}%
 \contentsline {subparagraph}{}{33}{subsubsection.1.4.2.1}%
 \contentsline {subparagraph}{}{33}{subsubsection.1.4.2.1}%
 \contentsline {subparagraph}{}{33}{subsubsection.1.4.2.1}%
@@ -166,7 +166,7 @@
 \contentsline {subparagraph}{}{37}{subsubsection.1.5.1.1}%
 \contentsline {subparagraph}{}{37}{subsubsection.1.5.1.1}%
 \contentsline {subparagraph}{}{37}{subsubsection.1.5.1.1}%
-\contentsline {subparagraph}{}{37}{subsubsection.1.5.1.1}%
+\contentsline {subparagraph}{}{38}{subsubsection.1.5.1.1}%
 \contentsline {subsubsection}{\numberline {1.5.1.2}Contradiction des transitions de réversibilité et d'écoulement}{38}{subsubsection.1.5.1.2}%
 \contentsline {paragraph}{Transition de réversibilité}{38}{subsubsection.1.5.1.2}%
 \contentsline {subparagraph}{}{38}{subsubsection.1.5.1.2}%
@@ -897,6 +897,7 @@
 \contentsline {subparagraph}{}{195}{chapter*.93}%
 \contentsline {subparagraph}{}{195}{chapter*.93}%
 \contentsline {subparagraph}{}{195}{chapter*.93}%
+\contentsline {subparagraph}{}{195}{chapter*.93}%
 \contentsline {subparagraph}{}{196}{chapter*.93}%
 \contentsline {subparagraph}{}{196}{chapter*.93}%
 \contentsline {subparagraph}{}{196}{chapter*.93}%
@@ -906,7 +907,6 @@
 \contentsline {subparagraph}{}{197}{chapter*.93}%
 \contentsline {subparagraph}{}{197}{chapter*.93}%
 \contentsline {subparagraph}{}{197}{chapter*.93}%
-\contentsline {subparagraph}{}{198}{chapter*.93}%
 \contentsline {subparagraph}{}{198}{chapter*.93}%
 \contentsline {chapter}{Bibliographie}{199}{chapter*.94}%
 \contentsline {chapter}{Annexe}{211}{chapter*.95}%
