@@ -1,11 +1,12 @@
 \appendix
-\label{chapter:annexe}
 \appendixpage
 \addappheadtotoc
 
-\section{Matériels généraux}
+\setcounter{chapter}{0}
 
-\subsection{Conventions}
+\chapter{Matériels généraux}
+
+\section{Conventions}
 
 \label{sec:conv_fourier}
 
@@ -30,7 +31,7 @@
 	\label{eq:TFdisc}
 \end{equation}
 
-\subsection{Implémentation discrète des propagateurs}
+\section{Implémentation discrète des propagateurs}
 
 \label{sec:impl_disc_propag}
 
@@ -42,13 +43,13 @@
 	\nabla^2 f(x) \xrightarrow[]{\mathcal{F}} -q^2 \hat{f}(q)
 \end{equation}
 
-\noindent Dans l'espace discret représenté par le réseau de positions $\{x_n = n\}$, l'opérateur laplacien est calculé par une méthode de différence finie selon :
+\noindent Dans l'espace discret représenté par le réseau de positions $\{x_n = n\}$, l'opérateur laplacien est calculé par une méthode de différences finies selon :
 
 \begin{equation}
 	\nabla^2 f(x_n) \equiv f(x_{n+1})+f(x_{n-1})-2f(x_n)
 \end{equation}
 
-\noindent en appliquant la transformée de Fourier discrète donnée par l'\autoref{eq:TFdisc}, on obtient :
+\noindent En appliquant la transformée de Fourier discrète donnée par l'\autoref{eq:TFdisc}, on obtient :
 
 \begin{equation}
 	\nabla^2 f(x_n) \xrightarrow[]{\mathcal{F}} [2\cos(q_n)-2]\hat{f}(q_n)
@@ -56,19 +57,19 @@
 
 \noindent Ainsi, pour retrouver l'équivalence entre forme continue et forme discrète dans l'espace de Fourier, la conversion $q^2 \rightarrow 2(1-\cos (q_n))$ est nécessaire. C'est donc selon ce raisonnement que les propagateurs d'interaction sont implémentés numériquement dans les \autoref{chapter:Susp} et \autoref{chapter:yielding}.
 
-\section{Annexes au chapitre 1}
+\chapter{Annexes au chapitre 1}
 
-\subsection{Réalisations expérimentales de la transition de dépiégeage}
+\section{Réalisations expérimentales de la transition de dépiégeage}
 
-\label{sec:exp_depinning}
+\label{app:exp_depinning}
 
-\subparagraph{}Dans cette sous-section, nous présentons deux réalisation de la transition de dépiégeage en matière molle.
+\subparagraph{}Dans cette section, nous présentons deux réalisation de la transition de dépiégeage en matière molle.
 
 \paragraph{Dynamique de mouillage à la ligne triple}
 
-\subparagraph{}En condition de mouillage non-total, lorsque l'on dépose une goutte sur un substrat solide, il se forme trois interfaces : une entre le liquide et le solide, une entre le solide et le gaz et une entre le liquide et le gaz. La ligne reliant ces trois interfaces est appelée ligne triple. Cette ligne est soumise à différentes forces : une force de pesanteur, favorisant l'étalement de la goutte, une force de tension de surface, favorisant la minimisation des interfaces, et, dans le cas d'un solide rugueux, non-homogène, une force d'attraction exercée par les asperités. On reconnaît là tous les ingrédients nécessaire au phénomène de la transition de depinning \cite{joanny_model_1984, rosso_depiegeage_2002, le_priol_long_range_2020} : la pesanteur joue le rôle de force extérieure, la tension de surface la force de rappel élastique et l'interaction avec le solide la force de piégeage.
+\subparagraph{}En condition de mouillage non-total, lorsque l'on dépose une goutte sur un substrat solide, il se forme trois interfaces : une entre le liquide et le solide, une entre le solide et le gaz et une entre le liquide et le gaz. La ligne reliant ces trois interfaces est appelée ligne triple. Cette ligne est soumise à différentes forces : une force de pesanteur, favorisant l'étalement de la goutte, une force de tension de surface, favorisant la minimisation des interfaces, et, dans le cas d'un solide rugueux, non-homogène, une force d'attraction exercée par les asperités. On reconnaît là tous les ingrédients nécessaires au phénomène de la transition de dépiégeage \cite{joanny_model_1984, rosso_depiegeage_2002, le_priol_long_range_2020} : la pesanteur joue le rôle de force extérieure, la tension de surface la force de rappel élastique et l'interaction avec le solide la force de piégeage.
 
-\subparagraph{}Dans cette optique, des expériences ont été mises en place pour reproduire le phénomène du depinning dans le cadre du mouillage \cite{moulinet_roughness_2002, le_doussal_height_2009}. Par exemple, dans \cite{moulinet_roughness_2002}, un substrat solide de verre chromé est retiré d'un bain liquide d'un mélange eau-glycérol à vitesse constante. Ce protocole correspond alors au phénomène de depinning avec vitesse imposée de l'interface (et non la force extérieure). Via une capture optique du système, les auteurs ont pu analysé le mouvement de l'interface au cours du temps et sa structure, révélant une rugosité non-triviale, caractéristique du phénomène.
+\subparagraph{}Dans cette optique, des expériences ont été mises en place pour reproduire la transition de dépiégeage dans le cadre du mouillage \cite{moulinet_roughness_2002, le_doussal_height_2009}. Par exemple, dans \cite{moulinet_roughness_2002}, un substrat solide de verre chromé est retiré d'un bain liquide d'un mélange eau-glycérol à vitesse constante. Ce protocole correspond alors au phénomène de dépiégeage avec vitesse imposée de l'interface (et non la force extérieure). Via une capture optique du système, les auteurs ont pu analyser le mouvement de l'interface au cours du temps et sa structure, révélant une rugosité non-triviale, caractéristique du phénomène.
 
 \begin{figure}[h]
 	\centering
@@ -79,17 +80,17 @@
 
 \paragraph{Propagation d'une fracture}
 
-\subparagraph{}La propagation des fractures dans les solides désordonnés représente un autre exemple de la transition de depinning. Dans l'exemple présenté à la \autoref{fig:expdepinning}-(b), un matériau est fracturé selon un mode I de fracture \cite{le_priol_long_range_2020}, i.e. en tirant une plaque perpendiculairement à la direction de propagation du front de fracture. Dans ce cadre, la limite entre les deux morceaux du solide peut être associée à une interface soumise au phénomène de depinning. On y retrouve en effet tous les ingrédients nécessaires à cette transition : une force de rappel élastique exercée via l'élasticité du solide en volume, une force extérieure via la traction de la plaque inférieure, et une force de piégeage aléatoire directement associée à la structure amorphe du solide.
+\subparagraph{}La propagation des fractures dans les solides désordonnés représente un autre exemple de la transition de dépiégeage. Dans l'exemple présenté à la \autoref{fig:expdepinning}-(b), un matériau est fracturé selon un mode I de fracture \cite{le_priol_long_range_2020}, i.e. en tirant une plaque perpendiculairement à la direction de propagation du front de fracture. Dans ce cadre, la limite entre les deux morceaux du solide peut être associée à une interface soumise au phénomène de dépiégeage. On y retrouve en effet tous les ingrédients nécessaires à cette transition : une force de rappel élastique exercée via l'élasticité du solide en volume, une force extérieure via la traction de la plaque inférieure, et une force de piégeage aléatoire directement associée à la structure amorphe du solide.
 
-\subparagraph{}Comme pour le phénomène de mouillage, des expériences réelles ont permis d'étudier la propagation de ce front \cite{schmittbuhl_direct_1997, delaplace_high_1999, santucci_fracture_2010, le_priol_universal_2020}. Dans ce cas, l'analyse de la dynamique de l'interface et de sa rugosité a permis de confirmer sa compréhension dans le cadre de la théorie du depinning.
+\subparagraph{}Comme pour le phénomène de mouillage, des expériences réelles ont permis d'étudier la propagation de ce front \cite{schmittbuhl_direct_1997, delaplace_high_1999, santucci_fracture_2010, le_priol_universal_2020}. Dans ce cas, l'analyse de la dynamique de l'interface et de sa rugosité a permis de confirmer sa compréhension dans le cadre de la théorie de la transition de dépiégeage.
 
-\subsection{Propagateur de Eshelby}
+\section{Propagateur de Eshelby}
 
 \label{sec:Annexe_Eshelby}
 
 \subparagraph{}Dans cette sous-section, nous présentons en détail le calcul du propagateur d'Eshelby dont la forme a été introduite à la \autoref{sec:ref_interac_elast}.
 
-\subparagraph{}Afin de comprendre comment la contrainte est redistribuée dans le milieu au cours d'un réarrangement plastique dans le cadre de la transition vers l'écoulement, nous présentons la résolution de ce problème, déjà abordé à de nombreuses reprises dans la littérature, dans le cadre de la théorie de l'élasticité linéaire. Le problème initial est alors le suivant : comment est modifié le champ de contrainte local $\sigma$ sous forçage suite à une déformation plastique locale $\epsilon^\text{pl}$ ?
+\subparagraph{}Afin de comprendre comment la contrainte est redistribuée dans le milieu au cours d'un réarrangement plastique dans le cadre de la transition vers l'écoulement, nous présentons la résolution de ce problème, déjà abordée à de nombreuses reprises dans la littérature, dans le cadre de la théorie de l'élasticité linéaire. Le problème initial est alors le suivant : comment est modifié le champ de contrainte local $\sigma$ sous forçage suite à une déformation plastique locale $\epsilon^\text{pl}$ ?
 
 \subparagraph{}Pour répondre à cette question, nous reprenons les calculs des travaux \cite{picard_elastic_2004, goff_flow_2021}. Considérons un milieu continu élastique infini, isotrope et incompressible dans lequel nous définissons un champ de déplacement $u_i(\mathbf{r}) = u_i^\text{él}(\mathbf{r}) + u_i^\text{pl}(\mathbf{r})$, décomposable en une composante élastique et une composante plastique. \`A ce champ est associé un tenseur de déformation $\epsilon_{ij}$ défini comme :
 
@@ -101,11 +102,11 @@
 et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompressibilité comme :
 
 \begin{equation}
-	\sigma_{ij} = 2\mu\epsilon^\text{él}_{ij}(\mathbf{r}) = 2\mu\epsilon_{ij}(\mathbf{r}) - 2\mu \epsilon^\text{pl}_{ij}(\mathbf{r})
+	\sigma_{ij}(\mathbf{r}) = 2\mu\epsilon^\text{él}_{ij}(\mathbf{r}) = 2\mu\epsilon_{ij}(\mathbf{r}) - 2\mu \epsilon^\text{pl}_{ij}(\mathbf{r})
 	\label{eq:tenseurcontrainte}
 \end{equation}
 
-\subparagraph{}Dans le cas de notre étude, il est d'usage de décomposer les champs dans le milieu en une partie de réponse purement élastique au forçage ($\sigma^0$, $u^0$) et une partie de réponse à la déformation plastique ($\sigma^1$, $u^1$), donnant alors avec ces notations :
+\subparagraph{}Dans le cas de notre étude, il est d'usage de décomposer les champs dans le milieu en une partie de réponse purement élastique au forçage extérieur ($\sigma^0$, $u^0$) et une partie de réponse à la déformation plastique ($\sigma^1$, $u^1$), donnant alors avec ces notations :
 
 \begin{equation}
 	\epsilon_{ij}^{\text{él}} = \epsilon_{ij}^{\text{él}, 0} + \epsilon_{ij}^{\text{él}, 1}, \quad \epsilon_{ij}^{\text{pl}} = \epsilon_{ij}^{\text{pl}, 1}, \quad \sigma_{ij} = \sigma_{ij}^0 + \sigma_{ij}^1
@@ -167,7 +168,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \subparagraph{}On appelle alors le propagateur $G$ propagateur d'Eshelby. Celui-ci correspond à la redistribution de contrainte de cisaillement induite par un réarrangement plastique infiniment localisé (de la forme $\epsilon^\text{pl}(\mathbf{r}) = \epsilon_0 \delta (\mathbf{r})$) ou de manière équivalente à celle induite en champ lointain par un évènement d'extension finie.
 
-\subsection{Propagateurs hydrodynamiques}
+\section{Propagateurs hydrodynamiques}
 
 \label{sec:Annexe_Interactions_Hydro}
 
@@ -175,7 +176,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \paragraph{Hydrodynamique en milieu infini}
 
-\subparagraph{}Dans le cas de la transition de réversibilité, lorsqu'une particule interagi irréversiblement avec une autre particule au cours d'un cycle, elle quitte son orbite initiale en appliquant une certaine force sur le fluide. Cette force va alors modifier l'écoulement du fluide via les lois régissant sa dynamique et donc affecter le mouvement des particules environnantes. La question est de savoir comment. Pour y répondre, nous nous concentrons sur un problème générique à deux particules : une particule $1$ située en $\mathbf{r}$ exerce une force $\mathbf{F}^1(\mathbf{r})$ sur le fluide et induit un écoulement qui entraîne le déplacement d'une particule $2$ située en $\mathbf{r}^\prime$ à la vitesse $\mathbf{v}^2$. En considérant le fluide suspendant comme incompressible et dans la limite de bas Reynolds, son écoulement suit une dynamique régie par les équations de Stokes :
+\subparagraph{}Dans le cas de la transition de réversibilité, lorsqu'une particule interagit irréversiblement avec une autre particule au cours d'un cycle, elle quitte son orbite initiale en appliquant une certaine force sur le fluide. Cette force va alors modifier l'écoulement du fluide via les lois régissant sa dynamique et donc affecter le mouvement des particules environnantes. La question est de savoir comment. Pour y répondre, nous nous concentrons sur un problème générique à deux particules : une particule $1$ située en $\mathbf{r}$ exerce une force $\mathbf{F}^1(\mathbf{r})$ sur le fluide et induit un écoulement qui entraîne le déplacement d'une particule $2$ située en $\mathbf{r}^\prime$ à la vitesse $\mathbf{v}^2$. En considérant le fluide suspendant comme incompressible et dans la limite de bas Reynolds, son écoulement suit une dynamique régie par les équations de Stokes :
 
 \begin{equation}
 \begin{aligned}
@@ -194,7 +195,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \noindent définissant ainsi une interaction hydrodynamique entre les deux particules, décroissant comme $\sim 1/r$ dans un milieu tridimensionnel infini.
 
-\subparagraph{}Ce résultat calculatoire peut aussi se comprendre plus intuitivement, comme l'explique très clairement l'étude \cite{diamant_hydrodynamic_2009}. Dans la suite de cette partie, nous présentons le raisonnement de l'auteur. En fait, les équations de Stokes dérivent de deux lois de conservation fondamentales : celle de la quantité de mouvement et celle de la masse. Lorsqu'une particule applique une force locale sur le fluide, celle-ci se comporte comme une source de quantité de mouvement. Pour que cette dernière soit conservée, le flux local de quantité de mouvement émanant de la particule doit décroître comme $\sim 1/r^2$ en 3D. Or ce flux local de quantité de mouvement n'étant autre que le tenseur des contraintes $\sigma$ associé au fluide, cette conservation implique directement $\sigma \sim 1/r^2$. La partie associée au cisaillement de ce tenseur étant $\sigma_\text{cis}\sim \eta \mathbf{\nabla} \mathbf{v}$ on a donc $\mathbf{v}\sim 1/\eta r$. De plus, par des considération de symétrie, la partie adimensionnelle du propagateur hydrodynamique prend nécessairement la forme $\delta_{ij}+C\frac{r_ir_j}{r^2}$. On retrouve donc finalement, basé sur ces arguments simples :
+\subparagraph{}Ce résultat calculatoire peut aussi se comprendre plus intuitivement, comme l'explique très clairement l'étude \cite{diamant_hydrodynamic_2009}. Dans la suite de cette partie, nous présentons le raisonnement de l'auteur. En fait, les équations de Stokes dérivent de deux lois de conservation fondamentales : celle de la quantité de mouvement et celle de la masse. Lorsqu'une particule applique une force locale sur le fluide, celle-ci se comporte comme une source de quantité de mouvement. Pour que cette dernière soit conservée, le flux local de quantité de mouvement émanant de la particule doit décroître comme $\sim 1/r^2$ en 3D. Or ce flux local de quantité de mouvement n'étant autre que le tenseur des contraintes $\sigma$ associé au fluide, cette conservation implique directement $\sigma \sim 1/r^2$. La partie associée au cisaillement de ce tenseur étant $\sigma_\text{cis}\sim \eta \mathbf{\nabla} \mathbf{v}$ on a donc $\mathbf{v}\sim 1/\eta r$. De plus, par des considérations de symétrie, la partie adimensionnelle du propagateur hydrodynamique prend nécessairement la forme $\delta_{ij}+C\frac{r_ir_j}{r^2}$. On retrouve donc finalement, basé sur ces arguments simples :
 
 \begin{equation}
 	G_{ij} \sim \frac{1}{\eta r}\left( \delta_{ij}+C\frac{r_ir_j}{r^2} \right)
@@ -205,7 +206,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \subparagraph{}En plus de ce premier effet, nous pouvons identifier une autre source de modification de l'écoulement. Celle-ci vient de la conservation de la masse de fluide. En fait, lors de son déplacement, la particule $1$ modifie la répartition de masse dans le fluide. Celle-ci peut alors être vue, en plus d'une source de quantité de mouvement, comme un dipôle de source de matière (avec création de masse à l'avant du mouvement et suppression de masse à l'arrière). En 3D, un tel dipôle génère une vitesse d'écoulement décroissant comme $\sim 1/r^3$, générant ainsi un terme additionnel à l'\autoref{eq:diamantinfini} en $\sim 1/r^3$. Cependant, à grande distance, cette contribution est négligeable devant celle décroissant comme $\sim 1/r$. On retrouve donc bien en champ lointain le tenseur d'Oseen.
 
-\subparagraph{}Ce résultat basé sur les deux principes de conservation sont très généraux et permettent facilement d'étendre leur validité à d'autre situations. Notamment, dans une suspensions de plus de deux particules, la forme de l'interaction en champ lointain ne sera pas modifiée puisque dans ce cas on a toujours conservation de la quantité de mouvement et de la masse \cite{diamant_hydrodynamic_2009}. A priori, dans un système assimilé à un milieu infini, les interactions hydrodynamiques entre les particules lors d'un cycle de cisaillement sont donc bien à longue portée. Toutefois une telle approximation de milieu infini est parfois non valable dans les dispositifs expérimentaux réalisant la transition de réversibilité. Dans ces cas là, le raisonnement doit être adapté.
+\subparagraph{}Ce résultat basé sur les deux principes de conservation sont très généraux et permettent facilement d'étendre leur validité à d'autre situations. Notamment, dans une suspension de plus de deux particules, la forme de l'interaction en champ lointain ne sera pas modifiée puisque dans ce cas on a toujours conservation de la quantité de mouvement et de la masse \cite{diamant_hydrodynamic_2009}. A priori, dans un système assimilé à un milieu infini, les interactions hydrodynamiques entre les particules lors d'un cycle de cisaillement sont donc bien à longue portée. Toutefois une telle approximation de milieu infini est parfois non valable dans les dispositifs expérimentaux réalisant la transition de réversibilité. Dans ces cas là, le raisonnement doit être adapté.
 
 \paragraph{Hydrodynamique en milieux complexes}
 
@@ -227,17 +228,19 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 	G_{ij} \sim \frac{1}{r^\gamma}\left( \delta_{ij}-2\frac{r_ir_j}{r^2} \right)
 \end{equation}
 
-\noindent avec $\gamma$ un entier pouvant prendre différentes valeurs en fonction du dispositif spécifique étudié. Via a minima la conservation de la masse, ces interactions présentent donc toujours la particularité d'être à longue portée. Dans une modélisation plus spécifique de la transition de réversibilité, les interactions irréversibles de contact entre deux particules peuvent être vues comme des dipôles de force sur le fluide. Les résultats présentés précédemment sont alors modifiés selon $\gamma \rightarrow \gamma +1$. Par exemple, en milieu 3D infini, nous nous attendons à ce qu'un évènement affecte les autres particules du système via une interaction décroissant comme $\sim 1/r^2$.
+\noindent avec $\gamma$ un entier pouvant prendre différentes valeurs en fonction du dispositif spécifique étudié. Via a minima la conservation de la masse, ces interactions présentent donc toujours la particularité d'être à longue portée. 
+
+\subparagraph{}Dans une modélisation plus spécifique de la transition de réversibilité, les interactions irréversibles de contact entre deux particules peuvent être vues comme des dipôles de force sur le fluide. Les résultats présentés précédemment sont alors modifiés selon $\gamma \rightarrow \gamma +1$. Par exemple, en milieu 3D infini, nous nous attendons à ce qu'un évènement affecte les autres particules du système via une interaction décroissant comme $\sim 1/r^2$.
 
 \FloatBarrier
 
-\section{Annexes au chapitre 2}
+\chapter{Annexes au chapitre 2}
 
-\subsection{Mesures d'hyperuniformité dans le modèle LR-Manna}
+\section{Mesures d'hyperuniformité dans le modèle LR-Manna}
 
 \label{sec:mesures_HU_Manna}
 
-\subparagraph{}Dans cette section, nous présentons les résultats obtenus dans le cadre de l'étude de l'hyperuniformité dans les modèles LR-Manna. Plus précisément, nous présentons sur les figures suivantes les redimensionnements obtenus de la même façon que dans le cas $\alpha=4$ représenté par la \autoref{fig:MannaCMHU_rescale_gamma4}.
+\subparagraph{}Dans cette section, nous présentons les résultats obtenus dans le cadre de l'étude de l'hyperuniformité dans les modèles LR-Manna. Plus précisément, nous présentons sur les figures suivantes les redimensionnements obtenus de la même façon que dans le cas $\alpha=4$ représenté par la \autoref{fig:MannaCMHU_rescale_gamma4} mais pour d'autres valeurs de la portée du transport.
 
 \begin{figure}[H]
 	\centering
@@ -269,9 +272,9 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \FloatBarrier
 
-\section{Annexes au chapitre 3}
+\chapter{Annexes au chapitre 3}
 
-\subsection{Transformée de Fourier des propagateurs}
+\section{Transformée de Fourier des propagateurs}
 
 \label{sec:TFinverse_susp}
 
@@ -310,16 +313,16 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 \noindent soit en simplifiant et en utilisant $K_\nu (q) = K_{-\nu}(q)$ :
 
 \begin{equation}
-	\frac{(2\pi)^{\frac{D}{2}}}{2^{\alpha-1}\Gamma(\alpha)}q^{\alpha-\frac{D}{2}}K_{\alpha-\frac{D}{2}}(q), \quad \alpha > \frac{D-1}{4}
+	\hat{f}(\mathbf{q}) = \frac{(2\pi)^{\frac{D}{2}}}{2^{\alpha-1}\Gamma(\alpha)}q^{\alpha-\frac{D}{2}}K_{\alpha-\frac{D}{2}}(q), \quad \alpha > \frac{D-1}{4}
 \end{equation}
 
 \noindent ce qui nous permet bien de retrouver les expressions données au \autoref{chapter:Susp} pour $D=2$ et $D=3$.
 
-\subsection{Résolution numérique du modèle $\mu$-Hébraud-Lequeux}
+\section{Résolution numérique du modèle $\mu$-Hébraud-Lequeux}
 
 \label{sec:ResolNumMuHL}
 
-\subparagraph{}Afin d'étudier le comportement critique du modèle $\mu$-Hébraud-Lequeux dans le cadre de la modélisation champ moyen du $\alpha$-ROM, nous proposons une méthode d'intégration numérique indirecte de l'\autoref{eq:muHL}. Dans le cas du modèle original de Hébraud-Lequeux, il est possible de résoudre les équations associées via une dynamique de population \cite{bouchaud_spontaneous_2016}. Dans cette partie, nous transposons cette méthode de résolution à l'intégration des équations du modèle $\mu$-Hébraud-Lequeux. En fait, l'équation suivante : 
+\subparagraph{}Afin d'étudier le comportement critique du modèle $\mu$-Hébraud-Lequeux dans le cadre de la modélisation champ moyen du $\alpha$-ROM, nous proposons une méthode d'intégration numérique indirecte de l'\autoref{eq:muHL}. Dans le cas du modèle original de Hébraud-Lequeux, il est possible de résoudre les équations associées via une dynamique de population \cite{bouchaud_spontaneous_2016}. Dans cette partie, nous proposons de transposer cette méthode de résolution à l'intégration des équations du modèle $\mu$-Hébraud-Lequeux. En fait, l'équation suivante : 
 
 \begin{equation}
 \begin{aligned}
@@ -336,7 +339,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 	\phi(k) = \exp (-|ck|^\mu)
 \end{equation}
 
-\noindent modélisant le terme en dérivée fractionnaire dans l'équation sur $P$ \cite{hinrichsen_non_equilibrium_2007, jespersen_levy_1999}. Par équivalence des deux descriptions, la constante $c$ est alors définie selon :
+\noindent modélisant le terme en dérivée fractionnaire dans l'équation sur $P$ \cite{hinrichsen_non_equilibrium_2007, jespersen_levy_1999}. Par équivalence des deux descriptions, la constante $c$ est alors définie selon\footnote{\todo{expliquer la réflexion derrière vite fait}} :
 
 \begin{equation}
 	c = \left( s \Gamma(t) \Delta t \right)^{1/\mu}
@@ -365,44 +368,86 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \subparagraph{}L'algorithme présenté a été implémenté en langage C++/CUDA pour fonctionner sur cartes graphiques. Les détails d'implémentation peuvent être retrouvés sur \textbf{lien github}. Les nombres aléatoires distribués selon des lois stables, utilisés pour générer les sauts des particules, ont été générés via la méthode Chambers-Mallows-Stuck \cite{chambers_method_1976, weron_chambers_mallows_stuck_1996}.
 
-\subsection{Fonctions de corrélation de paire}
+\section{Fonctions de corrélation de paire}
 
 \label{sec:PCorr}
 
-\subsubsection{$\alpha$-ROM en 2D avec sauts infinis des particules actives}
+\subsection{$\alpha$-ROM en 2D avec sauts infinis des particules actives}
 
-\subparagraph{}Dans cette partie, nous présentons les résultats obtenus concernant les mesures de fonctions de corrélation de paire entre particules passives dans le $\alpha$-ROM en 2D avec sauts infinis des particules actives.
+\subparagraph{}Dans cette partie, nous présentons les résultats obtenus concernant les mesures de fonctions de corrélation de paire entre particules passives dans le $\alpha$-ROM en 2D avec sauts infinis des particules actives. Sur les figures suivantes, nous présentons les meilleurs redimensionnements obtenus pour chaque portée $\alpha$, donnant lieu aux valeurs de l'exposant de pseudo-gap $\theta$ répertoriées sur la \autoref{fig:mueff}-(b).
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha3.pdf}
 \includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha25.pdf}
-\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha225.pdf}
-\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha2.pdf}
-\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha15.pdf}
-\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha125.pdf}
-\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha1.pdf}
-\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha05.pdf}
-\caption{}
-\label{fig:annexePcorrAlphaMF}
+\caption{Idem que pour la \autoref{fig:PCorr_alphaMF} pour $\alpha = 3$ (gauche) et $\alpha = 2.5$ (droite)}
+\label{fig:PCorrAnnexe1}
 \end{figure}
 
-\subsubsection{$\alpha$-ROM en 2D avec sauts infinis des particules actives}
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha225.pdf}
+\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha2.pdf}
+\caption{Idem que pour la \autoref{fig:PCorr_alphaMF} pour $\alpha = 2.25$ (gauche) et $\alpha = 2$ (droite)}
+\label{fig:PCorrAnnexe2}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha15.pdf}
+\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha125.pdf}
+\caption{Idem que pour la \autoref{fig:PCorr_alphaMF} pour $\alpha = 1.5$ (gauche) et $\alpha = 1.25$ (droite)}
+\label{fig:PCorrAnnexe3}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha1.pdf}
+\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha05.pdf}
+\caption{Idem que pour la \autoref{fig:PCorr_alphaMF} pour $\alpha = 1$ (gauche) et $\alpha = 0.5$ (droite)}
+\label{fig:PCorrAnnexe4}
+\end{figure}
+
+\FloatBarrier
+
+\subsection{$\alpha$-ROM en 2D avec sauts finis des particules actives}
+
+\subparagraph{}Dans cette partie, nous présentons les résultats obtenus concernant les mesures de fonctions de corrélation de paire entre particules passives dans le $\alpha$-ROM en 2D avec sauts finis des particules actives. Sur les figures suivantes, nous présentons les meilleurs redimensionnements obtenus pour chaque portée $\alpha$, donnant lieu aux valeurs de l'exposant de pseudo-gap $\theta$ répertoriées sur la \autoref{fig:Beta_Theta}.
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha3_mean.pdf}
 \includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha2_mean.pdf}
-\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha175_mean.pdf}
-\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha15_mean.pdf}
-\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha125_mean.pdf}
-\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha1_mean.pdf}
-\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha05_mean.pdf}
-\caption{}
-\label{fig:annexePcorrAlpha}
+\caption{Idem que pour la \autoref{fig:PCorr_alpha} pour $\alpha = 3$ (gauche) et $\alpha = 2$ (droite)}
+\label{fig:PCorrAnnexe5}
 \end{figure}
 
-\subsection{Avalanches dans le modèle $\alpha$-ROM}
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha175_mean.pdf}
+\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha15_mean.pdf}
+\caption{Idem que pour la \autoref{fig:PCorr_alpha} pour $\alpha = 1.75$ (gauche) et $\alpha = 1.5$ (droite)}
+\label{fig:PCorrAnnexe5}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha125_mean.pdf}
+\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha1_mean.pdf}
+\caption{Idem que pour la \autoref{fig:PCorr_alpha} pour $\alpha = 1.25$ (gauche) et $\alpha = 1$ (droite)}
+\label{fig:PCorrAnnexe5}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.45\textwidth]{Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha05_mean.pdf}
+\caption{Idem que pour la \autoref{fig:PCorr_alpha} pour $\alpha = 0.5$}
+\label{fig:PCorrAnnexe5}
+\end{figure}
+
+\FloatBarrier
+
+\section{Avalanches dans le modèle $\alpha$-ROM}
 
 \label{sec:AvTBLRRAnnexe}
 
@@ -426,13 +471,13 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \FloatBarrier
 
-\section{Annexes au chapitre 4}
+\chapter{Annexes au chapitre 4}
 
 
 
-\subsection{Modèles $\alpha$-Picard}
+\section{Modèles $\alpha$-Picard}
 
-\subsubsection{Transformée de Fourier inverse du propagateur}
+\subsection{Transformée de Fourier inverse du propagateur}
 
 \label{sec:TFinverse}
 
@@ -518,7 +563,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
     \mathcal{F}^{-1}\left( \frac{-4q_x^2q_y^2}{\lvert q \rvert^{4}} \right)=\frac{\cos4\theta}{\pi r^2}
 \end{equation}
 
-\subsubsection{Détermination des points critiques}
+\subsection{Détermination des points critiques}
 
 \label{sec:CP_aPicard}
 
@@ -531,7 +576,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 	\caption{Détermination de la contrainte critique $\Sigma_c$ et de l'exposant $\beta$ pour les modèles $\alpha$-Picard avec $\alpha \in \{ 5, 4, 3, 1.5, 1 \}$. En encart, la forme du propagateur dans l'espace réel implémenté de la façon présentée à la \autoref{sec:alphaPicard}}
 \end{figure}
 
-\subsubsection{Avalanches}
+\subsection{Avalanches}
 
 \subparagraph{}Dans cette partie, nous présentons à la \autoref{fig:Av_rescale_alpha_annexe} les données utilisées pour la caractérisation des avalanches à contrainte imposée dans les modèles $\alpha$-Picard pour les portées non présentées au \autoref{chapter:yielding}. Le protocole utilisé est celui présenté à la \autoref{sec:Av_PicardMain}.
 
@@ -544,19 +589,19 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 	\label{fig:Av_rescale_alpha_annexe}
 \end{figure}
 
-\subsection{Dépendance en protocole des avalanches à contrainte imposée dans les modèles élastoplastiques}
+\section{Dépendance en protocole des avalanches à contrainte imposée dans les modèles élastoplastiques}
 
 \label{sec:article2}
 
 \includepdf[noautoscale=true, width=\paperwidth, pages=-]{PhysRevE.111.024101.pdf}
 
-\subsection{Modèle de Picard confiné}
+\section{Modèle de Picard confiné}
 
 \label{sec:lambda_picard}
 
 \subparagraph{}Dans cette partie nous présentons une très brève étude de la transition vers l'écoulement dans un dispositif quasi-2D représentant un confinement entre deux plaques rigides. Pour ce faire, nous commençons par exposer la modification du propagateur de redistribution de la contrainte locale dans ce cas. Puis, via son analyse dans le cadre du modèle de Picard, nous montrons que cette nouvelle forme de l'interaction, toujours à longue portée, induit une perte de criticalité au-delà d'une certaine longueur d'écrantage définie par le confinement.
 
-\subsubsection{Confinement et interaction d'Eshelby}
+\subsection{Confinement et interaction d'Eshelby}
 
 \subparagraph{}De la même façon que dans le cas des suspensions, les dispositifs expérimentaux étudiés dans le cas de la transition vers l'écoulement peuvent agir significativement sur la portée des interactions. Si le cas de l'interaction d'Eshelby est le plus plébiscité dans la communauté des matériaux amorphes, nous pouvons imaginer une variation de la modification de contrainte induite par un réarrangement plastique dans un dispositif différent. En effet, si l'on considère un écoulement quasi-2D dans le plan $(\hat{\mathbf{e}}_x, \hat{\mathbf{e}}_y)$ entre deux plaques rigides parallèles aux plans de côte $z$ constante, alors les frottements entre le fluide à seuil s'écoulant et les plaques vont induire une dissipation modifiant la redistribution de contrainte suite à un évènement plastique. 
 
@@ -616,7 +661,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
     \end{aligned}
 \end{equation}
 
-\subsubsection{Etude des avalanches dans le modèle $\lambda$-Picard}
+\subsection{Etude des avalanches dans le modèle $\lambda$-Picard}
 
 \label{sec:screenedav}
 
@@ -655,9 +700,9 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \subparagraph{}Ainsi, même si au-delà de $\xi$ la redistribution de la contrainte décroît comme $1/r^4$, la criticalité du système observée n'est pas celle du modèle $\alpha$-Picard avec $\alpha = 4$. Des mesures annexes suggèrent que cette perte de criticalité est due à la forme de la relaxation globale dans le cas du modèle de Picard écranté, qui est concentrée sur le site actif et non répartie uniformément sur tous les sites constituant le système.
 
-\section{Annexes au chapitre 5}
+\chapter{Annexes au chapitre 5}
 
-\subsection{Modèle élastoplastique décorrélé}
+\section{Modèle élastoplastique décorrélé}
 
 \label{sec:EPMdiscret}
 
@@ -680,7 +725,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \FloatBarrier
 
-\subsection{Équations de champ pour les transitions convexes}
+\section{Équations de champ pour les transitions convexes}
 
 \label{sec:eqchampconvexe}
 
@@ -688,7 +733,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \label{sec:eqChampConv}
 
-\subsubsection{Motivations et difficultés}
+\subsection{Motivations et difficultés}
 
 \subparagraph{}Pour intégrer toute la complexité d'un phénomène critique dans une théorie simple, l'approche naturelle est celle des théories de champs. Via les méthodes du groupe de renormalisation, connaître la théorie de champ associée à un phénomène permet, en principe, d'en caractériser parfaitement la criticalité. Un exemple édifiant est celui de la transition de dépiégeage (et en définitive de la classe CDP) dont le traitement analytique a permis de nombreux progrès sur la compréhension du phénomène. Pour aller au-delà des descriptions champ moyen proposées par les modèles de type $\mu$-HL, il est donc naturel de vouloir déterminer une théorie de champ associée aux transitions convexes faisant intervenir une dynamique de bruit interne.
 
@@ -700,7 +745,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \subparagraph{}Dans cette section, nous présentons des résultats préliminaires obtenus sur cet axe de réflexion. Plus précisément nous essayons d'inférer des équations de champ adéquates pour reproduire la convexité de ces transitions, en se basant sur les théories de champ des classes CDP et LR-CDP. Pour tester ces équations, nous ne les étudions pas analytiquement mais plutôt numériquement en les intégrant directement. Ainsi, il est possible d'étudier les criticalités qu'elles décrivent de la même façon que les modèles microscopiques déjà considérés tout au long de cet ouvrage.
 
-\subsubsection{Cadre de travail}
+\subsection{Cadre de travail}
 
 \subparagraph{}Établir une théorie de champ n'est de façon générale pas quelque chose d'évident, et encore moins lorsque l'on n'est pas spécialiste du domaine. Dans le cas des classes DP et CDP, les théories continues associées sont dérivées, plus ou moins directement, des processus de réaction-diffusion mentionnés dans le \autoref{chapter:introduction}. Dans notre cas, il est difficile d'imaginer un tel processus représentant l'effet du bruit interne sur la dynamique. Les systèmes que nous avons étudiés ressemblant par de nombreux aspects aux modèles appartenant à la classe CDP, nous proposons de partir de la théorie continue la décrivant et d'en proposer des modifications. Pour rappel, celle-ci est représentée par les deux équations couplées suivantes :
 
@@ -716,7 +761,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \subparagraph{}En principe, intégrer numériquement ces équations n'est pas chose simple, et ce pour une raison principale : dû à la présence du bruit dans l'équation sur l'activité, sans précaution particulière celle-ci peut devenir négative, ce qui est totalement proscrit. En théorie, les équations préservent la positivité de l'activité, mais en pratique, via un schéma d'intégration avec un pas de temps $\Delta t$ fini, celle-ci n'est pas assurée. Pour résoudre ce problème, nous utilisons un algorithme d'intégration proposé précédemment par Dornic et al. \cite{dornic_integration_2005}, permettant d'introduire le bruit multiplicatif tout en préservant la positivité de l'activité. Simplement, nous l'implémentons de manière parallélisé via le langage CUDA afin de gagner en efficacité. De manière schématique, cette méthode permet de décomposer l'intégration en une intégration déterministe réalisée via les méthodes habituelles\footnote{Dans notre cas, nous utilisons une méthode d'Euler ou une méthode de Runge-Kutta d'ordre 4}, et une intégration du terme stochastique via la résolution analytique de l'équation constituée par les termes restants. De ce fait, le bruit multiplicatif ne peut pas mener à une activité négative.
 
-\subsubsection{Vérification de la méthode d'intégration numérique}
+\subsection{Vérification de la méthode d'intégration numérique}
 
 \subparagraph{}Avant de tester de nouvelles théories de champs pour modéliser les transitions de réversibilité et d'écoulement, nous vérifions le bon fonctionnement de notre schéma numérique en intégrant les équations associées à la classe CDP.
 
@@ -731,7 +776,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 	\label{fig:TestDornicCDP}
 \end{figure}
 
-\subsubsection{Enjeux pratiques}
+\subsection{Enjeux pratiques}
 
 \subparagraph{}Dans cette sous-section, nous mettons en évidence les difficultés pratiques concernant l'établissement de telles théories de champ en prenant l'exemple représentatif de la transition vers l'écoulement.
 
@@ -744,7 +789,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 	\item faire intervenir des interactions inhibitrices de l'activité à longue portée préservant la positivité de l'activité en tout point.
 \end{itemize}
 
-\subsubsection{Résultats préliminaires}
+\subsection{Résultats préliminaires}
 
 \subparagraph{}Dans cette section, nous présentons des théories que nous avons envisagé dans le cadre de la modélisation des transitions de réversibilité et d'écoulement. Les résultats préliminaires que nous avons obtenus montrent que les formulations intuitives des équations de champ pour modéliser les transitions convexes sont inadéquates. Plus particulièrement, nous montrons qu'avec des interactions associées à longue portée, celles-ci ne permettent pas de dépasser le paradigme $\beta \approx 1$. Afin de ne pas tomber dans l'écueil de présenter exhaustivement toutes nos tentatives non fructueuses, nous proposons dans cette sous-section de présenter simplement trois théories motivées par les modèles microscopiques que nous avons étudié dans cet ouvrage.
 
@@ -829,7 +874,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 	\label{fig:MFCDP32}
 \end{figure}
 
-\subsubsection{Approches champ moyen des transitions avec bruit multiplicatif}
+\subsection{Approches champ moyen des transitions avec bruit multiplicatif}
 
 \subparagraph{}Dans cette partie, nous expliquons pourquoi les théories de champ faisant intervenir un bruit multiplicatif ne peuvent pas être associées à un comportement champ moyen via la méthode habituelle. D'habitude, pour déterminer l'exposant $\beta$ dans la limite champ moyen, il est d'usage de simplifier les équations de champs associées en supprimant les termes de dépendances spatiales et de bruit. Si l'on prend l'exemple de la théorie DP, celle-ci devient dans ce cas (voir \autoref{eq:eqDP}) :
 
@@ -942,7 +987,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \subparagraph{}Ainsi, ce raisonnement, peut-être discutable, semble montrer qu'en effet, le degré de non-linéarité dans l'équation de champ ne permet pas de modifier la valeur de l'exposant $\beta$ dans la limite de champ moyen. Cela permet de proposer une explication aux résultats suprenant de la \autoref{sec:CMnaif}.
 
-\subsubsection{Conclusion de la section}
+\subsection{Conclusion de la section}
 
 \subparagraph{}En conclusion, il ne semble pas aisé de mettre en évidence des équations de champ permettant de produire une transition de phase absorbante convexe. Que ce soit via l'introduction d'interactions à longue portée de signe alterné, l'introduction d'une non-analyticité dans le terme non-local ou la modification du degré de non-linéarité du terme non-linéaire local, le comportement critique dans la limite de longue portée semble être toujours limité à $\beta = 1$. Les tests d'intégration que nous avons présenté ici sont les représentants de nombreux autres essais pointant vers le même résultat. 
 
