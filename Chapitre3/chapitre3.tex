@@ -26,13 +26,7 @@
 
 \noindent Cette approche simplificatrice met alors en évidence un mécanisme, la diffusion des particules via les interactions médiées, permettant de sortir du cadre de description LR-CDP. En effet, nous rappelons que pour celui-ci nous avons $0.64 \leq \beta \leq 1$ et $0 \leq\gamma^\prime \leq 0.37$. 
 
-\subparagraph{}Toutefois, d'un point de vue de la modélisation d'un système réel, ce modèle présente des lacunes. Notamment, comme nous l'avons vu au \autoref{chapter:introduction}, les interactions médiées par un fluide visqueux sont en général fonction de la distance. Celles-ci sont représentées formellement par le propagateur hydrodynamique associé à un dipôle de force, introduit à la \autoref{sec:ref_interac_visc}, qui décroît comme :
-
-\begin{equation}
-	\mathcal{G}_{ij}(\mathbf{r} - \mathbf{r}^\prime) \sim \frac{1}{|\mathbf{r} - \mathbf{r}^\prime|^\alpha}
-\end{equation}
-
-\noindent à grande distance $|\mathbf{r} - \mathbf{r}^\prime|$ de la source de l'interaction. La question est alors de savoir si le comportement critique exotique exhibé par le modèle traitant les interactions médiées en champ moyen est effacé par une représentation spatialisée de celles-ci ou s'il persiste dans cette prise en compte plus proche de la réalité des interactions médiées.
+\subparagraph{}Toutefois, d'un point de vue de la modélisation d'un système réel, ce modèle présente des lacunes. Notamment, comme nous l'avons vu au \autoref{chapter:introduction}, les interactions médiées par un fluide visqueux sont en général fonction de la distance. Celles-ci sont représentées formellement par le propagateur hydrodynamique associé à un dipôle de force, introduit dans les \autoref{sec:ref_interac_visc} et \autoref{sec:Annexe_Interactions_Hydro}, qui décroît comme $\sim \frac{1}{|\mathbf{r} - \mathbf{r}^\prime|^\alpha}$ à grande distance $|\mathbf{r} - \mathbf{r}^\prime|$ de la source de l'interaction, avec $\alpha$ un entier positif. La question est alors de savoir si le comportement critique exotique exhibé par le modèle traitant les interactions médiées en champ moyen est effacé par une représentation spatialisée de celles-ci ou s'il persiste dans cette prise en compte plus proche de la réalité des interactions médiées.
 
 \paragraph{Quelle portée étudier ?}
 
@@ -78,17 +72,21 @@
 
 \subsection{Modélisation des interactions médiées}
 
-\todo{Revoir avec Romain si on peut éviter la notation formelle à trois indices}
-
 \subparagraph{}Afin de conserver l'efficacité du modèle stroboscopique tout en y ajoutant la présence d'interactions médiées à longue portée, ces dernières doivent pouvoir être modélisées de manière simple et efficace. Le premier objectif de cette étude est donc de déterminer la modélisation adaptée.
 
-\subparagraph{}En pratique, au cours d'un cycle de cisaillement, chaque particule suspendue dans le fluide interagit avec les autres particules via des interactions hydrodynamiques, dont la forme a été explicitée à la \autoref{sec:ref_interac_visc} et à la \autoref{sec:Annexe_Interactions_Hydro}. Celle-ci suppose un écoulement à bas Reylnolds régi par les équations de Stokes et des particules ponctuelles sans inertie. Deux particules interagissant irréversiblement en $\mathbf{r}^\prime$ et appliquant un dipôle de force $\mathbf{F}\nabla\delta(\mathbf{r}^\prime)$ sur le fluide induit une vitesse de déplacement $\mathbf{v}^p(\mathbf{r})$ pour une particule située en $\mathbf{r}$ selon\footnote{Nous utilisons ici la convention d'Einstein pour la sommation sur les indices répétés.} :
+\subparagraph{}En pratique, au cours d'un cycle de cisaillement, chaque particule suspendue dans le fluide interagit avec les autres particules via des interactions hydrodynamiques, dont la forme a été explicitée à la \autoref{sec:ref_interac_visc} et à la \autoref{sec:Annexe_Interactions_Hydro}. Celles-ci suppose un écoulement à bas Reylnolds régi par les équations de Stokes et des particules ponctuelles sans inertie. Notamment, un évènement irréversible que l'on modélise par 
+
+
+
+
+
+Une particule interagissant irréversiblement en $\mathbf{r}^\prime$ et appliquant une force $\mathbf{F}\delta(\mathbf{r}^\prime)$ sur le fluide induit une vitesse de déplacement $\mathbf{v}^p(\mathbf{r})$ pour une particule située en $\mathbf{r}$ selon\footnote{Nous utilisons ici la convention d'Einstein pour la sommation sur les indices répétés.} :
 
 \begin{equation}
-	v^p_i(\mathbf{r}) = \mathcal{G}_{ij}(\mathbf{r}-\mathbf{r}^\prime)F_j
+	v^p_i(\mathbf{r}) = \mathcal{G}_{ij}^m(\mathbf{r}-\mathbf{r}^\prime)F_j
 \end{equation}
 
-\noindent avec $\mathcal{G}_{ij}(\mathbf{r}-\mathbf{r}^\prime)$ le propagateur hydrodynamique adéquat pour la modélisation du problème, décroissant comme $1/|\mathbf{r}-\mathbf{r}^\prime|^\alpha$ à grande échelle, avec $\alpha$ dépendant de la géométrie considérée.
+\noindent avec $\mathcal{G}_{ij}^m(\mathbf{r}-\mathbf{r}^\prime)$ le propagateur hydrodynamique monopolaire adapté au dispositif considéré, décroissant comme $1/|\mathbf{r}-\mathbf{r}^\prime|^\alpha$ à grande échelle, avec $\alpha$ dépendant de la géométrie considérée.
 
 \subparagraph{}Au cours de la transition réelle, les déplacements irréversibles des particules et donc les forces qu'elles exercent lors d'un cycle prennent des formes complexes et ne sont a priori pas instantanés. Afin de modéliser simplement l'influence d'un tel évènement, nous le considérons donc simplement dans l'approche stroboscopique. Nous considérons alors que chaque particule active située en $\mathbf{r}^\prime$ effectue un déplacement aléatoire $\boldsymbol\delta^a(\mathbf{r}^\prime)$, qui induit un déplacement $\boldsymbol\delta^p(\mathbf{r})$ sur une particule située en $\mathbf{r}$ selon :
 

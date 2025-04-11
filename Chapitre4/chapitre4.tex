@@ -8,9 +8,9 @@
 	\dot{\gamma} \sim \delta\Sigma^\beta,\quad \langle\Delta\dot{\gamma}^2\rangle \sim \delta\Sigma^{-\gamma^\prime}, \quad \xi \sim \delta\Sigma^{-\nu_\perp}, \quad \delta\Sigma = \frac{\Sigma-\Sigma_c}{\Sigma_c}
 \end{equation}
 
-\noindent avec la spécificité $\beta>1$ qui rend cette transition très différente de celle qui lui est souvent associée, la transition de dépiégeage, pour laquelle on trouve $\beta \leq 1$. La transition de dépiégeage étant elle-même associée à la criticalité LR-CDP, cette observation place la transition vers l'écoulement hors de ce cadre théorique. 
+\noindent avec la spécificité $\beta>1$ qui rend cette transition très différente de celle qui lui est souvent associée, la transition de dépiégeage, pour laquelle on trouve $\beta \leq 1$. La transition de dépiégeage étant elle-même associée à la criticalité LR-CDP (ou CDP dans le cas d'élasticité à courte portée), cette observation place la transition vers l'écoulement hors de ce cadre théorique. 
 
-\subparagraph{}La spécificité de la transition vers l'écoulement et sa différence avec le cadre LR-CDP sont attribuées à la présence d'un bruit mécanique dans le système. Celui-ci, issu des interactions de signe alterné de Eshelby que nous avons évoquées au \autoref{chapter:introduction}, change l'appréhension du système en apportant un nouveau mécanisme de création de l'activité par diffusion et non par transport (voir \autoref{chapter:introduction}). Dans ce cadre, les modèles théoriques de Hébraud-Lequeux et ses généralisations que nous avons réutilisés pour l'interprétation de la transition de réversibilité au  \autoref{chapter:Susp} permettent d'expliquer la convexité de la transition vers l'écoulement. Toutefois, toutes les études réalisées dans le cadre de la transition vers l'écoulement se concentrent spécifiquement, et à raison, sur le cas d'une redistribution élastique de la contrainte, soit décroissant comme $\sim 1/r^\alpha$ avec $\alpha = 2$ en 2D. Afin de proposer une comparaison riche entre cette transition et la transition de réversibilité, il s'avère donc intéressant d'étudier de la même manière l'évolution de sa criticalité en fonction de la portée des interactions $\alpha$. Le but de ce chapitre est alors de réaliser une étude numérique similaire à celle du chapitre précédent afin de resituer la transition vers l'écoulement dans une image plus globale que celle proposée par les modèles champ moyen de type Hébraud-Lequeux. Cela nous permettra alors, au chapitre suivant, de disposer de plus d'éléments pour discuter des similarités et des différences entre la transition de réversibilité et la transition vers l'écoulement.
+\subparagraph{}La spécificité de la transition vers l'écoulement et sa différence avec le cadre LR-CDP sont attribuées à la présence d'un bruit mécanique dans le système. Celui-ci, issu des interactions de signe alterné de Eshelby que nous avons évoquées au \autoref{chapter:introduction}, change la manière d'appréhender le système en apportant un nouveau mécanisme de création de l'activité par diffusion et non par transport (voir \autoref{chapter:introduction}). Dans ce cadre, les modèles théoriques de Hébraud-Lequeux et ses généralisations que nous avons réutilisés pour l'interprétation de la transition de réversibilité au  \autoref{chapter:Susp} permettent d'expliquer la convexité de la transition vers l'écoulement. Toutefois, toutes les études réalisées dans le cadre de la transition vers l'écoulement se concentrent spécifiquement, et à raison, sur le cas d'une redistribution élastique de la contrainte, soit décroissant comme $\sim 1/r^\alpha$ avec $\alpha = 2$ en 2D. Afin de proposer une comparaison riche entre cette transition et la transition de réversibilité, il s'avère donc intéressant d'étudier de la même manière l'évolution de sa criticalité en fonction de la portée des interactions $\alpha$. Le but de ce chapitre est alors de réaliser une étude numérique similaire à celle du chapitre précédent afin de resituer la transition vers l'écoulement dans une image plus globale que celle proposée par les modèles champ moyen de type Hébraud-Lequeux. Cela nous permettra alors, au chapitre suivant, de disposer de plus d'éléments pour discuter des similarités et des différences entre la transition de réversibilité et la transition vers l'écoulement.
 
 \subparagraph{}Pour ce faire, nous présenterons d'abord la méthode numérique élastoplastique utilisée pour simuler la transition vers l'écoulement. Ensuite nous mettrons en application cette méthode pour déterminer les exposants critiques associés dans le cas des interactions élastiques d'Eshelby pour lesquelles on a $\alpha=2$. Puis en modifiant la portée des interactions dans le modèle de base, nous caractériserons l'évolution de cette criticalité avec $\alpha$. Enfin, nous complèterons cette première caractérisation via l'évolution des autres propriétés critiques du système comme l'hyperuniformité et la dynamique d'avalanches.
 
@@ -38,7 +38,7 @@
 
 \subparagraph{}Cette simplification n'exclut cependant pas la modélisation de tous les systèmes à petites échelles car ces derniers peuvent s'avérer effectivement athermiques sous certaines conditions. Par exemple, un exposant $n\approx 0.5$ est retrouvé pour le régime athermique du silicone amorphe dans \cite{fusco_rheological_2014}. Les méthodes moléculaires permettent donc de retrouver les résultats expérimentaux dans des conditions plus contrôlées. 
 
-\subparagraph{}Par contre, un problème de ces méthodes est leur fort coût numérique qui rend impossible l'étude de très grands systèmes. Or les phénomènes critiques étant décrits aux grandes échelles, cela représente un obstacle de taille pour la caractérisation de la transition vers l'écoulement des fluides à seuil athermiques. Un autre point plus fondamental qui rend ces modèles inadéquats pour notre caractérisation est que ceux-ci font intervenir un grand nombre de degrés de liberté (forme du potentiel d'interaction, ...) qui dépendent du système spécifique considéré. Dans le but de mettre en évidence une universalité dans le phénomène d'écoulement, il est plus adapté de se concenter sur des modélisations minimales.
+\subparagraph{}Par contre, un problème de ces méthodes est leur fort coût numérique qui rend impossible l'étude de très grands systèmes. Or les phénomènes critiques étant décrits aux grandes échelles, cela représente un obstacle de taille pour la caractérisation de la transition vers l'écoulement des fluides à seuil athermiques. Un autre point plus fondamental qui rend ces modèles inadéquats pour notre caractérisation est que ceux-ci font intervenir un grand nombre de paramètres (forme du potentiel d'interaction, ...) qui dépendent du système spécifique considéré. Dans le but de mettre en évidence une universalité dans le phénomène d'écoulement, il est plus adapté de se concenter sur des modélisations minimales.
 
 
 \subsection{Théoriquement}
@@ -55,8 +55,6 @@
 
 \subsubsection{Modèle de Hébraud-Lequeux et généralisation}
 
-\rem{Parler de la généralisation à longue portée ici ?}
-
 \label{sec:HL_def}
 
 \subparagraph{}Le modèle de Hébraud-Lequeux \cite{hebraud_mode_coupling_1998} est un modèle qui permet de prédire certaines propriétés de la transition vers l'écoulement, notamment la forme de la courbe $\dot{\gamma} = f(\Sigma)$. Ce modèle se base en fait sur la phénoménologie présentée au \autoref{chapter:introduction}. Considérant le matériau comme un ensemble de régions distinctes portant chacune une contrainte $\sigma$ et soumises à un taux de cisaillement $\dot{\gamma}$, la distribution de probabilité $P(\sigma)$ se voit régie par l'évolution :
@@ -71,7 +69,7 @@
 
 \noindent avec $\tau$ un temps caractéristique de relaxation et $a$ un paramètre du modèle aussi appelé fluidité. Le premier terme du membre de droite de l'\autoref{eq:HLchap4} représente alors le chargement élastique du matériau. Le troisième et le dernier terme représentent le phénomène de relaxation locale lorsque la région dépasse sa contrainte seuil $\sigma_Y$ et opère un réarrangement plastique. Toute la physique capturée dans le modèle réside alors dans le second terme de diffusion. Celui-ci modélise l'influence des régions en réarrangement sur les autres régions via les interactions élastiques d'Eshelby. Cette interprétation vient du fait que ces interactions sont de signe alterné et donc, dans une certaine mesure, représentent une sorte de bruit mécanique dans le matériau. L'intensité de ce bruit dépend alors proportionnellement de la proportion de régions en réarrangement dans le système $\Gamma (t)$.
 
-\subparagraph{}En résolvant ce système d'équations simples dans la limite stationnaire pour $a < \frac{\sigma_Y^2}{2}$, il est possible de déduire une relation entre la contrainte moyenne $\langle \sigma \rangle =  \int \mathrm{d}\sigma ~ P(\sigma)$ et le taux de cisaillement lorsque $\dot{\gamma}\rightarrow 0$ \cite{olivier_fluides_2011, bertin_stochastic_2022} :
+\subparagraph{}En résolvant ce système d'équations simples dans la limite stationnaire pour $a < \frac{\sigma_Y^2}{2}$, il est possible de déduire une relation entre la contrainte moyenne $\langle \sigma \rangle =  \int \mathrm{d}\sigma ~ \sigma P(\sigma)$ et le taux de cisaillement lorsque $\dot{\gamma}\rightarrow 0$ \cite{olivier_fluides_2011, bertin_stochastic_2022} :
 
 \begin{equation}
 	\dot{\gamma} \sim (\langle \sigma \rangle - \Sigma_c)^\beta, \quad \beta = 2
@@ -79,7 +77,7 @@
 
 \noindent On retrouve alors une forme de type Herschel-Bulkley avec $n=0.5$, prédiction proche des résultats expérimentaux et numériques. Ce modèle simple permet donc de rendre compte de la convexité de la transition vers l'écoulement. Il se démarque alors des approches classiques de théorie des champs comme celle associée à la classe CDP ou à la transition de dépiégeage en proposant une description statistique à l'échelle mésoscopique. 
 
-\subparagraph{}Toutefois, ce modèle reste très simplificateur et ne permet pas de rendre compte de toutes les propriétés critiques associées à la transition. Des approches de généralisation de ce modèle ont été étudiées \cite{agoritsas_relevance_2015, bouchaud_spontaneous_2016}, notamment en complexifiant la forme du bruit mécanique afin de rendre compte de la spatialisation des interactions d'Eshleby \cite{lin_mean-field_2016, lin_microscopic_2018}, comme nous l'avons évoqué au chapitre précédent. Ces études sont intéressantes d'un point de vue champ moyen notamment car elles permettent une intepréatation de l'évolution des propriétés de la transition avec la portée des interactions. Cependant, elles ne permettent pas d'accéder à certaines quantités comme les fluctuations critiques et les corrélations spatiales proche de la contrainte seuil. Afin d'étudier pleinement cette transition en dimension finie et toute la richesse qui y est associée, il est donc nécessaire d'effectivement spatialiser ce type de description. 
+\subparagraph{}Toutefois, ce modèle reste très simplificateur et ne permet pas de rendre compte de toutes les propriétés critiques associées à la transition. Des approches de généralisation de ce modèle ont été étudiées \cite{agoritsas_relevance_2015, bouchaud_spontaneous_2016}, notamment en complexifiant la forme du bruit mécanique afin de rendre compte de la spatialisation des interactions d'Eshleby \cite{lin_mean-field_2016, lin_microscopic_2018}, comme nous l'avons évoqué au chapitre précédent. Ces études sont intéressantes d'un point de vue champ moyen notamment car elles permettent une interprétation de l'évolution des propriétés de la transition avec la portée des interactions. Cependant, elles ne permettent pas d'accéder à certaines quantités comme les fluctuations critiques et les corrélations spatiales proche de la contrainte seuil. Afin d'étudier pleinement cette transition en dimension finie et toute la richesse qui y est associée, il est donc nécessaire d'effectivement spatialiser ce type de description. 
 
 \section{Les modèles élastoplastiques comme outils privilégiés}
 
@@ -130,7 +128,7 @@
 \label{eq:PicardRules}
 \end{equation}
 
-\noindent avec $G_{ij} = G(\mathbf{r}_i-\mathbf{r}_j)$ le noyau de redistribution en champ lointain d'Eshelby  défini au \autoref{sec:introduction} et décrit en coordonées polaires par $G(r,\theta) = \frac{\cos 4\theta}{\pi r^2}$. Cette description peut aisément se généraliser en trois dimensions mais notre étude s'est concentrée uniquement sur le cas bidimensionnel. Afin de simplifier l'implémentation numérique, ce système d'équations est adimensionné par les transformations :
+\noindent avec $G_{ij} = G(\mathbf{r}_i-\mathbf{r}_j)$ le noyau de redistribution en champ lointain d'Eshelby  défini au \autoref{chapter:introduction} et décrit en coordonnées polaires par $G(r,\theta) = \frac{\cos 4\theta}{\pi r^2}$. Cette description peut aisément se généraliser en trois dimensions mais notre étude s'est concentrée uniquement sur le cas bidimensionnel. Afin de simplifier l'implémentation numérique, ce système d'équations est adimensionné par les transformations :
 
 \begin{equation}
 	\tilde{\sigma_i} = \frac{\sigma_i}{\sigma_Y},\quad \tilde{t} = \frac{t}{\tau}, \quad \tilde{\epsilon}_{pl,i} = \frac{\mu\tau}{\sigma_Y}\epsilon_{pl,i}
@@ -206,8 +204,6 @@
 \subparagraph{}Si la condition de contrainte imposée semble évidente dans le cas de l'étude de la transition de phase absorbante, contrôler le taux de déformation peut se révéler intéressant autant d'un point de vue numérique que du point de vue de la modélisation d'expériences réelles, comme nous le verrons par la suite.
 
 \section{Comportement critique}
-
-\rem{Citer plus ? Pourquoi ?}
 
 \subparagraph{}Grâce au modèle de Picard, nous sommes donc en mesure de déterminer le comportement local et global du système proche du point critique $(\Sigma = \Sigma_c, \dot{\gamma} = 0)$. Des études basées sur une méthode élastoplastique similaire ont déjà permis d'analyser certaines propriétés critiques de la transition vers l'écoulement, comme les exposants critiques $\beta$ \cite{lin_scaling_2014, ferrero_criticality_2019, liu_driving_2016, jagla_different_2017} et $\nu_\perp$ \cite{lin_scaling_2014, korchinski_thermally_2024} ou encore ceux reliés aux propriétés d'avalanches du système \cite{liu_driving_2016, ferrero_criticality_2019, lin_scaling_2014, budrikis_universal_2017}, de manière similaire au cas de la transition de dépiégeage. Dans ce travail nous proposons une approche un peu différente en considérant une caractérisation dans la lignée directe de celles utilisées dans le cadre des transitions de phase absorbantes comme c'est le cas des modèles minimaux appartenant à la classe DP ou CDP.
 
@@ -354,7 +350,7 @@ CDP \cite{lubeck_universal_2004} & 0.64 & 0.37 & 0.80 & 2.23 \\
 
 \noindent pour laquelle on trouve ici $(2\beta + \gamma^\prime) / \nu_\perp D\approx 1.01$.  
 
-\subparagraph{}Cette dernière peut en fait être rationalisée par un scénario simple dans le cas de la transition vers l'écoulement. Dans l'état stationnaire, le système peut être vu comme une collection de $(L/\xi)^D$ sous-systèmes indépendants de taille $\xi \times \xi$. Conforté par le scénario proposé dans \cite{lin_scaling_2014}, dans chaque compartiment le taux de cisaillement moyen $\langle\dot{\gamma}\rangle_\xi$ est imposé par celui produit par les plus grands évènements, ici d'extension spatiale $\xi$. Les compartiments étant indépendants, chacun d'entre eux possède un taux de cisaillement moyen égal au taux de cisaillement moyen global du système $\langle \dot{\gamma} \rangle$. En supposant alors que la durée des évènements et leur période d'apparition suivent les mêmes lois d'échelles, la variance du taux de cisaillement dans chaque compartiment, qui est une quantité positive, se comporte comme le carré du taux de cisaillement moyen $\langle \Delta\dot{\gamma}^2 \rangle_\xi \sim \langle\dot{\gamma}\rangle_\xi^2 \sim \langle\dot{\gamma}\rangle^2$. La variance globale $\langle \Delta\dot{\gamma}^2 \rangle$ est alors l'addition de celle de tous les compartiments indépendants :
+\subparagraph{}Cette dernière peut en fait être rationalisée par un scénario simple dans le cas de la transition vers l'écoulement. Dans l'état stationnaire, le système peut être vu comme une collection de $(L/\xi)^D$ sous-systèmes indépendants de taille $\xi \times \xi$. Conforté par le scénario proposé dans \cite{lin_scaling_2014}, dans chaque compartiment le taux de cisaillement moyen $\langle\dot{\gamma}\rangle_\xi$ est imposé par celui produit par les plus grands évènements, ici d'extension spatiale $\xi$. Les compartiments étant indépendants, chacun d'entre eux possède un taux de cisaillement moyen égal au taux de cisaillement moyen global du système $\langle \dot{\gamma} \rangle$. En supposant alors que la durée des évènements et leur période d'apparition suivent les mêmes lois d'échelles, la variance du taux de cisaillement dans chaque compartiment, qui est une quantité positive, se comporte comme le carré du taux de cisaillement moyen $\langle \Delta\dot{\gamma}^2 \rangle_\xi \sim \langle\dot{\gamma}\rangle_\xi^2 \sim \langle\dot{\gamma}\rangle^2$. La variance globale $\langle \Delta\dot{\gamma}^2 \rangle$ se comporte alors comme l'addition de celle de tous les compartiments indépendants :
 
 \begin{equation}
 	\langle \Delta\dot{\gamma}^2 \rangle \sim \left(\frac{L}{\xi}\right)^D\langle \Delta\dot{\gamma}^2 \rangle_\xi \sim \left(\frac{L}{\xi}\right)^D\langle \dot{\gamma} \rangle^2
@@ -362,7 +358,7 @@ CDP \cite{lubeck_universal_2004} & 0.64 & 0.37 & 0.80 & 2.23 \\
 
 \noindent ce qui permet d'arriver à la relation d'hyperscaling en ré-exprimant toutes les grandeurs en fonction de la distance au point critique $\delta\Sigma$. En d'autres termes, l'évolution des fluctuations du taux de cisaillement est le fruit de deux phénomènes en compétition. D'une part à l'approche de la transition le nombre de zones indépendantes spatialement diminue, augmentant de ce fait les fluctuations globales (terme $\nu_\perp D$ dans l'équation \autoref{eq:hyperscalingEPM}). D'autre part le taux de cisaillement moyen, et donc sa variance, diminue dans chacune de ces zones à l'approche du point critique (terme $-2\beta$ dans l'équation \autoref{eq:hyperscalingEPM}). Dès lors que l'exposant $\beta$ est suffisamment grand, l'exposant $\gamma^\prime$ est donc susceptible de devenir négatif, ce qui est bien le cas ici.
 
-\subparagraph{}Cette image n'est cependant pas en contradicition avec des fluctuations relatives de plus en plus grandes à l'approche du point critique, puisque $\langle \Delta\dot{\gamma}^2 \rangle/\langle \dot{\gamma}\rangle^2 \sim \delta\Sigma^{-\gamma^\prime - 2\beta}$ et $-\gamma^\prime - 2\beta < 0$. Ainsi, si les fluctuations absolues du taux de cisaillement s'annulent à l'approche du point critique, les fluctuations relatives, elles, divergent bien.
+\subparagraph{}Cette image n'est cependant pas en contradiction avec des fluctuations relatives de plus en plus grandes à l'approche du point critique, puisque $\langle \Delta\dot{\gamma}^2 \rangle/\langle \dot{\gamma}\rangle^2 \sim \delta\Sigma^{-\gamma^\prime - 2\beta}$ et $-\gamma^\prime - 2\beta < 0$. Ainsi, si les fluctuations absolues du taux de cisaillement s'annulent à l'approche du point critique, les fluctuations relatives, elles, divergent bien.
 
 \subsection{Modèles d'écoulement à courte portée}
 
@@ -377,7 +373,7 @@ CDP \cite{lubeck_universal_2004} & 0.64 & 0.37 & 0.80 & 2.23 \\
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{Chapitre4/Figures/CourtePortee/Prog_CP.pdf}
-	\caption{Détermination de la contrainte critique $\Sigma_c$ et de l'exposant $\beta$ pour le modèle Picard-CP (b) (dont le propagateur est représenté en (a)) et pour le modèle $\text{FES}^\pm$ (c) (dont le propagateur est représenté en (d))}
+	\caption{Détermination de la contrainte critique $\Sigma_c$ et de l'exposant $\beta$ pour le modèle Picard-CP (b) (dont le propagateur est représenté en (a)) et pour le modèle $\text{FES}^\pm$ (d) (dont le propagateur est représenté en (c))}
 	\label{fig:Prog_CP_SR}
 \end{figure}
 
@@ -386,7 +382,7 @@ CDP \cite{lubeck_universal_2004} & 0.64 & 0.37 & 0.80 & 2.23 \\
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{Chapitre4/Figures/CourtePortee/FSS_SRP_edited.pdf}
-	\caption{Analyse d'échelle de taille finie dans le cas du modèle Picard-CP. Les redimensionnements de la valeur moyenne (a), de la variance (b) et du cumulant de Binder (c) du taux de cisaillement sont représentés en figures principales et les données brutes en inset. Les figures (d), (e) et (f) montrent ces mêmes redimensionnement avec les exposants connus de la classe CDP \cite{lubeck_universal_2004}.}
+	\caption{Analyse d'échelle de taille finie dans le cas du modèle Picard-CP. Les redimensionnements de la valeur moyenne (a), de la variance (b) et du cumulant de Binder (c) du taux de cisaillement sont représentés en figures principales et les données brutes en encart. Les figures (d), (e) et (f) montrent ces mêmes redimensionnements avec les exposants connus de la classe CDP \cite{lubeck_universal_2004}.}
 	\label{fig:FSS_SRP}
 \end{figure}
 
@@ -448,7 +444,7 @@ CDP \cite{lubeck_universal_2004} & 0.64 & 0.37 & 0.80 & 2.23 \\
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{Chapitre4/Figures/CourtePortee/FSS_SRNC_edited.pdf}
-	\caption{Analyse d'échelle de taille finie dans le cas du modèle $\text{FES}^\pm$. Les redimensionnements de la valeur moyenne (a), de la variance (b) et du cumulant de Binder (c) sont représentés en figures principales et les données brutes en inset. Les figures (d), (e) et (f) montrent ces mêmes redimensionnement avec les exposants connus de la classe CDP.}
+	\caption{Analyse d'échelle de taille finie dans le cas du modèle $\text{FES}^\pm$. Les redimensionnements de la valeur moyenne (a), de la variance (b) et du cumulant de Binder (c) sont représentés en figures principales et les données brutes en encart. Les figures (d), (e) et (f) montrent ces mêmes redimensionnements avec les exposants connus de la classe CDP.}
 	\label{fig:FSS_SRNC}
 \end{figure}
 
@@ -536,7 +532,7 @@ CDP \cite{lubeck_universal_2004} & 0.64 & 0.37 & 0.80 & 2.23 \\
     \label{eq:evol:sigma:CDP}
 \end{equation}
 
-\subparagraph{}Si l'équation inférée du modèle $\text{FES}^\pm$ est bien la même que celle de la théorie CDP, celle inférée du modèle Picard-CP est fondamentalement différente. Cette différentiation orginiaire des modes zéros est remarquable, mais comprendre comment elle pourrait modifier le comportement critique associé est une tâche difficile. De plus, cela nécessiterait la détermination d'une telle équation pour le cham d'activité. Néanmoins, cela constitue un indice supplémentaire allant dans la direction de la caractérisation d'une nouvelle classe d'universalité.
+\subparagraph{}Si l'équation inférée du modèle $\text{FES}^\pm$ est bien la même que celle de la théorie CDP, celle inférée du modèle Picard-CP est fondamentalement différente. Cette différentiation originaire des modes zéros est remarquable, mais comprendre comment elle pourrait modifier le comportement critique associé est une tâche difficile. De plus, cela nécessiterait la détermination d'une telle équation pour le champ d'activité. Néanmoins, cela constitue un indice supplémentaire allant dans la direction de la caractérisation d'une nouvelle classe d'universalité.
 
 \subparagraph{}L'analyse de ces deux modèles de courte portée permet donc de mettre un évidence l'importance des modes zéros et suggère donc une importance similaire dans le cas physique, en présence d'interactions à longue portée.
 
@@ -548,7 +544,7 @@ CDP \cite{lubeck_universal_2004} & 0.64 & 0.37 & 0.80 & 2.23 \\
 
 \subsubsection{Le modèle $\alpha$-Picard}
 
-\subparagraph{}Pour ce faire, nous généralisons le modèle de Picard à une portée d'interaction arbitraire, i.e. $G(\mathbf{r})\sim 1/r^\alpha$. Pour conserver les propriétés centrales du propagateur classique d'Eshelby (symétrie quadrupolaire, modes zéros\footnote{implique $\hat{G}(q_x=0,q_y)=\hat{G}(q_x,q_y=0)=0$}) nous définissons cette continuité de propagateurs dans l'espace de Fourier selon :
+\subparagraph{}Pour ce faire, nous généralisons le modèle de Picard à une portée d'interaction arbitraire, i.e. $G(\mathbf{r})\sim 1/r^\alpha$. Pour conserver les propriétés centrales du propagateur classique d'Eshelby (symétrie quadrupolaire, modes zéros\footnote{Implique $\hat{G}(q_x=0,q_y)=\hat{G}(q_x,q_y=0)=0$}.) nous définissons cette continuité de propagateurs dans l'espace de Fourier selon :
 
 \begin{equation}
 	\hat{G}(\mathbf{q}) = -b_\alpha \frac{q_x^2 q_y^2}{q^{6-\alpha}}
@@ -708,14 +704,14 @@ Nous cherchons donc d'abord à évaluer $K^\text{LR}_{u,v}$ pour un propagateur 
 \begin{itemize}
 	\item Une première région pour $\alpha>6$ dont la criticalité est dominée par les interactions à courte portée. La classe supposée décrire ce comportement est alors CDP-0, représentée par le modèle Picard-CP.
 	\item Une seconde région $4<\alpha<6$ où les interactions à longue portée démarrent leur influence sur le comportement critique. Cette région est spécifique à la présence de modes zéros. Nous la nommons $\text{LP-0}$.
-	\item Une troisème région $\alpha <4$ où la portée de l'interaction maintient son influence sur le comportement critique mais dont la spécificité ne tient plus aux modes zéros. L'analyse d'échelle ne permet en effet pas de la différencier de la région homologue associée au dépiégeage à longue portée.
+	\item Une troisième région $\alpha <4$ où la portée de l'interaction maintient son influence sur le comportement critique mais dont la spécificité ne tient plus aux modes zéros. L'analyse d'échelle ne permet en effet pas de la différencier de la région homologue associée au dépiégeage à longue portée.
 \end{itemize}
 
 \subparagraph{}Ce court raisonnement analytique nous permet donc de confirmer la tendance observée numériquement pour l'identification de la région LP-0, où le comportement critique dépend a priori uniquement légèrement de la portée. Toutefois, celui-ci ne permet pas de faire la différence entre une interaction de type dépiégeage et les interactions avec modes zéros du modèle $\alpha$-Picard pour $\alpha<4$. \`A la place, nous pensons que cette différenciation que l'on remarque effectivement sur l'évolution de l'exposant $\beta$, plus spécifiquement pour $\alpha = 3$, est principalement due à la présence d'un bruit mécanique dans le cas de la transition vers l'écoulement. Nous nommons cette zone $\text{LP}$.
 
 \subparagraph{}Dans le cas du dépiégeage, la zone de longue portée (nommée Dep-LP sur la \autoref{fig:YieldingLandscape}) où les exposants dépendent continûment de $\alpha$ est située entre $\alpha=4$ et $\alpha=3$. Ce comportement entre dans le cadre de référence LR-CDP. Pour $\alpha<3$, le comportement critique devient celui du champ moyen avec $\beta=1$.
 
-\subparagraph{}Pour la transition vers l'écoulement, la zone $3<\alpha<4$ montre une évolution similaire en fonction de $\alpha$ avec $\beta$ allant de $\beta\approx 0.68$ à $\beta\approx 0.95$. Pour être conclusif quant à l'équivalence avec le dépiégeage dans cette région, il faudrait étendre notre étude à des portées intermédiaires. Pour $\alpha<3$ cependant, le comportement critique ne semble pas avoir atteint celui du champ moyen puisque $\beta$ continue d'augmenter jusqu'à $\alpha=1$, pour lequel on mesure $\beta\approx 2$. Par ailleurs, le modèle de Hébraud-Lequeux, préssenti pour représenter les modèles élastoplastiques en champ moyen, montre une criticalité de type $\beta=2$. Par analogie avec les comportements de longue portée canoniques, nous suggérons alors que pour $\alpha<1$, le système admet un comportement champ moyen (nommé CM sur la \autoref{fig:YieldingLandscape}). Cette conjecture pour la limite de champ moyen est partagée par l'étude de Lin et. al \cite{lin_mean-field_2016} dont nous discuterons au chapitre suivant.
+\subparagraph{}Pour la transition vers l'écoulement, la zone $3<\alpha<4$ montre une évolution similaire en fonction de $\alpha$ avec $\beta$ allant de $\beta\approx 0.68$ à $\beta\approx 0.95$. Pour être conclusif quant à l'équivalence avec le dépiégeage dans cette région, il faudrait étendre notre étude à des portées intermédiaires. Pour $\alpha<3$ cependant, le comportement critique ne semble pas avoir atteint celui du champ moyen puisque $\beta$ continue d'augmenter jusqu'à $\alpha=1$, pour lequel on mesure $\beta\approx 2$. Par ailleurs, le modèle de Hébraud-Lequeux, pressenti pour représenter les modèles élastoplastiques en champ moyen, montre une criticalité de type $\beta=2$. Par analogie avec les comportements de longue portée canoniques, nous suggérons alors que pour $\alpha<1$, le système admet un comportement champ moyen (nommé CM sur la \autoref{fig:YieldingLandscape}). Cette conjecture pour la limite de champ moyen est partagée par l'étude de Lin et. al \cite{lin_mean-field_2016} dont nous discuterons au chapitre suivant.
 
 \begin{figure}[h]
 	\centering
@@ -724,7 +720,7 @@ Nous cherchons donc d'abord à évaluer $K^\text{LR}_{u,v}$ pour un propagateur 
 	\label{fig:YieldingLandscape}
 \end{figure}
 
-\subparagraph{}In fine, les élements que nous apportons suggèrent de placer la criticalité des modèles $\alpha$-Picard sur un paysage décrit à la \autoref{fig:YieldingLandscape}. La transition vers l'écoulement, représentée par le modèle de Picard, se situe donc dans une région de longue portée où le comportement critique dépend encore continûment de l'exposant $\alpha$. Cette localisation dans une image globale nous permet de mettre en évidence des ingrédients qui jouent un rôle clé dans le phénomène, notamment la présence de modes zéro. Enfin, la comparaison avec le dépiégeage dont on rapproche souvent cette transition, montre des évolutions profondément différentes. En effet, la zone de longue portée dans le cas de la transition vers l'écoulement est bien plus large ($1<\alpha<6$) que dans le cas du dépiégeage ($3<\alpha<4$) et la description équivalente à courte portée semble être issue d'une classe d'universalité différente. Si un point ressemblant au champ moyen du dépiégeage semble pouvoir être atteint autour de $\alpha\approx 3$, le mécanisme de bruit interne dans la transition vers l'écoulement semble permettre de le dépasser pour faire apparaître un autre champ moyen de type Hébraud-Lequeux.
+\subparagraph{}In fine, les éléments que nous apportons suggèrent de placer la criticalité des modèles $\alpha$-Picard sur un paysage décrit à la \autoref{fig:YieldingLandscape}. La transition vers l'écoulement, représentée par le modèle de Picard, se situe donc dans une région de longue portée où le comportement critique dépend encore continûment de l'exposant $\alpha$. Cette localisation dans une image globale nous permet de mettre en évidence des ingrédients qui jouent un rôle clé dans le phénomène, notamment la présence de modes zéro. Enfin, la comparaison avec le dépiégeage dont on rapproche souvent cette transition, montre des évolutions profondément différentes. En effet, la zone de longue portée dans le cas de la transition vers l'écoulement est bien plus large ($1<\alpha<6$) que dans le cas du dépiégeage ($3<\alpha<4$) et la description équivalente à courte portée semble être issue d'une classe d'universalité différente. Si un point ressemblant au champ moyen du dépiégeage semble pouvoir être atteint autour de $\alpha\approx 3$, le mécanisme de bruit interne dans la transition vers l'écoulement semble permettre de le dépasser pour faire apparaître un autre champ moyen de type Hébraud-Lequeux.
 
 \subparagraph{}Il est alors intéressant de voir si les autres propriétés critiques du système suivent cette même évolution caractéristique.
 
@@ -802,7 +798,7 @@ Nous cherchons donc d'abord à évaluer $K^\text{LR}_{u,v}$ pour un propagateur 
 
 \subsubsection{Approche par le dépiégeage}
 
-\subparagraph{}En fait, une approche plus rigoureuse permet de pressentir une forme d'hyperuniformité sur la contrainte. Celle-ci se base sur la ressemblance entre les modèles de type dépiégeage et les modèles élastoplastiques. Dans le cas du dépiégeage, il n'y a pas non plus de quantité physiquement évidente pour laquelle on pourrait supposer une propriété d'hyperuniformité. Toutefois, comme nous l'avons mentionné au \autoref{sec:introduction}, celle-ci est en lien direct avec les propriétés de rugosité de l'interface.
+\subparagraph{}En fait, une approche plus rigoureuse permet de pressentir une forme d'hyperuniformité sur la contrainte. Celle-ci se base sur la ressemblance entre les modèles de type dépiégeage et les modèles élastoplastiques. Dans le cas du dépiégeage, il n'y a pas non plus de quantité physiquement évidente pour laquelle on pourrait supposer une propriété d'hyperuniformité. Toutefois, comme nous l'avons mentionné au \autoref{chapter:introduction}, celle-ci est en lien direct avec les propriétés de rugosité de l'interface.
 
 \subparagraph{}En fournissant une compréhension plus simple de l'équivalence entre les deux phénomènes critiques, K. Wiese \cite{wiese_hyperuniformity_2024} a en effet pu faire un parallèle direct entre la densité $\rho$ dans les modèles de particules et la position de l'interface $u$ dans les modèles de dépiégeage, qui est :
 
@@ -838,7 +834,7 @@ Nous cherchons donc d'abord à évaluer $K^\text{LR}_{u,v}$ pour un propagateur 
 	\label{eq:scalingHULP}
 \end{equation}
 
-\noindent Le cas des modèles élastoplastiques est alors très intéressant puisque ceux-ci constituent des modèles dans lequel les deux exposants à la fois ont un sens physique intéressant. L'exposant $\alpha_\text{HU}$ qualifie la répartition de la contrainte et l'exposant $\eta$ la répartition des zones de plasticité accumulée au cours du temps. (\rem{reformuler ?})
+\noindent Le cas des modèles élastoplastiques est alors très intéressant puisque ceux-ci constituent des modèles dans lequel les deux exposants à la fois ont un sens physique intéressant. L'exposant $\alpha_\text{HU}$ qualifie la répartition de la contrainte et l'exposant $\eta$ la répartition des zones de plasticité accumulée au cours du temps.
 
 \subsubsection{Résultats numériques}
 
@@ -858,7 +854,7 @@ Nous cherchons donc d'abord à évaluer $K^\text{LR}_{u,v}$ pour un propagateur 
 
 \begin{figure}[h]
 	\centering	\includegraphics[width=\textwidth]{Chapitre4/Figures/Correlations/Sfact_SRPNC.pdf}
-	\caption{Évolution du pseudo-facteur de structure dans le modèle $\text{FES}^\pm$. (a) carte de valeurs du pseudo-facteur de structure $S_\sigma(\mathbf{q})$ dans l'espace réciproque discret. (b) Évolution du pseudo-facteur de structure le long de la ligne $q_x=0$.}
+	\caption{Évolution du pseudo-facteur de structure dans le modèle $\text{FES}^\pm$. (a) Carte de valeurs du pseudo-facteur de structure $S_\sigma(\mathbf{q})$ dans l'espace réciproque discret. (b) Évolution du pseudo-facteur de structure le long de la ligne $q_x=0$.}
 	\label{fig:SfactStressFES}
 \end{figure}
 
@@ -885,11 +881,11 @@ Nous cherchons donc d'abord à évaluer $K^\text{LR}_{u,v}$ pour un propagateur 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{Chapitre4/Figures/Correlations/Sfact_SRP.pdf}
-	\caption{Évolution du pseudo-facteur de structure dans le modèle Picard-CP. (a) carte de valeurs du pseudo-facteur de structure dans l'espace réciproque discret. (b) Évolution du pseudo-facteur de structure le long de la diagonale $(q_x=\frac{q}{\sqrt{2}},q_y=\frac{q}{\sqrt{2}})$.}
+	\caption{Évolution du pseudo-facteur de structure dans le modèle Picard-CP. (a) Carte de valeurs du pseudo-facteur de structure dans l'espace réciproque discret. (b) Évolution du pseudo-facteur de structure le long de la diagonale $(q_x=\frac{q}{\sqrt{2}},q_y=\frac{q}{\sqrt{2}})$.}
 	\label{fig:SfactStressPCP}
 \end{figure}
 
-\subparagraph{}La carte de valeurs de $S_\sigma(\mathbf{q})$ montre alors une anisotropie frappante dont les axes de symétrie sont ceux associés aux modes zéros ($q_x=0$ et $q_y=0$). Le pseudo-facteur de structure prend alors des valeurs proches de 0 sur ces axes. Cette propriété d'anisotropie découle en fait trivialement de l'\autoref{eq:DynPicardInteg} car dans l'espace de Fourier le champ de contrainte est une multiplication du propagateur et du champ de déplacement. Il semble donc compliqué de réduire cette analyse à un problème monodimensionnel, i.e. en regardant l'évolution de $S_\sigma(\mathbf{q})$ sur une ligne, puisque chaque choix de direction produira vraisemblablement une évolution différente.
+\subparagraph{}La carte de valeurs de $S_\sigma(\mathbf{q})$ montre alors une anisotropie frappante dont les axes de symétrie sont ceux associés aux modes zéros ($q_x=0$ et $q_y=0$). Le pseudo-facteur de structure prend alors des valeurs proches de 0 sur ces axes. Cette propriété d'anisotropie découle en fait trivialement de l'\autoref{eq:DynPicardInteg} car dans l'espace de Fourier le champ de contrainte est une multiplication du propagateur et du champ de déplacement. Il semble donc compliqué de réduire cette analyse à un problème unidimensionnel, i.e. en regardant l'évolution de $S_\sigma(\mathbf{q})$ sur une ligne, puisque chaque choix de direction produira vraisemblablement une évolution différente.
 
 \subparagraph{}Afin de pouvoir pousser l'analyse tout de même plus loin, nous choisissons de nous intéresser à la direction définie par la bissectrice de ces axes et donc de considérer la diagonale $(q_x = q/\sqrt{2}, q_y = q/\sqrt{2})$. L'évolution le long de cette ligne est représentée \autoref{fig:SfactStressPCP}-(b). Nous observons alors toujours une évanescence de $S_\sigma(\mathbf{q})$ mais cette fois-ci bien plus abrupte avec $\alpha_\text{HU} \approx 2.5$. Cette mesure constitue alors un nouvel indice rejoignant la ligne qui suggère de séparer les comportements critiques du modèle Picard-CP et de la classe CDP.
 
@@ -1031,7 +1027,7 @@ Picard-CP & 2.5 & 1.75  \\
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{Chapitre4/Figures/Avalanches/PbContrainte.pdf}
-	\caption{Problème posé par l'étude des avalanches à contrainte imposée (a) et résolution par la mise en place de protocolesde réactivation (b).}
+	\caption{Problème posé par l'étude des avalanches à contrainte imposée (a) et résolution par la mise en place de protocoles de réactivation (b).}
 	\label{fig:PbContrainte}
 \end{figure}
 
@@ -1116,7 +1112,7 @@ Picard-CP & 2.5 & 1.75  \\
 	\label{eq:distA}
 \end{equation}
 
-\noindent avec $h$ une fonction à décroissance rapide et $A_c$ le cut-off associé. Ce cette façon, $\chi=D=2$ signifie que les avalanches occupent au maximum toute la surface du système. Cette quantité permet alors d'offrir une nouvelle caractérisation des avalanches, utile à l'interprétation des résultats qui suit.
+\noindent avec $h$ une fonction à décroissance rapide et $A_c$ le cut-off associé. De cette façon, $\chi=D=2$ signifie que les avalanches occupent au maximum toute la surface du système. Cette quantité permet alors d'offrir une nouvelle caractérisation des avalanches, utile à l'interprétation des résultats qui suit.
 
 \paragraph{\'Evolution des exposants}
 
@@ -1161,6 +1157,6 @@ Picard-CP & 2.5 & 1.75  \\
 
 \subparagraph{}En conclusion, par l'implémentation d'un modèle élastoplastique, nous avons caractérisé la transition vers l'écoulement des fluides à seuil athermiques. La première phase de caractérisation nous a permis de déterminer les exposants critiques associés à cette transition. Celle-ci a alors permis de mettre en évidence son caractère convexe ($\beta >1$) et le caractère exotique des fluctuations critiques qui se dissipent à l'approche de la transition ($\gamma^\prime<0$). 
 
-\subparagraph{}Par l'étude de variations sur ce modèle, nous avons étudié l'évolution de cette criticalité en fonction de la portée $\alpha$ des interactions associées. Cela nous a permis de mettre en évidence la présence d'une symétrie particulière dans le propagateur de redistribution appelée modes zéros qui modifie le comportement critique du système, et ce même à courte portée. La longue portée inscrite dans ce même propagateur place la transition vers l'écoulement ($\alpha = 2$) dans une zone non-triviale dont la forme a été esquissée. Celle-ci semble séparer une classe de courte portée distincte de la percolation dirigée conservée, appelée CDP-0, d'une zone de champ moyen représentée par le modèle de Hébraud-Lequeux. Si ce comportement est plutôt classique, sa spécificité réside dans le fait que la zone de longue portée s'étend sur une gamme de portées $\alpha$ différente du cas du dépiégeage. Pour $\alpha < 3$, le comportement critique est, comme attendu, très différent de cleui de la transition de dépiégeage, du fait de la possibilité d'interpréter les interactions comme un bruit interne dans cette zone. En revanche, pour $\alpha > 3$, l'évolution des exposants ressemble fortement à celle prédite par le cadre LR-CDP.
+\subparagraph{}Par l'étude de variations sur ce modèle, nous avons étudié l'évolution de cette criticalité en fonction de la portée $\alpha$ des interactions associées. Cela nous a permis de mettre en évidence le rôle d'une symétrie particulière dans le propagateur de redistribution appelée modes zéros qui modifie le comportement critique du système, et ce même à courte portée. La longue portée inscrite dans ce même propagateur place la transition vers l'écoulement ($\alpha = 2$) dans une zone non-triviale dont la forme a été esquissée. Celle-ci semble séparer une classe de courte portée distincte de la percolation dirigée conservée, appelée CDP-0, d'une zone de champ moyen représentée par le modèle de Hébraud-Lequeux. Si ce comportement est plutôt classique, sa spécificité réside dans le fait que la zone de longue portée s'étend sur une gamme de portées $\alpha$ différente du cas du dépiégeage. Pour $\alpha < 3$, le comportement critique est, comme attendu, très différent de celui de la transition de dépiégeage, du fait de la possibilité d'interpréter les interactions comme un bruit interne dans cette zone. En revanche, pour $\alpha > 3$, l'évolution des exposants ressemble fortement à celle prédite par le cadre LR-CDP.
 
 \subparagraph{}Cette observation générale se retrouve aussi dans l'évolution des autres propriétés critiques du système. L'hyperuniformité de la répartition de contrainte est perdue conjointement à la rugosité de l'interface pour $\alpha\lesssim 3$ alors qu'elles présentent des caractéristiques similaires au dépiégeage pour $\alpha\gtrsim 3$. D'autre part, les propriétés des avalanches suivent la même tendance. Si des avalanches compactes sont observées pour $\alpha\gtrsim 3$, pour $\alpha\lesssim 3$ les évènements observés sont marqués par une faible compacité avec $d_f < D$, caractéristique de la transition vers l'écoulement. 
