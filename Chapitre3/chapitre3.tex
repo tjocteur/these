@@ -74,32 +74,26 @@
 
 \subparagraph{}Afin de conserver l'efficacité du modèle stroboscopique tout en y ajoutant la présence d'interactions médiées à longue portée, ces dernières doivent pouvoir être modélisées de manière simple et efficace. Le premier objectif de cette étude est donc de déterminer la modélisation adaptée.
 
-\subparagraph{}En pratique, au cours d'un cycle de cisaillement, chaque particule suspendue dans le fluide interagit avec les autres particules via des interactions hydrodynamiques, dont la forme a été explicitée à la \autoref{sec:ref_interac_visc} et à la \autoref{sec:Annexe_Interactions_Hydro}. Celles-ci suppose un écoulement à bas Reylnolds régi par les équations de Stokes et des particules ponctuelles sans inertie. Notamment, un évènement irréversible que l'on modélise par 
-
-
-
-
-
-Une particule interagissant irréversiblement en $\mathbf{r}^\prime$ et appliquant une force $\mathbf{F}\delta(\mathbf{r}^\prime)$ sur le fluide induit une vitesse de déplacement $\mathbf{v}^p(\mathbf{r})$ pour une particule située en $\mathbf{r}$ selon\footnote{Nous utilisons ici la convention d'Einstein pour la sommation sur les indices répétés.} :
+\subparagraph{}En pratique, au cours d'un cycle de cisaillement, chaque particule suspendue dans le fluide interagit avec les autres particules via des interactions hydrodynamiques, dont la forme a été explicitée à la \autoref{sec:ref_interac_visc} et à la \autoref{sec:Annexe_Interactions_Hydro}. Celle-ci suppose un écoulement à bas Reynolds régi par les équations de Stokes et des particules ponctuelles sans inertie. Notamment, un évènement irréversible que l'on associe instantanément à un dipôle de force en $\mathbf{r}^\prime$ sur le fluide induit une vitesse de déplacement $\mathbf{v}^p(\mathbf{r})$ pour une particule située en $\mathbf{r}$ selon\footnote{Nous utilisons ici la convention d'Einstein pour la sommation sur les indices répétés.} :
 
 \begin{equation}
-	v^p_i(\mathbf{r}) = \mathcal{G}_{ij}^m(\mathbf{r}-\mathbf{r}^\prime)F_j
+	v^p_i(\mathbf{r}) = \mathcal{G}_{ijk}(\mathbf{r}-\mathbf{r}^\prime)p_{jk}
 \end{equation}
 
-\noindent avec $\mathcal{G}_{ij}^m(\mathbf{r}-\mathbf{r}^\prime)$ le propagateur hydrodynamique monopolaire adapté au dispositif considéré, décroissant comme $1/|\mathbf{r}-\mathbf{r}^\prime|^\alpha$ à grande échelle, avec $\alpha$ dépendant de la géométrie considérée.
+\noindent avec $\mathcal{G}_{ijk}(\mathbf{r}-\mathbf{r}^\prime)$ le propagateur hydrodynamique dipolaire, décroissant comme $1/|\mathbf{r}-\mathbf{r}^\prime|^\alpha$ à grande échelle, avec $\alpha$ dépendant de la géométrie considérée. $p_{jk} = F_j a_k$ représente le dipôle de force associé aux deux particules interagissant irréversiblement, appliquant respectivement instantanément une force $\mathbf{F}\delta(\mathbf{r}+\frac{\mathbf{a}}{2})$ et une force $-\mathbf{F}\delta(\mathbf{r}-\frac{\mathbf{a}}{2})$ sur le fluide (voir \autoref{sec:Annexe_Interactions_Hydro}).
 
-\subparagraph{}Au cours de la transition réelle, les déplacements irréversibles des particules et donc les forces qu'elles exercent lors d'un cycle prennent des formes complexes et ne sont a priori pas instantanés. Afin de modéliser simplement l'influence d'un tel évènement, nous le considérons donc simplement dans l'approche stroboscopique. Nous considérons alors que chaque particule active située en $\mathbf{r}^\prime$ effectue un déplacement aléatoire $\boldsymbol\delta^a(\mathbf{r}^\prime)$, qui induit un déplacement $\boldsymbol\delta^p(\mathbf{r})$ sur une particule située en $\mathbf{r}$ selon :
+\subparagraph{}En réalité, au cours de la transition réelle, les déplacements irréversibles des particules et donc les forces qu'elles exercent lors d'un cycle prennent des formes complexes et ne sont a priori pas instantanés. Afin de modéliser simplement l'influence d'un tel évènement dans son intégrité, nous le considérons donc simplement dans l'approche stroboscopique. Nous considérons alors que chaque couple de particules actives situé autour de $\mathbf{r}^\prime$ génère un dipôle intégré de force $\tilde{p}_{jk}(\mathbf{r}^\prime)$, qui induit un déplacement $\boldsymbol\delta^p(\mathbf{r})$ sur une particule située en $\mathbf{r}$ selon :
 
 \begin{equation}
-	\delta^p_i(\mathbf{r}) = \mathcal{G}_{ij}(\mathbf{r}-\mathbf{r}^\prime)\delta^a_j(\mathbf{r}^\prime)
+	\delta^p_i(\mathbf{r}) = \mathcal{G}_{ijk}(\mathbf{r}-\mathbf{r}^\prime)\tilde{p}_{jk}(\mathbf{r}^\prime)
 \end{equation}
 
-\noindent avec le même propagateur hydrodynamique.
+\noindent avec le même propagateur hydrodynamique que celui associé à l'évènement instantané.
 
-\subparagraph{}Cette modélisation implique une approche tensorielle de l'influence des particules actives sur les particules passives (par opposition à actives) dans le modèle stroboscopique : le déplacement d'une particule passive induit par une particule active dépend de la direction de déplacement de cette dernière. Pour simplifier davantage cette approche, nous nous appuyons sur le fait que, dans la phase active, dans la limite thermodynamique, chaque particule passive reçoit des interactions médiées de la part d'un grand nombre particules actives. En notant $\{ \mathbf{r}^\prime \}$ l'ensemble des positions des particules actives, on a alors :
+\subparagraph{}Cette modélisation implique une approche tensorielle de l'influence des particules actives sur les particules passives (par opposition à actives) dans le modèle stroboscopique : le déplacement d'une particule passive induit par un couple de particules actives dépend de la direction de déplacement de cette dernière. Pour simplifier davantage cette approche, nous nous appuyons sur le fait que, dans la phase active, dans la limite thermodynamique, chaque particule passive reçoit des interactions médiées de la part d'un grand nombre particules actives. En notant $\{ \mathbf{r}^\prime \}$ l'ensemble des positions des couples de particules actives, on a alors :
 
 \begin{equation}
-	\delta^p_i(\mathbf{r}) = \sum_{\mathbf{r}^\prime}\mathcal{G}_{ij}(\mathbf{r}-\mathbf{r}^\prime)\delta^a_j(\mathbf{r}^\prime)
+	\delta^p_i(\mathbf{r}) = \sum_{\mathbf{r}^\prime}\mathcal{G}_{ijk}(\mathbf{r}-\mathbf{r}^\prime)p_{jk}(\mathbf{r}^\prime)
 \end{equation}
 
 \noindent De ce fait, nous pouvons aborder cette interaction d'un point de vue statistique. Les déplacements des particules actives étant aléatoires et donc de moyenne nulle, on a de même $\langle \delta^p_i(\mathbf{r}) \rangle = 0$ avec $\langle \cdot \rangle$ représentant une moyenne sur les déplacements aléatoires des particules actives. En considérant les déplacements des particules actives décorrélés et d'amplitude typique $\sigma$, on a :
