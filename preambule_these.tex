@@ -12,7 +12,11 @@
 \usepackage[font={small}]{caption}
 \usepackage{subcaption}
 \usepackage{placeins}
-\usepackage{appendix}
+\usepackage[toc,page]{appendix}
+\newcommand{\stoptocwriting}{%
+  \addtocontents{toc}{\protect\setcounter{tocdepth}{-5}}}
+\newcommand{\resumetocwriting}{%
+  \addtocontents{toc}{\protect\setcounter{tocdepth}{\arabic{tocdepth}}}}
 
 \setcounter{tocdepth}{2} % Pour que les subsubsections n'apparaissent pas dans la TOC
 \setcounter{secnumdepth}{2} % Pour que les subsubsections ne soient pas numérotées
@@ -132,8 +136,7 @@
 	citecolor=linkcolor % choix de la couleur des liens de citations
 }
 
-\providecommand{\annexename}{Annexe}
-\newcommand{\annexeref}[1]{\annexename~\nameref{#1}}
+\newcommand{\annexeref}[1]{\hyperref[#1]{annexe~\ref*{#1}}}
 
 \usepackage{titlesec}
 

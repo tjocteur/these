@@ -10,7 +10,7 @@
 
 \subparagraph{}Les modélisations simples de ce système \cite{corte_random_2008, tjhung_criticality_2016, ge_rheology_2022} semblent placer ce phénomène critique dans la classe d'universalité CDP. Toutefois, en considérant les interactions entre les particules, médiées par le fluide suspendant, Mari et al. \cite{mari_absorbing_2022} ont proposé un modèle présentant une criticalité très différente. Alors que pour la classe CDP l'évolution du paramètre d'ordre est concave ($\beta < 1$) et ses fluctuations divergentes ($\gamma^\prime>0$), le modèle prenant en compte les interactions médiées de manière champ moyen définit une évolution convexe du paramètre d'ordre ($\beta >1$) et des fluctuations qui s'annulent au point critique ($\gamma^\prime < 0$).
 
-\subparagraph{}Dans le \autoref{chapter:TransportLP}, nous avons vu que l'introduction de la longue portée sous forme de transport à longue portée dans un modèle appartenant à la classe CDP permettait de passer continûment de la criticalité de courte portée à celle de champ moyen. Cette évolution canonique suit un cadre théorique que nous avons appelé LR-CDP. Dans ce cas, nous avons sur toute cette gamme $\beta \leq 1$ et $\gamma^\prime \geq 0$. Le comportement critique du modèle prenant en compte les interactions médiées semble donc échapper à ce cadre.
+\subparagraph{}Dans le \autoref{chapter:TransportLP}, nous avons vu que l'introduction de la longue portée sous forme de transport à longue portée induit localement par l'activité dans un modèle appartenant à la classe CDP permettait de passer continûment de la criticalité de courte portée à celle de champ moyen. Cette évolution canonique suit un cadre théorique que nous avons appelé LR-CDP. Dans ce cas, nous avons sur toute cette gamme $\beta \leq 1$ et $\gamma^\prime \geq 0$. Le comportement critique du modèle prenant en compte les interactions médiées semble donc échapper à ce cadre.
 
 \subparagraph{}Dans ce chapitre, nous proposons d'aller au-delà du modèle proposé par Mari et al. \cite{mari_absorbing_2022} afin de comprendre comment les interactions médiées à longue portée induisent une criticalité différente de celle induite par le transport à longue portée. Pour ce faire, nous présenterons un modèle numérique capable de prendre en compte ces interactions de manière spatialisée dans le système. Nous étudierons alors le comportement critique associé à ce modèle et sa dépendence en portée de l'interaction d'un point de vue statique, dynamique et structurel. Nous proposerons enfin un cadre de description champ moyen pour interpréter les fortes différences de comportement critique observées entre ce modèle et le cadre de référence LR-CDP.
 
@@ -82,7 +82,7 @@
 
 \noindent avec $\mathcal{G}_{ijk}(\mathbf{r}-\mathbf{r}^\prime)$ le propagateur hydrodynamique dipolaire, décroissant comme $1/|\mathbf{r}-\mathbf{r}^\prime|^\alpha$ à grande échelle, avec $\alpha$ dépendant de la géométrie considérée. $p_{jk} = F_j a_k$ représente le dipôle de force associé aux deux particules interagissant irréversiblement, appliquant respectivement instantanément une force $\mathbf{F}\delta(\mathbf{r}+\frac{\mathbf{a}}{2})$ et une force $-\mathbf{F}\delta(\mathbf{r}-\frac{\mathbf{a}}{2})$ sur le fluide (voir \autoref{sec:Annexe_Interactions_Hydro}).
 
-\subparagraph{}En réalité, au cours de la transition réelle, les déplacements irréversibles des particules et donc les forces qu'elles exercent lors d'un cycle prennent des formes complexes et ne sont a priori pas instantanés. Afin de modéliser simplement l'influence d'un tel évènement dans son intégrité, nous le considérons donc simplement dans l'approche stroboscopique. Nous considérons alors que chaque couple de particules actives situé autour de $\mathbf{r}^\prime$ génère un dipôle intégré de force $\tilde{p}_{jk}(\mathbf{r}^\prime)$, qui induit un déplacement $\boldsymbol\delta^p(\mathbf{r})$ sur une particule située en $\mathbf{r}$ selon :
+\subparagraph{}En réalité, au cours de la transition réelle, les déplacements irréversibles des particules et donc les forces qu'elles exercent varient au cours d'un cycle. L'effet intégré dans le temps d'un évènement irréversible prend donc une forme complexe, non-instantanée. Afin de modéliser simplement l'influence d'un tel évènement dans son intégralité, nous le considérons donc simplement dans l'approche stroboscopique. Nous considérons alors que chaque couple de particules actives situé autour de $\mathbf{r}^\prime$ génère un dipôle intégré de force $\tilde{p}_{jk}(\mathbf{r}^\prime)$, qui induit un déplacement $\boldsymbol\delta^p(\mathbf{r})$ sur une particule située en $\mathbf{r}$ selon :
 
 \begin{equation}
 	\delta^p_i(\mathbf{r}) = \mathcal{G}_{ijk}(\mathbf{r}-\mathbf{r}^\prime)\tilde{p}_{jk}(\mathbf{r}^\prime)
@@ -90,27 +90,27 @@
 
 \noindent avec le même propagateur hydrodynamique que celui associé à l'évènement instantané.
 
-\subparagraph{}Cette modélisation implique une approche tensorielle de l'influence des particules actives sur les particules passives (par opposition à actives) dans le modèle stroboscopique : le déplacement d'une particule passive induit par un couple de particules actives dépend de la direction de déplacement de cette dernière. Pour simplifier davantage cette approche, nous nous appuyons sur le fait que, dans la phase active, dans la limite thermodynamique, chaque particule passive reçoit des interactions médiées de la part d'un grand nombre particules actives. En notant $\{ \mathbf{r}^\prime \}$ l'ensemble des positions des couples de particules actives, on a alors :
+\subparagraph{}Cette modélisation implique une approche tensorielle de l'influence des particules actives sur les particules passives (par opposition à actives) dans le modèle stroboscopique : le déplacement d'une particule passive induit par un couple de particules actives dépend de la direction de déplacement de ces dernières. En s'appuyant sur le fait que, dans la phase active, dans la limite thermodynamique, chaque particule passive reçoit des interactions médiées de la part d'un grand nombre particules actives, on a en notant $\{ \mathbf{r}^\prime \}$ l'ensemble des positions des couples de particules actives :
 
 \begin{equation}
 	\delta^p_i(\mathbf{r}) = \sum_{\mathbf{r}^\prime}\mathcal{G}_{ijk}(\mathbf{r}-\mathbf{r}^\prime)p_{jk}(\mathbf{r}^\prime)
 \end{equation}
 
-\noindent De ce fait, nous pouvons aborder cette interaction d'un point de vue statistique. Les déplacements des particules actives étant aléatoires et donc de moyenne nulle, on a de même $\langle \delta^p_i(\mathbf{r}) \rangle = 0$ avec $\langle \cdot \rangle$ représentant une moyenne sur les déplacements aléatoires des particules actives. En considérant les déplacements des particules actives décorrélés et d'amplitude typique $\sigma$, on a :
+\noindent par linéarité des équations de Stokes. De ce fait, nous pouvons aborder cette interaction d'un point de vue statistique. En considérant les dipôles actifs comme aléatoires, on a $\langle \delta^p_i(\mathbf{r}) \rangle = 0$ avec $\langle \cdot \rangle$ représentant une moyenne sur les dipôles induits par les particules actives. De plus, en considérant les différents dipôles actifs décorrélés entre eux, de force typique $F$ et de distance de séparation typique $a$, on a :
 
 \begin{equation}
 \begin{aligned}
-	\langle\boldsymbol\delta^p(\mathbf{r})^2\rangle &= \sum_{\mathbf{r}^\prime}\sum_{\mathbf{r}^{\prime\prime}}\mathcal{G}_{i\alpha}(\mathbf{r}-\mathbf{r}^\prime)\mathcal{G}_{i\beta}(\mathbf{r}-\mathbf{r}^{\prime\prime})\langle\delta^a_\alpha(\mathbf{r}^\prime)\delta^a_\beta(\mathbf{r}^{\prime\prime})\rangle \\
-	&= \sum_{\mathbf{r}^\prime}\sum_{\mathbf{r}^{\prime\prime}}\mathcal{G}_{i\alpha}(\mathbf{r}-\mathbf{r}^\prime)\mathcal{G}_{i\beta}(\mathbf{r}-\mathbf{r}^{\prime\prime})\sigma^2\delta_{\mathbf{r}^\prime\mathbf{r}^{\prime\prime}}\delta_{\alpha\beta}\\
-	&= \sigma^2\sum_{\mathbf{r}^\prime}\mathcal{G}_{i\alpha}(\mathbf{r}-\mathbf{r}^\prime)\mathcal{G}_{i\beta}(\mathbf{r}-\mathbf{r}^{\prime})\delta_{\alpha\beta}\\
-	&= \sigma^2 \sum_{\mathbf{r}^\prime}\mathcal{G}_{i\alpha}(\mathbf{r}-\mathbf{r}^\prime)\mathcal{G}_{i\alpha}(\mathbf{r}-\mathbf{r}^{\prime})
+	\langle\boldsymbol\delta^p(\mathbf{r})^2\rangle &= \sum_{\mathbf{r}^\prime}\sum_{\mathbf{r}^{\prime\prime}}\mathcal{G}_{ijk}(\mathbf{r}-\mathbf{r}^\prime)\mathcal{G}_{ilm}(\mathbf{r}-\mathbf{r}^{\prime\prime})\langle p_{jk}(\mathbf{r}^\prime)p_{lm}(\mathbf{r}^{\prime\prime})\rangle \\
+	&= \sum_{\mathbf{r}^\prime}\sum_{\mathbf{r}^{\prime\prime}}\mathcal{G}_{i\alpha}(\mathbf{r}-\mathbf{r}^\prime)\mathcal{G}_{i\beta}(\mathbf{r}-\mathbf{r}^{\prime\prime})a^2F^2\delta_{\mathbf{r}^\prime\mathbf{r}^{\prime\prime}}\delta_{jl}\delta{km}\\
+	&= a^2 F^2\sum_{\mathbf{r}^\prime}\mathcal{G}_{ijk}(\mathbf{r}-\mathbf{r}^\prime)\mathcal{G}_{ilm}(\mathbf{r}-\mathbf{r}^{\prime})\delta_{jl}\delta_{km}\\
+	&= a^2 F^2 \sum_{\mathbf{r}^\prime}\mathcal{G}_{ijk}(\mathbf{r}-\mathbf{r}^\prime)\mathcal{G}_{ijk}(\mathbf{r}-\mathbf{r}^{\prime})
 \end{aligned}
 \end{equation}
 
 \noindent les sommes sur les indices de coordonnées $i$ et $\alpha$ étant implicites. Nous considèrerons donc simplement dans notre modélisation statistique :
 
 \begin{equation}
-	\langle \boldsymbol\delta^p(\mathbf{r})^2 \rangle \sim \sigma^2 \sum_{\mathbf{r}^\prime} \mathcal{G}^2(\mathbf{r}-\mathbf{r}^\prime)
+	\langle \boldsymbol\delta^p(\mathbf{r})^2 \rangle \sim \sum_{\mathbf{r}^\prime} \mathcal{G}^2(\mathbf{r}-\mathbf{r}^\prime)
 	\label{eq:convol_model}
 \end{equation}
 
@@ -337,8 +337,8 @@
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.6\textwidth]{Chapitre3/Figures/Delta/DeltaDetermination.pdf}
-	\caption{Redimensionnement avec la distance au point critique $\delta\phi$ des évolutions de l'activité moyenne $\langle A \rangle$ avec le temps $t$ dans le cadre du $\alpha$-ROM en 2D pour $\alpha = 1.5$. \todo{moche, changer couleurs et mettre légende sur le pointillé}}
+	\includegraphics[width=0.7\textwidth]{Chapitre3/Figures/Delta/DeltaDetermination.pdf}
+	\caption{Redimensionnement avec la distance au point critique $\delta\phi$ des évolutions de l'activité moyenne $\langle A \rangle$ avec le temps $t$ dans le cadre du $\alpha$-ROM en 2D pour $\alpha = 1.5$.}
 	\label{fig:deltadeter}
 \end{figure}
 
@@ -432,7 +432,7 @@
 
 \subparagraph{}Que ce soit dans le cas du ROM appartenant à la classe CDP ou dans le cas du LR-ROM rattaché au cadre LR-CDP, la dynamique du système est contrôlée par le transport des particules actives. Comme nous l'avons détaillé dans la section précédente, ce mécanisme, par les cadres théoriques qu'il appelle, ne permet pas d'appréhender la criticalité dans les modèles $\alpha$-ROM.
 
-\subparagraph{}Comme nous l'avons déjà évoqué au \autoref{chapter:introduction}, nous pensons que cette distinction est due à la nature des interactions à longue portée dans ces modèles. Celles-ci n'induisent en fait pas un transport des particules actives mais plutôt un bruit interne auquel sont soumises l'ensemble des particules du système. Au niveau de l'implémentation numérique de notre modèle, ce bruit interne est représenté par le processus diffusif composé de la succession des petits déplacements $\boldsymbol\delta^p$ (voir \autoref{fig:modelsusp}) induits par l'activité dans le système. Ce mécanisme propose alors un nouveau mode de création d'activité par rapport au ROM et au LR-ROM : deux particules passives peuvent devenir actives en se recouvrant après diffusion. Là où le processus de propagation de l'activité par transport (toujours présent dans le $\alpha$-ROM) est représenté par le processus de réaction-diffusion $A +B \xrightarrow[]{\lambda} 2A$ (voir \autoref{sec:CompCDP}), on pourrait formellement représenter ce nouveau mode de création de l'activité par l'équation :
+\subparagraph{}Comme nous l'avons déjà évoqué au \autoref{chapter:introduction}, nous pensons que cette distinction est due à la nature des interactions à longue portée dans ces modèles. Celles-ci n'induisent en fait pas un transport des particules actives mais plutôt un bruit interne auquel sont soumises l'ensemble des particules du système. Au niveau de l'implémentation numérique de notre modèle, ce bruit interne est représenté par le processus diffusif composé de la succession des petits déplacements $\boldsymbol\delta^p$ (voir \autoref{fig:modelsusp}) induits par l'activité dans le système. Ce mécanisme propose alors un nouveau mode de création d'activité par rapport au ROM et au LR-ROM : deux particules passives peuvent devenir actives en se recouvrant après diffusion. Là où le processus de propagation de l'activité par transport des particules actives (toujours présent dans le $\alpha$-ROM) est représenté par le processus de réaction-diffusion $A +B \xrightarrow[]{\lambda} 2A$ (voir \autoref{sec:CompCDP}), on pourrait formellement représenter ce nouveau mode de création de l'activité par l'équation :
 
 \begin{equation}
 	B +B \xrightarrow[]{} A + A
@@ -692,7 +692,7 @@ P(\mathbf{r}) = \left\{
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{Chapitre3/Figures/Interpretation/beta_alpha_LevyHL2D.pdf}
-	\caption{Évolution de l'exposant $\beta$ mesuré par la résolution numérique de l'\autoref{eq:muHL} en 1D et en 2D (voir \autoref{sec:ResolNumMuHL}). En pointillés noirs, le comportement du modèle de Lin et al. \cite{lin_microscopic_2018}}
+	\caption{Évolution de l'exposant $\beta$ mesuré par la résolution numérique de l'\autoref{eq:muHL} en 1D et en 2D (voir \autoref{sec:ResolNumMuHL}). En pointillés noirs, le comportement du modèle de Lin et al. \cite{lin_microscopic_2018}.}
 	\label{fig:LHLNum}
 \end{figure}
 
@@ -831,7 +831,7 @@ P(\mathbf{r}) = \left\{
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{Chapitre3/Figures/Interpretation/PCorr_alpha.pdf}
-	\caption{Redimensionnement des fonctions de corrélation de paire des particules passives avec l'activité moyenne $\langle A \rangle$ dans le $\alpha$-ROM avec sauts finis des particules actives pour $\alpha = 0.5$ (a) et $\alpha=1.25$ (b). En encart, les données brutes associées. \rem{mettre une flèche pour l'évolution de $\delta\phi$ et les donner en légende et mettre des crochets}}
+	\caption{Redimensionnement des fonctions de corrélation de paire des particules passives avec l'activité moyenne $\langle A \rangle$ dans le $\alpha$-ROM avec sauts finis des particules actives pour $\alpha = 0.5$ (a) et $\alpha=1.25$ (b). En encart, les données brutes associées.}
 	\label{fig:PCorr_alpha}
 \end{figure}
 
@@ -873,8 +873,8 @@ P(\mathbf{r}) = \left\{
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.7\textwidth]{Chapitre3/Figures/Interpretation/RangeInterpretation.pdf}
-	\caption{Evolution des distributions $P_a(r)$ pour le LR-ROM avec $\gamma = 3.5$ et pour le $\alpha$-ROM avec $\alpha = 1.75$. \todo{Réduire les tailles de police}}
+	\includegraphics[width=0.65\textwidth]{Chapitre3/Figures/Interpretation/RangeInterpretation.pdf}
+	\caption{Evolution des distributions $P_a(r)$ pour le LR-ROM avec $\gamma = 3.5$ et pour le $\alpha$-ROM avec $\alpha = 1.75$.}
 	\label{fig:RangeInterpretation}
 \end{figure}
 
@@ -918,7 +918,7 @@ P(\mathbf{r}) = \left\{
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{Chapitre3/Figures/Avalanches/Av_alpha15_edited.pdf}
-	\caption{Distributions de taille (a), de durée (b) et du nombre de particules impliquées (c) pour les avalanches mesurées dans le modèle $\alpha$-ROM à densité fixée $\phi=\phi_c$ pour $\alpha = 1.5$ et pour $L \in \{ 256, 512, 1024, 2048 \}$. \todo{plus de graduations en x}}
+	\caption{Distributions de taille (a), de durée (b) et du nombre de particules impliquées (c) pour les avalanches mesurées dans le modèle $\alpha$-ROM à densité fixée $\phi=\phi_c$ pour $\alpha = 1.5$ et pour $L \in \{ 256, 512, 1024, 2048 \}$.}
 	\label{fig:AvSuspNotRescaled}
 \end{figure}
 
@@ -933,7 +933,7 @@ P(\mathbf{r}) = \left\{
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{Chapitre3/Figures/Avalanches/Rescale_Av_alpha15.pdf}
-	\caption{Redimensionnement par $L$ des distributions de taille (a), de durée (b) et du nombre de particules impliquées (c) pour les avalanches mesurées dans le modèle $\alpha$-ROM à densité fixée $\phi=\phi_c$ pour $\alpha = 1.5$ et pour $L \in \{ 256, 512, 1024, 2048 \}$. \todo{plus de graduations en x}}
+	\caption{Redimensionnement par $L$ des distributions de taille (a), de durée (b) et du nombre de particules impliquées (c) pour les avalanches mesurées dans le modèle $\alpha$-ROM à densité fixée $\phi=\phi_c$ pour $\alpha = 1.5$ et pour $L \in \{ 256, 512, 1024, 2048 \}$.}
 	\label{fig:AvSuspRescaled}
 \end{figure}
 

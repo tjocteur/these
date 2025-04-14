@@ -12,7 +12,7 @@
 
 \subparagraph{}Comme nous l'avons mentionné au \autoref{chapter:introduction}, la présence d'interactions à longue portée dans les modèles représentant des phénomènes critiques permet en général de passer du comportement critique de dimension finie au comportement critique de champ moyen de la classe d'universalité associée. Dans ce chapitre, nous proposons de définir plus précisément ce cadre générique associé à l'universalité CDP. L'établissement de ce cadre est un objet central dans notre travail puisqu'il nous permettra, par contraste, d'interpréter le comportement atypique des transitions de réversibilité et d'écoulement dans les chapitres suivants.
 
-\subparagraph{}Pour ce faire, nous commencerons par identifier ce cadre, que nous baptisons LR-CDP pour \textit{long-range conserved directed percolation}, d'un point de vue théorique. S'appuyant sur des résultats pré-existants, cette première analyse permettra de définir l'évolution du comportement critique attendue avec la portée des interactions. Nous verrons par ailleurs que, dans ce cadre naturel d'extension de la théorie CDP, les interactions à longue portée représentent un transport. Afin de disposer d'un socle de comparaison solide, nous préciserons dans un second temps ce cadre théorique via une approche numérique. Cette caractérisation se fera via l'étude des modèles Manna et ROM et leur extension au cadre LR-CDP en 2D, dimension dans laquelle nous étudierons les transitions de réversibilité et d'écoulement par la suite. Cette analyse sera menée via la détermination des exposants critiques statiques et dynamiques associés et l'évolution des propriétés d'hyperuniformité avec la portée du transport.
+\subparagraph{}Pour ce faire, nous commencerons par identifier ce cadre, que nous baptisons LR-CDP pour \textit{long-range conserved directed percolation}, d'un point de vue théorique. S'appuyant sur des résultats pré-existants, cette première analyse permettra de définir l'évolution du comportement critique attendue avec la portée des interactions. Nous verrons par ailleurs que, dans ce cadre naturel d'extension de la théorie CDP, les interactions à longue portée représentent un transport à longue portée de la quantité conservé sous l'influence locale de l'activité. Afin de disposer d'un socle de comparaison solide, nous préciserons dans un second temps ce cadre théorique via une approche numérique. Cette caractérisation se fera via l'étude des modèles Manna et ROM et leur extension au cadre LR-CDP en 2D, dimension dans laquelle nous étudierons les transitions de réversibilité et d'écoulement par la suite. Cette analyse sera menée via la détermination des exposants critiques statiques et dynamiques associés et l'évolution des propriétés d'hyperuniformité avec la portée du transport.
 
 \section{Longue portée et comportement critique}
 
@@ -400,7 +400,7 @@
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\textwidth]{Chapitre2/Figures/Exposants/Deter_phic_gamma375_LRROM.pdf}
-	\caption{Détermination de la densité critique dans le LR-ROM pour $\alpha=3.75$. En encart, la représentation compensée permet de distinguer clairement $\phi_c = 0.189061$ comme une meilleure estimation que $\phi_c = 0.189056$ et $\phi_c = 0.189066$. \todo{Diminuer la taille des polices.}}
+	\caption{Détermination de la densité critique dans le LR-ROM pour $\alpha=3.75$. En encart, la représentation compensée permet de distinguer clairement $\phi_c = 0.189061$ comme une meilleure estimation que $\phi_c = 0.189056$ et $\phi_c = 0.189066$}
 	\label{fig:DeterPhicJumps}
 \end{figure}
 
@@ -426,12 +426,12 @@
 
 \label{sec:expdynjump}
 
-\subparagraph{}L'exposant dynamique $\delta$ est ensuite déterminé pour chaque portée $\alpha$ en suivant la méthode de redimensionnement précédemment présentée. Un exemple de détermination est présenté pour $\alpha = 3.75$ à la \autoref{fig:DeltaDeterJumps}. Les valeurs estimées sont reportées dans le \autoref{tab:expocrit_LRROM} et leur évolution est représentée à la \autoref{fig:EvolExpJumps}.
+\subparagraph{}L'exposant dynamique $\delta$ est ensuite déterminé pour chaque portée $\alpha$ en suivant la méthode de redimensionnement précédemment présentée. Un exemple de détermination est présenté pour $\alpha = 4$ à la \autoref{fig:DeltaDeterJumps}. Les valeurs estimées sont reportées dans le \autoref{tab:expocrit_LRROM} et leur évolution est représentée à la \autoref{fig:EvolExpJumps}.
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\textwidth]{Chapitre2/Figures/Exposants/DeltaDeter.pdf}
-	\caption{Détermination de l'exposant dynamique $\delta$ par redimensionnement dans le LR-ROM pour $\alpha=3.75$.\todo{Redimensionnement police, code couleur et notation $\gamma\rightarrow \alpha$}}
+	\caption{Détermination de l'exposant dynamique $\delta$ par redimensionnement dans le LR-ROM pour $\alpha=3.75$.}
 	\label{fig:DeltaDeterJumps}
 \end{figure}
 
@@ -439,7 +439,7 @@
 
 \begin{figure}[h]
 	\centering	\includegraphics[width=0.6\textwidth]{Chapitre2/Figures/Exposants/exp_suspensions_jumps.pdf}
-	\caption{Évolution des exposants critiques $\beta$, $\gamma^\prime$ et $\delta$  avec la portée dans les modèles LR-ROM. Les zones colorées en rose représentent les incertitudes de détermination.\todo{Diminuer la taille des polices}}
+	\caption{Évolution des exposants critiques $\beta$, $\gamma^\prime$ et $\delta$  avec la portée dans les modèles LR-ROM. Les zones colorées en rose représentent les incertitudes de détermination.}
 	\label{fig:EvolExpJumps}
 \end{figure}
 
@@ -476,7 +476,7 @@
 
 \begin{figure}[h]
 	\centering	\includegraphics[width=0.65\textwidth]{Chapitre2/Figures/Hyperuniformity/FigHULRROM.pdf}
-	\caption{Estimation de l'exposant d'hyperuniformité $\sigma$ dans le LR-ROM pour $\alpha=4$. En encart, l'exposant effectif local, déterminé comme la dérivée logarithmique de la courbe représentée en figure principale.\todo{Harmoniser}}
+	\caption{Estimation de l'exposant d'hyperuniformité $\sigma$ dans le LR-ROM pour $\alpha=4$. En encart, l'exposant effectif local, déterminé comme la dérivée logarithmique de la courbe représentée en figure principale.}
 	\label{fig:ExHUJumps}
 \end{figure}
 
@@ -486,7 +486,7 @@
 	 \langle \delta n^2 \rangle  = \langle n \rangle \left( 1-\frac{\langle n \rangle}{N} \right)
 \end{equation}
 
-\noindent Si cette limite de grande échelle se retrouve bien dans nos données, celle-ci se situe toujours à des échelles bien plus grandes que celle définie par la distance finie au point critique. Ainsi, nous n'avons pas besoin de nous préoccuper de cet effet en pratique.} (distance finie du point critique). Afin de déterminer $\sigma$, nous devons donc nous situer entre ces deux limites. Le choix que nous faisons pour l'estimation de $\sigma$ est alors de retenir la valeur de l'exposant effectif dans la zone sur laquelle il varie très peu, i.e. entre la croissance à petite échelle et la décroissance à grande échelle. Dans l'exemple de la \autoref{fig:ExHUJumps}, celle-ci se situe entre $\langle n \rangle \approx 10$ et $\langle n \rangle \approx 1000$ (\todo{question pour la remarque de Romain}) et donne $\sigma\approx 0.855$.
+\noindent Si cette limite de grande échelle se retrouve bien dans nos données, celle-ci se situe toujours à des échelles bien plus grandes que celle définie par la distance finie au point critique. Ainsi, nous n'avons pas besoin de nous préoccuper de cet effet en pratique.} (distance finie du point critique). Afin de déterminer $\sigma$, nous devons donc nous situer entre ces deux limites. Le choix que nous faisons pour l'estimation de $\sigma$ est alors de retenir la valeur de l'exposant effectif dans la zone sur laquelle il varie très peu, i.e. entre la croissance à petite échelle et la décroissance à grande échelle. Dans l'exemple de la \autoref{fig:ExHUJumps}, celle-ci se situe entre $\langle n \rangle \approx 10$ et $\langle n \rangle \approx 1000$ et donne $\sigma\approx 0.855$.
 
 \subparagraph{}En appliquant la même procédure pour les différentes portées $\alpha$, nous obtenons l'évolution des exposants d'hyperuniformité présentée à la \autoref{fig:ExpTBLRJHU}, mise en comparaison avec les résultats théoriques \cite{wiese_longrange}. Nous remarquons alors que pour $3.25 < \alpha < 3.75$ les mesures sont très proches de l'attendu théorique. Toutefois, il existe un fort désaccord entre théorie et simulations pour les plus courtes portées $\alpha \geq 4$. En effet, nous attendons dans cette zone un plateau à $\sigma = 0.75$. Or ici, pour $\alpha \geq 4$, $\sigma$ semble encore diminuer légèrement avec $\alpha$ et prend des valeurs bien plus grandes que $\sigma = 0.75$. D'autre part, la valeur $\sigma \approx 0.96$ pour $\gamma = 3$ est aussi légèrement différente de l'attendu champ moyen $\sigma = 1$. Malgré cela, nous retrouvons bien la tendance générale d'une hyperuniformité progressivement perdue avec l'augmentation de la portée du transport. Dans la suite de cette section, nous proposons des explications aux désaccords entre les résultats préliminaires obtenus dans le cadre de la caractérisation du LR-ROM et la théorie issue des calculs du groupe de renormalisation fonctionnel.
 
@@ -537,7 +537,7 @@
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{Chapitre2/Figures/Hyperuniformity/GammaEff_ROM.pdf}
-	\caption{(a) Évolution de la quantité $1-|\hat{P}_\Delta (q)|$ avec $q$ pour le LR-ROM avec $\alpha=4$. En pointillé noir, le cas idéal sur lequel se basent les prédictions théoriques. (b) Exposant effectif obtenu par dérivée logarithmique de la courbe représentée en (a) pour toutes les portées $\alpha$. En pointillés de même couleur, la valeur $D-\alpha$ associée.\todo{Changer couleurs}}
+	\caption{(a) Évolution de la quantité $1-|\hat{P}_\Delta (q)|$ avec $q$ pour le LR-ROM avec $\alpha=4$. En pointillé noir, le cas idéal sur lequel se basent les prédictions théoriques. (b) Exposant effectif obtenu par dérivée logarithmique de la courbe représentée en (a) pour toutes les portées $\alpha$. En pointillés de même couleur, la valeur $D-\alpha$ associée.}
 	\label{fig:GammaEffROM}
 \end{figure}
 
@@ -559,7 +559,7 @@
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.9\textwidth]{Chapitre2/Figures/Hyperuniformity/MannaCM_gamma4_results.pdf}
-	\caption{Évolution de $\langle \delta n^2 \rangle$ avec $\langle n \rangle$ dans le cas du modèle LR-Manna avec conservation de la position du centre de masse pour $\alpha=4$ à différentes distances $\delta\phi$ du point critique. En encart, l'évolution de l'exposant effectif mesuré par dérivation logarithmique des courbes en figure principale.\todo{Diminuer la taille des polices}}
+	\caption{Évolution de $\langle \delta n^2 \rangle$ avec $\langle n \rangle$ dans le cas du modèle LR-Manna avec conservation de la position du centre de masse pour $\alpha=4$ à différentes distances $\delta\phi$ du point critique. En encart, l'évolution de l'exposant effectif mesuré par dérivation logarithmique des courbes en figure principale.}
 	\label{fig:MannaCMHU_gamma4}
 \end{figure}
 
@@ -587,7 +587,7 @@
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma4.pdf}
-	\caption{Redimensionnement des mesures d'hyperuniformité dans le cas du modèle LR-Manna avec conservation de la position du centre de masse pour $\alpha=4$. Le redimensionnement par la distance au point critique $\delta\phi$ est appliqué sur (a) les données brutes et (b) l'exposant effectif obtenu par dérivée logarithmique.\todo{Changer couleurs}}
+	\caption{Redimensionnement des mesures d'hyperuniformité dans le cas du modèle LR-Manna avec conservation de la position du centre de masse pour $\alpha=4$. Le redimensionnement par la distance au point critique $\delta\phi$ est appliqué sur (a) les données brutes et (b) l'exposant effectif obtenu par dérivée logarithmique.}
 	\label{fig:MannaCMHU_rescale_gamma4}
 \end{figure}
 
@@ -595,8 +595,8 @@
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=\textwidth]{Chapitre2/Figures/Hyperuniformity/eta_alpha_jumpsManna.pdf}
-\caption{(a) Estimation de l'exposant d'hyperuniformité $\sigma$ dans le modèle LR-Manna avec conservation de la position du centre de masse pour les différentes portées $\alpha$. En pratique, il n'est possible d'encadrer et d'estimer la valeur de $\sigma$ que pour $\alpha=3$. Pour $\alpha>3$, nous proposons tout de même une borne supérieure de l'encadrement de cet exposant. En trait noir, les prédictions issues du mapping sur la transition de dépiégeage \cite{wiese_longrange}. (b) Déduction de l'évolution de l'exposant $\alpha_\text{HU}$ se basant sur l'\autoref{eq:eqsigmaalphahu}. \todo{Diminuer la taille des polices}}
+\includegraphics[width=0.8\textwidth]{Chapitre2/Figures/Hyperuniformity/eta_alpha_jumpsManna.pdf}
+\caption{(a) Estimation de l'exposant d'hyperuniformité $\sigma$ dans le modèle LR-Manna avec conservation de la position du centre de masse pour les différentes portées $\alpha$. En pratique, il n'est possible d'encadrer et d'estimer la valeur de $\sigma$ que pour $\alpha=3$. Pour $\alpha>3$, nous proposons tout de même une borne supérieure de l'encadrement de cet exposant. En trait noir, les prédictions issues du mapping sur la transition de dépiégeage \cite{wiese_longrange}. (b) Déduction de l'évolution de l'exposant $\alpha_\text{HU}$ se basant sur l'\autoref{eq:eqsigmaalphahu}.}
 \label{eq:HUMannaShlag}
 \end{figure}
 
@@ -612,7 +612,7 @@
 
 \section{Conclusion de chapitre}
 
-\subparagraph{}Dans ce chapitre, nous avons défini le cadre théorique LR-CDP, représentant la présence d'un transport à longue portée dans la classe CDP. Par une analyse d'échelle et des résultats pré-existants, nous avons prédit dans ce cadre l'évolution de la criticalité avec la portée des interactions $\alpha$. Notamment, en 2D, celle-ci prend place entre $\alpha=4$ et $\alpha=3$.
+\subparagraph{}Dans ce chapitre, nous avons défini le cadre théorique LR-CDP, représentant la présence d'un transport à longue portée induit localement par l'activité dans la classe CDP. Par une analyse d'échelle et des résultats pré-existants, nous avons prédit dans ce cadre l'évolution de la criticalité avec la portée des interactions $\alpha$. Notamment, en 2D, celle-ci prend place entre $\alpha=4$ et $\alpha=3$.
 
 
 \subparagraph{}Pour préciser ce cadre, nous avons ensuite étudié des modèles emblématiques de la classe CDP auxquels nous avons ajouté un mécanisme de transport à longue portée. En caractérisant les transitions de phase absorbante associées à chaque portée de transport, nous avons montré que les exposants critiques évoluent continûment avec la portée du transport, allant de leur équivalent de courte portée à leur équivalent de champ moyen. Au premier ordre, cette évolution se fait dans la gamme de portées effectivement prédite par la théorie LR-CDP.

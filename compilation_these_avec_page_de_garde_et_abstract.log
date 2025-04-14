@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.1.12)  12 APR 2025 09:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.10.26)  14 APR 2025 15:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -80,9 +80,9 @@ Package: babel 2022/01/26 3.70 The Babel package
 (/usr/share/texlive/texmf-dist/tex/generic/babel-french/french.ldf
 Language: french 2021/07/20 v3.5m French support from the babel system
 Package babel Info: Hyphen rules for 'acadian' set to \l@french
-(babel)             (\language54). Reported on input line 91.
+(babel)             (\language15). Reported on input line 91.
 Package babel Info: Hyphen rules for 'canadien' set to \l@french
-(babel)             (\language54). Reported on input line 92.
+(babel)             (\language15). Reported on input line 92.
 \FB@nonchar=\count196
 Package babel Info: Making : an active character on input line 430.
 Package babel Info: Making ; an active character on input line 431.
@@ -803,7 +803,7 @@ File: pppdftex.def 2022/01/29 v0.5u Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count338
 \AM@templatesizebox=\box112
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 133.
+Package hyperref Info: Option `colorlinks' set `true' on input line 137.
 
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
@@ -1047,7 +1047,7 @@ an-si-tions de ré-ver-si-bi-lité et d'écou-
 
  [5] [6
 
-] (./Intro-Conclusion/introduction.tex [1] [2])
+] (./Intro-Conclusion/abstract.tex [1] [2])
 (./Chapitre1/chapitre1.tex [3] [4
 
 ]
@@ -1063,7 +1063,7 @@ LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) [5]
-<Chapitre1/Figures/Chapo/suspensions.pdf, id=363, 565.11125pt x 206.7725pt>
+<Chapitre1/Figures/Chapo/suspensions.pdf, id=335, 565.11125pt x 206.7725pt>
 File: Chapitre1/Figures/Chapo/suspensions.pdf Graphic file (type pdf)
 <use Chapitre1/Figures/Chapo/suspensions.pdf>
 Package pdftex.def Info: Chapitre1/Figures/Chapo/suspensions.pdf  used on input
@@ -1072,14 +1072,14 @@ Package pdftex.def Info: Chapitre1/Figures/Chapo/suspensions.pdf  used on input
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 24.
  [6 <./Chapitre1/Figures/Chapo/suspensions.pdf>]
-<Chapitre1/Figures/Chapo/yielding.pdf, id=488, 562.1pt x 191.71625pt>
+<Chapitre1/Figures/Chapo/yielding.pdf, id=460, 562.1pt x 191.71625pt>
 File: Chapitre1/Figures/Chapo/yielding.pdf Graphic file (type pdf)
 <use Chapitre1/Figures/Chapo/yielding.pdf>
 Package pdftex.def Info: Chapitre1/Figures/Chapo/yielding.pdf  used on input li
 ne 34.
 (pdftex.def)             Requested size: 455.24411pt x 155.27174pt.
  [7 <./Chapitre1/Figures/Chapo/yielding.pdf>]
-<Chapitre1/Figures/Chapo/Resume.pdf, id=524, 549.01456pt x 439.88489pt>
+<Chapitre1/Figures/Chapo/Resume.pdf, id=496, 549.01456pt x 439.88489pt>
 File: Chapitre1/Figures/Chapo/Resume.pdf Graphic file (type pdf)
 <use Chapitre1/Figures/Chapo/Resume.pdf>
 Package pdftex.def Info: Chapitre1/Figures/Chapo/Resume.pdf  used on input line
@@ -1090,7 +1090,7 @@ Package pdftex.def Info: Chapitre1/Figures/Chapo/Resume.pdf  used on input line
 Underfull \vbox (badness 1755) has occurred while \output is active []
 
  [9]
-<Chapitre1/Figures/PhenomenesCritiques/PT_conceptCorrLength_fuse.pdf, id=731, 3
+<Chapitre1/Figures/PhenomenesCritiques/PT_conceptCorrLength_fuse.pdf, id=703, 3
 58.3911pt x 194.25531pt>
 File: Chapitre1/Figures/PhenomenesCritiques/PT_conceptCorrLength_fuse.pdf Graph
 ic file (type pdf)
@@ -1100,7 +1100,7 @@ ngth_fuse.pdf  used on input line 76.
 (pdftex.def)             Requested size: 455.24411pt x 246.76076pt.
 
 [10 <./Chapitre1/Figures/PhenomenesCritiques/PT_conceptCorrLength_fuse.pdf>]
-<Chapitre1/Figures/PhenomenesCritiques/decoupageXI.pdf, id=749, 448.35686pt x 3
+<Chapitre1/Figures/PhenomenesCritiques/decoupageXI.pdf, id=721, 448.35686pt x 3
 17.22711pt>
 File: Chapitre1/Figures/PhenomenesCritiques/decoupageXI.pdf Graphic file (type 
 pdf)
@@ -1119,7 +1119,7 @@ qua-tion équi-va-lente à l'[][]équation 1.6[][][]
  []
 
 [13] [14]
-<Chapitre1/Figures/TphiAbs/Kirbies.pdf, id=807, 538.31245pt x 298.73396pt>
+<Chapitre1/Figures/TphiAbs/Kirbies.pdf, id=779, 538.31245pt x 298.73396pt>
 File: Chapitre1/Figures/TphiAbs/Kirbies.pdf Graphic file (type pdf)
 <use Chapitre1/Figures/TphiAbs/Kirbies.pdf>
 Package pdftex.def Info: Chapitre1/Figures/TphiAbs/Kirbies.pdf  used on input l
@@ -1130,7 +1130,7 @@ ine 197.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [15]
-<Chapitre1/Figures/TphiAbs/expabs.pdf, id=817, 429.605pt x 198.7425pt>
+<Chapitre1/Figures/TphiAbs/expabs.pdf, id=789, 429.605pt x 198.7425pt>
 File: Chapitre1/Figures/TphiAbs/expabs.pdf Graphic file (type pdf)
 <use Chapitre1/Figures/TphiAbs/expabs.pdf>
 Package pdftex.def Info: Chapitre1/Figures/TphiAbs/expabs.pdf  used on input li
@@ -1142,7 +1142,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [16 <./Chapitre1/Figures/TphiAbs/Kirbies.pdf>] [17 <./Chapitre1/Figures/TphiAbs
 /expabs.pdf>]
-<Chapitre1/Figures/CDP/Percol.pdf, id=850, 447.6725pt x 142.5325pt>
+<Chapitre1/Figures/CDP/Percol.pdf, id=821, 447.6725pt x 142.5325pt>
 File: Chapitre1/Figures/CDP/Percol.pdf Graphic file (type pdf)
 <use Chapitre1/Figures/CDP/Percol.pdf>
 Package pdftex.def Info: Chapitre1/Figures/CDP/Percol.pdf  used on input line 2
@@ -1153,35 +1153,40 @@ Package pdftex.def Info: Chapitre1/Figures/CDP/Percol.pdf  used on input line 2
 LaTeX Warning: Command \o invalid in math mode on input line 263.
 
 [18 <./Chapitre1/Figures/CDP/Percol.pdf>] [19]
-<Chapitre1/Figures/CDP/Manna.pdf, id=890, 223.83624pt x 71.26625pt>
+<Chapitre1/Figures/CDP/Manna.pdf, id=862, 223.83624pt x 71.26625pt>
 File: Chapitre1/Figures/CDP/Manna.pdf Graphic file (type pdf)
 <use Chapitre1/Figures/CDP/Manna.pdf>
 Package pdftex.def Info: Chapitre1/Figures/CDP/Manna.pdf  used on input line 31
 2.
 (pdftex.def)             Requested size: 273.14923pt x 86.97511pt.
  [20 <./Chapitre1/Figures/CDP/Manna.pdf>]
-<Chapitre1/Figures/CDP/ROM.pdf, id=907, 338.26375pt x 110.4125pt>
+<Chapitre1/Figures/CDP/ROM.pdf, id=879, 338.26375pt x 110.4125pt>
 File: Chapitre1/Figures/CDP/ROM.pdf Graphic file (type pdf)
 <use Chapitre1/Figures/CDP/ROM.pdf>
 Package pdftex.def Info: Chapitre1/Figures/CDP/ROM.pdf  used on input line 327.
 
 (pdftex.def)             Requested size: 386.96027pt x 126.31126pt.
  [21 <./Chapitre1/Figures/CDP/ROM.pdf>] [22]
-<Chapitre1/Figures/Depinning/depinningbase.pdf, id=945, 592.98994pt x 353.4447p
+<Chapitre1/Figures/Depinning/depinningbase.pdf, id=917, 592.98994pt x 353.4447p
 t>
 File: Chapitre1/Figures/Depinning/depinningbase.pdf Graphic file (type pdf)
 <use Chapitre1/Figures/Depinning/depinningbase.pdf>
 Package pdftex.def Info: Chapitre1/Figures/Depinning/depinningbase.pdf  used on
  input line 376.
 (pdftex.def)             Requested size: 455.24411pt x 271.34967pt.
- [23 <./Chapitre1/Figures/Depinning/depinningbase.pdf>] [24] [25] [26] [27]
-<Chapitre1/Figures/CDP/hyperuniformite.pdf, id=1060, 564.1075pt x 259.97125pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[23] [24 <./Chapitre1/Figures/Depinning/depinningbase.pdf>] [25] [26] [27]
+<Chapitre1/Figures/CDP/hyperuniformite.pdf, id=1032, 564.1075pt x 259.97125pt>
 File: Chapitre1/Figures/CDP/hyperuniformite.pdf Graphic file (type pdf)
 <use Chapitre1/Figures/CDP/hyperuniformite.pdf>
 Package pdftex.def Info: Chapitre1/Figures/CDP/hyperuniformite.pdf  used on inp
 ut line 506.
 (pdftex.def)             Requested size: 455.24411pt x 209.80202pt.
- [28 <./Chapitre1/Figures/CDP/hyperuniformite.pdf>]
+
+[28 <./Chapitre1/Figures/CDP/hyperuniformite.pdf>]
 Overfull \hbox (29.49188pt too wide) in paragraph at lines 526--526
 |[]\T1/lmr/bx/n/17.28 Comprendre les tran-si-tions de ré-ver-si-bi-lité et d'éc
 ou-
@@ -1196,7 +1201,7 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.04488pt}.
 
 [29]
-<Chapitre1/Figures/InterpretationCDP/SuspensionsAPT.pdf, id=1085, 460.72125pt x
+<Chapitre1/Figures/InterpretationCDP/SuspensionsAPT.pdf, id=1055, 460.72125pt x
  257.96375pt>
 File: Chapitre1/Figures/InterpretationCDP/SuspensionsAPT.pdf Graphic file (type
  pdf)
@@ -1214,18 +1219,6 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.04488pt}.
 
 [31] [32]
-<Chapitre1/Figures/InterpretationCDP/YieldingAPT.pdf, id=1451, 459.7175pt x 261
-.97874pt>
-File: Chapitre1/Figures/InterpretationCDP/YieldingAPT.pdf Graphic file (type pd
-f)
-<use Chapitre1/Figures/InterpretationCDP/YieldingAPT.pdf>
-Package pdftex.def Info: Chapitre1/Figures/InterpretationCDP/YieldingAPT.pdf  u
-sed on input line 604.
-(pdftex.def)             Requested size: 455.24411pt x 259.4437pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 Package fancyhdr Warning: \headheight is too small (17.07164pt): 
 (fancyhdr)                Make it at least 27.11652pt, for example:
@@ -1235,8 +1228,14 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.04488pt}.
 
 [33]
-Underfull \vbox (badness 1668) has occurred while \output is active []
-
+<Chapitre1/Figures/InterpretationCDP/YieldingAPT.pdf, id=1427, 459.7175pt x 261
+.97874pt>
+File: Chapitre1/Figures/InterpretationCDP/YieldingAPT.pdf Graphic file (type pd
+f)
+<use Chapitre1/Figures/InterpretationCDP/YieldingAPT.pdf>
+Package pdftex.def Info: Chapitre1/Figures/InterpretationCDP/YieldingAPT.pdf  u
+sed on input line 604.
+(pdftex.def)             Requested size: 455.24411pt x 259.4437pt.
  [34 <./Chapitre1/Figures/InterpretationCDP/YieldingAPT.pdf>]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 635.
@@ -1254,56 +1253,49 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.04488pt}.
 
 [35]
-<Chapitre1/Figures/InterpretationCDP/EshelbyExp.pdf, id=1489, 565.11125pt x 185
+<Chapitre1/Figures/InterpretationCDP/EshelbyExp.pdf, id=1457, 565.11113pt x 185
 .69376pt>
 File: Chapitre1/Figures/InterpretationCDP/EshelbyExp.pdf Graphic file (type pdf
 )
 <use Chapitre1/Figures/InterpretationCDP/EshelbyExp.pdf>
 Package pdftex.def Info: Chapitre1/Figures/InterpretationCDP/EshelbyExp.pdf  us
-ed on input line 649.
+ed on input line 650.
 (pdftex.def)             Requested size: 455.24411pt x 149.59508pt.
  [36 <./Chapitre1/Figures/InterpretationCDP/EshelbyExp.pdf>]
-Overfull \hbox (0.84422pt too wide) in paragraph at lines 668--669
+Overfull \hbox (0.84422pt too wide) in paragraph at lines 669--670
 [] [][] \T1/lmr/m/n/12 Dans un sys-tème pré-sen-tant des in-ter-ac-tions à long
 ue por-tée, dé-crois-sant comme $[]$,
  []
 
 [37]
-Overfull \hbox (5.69067pt too wide) in paragraph at lines 676--676
+Overfull \hbox (5.69067pt too wide) in paragraph at lines 677--677
 |[]\T1/lmr/bx/n/12 Contradiction de l'at-tendu par les tran-si-tions de ré-ver-
 si-bi-lité et d'écou-
  []
 
-<Chapitre1/Figures/LongRange/ExpShear.pdf, id=1538, 337.26pt x 112.42pt>
+<Chapitre1/Figures/LongRange/ExpShear.pdf, id=1524, 337.26pt x 112.42pt>
 File: Chapitre1/Figures/LongRange/ExpShear.pdf Graphic file (type pdf)
 <use Chapitre1/Figures/LongRange/ExpShear.pdf>
 Package pdftex.def Info: Chapitre1/Figures/LongRange/ExpShear.pdf  used on inpu
-t line 693.
+t line 694.
 (pdftex.def)             Requested size: 455.24411pt x 151.75186pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[38]
-Underfull \vbox (badness 2617) has occurred while \output is active []
-
- [39 <./Chapitre1/Figures/LongRange/ExpShear.pdf>]
-<Chapitre1/Figures/Pb/bruit.pdf, id=1614, 518.93875pt x 147.55125pt>
+[38] [39 <./Chapitre1/Figures/LongRange/ExpShear.pdf>]
+<Chapitre1/Figures/Pb/bruit.pdf, id=1600, 518.41145pt x 146.87099pt>
 File: Chapitre1/Figures/Pb/bruit.pdf Graphic file (type pdf)
 <use Chapitre1/Figures/Pb/bruit.pdf>
-Package pdftex.def Info: Chapitre1/Figures/Pb/bruit.pdf  used on input line 731
+Package pdftex.def Info: Chapitre1/Figures/Pb/bruit.pdf  used on input line 732
 .
-(pdftex.def)             Requested size: 455.24411pt x 129.44698pt.
-
-Underfull \vbox (badness 1888) has occurred while \output is active []
-
+(pdftex.def)             Requested size: 455.24411pt x 128.9757pt.
  [40 <./Chapitre1/Figures/Pb/bruit.pdf>] [41] [42] [43]) (./Chapitre2/chapitre2
-.tex
-[44]
+.tex [44]
 Chapitre 2.
 [45
 
 ]
-<Chapitre1/Figures/LongRange/beta_base.pdf, id=1725, 415.6779pt x 246.8971pt>
+<Chapitre1/Figures/LongRange/beta_base.pdf, id=1711, 415.6779pt x 246.8971pt>
 File: Chapitre1/Figures/LongRange/beta_base.pdf Graphic file (type pdf)
 <use Chapitre1/Figures/LongRange/beta_base.pdf>
 Package pdftex.def Info: Chapitre1/Figures/LongRange/beta_base.pdf  used on inp
@@ -1319,32 +1311,32 @@ Overfull \hbox (23.42903pt too wide) detected at line 52
  []
 
 [47 <./Chapitre1/Figures/LongRange/beta_base.pdf>] [48] [49]
-<Chapitre2/Figures/eta_kay.pdf, id=1776, 650.43pt x 289.08pt>
+<Chapitre2/Figures/eta_kay.pdf, id=1762, 650.43pt x 289.08pt>
 File: Chapitre2/Figures/eta_kay.pdf Graphic file (type pdf)
 <use Chapitre2/Figures/eta_kay.pdf>
 Package pdftex.def Info: Chapitre2/Figures/eta_kay.pdf  used on input line 112.
 
 (pdftex.def)             Requested size: 409.71692pt x 182.0993pt.
  [50 <./Chapitre2/Figures/eta_kay.pdf>] [51] [52]
-<Chapitre2/Figures/Modeles/MannaJumps.pdf, id=1830, 648.00645pt x 256.24895pt>
+<Chapitre2/Figures/Modeles/MannaJumps.pdf, id=1816, 648.00645pt x 256.24895pt>
 File: Chapitre2/Figures/Modeles/MannaJumps.pdf Graphic file (type pdf)
 <use Chapitre2/Figures/Modeles/MannaJumps.pdf>
 Package pdftex.def Info: Chapitre2/Figures/Modeles/MannaJumps.pdf  used on inpu
 t line 174.
 (pdftex.def)             Requested size: 455.24411pt x 180.0221pt.
  [53 <./Chapitre2/Figures/Modeles/MannaJumps.pdf>] [54] [55]
-<Chapitre2/Figures/Methodes/Phic.pdf, id=1883, 524.47163pt x 140.1937pt>
+<Chapitre2/Figures/Methodes/Phic.pdf, id=1869, 524.47113pt x 140.19565pt>
 File: Chapitre2/Figures/Methodes/Phic.pdf Graphic file (type pdf)
 <use Chapitre2/Figures/Methodes/Phic.pdf>
 Package pdftex.def Info: Chapitre2/Figures/Methodes/Phic.pdf  used on input lin
 e 259.
-(pdftex.def)             Requested size: 455.24411pt x 121.68729pt.
+(pdftex.def)             Requested size: 455.24411pt x 121.68898pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [56]
-<Chapitre2/Figures/Phi_cindep.pdf, id=1896, 433.62pt x 289.08pt>
+<Chapitre2/Figures/Phi_cindep.pdf, id=1882, 433.62pt x 289.08pt>
 File: Chapitre2/Figures/Phi_cindep.pdf Graphic file (type pdf)
 <use Chapitre2/Figures/Phi_cindep.pdf>
 Package pdftex.def Info: Chapitre2/Figures/Phi_cindep.pdf  used on input line 2
@@ -1356,36 +1348,36 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [57 <./Chapitre2/Figures/Methodes/Phic.pdf>] [58 <./Chapitre2/Figures/Phi_cinde
 p.pdf>]
-<Chapitre2/Figures/Methodes/Delta.pdf, id=1946, 547.89667pt x 171.09679pt>
+<Chapitre2/Figures/Methodes/Delta.pdf, id=1956, 547.89667pt x 171.09679pt>
 File: Chapitre2/Figures/Methodes/Delta.pdf Graphic file (type pdf)
 <use Chapitre2/Figures/Methodes/Delta.pdf>
 Package pdftex.def Info: Chapitre2/Figures/Methodes/Delta.pdf  used on input li
 ne 302.
 (pdftex.def)             Requested size: 455.24411pt x 142.16693pt.
  [59 <./Chapitre2/Figures/Methodes/Delta.pdf>] [60] [61] [62]
-<Chapitre2/Figures/Exposants/Deter_phic_gamma375_LRROM.pdf, id=2022, 433.62pt x
- 289.08pt>
+<Chapitre2/Figures/Exposants/Deter_phic_gamma375_LRROM.pdf, id=2032, 505.89pt x
+ 325.215pt>
 File: Chapitre2/Figures/Exposants/Deter_phic_gamma375_LRROM.pdf Graphic file (t
 ype pdf)
 <use Chapitre2/Figures/Exposants/Deter_phic_gamma375_LRROM.pdf>
 Package pdftex.def Info: Chapitre2/Figures/Exposants/Deter_phic_gamma375_LRROM.
 pdf  used on input line 402.
-(pdftex.def)             Requested size: 318.66948pt x 212.4558pt.
+(pdftex.def)             Requested size: 318.66948pt x 204.86171pt.
  [63 <./Chapitre2/Figures/Exposants/Deter_phic_gamma375_LRROM.pdf>]
-<Chapitre2/Figures/Exposants/DeltaDeter.pdf, id=2061, 469.755pt x 343.2825pt>
+<Chapitre2/Figures/Exposants/DeltaDeter.pdf, id=2071, 487.8225pt x 343.2825pt>
 File: Chapitre2/Figures/Exposants/DeltaDeter.pdf Graphic file (type pdf)
 <use Chapitre2/Figures/Exposants/DeltaDeter.pdf>
 Package pdftex.def Info: Chapitre2/Figures/Exposants/DeltaDeter.pdf  used on in
 put line 433.
-(pdftex.def)             Requested size: 318.66948pt x 232.87376pt.
-<Chapitre2/Figures/Exposants/exp_suspensions_jumps.pdf, id=2062, 361.35pt x 397
-.485pt>
+(pdftex.def)             Requested size: 318.66948pt x 224.2519pt.
+<Chapitre2/Figures/Exposants/exp_suspensions_jumps.pdf, id=2072, 433.62pt x 469
+.755pt>
 File: Chapitre2/Figures/Exposants/exp_suspensions_jumps.pdf Graphic file (type 
 pdf)
 <use Chapitre2/Figures/Exposants/exp_suspensions_jumps.pdf>
 Package pdftex.def Info: Chapitre2/Figures/Exposants/exp_suspensions_jumps.pdf 
  used on input line 441.
-(pdftex.def)             Requested size: 273.14923pt x 300.46628pt.
+(pdftex.def)             Requested size: 273.14923pt x 295.92572pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1394,16 +1386,19 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[65 <./Chapitre2/Figures/Exposants/exp_suspensions_jumps.pdf>]
-<Chapitre2/Figures/Hyperuniformity/FigHULRROM.pdf, id=2108, 433.62pt x 289.08pt
->
+
+Underfull \vbox (badness 1194) has occurred while \output is active []
+
+ [65 <./Chapitre2/Figures/Exposants/exp_suspensions_jumps.pdf>]
+<Chapitre2/Figures/Hyperuniformity/FigHULRROM.pdf, id=2118, 505.89pt x 325.215p
+t>
 File: Chapitre2/Figures/Hyperuniformity/FigHULRROM.pdf Graphic file (type pdf)
 <use Chapitre2/Figures/Hyperuniformity/FigHULRROM.pdf>
 Package pdftex.def Info: Chapitre2/Figures/Hyperuniformity/FigHULRROM.pdf  used
  on input line 478.
-(pdftex.def)             Requested size: 295.90588pt x 197.28197pt.
+(pdftex.def)             Requested size: 295.90588pt x 190.22768pt.
  [66 <./Chapitre2/Figures/Hyperuniformity/FigHULRROM.pdf>]
-<Chapitre2/Figures/Hyperuniformity/eta_alpha_jumps.pdf, id=2132, 578.16pt x 216
+<Chapitre2/Figures/Hyperuniformity/eta_alpha_jumps.pdf, id=2142, 578.16pt x 216
 .81pt>
 File: Chapitre2/Figures/Hyperuniformity/eta_alpha_jumps.pdf Graphic file (type 
 pdf)
@@ -1416,7 +1411,7 @@ Package pdftex.def Info: Chapitre2/Figures/Hyperuniformity/eta_alpha_jumps.pdf
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [67]
-<Chapitre2/Figures/Hyperuniformity/ImportanceCMHU.pdf, id=2155, 794.97pt x 252.
+<Chapitre2/Figures/Hyperuniformity/ImportanceCMHU.pdf, id=2166, 794.97pt x 252.
 945pt>
 File: Chapitre2/Figures/Hyperuniformity/ImportanceCMHU.pdf Graphic file (type p
 df)
@@ -1424,6 +1419,9 @@ df)
 Package pdftex.def Info: Chapitre2/Figures/Hyperuniformity/ImportanceCMHU.pdf  
 used on input line 509.
 (pdftex.def)             Requested size: 455.24411pt x 144.85558pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [68 <./Chapitre2/Figures/Hyperuniformity/eta_alpha_jumps.pdf> <./Chapitre2/Fig
 ures/Hyperuniformity/ImportanceCMHU.pdf
 
@@ -1431,7 +1429,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Chapitre2/Figures/Hyperuniformity/Imp
 ortanceCMHU.pdf): PDF inclusion: multiple pdfs with page group included in a si
 ngle page
 >]
-<Chapitre2/Figures/Hyperuniformity/GammaEff_ROM.pdf, id=2187, 678.74673pt x 209
+<Chapitre2/Figures/Hyperuniformity/GammaEff_ROM.pdf, id=2197, 678.74673pt x 209
 .96954pt>
 File: Chapitre2/Figures/Hyperuniformity/GammaEff_ROM.pdf Graphic file (type pdf
 )
@@ -1440,16 +1438,16 @@ Package pdftex.def Info: Chapitre2/Figures/Hyperuniformity/GammaEff_ROM.pdf  us
 ed on input line 539.
 (pdftex.def)             Requested size: 455.24411pt x 140.83264pt.
  [69] [70 <./Chapitre2/Figures/Hyperuniformity/GammaEff_ROM.pdf>]
-<Chapitre2/Figures/Hyperuniformity/MannaCM_gamma4_results.pdf, id=2224, 476.982
-01pt x 260.17201pt>
+<Chapitre2/Figures/Hyperuniformity/MannaCM_gamma4_results.pdf, id=2234, 517.453
+22pt x 264.5082pt>
 File: Chapitre2/Figures/Hyperuniformity/MannaCM_gamma4_results.pdf Graphic file
  (type pdf)
 <use Chapitre2/Figures/Hyperuniformity/MannaCM_gamma4_results.pdf>
 Package pdftex.def Info: Chapitre2/Figures/Hyperuniformity/MannaCM_gamma4_resul
 ts.pdf  used on input line 561.
-(pdftex.def)             Requested size: 409.71692pt x 223.4855pt.
+(pdftex.def)             Requested size: 409.71692pt x 209.43947pt.
  [71 <./Chapitre2/Figures/Hyperuniformity/MannaCM_gamma4_results.pdf>] [72]
-<Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma4.pdf, id=2261, 794.9
+<Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma4.pdf, id=2271, 794.9
 7pt x 289.08pt>
 File: Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma4.pdf Graphic fi
 le (type pdf)
@@ -1457,14 +1455,14 @@ le (type pdf)
 Package pdftex.def Info: Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Ga
 mma4.pdf  used on input line 589.
 (pdftex.def)             Requested size: 455.24411pt x 165.54922pt.
-<Chapitre2/Figures/Hyperuniformity/eta_alpha_jumpsManna.pdf, id=2264, 539.19362
+<Chapitre2/Figures/Hyperuniformity/eta_alpha_jumpsManna.pdf, id=2274, 539.19362
 pt x 170.27286pt>
 File: Chapitre2/Figures/Hyperuniformity/eta_alpha_jumpsManna.pdf Graphic file (
 type pdf)
 <use Chapitre2/Figures/Hyperuniformity/eta_alpha_jumpsManna.pdf>
 Package pdftex.def Info: Chapitre2/Figures/Hyperuniformity/eta_alpha_jumpsManna
 .pdf  used on input line 598.
-(pdftex.def)             Requested size: 455.24411pt x 143.76349pt.
+(pdftex.def)             Requested size: 364.19667pt x 115.00975pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1476,7 +1474,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ]
 Chapitre 3.
 [77] [78] [79]
-<Chapitre3/Figures/Method/equivROMSusp.pdf, id=2388, 483.16046pt x 277.29715pt>
+<Chapitre3/Figures/Method/equivROMSusp.pdf, id=2398, 483.16046pt x 277.29715pt>
 
 File: Chapitre3/Figures/Method/equivROMSusp.pdf Graphic file (type pdf)
 <use Chapitre3/Figures/Method/equivROMSusp.pdf>
@@ -1484,21 +1482,21 @@ Package pdftex.def Info: Chapitre3/Figures/Method/equivROMSusp.pdf  used on inp
 ut line 55.
 (pdftex.def)             Requested size: 386.96027pt x 222.08342pt.
  [80 <./Chapitre3/Figures/Method/equivROMSusp.pdf>]
-<Chapitre3/Figures/Method/phivsgamma.pdf, id=2890, 463.43831pt x 180.46887pt>
+<Chapitre3/Figures/Method/phivsgamma.pdf, id=2900, 463.43831pt x 180.46887pt>
 File: Chapitre3/Figures/Method/phivsgamma.pdf Graphic file (type pdf)
 <use Chapitre3/Figures/Method/phivsgamma.pdf>
 Package pdftex.def Info: Chapitre3/Figures/Method/phivsgamma.pdf  used on input
  line 64.
 (pdftex.def)             Requested size: 409.71692pt x 159.55936pt.
  [81 <./Chapitre3/Figures/Method/phivsgamma.pdf>] [82] [83]
-<Chapitre3/Figures/Method/Model.pdf, id=2943, 851.38756pt x 213.11548pt>
+<Chapitre3/Figures/Method/Model.pdf, id=2953, 851.38756pt x 213.11548pt>
 File: Chapitre3/Figures/Method/Model.pdf Graphic file (type pdf)
 <use Chapitre3/Figures/Method/Model.pdf>
 Package pdftex.def Info: Chapitre3/Figures/Method/Model.pdf  used on input line
  141.
 (pdftex.def)             Requested size: 409.71692pt x 102.55766pt.
  [84 <./Chapitre3/Figures/Method/Model.pdf>] [85]
-<Chapitre3/Figures/Method/PropagTBLRR2D.pdf, id=2994, 899.76398pt x 242.08398pt
+<Chapitre3/Figures/Method/PropagTBLRR2D.pdf, id=3005, 899.76398pt x 242.08398pt
 >
 File: Chapitre3/Figures/Method/PropagTBLRR2D.pdf Graphic file (type pdf)
 <use Chapitre3/Figures/Method/PropagTBLRR2D.pdf>
@@ -1506,7 +1504,7 @@ Package pdftex.def Info: Chapitre3/Figures/Method/PropagTBLRR2D.pdf  used on in
 put line 191.
 (pdftex.def)             Requested size: 455.24411pt x 122.48601pt.
  [86 <./Chapitre3/Figures/Method/PropagTBLRR2D.pdf>]
-<Chapitre3/Figures/BetaGamma/EvolMeanDeter.pdf, id=3050, 776.15753pt x 289.08pt
+<Chapitre3/Figures/BetaGamma/EvolMeanDeter.pdf, id=3060, 776.15753pt x 289.08pt
 >
 File: Chapitre3/Figures/BetaGamma/EvolMeanDeter.pdf Graphic file (type pdf)
 <use Chapitre3/Figures/BetaGamma/EvolMeanDeter.pdf>
@@ -1518,7 +1516,7 @@ Package pdftex.def Info: Chapitre3/Figures/BetaGamma/EvolMeanDeter.pdf  used on
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [87]
-<Chapitre3/Figures/BetaGamma/EvolMeanVar_edited.pdf, id=3067, 607.46088pt x 246
+<Chapitre3/Figures/BetaGamma/EvolMeanVar_edited.pdf, id=3077, 607.46088pt x 246
 .30849pt>
 File: Chapitre3/Figures/BetaGamma/EvolMeanVar_edited.pdf Graphic file (type pdf
 )
@@ -1536,14 +1534,14 @@ Overfull \hbox (13.02672pt too wide) in paragraph at lines 275--285
 [][] 
  []
 
-<Chapitre3/Figures/BetaGamma/exp_suspensions.pdf, id=3145, 361.35pt x 361.35pt>
+<Chapitre3/Figures/BetaGamma/exp_suspensions.pdf, id=3155, 361.35pt x 361.35pt>
 
 File: Chapitre3/Figures/BetaGamma/exp_suspensions.pdf Graphic file (type pdf)
 <use Chapitre3/Figures/BetaGamma/exp_suspensions.pdf>
 Package pdftex.def Info: Chapitre3/Figures/BetaGamma/exp_suspensions.pdf  used 
 on input line 292.
 (pdftex.def)             Requested size: 218.51521pt x 218.51543pt.
-<Chapitre3/Figures/BetaGamma/exp_suspensions3D.pdf, id=3146, 361.35pt x 361.35p
+<Chapitre3/Figures/BetaGamma/exp_suspensions3D.pdf, id=3156, 361.35pt x 361.35p
 t>
 File: Chapitre3/Figures/BetaGamma/exp_suspensions3D.pdf Graphic file (type pdf)
 
@@ -1565,15 +1563,15 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Chapitre3/Figures/BetaGamma/exp_suspe
 nsions3D.pdf): PDF inclusion: multiple pdfs with page group included in a singl
 e page
 >] [91]
-<Chapitre3/Figures/Delta/DeltaDetermination.pdf, id=3219, 469.755pt x 343.2825p
-t>
+<Chapitre3/Figures/Delta/DeltaDetermination.pdf, id=3229, 505.89pt x 343.2825pt
+>
 File: Chapitre3/Figures/Delta/DeltaDetermination.pdf Graphic file (type pdf)
 <use Chapitre3/Figures/Delta/DeltaDetermination.pdf>
 Package pdftex.def Info: Chapitre3/Figures/Delta/DeltaDetermination.pdf  used o
 n input line 340.
-(pdftex.def)             Requested size: 273.14923pt x 199.60683pt.
+(pdftex.def)             Requested size: 318.66948pt x 216.24292pt.
  [92 <./Chapitre3/Figures/Delta/DeltaDetermination.pdf>] [93]
-<Chapitre3/Figures/BetaGamma/EvolMeanVar3D_edited.pdf, id=3250, 606.06111pt x 2
+<Chapitre3/Figures/BetaGamma/EvolMeanVar3D_edited.pdf, id=3261, 606.06111pt x 2
 46.30849pt>
 File: Chapitre3/Figures/BetaGamma/EvolMeanVar3D_edited.pdf Graphic file (type p
 df)
@@ -1582,7 +1580,7 @@ Package pdftex.def Info: Chapitre3/Figures/BetaGamma/EvolMeanVar3D_edited.pdf
 used on input line 371.
 (pdftex.def)             Requested size: 409.71692pt x 166.51788pt.
  [94 <./Chapitre3/Figures/BetaGamma/EvolMeanVar3D_edited.pdf>] [95]
-<Chapitre3/Figures/HU/HUTBLRR.pdf, id=3313, 679.73247pt x 246.1242pt>
+<Chapitre3/Figures/HU/HUTBLRR.pdf, id=3323, 679.73247pt x 246.1242pt>
 File: Chapitre3/Figures/HU/HUTBLRR.pdf Graphic file (type pdf)
 <use Chapitre3/Figures/HU/HUTBLRR.pdf>
 Package pdftex.def Info: Chapitre3/Figures/HU/HUTBLRR.pdf  used on input line 4
@@ -1595,7 +1593,7 @@ Overfull \hbox (4.27869pt too wide) in paragraph at lines 417--418
  []
 
 [97] [98] [99]
-<Chapitre3/Figures/Interpretation/LHLModel.pdf, id=3413, 499.79987pt x 484.9362
+<Chapitre3/Figures/Interpretation/LHLModel.pdf, id=3423, 499.79987pt x 484.9362
 pt>
 File: Chapitre3/Figures/Interpretation/LHLModel.pdf Graphic file (type pdf)
 <use Chapitre3/Figures/Interpretation/LHLModel.pdf>
@@ -1618,7 +1616,7 @@ raud-
  []
 
 [105]
-<Chapitre3/Figures/Interpretation/beta_alpha_LevyHL2D.pdf, id=3509, 433.62pt x 
+<Chapitre3/Figures/Interpretation/beta_alpha_LevyHL2D.pdf, id=3520, 433.62pt x 
 252.945pt>
 File: Chapitre3/Figures/Interpretation/beta_alpha_LevyHL2D.pdf Graphic file (ty
 pe pdf)
@@ -1647,7 +1645,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 706.
 
 [107 <./Chapitre3/Figures/Interpretation/beta_alpha_LevyHL2D.pdf>] [108]
-<Chapitre3/Figures/Interpretation/D_dependence.pdf, id=3546, 361.35pt x 216.81p
+<Chapitre3/Figures/Interpretation/D_dependence.pdf, id=3556, 361.35pt x 216.81p
 t>
 File: Chapitre3/Figures/Interpretation/D_dependence.pdf Graphic file (type pdf)
 
@@ -1657,7 +1655,7 @@ d on input line 730.
 (pdftex.def)             Requested size: 227.62206pt x 136.57448pt.
 
 [109 <./Chapitre3/Figures/Interpretation/D_dependence.pdf>]
-<Chapitre3/Figures/Interpretation/beta_alphaMF.pdf, id=3563, 578.16pt x 252.945
+<Chapitre3/Figures/Interpretation/beta_alphaMF.pdf, id=3573, 578.16pt x 252.945
 pt>
 File: Chapitre3/Figures/Interpretation/beta_alphaMF.pdf Graphic file (type pdf)
 
@@ -1666,7 +1664,7 @@ Package pdftex.def Info: Chapitre3/Figures/Interpretation/beta_alphaMF.pdf  use
 d on input line 753.
 (pdftex.def)             Requested size: 364.19667pt x 159.33302pt.
  [110 <./Chapitre3/Figures/Interpretation/beta_alphaMF.pdf>]
-<Chapitre3/Figures/Interpretation/PCorr_alphaMF.pdf, id=3580, 680.0318pt x 246.
+<Chapitre3/Figures/Interpretation/PCorr_alphaMF.pdf, id=3590, 680.0318pt x 246.
 45103pt>
 File: Chapitre3/Figures/Interpretation/PCorr_alphaMF.pdf Graphic file (type pdf
 )
@@ -1679,7 +1677,7 @@ ed on input line 778.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [111] [112 <./Chapitre3/Figures/Interpretation/PCorr_alphaMF.pdf>]
-<Chapitre3/Figures/Interpretation/beta_theta_alphaMF.pdf, id=3606, 361.35pt x 2
+<Chapitre3/Figures/Interpretation/beta_theta_alphaMF.pdf, id=3616, 361.35pt x 2
 89.08pt>
 File: Chapitre3/Figures/Interpretation/beta_theta_alphaMF.pdf Graphic file (typ
 e pdf)
@@ -1688,13 +1686,13 @@ Package pdftex.def Info: Chapitre3/Figures/Interpretation/beta_theta_alphaMF.pd
 f  used on input line 802.
 (pdftex.def)             Requested size: 227.62206pt x 182.0993pt.
  [113 <./Chapitre3/Figures/Interpretation/beta_theta_alphaMF.pdf>]
-<Chapitre3/Figures/Interpretation/Beta_Mu1.pdf, id=3623, 722.7pt x 216.81pt>
+<Chapitre3/Figures/Interpretation/Beta_Mu1.pdf, id=3634, 722.7pt x 216.81pt>
 File: Chapitre3/Figures/Interpretation/Beta_Mu1.pdf Graphic file (type pdf)
 <use Chapitre3/Figures/Interpretation/Beta_Mu1.pdf>
 Package pdftex.def Info: Chapitre3/Figures/Interpretation/Beta_Mu1.pdf  used on
  input line 818.
 (pdftex.def)             Requested size: 455.24411pt x 136.57448pt.
-<Chapitre3/Figures/Interpretation/PCorr_alpha.pdf, id=3629, 680.0318pt x 246.63
+<Chapitre3/Figures/Interpretation/PCorr_alpha.pdf, id=3640, 680.0318pt x 246.63
 02pt>
 File: Chapitre3/Figures/Interpretation/PCorr_alpha.pdf Graphic file (type pdf)
 <use Chapitre3/Figures/Interpretation/PCorr_alpha.pdf>
@@ -1706,7 +1704,7 @@ Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorr_alpha.pdf  used
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [114 <./Chapitre3/Figures/Interpretation/Beta_Mu1.pdf>]
-<Chapitre3/Figures/Interpretation/Beta_Theta.pdf, id=3645, 361.35pt x 216.81pt>
+<Chapitre3/Figures/Interpretation/Beta_Theta.pdf, id=3655, 361.35pt x 216.81pt>
 
 File: Chapitre3/Figures/Interpretation/Beta_Theta.pdf Graphic file (type pdf)
 <use Chapitre3/Figures/Interpretation/Beta_Theta.pdf>
@@ -1715,29 +1713,29 @@ on input line 842.
 (pdftex.def)             Requested size: 273.14923pt x 163.89069pt.
  [115 <./Chapitre3/Figures/Interpretation/PCorr_alpha.pdf> <./Chapitre3/Figures
 /Interpretation/Beta_Theta.pdf>] [116]
-<Chapitre3/Figures/Interpretation/RangeInterpretation.pdf, id=3677, 390.65378pt
- x 201.50925pt>
+<Chapitre3/Figures/Interpretation/RangeInterpretation.pdf, id=3687, 433.62pt x 
+252.945pt>
 File: Chapitre3/Figures/Interpretation/RangeInterpretation.pdf Graphic file (ty
 pe pdf)
 <use Chapitre3/Figures/Interpretation/RangeInterpretation.pdf>
 Package pdftex.def Info: Chapitre3/Figures/Interpretation/RangeInterpretation.p
 df  used on input line 876.
-(pdftex.def)             Requested size: 318.66948pt x 164.38692pt.
+(pdftex.def)             Requested size: 295.90588pt x 172.62172pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [117] [118 <./Chapitre3/Figures/Interpretation/RangeInterpretation.pdf>]
 [119]
-<Chapitre3/Figures/Avalanches/Av_alpha15_edited.pdf, id=3720, 823.41464pt x 243
-.82181pt>
+<Chapitre3/Figures/Avalanches/Av_alpha15_edited.pdf, id=3730, 867.24pt x 289.08
+pt>
 File: Chapitre3/Figures/Avalanches/Av_alpha15_edited.pdf Graphic file (type pdf
 )
 <use Chapitre3/Figures/Avalanches/Av_alpha15_edited.pdf>
 Package pdftex.def Info: Chapitre3/Figures/Avalanches/Av_alpha15_edited.pdf  us
 ed on input line 920.
-(pdftex.def)             Requested size: 455.24411pt x 134.80183pt.
-<Chapitre3/Figures/Avalanches/Rescale_Av_alpha15.pdf, id=3725, 867.24pt x 289.0
+(pdftex.def)             Requested size: 455.24411pt x 151.74721pt.
+<Chapitre3/Figures/Avalanches/Rescale_Av_alpha15.pdf, id=3735, 867.24pt x 289.0
 8pt>
 File: Chapitre3/Figures/Avalanches/Rescale_Av_alpha15.pdf Graphic file (type pd
 f)
@@ -1751,7 +1749,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [120 <./Chapitre3/Figures/Avalanches/Av_alpha15_edited.pdf>] [121 <./Chapitre3/
 Figures/Avalanches/Rescale_Av_alpha15.pdf>]
-<Chapitre3/Figures/Avalanches/Recap_AvSuspensions.pdf, id=3769, 752.95108pt x 1
+<Chapitre3/Figures/Avalanches/Recap_AvSuspensions.pdf, id=3779, 752.95108pt x 1
 70.1607pt>
 File: Chapitre3/Figures/Avalanches/Recap_AvSuspensions.pdf Graphic file (type p
 df)
@@ -1764,66 +1762,57 @@ hapitre4.tex [123] [124
 
 ]
 Chapitre 4.
-[125] [126] [127] [128]
-<Chapitre4/Figures/Methode/Mesoscaling.pdf, id=3852, 558.71632pt x 173.10411pt>
+[125] [126] [127] [128] [129]
+<Chapitre4/Figures/Methode/Mesoscaling.pdf, id=3870, 558.71632pt x 173.10411pt>
 
 File: Chapitre4/Figures/Methode/Mesoscaling.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/Methode/Mesoscaling.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Methode/Mesoscaling.pdf  used on inp
 ut line 94.
 (pdftex.def)             Requested size: 364.19667pt x 112.84122pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[129]
-<Chapitre4/Figures/Methode/PicardTau.pdf, id=3864, 215.41089pt x 112.81644pt>
+ [130 <./Chapitre4/Figures/Methode/Mesoscaling.pdf>]
+<Chapitre4/Figures/Methode/PicardTau.pdf, id=3927, 215.41089pt x 112.81644pt>
 File: Chapitre4/Figures/Methode/PicardTau.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/Methode/PicardTau.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Methode/PicardTau.pdf  used on input
  line 113.
 (pdftex.def)             Requested size: 227.62206pt x 119.213pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[130 <./Chapitre4/Figures/Methode/Mesoscaling.pdf>] [131 <./Chapitre4/Figures/M
-ethode/PicardTau.pdf>]
-<Chapitre4/Figures/Methode/ModeleResults.pdf, id=3940, 982.87122pt x 260.17122p
+ [131 <./Chapitre4/Figures/Methode/PicardTau.pdf>] [132]
+<Chapitre4/Figures/Methode/ModeleResults.pdf, id=3957, 982.87122pt x 260.17122p
 t>
 File: Chapitre4/Figures/Methode/ModeleResults.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/Methode/ModeleResults.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Methode/ModeleResults.pdf  used on i
 nput line 179.
 (pdftex.def)             Requested size: 455.24411pt x 120.50594pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[132] [133 <./Chapitre4/Figures/Methode/ModeleResults.pdf>]
+ [133 <./Chapitre4/Figures/Methode/ModeleResults.pdf>]
 Overfull \hbox (22.13141pt too wide) in paragraph at lines 222--223
 \T1/lmr/m/n/12 contrô-ler la contrainte im-po-sée au sys-tème mais le taux de c
 i-saille-ment (voir [][]sous-section 4.2.4[][][]).
  []
 
 [134]
-<Chapitre4/Figures/CasPhysique/CP_Classic.pdf, id=4030, 389.69025pt x 210.08566
+<Chapitre4/Figures/CasPhysique/CP_Classic.pdf, id=4040, 389.69025pt x 210.08566
 pt>
 File: Chapitre4/Figures/CasPhysique/CP_Classic.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/CasPhysique/CP_Classic.pdf>
 Package pdftex.def Info: Chapitre4/Figures/CasPhysique/CP_Classic.pdf  used on 
 input line 236.
-(pdftex.def)             Requested size: 295.90588pt x 159.52571pt.
- [135 <./Chapitre4/Figures/CasPhysique/CP_Classic.pdf>]
-<Chapitre4/Figures/CasPhysique/ApprocheFSS.pdf, id=4153, 285.69379pt x 169.3363
+(pdftex.def)             Requested size: 273.14923pt x 147.2577pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[135] [136 <./Chapitre4/Figures/CasPhysique/CP_Classic.pdf>]
+<Chapitre4/Figures/CasPhysique/ApprocheFSS.pdf, id=4170, 285.69379pt x 169.3363
 3pt>
 File: Chapitre4/Figures/CasPhysique/ApprocheFSS.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/CasPhysique/ApprocheFSS.pdf>
 Package pdftex.def Info: Chapitre4/Figures/CasPhysique/ApprocheFSS.pdf  used on
  input line 263.
 (pdftex.def)             Requested size: 273.14923pt x 161.90213pt.
- [136] [137 <./Chapitre4/Figures/CasPhysique/ApprocheFSS.pdf>]
-<Chapitre4/Figures/CasPhysique/FSS_Classic_edited.pdf, id=4185, 838.33122pt x 2
+ [137 <./Chapitre4/Figures/CasPhysique/ApprocheFSS.pdf>] [138]
+<Chapitre4/Figures/CasPhysique/FSS_Classic_edited.pdf, id=4202, 838.33122pt x 2
 96.30621pt>
 File: Chapitre4/Figures/CasPhysique/FSS_Classic_edited.pdf Graphic file (type p
 df)
@@ -1831,19 +1820,16 @@ df)
 Package pdftex.def Info: Chapitre4/Figures/CasPhysique/FSS_Classic_edited.pdf  
 used on input line 321.
 (pdftex.def)             Requested size: 455.24411pt x 160.90721pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[138] [139 <./Chapitre4/Figures/CasPhysique/FSS_Classic_edited.pdf>] [140]
-<Chapitre4/Figures/CourtePortee/Prog_CP.pdf, id=4360, 806.88794pt x 225.99486pt
+ [139 <./Chapitre4/Figures/CasPhysique/FSS_Classic_edited.pdf>] [140]
+<Chapitre4/Figures/CourtePortee/Prog_CP.pdf, id=4369, 806.88794pt x 225.99486pt
 >
 File: Chapitre4/Figures/CourtePortee/Prog_CP.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/CourtePortee/Prog_CP.pdf>
 Package pdftex.def Info: Chapitre4/Figures/CourtePortee/Prog_CP.pdf  used on in
 put line 375.
 (pdftex.def)             Requested size: 455.24411pt x 127.50455pt.
-<Chapitre4/Figures/CourtePortee/FSS_SRP_edited.pdf, id=4364, 824.28656pt x 494.
+ [141 <./Chapitre4/Figures/CourtePortee/Prog_CP.pdf>]
+<Chapitre4/Figures/CourtePortee/FSS_SRP_edited.pdf, id=4447, 824.28656pt x 494.
 30763pt>
 File: Chapitre4/Figures/CourtePortee/FSS_SRP_edited.pdf Graphic file (type pdf)
 
@@ -1851,34 +1837,23 @@ File: Chapitre4/Figures/CourtePortee/FSS_SRP_edited.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapitre4/Figures/CourtePortee/FSS_SRP_edited.pdf  use
 d on input line 384.
 (pdftex.def)             Requested size: 455.24411pt x 273.0014pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[141 <./Chapitre4/Figures/CourtePortee/Prog_CP.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [142 <./Chapitre4/Figures/CourtePortee/FSS_SRP_edited.pdf>]
-<Chapitre4/Figures/CourtePortee/ZMCP.pdf, id=4606, 653.91365pt x 227.80542pt>
+<Chapitre4/Figures/CourtePortee/ZMCP.pdf, id=4615, 653.91365pt x 227.80542pt>
 File: Chapitre4/Figures/CourtePortee/ZMCP.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/CourtePortee/ZMCP.pdf>
 Package pdftex.def Info: Chapitre4/Figures/CourtePortee/ZMCP.pdf  used on input
  line 403.
 (pdftex.def)             Requested size: 364.19667pt x 126.87495pt.
-<Chapitre4/Figures/CourtePortee/StrainLoc.pdf, id=4613, 606.52727pt x 289.08pt>
+ [143 <./Chapitre4/Figures/CourtePortee/ZMCP.pdf>]
+<Chapitre4/Figures/CourtePortee/StrainLoc.pdf, id=4650, 606.52727pt x 289.08pt>
 
 File: Chapitre4/Figures/CourtePortee/StrainLoc.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/CourtePortee/StrainLoc.pdf>
 Package pdftex.def Info: Chapitre4/Figures/CourtePortee/StrainLoc.pdf  used on 
 input line 412.
 (pdftex.def)             Requested size: 364.19667pt x 173.58607pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[143 <./Chapitre4/Figures/CourtePortee/ZMCP.pdf>] [144 <./Chapitre4/Figures/Cou
-rtePortee/StrainLoc.pdf>]
-<Chapitre4/Figures/CourtePortee/FSS_SRNC_edited.pdf, id=4671, 838.33122pt x 513
+ [144 <./Chapitre4/Figures/CourtePortee/StrainLoc.pdf>]
+<Chapitre4/Figures/CourtePortee/FSS_SRNC_edited.pdf, id=4681, 838.33122pt x 513
 .11621pt>
 File: Chapitre4/Figures/CourtePortee/FSS_SRNC_edited.pdf Graphic file (type pdf
 )
@@ -1887,15 +1862,16 @@ Package pdftex.def Info: Chapitre4/Figures/CourtePortee/FSS_SRNC_edited.pdf  us
 ed on input line 446.
 (pdftex.def)             Requested size: 455.24411pt x 278.64453pt.
  [145 <./Chapitre4/Figures/CourtePortee/FSS_SRNC_edited.pdf>]
-<Chapitre4/Figures/CourtePortee/MapsofActSR.pdf, id=4798, 436.50801pt x 173.919
+<Chapitre4/Figures/CourtePortee/MapsofActSR.pdf, id=4808, 436.50801pt x 173.919
 3pt>
 File: Chapitre4/Figures/CourtePortee/MapsofActSR.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/CourtePortee/MapsofActSR.pdf>
 Package pdftex.def Info: Chapitre4/Figures/CourtePortee/MapsofActSR.pdf  used o
 n input line 457.
 (pdftex.def)             Requested size: 295.90588pt x 117.89996pt.
- [146 <./Chapitre4/Figures/CourtePortee/MapsofActSR.pdf>] [147] [148]
-<Chapitre4/Figures/LonguePortee/ResolutionOscillationsPropagateur.pdf, id=4855,
+
+[146 <./Chapitre4/Figures/CourtePortee/MapsofActSR.pdf>] [147] [148]
+<Chapitre4/Figures/LonguePortee/ResolutionOscillationsPropagateur.pdf, id=4862,
  693.79121pt x 260.17122pt>
 File: Chapitre4/Figures/LonguePortee/ResolutionOscillationsPropagateur.pdf Grap
 hic file (type pdf)
@@ -1903,37 +1879,30 @@ hic file (type pdf)
 Package pdftex.def Info: Chapitre4/Figures/LonguePortee/ResolutionOscillationsP
 ropagateur.pdf  used on input line 573.
 (pdftex.def)             Requested size: 386.96027pt x 145.11131pt.
-
-[149 <./Chapitre4/Figures/LonguePortee/ResolutionOscillationsPropagateur.pdf>]
-<Chapitre4/Figures/LonguePortee/AlphaPicard.pdf, id=4885, 535.19087pt x 241.638
+ [149 <./Chapitre4/Figures/LonguePortee/ResolutionOscillationsPropagateur.pdf>]
+<Chapitre4/Figures/LonguePortee/AlphaPicard.pdf, id=4894, 535.19087pt x 241.638
 32pt>
 File: Chapitre4/Figures/LonguePortee/AlphaPicard.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/LonguePortee/AlphaPicard.pdf>
 Package pdftex.def Info: Chapitre4/Figures/LonguePortee/AlphaPicard.pdf  used o
 n input line 596.
 (pdftex.def)             Requested size: 409.71692pt x 184.98544pt.
-
-[150 <./Chapitre4/Figures/LonguePortee/AlphaPicard.pdf>] [151] [152]
-<Chapitre4/Figures/LonguePortee/axe_alpha.pdf, id=5047, 443.03194pt x 158.2438p
+ [150 <./Chapitre4/Figures/LonguePortee/AlphaPicard.pdf>] [151] [152] [153]
+<Chapitre4/Figures/LonguePortee/axe_alpha.pdf, id=5064, 443.03194pt x 158.2438p
 t>
 File: Chapitre4/Figures/LonguePortee/axe_alpha.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/LonguePortee/axe_alpha.pdf>
 Package pdftex.def Info: Chapitre4/Figures/LonguePortee/axe_alpha.pdf  used on 
 input line 718.
 (pdftex.def)             Requested size: 318.66948pt x 113.8292pt.
- [153 <./Chapitre4/Figures/LonguePortee/axe_alpha.pdf>] [154] [155]
-<Chapitre4/Figures/Correlations/Sfact_SRPNC.pdf, id=5138, 794.97pt x 289.08pt>
+ [154 <./Chapitre4/Figures/LonguePortee/axe_alpha.pdf>] [155] [156]
+<Chapitre4/Figures/Correlations/Sfact_SRPNC.pdf, id=5158, 794.97pt x 289.08pt>
 File: Chapitre4/Figures/Correlations/Sfact_SRPNC.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/Correlations/Sfact_SRPNC.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Correlations/Sfact_SRPNC.pdf  used o
 n input line 856.
 (pdftex.def)             Requested size: 455.24411pt x 165.54922pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[156]
-<Chapitre4/Figures/Correlations/Sfact_Disp_SRPNC.pdf, id=5149, 794.97pt x 289.0
+<Chapitre4/Figures/Correlations/Sfact_Disp_SRPNC.pdf, id=5159, 794.97pt x 289.0
 8pt>
 File: Chapitre4/Figures/Correlations/Sfact_Disp_SRPNC.pdf Graphic file (type pd
 f)
@@ -1941,21 +1910,23 @@ f)
 Package pdftex.def Info: Chapitre4/Figures/Correlations/Sfact_Disp_SRPNC.pdf  u
 sed on input line 864.
 (pdftex.def)             Requested size: 455.24411pt x 165.54922pt.
- [157 <./Chapitre4/Figures/Correlations/Sfact_SRPNC.pdf> <./Chapitre4/Figures/C
-orrelations/Sfact_Disp_SRPNC.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./Chapitre4/Figures/Correlations/Sfact_
-Disp_SRPNC.pdf): PDF inclusion: multiple pdfs with page group included in a sin
-gle page
->]
-<Chapitre4/Figures/Correlations/Sfact_SRP.pdf, id=5201, 794.97pt x 289.08pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[157 <./Chapitre4/Figures/Correlations/Sfact_SRPNC.pdf>]
+<Chapitre4/Figures/Correlations/Sfact_SRP.pdf, id=5192, 794.97pt x 289.08pt>
 File: Chapitre4/Figures/Correlations/Sfact_SRP.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/Correlations/Sfact_SRP.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Correlations/Sfact_SRP.pdf  used on 
 input line 883.
 (pdftex.def)             Requested size: 455.24411pt x 165.54922pt.
- [158 <./Chapitre4/Figures/Correlations/Sfact_SRP.pdf>]
-<Chapitre4/Figures/Correlations/Evol_Sfact.pdf, id=5236, 678.26054pt x 248.9966
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[158 <./Chapitre4/Figures/Correlations/Sfact_Disp_SRPNC.pdf>]
+<Chapitre4/Figures/Correlations/Evol_Sfact.pdf, id=5225, 678.26054pt x 248.9966
 1pt>
 File: Chapitre4/Figures/Correlations/Evol_Sfact.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/Correlations/Evol_Sfact.pdf>
@@ -1963,49 +1934,56 @@ Package pdftex.def Info: Chapitre4/Figures/Correlations/Evol_Sfact.pdf  used on
  input line 896.
 (pdftex.def)             Requested size: 455.24411pt x 167.127pt.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Overfull \hbox (4.50117pt too wide) in paragraph at lines 918--919
 [] [][] \T1/lmr/m/n/12 Nous re-mar-quons alors une évo-lu-tion a priori conti-n
 ue de l'hy-per-uni-for-mité de contrainte,
  []
 
-[159 <./Chapitre4/Figures/Correlations/Evol_Sfact.pdf>] [160]
-<Chapitre4/Figures/Avalanches/Pheno.pdf, id=5309, 422.10432pt x 122.383pt>
+[159 <./Chapitre4/Figures/Correlations/Sfact_SRP.pdf> <./Chapitre4/Figures/Corr
+elations/Evol_Sfact.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapitre4/Figures/Correlations/Evol_S
+fact.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
+ge
+>] [160] [161]
+<Chapitre4/Figures/Avalanches/Pheno.pdf, id=5328, 422.10432pt x 122.383pt>
 File: Chapitre4/Figures/Avalanches/Pheno.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/Avalanches/Pheno.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Avalanches/Pheno.pdf  used on input 
 line 963.
 (pdftex.def)             Requested size: 455.24411pt x 131.99425pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Chapitre4/Figures/Avalanches/AQS.pdf, id=5311, 501.50291pt x 245.67554pt>
+<Chapitre4/Figures/Avalanches/AQS.pdf, id=5330, 501.50291pt x 245.67554pt>
 File: Chapitre4/Figures/Avalanches/AQS.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/Avalanches/AQS.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Avalanches/AQS.pdf  used on input li
 ne 974.
 (pdftex.def)             Requested size: 273.14923pt x 133.8099pt.
-[161]
+ [162 <./Chapitre4/Figures/Avalanches/Pheno.pdf> <./Chapitre4/Figures/Avalanche
+s/AQS.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Chapitre4/Figures/Avalanches/AQS.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+>]
 Overfull \hbox (12.11163pt too wide) in paragraph at lines 991--992
 [] [][] \T1/lmr/m/n/12 D'un point de vue ana-ly-tique, comme nous l'avons men-t
 ionné à la [][]sous-sous-section 4.1.3.1[][][],
  []
 
-[162 <./Chapitre4/Figures/Avalanches/Pheno.pdf> <./Chapitre4/Figures/Avalanches
-/AQS.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Chapitre4/Figures/Avalanches/AQS.pdf)
-: PDF inclusion: multiple pdfs with page group included in a single page
->] [163] [164]
-<Chapitre4/Figures/Avalanches/PbContrainte.pdf, id=5392, 439.08876pt x 129.6582
+[163] [164] [165]
+<Chapitre4/Figures/Avalanches/PbContrainte.pdf, id=5409, 439.08876pt x 129.6582
 2pt>
 File: Chapitre4/Figures/Avalanches/PbContrainte.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/Avalanches/PbContrainte.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Avalanches/PbContrainte.pdf  used on
  input line 1029.
 (pdftex.def)             Requested size: 455.24411pt x 134.43576pt.
- [165 <./Chapitre4/Figures/Avalanches/PbContrainte.pdf>] [166]
-<Chapitre4/Figures/Avalanches/Comparaison_Distrib.pdf, id=5436, 471.53117pt x 1
+ [166 <./Chapitre4/Figures/Avalanches/PbContrainte.pdf>]
+[167]
+<Chapitre4/Figures/Avalanches/Comparaison_Distrib.pdf, id=5454, 471.53117pt x 1
 46.2401pt>
 File: Chapitre4/Figures/Avalanches/Comparaison_Distrib.pdf Graphic file (type p
 df)
@@ -2013,24 +1991,21 @@ df)
 Package pdftex.def Info: Chapitre4/Figures/Avalanches/Comparaison_Distrib.pdf  
 used on input line 1066.
 (pdftex.def)             Requested size: 455.24411pt x 141.19667pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[167]
-<Chapitre4/Figures/Avalanches/Collapse.pdf, id=5446, 965.2382pt x 332.83076pt>
+<Chapitre4/Figures/Avalanches/Collapse.pdf, id=5457, 965.2382pt x 332.83076pt>
 File: Chapitre4/Figures/Avalanches/Collapse.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/Avalanches/Collapse.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Avalanches/Collapse.pdf  used on inp
 ut line 1081.
 (pdftex.def)             Requested size: 455.24411pt x 156.97388pt.
- [168 <./Chapitre4/Figures/Avalanches/Comparaison_Distrib.pdf> <./Chapitre4/Fig
-ures/Avalanches/Collapse.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./Chapitre4/Figures/Avalanches/Collapse
-.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [169]
-<Chapitre4/Figures/Avalanches/Rescale_Av_alpha3.pdf, id=5654, 867.24pt x 289.08
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[168 <./Chapitre4/Figures/Avalanches/Comparaison_Distrib.pdf>]
+Underfull \vbox (badness 3219) has occurred while \output is active []
+
+ [169 <./Chapitre4/Figures/Avalanches/Collapse.pdf>]
+<Chapitre4/Figures/Avalanches/Rescale_Av_alpha3.pdf, id=5666, 867.24pt x 289.08
 pt>
 File: Chapitre4/Figures/Avalanches/Rescale_Av_alpha3.pdf Graphic file (type pdf
 )
@@ -2038,25 +2013,16 @@ File: Chapitre4/Figures/Avalanches/Rescale_Av_alpha3.pdf Graphic file (type pdf
 Package pdftex.def Info: Chapitre4/Figures/Avalanches/Rescale_Av_alpha3.pdf  us
 ed on input line 1123.
 (pdftex.def)             Requested size: 455.24411pt x 151.74721pt.
- [170 <./Chapitre4/Figures/Avalanches/Rescale_Av_alpha3.pdf>] [171])
-(./Chapitre5/chapitre5.tex [172]
-Chapitre 5.
-[173
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[170 <./Chapitre4/Figures/Avalanches/Rescale_Av_alpha3.pdf>] [171])
+(./Chapitre5/chapitre5.tex [172] [173] [174
 
 ]
-
-Package fancyhdr Warning: \headheight is too small (17.07164pt): 
-(fancyhdr)                Make it at least 27.11652pt, for example:
-(fancyhdr)                \setlength{\headheight}{27.11652pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-10.04488pt}.
-
-[174] [175]
-Overfull \hbox (37.24333pt too wide) in paragraph at lines 63--77
- [][] 
- []
-
+Chapitre 5.
+[175]
 
 Package fancyhdr Warning: \headheight is too small (17.07164pt): 
 (fancyhdr)                Make it at least 27.11652pt, for example:
@@ -2066,6 +2032,10 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.04488pt}.
 
 [176] [177]
+Overfull \hbox (37.24333pt too wide) in paragraph at lines 60--74
+ [][] 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (17.07164pt): 
 (fancyhdr)                Make it at least 27.11652pt, for example:
@@ -2084,11 +2054,20 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.04488pt}.
 
 [180] [181]
-<Chapitre5/Figures/RecapTheory.pdf, id=5769, 549.6629pt x 251.11139pt>
+
+Package fancyhdr Warning: \headheight is too small (17.07164pt): 
+(fancyhdr)                Make it at least 27.11652pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11652pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.04488pt}.
+
+[182] [183]
+<Chapitre5/Figures/RecapTheory.pdf, id=5794, 549.6629pt x 251.11139pt>
 File: Chapitre5/Figures/RecapTheory.pdf Graphic file (type pdf)
 <use Chapitre5/Figures/RecapTheory.pdf>
 Package pdftex.def Info: Chapitre5/Figures/RecapTheory.pdf  used on input line 
-195.
+192.
 (pdftex.def)             Requested size: 455.24411pt x 207.97792pt.
 
 
@@ -2099,14 +2078,14 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.04488pt}.
 
-[182 <./Chapitre5/Figures/RecapTheory.pdf>]
-<Chapitre5/Figures/FigRecap.pdf, id=5809, 612.22691pt x 553.44247pt>
+[184 <./Chapitre5/Figures/RecapTheory.pdf>]
+<Chapitre5/Figures/FigRecap.pdf, id=5834, 612.22691pt x 553.44247pt>
 File: Chapitre5/Figures/FigRecap.pdf Graphic file (type pdf)
 <use Chapitre5/Figures/FigRecap.pdf>
-Package pdftex.def Info: Chapitre5/Figures/FigRecap.pdf  used on input line 204
+Package pdftex.def Info: Chapitre5/Figures/FigRecap.pdf  used on input line 201
 .
 (pdftex.def)             Requested size: 455.24411pt x 411.534pt.
- [183 <./Chapitre5/Figures/FigRecap.pdf>]
+ [185 <./Chapitre5/Figures/FigRecap.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (17.07164pt): 
 (fancyhdr)                Make it at least 27.11652pt, for example:
@@ -2115,13 +2094,13 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.04488pt}.
 
-[184] [185]
-<Chapitre5/Figures/DiscreteEPM.pdf, id=5933, 743.04622pt x 242.46301pt>
+[186] [187]
+<Chapitre5/Figures/DiscreteEPM.pdf, id=5959, 743.04555pt x 242.466pt>
 File: Chapitre5/Figures/DiscreteEPM.pdf Graphic file (type pdf)
 <use Chapitre5/Figures/DiscreteEPM.pdf>
 Package pdftex.def Info: Chapitre5/Figures/DiscreteEPM.pdf  used on input line 
-237.
-(pdftex.def)             Requested size: 455.24411pt x 148.54965pt.
+234.
+(pdftex.def)             Requested size: 455.24411pt x 148.55148pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2134,7 +2113,7 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.04488pt}.
 
-[186] [187 <./Chapitre5/Figures/DiscreteEPM.pdf>]
+[188] [189 <./Chapitre5/Figures/DiscreteEPM.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (17.07164pt): 
 (fancyhdr)                Make it at least 27.11652pt, for example:
@@ -2143,7 +2122,7 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.04488pt}.
 
-[188] [189]) (./Intro-Conclusion/conclusion.tex
+[190] [191]) (./Intro-Conclusion/conclusion.tex
 
 Package fancyhdr Warning: \headheight is too small (17.07164pt): 
 (fancyhdr)                Make it at least 27.11652pt, for example:
@@ -2152,10 +2131,10 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.04488pt}.
 
-[190]
+[192]
 Underfull \vbox (badness 1286) has occurred while \output is active []
 
- [191
+ [193
 
 ]
 
@@ -2166,7 +2145,7 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.04488pt}.
 
-[192] [193]
+[194] [195]
 
 Package fancyhdr Warning: \headheight is too small (17.07164pt): 
 (fancyhdr)                Make it at least 27.11652pt, for example:
@@ -2175,7 +2154,7 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.04488pt}.
 
-[194] [195]) (./compilation_these_avec_page_de_garde_et_abstract.bbl
+[196] [197]) (./compilation_these_avec_page_de_garde_et_abstract.bbl
 
 Package fancyhdr Warning: \headheight is too small (17.07164pt): 
 (fancyhdr)                Make it at least 27.11652pt, for example:
@@ -2184,7 +2163,7 @@ Package fancyhdr Warning: \headheight is too small (17.07164pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-10.04488pt}.
 
-[196] [197
+[198] [199
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 95--101
@@ -2213,34 +2192,34 @@ mrow><mrow><mn>4</mn></mrow><mrow></mrow><mrow></mrow></mmultiscripts></mrow></
 math></span>
  []
 
-[198]
+[200]
 Underfull \hbox (badness 1199) in paragraph at lines 163--166
 []\T1/lmr/m/n/12 R. Pastor-Satorras and A. Ves-pi-gnani, ``Reaction-diffusion s
 ys-tem with self-
  []
 
-[199] [200] [201]
+[201] [202] [203]
 Underfull \hbox (badness 1540) in paragraph at lines 411--419
 []\T1/lmr/m/n/12 T. B. dos San-tos, C. I. N. Sam-paio Filho, N. A. M. Araújo, C
 . L. N.
  []
 
-[202]
+[204]
 Underfull \hbox (badness 10000) in paragraph at lines 570--573
 []\T1/lmr/m/n/12 W. H. Her-schel and R. Bulk-ley, ``Kon-sis-tenz-mes-sun-gen vo
 n Gummi-
  []
 
-[203] [204] [205] [206]) (./Intro-Conclusion/annexe.tex [207] [208
+[205] [206] [207] [208]) (./Intro-Conclusion/annexe.tex [209] [210
 
-] [209]
-[210]
+] [211]
+[212]
 Annexe A.
-[211
+[213
 
-] [212]
+] [214]
 Annexe B.
-<Chapitre1/Figures/Depinning/expdepinning.pdf, id=6144, 561.09625pt x 185.69376
+<Chapitre1/Figures/Depinning/expdepinning.pdf, id=6196, 561.09625pt x 185.69376
 pt>
 File: Chapitre1/Figures/Depinning/expdepinning.pdf Graphic file (type pdf)
 <use Chapitre1/Figures/Depinning/expdepinning.pdf>
@@ -2250,14 +2229,14 @@ input line 76.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[213
+[215
 
-] [214 <./Chapitre1/Figures/Depinning/expdepinning.pdf>] [215] [216]
-[217] [218] [219] [220
+] [216 <./Chapitre1/Figures/Depinning/expdepinning.pdf>] [217] [218]
+[219] [220] [221] [222
 
 ]
 Annexe C.
-<Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma375.pdf, id=6226, 794
+<Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma375.pdf, id=6279, 794
 .97pt x 289.08pt>
 File: Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma375.pdf Graphic 
 file (type pdf)
@@ -2265,7 +2244,7 @@ file (type pdf)
 Package pdftex.def Info: Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Ga
 mma375.pdf  used on input line 263.
 (pdftex.def)             Requested size: 455.24411pt x 165.54922pt.
-<Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma35.pdf, id=6229, 794.
+<Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma35.pdf, id=6282, 794.
 97pt x 289.08pt>
 File: Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma35.pdf Graphic f
 ile (type pdf)
@@ -2276,8 +2255,8 @@ mma35.pdf  used on input line 270.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [221 <./Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma375.pdf>]
-<Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma325.pdf, id=6251, 794
+ [223 <./Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma375.pdf>]
+<Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma325.pdf, id=6304, 794
 .97pt x 289.08pt>
 File: Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma325.pdf Graphic 
 file (type pdf)
@@ -2285,7 +2264,7 @@ file (type pdf)
 Package pdftex.def Info: Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Ga
 mma325.pdf  used on input line 277.
 (pdftex.def)             Requested size: 455.24411pt x 165.54922pt.
-<Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma3.pdf, id=6254, 794.9
+<Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma3.pdf, id=6307, 794.9
 7pt x 289.08pt>
 File: Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma3.pdf Graphic fi
 le (type pdf)
@@ -2293,11 +2272,11 @@ le (type pdf)
 Package pdftex.def Info: Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Ga
 mma3.pdf  used on input line 284.
 (pdftex.def)             Requested size: 455.24411pt x 165.54922pt.
- [222 <./Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma35.pdf> <./Ch
+ [224 <./Chapitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma35.pdf> <./Ch
 apitre2/Figures/Hyperuniformity/RescaleHU_MannaCM_Gamma325.pdf> <./Chapitre2/Fi
 gures/Hyperuniformity/RescaleHU_MannaCM_Gamma3.pdf>]
 Annexe D.
-[223
+[225
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -2320,8 +2299,8 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 337.
 
-[224]
-<walker.pdf, id=6333, 578.16pt x 289.08pt>
+[226]
+<walker.pdf, id=6386, 578.16pt x 289.08pt>
 File: walker.pdf Graphic file (type pdf)
 <use walker.pdf>
 Package pdftex.def Info: walker.pdf  used on input line 370.
@@ -2329,89 +2308,89 @@ Package pdftex.def Info: walker.pdf  used on input line 370.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 391.
+(hyperref)                removing `math shift' on input line 393.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 391.
+(hyperref)                removing `\alpha' on input line 393.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 391.
+(hyperref)                removing `math shift' on input line 393.
 
-[225 <./walker.pdf>]
-<Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha3.pdf, id=6355
+[227 <./walker.pdf>]
+<Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha3.pdf, id=6407
 , 318.68181pt x 246.3055pt>
 File: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha3.pdf Gra
 phic file (type pdf)
 <use Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha3.pdf>
 Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescale
-d_MF_alpha3.pdf  used on input line 397.
+d_MF_alpha3.pdf  used on input line 399.
 (pdftex.def)             Requested size: 204.85846pt x 158.33401pt.
-<Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha25.pdf, id=635
-6, 318.68181pt x 246.3055pt>
+<Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha25.pdf, id=640
+8, 318.68181pt x 246.3055pt>
 File: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha25.pdf Gr
 aphic file (type pdf)
 <use Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha25.pdf>
 Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescale
-d_MF_alpha25.pdf  used on input line 398.
+d_MF_alpha25.pdf  used on input line 400.
 (pdftex.def)             Requested size: 204.85846pt x 158.33401pt.
-<Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha225.pdf, id=63
-59, 318.68181pt x 246.3055pt>
+<Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha225.pdf, id=64
+11, 318.68181pt x 246.3055pt>
 File: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha225.pdf G
 raphic file (type pdf)
 <use Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha225.pdf>
 Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescale
-d_MF_alpha225.pdf  used on input line 405.
+d_MF_alpha225.pdf  used on input line 407.
 (pdftex.def)             Requested size: 204.85846pt x 158.33401pt.
-<Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha2.pdf, id=6360
+<Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha2.pdf, id=6412
 , 318.68181pt x 246.3055pt>
 File: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha2.pdf Gra
 phic file (type pdf)
 <use Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha2.pdf>
 Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescale
-d_MF_alpha2.pdf  used on input line 406.
+d_MF_alpha2.pdf  used on input line 408.
 (pdftex.def)             Requested size: 204.85846pt x 158.33401pt.
-<Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha15.pdf, id=636
-3, 318.37775pt x 246.3055pt>
+<Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha15.pdf, id=641
+5, 318.37775pt x 246.3055pt>
 File: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha15.pdf Gr
 aphic file (type pdf)
 <use Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha15.pdf>
 Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescale
-d_MF_alpha15.pdf  used on input line 413.
+d_MF_alpha15.pdf  used on input line 415.
 (pdftex.def)             Requested size: 204.85846pt x 158.48434pt.
-<Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha125.pdf, id=63
-64, 318.83864pt x 246.3055pt>
+<Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha125.pdf, id=64
+16, 318.83864pt x 246.3055pt>
 File: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha125.pdf G
 raphic file (type pdf)
 <use Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha125.pdf>
 Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescale
-d_MF_alpha125.pdf  used on input line 414.
+d_MF_alpha125.pdf  used on input line 416.
 (pdftex.def)             Requested size: 204.85846pt x 158.25885pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha1.pdf, id=6367
+<Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha1.pdf, id=6419
 , 318.83864pt x 246.3055pt>
 File: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha1.pdf Gra
 phic file (type pdf)
 <use Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha1.pdf>
 Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescale
-d_MF_alpha1.pdf  used on input line 421.
+d_MF_alpha1.pdf  used on input line 423.
 (pdftex.def)             Requested size: 204.85846pt x 158.25885pt.
-<Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha05.pdf, id=636
-8, 318.68181pt x 246.3055pt>
+<Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha05.pdf, id=642
+0, 318.68181pt x 246.3055pt>
 File: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha05.pdf Gr
 aphic file (type pdf)
 <use Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha05.pdf>
 Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescale
-d_MF_alpha05.pdf  used on input line 422.
+d_MF_alpha05.pdf  used on input line 424.
 (pdftex.def)             Requested size: 204.85846pt x 158.33401pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[226 <./Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha3.pdf> 
+[228 <./Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha3.pdf> 
 <./Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha25.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Chapitre3/Figures/Interpretation/PCor
@@ -2430,74 +2409,74 @@ rMF/PCorr_rescaled_MF_alpha2.pdf): PDF inclusion: multiple pdfs with page group
 >]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 429.
+(hyperref)                removing `math shift' on input line 431.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 429.
+(hyperref)                removing `\alpha' on input line 431.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 429.
+(hyperref)                removing `math shift' on input line 431.
 
-<Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha3_mean.pdf, id=6383
+<Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha3_mean.pdf, id=6436
 , 318.04628pt x 248.81358pt>
 File: Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha3_mean.pdf Gra
 phic file (type pdf)
 <use Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha3_mean.pdf>
 Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_
-alpha3_mean.pdf  used on input line 435.
+alpha3_mean.pdf  used on input line 437.
 (pdftex.def)             Requested size: 204.85846pt x 160.26901pt.
-<Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha2_mean.pdf, id=6384
+<Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha2_mean.pdf, id=6437
 , 318.83864pt x 246.121pt>
 File: Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha2_mean.pdf Gra
 phic file (type pdf)
 <use Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha2_mean.pdf>
 Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_
-alpha2_mean.pdf  used on input line 436.
+alpha2_mean.pdf  used on input line 438.
 (pdftex.def)             Requested size: 204.85846pt x 158.1403pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha175_mean.pdf, id=63
-87, 318.83864pt x 246.121pt>
+<Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha175_mean.pdf, id=64
+40, 318.83864pt x 246.121pt>
 File: Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha175_mean.pdf G
 raphic file (type pdf)
 <use Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha175_mean.pdf>
 Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_
-alpha175_mean.pdf  used on input line 443.
+alpha175_mean.pdf  used on input line 445.
 (pdftex.def)             Requested size: 204.85846pt x 158.1403pt.
-<Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha15_mean.pdf, id=638
-8, 318.68181pt x 246.121pt>
+<Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha15_mean.pdf, id=644
+1, 318.68181pt x 246.121pt>
 File: Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha15_mean.pdf Gr
 aphic file (type pdf)
 <use Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha15_mean.pdf>
 Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_
-alpha15_mean.pdf  used on input line 444.
+alpha15_mean.pdf  used on input line 446.
 (pdftex.def)             Requested size: 204.85846pt x 158.21541pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha125_mean.pdf, id=63
-91, 318.68181pt x 246.121pt>
+<Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha125_mean.pdf, id=64
+44, 318.68181pt x 246.121pt>
 File: Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha125_mean.pdf G
 raphic file (type pdf)
 <use Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha125_mean.pdf>
 Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_
-alpha125_mean.pdf  used on input line 451.
+alpha125_mean.pdf  used on input line 453.
 (pdftex.def)             Requested size: 204.85846pt x 158.21541pt.
-<Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha1_mean.pdf, id=6392
+<Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha1_mean.pdf, id=6445
 , 318.68181pt x 246.121pt>
 File: Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha1_mean.pdf Gra
 phic file (type pdf)
 <use Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha1_mean.pdf>
 Package pdftex.def Info: Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_
-alpha1_mean.pdf  used on input line 452.
+alpha1_mean.pdf  used on input line 454.
 (pdftex.def)             Requested size: 204.85846pt x 158.21541pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[227 <./Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha15.pdf>
+[229 <./Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha15.pdf>
  <./Chapitre3/Figures/Interpretation/PCorrMF/PCorr_rescaled_MF_alpha125.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Chapitre3/Figures/Interpretation/PCor
@@ -2513,7 +2492,7 @@ rMF/PCorr_rescaled_MF_alpha1.pdf): PDF inclusion: multiple pdfs with page group
 pdfTeX warning: /usr/bin/pdflatex (file ./Chapitre3/Figures/Interpretation/PCor
 rMF/PCorr_rescaled_MF_alpha05.pdf): PDF inclusion: multiple pdfs with page grou
 p included in a single page
->] [228 <./Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha3_mean.pd
+>] [230 <./Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha3_mean.pd
 f> <./Chapitre3/Figures/Interpretation/PCorr/PCorr_rescaled_alpha2_mean.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Chapitre3/Figures/Interpretation/PCor
@@ -2542,148 +2521,148 @@ r/PCorr_rescaled_alpha1_mean.pdf): PDF inclusion: multiple pdfs with page group
 >]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 459.
+(hyperref)                removing `math shift' on input line 463.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 459.
+(hyperref)                removing `\alpha' on input line 463.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 459.
+(hyperref)                removing `math shift' on input line 463.
 
-<Chapitre3/Figures/Avalanches/Rescale_Av_alpha3.pdf, id=6421, 867.24pt x 289.08
+<Chapitre3/Figures/Avalanches/Rescale_Av_alpha3.pdf, id=6476, 867.24pt x 289.08
 pt>
 File: Chapitre3/Figures/Avalanches/Rescale_Av_alpha3.pdf Graphic file (type pdf
 )
 <use Chapitre3/Figures/Avalanches/Rescale_Av_alpha3.pdf>
 Package pdftex.def Info: Chapitre3/Figures/Avalanches/Rescale_Av_alpha3.pdf  us
-ed on input line 467.
+ed on input line 471.
 (pdftex.def)             Requested size: 455.24411pt x 151.74721pt.
-<Chapitre3/Figures/Avalanches/Rescale_Av_alpha2.pdf, id=6424, 867.24pt x 289.08
+<Chapitre3/Figures/Avalanches/Rescale_Av_alpha2.pdf, id=6479, 867.24pt x 289.08
 pt>
 File: Chapitre3/Figures/Avalanches/Rescale_Av_alpha2.pdf Graphic file (type pdf
 )
 <use Chapitre3/Figures/Avalanches/Rescale_Av_alpha2.pdf>
 Package pdftex.def Info: Chapitre3/Figures/Avalanches/Rescale_Av_alpha2.pdf  us
-ed on input line 474.
+ed on input line 478.
 (pdftex.def)             Requested size: 455.24411pt x 151.74721pt.
-<Chapitre3/Figures/Avalanches/Rescale_Av_alpha175.pdf, id=6427, 867.24pt x 289.
+<Chapitre3/Figures/Avalanches/Rescale_Av_alpha175.pdf, id=6482, 867.24pt x 289.
 08pt>
 File: Chapitre3/Figures/Avalanches/Rescale_Av_alpha175.pdf Graphic file (type p
 df)
 <use Chapitre3/Figures/Avalanches/Rescale_Av_alpha175.pdf>
 Package pdftex.def Info: Chapitre3/Figures/Avalanches/Rescale_Av_alpha175.pdf  
-used on input line 481.
+used on input line 485.
 (pdftex.def)             Requested size: 455.24411pt x 151.74721pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Chapitre3/Figures/Avalanches/Rescale_Av_alpha125.pdf, id=6430, 867.24pt x 289.
+<Chapitre3/Figures/Avalanches/Rescale_Av_alpha125.pdf, id=6485, 867.24pt x 289.
 08pt>
 File: Chapitre3/Figures/Avalanches/Rescale_Av_alpha125.pdf Graphic file (type p
 df)
 <use Chapitre3/Figures/Avalanches/Rescale_Av_alpha125.pdf>
 Package pdftex.def Info: Chapitre3/Figures/Avalanches/Rescale_Av_alpha125.pdf  
-used on input line 488.
+used on input line 492.
 (pdftex.def)             Requested size: 455.24411pt x 151.74721pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Chapitre3/Figures/Avalanches/Rescale_Av_alpha05.pdf, id=6433, 867.24pt x 289.0
+<Chapitre3/Figures/Avalanches/Rescale_Av_alpha05.pdf, id=6488, 867.24pt x 289.0
 8pt>
 File: Chapitre3/Figures/Avalanches/Rescale_Av_alpha05.pdf Graphic file (type pd
 f)
 <use Chapitre3/Figures/Avalanches/Rescale_Av_alpha05.pdf>
 Package pdftex.def Info: Chapitre3/Figures/Avalanches/Rescale_Av_alpha05.pdf  u
-sed on input line 495.
+sed on input line 499.
 (pdftex.def)             Requested size: 455.24411pt x 151.74721pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[229
+[231
 
  <./Chapitre3/Figures/Avalanches/Rescale_Av_alpha3.pdf> <./Chapitre3/Figures/Av
-alanches/Rescale_Av_alpha2.pdf>] [230 <./Chapitre3/Figures/Avalanches/Rescale_A
+alanches/Rescale_Av_alpha2.pdf>] [232 <./Chapitre3/Figures/Avalanches/Rescale_A
 v_alpha175.pdf> <./Chapitre3/Figures/Avalanches/Rescale_Av_alpha125.pdf> <./Cha
 pitre3/Figures/Avalanches/Rescale_Av_alpha05.pdf>]
 Annexe E.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 506.
+(hyperref)                removing `math shift' on input line 510.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 506.
+(hyperref)                removing `\alpha' on input line 510.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 506.
+(hyperref)                removing `math shift' on input line 510.
 
-[231
+[233
 
 
 ]
-Overfull \hbox (10.81693pt too wide) in paragraph at lines 547--548
+Overfull \hbox (10.81693pt too wide) in paragraph at lines 553--554
 \T1/lmr/m/n/12 et nous pou-vons sim-pli-fier cette ex-pres-sion en uti-li-sant 
 $\OML/lmm/m/it/12 r[] \OT1/lmr/m/n/12 = \OML/lmm/m/it/12 x[] \OT1/lmr/m/n/12 + 
 \OML/lmm/m/it/12 y[]$ \T1/lmr/m/n/12 et $\OT1/lmr/m/n/12 (\OML/lmm/m/it/12 x; y
 \OT1/lmr/m/n/12 ) = (\OML/lmm/m/it/12 r [] ^^R; r [] ^^R\OT1/lmr/m/n/12 )$
  []
 
-[232]
-<Chapitre6/Figures/CP_alphaPicard.pdf, id=6614, 785.30229pt x 752.19606pt>
+[234]
+<Chapitre6/Figures/CP_alphaPicard.pdf, id=6669, 785.30229pt x 752.19606pt>
 File: Chapitre6/Figures/CP_alphaPicard.pdf Graphic file (type pdf)
 <use Chapitre6/Figures/CP_alphaPicard.pdf>
 Package pdftex.def Info: Chapitre6/Figures/CP_alphaPicard.pdf  used on input li
-ne 602.
+ne 608.
 (pdftex.def)             Requested size: 455.24411pt x 436.05594pt.
- [233 <./Chapitre6/Figures/CP_alphaPicard.pdf>]
-<Chapitre4/Figures/Avalanches/Rescale_Av_alpha5.pdf, id=6716, 867.24pt x 289.08
+ [235 <./Chapitre6/Figures/CP_alphaPicard.pdf>]
+<Chapitre4/Figures/Avalanches/Rescale_Av_alpha5.pdf, id=6772, 867.24pt x 289.08
 pt>
 File: Chapitre4/Figures/Avalanches/Rescale_Av_alpha5.pdf Graphic file (type pdf
 )
 <use Chapitre4/Figures/Avalanches/Rescale_Av_alpha5.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Avalanches/Rescale_Av_alpha5.pdf  us
-ed on input line 614.
+ed on input line 620.
 (pdftex.def)             Requested size: 455.24411pt x 151.74721pt.
-<Chapitre4/Figures/Avalanches/Rescale_Av_alpha4.pdf, id=6717, 867.24pt x 289.08
+<Chapitre4/Figures/Avalanches/Rescale_Av_alpha4.pdf, id=6773, 867.24pt x 289.08
 pt>
 File: Chapitre4/Figures/Avalanches/Rescale_Av_alpha4.pdf Graphic file (type pdf
 )
 <use Chapitre4/Figures/Avalanches/Rescale_Av_alpha4.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Avalanches/Rescale_Av_alpha4.pdf  us
-ed on input line 615.
+ed on input line 621.
 (pdftex.def)             Requested size: 455.24411pt x 151.74721pt.
-<Chapitre4/Figures/Avalanches/Rescale_Av_alpha2.pdf, id=6718, 867.24pt x 289.08
+<Chapitre4/Figures/Avalanches/Rescale_Av_alpha2.pdf, id=6774, 867.24pt x 289.08
 pt>
 File: Chapitre4/Figures/Avalanches/Rescale_Av_alpha2.pdf Graphic file (type pdf
 )
 <use Chapitre4/Figures/Avalanches/Rescale_Av_alpha2.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Avalanches/Rescale_Av_alpha2.pdf  us
-ed on input line 616.
+ed on input line 622.
 (pdftex.def)             Requested size: 455.24411pt x 151.74721pt.
 
-Overfull \hbox (30.9945pt too wide) in paragraph at lines 621--621
+Overfull \hbox (30.9945pt too wide) in paragraph at lines 629--629
 |[]\T1/lmr/bx/n/17.28 Dépendance en pro-to-cole des ava-lanches à contrainte
  []
 
-<PhysRevE.111.024101.pdf, id=6719, 609.81427pt x 813.0375pt>
+<PhysRevE.111.024101.pdf, id=6775, 609.81427pt x 813.0375pt>
 File: PhysRevE.111.024101.pdf Graphic file (type pdf)
 <use PhysRevE.111.024101.pdf>
-Package pdftex.def Info: PhysRevE.111.024101.pdf  used on input line 625.
+Package pdftex.def Info: PhysRevE.111.024101.pdf  used on input line 633.
 (pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
 File: PhysRevE.111.024101.pdf Graphic file (type pdf)
 <use PhysRevE.111.024101.pdf>
-Package pdftex.def Info: PhysRevE.111.024101.pdf  used on input line 625.
+Package pdftex.def Info: PhysRevE.111.024101.pdf  used on input line 633.
 (pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
-<PhysRevE.111.024101.pdf, id=6722, page=1, 609.81427pt x 813.0375pt>
+<PhysRevE.111.024101.pdf, id=6778, page=1, 609.81427pt x 813.0375pt>
 File: PhysRevE.111.024101.pdf Graphic file (type pdf)
 <use PhysRevE.111.024101.pdf, page 1>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page1 used on input line 625
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page1 used on input line 633
 .
 (pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
-[234 <./Chapitre4/Figures/Avalanches/Rescale_Av_alpha5.pdf> <./Chapitre4/Figure
+[236 <./Chapitre4/Figures/Avalanches/Rescale_Av_alpha5.pdf> <./Chapitre4/Figure
 s/Avalanches/Rescale_Av_alpha4.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Chapitre4/Figures/Avalanches/Rescale_
@@ -2697,286 +2676,286 @@ le page
 >]
 File: PhysRevE.111.024101.pdf Graphic file (type pdf)
 <use PhysRevE.111.024101.pdf, page 1>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page1 used on input line 625
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page1 used on input line 633
 .
 (pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
 File: PhysRevE.111.024101.pdf Graphic file (type pdf)
 <use PhysRevE.111.024101.pdf, page 1>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page1 used on input line 625
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page1 used on input line 633
 .
 (pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
 File: PhysRevE.111.024101.pdf Graphic file (type pdf)
 <use PhysRevE.111.024101.pdf, page 1>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page1 used on input line 625
-.
-(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
- [235 <./PhysRevE.111.024101.pdf>]
-<PhysRevE.111.024101.pdf, id=6767, page=2, 609.81427pt x 813.0375pt>
-File: PhysRevE.111.024101.pdf Graphic file (type pdf)
-<use PhysRevE.111.024101.pdf, page 2>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page2 used on input line 625
-.
-(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
-File: PhysRevE.111.024101.pdf Graphic file (type pdf)
-<use PhysRevE.111.024101.pdf, page 2>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page2 used on input line 625
-.
-(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
-File: PhysRevE.111.024101.pdf Graphic file (type pdf)
-<use PhysRevE.111.024101.pdf, page 2>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page2 used on input line 625
-.
-(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
- [236 <./PhysRevE.111.024101.pdf>]
-<PhysRevE.111.024101.pdf, id=6792, page=3, 609.81427pt x 813.0375pt>
-File: PhysRevE.111.024101.pdf Graphic file (type pdf)
-<use PhysRevE.111.024101.pdf, page 3>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page3 used on input line 625
-.
-(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
-File: PhysRevE.111.024101.pdf Graphic file (type pdf)
-<use PhysRevE.111.024101.pdf, page 3>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page3 used on input line 625
-.
-(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
-File: PhysRevE.111.024101.pdf Graphic file (type pdf)
-<use PhysRevE.111.024101.pdf, page 3>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page3 used on input line 625
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page1 used on input line 633
 .
 (pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
  [237 <./PhysRevE.111.024101.pdf>]
-<PhysRevE.111.024101.pdf, id=6812, page=4, 609.81427pt x 813.0375pt>
+<PhysRevE.111.024101.pdf, id=6823, page=2, 609.81427pt x 813.0375pt>
 File: PhysRevE.111.024101.pdf Graphic file (type pdf)
-<use PhysRevE.111.024101.pdf, page 4>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page4 used on input line 625
+<use PhysRevE.111.024101.pdf, page 2>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page2 used on input line 633
 .
 (pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
 File: PhysRevE.111.024101.pdf Graphic file (type pdf)
-<use PhysRevE.111.024101.pdf, page 4>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page4 used on input line 625
+<use PhysRevE.111.024101.pdf, page 2>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page2 used on input line 633
 .
 (pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
 File: PhysRevE.111.024101.pdf Graphic file (type pdf)
-<use PhysRevE.111.024101.pdf, page 4>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page4 used on input line 625
+<use PhysRevE.111.024101.pdf, page 2>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page2 used on input line 633
 .
 (pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
  [238 <./PhysRevE.111.024101.pdf>]
-<PhysRevE.111.024101.pdf, id=6819, page=5, 609.81427pt x 813.0375pt>
+<PhysRevE.111.024101.pdf, id=6848, page=3, 609.81427pt x 813.0375pt>
 File: PhysRevE.111.024101.pdf Graphic file (type pdf)
-<use PhysRevE.111.024101.pdf, page 5>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page5 used on input line 625
+<use PhysRevE.111.024101.pdf, page 3>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page3 used on input line 633
 .
 (pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
 File: PhysRevE.111.024101.pdf Graphic file (type pdf)
-<use PhysRevE.111.024101.pdf, page 5>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page5 used on input line 625
+<use PhysRevE.111.024101.pdf, page 3>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page3 used on input line 633
 .
 (pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
 File: PhysRevE.111.024101.pdf Graphic file (type pdf)
-<use PhysRevE.111.024101.pdf, page 5>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page5 used on input line 625
+<use PhysRevE.111.024101.pdf, page 3>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page3 used on input line 633
 .
 (pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
  [239 <./PhysRevE.111.024101.pdf>]
-<PhysRevE.111.024101.pdf, id=6829, page=6, 609.81427pt x 813.0375pt>
+<PhysRevE.111.024101.pdf, id=6867, page=4, 609.81427pt x 813.0375pt>
 File: PhysRevE.111.024101.pdf Graphic file (type pdf)
-<use PhysRevE.111.024101.pdf, page 6>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page6 used on input line 625
+<use PhysRevE.111.024101.pdf, page 4>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page4 used on input line 633
 .
 (pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
 File: PhysRevE.111.024101.pdf Graphic file (type pdf)
-<use PhysRevE.111.024101.pdf, page 6>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page6 used on input line 625
+<use PhysRevE.111.024101.pdf, page 4>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page4 used on input line 633
 .
 (pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
 File: PhysRevE.111.024101.pdf Graphic file (type pdf)
-<use PhysRevE.111.024101.pdf, page 6>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page6 used on input line 625
+<use PhysRevE.111.024101.pdf, page 4>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page4 used on input line 633
 .
 (pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
  [240 <./PhysRevE.111.024101.pdf>]
-<PhysRevE.111.024101.pdf, id=6840, page=7, 609.81427pt x 813.0375pt>
+<PhysRevE.111.024101.pdf, id=6874, page=5, 609.81427pt x 813.0375pt>
 File: PhysRevE.111.024101.pdf Graphic file (type pdf)
-<use PhysRevE.111.024101.pdf, page 7>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page7 used on input line 625
+<use PhysRevE.111.024101.pdf, page 5>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page5 used on input line 633
 .
 (pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
 File: PhysRevE.111.024101.pdf Graphic file (type pdf)
-<use PhysRevE.111.024101.pdf, page 7>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page7 used on input line 625
+<use PhysRevE.111.024101.pdf, page 5>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page5 used on input line 633
 .
 (pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
 File: PhysRevE.111.024101.pdf Graphic file (type pdf)
-<use PhysRevE.111.024101.pdf, page 7>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page7 used on input line 625
+<use PhysRevE.111.024101.pdf, page 5>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page5 used on input line 633
 .
 (pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
  [241 <./PhysRevE.111.024101.pdf>]
-<PhysRevE.111.024101.pdf, id=6848, page=8, 609.81427pt x 813.0375pt>
+<PhysRevE.111.024101.pdf, id=6885, page=6, 609.81427pt x 813.0375pt>
 File: PhysRevE.111.024101.pdf Graphic file (type pdf)
-<use PhysRevE.111.024101.pdf, page 8>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page8 used on input line 625
+<use PhysRevE.111.024101.pdf, page 6>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page6 used on input line 633
 .
 (pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
 File: PhysRevE.111.024101.pdf Graphic file (type pdf)
-<use PhysRevE.111.024101.pdf, page 8>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page8 used on input line 625
+<use PhysRevE.111.024101.pdf, page 6>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page6 used on input line 633
 .
 (pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
 File: PhysRevE.111.024101.pdf Graphic file (type pdf)
-<use PhysRevE.111.024101.pdf, page 8>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page8 used on input line 625
+<use PhysRevE.111.024101.pdf, page 6>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page6 used on input line 633
 .
 (pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
  [242 <./PhysRevE.111.024101.pdf>]
-<PhysRevE.111.024101.pdf, id=6853, page=9, 609.81427pt x 813.0375pt>
+<PhysRevE.111.024101.pdf, id=6896, page=7, 609.81427pt x 813.0375pt>
 File: PhysRevE.111.024101.pdf Graphic file (type pdf)
-<use PhysRevE.111.024101.pdf, page 9>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page9 used on input line 625
+<use PhysRevE.111.024101.pdf, page 7>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page7 used on input line 633
 .
 (pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
 File: PhysRevE.111.024101.pdf Graphic file (type pdf)
-<use PhysRevE.111.024101.pdf, page 9>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page9 used on input line 625
+<use PhysRevE.111.024101.pdf, page 7>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page7 used on input line 633
 .
 (pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
 File: PhysRevE.111.024101.pdf Graphic file (type pdf)
-<use PhysRevE.111.024101.pdf, page 9>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page9 used on input line 625
+<use PhysRevE.111.024101.pdf, page 7>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page7 used on input line 633
 .
 (pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
  [243 <./PhysRevE.111.024101.pdf>]
-<PhysRevE.111.024101.pdf, id=6866, page=10, 609.81427pt x 813.0375pt>
+<PhysRevE.111.024101.pdf, id=6903, page=8, 609.81427pt x 813.0375pt>
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 8>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page8 used on input line 633
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 8>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page8 used on input line 633
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 8>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page8 used on input line 633
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+ [244 <./PhysRevE.111.024101.pdf>]
+<PhysRevE.111.024101.pdf, id=6908, page=9, 609.81427pt x 813.0375pt>
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 9>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page9 used on input line 633
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 9>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page9 used on input line 633
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 9>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page9 used on input line 633
+.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+ [245 <./PhysRevE.111.024101.pdf>]
+<PhysRevE.111.024101.pdf, id=6921, page=10, 609.81427pt x 813.0375pt>
 File: PhysRevE.111.024101.pdf Graphic file (type pdf)
 <use PhysRevE.111.024101.pdf, page 10>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page10 used on input line 62
-5.
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page10 used on input line 63
+3.
 (pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
 File: PhysRevE.111.024101.pdf Graphic file (type pdf)
 <use PhysRevE.111.024101.pdf, page 10>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page10 used on input line 62
-5.
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page10 used on input line 63
+3.
 (pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
 File: PhysRevE.111.024101.pdf Graphic file (type pdf)
 <use PhysRevE.111.024101.pdf, page 10>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page10 used on input line 62
-5.
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page10 used on input line 63
+3.
 (pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
 
-[244 <./PhysRevE.111.024101.pdf>]
-<PhysRevE.111.024101.pdf, id=6875, page=11, 609.81427pt x 813.0375pt>
+[246 <./PhysRevE.111.024101.pdf>]
+<PhysRevE.111.024101.pdf, id=6930, page=11, 609.81427pt x 813.0375pt>
 File: PhysRevE.111.024101.pdf Graphic file (type pdf)
 <use PhysRevE.111.024101.pdf, page 11>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page11 used on input line 62
-5.
-(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
-File: PhysRevE.111.024101.pdf Graphic file (type pdf)
-<use PhysRevE.111.024101.pdf, page 11>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page11 used on input line 62
-5.
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page11 used on input line 63
+3.
 (pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
 File: PhysRevE.111.024101.pdf Graphic file (type pdf)
 <use PhysRevE.111.024101.pdf, page 11>
-Package pdftex.def Info: PhysRevE.111.024101.pdf , page11 used on input line 62
-5.
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page11 used on input line 63
+3.
 (pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
- [245 <./PhysRevE.111.024101.pdf>] [246]
+File: PhysRevE.111.024101.pdf Graphic file (type pdf)
+<use PhysRevE.111.024101.pdf, page 11>
+Package pdftex.def Info: PhysRevE.111.024101.pdf , page11 used on input line 63
+3.
+(pdftex.def)             Requested size: 609.81277pt x 813.03552pt.
+ [247 <./PhysRevE.111.024101.pdf>] [248]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 694.
+(hyperref)                removing `math shift' on input line 704.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\lambda' on input line 694.
+(hyperref)                removing `\lambda' on input line 704.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 694.
+(hyperref)                removing `math shift' on input line 704.
 
-<Chapitre6/Figures/ScreenedPropagators.pdf, id=6893, 469.755pt x 325.215pt>
+<Chapitre6/Figures/ScreenedPropagators.pdf, id=6950, 469.755pt x 325.215pt>
 File: Chapitre6/Figures/ScreenedPropagators.pdf Graphic file (type pdf)
 <use Chapitre6/Figures/ScreenedPropagators.pdf>
 Package pdftex.def Info: Chapitre6/Figures/ScreenedPropagators.pdf  used on inp
-ut line 702.
+ut line 712.
 (pdftex.def)             Requested size: 273.14923pt x 189.10121pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Chapitre4/Figures/Avalanches/EvolLambdaAv.pdf, id=6896, 867.24pt x 289.08pt>
+<Chapitre4/Figures/Avalanches/EvolLambdaAv.pdf, id=6953, 867.24pt x 289.08pt>
 File: Chapitre4/Figures/Avalanches/EvolLambdaAv.pdf Graphic file (type pdf)
 <use Chapitre4/Figures/Avalanches/EvolLambdaAv.pdf>
 Package pdftex.def Info: Chapitre4/Figures/Avalanches/EvolLambdaAv.pdf  used on
- input line 711.
+ input line 721.
 (pdftex.def)             Requested size: 455.24411pt x 151.74721pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[247]
-<Chapitre6/Figures/RescaleScreenedAv.pdf, id=6908, 462.52798pt x 346.89601pt>
+[249]
+<Chapitre6/Figures/RescaleScreenedAv.pdf, id=6965, 462.52798pt x 346.89601pt>
 File: Chapitre6/Figures/RescaleScreenedAv.pdf Graphic file (type pdf)
 <use Chapitre6/Figures/RescaleScreenedAv.pdf>
 Package pdftex.def Info: Chapitre6/Figures/RescaleScreenedAv.pdf  used on input
- line 725.
+ line 735.
 (pdftex.def)             Requested size: 295.90588pt x 221.93858pt.
- [248 <./Chapitre6/Figures/ScreenedPropagators.pdf> <./Chapitre4/Figures/Avalan
-ches/EvolLambdaAv.pdf>] [249 <./Chapitre6/Figures/RescaleScreenedAv.pdf>]
-[250
+ [250 <./Chapitre6/Figures/ScreenedPropagators.pdf> <./Chapitre4/Figures/Avalan
+ches/EvolLambdaAv.pdf>] [251 <./Chapitre6/Figures/RescaleScreenedAv.pdf>]
+[252
 
 ]
 Annexe F.
-[251]
-Overfull \hbox (2.60706pt too wide) in paragraph at lines 760--760
+[253]
+Overfull \hbox (2.60706pt too wide) in paragraph at lines 772--772
 |[]\T1/lmr/bx/n/17.28 Équations de champ pour les tran-si-tions convexes| 
  []
 
-[252] [253]
-<Chapitre6/Figures/betaCDP_Langevin.pdf, id=7075, 612.74649pt x 243.01596pt>
+[254] [255]
+<Chapitre6/Figures/betaCDP_Langevin.pdf, id=7134, 612.74649pt x 243.01596pt>
 File: Chapitre6/Figures/betaCDP_Langevin.pdf Graphic file (type pdf)
 <use Chapitre6/Figures/betaCDP_Langevin.pdf>
 Package pdftex.def Info: Chapitre6/Figures/betaCDP_Langevin.pdf  used on input 
-line 804.
+line 818.
 (pdftex.def)             Requested size: 409.71692pt x 162.50095pt.
- [254 <./Chapitre6/Figures/betaCDP_Langevin.pdf>] [255]
-<Chapitre5/Figures/YieldingD.pdf, id=7119, 752.00142pt x 243.73566pt>
+ [256 <./Chapitre6/Figures/betaCDP_Langevin.pdf>] [257]
+<Chapitre5/Figures/YieldingD.pdf, id=7180, 752.00142pt x 243.73566pt>
 File: Chapitre5/Figures/YieldingD.pdf Graphic file (type pdf)
 <use Chapitre5/Figures/YieldingD.pdf>
-Package pdftex.def Info: Chapitre5/Figures/YieldingD.pdf  used on input line 85
-1.
+Package pdftex.def Info: Chapitre5/Figures/YieldingD.pdf  used on input line 86
+5.
 (pdftex.def)             Requested size: 455.24411pt x 147.55534pt.
- [256 <./Chapitre5/Figures/YieldingD.pdf>]
-<Chapitre5/Figures/SuspensionsB.pdf, id=7172, 754.29533pt x 243.79303pt>
+ [258 <./Chapitre5/Figures/YieldingD.pdf>]
+<Chapitre5/Figures/SuspensionsB.pdf, id=7234, 754.29533pt x 243.79303pt>
 File: Chapitre5/Figures/SuspensionsB.pdf Graphic file (type pdf)
 <use Chapitre5/Figures/SuspensionsB.pdf>
 Package pdftex.def Info: Chapitre5/Figures/SuspensionsB.pdf  used on input line
- 875.
+ 889.
 (pdftex.def)             Requested size: 455.24411pt x 147.13997pt.
- [257 <./Chapitre5/Figures/SuspensionsB.pdf>]
-<Chapitre5/Figures/MFCDP32.pdf, id=7225, 751.4098pt x 242.5609pt>
+ [259 <./Chapitre5/Figures/SuspensionsB.pdf>]
+<Chapitre5/Figures/MFCDP32.pdf, id=7287, 751.4098pt x 242.5609pt>
 File: Chapitre5/Figures/MFCDP32.pdf Graphic file (type pdf)
 <use Chapitre5/Figures/MFCDP32.pdf>
-Package pdftex.def Info: Chapitre5/Figures/MFCDP32.pdf  used on input line 902.
+Package pdftex.def Info: Chapitre5/Figures/MFCDP32.pdf  used on input line 916.
 
 (pdftex.def)             Requested size: 455.24411pt x 146.9552pt.
 
-[258 <./Chapitre5/Figures/MFCDP32.pdf>] [259] [260]
-<Chapitre6/Figures/MathematicaMunozDP.pdf, id=7311, 794.97pt x 289.08pt>
+[260 <./Chapitre5/Figures/MFCDP32.pdf>] [261] [262]
+<Chapitre6/Figures/MathematicaMunozDP.pdf, id=7374, 794.97pt x 289.08pt>
 File: Chapitre6/Figures/MathematicaMunozDP.pdf Graphic file (type pdf)
 <use Chapitre6/Figures/MathematicaMunozDP.pdf>
 Package pdftex.def Info: Chapitre6/Figures/MathematicaMunozDP.pdf  used on inpu
-t line 1013.
+t line 1027.
 (pdftex.def)             Requested size: 455.24411pt x 165.54922pt.
- [261 <./Chapitre6/Figures/MathematicaMunozDP.pdf>]) [262] [263]
+ [263 <./Chapitre6/Figures/MathematicaMunozDP.pdf>]) [264] [265]
 (./compilation_these_avec_page_de_garde_et_abstract.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 24486 strings out of 478287
- 474660 string characters out of 5849289
- 731814 words of memory out of 5000000
- 41025 multiletter control sequences out of 15000+600000
+ 24490 strings out of 478287
+ 474688 string characters out of 5849288
+ 731429 words of memory out of 5000000
+ 41027 multiletter control sequences out of 15000+600000
  613824 words of font info for 147 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,17n,82p,2011b,1074s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3011,11 +2990,11 @@ are/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam9.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on compilation_these_avec_page_de_garde_et_abstract.pdf (269 pag
-es, 11839850 bytes).
+Output written on compilation_these_avec_page_de_garde_et_abstract.pdf (271 pag
+es, 11884392 bytes).
 PDF statistics:
- 8138 PDF objects out of 8907 (max. 8388607)
- 6308 compressed objects within 64 object streams
- 1074 named destinations out of 1200 (max. 500000)
+ 8203 PDF objects out of 8907 (max. 8388607)
+ 6349 compressed objects within 64 object streams
+ 1076 named destinations out of 1200 (max. 500000)
  1813 words of extra memory for PDF output out of 10000 (max. 10000000)
 
