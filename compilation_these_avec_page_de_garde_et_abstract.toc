@@ -347,19 +347,19 @@
 \contentsline {subparagraph}{}{70}{subsubsection.2.6.3.1}%
 \contentsline {subparagraph}{}{71}{figure.caption.33}%
 \contentsline {subparagraph}{}{71}{figure.caption.33}%
-\contentsline {subparagraph}{}{72}{figure.caption.33}%
+\contentsline {subparagraph}{}{71}{figure.caption.33}%
 \contentsline {subparagraph}{}{72}{figure.caption.33}%
 \contentsline {subsubsection}{\numberline {2.6.3.2}Perspectives}{72}{subsubsection.2.6.3.2}%
 \contentsline {subparagraph}{}{72}{subsubsection.2.6.3.2}%
 \contentsline {subparagraph}{}{72}{subsubsection.2.6.3.2}%
 \contentsline {subparagraph}{}{73}{figure.caption.34}%
-\contentsline {subparagraph}{}{73}{figure.caption.35}%
+\contentsline {subparagraph}{}{74}{figure.caption.35}%
 \contentsline {subparagraph}{}{74}{figure.caption.35}%
 \contentsline {subsubsection}{\numberline {2.6.3.3}Retour sur les exposants critiques}{74}{subsubsection.2.6.3.3}%
 \contentsline {subparagraph}{}{74}{subsubsection.2.6.3.3}%
 \contentsline {subparagraph}{}{74}{subsubsection.2.6.3.3}%
-\contentsline {section}{\numberline {2.7}Conclusion de chapitre}{75}{section.2.7}%
-\contentsline {subparagraph}{}{75}{section.2.7}%
+\contentsline {section}{\numberline {2.7}Conclusion de chapitre}{74}{section.2.7}%
+\contentsline {subparagraph}{}{74}{section.2.7}%
 \contentsline {subparagraph}{}{75}{section.2.7}%
 \contentsline {subparagraph}{}{75}{section.2.7}%
 \contentsline {subparagraph}{}{75}{section.2.7}%
