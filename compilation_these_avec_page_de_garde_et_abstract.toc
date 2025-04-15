@@ -220,7 +220,7 @@
 \contentsline {subparagraph}{}{46}{figure.caption.19}%
 \contentsline {subparagraph}{}{47}{figure.caption.19}%
 \contentsline {subsection}{\numberline {2.1.2}Formulation théorique dans la classe CDP}{47}{subsection.2.1.2}%
-\contentsline {paragraph}{Équations de champ et transport de masse}{47}{subsection.2.1.2}%
+\contentsline {paragraph}{Équations de champ et transport à longue portée}{47}{subsection.2.1.2}%
 \contentsline {subparagraph}{}{47}{subsection.2.1.2}%
 \contentsline {subparagraph}{}{48}{equation.2.1.3}%
 \contentsline {paragraph}{Zone continue d'évolution des exposants}{48}{equation.2.1.3}%
@@ -317,8 +317,8 @@
 \contentsline {section}{\numberline {2.5}Exposants critiques}{62}{section.2.5}%
 \contentsline {subparagraph}{}{62}{section.2.5}%
 \contentsline {subparagraph}{}{62}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Exposants statiques}{62}{subsection.2.5.1}%
-\contentsline {subparagraph}{}{62}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.1}Exposants statiques}{63}{subsection.2.5.1}%
+\contentsline {subparagraph}{}{63}{subsection.2.5.1}%
 \contentsline {subparagraph}{}{63}{figure.caption.25}%
 \contentsline {subparagraph}{}{63}{figure.caption.25}%
 \contentsline {subsection}{\numberline {2.5.2}Exposant dynamique}{64}{subsection.2.5.2}%
@@ -334,7 +334,7 @@
 \contentsline {subsection}{\numberline {2.6.2}Difficultés dans les mesures d'hyperuniformité}{67}{subsection.2.6.2}%
 \contentsline {subsubsection}{\numberline {2.6.2.1}Importance de la conservation du centre de masse}{67}{subsubsection.2.6.2.1}%
 \contentsline {subparagraph}{}{67}{subsubsection.2.6.2.1}%
-\contentsline {subparagraph}{}{67}{subsubsection.2.6.2.1}%
+\contentsline {subparagraph}{}{68}{subsubsection.2.6.2.1}%
 \contentsline {subparagraph}{}{69}{figure.caption.31}%
 \contentsline {subparagraph}{}{69}{figure.caption.31}%
 \contentsline {subsubsection}{\numberline {2.6.2.2}Effet de taille finie}{69}{subsubsection.2.6.2.2}%
