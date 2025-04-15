@@ -911,7 +911,7 @@
 \contentsline {subparagraph}{}{198}{chapter*.93}%
 \contentsline {chapter}{Bibliographie}{199}{chapter*.94}%
 \contentsline {chapter}{Appendices}{211}{section*.95}%
-\contentsline {chapter}{\numberline {A}Matériels généraux}{213}{appendix.A}%
+\contentsline {chapter}{\numberline {A}Conventions et implémentations}{213}{appendix.A}%
 \contentsline {section}{\numberline {A.1}Conventions}{213}{section.A.1}%
 \contentsline {subparagraph}{}{213}{section.A.1}%
 \contentsline {subparagraph}{}{213}{equation.A.1.2}%

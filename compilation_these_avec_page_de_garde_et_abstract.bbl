@@ -510,7 +510,7 @@ Z.~Ma, ``Hyperuniformity of generalized random organization models,'' {\em
   Physical Review E}, vol.~99, no.~2, 2019.
 
 \bibitem{wiese_blabla}
-``Conversations privées avec k. wiese.''
+``Conversations privées avec {K}. {W}iese.''
 
 \bibitem{ge_rheology_2022}
 Z.~Ge and G.~J. Elfring, ``Rheology of periodically sheared suspensions
@@ -854,6 +854,14 @@ A.~D. Poularikas, ed., {\em Transforms and {Applications} {Handbook}}.
   V.~Moll, I.~S. Gradshteyn, and I.~M. Ryzhik, eds.), pp.~637--775, Boston:
   Academic Press, Jan. 2014.
 
+\bibitem{chechkin_fundamentals_2006}
+A.~V. Chechkin, V.~Y. Gonchar, J.~Klafter, and R.~Metzler, ``Fundamentals of
+  {Lévy} {Flight} {Processes},'' in {\em Fractals, {Diffusion}, and
+  {Relaxation} in {Disordered} {Complex} {Systems}}, pp.~439--496, John Wiley
+  \& Sons, Ltd, 2006.
+\newblock Section: 9 \_eprint:
+  https://onlinelibrary.wiley.com/doi/pdf/10.1002/0470037148.ch9.
+
 \bibitem{jespersen_levy_1999}
 S.~Jespersen, R.~Metzler, and H.~C. Fogedby, ``L{\textbackslash}'evy flights in
   external force fields: {Langevin} and fractional {Fokker}-{Planck} equations
@@ -877,6 +885,11 @@ R.~Weron, ``On the {Chambers}-{Mallows}-{Stuck} method for simulating skewed
 D.~Long and A.~Ajdari, ``A note on the screening of hydrodynamic interactions,
   in electrophoresis, and in porous media,'' {\em The European Physical Journal
   E}, vol.~4, pp.~29--32, Jan. 2001.
+
+\bibitem{brinkman_calculation_1949}
+H.~C. Brinkman, ``A calculation of the viscous force exerted by a flowing fluid
+  on a dense swarm of particles,'' {\em Flow, Turbulence and Combustion},
+  vol.~1, pp.~27--34, Dec. 1949.
 
 \bibitem{weiss_finite_2014}
 J.~Weiss, L.~Girard, F.~Gimbert, D.~Amitrano, and D.~Vandembroucq, ``({Finite})

@@ -4,7 +4,7 @@
 
 \setcounter{chapter}{0}
 
-\chapter{Matériels généraux}
+\chapter{Conventions et implémentations}
 
 \section{Conventions}
 
@@ -63,7 +63,7 @@
 
 \label{app:exp_depinning}
 
-\subparagraph{}Dans cette section, nous présentons deux réalisation de la transition de dépiégeage en matière molle.
+\subparagraph{}Dans cette section, nous présentons deux réalisations de la transition de dépiégeage en matière molle en présence d'interactions à longue portée.
 
 \paragraph{Dynamique de mouillage à la ligne triple}
 
@@ -148,7 +148,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 \begin{equation}
 \begin{aligned}
 	\hat{\sigma}_{ij} &= 2\mu \hat{G}_{ijkl}\hat{\epsilon}_{kl}^\text{pl}\\
-	\hat{G}_{ijkl} &= \frac{q_i q_l\delta_{kj}+q_j q_l\delta_{ki}}{q^2}-2\frac{q_iq_jq_kq_l}{q^4}-\delta_{ki}\delta{jl}
+	\hat{G}_{ijkl} &= \frac{q_i q_l\delta_{kj}+q_j q_l\delta_{ki}}{q^2}-2\frac{q_iq_jq_kq_l}{q^4}-\delta_{ki}\delta_{jl}
 \end{aligned}
 \label{eq:eshelbygene}
 \end{equation}
@@ -172,7 +172,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \label{sec:Annexe_Interactions_Hydro}
 
-\subparagraph{}Dans cette partie, nous développons le raisonnement dont les conclusions ont été exposées à la \autoref{sec:ref_interac_visc}. Nous proposons donc de montrer que l'interaction hydrodynamique entre deux particule immergées dans un fluide est génériquement à longue portée. En commençant par dériver sa forme dans le cas idéal, nous montrerons comment un raisonnement basé sur des principes simples de conservation permet d'appliquer cette analyse à toute une zoologie de systèmes, confirmant l'omniprésence de la longue portée dans les dispositifs expérimentaux et donc, a fortiori, dans la transition de réversibilité.
+\subparagraph{}Dans cette partie, nous développons le raisonnement dont les conclusions ont été exposées à la \autoref{sec:ref_interac_visc}. Nous proposons donc de montrer que l'interaction hydrodynamique entre deux particules immergées dans un fluide est génériquement à longue portée. En commençant par dériver sa forme dans le cas idéal, nous montrerons comment un raisonnement basé sur des principes simples de conservation permet d'appliquer cette analyse à toute une zoologie de systèmes, confirmant l'omniprésence de la longue portée dans les dispositifs expérimentaux et donc, a fortiori, dans la transition de réversibilité.
 
 \paragraph{Hydrodynamique en milieu infini}
 
@@ -206,7 +206,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \subparagraph{}En plus de ce premier effet, nous pouvons identifier une autre source de modification de l'écoulement. Celle-ci vient de la conservation de la masse de fluide. En fait, lors de son déplacement, la particule $1$ modifie la répartition de masse dans le fluide. Celle-ci peut alors être vue, en plus d'une source de quantité de mouvement, comme un dipôle de source de matière (avec création de masse à l'avant du mouvement et suppression de masse à l'arrière). En 3D, un tel dipôle génère une vitesse d'écoulement décroissant comme $\sim 1/r^3$, générant ainsi un terme additionnel à l'\autoref{eq:diamantinfini} en $\sim 1/r^3$. Cependant, à grande distance, cette contribution est négligeable devant celle décroissant comme $\sim 1/r$. On retrouve donc bien en champ lointain le tenseur d'Oseen.
 
-\subparagraph{}Ce résultat basé sur les deux principes de conservation sont très généraux et permettent facilement d'étendre leur validité à d'autre situations. Notamment, dans une suspension de plus de deux particules, la forme de l'interaction en champ lointain ne sera pas modifiée puisque dans ce cas on a toujours conservation de la quantité de mouvement et de la masse \cite{diamant_hydrodynamic_2009}. A priori, dans un système assimilé à un milieu infini, les interactions hydrodynamiques entre les particules lors d'un cycle de cisaillement sont donc bien à longue portée. Toutefois une telle approximation de milieu infini est parfois non valable dans les dispositifs expérimentaux réalisant la transition de réversibilité. Dans ces cas là, le raisonnement doit être adapté.
+\subparagraph{}Ce résultat basé sur les deux principes de conservation sont très généraux et permettent facilement d'étendre leur validité à d'autres situations. Notamment, dans une suspension de plus de deux particules, la forme de l'interaction en champ lointain ne sera pas modifiée puisque dans ce cas on a toujours conservation de la quantité de mouvement et de la masse \cite{diamant_hydrodynamic_2009}. A priori, dans un système assimilé à un milieu infini, les interactions hydrodynamiques entre les particules lors d'un cycle de cisaillement sont donc bien à longue portée. Toutefois une telle approximation de milieu infini est parfois non valable dans les dispositifs expérimentaux réalisant la transition de réversibilité. Dans ces cas là, le raisonnement doit être adapté.
 
 \paragraph{Hydrodynamique en milieux complexes}
 
@@ -218,14 +218,14 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \noindent Ainsi, sous confinement, les interactions médiées par le fluide restent à longue portée.
 
-\subparagraph{}Un autre système envisageable est celui d'un fluide contenu dans un film suspendu (i.e. entouré de gaz par exemple, comme dans une bulle de savon). Dans ce cas, la quantité de mouvement et la masse sont conservées mais l'écoulement prend place dans un milieu 2D. La conservation de la quantité de mouvement implique donc cette fois un flux local évoluant comme $\sim 1/r$ et donc une vitesse d'écoulement se comportant comme $\sim \ln (r)$, soit des interactions d'une portée extrêmement grande.
+\subparagraph{}Un autre système envisageable est celui d'un fluide contenu dans un film suspendu (i.e. entouré de gaz par exemple, comme dans une bulle de savon). Dans ce cas, la quantité de mouvement et la masse sont conservées mais l'écoulement prend place dans un milieu 2D. La conservation de la quantité de mouvement implique donc cette fois un flux local évoluant comme $\sim 1/r$ et donc une vitesse d'écoulement se comportant comme $\sim \ln (r/L)$ avec $L$ la taille du système, soit des interactions d'une portée extrêmement grande.
 
 \subparagraph{}Enfin une dernière situation envisageable, bien que peut-être moins pertinente dans le cas de la transition de réversibilité, est celle d'un écoulement dans un milieu poreux. Dans ce cas, la quantité de mouvement n'est pas conservée, comme dans le cas du confinement entre deux plaques, mais cette fois la conservation de la masse prend place dans un espace 3D. Dans ce cas, le raisonnement de conservation nous amène à un propagateur hydrodynamique décroissant comme $\sim 1/r^3$.
 
-\subparagraph{}De manière toute à fait générale, le fluide suspendant permet donc de médier des interactions entre les particules, représentée par un propagateur hydrodynamique de la forme :
+\subparagraph{}De manière tout à fait générale, le fluide suspendant permet donc de médier des interactions entre les particules, représentées par un propagateur hydrodynamique de la forme :
 
 \begin{equation}
-	G_{ij} \sim \frac{1}{r^\gamma}\left( \delta_{ij}-2\frac{r_ir_j}{r^2} \right)
+	G_{ij} \sim \frac{1}{r^\gamma}\left( \delta_{ij}+C\frac{r_ir_j}{r^2} \right)
 \end{equation}
 
 \noindent avec $\gamma$ un entier pouvant prendre différentes valeurs en fonction du dispositif spécifique étudié. Via a minima la conservation de la masse, ces interactions présentent donc toujours la particularité d'être à longue portée. 
@@ -305,7 +305,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 \subparagraph{}Nous commençons par utiliser le lien entre transformée de Fourier d'une fonction radiale et transformée de Hankel \cite{poularikas_transforms_2018} permettant d'obtenir\footnote{Il suffit, à partir de la définition de la transformée de Fourier, de faire l'intégrale sur la variable angulaire $\theta$ qui permet d'obtenir la fonction de Bessel de première espèce.} :
 
 \begin{equation}
-	\hat{f}(\mathbf{q}) = q^{\frac{2-D}{2}}(2\pi)^{\frac{D}{2}}\int\mathrm{d}r~J_{\frac{D-2}{2}}(qr)r^\frac{D-2}{2}f(\mathbf{r})r
+	\hat{f}(\mathbf{q}) = q^{\frac{2-D}{2}}(2\pi)^{\frac{D}{2}}\int\mathrm{d}r~J_{\frac{D-2}{2}}(qr)r^\frac{D-2}{2}f(r)r
 \end{equation}
 
 \noindent qui dans notre cas amène à : 
@@ -347,15 +347,15 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 \end{aligned}
 \end{equation}
 
-\noindent peut être vue comme une équation de Fokker-Planck. Suivant cette idée, nous pouvons associer à ce modèle une dynamique de Langevin simple sur la variable $\mathbf{r}$ qui permet, statistiquement, de reconstruire le comportement de la distribution $P$.
+\noindent peut être vue comme une équation de Fokker-Planck généralisée. Suivant cette idée, nous pouvons associer à ce modèle une dynamique de Langevin simple avec diffusion anormale sur la variable $\mathbf{r}$ qui permet, statistiquement, de reconstruire le comportement de la distribution $P$ \cite{chechkin_fundamentals_2006}.
 
-\subparagraph{}En pratique, nous considérons donc $N$ particules dont les positions $\mathbf{r}_i$ évoluent dans un espace de dimension $D$, présentant une barrière en $|\mathbf{r}|=R$. La dynamique du mouvement des particules se fait en temps continu, discrétisé selon un pas de temps $\Delta t$. \`A chaque pas de temps $t_i$, chaque particule effectue un saut distribué selon une loi de Lévy stable $S_\mu(0,c,0)$ définie par sa fonction caractéristique :
+\subparagraph{}En pratique, nous considérons donc $N$ particules dont les positions $\mathbf{r}_i$ évoluent dans un espace de dimension $D$, présentant un bord absorbant en $|\mathbf{r}|=R$. La dynamique du mouvement des particules se fait en temps continu, discrétisé selon un pas de temps $\Delta t$. \`A chaque pas de temps $t_i$, chaque particule effectue un saut distribué selon une loi de Lévy stable $S_\mu(0,c,0)$ définie par sa fonction caractéristique :
 
 \begin{equation}
 	\phi(k) = \exp (-|ck|^\mu)
 \end{equation}
 
-\noindent modélisant le terme en dérivée fractionnaire dans l'équation sur $P$ \cite{hinrichsen_non_equilibrium_2007, jespersen_levy_1999}. Par équivalence des deux descriptions, la constante $c$ est alors définie selon\footnote{\todo{expliquer la réflexion derrière vite fait}} :
+\noindent modélisant le terme en dérivée fractionnaire dans l'équation sur $P$ \cite{hinrichsen_non_equilibrium_2007, jespersen_levy_1999}. Par équivalence des deux descriptions, la constante $c$ est alors définie selon\footnote{De cette manière, un saut effectué sur un pas de temps $n\times\Delta t$ est statistiquement équivalent à la succession de $n$ sauts effectués sur un pas de temps $\Delta t$ et un saut effectué avec une activité $n\times \Gamma$ est statistiquement équivalent à la succession de $n$ sauts effectués avec une activité $\Gamma$.} :
 
 \begin{equation}
 	c = \left( s \Gamma(t) \Delta t \right)^{1/\mu}
@@ -363,7 +363,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \noindent la constante $s$ dans la vision dynamique de population jouant un rôle similaire à la constante $a$ dans l'équation d'évolution de la distribution. Il est théoriquement possible de relier $a$ à $s$ mais ce n'est pas nécessaire dans notre cas puisque nous nous intéressons simplement au comportement critique associé. Lorsqu'une particule est au-delà de la barrière, celle-ci est remise à l'origine du repère selon un taux $1/\tau$, représentant alors les deux derniers termes du membre de droite dans l'équation de Fokker-Planck.
 
-\subparagraph{}Dans ce modèle, les particules n'interagissent pas directement entre elles, mais indirectement via la distribution de sauts qui dépend de l'activité dans le système $\tau\Gamma (t)$. Celle-ci est calculée à chaque pas de temps comme la proportion de particules au-delà de la barrière située en $|\mathbf{r}|=R$. Nous représentons à la \autoref{fig:walker} La dynamique d'une de ces particules en 2D pour différentes valeurs de $\mu$.
+\subparagraph{}Dans ce modèle, les particules n'interagissent pas directement entre elles, mais indirectement via la distribution de sauts qui dépend de l'activité dans le système $\tau\Gamma (t)$. Celle-ci est calculée à chaque pas de temps comme la proportion de particules au-delà de la barrière située en $|\mathbf{r}|=R$. Nous représentons à la \autoref{fig:walker} la dynamique d'une de ces particules en 2D pour différentes valeurs de $\mu$.
 
 \begin{figure}[h]
 	\centering
@@ -526,10 +526,10 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 \paragraph{}Nous commençons par partir du résultat général :
 
 \begin{equation}
-    \mathcal{F}\left( \frac{1}{r^\alpha} \right)=\frac{\pi^{\alpha-d / 2} \Gamma((d-\alpha) / 2)}{\Gamma(\alpha / 2)} \times\frac{1}{|k|^{d-\alpha}}
+    \mathcal{F}\left( \frac{1}{r^\alpha} \right)=\frac{\pi^{\alpha-d / 2} \Gamma((D-\alpha) / 2)}{\Gamma(\alpha / 2)} \times\frac{1}{|k|^{D-\alpha}}
 \end{equation}
 
-\noindent avec $\mathbf{q} = 2\pi \mathbf{k}$ et $d$ la dimension de l'espace. Ce résultat est valable pour $0<\alpha<d$ dans le sens des fonctions mais peut être étendu à tout $\alpha$ au sens des distributions. De manière équivalente nous avons donc :
+\noindent avec $\mathbf{q} = 2\pi \mathbf{k}$ et $d$ la dimension de l'espace. Ce résultat est valable pour $0<\alpha<D$ dans le sens des fonctions mais peut être étendu à tout $\alpha$ au sens des distributions. De manière équivalente nous avons donc en 2D :
 
 \begin{equation}
     \mathcal{F}^{-1}\left( \frac{1}{\lvert k \rvert^\beta} \right) = \frac{\Gamma\left( 1-\frac{\beta}{2} \right)}{\pi^{1-\beta}\Gamma\left( \frac{\beta}{2} \right)}\times\frac{1}{r^{2-\beta}}
@@ -579,7 +579,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \paragraph{Développement autour de $\beta = 4$/$\alpha=2$}
 
-\subparagraph{}Les entiers négatifs (zéro inclut) sont des pôles de la fonction $\Gamma$. Le cas $\beta = 4$ correspondant au propagateur d'Eshelby doit être pris comme une limite. Pour ce faire, nous utilisons le développement :
+\subparagraph{}Les entiers négatifs (zéro inclus) sont des pôles de la fonction $\Gamma$. Le cas $\beta = 4$ correspondant au propagateur d'Eshelby doit être pris comme une limite. Pour ce faire, nous utilisons le développement :
 
 \begin{equation}
     \Gamma(-n+\epsilon) = \frac{(-1)^n}{n!}\left( \frac{1}{\epsilon}+\mathcal{O}(1) \right)
@@ -644,7 +644,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \subparagraph{}De la même façon que dans le cas des suspensions, les dispositifs expérimentaux étudiés dans le cas de la transition vers l'écoulement peuvent agir significativement sur la portée des interactions. Si le cas de l'interaction d'Eshelby est le plus plébiscité dans la communauté des matériaux amorphes, nous pouvons imaginer une variation de la modification de contrainte induite par un réarrangement plastique dans un dispositif différent. En effet, si l'on considère un écoulement quasi-2D dans le plan $(\hat{\mathbf{e}}_x, \hat{\mathbf{e}}_y)$ entre deux plaques rigides parallèles aux plans de côte $z$ constante, alors les frottements entre le fluide à seuil s'écoulant et les plaques vont induire une dissipation modifiant la redistribution de contrainte suite à un évènement plastique. 
 
-\subparagraph{}Pour le comprendre, nous proposons modéliser ces frottements par un terme de dissipation proportionnel à la défomation du fluide de la même manière que dans le cas de l'étude des écoulements en milieux poreux \cite{long_note_2001}. En reprenant le cadre décrit à la \autoref{sec:Annexe_Eshelby}, la condition d'équilibre mécanique dans l'espace 2D effectif devient :
+\subparagraph{}Pour le comprendre, nous proposons de modéliser ces frottements par un terme de dissipation proportionnel à la déformation du fluide de la même manière que dans le cas de l'étude des écoulements en milieux poreux \cite{long_note_2001} ou fluides de Brinkman \cite{brinkman_calculation_1949}. En reprenant le cadre décrit à la \autoref{sec:Annexe_Eshelby}, la condition d'équilibre mécanique dans l'espace 2D effectif devient :
 
 \begin{equation}
 	-\partial_i P^1(\mathbf{r}) + \partial_j\sigma_{ij}^1(\mathbf{r}) - \mu\lambda^2 u^1_{i}= 0
@@ -724,7 +724,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 	\label{fig:Evol}
 \end{figure}
 
-\subparagraph{}Pour le plus faible écrantage ($\lambda^2 = 10^{-3}$), nous retrouvons des distributions en loi de puissance avec $\tau \approx 1.35$ comme dans le cas du modèle de Picard ($\lambda = 0$). Par contre, à mesure que $\lambda$ augmente, ces lois de puissance montrent un cut-off $S_c(\lambda)$ diminuant peu à peu. De ce fait, à $\lambda=1$ la criticalité avalancheuse est perdue à toutes les tailles. Cette diminution du cut-off ne dépendant pas de la taille du système, cela suggère qu'il est uniquement contrôlé par la longueur d'écrantage $\xi \sim 1/\lambda$. En d'autres termes, il n'y aurait des avalanches qu'en dessous de la longueur d'écrantage. Au-delà, le système perd sa criticalité. Etant donné qu'en dessous de $\xi$ le propagateur prend la forme de celui du propagateur d'Eshelby, il est raisonnable de penser que les avalanches ont la même structure que celles dans le modèle de Picard dans la zone non-écrantée. Pour valider cette hypothèse, nous redimensionnons les distributions obtenues pour les systèmes de plus grande taille ($L=512$) selon :
+\subparagraph{}Pour le plus faible écrantage ($\lambda^2 = 10^{-3}$), nous retrouvons des distributions en loi de puissance avec $\tau \approx 1.35$ comme dans le cas du modèle de Picard ($\lambda = 0$). Par contre, à mesure que $\lambda$ augmente, ces lois de puissance montrent un cut-off $S_c(\lambda)$ diminuant peu à peu. De ce fait, à $\lambda=1$ la criticalité avalancheuse est perdue à toutes les tailles. Cette diminution du cut-off ne dépendant pas de la taille du système, cela suggère qu'il est uniquement contrôlé par la longueur d'écrantage $\xi \sim 1/\lambda$. En d'autres termes, il n'y aurait des avalanches qu'en-dessous de la longueur d'écrantage. Au-delà, le système perd sa criticalité. Etant donné qu'en-dessous de $\xi$ le propagateur prend la forme de celui du propagateur d'Eshelby, il est raisonnable de penser que les avalanches ont la même structure que celles dans le modèle de Picard dans la zone non-écrantée. Pour valider cette hypothèse, nous redimensionnons les distributions obtenues pour les systèmes de plus grande taille ($L=512$) selon :
 
 \begin{equation}
 	P(S) \rightarrow \frac{P(S)}{\xi^{-\tau_\text{eff}d_{f,\text{eff}}}},\quad S\rightarrow \frac{S}{\xi^{d_{f,\text{eff}}}}, \quad \xi = \frac{1}{\lambda}
@@ -752,13 +752,13 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \subparagraph{}Dans cette partie, nous présentons le modèle élastoplastique que nous avons implémenté pour déterminer l'influence de la structure spatiale du propagateur dans le modèle de Picard (voir \autoref{chapter:discussion}).
 
-\subparagraph{}Nous considérons un modèle élastoplastique analogue au modèle de Picard mais dont l'influence d'un réarrangement plastique est isotrope. En fait, ce modèle présente exactement la même philosophie que celle portée par la modélisation dans le $\alpha$-ROM : l'influence d'un évènement d'activité sur les agents du système est prise en compte de manière statistique (voir \autoref{sec:ImplNumTBLRR}). Afin de mettre en place cette dynamique, elle est, comme dans le cas du $\alpha$-ROM, discrétisée en pas de temps indivisibles. Dans le $\alpha$-ROM, un pas de temps représente le déplacement des particules actives. Dans ce modèle élastoplastique, le pas de temps représente la relaxation d'un site plastique. La dynamique est donc intrinséquement discrète dans le temps, à la différence du modèle de Picard qui reposait sur des règles d'évolution continue dans le temps (voir l'\autoref{eq:PicardRules})
+\subparagraph{}Nous considérons un modèle élastoplastique analogue au modèle de Picard mais dont l'influence d'un réarrangement plastique est isotrope. En fait, ce modèle présente exactement la même philosophie que celle portée par la modélisation dans le $\alpha$-ROM : l'influence d'un évènement d'activité sur les agents du système est prise en compte de manière statistique (voir \autoref{sec:ImplNumTBLRR}). Afin de mettre en place cette dynamique, elle est, comme dans le cas du $\alpha$-ROM, discrétisée en pas de temps indivisibles. Dans le $\alpha$-ROM, un pas de temps représente le déplacement des particules actives. Dans ce modèle élastoplastique, le pas de temps représente la relaxation d'un site plastique. La dynamique est donc intrinséquement discrète dans le temps, à la différence du modèle de Picard qui reposait sur des règles d'évolution continue dans le temps (voir l'\autoref{eq:PicardRules}).
 
 \subparagraph{}En pratique, nous considérons, comme dans le cas du modèle de Picard, $N = L\times L$ sites élastoplastiques, indexé par un entier $i$, disposés sur un réseau carré bipériodique. \`A chaque site est affecté une contrainte locale $\sigma_i$, une contrainte seuil $\sigma_Y$ et un état $n_i$. \`A chaque pas de temps $t_n$ de la dynamique, l'algorithme suivi est le suivant :
 
 \begin{enumerate}
 	\item Tous les sites avec $\sigma_i > \sigma_Y$ sont considérés comme actifs $n_i=1$.
-	\item Chaque site reçoit un kick de contrainte aléatoire et de taille typique $\delta\sigma_i$, défini comme la convolution $\sqrt{\sum_{j\neq i}G_{ij}^2A_j}$ avec $G_{ij}^2$ le propagateur défini de la même façon que le propagateur dans le $\alpha$-ROM, i.e. isotrope et décroissant comme $\sim 1/r^{2\alpha}$ (voir \autoref{sec:ImplNumTBLRR}).
+	\item Chaque site reçoit un incrément de contrainte aléatoire et de taille typique $\delta\sigma_i$, défini comme la convolution $\sqrt{\sum_{j\neq i}G_{ij}^2A_j}$ avec $G_{ij}^2$ le propagateur défini de la même façon que le propagateur dans le $\alpha$-ROM, i.e. isotrope et décroissant comme $\sim 1/r^{2\alpha}$ (voir \autoref{sec:ImplNumTBLRR}).
 	\item La contrainte des sites actifs est relaxée vers une valeur $\sigma_0 < \sigma_Y$.
 	\item Chaque site reçoit un ajout de contrainte $\delta\Sigma$ permettant de conserver la contrainte globale $\Sigma = \frac{1}{N}\sum_{i}\sigma_i$.
 \end{enumerate}
@@ -783,7 +783,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \subparagraph{}Cette motivation n'est en réalité pas nouvelle, autant du point de vue de la transition vers l'écoulement que du point de vue de la transition de réversibilité. En effet, du fait de sa proximité avec la transition de dépiégeage, certaines études ont cherché à établir une théorie continue homologue dans le cas de la transition vers l'écoulement \cite{tyukodi_depinning_2016, weiss_finite_2014}. Les équations proposées sont alors directement tirées des règles dynamiques des modèles élastoplastiques. Le problème est que celles-ci font intervenir la notion d'un seuil local, inadaptée à une approche macroscopique à grande échelle. Par ailleurs, l'introduction de l'interaction d'Eshelby dans une théorie continue sans seuil comme l'équation de quenched-Edward-Wilkinson pose problème, puisque la non-positivité du propagateur rend la procédure de renormalisation habituelle impossible \cite{wiese_blabla}. Une description continue adéquate manque donc toujours à la transition vers l'écoulement.
 
-\subparagraph{}Du côté de la transition de réversibilité, l'étude menée par Mari et al. \cite{mari_absorbing_2022} avait mené à la suggestion d'une théorie de champ expliquant la convexité de la transition. Les auteurs ont proposé une traduction du mécanisme de de création d'activité par diffusion comme une modification du terme non-linéaire en $\sim A^2$ dans l'équation CDP sur le champ d'activité en un terme en $\sim A^{3/2}$. Dans une approche champ moyen naïve, cela permet effectivement d'obtenir un exposant $\beta = 2$ et donc une transition convexe. Toutefois, si cette théorie était appuyée sur des arguments microscopiques, elle n'a jamais été testée afin de comprendre si cette convexité est effectivement retrouvée en dimension finie.
+\subparagraph{}Du côté de la transition de réversibilité, l'étude menée par Mari et al. \cite{mari_absorbing_2022} avait mené à la suggestion d'une théorie de champ rendant compte de la convexité de la transition. Les auteurs ont proposé une traduction du mécanisme de création d'activité par diffusion comme une modification du terme non-linéaire en $\sim A^2$ dans l'équation CDP sur le champ d'activité en un terme en $\sim A^{3/2}$. Dans une approche champ moyen naïve, cela permet effectivement d'obtenir un exposant $\beta = 2$ et donc une transition convexe. Toutefois, si cette théorie était appuyée sur des arguments microscopiques, elle n'a jamais été testée afin de comprendre si cette convexité est effectivement retrouvée en dimension finie.
 
 \subparagraph{}Il existe une tension entre cette recherche classique d'une théorie continue pour les transitions convexes et le cadre de champ moyen adapté que nous avons présenté précédemment avec les modèles de type Hébraud-Lequeux. En effet, il n'est pas évident de voir comment l'approche intrinsèquement microscopique ou mésoscopique sur la quantité conservée peut être traduite dans un langage de théorie de champ.
 
@@ -791,7 +791,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \subsection{Cadre de travail}
 
-\subparagraph{}Établir une théorie de champ n'est de façon générale pas quelque chose d'évident, et encore moins lorsque l'on n'est pas spécialiste du domaine. Dans le cas des classes DP et CDP, les théories continues associées sont dérivées, plus ou moins directement, des processus de réaction-diffusion mentionnés dans le \autoref{chapter:introduction}. Dans notre cas, il est difficile d'imaginer un tel processus représentant l'effet du bruit interne sur la dynamique. Les systèmes que nous avons étudiés ressemblant par de nombreux aspects aux modèles appartenant à la classe CDP, nous proposons de partir de la théorie continue la décrivant et d'en proposer des modifications. Pour rappel, celle-ci est représentée par les deux équations couplées suivantes :
+\subparagraph{}Établir une théorie de champ n'est de façon générale pas quelque chose d'évident. Dans le cas des classes DP et CDP, les théories continues associées sont dérivées, plus ou moins directement, des processus de réaction-diffusion mentionnés dans le \autoref{chapter:introduction}. Dans notre cas, il est difficile d'imaginer un tel processus représentant l'effet du bruit interne sur la dynamique. Les systèmes que nous avons étudiés ressemblant par de nombreux aspects aux modèles appartenant à la classe CDP, nous proposons de partir de la théorie continue la décrivant et d'en proposer des modifications. Pour rappel, celle-ci est représentée par les deux équations couplées suivantes :
 
 \begin{equation}
 \begin{aligned}
@@ -801,9 +801,9 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 \label{eq:CDP2}
 \end{equation}
 
-\noindent avec $A(\mathbf{r}, t)$ le champ d'activité et $\rho (\mathbf{r}, t)$ le champ conservé.
+\noindent avec $A(\mathbf{r}, t)$ le champ d'activité, $\rho (\mathbf{r}, t)$ le champ conservé et $\eta (\mathbf{r}, t)$ un bruit blanc gaussien de moyenne nulle et de variance unité.
 
-\subparagraph{}En principe, intégrer numériquement ces équations n'est pas chose simple, et ce pour une raison principale : dû à la présence du bruit dans l'équation sur l'activité, sans précaution particulière celle-ci peut devenir négative, ce qui est totalement proscrit. En théorie, les équations préservent la positivité de l'activité, mais en pratique, via un schéma d'intégration avec un pas de temps $\Delta t$ fini, celle-ci n'est pas assurée. Pour résoudre ce problème, nous utilisons un algorithme d'intégration proposé précédemment par Dornic et al. \cite{dornic_integration_2005}, permettant d'introduire le bruit multiplicatif tout en préservant la positivité de l'activité. Simplement, nous l'implémentons de manière parallélisée via le langage CUDA afin de gagner en efficacité. De manière schématique (voir \cite{dornic_integration_2005} pour plus de détails), cette méthode permet de décomposer l'intégration en une intégration déterministe réalisée via les méthodes habituelles\footnote{Dans notre cas, nous utilisons une méthode d'Euler ou une méthode de Runge-Kutta d'ordre 4.}, et une intégration du terme stochastique via la résolution analytique de l'équation constituée par les termes restants. De ce fait, le bruit multiplicatif ne peut pas mener à une activité négative.
+\subparagraph{}Intégrer numériquement ces équations n'est pas chose simple, et ce pour une raison principale : dû à la présence du bruit dans l'équation sur l'activité, sans précaution particulière celle-ci peut devenir négative, ce qui est totalement proscrit. En théorie, les équations préservent la positivité de l'activité, mais en pratique, via un schéma d'intégration avec un pas de temps $\Delta t$ fini, celle-ci n'est pas assurée. Pour résoudre ce problème, nous utilisons un algorithme d'intégration proposé précédemment par Dornic et al. \cite{dornic_integration_2005}, permettant d'introduire le bruit multiplicatif tout en préservant la positivité de l'activité. Simplement, nous l'implémentons de manière parallélisée via le langage CUDA afin de gagner en efficacité. De manière schématique (voir \cite{dornic_integration_2005} pour plus de détails), cette méthode permet de décomposer l'intégration en une intégration déterministe réalisée via les méthodes habituelles\footnote{Dans notre cas, nous utilisons une méthode d'Euler ou une méthode de Runge-Kutta d'ordre 4.}, et une intégration du terme stochastique via la résolution analytique de l'équation constituée par les termes restants. De ce fait, le bruit multiplicatif ne peut pas mener à une activité négative.
 
 \subsection{Vérification de la méthode d'intégration numérique}
 
@@ -863,13 +863,13 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{Chapitre5/Figures/YieldingD.pdf}
-	\caption{Intégration numérique de l'\autoref{eq:YieldingD} dans un système 2D de taille $L=512$ avec comme valeur des paramètres : $\omega = 1$, $u = 1$, $\kappa = 0.25$, $\kappa_\sigma = 0.25$, $\sigma = 1$ et une valeur moyenne du champ conservé $\bar{\rho} = 1$. Le paramètre $r$ est varié dans l'ensemble $\{ 0.5214,  0.6153, 0.6726, 0.7076, 0.7290, 0.7420, 0.7500, 0.7549\}$. (a) Evolution de la valeur moyenne du champ d'activité en fonction du temps pour des différentes valeurs du paramètre $r$. (b) Evolution de la valeur moyenne de l'activité dans l'état stationnaire en fonction de la distance au point critique $\delta r$. Nous estimons ici $r_c \approx 0.7625$.}
+	\caption{Intégration numérique de l'\autoref{eq:YieldingD} dans un système 2D de taille $L=512$ avec comme valeur des paramètres : $\omega = 1$, $u = 1$, $\kappa = 0.25$, $\kappa_\sigma = 0.25$, $\sigma = 1$ et une valeur moyenne du champ conservé $\bar{\rho} = 1$. Le paramètre $r$ est varié dans l'ensemble $\{ 0.5214,  0.6153, 0.6726, 0.7076, 0.7290, 0.7420, 0.7500, 0.7549\}$. (a) Evolution de la valeur moyenne du champ d'activité en fonction du temps pour différentes valeurs du paramètre $r$. (b) Evolution de la valeur moyenne de l'activité dans l'état stationnaire en fonction de la distance au point critique $\delta r$. Nous estimons ici $r_c \approx 0.7625$.}
 	\label{fig:YieldingD}
 \end{figure}
 
 \paragraph{Exemple de théorie motivée par le modèle $\alpha$-ROM}
 
-\subparagraph{}Dans l'étude menée par Mari et al. \cite{mari_absorbing_2022} sur le $0$-ROM, les auteurs ont proposé une théorie continue dérivée de celle de CDP en y introduisant un terme de création d'activité dû à la diffusion des particules passives. Dans le cadre d'interactions spatialisées comme nous avons considéré dans le cas du $\alpha$-ROM, nous pouvons imaginer une généralisation de cette théorie prenant la forme suivante\footnote{Cette forme est modélisée par le raisonnement présenté dans \cite{mari_absorbing_2022}.} :
+\subparagraph{}Dans l'étude menée par Mari et al. \cite{mari_absorbing_2022} sur le $0$-ROM, les auteurs ont proposé une théorie continue dérivée de celle de CDP en y introduisant un terme de création d'activité dû à la diffusion des particules passives. Dans le cadre d'interactions spatialisées comme nous avons considéré dans le cas du $\alpha$-ROM, nous pouvons imaginer une généralisation de cette théorie prenant la forme suivante\footnote{Cette forme est motivée par le raisonnement présenté dans \cite{mari_absorbing_2022}.} :
 
 \begin{equation}
     \begin{aligned}
@@ -930,7 +930,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \paragraph{Principe de l'approche}
 
-\subparagraph{}Dans le cadre général d'une équation de champ représentée par un bruit multiplicatif, cette méthode ne tient plus, comme l'ont montré les travaux de Munoz et al. \cite{munoz_multiplicative_2003, munoz_multiplicative_2003}. Dans ces études, les auteurs se sont concentrés sur la théorie de champ suivante :
+\subparagraph{}Dans le cadre général d'une équation de champ représentée par un bruit multiplicatif, cette méthode ne tient plus, comme l'ont montré les travaux de Munoz et al. \cite{munoz_multiplicative_2003, munoz_mean_field_2005}. Dans ces études, les auteurs se sont concentrés sur la théorie de champ suivante :
 
 \begin{equation}
 	\partial_t A(\mathbf{r}, t) = rA(\mathbf{r}, t) - uA^{p+1}(\mathbf{r}, t) + \kappa\nabla^2 A (\mathbf{r}, t) + \sigma A(\mathbf{r}, t) \eta(\mathbf{r}, t)
@@ -968,7 +968,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
     \mathcal{A} = \langle A \rangle = \frac{\int_0^\infty\mathrm{d}A~A P(A)}{\int_0^\infty\mathrm{d}A~P(A)}
 \end{equation}
 
-\noindent pour déterminer l'exposant $\beta^\text{CM}$ tel que $\langle A \rangle \sim r^{\beta^\text{CM}}$. Le calcul développé dans \cite{munoz_multiplicative_2003, munoz_multiplicative_2003} amènent alors à :
+\noindent pour déterminer l'exposant $\beta^\text{CM}$ tel que $\langle A \rangle \sim r^{\beta^\text{CM}}$. Le calcul développé dans \cite{munoz_multiplicative_2003, munoz_mean_field_2005} amènent alors à :
 
 \begin{equation}
 	\beta = \mathrm{max}\left\{ \frac{1}{p}, \frac{\sigma^2}{2\kappa}\right\}
@@ -1004,7 +1004,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
     \label{eq:selfconsistencyDP}
 \end{equation}
 
-\noindent qui est a priori cette fois bien définie. Nous définisson alors le paramètre critique $r_c$ selon la relation :
+\noindent qui est a priori cette fois bien définie. Nous définissons alors le paramètre critique $r_c$ selon la relation :
 
 \begin{equation}
     r_c = u\frac{f\left(p\sigma^2/2\kappa, r_c \right)}{f\left(0, r_c\right)}
@@ -1020,7 +1020,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \paragraph{Résolution numérique}
 
-\subparagraph{}Pour contrôler nos calculs et les hypothèses faites, nous résolvons numériquement l'équation d'auto-cohérence \autoref{eq:selfconsistencyDP} pour obtenir $\mathcal{A} = f(r)$ avec le logiciel Mathematica. Sur la figure \autoref{fig:MathematicaMunoz} nous présentons les résultats obtenus pour la détermination de l'exposant $\beta$ pour différents degrés de non-linéarité $p$. Comme nous pouvons le remarquer, la mesure $\beta^\text{CM}=1$ semble être retrouvée peu importe la valeur de $p$.
+\subparagraph{}Pour contrôler nos calculs et les hypothèses faites, nous résolvons numériquement l'\autoref{eq:selfconsistencyDP} pour obtenir $\mathcal{A} = f(r)$ avec le logiciel Mathematica. Sur la \autoref{fig:MathematicaMunoz} nous présentons les résultats obtenus pour la détermination de l'exposant $\beta$ pour différents degrés de non-linéarité $p$. Comme nous pouvons le remarquer, la mesure $\beta^\text{CM}=1$ semble être retrouvée peu importe la valeur de $p$.
 
 \begin{figure}[h]
 	\centering
@@ -1029,7 +1029,7 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 	\label{fig:MathematicaMunoz}
 \end{figure}
 
-\subparagraph{}Ainsi, ce raisonnement, peut-être discutable d'un point de vue technique, semble montrer qu'en effet, le degré de non-linéarité dans l'équation de champ ne permet pas de modifier la valeur de l'exposant $\beta$ dans la limite de champ moyen. Cela permet de proposer une explication aux résultats suprenant de la \autoref{sec:CMnaif}. En effet, les classes CDP et DP étant représentées par les mêmes champs moyens, nous nous attendons à ce que ces résultats se transposent aux équations de champs associées à la classe CDP.
+\subparagraph{}Ainsi, ce raisonnement, peut-être discutable d'un point de vue technique, semble montrer qu'en effet, le degré de non-linéarité dans l'équation de champ ne permet pas de modifier la valeur de l'exposant $\beta$ dans la limite de champ moyen. Cela permet de proposer une explication aux résultats suprenants de la \autoref{sec:CMnaif}. En effet, les classes CDP et DP étant représentées par les mêmes champs moyens, nous nous attendons à ce que ces résultats se transposent aux équations de champs associées à la classe CDP.
 
 \subsection{Conclusion de la section}
 
@@ -1037,6 +1037,6 @@ et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompres
 
 \subparagraph{}Ces difficultés suggèrent que le cadre représenté par les équations de type CDP/LR-CDP n'est pas le bon point de départ. Pour poursuivre dans cette direction, il faudrait donc considérer des modifications plus profondes de ces théories afin d'appréhender plus justement le mécanisme de diffusion vers une barrière, qui est l'élément central de ces transitions. Nous pourrions imaginer que cette modélisation passe par la considération d'une nouvelle forme de bruit non-locale, celle d'une dynamique d'un champ complémentaire représentant la distance au bord absorbant ou encore celle d'une complexification de l'équation sur la dynamique du champ conservé. Notons par ailleurs que la modification de la forme du bruit dans l'équation sur l'activité ou l'ajout d'un bruit dans la dynamique du champ conservé ne sont pas des éléments directs à implémenter et nécessitent la modification de tout notre schéma numérique. Une telle investigation gagnerait donc à être sérieusement motivée par des arguments émergents des dynamiques microscopiques.
 
-\subparagraph{}La différence de formulation entre ces théories de champs et les modèle à la Hébraud-Lequeux pourrait être un indice de ces potentielles profondes modifications. Une autre piste d'ouverture pourrait donc être d'essayer de réaliser une équivalence entre ces modèles et une équation de champ triviale dans la limite de champ moyen. \`A ce stade de notre recherche, nous n'avons toutefois pas encore pu explorer cette pistes de manière pertinente.
+\subparagraph{}La différence de formulation entre ces théories de champs et les modèle à la Hébraud-Lequeux pourrait être un indice de ces potentielles profondes modifications. Une autre piste d'ouverture pourrait donc être d'essayer de réaliser une équivalence entre ces modèles et une équation de champ triviale dans la limite de champ moyen. \`A ce stade de notre recherche, nous n'avons toutefois pas encore pu explorer cette piste de manière pertinente.
 
 \resumetocwriting
