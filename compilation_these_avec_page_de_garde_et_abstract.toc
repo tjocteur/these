@@ -27,7 +27,7 @@
 \contentsline {subparagraph}{}{8}{figure.caption.3}%
 \contentsline {subparagraph}{}{9}{figure.caption.3}%
 \contentsline {subparagraph}{}{9}{figure.caption.3}%
-\contentsline {section}{\numberline {1.2}Transitions de phases absorbante}{9}{section.1.2}%
+\contentsline {section}{\numberline {1.2}Transitions de phases absorbantes}{9}{section.1.2}%
 \contentsline {subparagraph}{}{9}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}Phénomènes critiques à l'équilibre}{10}{subsection.1.2.1}%
 \contentsline {subsubsection}{\numberline {1.2.1.1}Phénoménologie d'une transition de phase}{10}{subsubsection.1.2.1.1}%
@@ -49,7 +49,7 @@
 \contentsline {subparagraph}{}{13}{equation.1.2.7}%
 \contentsline {subparagraph}{}{14}{equation.1.2.9}%
 \contentsline {subparagraph}{}{14}{equation.1.2.9}%
-\contentsline {subsection}{\numberline {1.2.2}transitions de phase absorbantess}{14}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.2}Transitions de phase absorbantes}{14}{subsection.1.2.2}%
 \contentsline {subparagraph}{}{14}{subsection.1.2.2}%
 \contentsline {subsubsection}{\numberline {1.2.2.1}Définition}{14}{subsubsection.1.2.2.1}%
 \contentsline {subparagraph}{}{14}{subsubsection.1.2.2.1}%
@@ -65,44 +65,44 @@
 \contentsline {subparagraph}{}{17}{equation.1.2.13}%
 \contentsline {subsubsection}{\numberline {1.2.2.4}Classes d'universalité}{17}{subsubsection.1.2.2.4}%
 \contentsline {subparagraph}{}{17}{subsubsection.1.2.2.4}%
-\contentsline {subparagraph}{}{18}{subsubsection.1.2.2.4}%
+\contentsline {subparagraph}{}{17}{subsubsection.1.2.2.4}%
 \contentsline {subparagraph}{}{18}{figure.caption.8}%
 \contentsline {subparagraph}{}{18}{figure.caption.8}%
 \contentsline {subparagraph}{}{19}{table.caption.9}%
 \contentsline {section}{\numberline {1.3}Percolation dirigée conservée}{19}{section.1.3}%
 \contentsline {subparagraph}{}{19}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Conditions d'appartenance}{20}{subsection.1.3.1}%
-\contentsline {subparagraph}{}{20}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.1}Conditions d'appartenance}{19}{subsection.1.3.1}%
+\contentsline {subparagraph}{}{19}{subsection.1.3.1}%
 \contentsline {subparagraph}{}{20}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}Modèles représentatifs}{20}{subsection.1.3.2}%
 \contentsline {subsubsection}{\numberline {1.3.2.1}Modèle Manna}{20}{subsubsection.1.3.2.1}%
 \contentsline {subparagraph}{}{20}{subsubsection.1.3.2.1}%
 \contentsline {subparagraph}{}{20}{figure.caption.10}%
-\contentsline {subparagraph}{}{21}{figure.caption.10}%
-\contentsline {subsubsection}{\numberline {1.3.2.2}Random Organization model}{21}{subsubsection.1.3.2.2}%
+\contentsline {subparagraph}{}{20}{figure.caption.10}%
+\contentsline {subsubsection}{\numberline {1.3.2.2}Random Organization Model}{21}{subsubsection.1.3.2.2}%
 \contentsline {subparagraph}{}{21}{subsubsection.1.3.2.2}%
 \contentsline {subparagraph}{}{21}{figure.caption.11}%
-\contentsline {subparagraph}{}{22}{figure.caption.11}%
+\contentsline {subparagraph}{}{21}{figure.caption.11}%
 \contentsline {subparagraph}{}{22}{figure.caption.11}%
 \contentsline {subsection}{\numberline {1.3.3}Comportement critique}{22}{subsection.1.3.3}%
 \contentsline {subparagraph}{}{22}{subsection.1.3.3}%
 \contentsline {subparagraph}{}{22}{equation.1.3.17}%
-\contentsline {subparagraph}{}{23}{equation.1.3.17}%
+\contentsline {subparagraph}{}{22}{equation.1.3.17}%
 \contentsline {subsection}{\numberline {1.3.4}Classe CDP et transition de dépiégeage}{23}{subsection.1.3.4}%
 \contentsline {subparagraph}{}{23}{subsection.1.3.4}%
 \contentsline {subsubsection}{\numberline {1.3.4.1}Phénoménologie de la transition de dépiégeage}{23}{subsubsection.1.3.4.1}%
 \contentsline {paragraph}{Une transition de phase absorbante}{23}{subsubsection.1.3.4.1}%
 \contentsline {subparagraph}{}{23}{subsubsection.1.3.4.1}%
-\contentsline {subparagraph}{}{23}{figure.caption.12}%
-\contentsline {subparagraph}{}{23}{figure.caption.12}%
+\contentsline {subparagraph}{}{24}{figure.caption.12}%
+\contentsline {subparagraph}{}{24}{figure.caption.12}%
 \contentsline {subparagraph}{}{24}{figure.caption.12}%
 \contentsline {paragraph}{Rugosité}{24}{figure.caption.12}%
 \contentsline {subparagraph}{}{24}{figure.caption.12}%
 \contentsline {paragraph}{Avalanches}{25}{equation.1.3.20}%
 \contentsline {subparagraph}{}{25}{equation.1.3.20}%
 \contentsline {subparagraph}{}{25}{equation.1.3.23}%
-\contentsline {subsubsection}{\numberline {1.3.4.2}Mapping avec la classe CDP}{26}{subsubsection.1.3.4.2}%
-\contentsline {subparagraph}{}{26}{subsubsection.1.3.4.2}%
+\contentsline {subsubsection}{\numberline {1.3.4.2}Mapping avec la classe CDP}{25}{subsubsection.1.3.4.2}%
+\contentsline {subparagraph}{}{25}{subsubsection.1.3.4.2}%
 \contentsline {subparagraph}{}{26}{subsubsection.1.3.4.2}%
 \contentsline {subparagraph}{}{26}{equation.1.3.25}%
 \contentsline {subparagraph}{}{26}{equation.1.3.26}%
@@ -113,8 +113,8 @@
 \contentsline {subsection}{\numberline {1.3.6}Hyperuniformité}{27}{subsection.1.3.6}%
 \contentsline {paragraph}{Fluctuations de position, fluctuations de densité}{27}{subsection.1.3.6}%
 \contentsline {subparagraph}{}{27}{subsection.1.3.6}%
-\contentsline {paragraph}{Répartition de masse et hyperuniformité}{28}{equation.1.3.27}%
-\contentsline {subparagraph}{}{28}{equation.1.3.27}%
+\contentsline {paragraph}{Répartition de masse et hyperuniformité}{27}{equation.1.3.27}%
+\contentsline {subparagraph}{}{27}{equation.1.3.27}%
 \contentsline {subparagraph}{}{28}{equation.1.3.27}%
 \contentsline {subparagraph}{}{28}{equation.1.3.28}%
 \contentsline {subparagraph}{}{28}{equation.1.3.29}%
@@ -122,7 +122,7 @@
 \contentsline {subparagraph}{}{29}{figure.caption.13}%
 \contentsline {subsection}{\numberline {1.3.7}Bilan}{29}{subsection.1.3.7}%
 \contentsline {subparagraph}{}{29}{subsection.1.3.7}%
-\contentsline {section}{\numberline {1.4}Comprendre les transitions de réversibilité et d'écoulement comme des transitions de phase absorbantes}{29}{section.1.4}%
+\contentsline {section}{\numberline {1.4}Les transitions de réversibilité et d'écoulement comme transitions de phase absorbantes}{29}{section.1.4}%
 \contentsline {subparagraph}{}{29}{section.1.4}%
 \contentsline {subsection}{\numberline {1.4.1}Transition de réversibilité}{30}{subsection.1.4.1}%
 \contentsline {subparagraph}{}{30}{subsection.1.4.1}%
@@ -167,7 +167,7 @@
 \contentsline {subparagraph}{}{37}{subsubsection.1.5.1.1}%
 \contentsline {subparagraph}{}{38}{subsubsection.1.5.1.1}%
 \contentsline {subparagraph}{}{38}{subsubsection.1.5.1.1}%
-\contentsline {subsubsection}{\numberline {1.5.1.2}Contradiction de l'attendu par les transitions de réversibilité et d'écoulement}{38}{subsubsection.1.5.1.2}%
+\contentsline {subsubsection}{\numberline {1.5.1.2}Contradiction du cadre générique par les transitions de réversibilité et d'écoulement}{38}{subsubsection.1.5.1.2}%
 \contentsline {paragraph}{Transition de réversibilité}{38}{subsubsection.1.5.1.2}%
 \contentsline {subparagraph}{}{38}{subsubsection.1.5.1.2}%
 \contentsline {subparagraph}{}{38}{subsubsection.1.5.1.2}%
