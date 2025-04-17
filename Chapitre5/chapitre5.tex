@@ -1,4 +1,4 @@
-\chapter{Discussion : interprétation conjointe des transitions de réversibilité et d'écoulement}
+\chapter[Discussion : interprétation conjointe des transitions de réversibilité\\ et d'écoulement]{Discussion : interprétation conjointe des transitions de réversibilité et d'écoulement}
 
 \label{chapter:discussion}
 
@@ -33,13 +33,13 @@
 \subparagraph{}Dans le cas du modèle $\alpha$-Picard, ce découpage est un peu moins évident. Le propagateur d'interaction dans ce cas prend la forme :
 
 \begin{equation}
-	G(\mathbf{r}) = G(0) + G_1(\mathbf{r}), \quad \int \mathrm{d}\mathbf{r}~ G_1(\mathbf{r}) = -G(0)
+	G(\mathbf{r}) = G(0) + G_1(\mathbf{r}), \quad \int \mathrm{d}\mathbf{r}~ G_1(\mathbf{r}) = -G(0),
 \end{equation}
 
 \noindent $G_1$ définissant la partie à longue portée du propagateur, de signe alterné. Dans le cas des modèles $\alpha$-Picard, dans la limite continue, celui-ci prend la forme :
 
 \begin{equation}
-	\mathcal{G}_1(\mathbf{r}) = B_\alpha\frac{C_\alpha + \cos (4\theta)}{r^\alpha}
+	\mathcal{G}_1(\mathbf{r}) = B_\alpha\frac{C_\alpha + \cos (4\theta)}{r^\alpha},
 \end{equation}
 
 \noindent avec $C_\alpha$ et $B_\alpha$ des constantes définies par l'\autoref{eq:RealAlphaPicard} au \autoref{chapter:yielding}. Dans le cadre du modèle $\alpha$-Picard, le processus de relaxation (0) correspond à la partie $G(0)<0$ du propagateur qui traduit la relaxation d'un site plastique, l'amenant vers $\sigma < \sigma_Y$ et donc vers le retour à un état élastique. Nous pensons que la partie à longue portée du propagateur $G_1(\mathbf{r})$ représente à la fois un processus de transport à longue portée induit localement par l'activité et un effet spécifique induit non-localement par l'activité. Par exemple, dans le voisinage des directions principales $\hat{\mathbf{e}}_x$ et $\hat{\mathbf{e}}_y$, nous avons $G_1(\mathbf{r})>0$ et décroissant comme $\sim 1/r^\alpha$ (voir \autoref{eq:Eshelby} et \autoref{fig:EshelbyExp}). Dans un certain sens, nous pouvons donc comprendre cet aspect de $G_1$ comme un transport à longue portée (1), de la même façon que dans le cas du propagateur de redistribution élastique de la transition de dépiégeage. Toutefois, la particularité de ce propagateur est qu'il est de signe alterné et donc parfois négatif. Il ne peut donc pas être entièrement compris comme un transport à longue portée de la contrainte relaxée localement. Comme ses parties positives, les parties négatives de $G_1$ décroissent comme $\sim 1/r^\alpha$. Ce second aspect de $G_1$, son alternance de signe, constitue alors l'effet spécifique induit non-localement (2) de la transition, absent des modèles représentant les classes CDP et LR-CDP.
@@ -95,15 +95,15 @@ Géométrie du propagateur & isotrope & présence de modes 0 \\
 
 \begin{equation}
 \begin{aligned}
-	\partial_t P(\sigma, t) &= -\dot{\gamma}(t)\partial_\sigma P(\sigma, t) + a\Gamma(t)\partial_\sigma^2P(\sigma, t) - \frac{\Theta (|\sigma|>\sigma_Y)}{\tau}P(\sigma, t) + \Gamma(t)\delta(\sigma)\\
-	\Gamma(t) &= \frac{1}{\tau}\int_{|\sigma|>\sigma_Y}\mathrm{d}\sigma ~ P(\sigma, t)
+	\partial_t P(\sigma, t) &= -\dot{\gamma}(t)\partial_\sigma P(\sigma, t) + a\Gamma(t)\partial_\sigma^2P(\sigma, t) - \frac{\Theta (|\sigma|>\sigma_Y)}{\tau}P(\sigma, t) + \Gamma(t)\delta(\sigma),\\
+	\Gamma(t) &= \frac{1}{\tau}\int_{|\sigma|>\sigma_Y}\mathrm{d}\sigma ~ P(\sigma, t),
 \end{aligned}
 \end{equation}
 
 \noindent avec $\dot{\gamma}(t) = \dot{\gamma}$ dans des conditions de taux de cisaillement imposé ou alors :
 
 \begin{equation}
-	\dot{\gamma} (t) = \frac{1}{\tau}\int_{|\sigma|>\sigma_Y}\mathrm{d}\sigma ~ \sigma P(\sigma, t)
+	\dot{\gamma} (t) = \frac{1}{\tau}\int_{|\sigma|>\sigma_Y}\mathrm{d}\sigma ~ \sigma P(\sigma, t),
 \end{equation}
 
 \noindent dans le cas où c'est la contrainte globale $\Sigma = \int \mathrm{d}\sigma ~ \sigma P(\sigma,t)$ qui est imposée.
@@ -112,8 +112,8 @@ Géométrie du propagateur & isotrope & présence de modes 0 \\
 
 \begin{equation}
 \begin{aligned}
-    \partial_t P(\mathbf{r}, t) &= a\Gamma (t)\nabla^2 P(\mathbf{r}, t) - \frac{1}{\tau}\Theta(|\mathbf{r}|>R)P(\mathbf{r}, t) + \delta(\mathbf{r})\Gamma (t)\\
-     \Gamma (t) &= \frac{1}{\tau}\int_{|\mathbf{r}|>R}\mathrm{d}\mathbf{r}~P(\mathbf{r}, t)
+    \partial_t P(\mathbf{r}, t) &= a\Gamma (t)\nabla^2 P(\mathbf{r}, t) - \frac{1}{\tau}\Theta(|\mathbf{r}|>R)P(\mathbf{r}, t) + \delta(\mathbf{r})\Gamma (t),\\
+     \Gamma (t) &= \frac{1}{\tau}\int_{|\mathbf{r}|>R}\mathrm{d}\mathbf{r}~P(\mathbf{r}, t).
     \label{eq:muHLDiffdisc}
 \end{aligned}
 \end{equation} 
@@ -123,7 +123,7 @@ Géométrie du propagateur & isotrope & présence de modes 0 \\
 \subparagraph{}La différence fondamentale entre ces deux modèles est la présence d'un terme de forçage en $\sim \dot{\gamma}$ dans le modèle de Hébraud-Lequeux, absent dans l'équivalent pour la transition de réversibilité, et la dimension dans laquelle prend place la diffusion. Toutefois, en considérant les paramètres de contrôle respectifs ($\Sigma = \int \mathrm{d}\sigma ~ \sigma P(\sigma,t)$ dans le cas de la transition vers l'écoulement et $R$ dans le cas de la transition de réversibilité), ces deux modèles prédisent un même comportement critique représenté par un exposant $\beta = 2$ :
 
 \begin{equation}
-	\Gamma \sim (\Sigma - \Sigma_c)^2,\quad \Gamma \sim (R_c-R)^2
+	\Gamma \sim (\Sigma - \Sigma_c)^2,\quad \Gamma \sim (R_c-R)^2.
 \end{equation}
 
 \noindent Ces modèles renforcent alors l'analogie entre les deux transitions et placent ainsi le mécanisme de création de l'activité par diffusion (des particules passives dans la transition de réversibilité et des contraintes locales dans la transition vers l'écoulement) induite non-localement comme l'explication de la convexité observée dans les modèles de dimension finie.
@@ -146,7 +146,7 @@ Géométrie du propagateur & isotrope & présence de modes 0 \\
 
 \subparagraph{}Ce cadre théorique qui permet d'expliquer l'évolution globale de la convexité sert alors d'appui pour interpréter les résultats obtenus dans les simulations de dimension finie et comparer plus quantitativement les deux transitions. C'est ce que nous ferons plus en détail à la \autoref{sec:Diff}.
 
-\subsection{Répartition de la masse et distance à l'activation : des indices microscopiques}
+\subsection[Répartition de la masse et distance à l'activation :\\ des indices microscopiques]{Répartition de la masse et distance à l'activation : des indices microscopiques}
 
 \subparagraph{}En plus de la convexité des transitions, une preuve de l'importance du mécanisme de diffusion pour la création d'activité dans les modèles $\alpha$-ROM et $\alpha$-Picard vient des distributions de distances à l'activation.
 

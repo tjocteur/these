@@ -142,7 +142,21 @@
   \renewcommand\appendixpagename{Annexes}
 }
 
+\renewcommand{\appendixtocname}{Annexes}
+
 \usepackage{titlesec}
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries\raggedright} % format
+  {\thesection}{1em}{}                      % label
+
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\raggedright}
+  {\thesubsection}{1em}{}
+
+\titleformat{\subsubsection}
+  {\normalfont\normalsize\bfseries\raggedright}
+  {\thesubsubsection}{1em}{}
 
 \setcounter{secnumdepth}{3}
 

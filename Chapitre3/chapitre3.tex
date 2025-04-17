@@ -5,7 +5,7 @@
 \subparagraph{}Dans le \autoref{chapter:introduction} nous avons vu que, sous cisaillement cyclique, les suspensions peuvent être soumises à une transition de réversibilité. Celle-ci peut être interprétée comme une transition de phase absorbante \cite{pine_chaos_2005, corte_random_2008, tjhung_criticality_2016, ge_rheology_2022}. Le paramètre de contrôle de cette transition est alors l'amplitude de cisaillement appliquée $\gamma_0$ et le paramètre d'ordre le coefficient de diffusion stroboscopique des particules $D_0$. Dans la phase absorbante, pour $\gamma_0 < \gamma_{0,c}$, les particules de la suspension suivent un mouvement réversible, caractérisé par $D_0 = 0$. Dans la phase active, pour $\gamma_0 > \gamma_{0,c}$, les interactions irréversibles entre particules induisent une diffusion stroboscopique des particules d'un cycle à l'autre, caractérisée par $D_0 >0$. Proche de la transition ($\gamma_0\approx\gamma_{0,c}$), $D_0$, ses fluctuations $\langle \delta D_0^2 \rangle$ et la longueur de corrélation $\xi$ associée au système suivent une évolution dictée par les exposants critiques $\beta$, $\gamma^\prime$ et $\nu_\perp$ : 
 
 \begin{equation}
-	D_0 \sim \delta\gamma_0^\beta, \quad \langle \delta D_0^2 \rangle \sim \delta\gamma_0^{-\gamma^\prime},\quad \xi \sim \delta\gamma_0^{-\nu_\perp}, \quad \delta\gamma_0 = \frac{\gamma_0-\gamma_{0,c}}{\gamma_{0,c}}
+	D_0 \sim \delta\gamma_0^\beta, \quad \langle \delta D_0^2 \rangle \sim \delta\gamma_0^{-\gamma^\prime},\quad \xi \sim \delta\gamma_0^{-\nu_\perp}, \quad \delta\gamma_0 = \frac{\gamma_0-\gamma_{0,c}}{\gamma_{0,c}}.
 \end{equation}
 
 \subparagraph{}Les modélisations simples de ce système \cite{corte_random_2008, tjhung_criticality_2016, ge_rheology_2022} semblent placer ce phénomène critique dans la classe d'universalité CDP. Toutefois, en considérant les interactions entre les particules, médiées par le fluide suspendant, Mari et al. \cite{mari_absorbing_2022} ont proposé un modèle présentant une criticalité très différente. Alors que pour la classe CDP l'évolution du paramètre d'ordre est concave ($\beta < 1$) et ses fluctuations divergentes ($\gamma^\prime>0$), le modèle prenant en compte les interactions médiées de manière champ moyen définit une évolution convexe du paramètre d'ordre ($\beta >1$) et des fluctuations qui s'annulent au point critique ($\gamma^\prime < 0$).
@@ -21,7 +21,7 @@
 \subparagraph{}Dans leur modèle initial, Mari et al. \cite{mari_absorbing_2022} ont implémenté les interactions à longue portée médiées par le fluide d'un point de vue champ moyen. Les détails de cette implémentation seront donnés dans la section suivante. Dans cette approche, chaque particule est soumise à une interaction médiée moyenne\footnote{au sens de moyenne spatiale.}, assimilée à une sorte de diffusion, qui dépend uniquement du nombre instantané de particules subissant une interaction de contact irréversible dans le système. En d'autres termes, peu importe la distance d'une particule à un évènement irréversible, l'impact de ce dernier sur elle reste le même. Via ce modèle en deux dimensions, les auteurs ont mené des analyses numériques permettant de déterminer précisément la valeur des exposants critiques associés au paramètre d'ordre :
 
 \begin{equation}
-	\beta \approx 1.85, \quad \gamma^\prime \approx -1.3 
+	\beta \approx 1.85, \quad \gamma^\prime \approx -1.3. 
 \end{equation}
 
 \noindent Cette approche simplificatrice met alors en évidence un mécanisme, la diffusion des particules via les interactions médiées, permettant de sortir du cadre de description LR-CDP. En effet, nous rappelons que pour celui-ci nous avons $0.64 \leq \beta \leq 1$ et $0 \leq\gamma^\prime \leq 0.37$. 
@@ -77,7 +77,7 @@
 \subparagraph{}En pratique, au cours d'un cycle de cisaillement, chaque particule suspendue dans le fluide interagit avec les autres particules via des interactions hydrodynamiques, dont la forme a été explicitée à la \autoref{sec:ref_interac_visc} et dans l'\annexeref{sec:Annexe_Interactions_Hydro}. Celle-ci suppose un écoulement à bas Reynolds régi par les équations de Stokes et des particules ponctuelles sans inertie. Notamment, un évènement irréversible que l'on associe instantanément à un dipôle de force en $\mathbf{r}^\prime$ sur le fluide induit une vitesse de déplacement $\mathbf{v}^p(\mathbf{r})$ pour une particule située en $\mathbf{r}$ selon\footnote{Nous utilisons ici la convention d'Einstein pour la sommation sur les indices répétés.} :
 
 \begin{equation}
-	v^p_i(\mathbf{r}) = \mathcal{G}_{ijk}(\mathbf{r}-\mathbf{r}^\prime)p_{jk}
+	v^p_i(\mathbf{r}) = \mathcal{G}_{ijk}(\mathbf{r}-\mathbf{r}^\prime)p_{jk},
 \end{equation}
 
 \noindent avec $\mathcal{G}_{ijk}(\mathbf{r}-\mathbf{r}^\prime)$ le propagateur hydrodynamique dipolaire, décroissant comme $1/|\mathbf{r}-\mathbf{r}^\prime|^\alpha$ à grande échelle, avec $\alpha$ dépendant de la géométrie considérée. $p_{jk} = F_j a_k$ représente le dipôle de force associé aux deux particules interagissant irréversiblement, appliquant respectivement instantanément une force $\mathbf{F}\delta(\mathbf{r}+\frac{\mathbf{a}}{2})$ et une force $-\mathbf{F}\delta(\mathbf{r}-\frac{\mathbf{a}}{2})$ sur le fluide (voir \annexeref{sec:Annexe_Interactions_Hydro}).
@@ -85,7 +85,7 @@
 \subparagraph{}En réalité, au cours de la transition réelle, les déplacements irréversibles des particules et donc les forces qu'elles exercent varient au cours d'un cycle. L'effet intégré dans le temps d'un évènement irréversible prend donc une forme complexe, non-instantanée. Afin de modéliser simplement l'influence d'un tel évènement dans son intégralité, nous le considérons donc simplement dans l'approche stroboscopique. Nous considérons alors que chaque couple de particules actives situé autour de $\mathbf{r}^\prime$ génère un dipôle intégré de force $\tilde{p}_{jk}(\mathbf{r}^\prime)$, qui induit un déplacement $\boldsymbol\delta^p(\mathbf{r})$ sur une particule située en $\mathbf{r}$ selon :
 
 \begin{equation}
-	\delta^p_i(\mathbf{r}) = \mathcal{G}_{ijk}(\mathbf{r}-\mathbf{r}^\prime)\tilde{p}_{jk}(\mathbf{r}^\prime)
+	\delta^p_i(\mathbf{r}) = \mathcal{G}_{ijk}(\mathbf{r}-\mathbf{r}^\prime)\tilde{p}_{jk}(\mathbf{r}^\prime),
 \end{equation}
 
 \noindent avec le même propagateur hydrodynamique que celui associé à l'évènement instantané.
@@ -93,7 +93,7 @@
 \subparagraph{}Cette modélisation implique une approche tensorielle de l'influence des particules actives sur les particules passives (par opposition à actives) dans le modèle stroboscopique : le déplacement d'une particule passive induit par un couple de particules actives dépend de la direction de déplacement de ces dernières. En s'appuyant sur le fait que, dans la phase active, dans la limite thermodynamique, chaque particule passive reçoit des interactions médiées de la part d'un grand nombre particules actives, on a en notant $\{ \mathbf{r}^\prime \}$ l'ensemble des positions des couples de particules actives :
 
 \begin{equation}
-	\delta^p_i(\mathbf{r}) = \sum_{\mathbf{r}^\prime}\mathcal{G}_{ijk}(\mathbf{r}-\mathbf{r}^\prime)p_{jk}(\mathbf{r}^\prime)
+	\delta^p_i(\mathbf{r}) = \sum_{\mathbf{r}^\prime}\mathcal{G}_{ijk}(\mathbf{r}-\mathbf{r}^\prime)p_{jk}(\mathbf{r}^\prime),
 \end{equation}
 
 \noindent par linéarité des équations de Stokes. De ce fait, nous pouvons aborder cette interaction d'un point de vue statistique. En considérant les dipôles actifs comme aléatoires, on a $\langle \delta^p_i(\mathbf{r}) \rangle = 0$ avec $\langle \cdot \rangle$ représentant une moyenne sur les dipôles induits par les particules actives. De plus, en considérant les différents dipôles actifs décorrélés entre eux, de force typique $F$ et de distance de séparation typique $a$, on a :
@@ -103,14 +103,14 @@
 	\langle\boldsymbol\delta^p(\mathbf{r})^2\rangle &= \sum_{\mathbf{r}^\prime}\sum_{\mathbf{r}^{\prime\prime}}\mathcal{G}_{ijk}(\mathbf{r}-\mathbf{r}^\prime)\mathcal{G}_{ilm}(\mathbf{r}-\mathbf{r}^{\prime\prime})\langle p_{jk}(\mathbf{r}^\prime)p_{lm}(\mathbf{r}^{\prime\prime})\rangle \\
 	&= \sum_{\mathbf{r}^\prime}\sum_{\mathbf{r}^{\prime\prime}}\mathcal{G}_{i\alpha}(\mathbf{r}-\mathbf{r}^\prime)\mathcal{G}_{i\beta}(\mathbf{r}-\mathbf{r}^{\prime\prime})a^2F^2\delta_{\mathbf{r}^\prime\mathbf{r}^{\prime\prime}}\delta_{jl}\delta_{km}\\
 	&= a^2 F^2\sum_{\mathbf{r}^\prime}\mathcal{G}_{ijk}(\mathbf{r}-\mathbf{r}^\prime)\mathcal{G}_{ilm}(\mathbf{r}-\mathbf{r}^{\prime})\delta_{jl}\delta_{km}\\
-	&= a^2 F^2 \sum_{\mathbf{r}^\prime}\mathcal{G}_{ijk}(\mathbf{r}-\mathbf{r}^\prime)\mathcal{G}_{ijk}(\mathbf{r}-\mathbf{r}^{\prime})
+	&= a^2 F^2 \sum_{\mathbf{r}^\prime}\mathcal{G}_{ijk}(\mathbf{r}-\mathbf{r}^\prime)\mathcal{G}_{ijk}(\mathbf{r}-\mathbf{r}^{\prime}),
 \end{aligned}
 \end{equation}
 
 \noindent les sommes sur les indices de coordonnées $i$, $j$ et $k$ étant implicites. Nous considérerons donc simplement dans notre modélisation statistique :
 
 \begin{equation}
-	\langle \boldsymbol\delta^p(\mathbf{r})^2 \rangle \sim \sum_{\mathbf{r}^\prime} \mathcal{G}^2(\mathbf{r}-\mathbf{r}^\prime)
+	\langle \boldsymbol\delta^p(\mathbf{r})^2 \rangle \sim \sum_{\mathbf{r}^\prime} \mathcal{G}^2(\mathbf{r}-\mathbf{r}^\prime),
 	\label{eq:convol_model}
 \end{equation}
 
@@ -119,7 +119,7 @@
 \subparagraph{}En pratique, Le propagateur scalaire effectif retenu pour la modélisation est de la forme spécifique suivante :
 
 \begin{equation}
-	\mathcal{G}^2(\mathbf{r}-\mathbf{r}^\prime) = \frac{c}{\left(1+\left(\frac{|\mathbf{r}-\mathbf{r}^\prime|}{D_p}\right)^2\right)^\alpha}, \quad c > 0
+	\mathcal{G}^2(\mathbf{r}-\mathbf{r}^\prime) = \frac{c}{\left(1+\left(\frac{|\mathbf{r}-\mathbf{r}^\prime|}{D_p}\right)^2\right)^\alpha}, \quad c > 0,
 \end{equation}
 
 \noindent avec $D_p$ le diamètre des particules et $c$ un paramètre représentant la borne supérieure de l'interaction. Cette formulation modélise alors bien une interaction entre particules actives et particules passives qui décroît comme $1/r^\alpha$ en champ lointain. La régularisation en $|\mathbf{r}-\mathbf{r}^\prime|=0$ permet par ailleurs de considérer sans difficulté des interactions pour lesquelles on a $2\alpha > D$, sans quoi cette forme ne serait plus intégrable. Pour $2\alpha < D$, la non-intégrabilité du propagateur en $|\mathbf{r}|\rightarrow\infty$ et sa prise en compte dans le modèle sera discutée à la \autoref{sec:noninteg}.
@@ -146,28 +146,28 @@
 \subparagraph{}Pour déterminer la variance du déplacement des particules passives à chaque pas de temps, il suffit donc de calculer la convolution discrète suivante :
 
 \begin{equation}
-	\langle \boldsymbol\delta^p(\mathbf{r}_i)^2\rangle = \sum_{j} G^2(\mathbf{r}_i-\mathbf{r}_j) A(\mathbf{r}_j)
+	\langle \boldsymbol\delta^p(\mathbf{r}_i)^2\rangle = \sum_{j} G^2(\mathbf{r}_i-\mathbf{r}_j) A(\mathbf{r}_j),
 	\label{eq:kick_discret}
 \end{equation}
 
 \noindent avec $G^2$ la version discrétisée du propagateur\footnote{Dans toute la suite de ce manuscrit, nous utiliserons $G$ comme notation pour les propagateurs d'interaction numériques discrets et la notation calligraphique $\mathcal{G}$ pour les équivalents continus.} $\mathcal{G}^2$. Cette convolution étant définie sur un réseau régulier, il est possible de la calculer efficacement en passant par l'espace de Fourier. En pratique, nous la calculons donc dans l'espace réciproque où elle devient le simple produit $\hat{G^2}(\mathbf{q}_i)\hat{A}(\mathbf{q}_i)$, avec $\mathbf{q}_i = (\frac{2\pi}{L}n, \frac{2\pi}{L}m)$ et $L$ la taille du système. La notation $\hat{\cdot}$ définit alors ici la transformée de Fourier discrète sur ce réseau. Pour ce faire, nous définissons directement le propagateur hydrodynamique dans l'espace de Fourier. Dans le cas continu, le calcul relégué dans l'\annexeref{sec:TFinverse_susp} donne en deux dimensions :
 
 \begin{equation}
-	\hat{\mathcal{G}^2}(\mathbf{q})=\frac{2\pi c}{\Gamma\left(\alpha\right)} \left( \frac{q}{2} \right)^{\alpha-1}K_{\alpha-1}(q)
+	\hat{\mathcal{G}^2}(\mathbf{q})=\frac{2\pi c}{\Gamma\left(\alpha\right)} \left( \frac{q}{2} \right)^{\alpha-1}K_{\alpha-1}(q),
 	\label{eq:propcontinu2D}
 \end{equation}
 
 \noindent avec $\Gamma$ la fonction Gamma d'Euler et $K_{\alpha -1}$ la fonction de Bessel modifiée de seconde espèce d'ordre $\alpha - 1$ \cite{abramowitz_handbook_1965}. On peut alors estimer la valeur de ce propagateur continu en $\mathbf{q}=0$ pour un milieu de taille finie en calculant sa valeur moyenne dans l'espace réel :
 
 \begin{equation}
-	\hat{\mathcal{G}^2}(0) = \frac{\pi c}{\alpha -1}\left( 1- \left( 1+L^2 \right)^{1-\alpha} \right) \xrightarrow[L\rightarrow\infty]{\alpha > 1} \frac{\pi c}{\alpha - 1}
+	\hat{\mathcal{G}^2}(0) = \frac{\pi c}{\alpha -1}\left( 1- \left( 1+L^2 \right)^{1-\alpha} \right) \xrightarrow[L\rightarrow\infty]{\alpha > 1} \frac{\pi c}{\alpha - 1}.
 	\label{eq:zerovalue}
 \end{equation}
 
 \noindent Nous choisissons donc de définir le propagateur discret $\hat{G^2}$ dans l'espace réciproque via l'expression :
 
 \begin{equation}
-	\hat{G^2}(\mathbf{q}_i) = \hat{\mathcal{G}^2}(q), \quad q = \sqrt{\left( 2-2\cos \left( \frac{2\pi}{L}n \right) \right) + \left( 2-2\cos \left( \frac{2\pi}{L}m \right) \right)}
+	\hat{G^2}(\mathbf{q}_i) = \hat{\mathcal{G}^2}(q), \quad q = \sqrt{\left( 2-2\cos \left( \frac{2\pi}{L}n \right) \right) + \left( 2-2\cos \left( \frac{2\pi}{L}m \right) \right)},
 \end{equation}
 
 \noindent la conversion du nombre d'onde sous sa forme discrète étant essentielle pour définir proprement le propagateur dans l'espace réciproque discret \cite{ferrero_criticality_2019, rossi_finite-disorder_2022}, comme nous l'expliquons dans l'\annexeref{sec:impl_disc_propag}.
@@ -208,7 +208,7 @@
 %\end{equation}
 
 \begin{equation}
-	\hat{\mathcal{G}^2}(\mathbf{q}) = \frac{c\pi^\frac{3}{2}2^{\frac{5}{2}-\alpha}}{\Gamma (\alpha)}q^{\alpha-\frac{3}{2}}K_{\alpha-\frac{3}{2}}(q)
+	\hat{\mathcal{G}^2}(\mathbf{q}) = \frac{c\pi^\frac{3}{2}2^{\frac{5}{2}-\alpha}}{\Gamma (\alpha)}q^{\alpha-\frac{3}{2}}K_{\alpha-\frac{3}{2}}(q).
 \end{equation}
 
 \noindent Pour $\alpha < \frac{3}{2}$, nous opérons la même procédure de normalisation que pour le cas 2D mais seulement cette fois par le facteur $L^{3-2\alpha}$.
@@ -306,7 +306,7 @@
 \subparagraph{}Dans le cas du 0-ROM, cette double spécificité $\beta>1$, $\gamma^\prime<0$ peut être rationalisée dans le cadre de la relation d'hyperscaling \cite{lubeck_universal_2004, mari_absorbing_2022} :
 
 \begin{equation}
-	2\beta + \gamma^\prime = \nu_\perp D
+	2\beta + \gamma^\prime = \nu_\perp D,
 \end{equation}
 
 \noindent qui se retrouve vérifiée. Celle-ci permet en effet d'expliquer qu'une transition avec une valeur de $\beta$ anormalement grande donne lieu à une valeur de $\gamma^\prime$ anormalement petite. Étant donné que cette relation est aussi vérifiée dans la limite de courte portée CDP, nous pouvons supposer qu'elle l'est en fait dans toute la zone d'évolution présentée par le $\alpha$-ROM. Ainsi, l'annulation des fluctuations critiques s'expliquerait par la convexité de la transition à toute portée $\alpha \lesssim 1.5$.
@@ -328,7 +328,7 @@
 \subparagraph{}Une autre possibilité pour caractériser la criticalité et son évolution avec la portée est d'étudier la transition d'un point de vue dynamique. Comme dans le cas du transport à longue portée, proche du point critique, le système relaxe vers l'état stationnaire de manière algébrique :
 
 \begin{equation}
-	 \langle A \rangle (t) \sim t^{-\delta}
+	 \langle A \rangle (t) \sim t^{-\delta},
 \end{equation}
 
 \noindent $\delta$ définissant un exposant critique universel. Il peut être alors intéressant de comprendre comment celui-ci varie avec $\alpha$ dans le cas du $\alpha$-ROM, et comment cette évolution se compare à l'évolution des exposants $\beta$ et $\gamma^\prime$.
@@ -390,7 +390,7 @@
 \subparagraph{}Pour ce faire, nous utilisons, en plus de la méthode de box-counting présentée à la \autoref{sec:HUjumps}, une mesure du facteur de structure $S(\mathbf{q})$. Afin de rendre son calcul efficace pour de petites valeurs de q (i.e., à des échelles spatiales grandes devant la taille des particules), nous définissons un équivalent du champ de densité $\rho(\mathbf{r}_i)$ sur le réseau discret de pas $D_p$, utilisé pour calculer les interactions actives-passives. Dans chaque case située autour de $\mathbf{r}_i$, $\rho(\mathbf{r}_i)$ prend alors une valeur entière correspondant aux nombres de particules présentes dans cette case. Ce faisant, nous pouvons donc utiliser les algorithmes de FFT pour calculer $\hat{\rho}(\mathbf{q}_i)$ dans l'espace réciproque discret et on a alors :
 
 \begin{equation}
-	S(\mathbf{q}_i) = \langle|\hat{\rho}(\mathbf{q}_i)|^2\rangle
+	S(\mathbf{q}_i) = \langle|\hat{\rho}(\mathbf{q}_i)|^2\rangle,
 \end{equation}
 
 \noindent avec $\langle \cdot \rangle$ définissant une moyenne sur différentes réalisations du système dans des conditions équivalentes. Pour évaluer l'évolution de $S(\mathbf{q})$ avec la norme du vecteur d'onde $q$ et donc sonder son évolution à petits $q$, nous réalisons une moyenne isotrope dans l'espace réciproque. En pratique, chaque point $S(q)$ est calculé par une moyenne sur l'anneau d'épaisseur $\frac{2\pi}{L}$ associé dans l'espace réciproque.
@@ -435,7 +435,7 @@
 \subparagraph{}Comme nous l'avons déjà évoqué au \autoref{chapter:introduction}, nous pensons que cette distinction est due à la nature des interactions à longue portée dans ces modèles. Celles-ci n'induisent en fait pas un transport des particules induit localement par l'activité mais plutôt un bruit interne induit non-localement par l'activité auquel sont soumises l'ensemble des particules du système. Au niveau de l'implémentation numérique de notre modèle, ce bruit interne est représenté par le processus diffusif composé de la succession des petits déplacements $\boldsymbol\delta^p$ (voir \autoref{fig:modelsusp}). Ce mécanisme propose alors un nouveau mode de création d'activité par rapport au ROM et au LR-ROM : deux particules passives peuvent devenir actives en se recouvrant après diffusion. Là où le processus de propagation de l'activité par transport des particules actives (toujours présent dans le $\alpha$-ROM) est représenté par le processus de réaction-diffusion $A +B \xrightarrow[]{\lambda} 2A$ (voir \autoref{sec:CompCDP}), on pourrait formellement représenter ce nouveau mode de création de l'activité par l'équation :
 
 \begin{equation}
-	B +B \xrightarrow[]{} A + A
+	B +B \xrightarrow[]{} A + A,
 	\label{eq:meca_diff}
 \end{equation}
 
@@ -478,7 +478,7 @@
 
 \begin{equation}
 \begin{aligned}
-    \partial_t P(\mathbf{r}, t) &= a\Gamma (t)\nabla^2 P(\mathbf{r}, t) - \frac{1}{\tau}\Theta(|\mathbf{r}|>R)P(\mathbf{r}, t) + \delta(\mathbf{r})\Gamma (t)\\ \Gamma (t) &= \frac{1}{\tau}\int_{|\mathbf{r}|>R}\mathrm{d}\mathbf{r}~P(\mathbf{r}, t)
+    \partial_t P(\mathbf{r}, t) &= a\Gamma (t)\nabla^2 P(\mathbf{r}, t) - \frac{1}{\tau}\Theta(|\mathbf{r}|>R)P(\mathbf{r}, t) + \delta(\mathbf{r})\Gamma (t),\\ \Gamma (t) &= \frac{1}{\tau}\int_{|\mathbf{r}|>R}\mathrm{d}\mathbf{r}~P(\mathbf{r}, t),
     \label{eq:muHLDiff}
 \end{aligned}
 \end{equation} 
@@ -494,8 +494,8 @@
 
 \begin{equation}
 \begin{aligned}
-    \partial_t P(\sigma, t) &= -\dot{\gamma}\partial_\sigma P(\sigma, t)+a\Gamma (t)\partial_\sigma^2 P(\sigma, t) - \frac{1}{\tau}\Theta(|\sigma|>\sigma_Y)P(\sigma, t) + \delta(\sigma)\Gamma (t)\\
-    \Gamma (t) &= \frac{1}{\tau}\int_{|\sigma|>\sigma_Y}\mathrm{d}\sigma~P(\sigma, t)
+    \partial_t P(\sigma, t) &= -\dot{\gamma}\partial_\sigma P(\sigma, t)+a\Gamma (t)\partial_\sigma^2 P(\sigma, t) - \frac{1}{\tau}\Theta(|\sigma|>\sigma_Y)P(\sigma, t) + \delta(\sigma)\Gamma (t),\\
+    \Gamma (t) &= \frac{1}{\tau}\int_{|\sigma|>\sigma_Y}\mathrm{d}\sigma~P(\sigma, t).
 \end{aligned}
 \label{eq:HL_comp}
 \end{equation} 
@@ -505,7 +505,7 @@
 \subparagraph{}Cette seconde différence introduit une autre différence plus fondamentale. Dans le cas du modèle de Hébraud-Lequeux, le paramètre de contrôle habituel n'est pas $\sigma_Y$ (et donc de manière équivalente $R$ dans le cas des suspensions) mais plutôt la valeur moyenne de la variable d'intérêt $\Sigma = \int \mathrm{d}\sigma~\sigma P(\sigma,t)$. En effet, dans ce cas, via la brisure de symétrie opérée par le terme additionnel, celle-ci n'est plus nulle. La phénoménologie de la transition associée est donc décrite par la relation :
 
 \begin{equation}
-	\Gamma \sim (\Sigma - \Sigma_c)^\beta
+	\Gamma \sim (\Sigma - \Sigma_c)^\beta.
 	\label{eq:paramordre_HL}
 \end{equation}
 
@@ -516,13 +516,13 @@
 \subparagraph{}Afin de montrer que ce modèle champ moyen permet effectivement de retrouver une transition convexe par ce mécanisme de diffusion, nous le résolvons en deux dimensions pour déterminer la relation $\Gamma \sim (R - R_c)^\beta$ à petits $\Gamma$. Pour ce faire, nous commençons par adimensionner l'\autoref{eq:muHLDiff} par les transformations :
 
 \begin{equation}
-	\tilde{t} = \frac{t}{\tau}, \quad \tilde{\mathbf{r}} = \frac{\mathbf{r}}{R}
+	\tilde{t} = \frac{t}{\tau}, \quad \tilde{\mathbf{r}} = \frac{\mathbf{r}}{R}.
 \end{equation}
 
 \noindent En nous plaçant de plus dans l'état stationnaire, nous obtenons alors :
 
 \begin{equation}
-    0 = \tilde{a}\tilde{\Gamma}\tilde{\nabla}^2 P(\tilde{\mathbf{r}}) - \Theta(|\tilde{\mathbf{r}}|>1)P(\tilde{\mathbf{r}}) + \delta(\tilde{\mathbf{r}})\tilde{\Gamma}, \quad \tilde{\Gamma} = \int_{|\tilde{\mathbf{r}}|>1}\mathrm{d}\tilde{\mathbf{r}}~P(\tilde{\mathbf{r}}),\quad \tilde{a} = \frac{a}{R^2}
+    0 = \tilde{a}\tilde{\Gamma}\tilde{\nabla}^2 P(\tilde{\mathbf{r}}) - \Theta(|\tilde{\mathbf{r}}|>1)P(\tilde{\mathbf{r}}) + \delta(\tilde{\mathbf{r}})\tilde{\Gamma}, \quad \tilde{\Gamma} = \int_{|\tilde{\mathbf{r}}|>1}\mathrm{d}\tilde{\mathbf{r}}~P(\tilde{\mathbf{r}}),\quad \tilde{a} = \frac{a}{R^2}.
 \end{equation} 
 
 \noindent Dans la suite de la résolution, nous omettrons les $\tilde{}$ pour alléger les notations. Sous cette transformation, le paramètre de contrôle est $a$, relié à la densité de particules via $a\sim \phi$ puisque nous rappelons que l'on a $R\sim 1/\sqrt{\phi}$ en 2D.
@@ -530,13 +530,13 @@
 \subparagraph{}Nous résolvons ensuite cette équation par morceaux dans les domaines disjoints $r<1$ (zone I) et $r>1$ (zone II). Dans la zone I, la résolution donne :
 
 \begin{equation}
-	P_\text{I}(\mathbf{r}) = c_1 \ln (r) + c_2, \quad (c_1, c_2) \in \mathbb{R}^2
+	P_\text{I}(\mathbf{r}) = c_1 \ln (r) + c_2, \quad (c_1, c_2) \in \mathbb{R}^2,
 \end{equation}
 
 \noindent et dans la zone II :
 
 \begin{equation}
-	P_\text{II}(\mathbf{r}) = c_3 K_0\left( \frac{r}{\sqrt{a\Gamma}} \right), \quad c_3 \in \mathbb{R}
+	P_\text{II}(\mathbf{r}) = c_3 K_0\left( \frac{r}{\sqrt{a\Gamma}} \right), \quad c_3 \in \mathbb{R},
 \end{equation}
 
 \noindent avec $K_0$ la fonction de Bessel modifiée de seconde espèce d'ordre 0 \cite{abramowitz_handbook_1965}. La distribution $P(\mathbf{r})$ étant continue et de dérivée continue en $r=1$, on obtient finalement :
@@ -553,42 +553,42 @@ P(\mathbf{r}) = \left\{
 \subparagraph{}La condition de normalisation de la distribution permet alors de déterminer la constante $c_3$. En effet on a :
 
 \begin{equation}
-	I_\text{I} = \int_0^1 \mathrm{d}r~ 2\pi r P(\mathbf{r}) = \pi c_3 K_0\left( \frac{1}{\sqrt{a\Gamma}} \right) + \frac{\pi c_3}{2\sqrt{a\Gamma}}K_1\left( \frac{1}{\sqrt{a\Gamma}} \right)
+	I_\text{I} = \int_0^1 \mathrm{d}r~ 2\pi r P(\mathbf{r}) = \pi c_3 K_0\left( \frac{1}{\sqrt{a\Gamma}} \right) + \frac{\pi c_3}{2\sqrt{a\Gamma}}K_1\left( \frac{1}{\sqrt{a\Gamma}} \right),
 \end{equation}
 
 \begin{equation}
-	I_\text{II} = \int_0^\infty \mathrm{d}r~ 2\pi r P(\mathbf{r}) = 2\pi c_3 \sqrt{a\Gamma}K_1\left( \frac{1}{\sqrt{a\Gamma}} \right)
+	I_\text{II} = \int_0^\infty \mathrm{d}r~ 2\pi r P(\mathbf{r}) = 2\pi c_3 \sqrt{a\Gamma}K_1\left( \frac{1}{\sqrt{a\Gamma}} \right),
 \end{equation}
 
 \noindent en utilisant la propriété $(z^\nu K_\nu (z))^\prime = -z^\nu K_{\nu-1}(z)$. Nous obtenons alors :
 
 \begin{equation}
-\frac{1}{c_3} = \pi K_0\left( \frac{1}{\sqrt{a\Gamma}} \right) + \frac{\pi}{2\sqrt{a\Gamma}}K_1\left( \frac{1}{\sqrt{a\Gamma}} \right)+2\pi \sqrt{a\Gamma}K_1\left( \frac{1}{\sqrt{a\Gamma}} \right)
+\frac{1}{c_3} = \pi K_0\left( \frac{1}{\sqrt{a\Gamma}} \right) + \frac{\pi}{2\sqrt{a\Gamma}}K_1\left( \frac{1}{\sqrt{a\Gamma}} \right)+2\pi \sqrt{a\Gamma}K_1\left( \frac{1}{\sqrt{a\Gamma}} \right).
 \end{equation}
 
 \subparagraph{}La valeur de $\Gamma$ dans l'état stationnaire est alors donnée par la relation d'auto-cohérence :
 
 \begin{equation}
-	\Gamma = \frac{2\pi \sqrt{a\Gamma}K_1\left( \frac{1}{\sqrt{a\Gamma}} \right)}{\pi K_0\left( \frac{1}{\sqrt{a\Gamma}} \right) + \frac{\pi}{2\sqrt{a\Gamma}}K_1\left( \frac{1}{\sqrt{a\Gamma}} \right)+2\pi \sqrt{a\Gamma}K_1\left( \frac{1}{\sqrt{a\Gamma}} \right)}
+	\Gamma = \frac{2\pi \sqrt{a\Gamma}K_1\left( \frac{1}{\sqrt{a\Gamma}} \right)}{\pi K_0\left( \frac{1}{\sqrt{a\Gamma}} \right) + \frac{\pi}{2\sqrt{a\Gamma}}K_1\left( \frac{1}{\sqrt{a\Gamma}} \right)+2\pi \sqrt{a\Gamma}K_1\left( \frac{1}{\sqrt{a\Gamma}} \right)}.
 	\label{eq:blabla}
 \end{equation}
 
 \noindent Étant intéressés par le comportement asymptotique à petit $\Gamma$, nous développons les fonctions de Bessel asymptotiquement selon \cite{abramowitz_handbook_1965} :
 
 \begin{equation}
-	K_\nu (x) \sim \sqrt{\frac{\pi}{2x}}e^{-x}\left( 1+\frac{4\nu^2-1}{8x}+\mathcal{O}(1/x^2) \right)
+	K_\nu (x) \sim \sqrt{\frac{\pi}{2x}}e^{-x}\left( 1+\frac{4\nu^2-1}{8x}+\mathcal{O}(1/x^2) \right).
 \end{equation}
 
 \noindent En développant le membre de droite de l'\autoref{eq:blabla} au premier ordre non-trivial nous obtenons finalement :
 
 \begin{equation}
-	\Gamma = 4a\Gamma\left( 1-2\sqrt{a\Gamma}+\mathcal{O}(a\Gamma) \right)
+	\Gamma = 4a\Gamma\left( 1-2\sqrt{a\Gamma}+\mathcal{O}(a\Gamma) \right).
 \end{equation}
 
 \noindent Il y a alors deux cas possibles selon la valeur de $a$ et sa comparaison avec la valeur critique $a_c = \frac{1}{4}$. Pour $a<a_c$, la seule solution est $\Gamma = 0$. Pour $a>a_c$, une autre solution $\Gamma > 0$ apparaît, se comportant comme $\Gamma \sim (a-a_c)^2$. Si l'on revient aux variables dimensionnées, cela revient à :
 
 \begin{equation}
-	\Gamma \sim (R_c-R)^2
+	\Gamma \sim (R_c-R)^2.
 	\label{eq:resolhl2d}
 \end{equation}
 
@@ -607,15 +607,15 @@ P(\mathbf{r}) = \left\{
 \subparagraph{}En fait, du fait de la propriété de décroissance algébrique du propagateur hydrodynamique $ \mathcal{G}$, le bruit interne peut être largement distribué. Dans l'image champ moyen développée précédemment, cela revient à considérer que la particule cible effectue des sauts de Lévy de taille $\Delta$ distribuée selon :
 
 \begin{equation}
-	P(\Delta) \sim \frac{1}{\Delta^{1+\mu}}
+	P(\Delta) \sim \frac{1}{\Delta^{1+\mu}},
 \end{equation}
 
 \noindent avec\footnote{Dans la limite $\mu \geq 2$, la variance de la distribution est finie et donc ce processus se ramène à une marche aléatoire gaussienne.} $\mu < 2$. Dans notre modélisation probabiliste, cela revient donc à modifier l'\autoref{eq:muHLDiff} selon :
 
 \begin{equation}
 \begin{aligned}
-    \partial_t P(\mathbf{r}, t) &= -a\Gamma (t)|\nabla|^{\mu} P(\mathbf{r}, t) - \frac{1}{\tau}\Theta(|\mathbf{r}|>R)P(\mathbf{r}, t) + \delta(\mathbf{r})\Gamma (t)\\
-     \Gamma (t) &= \frac{1}{\tau}\int_{|\mathbf{r}|>R}\mathrm{d}\mathbf{r}~P(\mathbf{r}, t)
+    \partial_t P(\mathbf{r}, t) &= -a\Gamma (t)|\nabla|^{\mu} P(\mathbf{r}, t) - \frac{1}{\tau}\Theta(|\mathbf{r}|>R)P(\mathbf{r}, t) + \delta(\mathbf{r})\Gamma (t),\\
+     \Gamma (t) &= \frac{1}{\tau}\int_{|\mathbf{r}|>R}\mathrm{d}\mathbf{r}~P(\mathbf{r}, t).
 \end{aligned}
     \label{eq:muHL}
 \end{equation}
@@ -625,7 +625,7 @@ P(\mathbf{r}) = \left\{
 \subparagraph{}D'un point de vue champ moyen, nous pouvons déterminer la valeur de $\mu$ en fonction de la portée des interactions hydrodynamiques. Dans le cas où le bruit interne provient d'une unique particule active et où les interactions médiées décrites par le propagateur $\mathcal{G}(\mathbf{r})$ décroissent comme $1/r^\alpha$, la distribution associée est :
 
 \begin{equation}
-	P(\Delta) \sim \int \mathrm{d}\mathbf{r}~\delta\left( \mathcal{G}(\mathbf{r})-\Delta \right)\sim \frac{1}{\Delta^{1+D/\alpha}}
+	P(\Delta) \sim \int \mathrm{d}\mathbf{r}~\delta\left( \mathcal{G}(\mathbf{r})-\Delta \right)\sim \frac{1}{\Delta^{1+D/\alpha}},
 \end{equation}
 
 \noindent et on a donc $\mu = D/\alpha$. Ce résultat basé sur un évènement unique reste valable lorsque l'on considère un ensemble de particules actives dans le système, mais à la condition que l'activité dans le système soit totalement décorrélée et n'est donc valable que dans la limite de champ moyen.
@@ -654,7 +654,7 @@ P(\mathbf{r}) = \left\{
 \subparagraph{}Par ailleurs, dans cette même limite d'activité nulle ($P(\sigma>\sigma_Y)=0$), il a été démontré que la distribution $P(\sigma)$ présentait un comportement algébrique proche de la barrière $\sigma = \sigma_Y$ \cite{lin_mean-field_2016} :
 
 \begin{equation}
-	P(\sigma_Y-\sigma) \sim (\sigma_Y-\sigma)^\theta
+	P(\sigma_Y-\sigma) \sim (\sigma_Y-\sigma)^\theta,
 \end{equation}
 
 \noindent avec $\theta$ l'exposant de pseudo-gap. Dans le cas où le système n'est pas forcé, se rapprochant alors du cas de notre modèle de suspensions, il a été montré que cet exposant dépend de l'exposant de bruit $\mu$ selon :
@@ -674,13 +674,13 @@ P(\mathbf{r}) = \left\{
 \subparagraph{}Dans le cadre de l'image champ moyen que nous avons proposée pour la transition de réversibilité, l'exposant $\beta$ définit la relation entre l'activité $\Gamma$ et la taille de la cage effective $R$ selon :
 
 \begin{equation}
-	\Gamma \sim (R_c-R)^\beta
+	\Gamma \sim (R_c-R)^\beta.
 \end{equation}
 
 \noindent Pour ce qui est de l'exposant de pseudo-gap, par transposition, celui-ci définit la relation au point critique :
 
 \begin{equation}
-	P(R-|\mathbf{r}|)\sim (R-|\mathbf{r}|)^\theta
+	P(R-|\mathbf{r}|)\sim (R-|\mathbf{r}|)^\theta.
 \end{equation}
 
 \subparagraph{}Les raisons pour lesquelles cette correspondance de valeur des exposants pourrait ne pas fonctionner sont les différences entre les modèles présentées à la \autoref{sec:diffnorm}, à savoir la différence de dimension et l'existence ou non d'un terme de forçage qui implique un changement du paramètre de contrôle. Toutefois, la correspondance entre les deux modèles dans le cas de la diffusion normale (où l'on trouve $\beta = 2$ dans les deux cas) suggère que ces différences n'impactent pas réellement le comportement critique de la transition. Pour s'en assurer, nous proposons une résolution numérique du modèle $\mu$-Hébraud-Lequeux dans la partie suivante.
@@ -783,7 +783,7 @@ P(\mathbf{r}) = \left\{
 \subparagraph{}Nous représentons à la \autoref{fig:PCorr_alphaMF} le meilleur redimensionnement par $\delta\phi$ obtenu dans les cas $\alpha = 1.5$ et $\alpha=5$ et reportons le cas des autres portées dans l'\annexeref{sec:PCorr}. Comme on peut le remarquer, la superposition des courbes est remarquablement satisfaisante sous le bon choix d'exposants. Notre hypothèse d'homogénéité de la fonction $g^p(x, \delta\phi)$, que nous notons plus simplement $g(x)$ laissant la dépendance en $\delta\phi$ implicite, est donc bien validée. Une information annexe que nous tirons de ces redimensionnements est que, pour $\theta>0.5$, nous mesurons $a_1 = \beta/2$ ce qui signifie que la valeur au contact $x=0$ de la fonction $g$ évolue comme $\delta\phi^{\beta/2}$. De plus, pour $\theta<0.5$, là où nous avons mesuré $\beta=1$, celle-ci évolue comme $\delta\phi^{0.5}$. Ainsi, par définition de l'exposant $\beta$ ($\langle A \rangle \sim \delta\phi^\beta$), la valeur du plateau se comporte comme $\sqrt{\langle A \rangle}$ à toute portée. La forme adéquate de la fonction de corrélation de paire à une distance finie du point critique est donc :
 
 \begin{equation}
-	g(x) \sim \sqrt{\langle A \rangle} + x^\theta
+	g(x) \sim \sqrt{\langle A \rangle} + x^\theta.
 	\label{eq:scalinggx}
 \end{equation}
 
@@ -863,7 +863,7 @@ P(\mathbf{r}) = \left\{
 \subparagraph{}Dans le cas d'un transport à longue portée contrôlé par l'exposant $\gamma$, une particule active dans un espace de dimension $D$ fait un saut dont l'amplitude $\Delta$ suit une distribution $P(\Delta)\sim\Delta^{D-1-\gamma}$ (voir \autoref{chapter:TransportLP}). En supposant la densité de particules homogène dans le système, cela correspond pour la particule active à une probabilité $P_a(r)$ de créer de l'activité à une distance $r$ à l’issue du pas de temps telle que :
 
 \begin{equation}
-	P_a(r) \sim \frac{1}{r^{1+\gamma-D}}
+	P_a(r) \sim \frac{1}{r^{1+\gamma-D}}.
 	\label{eq:sautabsoupas}
 \end{equation}
 
@@ -902,9 +902,9 @@ P(\mathbf{r}) = \left\{
 
 \begin{equation}
 	\begin{aligned}
-		&P(S) \sim S^{-\tau}g_S\left( \frac{S}{S_c} \right), \quad S_c \sim L^{d_f}\\
-		&P(T) \sim T^{-\tau^\prime}g_T\left( \frac{T}{T_c} \right), \quad T_c \sim L^{z}\\
-		&P(N) \sim N^{-\tau^{\prime\prime}}g_N\left( \frac{N}{N_c} \right), \quad N_c \sim L^{\chi}\\
+		&P(S) \sim S^{-\tau}g_S\left( \frac{S}{S_c} \right), \quad S_c \sim L^{d_f},\\
+		&P(T) \sim T^{-\tau^\prime}g_T\left( \frac{T}{T_c} \right), \quad T_c \sim L^{z},\\
+		&P(N) \sim N^{-\tau^{\prime\prime}}g_N\left( \frac{N}{N_c} \right), \quad N_c \sim L^{\chi}.\\
 	\end{aligned}
 	\label{eq:AvDistribSusp}
 \end{equation}
@@ -925,7 +925,7 @@ P(\mathbf{r}) = \left\{
 \subparagraph{}Les formes des distributions sont alors celles supposées, présentant une décroissance en loi de puissance, commune à chaque taille, puis un cut-off, augmentant avec la taille du système. Par ailleurs, ce cut-off, dans le cas de $P(S)$ et $P(T)$, semble présenter une bosse qui s'étale à mesure que la portée augmente. Afin de déterminer précisément les exposants d'avalanche associés à ces distributions, nous procédons à une analyse d'échelle en taille finie. Pour ce faire, nous reprenons les formes définies par l'\autoref{eq:AvDistribSusp}. Selon ces ansatz, toute la dépendance des distributions en $L$ est portée par le cut-off. Prenons alors l'exemple de la distribution des tailles $P(S)$. En redimensionnant $S$ par $S_c$, nous obtenons :
 
 \begin{equation}
-	P(S) \sim L^{-d_f\tau}\tilde{S}^{-\tau}g_S\left( \tilde{S} \right),  \quad \tilde{S} = \frac{S}{L^{d_f}}
+	P(S) \sim L^{-d_f\tau}\tilde{S}^{-\tau}g_S\left( \tilde{S} \right),  \quad \tilde{S} = \frac{S}{L^{d_f}}.
 \end{equation}
 
 \noindent Ainsi, en redimensionnant $P(S)$ par $L^{-d_f\tau}$ et $S$ par $L^{d_f}$, les courbes obtenues pour différentes tailles de systèmes $L$ sont indépendantes de $L$, i.e. se superposent. Ce principe constitue alors une méthode graphique de détermination des exposants : les exposants $d_f$ et $\tau$ sont déterminés comme ceux définissant le redimensionnement qui permet la meilleure superposition des courbes obtenues pour différents $L$. Nous représentons alors sur la \autoref{fig:AvSuspRescaled} la meilleure superposition obtenue pour $\alpha = 1.5$. Les représentations graphiques obtenues pour les autres portées sont reportées dans l'\annexeref{sec:AvTBLRRAnnexe} et les exposants ainsi déterminés sont tous reportés dans le \autoref{tab:expocritavsusp}.

@@ -87,14 +87,14 @@
 \subparagraph{}En accord avec ces observations, l'hypothèse de scaling généralisée est une hypothèse fondatrice de l'étude des phénomènes critiques qui permet de comprendre leur phénoménologie \cite{kardar_statistical_2007}. Celle-ci repose sur le fait que, dans le régime critique (i.e. suffisamment proche de la transition), la longueur de corrélation est la seule échelle de longueur pertinente pour décrire le système. En d'autres termes, tous les détails microscopiques du système en-dessous de l'échelle de longueur représentée par $\xi$ sont d'intérêt négligeable. De plus, cette hypothèse suppose que cette longueur de corrélation est une fonction homogène de la distance au point critique :
 
 \begin{equation}
-    \xi = \lambda^{\nu_\perp} \tilde{\xi}(\lambda \delta T), \quad \delta T = \frac{T_c-T}{T_c}, \quad \lambda>0
+    \xi = \lambda^{\nu_\perp} \tilde{\xi}(\lambda \delta T), \quad \delta T = \frac{T_c-T}{T_c}, \quad \lambda>0.
     \label{eq:homcorr}
 \end{equation}
 
 \noindent Le propre d'une fonction homogène étant  que l'\autoref{eq:homcorr} est valide pour tout $\lambda$\footnote{à condition de rester bien sûr dans le domaine critique.}, en prenant $\lambda = 1/\delta T$ nous obtenons :
 
 \begin{equation}
-    \xi = \delta T^{-\nu_\perp}\tilde{\xi}(1)
+    \xi = \delta T^{-\nu_\perp}\tilde{\xi}(1).
 \end{equation}
 
 \noindent Cela retranscrit alors bien le fait que la longueur de corrélation diverge algébriquement avec la distance au point critique.
@@ -109,7 +109,7 @@
 \subparagraph{}Cette hypothèse implique un résultat important. Considérons un système de taille $L^D$ que l'on subdivise en un ensemble de sous-compartiments de dimension $\xi^D$, comme représenté à la \autoref{fig:DecoupageXi}. Par définition de la longueur de corrélation, chacun de ces sous-compartiments peut être considéré comme indépendant. Chacun de ceux-ci, au nombre de $\left(\frac{L}{\xi}\right)^D$ contribue à l'énergie libre $f$ du système par la même quantité. En d'autres termes, la partie singulière (associée à la transition) de $f$ se comporte comme $\xi^{-D}$. C'est donc aussi une fonction homogène :
 
 \begin{equation}
-    f = \lambda^{y_f}\tilde{f}(\lambda \delta T), \quad \lambda > 0
+    f = \lambda^{y_f}\tilde{f}(\lambda \delta T), \quad \lambda > 0,
 \end{equation}
 
 \noindent et dont l'exposant caractéristique est relié au précédent par la relation $y_f = - \nu_\perp D$, génériquement appelée relation d'échelle. 
@@ -118,8 +118,8 @@
 
 \begin{equation}
 \begin{aligned}
-	\langle M \rangle = \lambda^{-\beta} \tilde{M}(\lambda \delta T) &\Rightarrow \langle M \rangle  \sim \delta T^{\beta}\\
-	\tau = \lambda^{\nu_\parallel} \tilde{\tau}(\lambda \delta T) &\Rightarrow \tau \sim \delta T^{-\nu_\parallel}
+	\langle M \rangle = \lambda^{-\beta} \tilde{M}(\lambda \delta T) &\Rightarrow \langle M \rangle  \sim \delta T^{\beta},\\
+	\tau = \lambda^{\nu_\parallel} \tilde{\tau}(\lambda \delta T) &\Rightarrow \tau \sim \delta T^{-\nu_\parallel}.
 \end{aligned}
 \end{equation}
 
@@ -138,13 +138,13 @@
 \subparagraph{}Le fait qu'un comportement critique dépende uniquement de critères très généraux motive l'étude de ces phénomènes via des modélisations continues simples sous-forme d'équations de champ.  Par exemple, celle associée à la classe d'Ising est la suivante :
 
 \begin{equation}
-	\partial_t \phi (\mathbf{r}, t) = -r\phi (\mathbf{r}, t) + u \phi^3(\mathbf{r}, t) + \kappa\nabla^2 \phi (\mathbf{r}, t) + \sigma\eta(\mathbf{r}, t)
+	\partial_t \phi (\mathbf{r}, t) = -r\phi (\mathbf{r}, t) + u \phi^3(\mathbf{r}, t) + \kappa\nabla^2 \phi (\mathbf{r}, t) + \sigma\eta(\mathbf{r}, t),
 \end{equation}
 
 \noindent avec $\eta$ représentant les fluctuations via un bruit gaussien défini selon :
 
 \begin{equation}
-\langle \eta(\mathbf{r}, t) \rangle = 0, \quad \langle \eta(\mathbf{r}, t) \eta(\mathbf{r}^\prime, t^\prime)\rangle = \delta(\mathbf{r}-\mathbf{r}^\prime)\delta(t-t^\prime)
+\langle \eta(\mathbf{r}, t) \rangle = 0, \quad \langle \eta(\mathbf{r}, t) \eta(\mathbf{r}^\prime, t^\prime)\rangle = \delta(\mathbf{r}-\mathbf{r}^\prime)\delta(t-t^\prime),
 \label{eq:phi4}
 \end{equation}
 
@@ -153,7 +153,7 @@
 \subparagraph{}Dans la limite où les fluctuations de la dynamique sont négligeables, la criticalité décrite par cette équation peut être appréhendée dans son approximation de champ moyen :
 
 \begin{equation}
-	\partial_t \phi = -r\phi + u\phi^3 \xrightarrow[r>0]{t\rightarrow \infty} \phi = \left( \frac{r}{u} \right)^\frac{1}{2}
+	\partial_t \phi = -r\phi + u\phi^3 \xrightarrow[r>0]{t\rightarrow \infty} \phi = \left( \frac{r}{u} \right)^\frac{1}{2},
 \end{equation}
 
 \noindent menant donc à $\beta^\text{CM} = \frac{1}{2}$. Cependant cette approximation n'est valable que dans certains cas.
@@ -161,13 +161,13 @@
 \subparagraph{}Dans l'idée que les détails microscopiques ne sont pas pertinents dans le régime critique, nous pouvons redimensionner les distances dans cette équation selon $\mathbf{r}\rightarrow b\mathbf{r}$ avec $b>1$. Sous cette transformation, d'après la théorie d'échelle, les différentes quantités de l'équation sont transformées selon :
 
 \begin{equation}
-	\mathbf{r}\rightarrow b\mathbf{r}, \quad t \rightarrow b^{\nu_\parallel/\nu_\perp}t, \quad \phi \rightarrow b^{-\beta/\nu_\perp}\phi
+	\mathbf{r}\rightarrow b\mathbf{r}, \quad t \rightarrow b^{\nu_\parallel/\nu_\perp}t, \quad \phi \rightarrow b^{-\beta/\nu_\perp}\phi,
 \end{equation}
 
 \noindent si bien que ce redimensionnement revient à obtenir une équation équivalente à l'\autoref{eq:phi4} avec un redimensionnement des constantes selon :
 
 \begin{equation}
-	r \rightarrow b^{\nu_\parallel/\nu_\perp} r, \quad u \rightarrow b^{\nu_\parallel/\nu_\perp - 2\beta/\nu_\perp} u, \quad \kappa \rightarrow b^{\nu_\parallel/\nu_\perp-2}\kappa, \quad \sigma \rightarrow b^{\nu_\parallel/2\nu_\perp+\beta/\nu_\perp - D/2}\sigma
+	r \rightarrow b^{\nu_\parallel/\nu_\perp} r, \quad u \rightarrow b^{\nu_\parallel/\nu_\perp - 2\beta/\nu_\perp} u, \quad \kappa \rightarrow b^{\nu_\parallel/\nu_\perp-2}\kappa, \quad \sigma \rightarrow b^{\nu_\parallel/2\nu_\perp+\beta/\nu_\perp - D/2}\sigma.
 \end{equation}
 
 \noindent \`A grande échelle ($b\rightarrow\infty$), les fluctuations sont donc négligeables seulement pour $D > (2\beta+\nu_\parallel)/\nu_\perp$. Par ailleurs, dans ce cas champ moyen, l'invariance d'échelle du système au point critique ($r=0$) impose la valeur des exposants $\nu_\parallel^\text{CM} = 1$ et $\nu_\perp^\text{CM} = \frac{1}{2}$. Ce raisonnement définit donc une dimension critique supérieure du système $D_c = 4$ au-delà de laquelle la criticalité décrite par l'équation \autoref{eq:phi4} est triviale\footnote{Nous réutiliserons ce raisonnement générique pour caractériser les propriétés champ moyen d'autres théories dans la suite de cette thèse.}. 
@@ -217,19 +217,19 @@
 \subparagraph{}Du côté des exposants statiques, nous retrouvons naturellement l'exposant $\beta$ reliant la valeur moyenne de l'activité dans l'état stationnaire à la distance au point critique, et l'exposant $\nu_\perp$ caractérisant la divergence de la longueur de corrélation $\xi$ :
 
 \begin{equation}
-	\langle A \rangle \sim \delta p^\beta, \quad \xi \sim \delta p^{-\nu_\perp}, \quad \delta p =  \frac{p-p_c}{p_c}
+	\langle A \rangle \sim \delta p^\beta, \quad \xi \sim \delta p^{-\nu_\perp}, \quad \delta p =  \frac{p-p_c}{p_c}.
 \end{equation}
 
 \noindent De plus, nous nous intéresserons aussi dans ce travail à l'évolution des fluctuations du paramètre d'ordre dans l'état stationnaire. Pour un système de taille $L^D$, avec $D$ la dimension du système, nous les caractérisons via la variance $\langle \delta A^2\rangle  = L^D\times(\langle A ^2 \rangle - \langle A \rangle^2)$ dont l'évolution est alors dictée par l'exposant $\gamma^\prime$ :
 
 \begin{equation}
-	\langle \delta A^2\rangle \sim \delta p^{-\gamma^\prime}
+	\langle \delta A^2\rangle \sim \delta p^{-\gamma^\prime}.
 \end{equation}
 
 \noindent Le signe apposé à la définition de cet exposant vient du fait qu'en général les fluctuations du paramètre d'ordre divergent à l'approche du point critique, signe d'une dynamique de plus en plus corrélée. En-dessous de la dimension critique $D_c$, les exposants $\beta$, $\gamma^\prime$ et $\nu_\perp$ sont liés par une relation d'échelle :
 
 \begin{equation}
-	2\beta + \gamma^\prime = \nu_\perp D
+	2\beta + \gamma^\prime = \nu_\perp D,
 \end{equation}
 
 \noindent appelée relation d'hyperscaling \cite{lubeck_universal_2004}. Nous ferons appel à cette relation d'échelle à plusieurs reprises dans les différents chapitres de ce manuscrit.
@@ -237,7 +237,7 @@
 \subparagraph{}Du point de vue dynamique, il existe deux façons principales de caractériser une transition de phase absorbante \cite{lubeck_universal_2004}. La première est de partir d'un état initial avec une zone localisée d'activité, comme c'est le cas sur la \autoref{fig:KirbyetArbres}, et d'étudier la propagation de l'activité dans le système. Une autre possibilité, que nous favoriserons par la suite, est de caractériser la relaxation du système à partir d'un état aléatoire. Dans ce cas, au point critique, la valeur instantanée de l'activité dans le système décroît à temps long de manière algébrique, définissant l'exposant dynamique $\delta$ :
 
 \begin{equation}
-	A(t) \sim t^{-\delta}
+	A(t) \sim t^{-\delta}.
 \end{equation}
 
 \subparagraph{}Les exposants $\beta$, $\gamma^\prime$ et $\delta$ ainsi définis et illustrés sur la \autoref{fig:expabs} permettent de caractériser une transition de phase absorbante sous différents aspects et de manière unique. 
@@ -260,14 +260,14 @@
 \subparagraph{}D'un point de vue des processus plus abstraits de réaction-diffusion \cite{tauber_applications_2005}, les modèles appartenant à la classe DP peuvent être modélisés par deux processus, un de création et un d’annihilation :
 
 \begin{equation}
-A \xrightarrow[]{\lambda} 2A, \quad A \xrightarrow[]{\gamma} \o
+A \xrightarrow[]{\lambda} 2A, \quad A \xrightarrow[]{\gamma} \o,
 \label{eq:ReacDiffDP}
 \end{equation}
 
 \noindent avec $A$ une espèce représentant les agents actifs, diffusant avec un coefficient de diffusion $D_A$. Via cette approche il est possible d'associer, comme pour la classe d'Ising, une théorie de champ à la classe DP :
 
 \begin{equation}
-	\partial_t A(\mathbf{r}, t) = rA(\mathbf{r}, t) - uA^2(\mathbf{r}, t) + \kappa\nabla^2 A (\mathbf{r}, t) + \sigma \sqrt{A(\mathbf{r}, t)} \eta(\mathbf{r}, t)
+	\partial_t A(\mathbf{r}, t) = rA(\mathbf{r}, t) - uA^2(\mathbf{r}, t) + \kappa\nabla^2 A (\mathbf{r}, t) + \sigma \sqrt{A(\mathbf{r}, t)} \eta(\mathbf{r}, t),
 	\label{eq:eqDP}
 \end{equation}
 
@@ -342,15 +342,15 @@ A \xrightarrow[]{\lambda} 2A, \quad A \xrightarrow[]{\gamma} \o
 \subparagraph{}Du point de vue des processus de réaction-diffusion, les modèles appartenant à la classe CDP peuvent être ramenés à un processus à deux espèces \cite{van_wijland_wilson_1998, pastor_satorras_reaction_diffusion_2001, pastor_satorras_field_2000} (contrairement à la classe DP qui n'en fait intervenir qu'une) :
 
 \begin{equation}
-	A +B \xrightarrow[]{\lambda} 2A, \quad A \xrightarrow[]{\gamma} B
+	A +B \xrightarrow[]{\lambda} 2A, \quad A \xrightarrow[]{\gamma} B,
 \end{equation}
 
 \noindent avec l'espèce $A$ diffusant avec un coefficient de diffusion $D_A$. Ces deux processus conservent alors le nombre total $N=N_A+N_B$ de particules, comme c'est le cas dans le modèle Manna et le ROM. Via ce formalisme, il est possible de définir une théorie de champ décrivant cette dynamique proche de celle de DP \cite{van_wijland_universality_2002, le_doussal_exact_2015} :
 
 \begin{equation}
 \begin{aligned}
-	&\partial_t A(\mathbf{r}, t) = (\omega\rho (\mathbf{r}, t) - r)A(\mathbf{r}, t) - uA^2(\mathbf{r}, t) + \kappa\nabla^2 A (\mathbf{r}, t) + \sigma \sqrt{A(\mathbf{r}, t)} \eta(\mathbf{r}, t)\\
-	&\partial_t \rho (\mathbf{r}, t) = \kappa\nabla^2 A (\mathbf{r}, t)
+	&\partial_t A(\mathbf{r}, t) = (\omega\rho (\mathbf{r}, t) - r)A(\mathbf{r}, t) - uA^2(\mathbf{r}, t) + \kappa\nabla^2 A (\mathbf{r}, t) + \sigma \sqrt{A(\mathbf{r}, t)} \eta(\mathbf{r}, t),\\
+	&\partial_t \rho (\mathbf{r}, t) = \kappa\nabla^2 A (\mathbf{r}, t),
 \end{aligned}
 \label{eq:CDP}
 \end{equation}
@@ -391,19 +391,19 @@ A \xrightarrow[]{\lambda} 2A, \quad A \xrightarrow[]{\gamma} \o
 \subparagraph{}La compétition complexe entre force de rappel élastique qui tend à aplanir l'interface et force de piégeage qui tend à déformer l'interface rend la structure de cette dernière non-triviale : proche de la transition, elle acquiert une certaine rugosité \cite{fisher_collective_1998, wiese_theory_2022}. La rugosité d'une interface est définie via la largeur $W$ balayée par une portion d'extension $l$ de cette interface (voir \autoref{fig:depinningbase}-(a)). Proche de la transition, $W$ varie algébriquement avec $l$ selon :
 
 \begin{equation}
-	W(l) \sim l^\eta
+	W(l) \sim l^\eta,
 \end{equation}
 
 \noindent $\eta$ définissant l'exposant de rugosité, un exposant universel au même titre qu'un autre exposant critique. En définissant $u(x)$ la position de l'interface, cette évolution algébrique se retrouve de manière équivalente dans les fluctuations de cette position. En effet, on a directement :
 
 \begin{equation}
-	W^2(l) = \overline{\left\langle (u(\mathbf{r}) - \langle u(\mathbf{r}) \rangle)^2\right\rangle} \sim l^{2\eta}
+	W^2(l) = \overline{\left\langle (u(\mathbf{r}) - \langle u(\mathbf{r}) \rangle)^2\right\rangle} \sim l^{2\eta},
 \end{equation}
 
 \noindent où $\langle \cdot \rangle$ désigne la moyenne spatiale sur la portion d'extension $l$ et $\overline{\cdot}$ la moyenne sur les réalisations du désordre. Dans l'espace de Fourier\footnote{Les notations et conventions utilisées dans ce manuscrit pour la transformée de Fourier sont indiquées dans l'\annexeref{sec:conv_fourier}.}, cette propriété se retrouve dans le facteur de structure $S$ : 
 
 \begin{equation}
-	S(\mathbf{q}) = \overline{\hat{u}(\mathbf{q})\hat{u}(-\mathbf{q})} \sim q^{-(D+2\eta)}
+	S(\mathbf{q}) = \overline{\hat{u}(\mathbf{q})\hat{u}(-\mathbf{q})} \sim q^{-(D+2\eta)}.
 \end{equation}
 
 \paragraph{Avalanches}
@@ -411,25 +411,25 @@ A \xrightarrow[]{\lambda} 2A, \quad A \xrightarrow[]{\gamma} \o
 \subparagraph{}En partant d'une configuration piégée de la ligne élastique et en augmentant lentement la force extérieure $f$ tout en gardant $f<f_c$, la ligne finit par se dépiéger localement, et une portion de celle-ci se déplace avant de se retrouver bloquée à nouveau. Ce saut d'un état absorbant à un autre est ce qu'on appelle une avalanche. Ces objets sont définis par leur taille $S$, correspondant au déplacement moyen de la ligne lors de l'évènement, et leur durée $T$. Proche du point critique $f=f_c$, ces caractéristiques sont distribuées algébriquement selon \cite{narayan_threshold_1993, rosso_avalanche_size_2009, le_doussal_statistics_2009, le_doussal_size_2009, wiese_theory_2022} :
 
 \begin{equation}
-P_S(S) \sim S^{-\tau}g_S\left( \frac{S}{S_c} \right), \quad P_T(T) \sim T^{-\tau^\prime}g_T\left( \frac{T}{T_c} \right)
+P_S(S) \sim S^{-\tau}g_S\left( \frac{S}{S_c} \right), \quad P_T(T) \sim T^{-\tau^\prime}g_T\left( \frac{T}{T_c} \right),
 \end{equation}
 
 \noindent avec $g_S(x)$ et $g_T(x)$ constantes pour $x\ll 1$ et à décroissance rapide pour $x>1$, $\tau$ et $\tau^\prime$ définissant des exposants d'avalanche universels. Ces deux quantités peuvent être reliées à l'extension spatiale $l$ de l'avalanche par deux nouveaux exposants critiques :
 
 \begin{equation}
-	S \sim l^{d_f}, \quad T \sim l^z
+	S \sim l^{d_f}, \quad T \sim l^z,
 \end{equation}
 
 \noindent avec $d_f$ la dimension fractale des avalanches et $z$ l'exposant dynamique. Ces deux exposants sont reliés à deux autres exposants présentés précédemment par les relations d'échelle :
 
 \begin{equation}
-	d_f = D + \eta, \quad z = \frac{\nu_\parallel}{\nu_\perp}
+	d_f = D + \eta, \quad z = \frac{\nu_\parallel}{\nu_\perp}.
 \end{equation}
 
 \subparagraph{}Pour $f>f_c$, la dynamique se prolonge indéfiniment et il est donc complexe de séparer les différentes avalanches. Pour analyser les avalanches au-dessus de la force critique il est alors d'usage de procéder d'une manière un peu différente : en plus du mécanisme de forçage, un mécanisme de dissipation est ajouté. Cette fois, en parallèle d'une augmentation constante de $f$, la force extérieure suit une diminution instantanément proportionnelle à l'activité globale dans le système \cite{le_priol_long_range_2020, wiese_theory_2022}. Lorsque l'augmentation de $f$ est suffisamment lente, une séparation d'échelle se crée entre le forçage et la relaxation du système d'un état piégé à un autre. Les évènements de relaxation ainsi désignés sont associés aux avalanches au-dessus du seuil (voir \autoref{fig:depinningbase}-(c)). De la même façon, il est possible d'en caractériser la statistique via la taille et la durée des évènements. Sous ces conditions, le système évolue naturellement vers le point critique $f=f_c$. On parle alors de criticalité auto-organisée (SOC) \cite{bak_self_organized_1988, turcotte_self_organized_1999, lubeck_universal_2004}. Dans ce cadre, les cut-offs des distributions ne dépendent que de l'extension spatiale $L$ du système selon :
 
 \begin{equation}
-	S_c \sim L^{d_f}, \quad T_c \sim L^{z}
+	S_c \sim L^{d_f}, \quad T_c \sim L^{z}.
 \end{equation}
 
 \subsubsection{Mapping avec la classe CDP}
@@ -441,7 +441,7 @@ P_S(S) \sim S^{-\tau}g_S\left( \frac{S}{S_c} \right), \quad P_T(T) \sim T^{-\tau
 \subparagraph{}La transition de dépiégeage peut être modélisée simplement par une équation du mouvement continue sur la ligne. Dans le cas où l'élasticité de la ligne est à courte portée, celle-ci prend la forme suivante \cite{fisher_collective_1998, wiese_theory_2022} :
 
 \begin{equation}
-	\partial_t u (x,t) = (\nabla^2 - m^2)u(x,t) + F(x, u(x,t)) + f(x,t), \quad F(x,u) = - \partial_u V(x,u)
+	\partial_t u (x,t) = (\nabla^2 - m^2)u(x,t) + F(x, u(x,t)) + f(x,t), \quad F(x,u) = - \partial_u V(x,u),
 	\label{eq:qEW}
 \end{equation}
 
@@ -450,7 +450,7 @@ P_S(S) \sim S^{-\tau}g_S\left( \frac{S}{S_c} \right), \quad P_T(T) \sim T^{-\tau
 \subparagraph{}Par cette formulation, il a été possible de faire une équivalence entre l'\autoref{eq:qEW} et l'\autoref{eq:CDP}, associant alors directement la transition de dépiégeage à la classe d'universalité CDP \cite{le_doussal_exact_2015, wiese_hyperuniformity_2024}. Dans ce cadre, le champ d'activité $A$ correspond naturellement au champ de vitesse de l'interface $\partial_t u$. La correspondance moins évidente que montre cette équivalence est celle entre la densité de particules $\rho(x,t)$ dans la théorie CDP et la force de rappel élastique dans le cadre théorique du dépiégeage :
 
 \begin{equation}
-	\rho(x,t) - \rho_0 \sim \nabla^2 u (x,t)
+	\rho(x,t) - \rho_0 \sim \nabla^2 u (x,t),
 	\label{eq:equivCDPdépiégeage}
 \end{equation}
 
@@ -477,7 +477,7 @@ P_S(S) \sim S^{-\tau}g_S\left( \frac{S}{S_c} \right), \quad P_T(T) \sim T^{-\tau
 \subparagraph{}La rugosité est une propriété propre aux interfaces. Il n'est donc pas direct de voir comment son aspect critique se transpose aux modèles de particules. En fait, l'équivalence soulignée dans l'\autoref{eq:equivCDPdépiégeage} reliant la densité de particules $\rho$ à la position de l'interface $u$ permet de faire le lien entre fluctuations de position et fluctuations de densité :
 
 \begin{equation}
-	\overline{\left\langle (\rho(\mathbf{r}) - \langle \rho(\mathbf{r}) \rangle)^2\right\rangle} \rightarrow \overline{\left\langle (\nabla^2 u(\mathbf{r}) - \langle \nabla^2 u(\mathbf{r}) \rangle)^2\right\rangle} \sim l^{2(\eta-2)}
+	\overline{\left\langle (\rho(\mathbf{r}) - \langle \rho(\mathbf{r}) \rangle)^2\right\rangle} \rightarrow \overline{\left\langle (\nabla^2 u(\mathbf{r}) - \langle \nabla^2 u(\mathbf{r}) \rangle)^2\right\rangle} \sim l^{2(\eta-2)},
 	\label{eq:MappingHyperuni}
 \end{equation}
 
@@ -490,13 +490,13 @@ P_S(S) \sim S^{-\tau}g_S\left( \frac{S}{S_c} \right), \quad P_T(T) \sim T^{-\tau
 \subparagraph{}Dans le cas d'une répartition poissonienne totalement décorrélée (voir \autoref{fig:HU}-(b)), la variance $\langle \delta n^2 \rangle$ du nombre $n$ de particules dans un échantillon évolue proportionnellement à son extension spatiale $l^D$. Considérant des répartitions uniformes, on a par ailleurs $\langle n \rangle \sim l^D$. Ainsi dans ce cas décorrélé on a :
 
 \begin{equation}
-	\langle \delta n^2 \rangle_l \sim \langle n \rangle_l
+	\langle \delta n^2 \rangle_l \sim \langle n \rangle_l.
 \end{equation} 
 
 \subparagraph{}Dans le cas d'un ordre parfaitement cristallin (voir \autoref{fig:HU}-(a)), la variance $\langle \delta n^2 \rangle$ évolue proportionnellement au périmètre de la zone considérée\footnote{Ceci est valable tant que la forme du domaine n'est pas spécifiquement reliée au motif cristallin.}, lui même évoluant comme $l^{D-1}$. Ainsi, on aura :
 
 \begin{equation}
-	\langle \delta n^2 \rangle_l \sim \langle n \rangle_l^{1-1/D}
+	\langle \delta n^2 \rangle_l \sim \langle n \rangle_l^{1-1/D}.
 \end{equation} 
 
 \subparagraph{}Une évolution non-linéaire de $\langle \delta n^2 \rangle$ avec $\langle n \rangle$ indique la présence de corrélations dans la répartition de la densité dans le système. Si le cas cristallin est le plus extrême, il existe un continuum de répartitions caractérisées par $\langle \delta n^2 \rangle_l \sim \langle n \rangle_l^{\sigma}$, indiquant la présence de corrélations intermédiaires. Dès lors que $\langle \delta n^2 \rangle$ croît moins rapidement que $\langle n \rangle$ avec $l$ (i.e. $\sigma < 1$), on qualifie cette répartition d'hyperuniforme.
@@ -513,7 +513,7 @@ P_S(S) \sim S^{-\tau}g_S\left( \frac{S}{S_c} \right), \quad P_T(T) \sim T^{-\tau
 \subparagraph{}Dans un modèle de particules, il est possible d'associer trivialement les fluctuations de nombre de points/particules aux fluctuations de densité. Ainsi, via l'\autoref{eq:MappingHyperuni}, les exposants $\sigma$ et $\eta$ sont en fait directement liés par la relation d'échelle :
 
 \begin{equation}
-	\sigma = 2 + \frac{2\eta - 4}{D}
+	\sigma = 2 + \frac{2\eta - 4}{D}.
 	\label{eq:rel_eta_sigma}
 \end{equation}
 
@@ -523,7 +523,7 @@ P_S(S) \sim S^{-\tau}g_S\left( \frac{S}{S_c} \right), \quad P_T(T) \sim T^{-\tau
 
 \subparagraph{}En conclusion, la classe d'universalité CDP prétend à représenter tous les modèles présentant une transition de phase absorbante avec une infinité d'états absorbants et impliquant la dynamique d'un champ conservé. Cette classe possède deux représentations principales : les modèles de particules comme le modèle Manna ou le ROM et les modèles de dépiégeage. Les phénomènes apparentés à cette classe présentent une phénoménologie riche, caractérisée par des propriétés hyperuniformes et une dynamique d'avalanche critique. Via l'étude combinée des modèles de particules et de la transition de dépiégeage, le cadre CDP représente un objet d'étude bien balisé, regroupant prédictions théoriques et mesures numériques dans différentes dimensions. L'intérêt d'avoir présenté cette classe exhaustivement est qu'elle correspond en fait à un cadre de description proche des transitions qui motivent ce travail : la transition de réversibilité dans les suspensions cisaillées cycliquement et la transition vers l'écoulement des fluides à seuil. Les aspects spécifiques de la dynamique associée (avalanches, hyperuniformité, ...) se retrouveront donc dans notre étude de ces phénomènes.
 
-\section{Les transitions de réversibilité et d'écoulement comme transitions de phase absorbantes}
+\section[Les transitions de réversibilité et d'écoulement comme transitions de phase \\ absorbantes]{Les transitions de réversibilité et d'écoulement comme transitions de phase absorbantes}
 
 \subparagraph{}Dans cette section, nous revenons sur les deux objets d'intérêt de notre travail : la transition de réversibilité dans les suspensions cisaillées cycliquement et la transition vers l'écoulement des fluides à seuil. Pour chacune d'elle, nous explicitons la dynamique sous-jacente à ces transitions et expliquons en quoi celle-ci correspond à celle d'une transition de phase absorbante. Puis, en se basant sur la conjecture de Rossi et al. \cite{rossi_universality_2000}, nous montrons que ces deux systèmes sont proches de ceux représentés par la classe CDP, seulement avec la présence additionnelle d'interactions à longue portée.
 
@@ -548,7 +548,7 @@ P_S(S) \sim S^{-\tau}g_S\left( \frac{S}{S_c} \right), \quad P_T(T) \sim T^{-\tau
 \subparagraph{}Comme illustré à la \autoref{fig:SuspCDP}, la transition de réversibilité peut donc être comprise comme une transition de phase absorbante dont le paramètre de contrôle est l'amplitude de cisaillement $\gamma_0$ et le paramètre d'ordre le coefficient de diffusion stroboscopique $D_0$. Dans ce système, l'activité est donc directement associée aux déplacements irréversibles des particules, susceptibles de disparaître (via le repositionnement sur une nouvelle orbite stable) ou de se propager (via le repositionnement sur une orbite recoupant une orbite stable), de la même manière que l'activité dans les modèles présentés précédemment. De plus, l'état arrêté dans lequel toutes les particules sont sur une orbite stable est bien un état absorbant puisque la déstabilisation de l'orbite d'une particule ne peut se faire que par l'intersection avec une autre orbite. Ainsi, si toutes les orbites sont stables, elles le resteront pour toujours. Nous pouvons alors définir les mêmes exposants critiques que dans n'importe quelle autre transition de phase absorbante :
 
 \begin{equation}
-	D_0 \sim \delta\gamma_0^\beta, \quad \langle \delta D_0^2 \rangle \sim \delta\gamma_0^{-\gamma^\prime},\quad \xi \sim \delta\gamma_0^{-\nu_\perp}, \quad \delta\gamma_0 = \frac{\gamma_0-\gamma_{0,c}}{\gamma_{0,c}}
+	D_0 \sim \delta\gamma_0^\beta, \quad \langle \delta D_0^2 \rangle \sim \delta\gamma_0^{-\gamma^\prime},\quad \xi \sim \delta\gamma_0^{-\nu_\perp}, \quad \delta\gamma_0 = \frac{\gamma_0-\gamma_{0,c}}{\gamma_{0,c}}.
 \end{equation}
 
 \noindent L'enjeu est alors de connaître la valeur de ces exposants caractérisant cette criticalité.
@@ -568,7 +568,7 @@ P_S(S) \sim S^{-\tau}g_S\left( \frac{S}{S_c} \right), \quad P_T(T) \sim T^{-\tau
 \subparagraph{}Dans cette partie nous expliquons brièvement pourquoi nous pensons que le fluide suspendant permet la médiation d'interactions à longue portée entre les particules dans le cadre de la transition de réversibilité, quel que soit le dispositif expérimental considéré. Le raisonnement détaillé est présenté dans l'\annexeref{sec:Annexe_Interactions_Hydro}, nous en présentons simplement ici les conclusions générales dans un souci de concision. Dans le cas de la transition de réversibilité, lorsqu'une particule interagit irréversiblement avec une autre particule au cours d'un cycle, elle quitte son orbite initiale en appliquant une certaine force sur le fluide. Cette force va alors modifier l'écoulement du fluide via les lois régissant sa dynamique et donc affecter le mouvement des particules environnantes. En milieu infini, dans la limite de champ lointain, la force $\mathbf{F}^1(\mathbf{r})=\mathbf{F}^1\delta(\mathbf{r})$ appliquée en $\mathbf{r}$ par une particule $1$ ayant interagi irréversiblement induit une vitesse $\mathbf{v}^2$ sur une particule $2$ située en $\mathbf{r}^\prime$ via la relation linéaire :
 
 \begin{equation}
-	v_i (\mathbf{r}^\prime) = \mathcal{G}_{ij}(\mathbf{r} -\mathbf{r}^\prime)F^1_j, \quad \mathcal{G}_{ij}(\mathbf{r}) = \frac{1}{8\pi\eta r}\left( \delta_{ij}+\frac{r_ir_j}{r^2} \right)
+	v_i (\mathbf{r}^\prime) = \mathcal{G}_{ij}(\mathbf{r} -\mathbf{r}^\prime)F^1_j, \quad \mathcal{G}_{ij}(\mathbf{r}) = \frac{1}{8\pi\eta r}\left( \delta_{ij}+\frac{r_ir_j}{r^2} \right),
 \end{equation}
 
 \noindent avec $\mathcal{G}_{ij}$ le tenseur d'Oseen, fonction de Green des équations de Stokes. En pratique cependant, les évènements irréversibles correspondent plutôt à un dipôle de force sur le fluide, représentant le choc des deux particules interagissant. Ainsi, le propagateur d'interaction d'intérêt est plutôt la dérivée de ce tenseur d'Oseen (voir \annexeref{sec:Annexe_Interactions_Hydro}). Celui-ci définit donc une interaction hydrodynamique entre l'évènement irréversibile et les particules environnantes décroissant comme $\sim 1/r^2$ dans le milieu tridimensionnel infini, modélisation adéquate pour décrire le cisaillement de suspensions dans des dispositifs peu confinants.
@@ -576,7 +576,7 @@ P_S(S) \sim S^{-\tau}g_S\left( \frac{S}{S_c} \right), \quad P_T(T) \sim T^{-\tau
 \subparagraph{}En fait, en se basant sur les principes de conservation de la quantité de mouvement et/ou de la masse dans le système, nous pouvons montrer que dans la grande majorité des dispositifs expérimentaux pertinents pour l'étude de la transition, la forme de l'interaction induite par un monopôle de force reste la même, décrite par :
 
 \begin{equation}
-\quad \mathcal{G}_{ij}(\mathbf{r}) \sim \frac{1}{r^\gamma}\left( \delta_{ij}+ C\frac{r_ir_j}{r^2} \right)
+\quad \mathcal{G}_{ij}(\mathbf{r}) \sim \frac{1}{r^\gamma}\left( \delta_{ij}+ C\frac{r_ir_j}{r^2} \right),
 \end{equation}
 
 \noindent avec $\gamma$ un entier dépendant du dispositif \cite{diamant_hydrodynamic_2009}. L'interaction entre un évènement irréversible (dipôle de force) et une particule dans la transition de réversibilité décroît donc aussi en loi de puissance comme $\sim 1/r^\alpha$ avec $\alpha = \gamma+1$. Par exemple dans le cas d'un confinement quasi-2D entre deux plaques rigides nous obtenons une décroissance en $\sim 1/r^3$ soit $\alpha = 3$.
@@ -609,7 +609,7 @@ P_S(S) \sim S^{-\tau}g_S\left( \frac{S}{S_c} \right), \quad P_T(T) \sim T^{-\tau
 \subparagraph{}Comme illustré à la \autoref{fig:YieldingCDP}, la transition vers l'écoulement peut donc être comprise comme une transition de phase absorbante dont le paramètre de contrôle est la contrainte de cisaillement $\Sigma$ et le paramètre d'ordre le taux de cisaillement $\dot{\gamma}$. Dans ce système, l'activité est donc directement associée à la déformation plastique locale du matériau qui est susceptible de s'estomper (via la relaxation de la contrainte locale) comme de se propager (via la redistribution de contrainte), de la même façon que dans les modèles précédemment évoqués dans ce chapitre. Par ailleurs, l'état arrêté représenté par $\dot{\gamma} = 0$ est bien un état absorbant de la dynamique puisque, à $\Sigma$ fixée, un réarrangement plastique ne peut être provoqué que par la redistribution de contrainte engendrée par un réarrangement précédent. De cette façon, on peut définir les mêmes exposants critiques que dans le cadre de n'importe quelle autre transition de phase absorbante :
 
 \begin{equation}
-	\dot{\gamma} \sim \delta\Sigma^\beta,\quad \langle\Delta\dot{\gamma}^2\rangle \sim \delta\Sigma^{-\gamma^\prime}, \quad \xi \sim \delta\Sigma^{-\nu_\perp}, \quad \delta\Sigma = \frac{\Sigma-\Sigma_c}{\Sigma_c}
+	\dot{\gamma} \sim \delta\Sigma^\beta,\quad \langle\Delta\dot{\gamma}^2\rangle \sim \delta\Sigma^{-\gamma^\prime}, \quad \xi \sim \delta\Sigma^{-\nu_\perp}, \quad \delta\Sigma = \frac{\Sigma-\Sigma_c}{\Sigma_c}.
 \end{equation}
 
 \subparagraph{}Il ne va pas sans remarquer que la phénoménologie décrite de la transition vers l'écoulement ressemble fortement à celle de la transition de dépiégeage. On peut en effet faire une analogie directe entre la contrainte globale de cisaillement $\Sigma$ et la force extérieure $f$ de la transition de dépiégeage, et entre le taux de cisaillement $\dot{\gamma}$ et la vitesse de l'interface $v$ dans la transition de dépiégeage. D'ailleurs, plusieurs études se sont concentrées sur la comparaison de ces deux phénomènes \cite{lin_scaling_2014, ferrero_elastic_2019, tyukodi_depinning_2016}. Dans cette optique, on pourrait s'attendre naturellement à ce que la transition vers l'écoulement soit aussi représentée par la classe CDP.
@@ -627,7 +627,7 @@ P_S(S) \sim S^{-\tau}g_S\left( \frac{S}{S_c} \right), \quad P_T(T) \sim T^{-\tau
 \subparagraph{}L'effet d'un réarrangement plastique sur le milieu peut être compris dans le cadre de l'élasticité linéaire. Dans cette partie, nous présentons les conclusions du raisonnement mené dans l'\annexeref{sec:Annexe_Eshelby}, permettant de déterminer la modification de contrainte induite par un réarrangement plastique dans le système. Dans un matériau élastique isotrope et incompressible de module de cisaillement $\mu$, une déformation plastique représentée par le tenseur $\epsilon_{ij}^\text{pl}(\mathbf{r})$ entraîne une modification du tenseur des contraintes $\sigma_{ij}(\mathbf{r})$ décrite par la relation linéaire :
 
 \begin{equation}
-	\sigma_{ij}(\mathbf{r}) = \int\mathrm{d}\mathbf{r}^\prime~ \mathcal{G}_{ijkl}(\mathbf{r}-\mathbf{r}^\prime)\epsilon^\text{pl}_{kl}(\mathbf{r}^\prime)
+	\sigma_{ij}(\mathbf{r}) = \int\mathrm{d}\mathbf{r}^\prime~ \mathcal{G}_{ijkl}(\mathbf{r}-\mathbf{r}^\prime)\epsilon^\text{pl}_{kl}(\mathbf{r}^\prime),
 \end{equation}
 
 \noindent avec $\mathcal{G}_{ijkl}$ un propagateur dont la forme générale est donnée en annexe.
@@ -635,7 +635,7 @@ P_S(S) \sim S^{-\tau}g_S\left( \frac{S}{S_c} \right), \quad P_T(T) \sim T^{-\tau
 \subparagraph{}Afin d'obtenir une expression de la modification du champ de contrainte suite à un réarrangement plastique, nous faisons l'hypothèse que celui-ci possède la même symétrie que le forçage, que nous prenons comme un cisaillement simple dans la direction $\hat{\mathbf{e}}_x$. En considérant l'évènement comme ayant lieu en $\mathbf{r}^\prime = 0$, on a alors en 2D : $\epsilon_{xy}^\text{pl}(\mathbf{r}^\prime) = \epsilon_{yx}^\text{pl}(\mathbf{r}^\prime) = \epsilon^\text{pl}\delta(\mathbf{r}^\prime)$ et $\epsilon_{xx}^\text{pl}(\mathbf{r}^\prime) = \epsilon_{yy}^\text{pl}(\mathbf{r}^\prime) = 0$. Via cette modélisation, la modification de la contrainte locale de cisaillement\footnote{Des expressions similaires peuvent être obtenues pour les composantes $\sigma_{xx}$ et $\sigma_{yy}$ du tenseur des contraintes. Toutefois, on se concentrera ici seulement sur la contrainte locale de cisaillement $\sigma_{xy}$.} dans le matériau est donnée par :
 
 \begin{equation}
-	\sigma_{xy}(\mathbf{r})= \sigma_{yx}(\mathbf{r}) = 2\mu \mathcal{G}(\mathbf{r}) \epsilon^\text{pl}, \quad \mathcal{G}(\mathbf{r}) = \frac{\cos (4\theta)}{\pi r^2}
+	\sigma_{xy}(\mathbf{r})= \sigma_{yx}(\mathbf{r}) = 2\mu \mathcal{G}(\mathbf{r}) \epsilon^\text{pl}, \quad \mathcal{G}(\mathbf{r}) = \frac{\cos (4\theta)}{\pi r^2}.
 	\label{eq:Eshelby}
 \end{equation}
 
@@ -683,7 +683,7 @@ P_S(S) \sim S^{-\tau}g_S\left( \frac{S}{S_c} \right), \quad P_T(T) \sim T^{-\tau
 \subparagraph{}Ce faisant, les auteurs ont étudié le comportement critique du système en 2D et mesuré les exposants critiques $\beta$ et $\gamma^\prime$ associés, trouvant les valeurs :
 
 \begin{equation}
-	\beta \approx 1.85 \quad \gamma^\prime \approx -1.2
+	\beta \approx 1.85 \quad \gamma^\prime \approx -1.2.
 \end{equation}
 
 \noindent Ces valeurs sont alors en contradiction avec l'effet générique des interactions à longue portée sur la classe CDP, puisqu'elles ne sont pas encadrées par les limites de champ moyen et de courte portée associées. Notamment, elles décrivent une évolution convexe du paramètre d'ordre avec la distance au point critique ($\beta >1$), là où la criticalité CDP généralisée au cas d'interactions à longue portée décrit une évolution concave, voire linéaire ($\beta = 1$). Même si l'implémentation de ces interactions peut être discutée (dans un système réel, nous avons montré que leur portée était caractérisée par $\alpha > 0$), leur intégration dans le modèle semble exclure la transition de l'attendu générique.
@@ -707,7 +707,7 @@ P_S(S) \sim S^{-\tau}g_S\left( \frac{S}{S_c} \right), \quad P_T(T) \sim T^{-\tau
 \subparagraph{}Ces mesures sont en accord qualitatif avec de nombreuses expériences réalisées sur les fluides à seuil. Dans ce domaine d'étude, il est d'usage de modéliser la courbe d'écoulement $\dot{\gamma} = f(\Sigma)$ du système par la loi d'Herschel-Bulkley :
 
 \begin{equation}
-	\Sigma = \Sigma_c + k\dot{\gamma}^n, \quad k > 0
+	\Sigma = \Sigma_c + k\dot{\gamma}^n, \quad k > 0,
 \end{equation}
 
 \noindent avec $n$ l'exposant d'Hershel-Bulkley, directement associé à l'exposant $\beta$ des phénomènes critiques via $n=1/\beta$. De nombreux travaux, menés sur différents systèmes amorphes, ont déterminé des exposants $n<1$ soit $\beta > 1$, correspondant à une transition vers l'écoulement convexe, comme dans le cas des modèles mésoscopiques \cite{nicolas_deformation_2018}.

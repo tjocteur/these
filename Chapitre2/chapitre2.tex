@@ -5,7 +5,7 @@
 \subparagraph{}Dans le chapitre précédent, nous avons présenté la classe CDP comme une classe d'universalité recouvrant potentiellement un grand nombre de transitions de phase absorbantes. Un système appartenant à cette classe est décrit par un ensemble de comportements et d'exposants critiques caractéristiques de la criticalité associée. Par exemple, en notant $\langle A \rangle$ l'activité moyenne dans le système, $\langle \delta A^2 \rangle$ ses fluctuations, $\xi$ la longueur de corrélation et $\epsilon$ la distance au point critique, les exposants $\beta$, $\gamma^\prime$ et $\nu_\perp$ permettent de définir les évolutions suivantes proche de la transition :
 
 \begin{equation}
-	\langle A \rangle \sim \epsilon^\beta, \quad \langle \delta A^2 \rangle \sim \epsilon^{-\gamma^\prime}, \quad \xi \sim \epsilon^{-\nu_\perp}
+	\langle A \rangle \sim \epsilon^\beta, \quad \langle \delta A^2 \rangle \sim \epsilon^{-\gamma^\prime}, \quad \xi \sim \epsilon^{-\nu_\perp}.
 \end{equation}
 
 \noindent Ces exposants sont connus exactement dans l'approximation de champ moyen avec $\beta^\text{CM} = 1$, $\gamma^{\prime\text{CM}} = 0$, $\nu_\perp^\text{CM} = \frac{1}{2}$. En dimension finie $D<4$ et en présence d'interactions à courte portée uniquement, les exposants critiques ont été mesurés numériquement \cite{lubeck_universal_2004} et calculés analytiquement, de manière perturbative, via les méthodes du groupe de renormalisation fonctionnel appliquées à la transition de dépiégeage.
@@ -45,8 +45,9 @@
 
 \begin{equation}
 \begin{aligned}
-	&\partial_t A(\mathbf{r}, t) = (\omega\rho (\mathbf{r}, t) - r)A(\mathbf{r}, t) - uA^2(\mathbf{r}, t) + \kappa\nabla^2 A (\mathbf{r}, t) - \kappa_\alpha|\nabla|^{\alpha-D} A (\mathbf{r}, t) + \sigma \sqrt{A(\mathbf{r}, t)} \eta(\mathbf{r}, t)\\
-	&\partial_t \rho (\mathbf{r}, t) = \kappa\nabla^2 A (\mathbf{r}, t)- \kappa_\alpha|\nabla|^{\alpha-D} A (\mathbf{r}, t)
+	\partial_t A(\mathbf{r}, t) &= (\omega\rho (\mathbf{r}, t) - r)A(\mathbf{r}, t) - uA^2(\mathbf{r}, t) + \kappa\nabla^2 A (\mathbf{r}, t) \\
+	&- \kappa_\alpha|\nabla|^{\alpha-D} A (\mathbf{r}, t) + \sigma \sqrt{A(\mathbf{r}, t)} \eta(\mathbf{r}, t),\\
+	\partial_t \rho (\mathbf{r}, t) &= \kappa\nabla^2 A (\mathbf{r}, t)- \kappa_\alpha|\nabla|^{\alpha-D} A (\mathbf{r}, t),
 \end{aligned}
 \label{eq:LRCDP}
 \end{equation}
@@ -54,7 +55,7 @@
 \noindent avec :
 
 \begin{equation}
-	|\nabla|^{\alpha-D} A (\mathbf{r}, t) \propto \int \mathrm{d}\mathbf{r}^\prime ~ \frac{A(\mathbf{r}+\mathbf{r}^\prime)-A(\mathbf{r})}{|\mathbf{r}^{\prime}|^{\alpha}}
+	|\nabla|^{\alpha-D} A (\mathbf{r}, t) \propto \int \mathrm{d}\mathbf{r}^\prime ~ \frac{A(\mathbf{r}+\mathbf{r}^\prime)-A(\mathbf{r})}{|\mathbf{r}^{\prime}|^{\alpha}}.
 \end{equation}
 
 \noindent On appellera cette théorie LR-CDP pour \textit{long-range conserved directed percolation}. Il est à noter que ce type de cadre théorique n'est pas propre à cette classe, on le retrouve génériquement pour les autres théories comme la théorie $\phi^4$ ou la théorie DP \cite{fisher_critical_1972, hinrichsen_non_equilibrium_2007}.
@@ -70,7 +71,7 @@
 \subparagraph{}Pour identifier la borne $\alpha^-$, nous pouvons mener une analyse d'échelle sur l'\autoref{eq:LRCDP} pour déterminer la dimension critique supérieure associée, de la même manière que dans la théorie $\phi^4$ ou DP à courte portée (voir \autoref{sec:univcritique}). En gardant en mémoire que le terme d'interaction pertinent dans ce cas est le terme non-local, nous trouvons simplement :
 
 \begin{equation}
-	D_c = 2(\alpha-D),\quad \nu_\parallel^\text{CM}= \beta^\text{CM}= 1, \quad \nu_\perp^\text{CM}=\frac{1}{\alpha-D}
+	D_c = 2(\alpha-D),\quad \nu_\parallel^\text{CM}= \beta^\text{CM}= 1, \quad \nu_\perp^\text{CM}=\frac{1}{\alpha-D}.
 \end{equation}
 
 \noindent Par définition on a $\alpha = \alpha^-$ lorsque $D_c=D$, puisque l'on arrive dans ces deux cas à la validité de l'approximation champ moyen. Finalement on a donc ici $\alpha^- = 3D/2$. Ainsi, en 2D on a $\alpha^-=3$. Un point important à remarquer est que dans la limite de champ moyen, l'exposant $\nu_\perp$ dépend encore continûment de la portée. Si l'on s'attend à retrouver $\nu_\perp = 1$ pour $\alpha=\alpha^-$ en 2D, pour $\alpha < \alpha^-$ nous nous attendons à $\nu_\perp > 1$.
@@ -102,7 +103,7 @@
 \subparagraph{}Sur la \autoref{fig:predic_kay}-(a), nous représentons l'évolution obtenue de l'exposant de rugosité $\eta$ via un calcul de renormalisation dans une approximation à deux boucles \cite{wiese_longrange}. Celle-ci confirme bien l'attendu qualitatif d'une augmentation continue de cet exposant avec la portée $\alpha$, prenant place entre $\alpha = 4$ et $\alpha = 3$. Dans l'extension de la théorie CDP à LR-CDP, la correspondance entre les propriétés de rugosité et d'hyperuniformité se retrouve dans une nouvelle relation d'échelle entre les exposants $\eta$ et $\sigma$. En 2D, celle-ci prend la forme simple suivante \cite{wiese_longrange} :
 
 \begin{equation}
-	\sigma = 4 - \alpha + \eta
+	\sigma = 4 - \alpha + \eta,
 \end{equation}
 
 \noindent dans la région $3<\alpha < 4$. De manière équivalente, cette prédiction correspond donc aussi à une perte progressive de l'hyperuniformité dans les modèles de particules associés, représentée sur la \autoref{fig:predic_kay}-(b).
@@ -126,7 +127,7 @@
 
 \subparagraph{}Dans ces travaux, les résultats numériques restent fidèles aux prédictions théoriques et confirment une évolution continue des exposants dans une gamme de portées déterminable par une analyse d'échelle. Toutefois, aucune étude à notre connaissance n'a été réalisée dans le cas d'un système appartenant à la classe CDP en 2D. Il manque alors à cette littérature un point de comparaison essentiel à notre étude dans les chapitres suivants. Par ailleurs cette caractérisation peut s'avérer utile en soi, simplement pour tester les prédictions analytiques présentées précédemment \cite{le_doussal_two_loop_2002}.
 
-\subsection{Motivation secondaire : un cadre d'intérêt pour la modélisation de systèmes réels}
+\subsection[Motivation secondaire : un cadre d'intérêt pour la modélisation de\\ systèmes réels]{Motivation secondaire : un cadre d'intérêt pour la modélisation de systèmes réels}
 
 \subparagraph{}Bien que cela constitue notre motivation principale, la caractérisation de l'impact du transport à longue portée sur les systèmes de la classe CDP en 2D n'a pas seulement un intérêt théorique. En effet, certains modèles ou même certaines réalisations physiques correspondent vraisemblablement à cette situation. Cette étude peut alors permettre l'appréhension de leur criticalité plus spécifiquement.
 
@@ -157,13 +158,13 @@
 \subparagraph{}Dans le modèle Manna original, les particules sur les sites actifs font des sauts à courte portée. L’extension de cette dynamique au transport à longue portée y prend donc une forme évidente. Dans ce cas, les particules redistribuées ne le sont plus uniquement sur les sites voisins mais, à la place, celles-ci font des sauts $\mathbf{r}$ largement distribués selon :
 
 \begin{equation}
-	P(\mathbf{r}) \sim \frac{1}{r^\alpha}
+	P(\mathbf{r}) \sim \frac{1}{r^\alpha}.
 \end{equation}
 
 \noindent Dans un espace de dimension $D$, cela revient donc à effectuer des sauts de taille $\Delta = |\mathbf{r}|$ distribuée selon :
 
 \begin{equation}
-	P_\Delta(\Delta) \sim \frac{1}{\Delta^{1+\alpha-D}}
+	P_\Delta(\Delta) \sim \frac{1}{\Delta^{1+\alpha-D}}.
 	\label{eq:sauts}
 \end{equation}
 
@@ -213,7 +214,7 @@
 \noindent le cut-off à petits $\Delta$ étant nécessaire à l'intégrabilité de la distribution pour $\alpha > D$. En pratique, nous commençons par tirer un nombre réel $x$ uniformément distribué dans $[0,1[$ grâce à des algorithmes pré-existants, puis $\Delta$ est obtenu par la transformation :
 
 \begin{equation}
-	\Delta = (1-x)^\frac{1}{D-\alpha}
+	\Delta = (1-x)^\frac{1}{D-\alpha}.
 \end{equation}
 
 \subsubsection{Méthode cell-list dans le ROM}
@@ -249,7 +250,7 @@
 \subparagraph{}La première étape essentielle à la caractérisation d'une transition de phase est la localisation de son point critique. Ici, cela correspond à la détermination de la densité critique $\phi_c$. Pour la mettre en œuvre, nous nous appuyons sur la loi d'évolution du paramètre d'ordre dans le régime critique :
 
 \begin{equation}
-	\langle A \rangle \sim \delta\phi^\beta, \quad \delta\phi = \frac{\phi-\phi_c}{\phi_c}
+	\langle A \rangle \sim \delta\phi^\beta, \quad \delta\phi = \frac{\phi-\phi_c}{\phi_c}.
 \end{equation}
 
 \noindent D'après celle-ci, la fonction $\langle A \rangle = f(\delta\phi)$ correspond à une droite de pente $\beta$ dans une représentation logarithmique. Cela peut donc représenter une méthode graphique pour la détermination de $\phi_c$ : la valeur recherchée est celle définissant la distance $\delta\phi$ permettant d'obtenir la courbe la plus proche d'une droite à petits $\delta\phi$. Si nous sous-estimons $\phi_c$, alors cette fonction montrera une courbure concave en échelle logarithmique. \`A l'inverse, si nous sur-estimons $\phi_c$, celle-ci montrera une courbure convexe. De cette manière, il est possible d'encadrer graphiquement la valeur adéquate de $\phi_c$ comme illustré à la \autoref{fig:PhicDeter}-(a). En pratique, afin de mieux percevoir les variations de forme de la courbe, nous examinons aussi l'évolution compensée $\langle A \rangle/\delta\phi^{\beta_t} = g(\delta\phi)$ par l'évolution attendue avec un exposant test $\beta_t$ en échelle log-lin (voir \autoref{fig:PhicDeter}-(b)). La méthode graphique d'encadrement associée est alors plus précise. Celle-ci permet donc de définir la densité critique $\phi_c$ et l'exposant $\beta$ comme les deux paramètres permettant d'obtenir une courbe constante à petits $\delta\phi$.
@@ -283,7 +284,7 @@
 \subparagraph{}Comme nous l'avons vu au \autoref{chapter:introduction}, en partant d'une configuration initiale aléatoire, proche du point critique, le système relaxe vers l'état stationnaire de manière algébrique :
 
 \begin{equation}
-	A(t) \sim t^{-\delta}
+	A(t) \sim t^{-\delta}.
 	\label{eq:deltaJumps}
 \end{equation}
 
@@ -292,7 +293,7 @@
 \subparagraph{}Pour remédier à ce problème, nous utilisons une méthode de redimensionnement comme outil de détermination plus précis. Pour ce faire, nous nous appuyons sur le fait que, hors du régime de temps courts, l'activité dans le système prend la forme :
 
 \begin{equation}
-	A(t, \delta\phi) \sim \langle A \rangle (\delta\phi) + t^{-\delta} \sim \delta\phi^\beta + t^{-\delta} \Rightarrow \frac{A(t)}{\delta\phi^\beta} \sim 1 + \left(\frac{t}{\delta\phi^{-\beta/\delta}}\right)^{-\delta}
+	A(t, \delta\phi) \sim \langle A \rangle (\delta\phi) + t^{-\delta} \sim \delta\phi^\beta + t^{-\delta} \Rightarrow \frac{A(t)}{\delta\phi^\beta} \sim 1 + \left(\frac{t}{\delta\phi^{-\beta/\delta}}\right)^{-\delta},
 \end{equation}
 
 \noindent par définition de l'exposant $\beta$. Ainsi, si nous redimensionnons $A(t)$ par $\delta\phi^\beta$ et $t$ par $\delta\phi^{-\beta/\delta}$, nous obtenons une évolution indépendante de la distance au point critique $\delta\phi$. En d'autres termes, si l'on mesure l'évolution $\frac{A(t)}{\delta\phi^\beta} = f \left(\frac{t}{\delta\phi^{-\beta/\delta}} \right)$ pour différentes densités $\phi$, les différentes évolutions se superposent graphiquement (voir \autoref{fig:DeltaDeter}). $\beta$ et $\phi_c$ étant précédemment mesurés, $\delta$ est alors déterminé comme l'exposant qui permet la superposition de toutes les courbes sur une courbe maîtresse sous ce redimensionnement. L'incertitude de mesure sur cet exposant est alors donnée par la gamme d'exposants pour laquelle la superposition des courbes est jugée satisfaisante. Ce principe de mesure par redimensionnement s'avère très efficace, et sera utilisé à plusieurs reprises dans les chapitres suivants pour mesurer d'autres quantités.
@@ -315,7 +316,7 @@
 \subparagraph{}Comme nous l'avons évoqué au \autoref{chapter:introduction}, les systèmes appartenant à la classe CDP présentent des propriétés hyperuniformes. Proche de la transition, la répartition des particules dans l'espace présente des corrélations à longue portée. Une manière de les caractériser  est de passer dans l'espace réciproque. En effet, dans de tels systèmes, cette propriété se traduit par une diminution du facteur de structure $S(\mathbf{q})$ à petits $q$ selon :
 
 \begin{equation}
-	S(\mathbf{q})\sim q^{\alpha_\text{HU}}, \quad 0 < \alpha_\text{HU} < 1
+	S(\mathbf{q})\sim q^{\alpha_\text{HU}}, \quad 0 < \alpha_\text{HU} < 1.
 \end{equation}
 
 \noindent L'exposant $\alpha_\text{HU}$ permet alors de caractériser la transition de phase au même titre qu'un autre exposant critique. Le cas limite $\alpha_\text{HU}$ = 0 représente une répartition totalement décorrélée à grande échelle.
@@ -329,7 +330,7 @@
 \subparagraph{}Une autre façon de procéder est de revenir à la définition initiale de l'hyperuniformité \cite{torquato_local_2003}. Comme nous l'avons présenté à la \autoref{sec:introHU}, dans un système hyperuniforme, la variance $\langle \delta n^2\rangle_l$ du nombre de particules contenues dans un sous-ensemble du système de volume $l^D$ se comporte comme :
 
 \begin{equation}
-	\langle \delta n^2\rangle_l \sim \langle n \rangle_l^\sigma , \quad  \sigma < 1
+	\langle \delta n^2\rangle_l \sim \langle n \rangle_l^\sigma , \quad  \sigma < 1,
 	\label{eq:HUBC}
 \end{equation}
 
@@ -350,13 +351,13 @@
 \subparagraph{}Si la définition de l'hyperuniformité s'est construite autour de l'\autoref{eq:HUBC}, plusieurs travaux s'intéressent aux fluctuations de densité locale $\langle \delta \rho^2\rangle_l$ au lieu du nombre de particules, et en fonction de l'extension $l$ du sous-ensemble au lieu du nombre moyen de particules \cite{hexner_hyperuniformity_2015, bub_lee_hyperuniformity_2019}. Dans ce cas, on définit la loi d'échelle entre ces quantités par l'exposant $\lambda$ selon :
 
 \begin{equation}
-	\langle \delta \rho^2\rangle_l \sim l^{-\lambda}
+	\langle \delta \rho^2\rangle_l \sim l^{-\lambda},
 \end{equation}
 
 \noindent qui est alors directement relié à l'exposant $\sigma$ par :
 
 \begin{equation}
-	\sigma = 2 - \frac{\lambda}{D}
+	\sigma = 2 - \frac{\lambda}{D}.
 \end{equation}
 
 \paragraph{Implémentation}
@@ -370,7 +371,7 @@
 \subparagraph{}En principe, la forme définie par l'\autoref{eq:HUBC} n'est valable qu'à des échelles de longueur $l$ suffisamment grandes, soit $\langle n \rangle_l \gg 1$. Pour mesurer l'exposant $\sigma$, il est donc nécessaire se placer à grande échelle. Par ailleurs, pour sonder un état stationnaire, il est aussi nécessaire se placer à une distance finie $\delta\phi>0$ du point critique, sans quoi le système tombera dans un état absorbant. Cette distance finie du point critique définit alors une échelle de longueur $l_c$, ou de manière équivalente un cut-off $\langle n \rangle_c$, au-delà de laquelle l'évolution algébrique n'est plus valide. En fait, dans nos mesures, au-delà de cette échelle de longueur, la courbe $\langle \delta n^2 \rangle = f(\langle n \rangle)$ présente un crossover non monotone vers l'évolution triviale $\sigma = 1$, aussi distinguable sur l'évolution du facteur de structure \cite{hexner_hyperuniformity_2015,hexner_noise_2017, hexner_enhanced_2017 }. En pratique, au-delà de $l_c$, avant que l'exposant effectif local de la courbe $\langle \delta n^2 \rangle = f(\langle n \rangle)$ ne rejoigne le cas décorrélé avec $\sigma_\text{eff}=1$, il diminue ($\sigma_\text{eff}<\sigma$). Cette diminution est visible sur les évolutions représentées à la \autoref{fig:HUCM} par exemple. L'évolution globale de $\langle \delta n^2 \rangle$ à grands $\langle n \rangle$ peut donc être modélisée par l'équation suivante :
 
 \begin{equation}
-	\langle \delta n^2 \rangle \sim \langle n \rangle^\sigma g\left( \frac{\langle n \rangle}{\langle n \rangle_c} \right)
+	\langle \delta n^2 \rangle \sim \langle n \rangle^\sigma g\left( \frac{\langle n \rangle}{\langle n \rangle_c} \right),
 \end{equation}
 
 \noindent avec $g(x)$ constante pour $x\ll 1$ puis initialement décroissante pour $x>1$, définissant la forme du crossover.
@@ -409,7 +410,7 @@
 \subparagraph{}En pratique, la détermination de l'exposant $\nu_\perp$ nécessite l'analyse des corrélations spatiales d'activité dans le système afin d'en déduire la longueur de corrélation $\xi$ associée. Toutefois, il existe une relation d'échelle entre les exposants $\beta$, $\gamma^\prime$ et $\nu_\perp$, présentée au \autoref{chapter:introduction} :
 
 \begin{equation}
-	2\beta + \gamma^\prime = \nu_\perp D
+	2\beta + \gamma^\prime = \nu_\perp D.
 	\label{eq:HyperScaling}
 \end{equation}
 
@@ -483,7 +484,7 @@
 \subparagraph{}Nous présentons un exemple de mesure obtenue pour $\alpha=4$ à la \autoref{fig:ExHUJumps}. Une manière plus fine d'analyser ces résultats est de calculer la dérivée logarithmique de la courbe $\langle \delta n^2 \rangle = f(\langle n \rangle)$, afin d'obtenir une mesure de l'exposant effectif $\sigma_\text{eff}$ dépendante de l'échelle de longueur considérée. Celle-ci est représentée dans l'encart de la même figure. Comme nous l'avons mentionné précédemment, les propriétés universelles d'hyperuniformité sont valables entre deux crossovers : un de petite échelle (détails microscopiques non-universels) et un de grande échelle\footnote{En théorie il existe une troisième limite à ces mesures, provenant de la taille finie du système. En fait pour une taille de sous-compartiment proche de la taille du système, même pour un système hyperuniforme à toutes les échelles de longueur, l'évolution  $\langle \delta n^2 \rangle = f(\langle n \rangle)$ opère une décroissance. Cela se reflète dans le fait que pour $\langle n \rangle = N$ on a $\langle \delta n^2 \rangle =0$. Dans le cas d'une distribution poissonienne des positions cette décroissance est représentée par :
 
 \begin{equation}
-	 \langle \delta n^2 \rangle  = \langle n \rangle \left( 1-\frac{\langle n \rangle}{N} \right)
+	 \langle \delta n^2 \rangle  = \langle n \rangle \left( 1-\frac{\langle n \rangle}{N} \right).
 \end{equation}
 
 \noindent Si cette limite de grande échelle se retrouve bien dans nos données, celle-ci se situe toujours à des échelles bien plus grandes que celle définie par la distance finie au point critique. Ainsi, nous n'avons pas besoin de nous préoccuper de cet effet en pratique.} (distance finie du point critique). Afin de déterminer $\sigma$, nous devons donc nous situer entre ces deux limites. Le choix que nous faisons pour l'estimation de $\sigma$ est alors de retenir la valeur de l'exposant effectif dans la zone sur laquelle il varie très peu, i.e. entre la croissance à petite échelle et la décroissance à grande échelle. Dans l'exemple de la \autoref{fig:ExHUJumps}, celle-ci se situe entre $\langle n \rangle \approx 10$ et $\langle n \rangle \approx 1000$ et donne $\sigma\approx 0.855$.
@@ -522,7 +523,7 @@
 \subparagraph{}Dans les approches théoriques permettant la prédiction de l'exposant $\sigma$, l'interaction à longue portée est considérée dans l'espace réciproque \cite{wiese_longrange}. Dans l'hypothétique système parfait et infini sur lequel se basent ces prédictions, la transformée de Fourier de la distribution de taille des sauts est définie par :
 
 \begin{equation}
-	\hat{P}_\Delta(q) \sim 1-|q|^{\alpha-D}
+	\hat{P}_\Delta(q) \sim 1-|q|^{\alpha-D},
 \end{equation}
 
 \noindent soit correspondant à la fonction caractéristique d'une loi stable $S_{\alpha-D}$ dans la limite de petit $q$\footnote{Dans le cas d'une loi stable $S_{\alpha-D}$ on a en effet $\hat{P}_\Delta(q) \sim \text{exp}\left( -|q|^{\alpha-D} \right)$.}. Une hypothèse est alors que dans nos simulations, dû à la taille finie du système et à l'introduction d'un cut-off, les distributions s'éloignent de cet attendu par l'addition de termes réguliers dans le développement de la fonction caractéristique :
@@ -578,7 +579,7 @@
 \subparagraph{}Toutefois, si nous opérons la même procédure sur l'exposant effectif (i.e. la dérivée logarithmique de ces courbes), il est possible de superposer toutes ses évolutions sur une courbe maîtresse. Un exemple est donné dans le cas $\alpha=4$ sur la \autoref{fig:MannaCMHU_rescale_gamma4}-(b) et le cas des autres portées est relégué dans l'\annexeref{sec:mesures_HU_Manna}. De cette façon, il est possible d'en déduire précisément l'évolution algébrique de $\sigma_\text{eff}$ avec $\langle n \rangle$. Par ailleurs, nous remarquons que pour les distances $\delta\phi$ les plus petites, les courbes semblent s'éloigner légèrement, en moyenne, de cette superposition\footnote{Cette observation reste discutable du fait du bruit présent sur ces données préliminaires.}. Cet écart correspondrait alors au début de saturation vers l'exposant asymptotique déjà suggéré par les données brutes. En d'autres termes, il semblerait que l'exposant effectif suive une évolution du type :
 
 \begin{equation}
-	\sigma_\text{eff}  = \left( \sigma + \langle n \rangle^{-x} \right)g\left( \frac {\langle n \rangle }{\langle n \rangle_c} \right), \quad \langle n \rangle_c \sim \delta\phi^{-D\nu_\perp}
+	\sigma_\text{eff}  = \left( \sigma + \langle n \rangle^{-x} \right)g\left( \frac {\langle n \rangle }{\langle n \rangle_c} \right), \quad \langle n \rangle_c \sim \delta\phi^{-D\nu_\perp},
 	\label{eq:esposantHULoi}
 \end{equation}
 

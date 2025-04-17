@@ -5,7 +5,7 @@
 \subparagraph{}Dans le \autoref{chapter:introduction}, nous avons vu que la transition vers l'écoulement peut être comprise comme une transition de phase absorbante. Le paramètre de contrôle est alors la contrainte imposée au système $\Sigma$ et le paramètre d'ordre le taux de déformation $\dot{\gamma}$. Ce dernier est nul dans la phase absorbante pour $\Sigma < \Sigma_c$ et non-nul dans la phase active pour $\Sigma > \Sigma_c$. Proche de la transition, l'évolution de $\dot{\gamma}$, de sa variance $\langle\Delta\dot{\gamma}^2\rangle$ et de la longueur de corrélation $\xi$ sont dictées par les exposants critiques $\beta, \gamma^\prime$ et $\nu_\perp$ selon :
 
 \begin{equation}
-	\dot{\gamma} \sim \delta\Sigma^\beta,\quad \langle\Delta\dot{\gamma}^2\rangle \sim \delta\Sigma^{-\gamma^\prime}, \quad \xi \sim \delta\Sigma^{-\nu_\perp}, \quad \delta\Sigma = \frac{\Sigma-\Sigma_c}{\Sigma_c}
+	\dot{\gamma} \sim \delta\Sigma^\beta,\quad \langle\Delta\dot{\gamma}^2\rangle \sim \delta\Sigma^{-\gamma^\prime}, \quad \xi \sim \delta\Sigma^{-\nu_\perp}, \quad \delta\Sigma = \frac{\Sigma-\Sigma_c}{\Sigma_c},
 \end{equation}
 
 \noindent avec la spécificité $\beta>1$ qui rend cette transition très différente de celle qui lui est souvent associée, la transition de dépiégeage, pour laquelle on trouve $\beta \leq 1$. La transition de dépiégeage étant elle-même associée à la criticalité LR-CDP (ou CDP dans le cas d'élasticité à courte portée), cette observation place la transition vers l'écoulement hors de ce cadre théorique. 
@@ -19,7 +19,7 @@
 \subparagraph{}La transition vers l'écoulement, même si non-systématiquement abordée en tant que transition de phase absorbante, reste un objet d'étude central en matière molle. Notamment, beaucoup se sont intéressé-es à la forme de la courbe d'écoulement associée $\dot{\gamma} = f(\Sigma)$ et de sa potentielle universalité. Un modèle phénoménologique communément utilisé pour la décrire est celui d'Herschel-Bulkley \cite{herschel_konsistenzmessungen_1926} :
 
 \begin{equation}
-	\dot{\gamma} = k(\Sigma-\Sigma_c)^{1/n},\quad k,n > 0
+	\dot{\gamma} = k(\Sigma-\Sigma_c)^{1/n},\quad k,n > 0.
 \end{equation}
 
 \noindent Cette forme est alors tout à fait équivalente à la description en termes de phénomène critique, avec l'exposant $\beta$ relié à l'exposant d'Herschel-Bulkley par $\beta = 1/n$. Par la mesure de $n$ sur différents systèmes, les chercheur-euses ont alors questionné l'universalité de cette courbe. Cela revient donc à explorer un aspect de la criticalité de cette transition. Ces études peuvent alors nous guider sur la méthode la plus adaptée pour explorer plus largement et précisément cette criticalité.
@@ -61,8 +61,8 @@
 
 \begin{equation}
 \begin{aligned}
-	\partial_t P(\sigma, t) &= -\dot{\gamma}\partial_\sigma P(\sigma, t) + a\Gamma(t)\partial_\sigma^2P(\sigma, t) - \frac{\Theta (|\sigma|>\sigma_Y)}{\tau}P(\sigma, t) + \Gamma(t)\delta(\sigma)\\
-	\Gamma(t) &= \frac{1}{\tau}\int_{|\sigma|>\sigma_Y}\mathrm{d}\sigma ~ P(\sigma, t)
+	\partial_t P(\sigma, t) &= -\dot{\gamma}\partial_\sigma P(\sigma, t) + a\Gamma(t)\partial_\sigma^2P(\sigma, t) - \frac{\Theta (|\sigma|>\sigma_Y)}{\tau}P(\sigma, t) + \Gamma(t)\delta(\sigma),\\
+	\Gamma(t) &= \frac{1}{\tau}\int_{|\sigma|>\sigma_Y}\mathrm{d}\sigma ~ P(\sigma, t).
 \end{aligned}
 \label{eq:HLchap4}
 \end{equation}
@@ -72,7 +72,7 @@
 \subparagraph{}En résolvant ce système d'équations simples dans la limite stationnaire pour $a < \frac{\sigma_Y^2}{2}$, il est possible de déduire une relation entre la contrainte moyenne $\langle \sigma \rangle =  \int \mathrm{d}\sigma ~ \sigma P(\sigma)$ et le taux de cisaillement lorsque $\dot{\gamma}\rightarrow 0$ \cite{olivier_fluides_2011, bertin_stochastic_2022} :
 
 \begin{equation}
-	\dot{\gamma} \sim (\langle \sigma \rangle - \Sigma_c)^\beta, \quad \beta = 2
+	\dot{\gamma} \sim (\langle \sigma \rangle - \Sigma_c)^\beta, \quad \beta = 2.
 \end{equation}
 
 \noindent On retrouve alors une forme de type Herschel-Bulkley avec $n=0.5$, prédiction proche des résultats expérimentaux et numériques. Ce modèle simple permet donc de rendre compte de la convexité de la transition vers l'écoulement. Il se démarque alors des approches classiques de théorie des champs comme celle associée à la classe CDP ou à la transition de dépiégeage en proposant une description statistique à l'échelle mésoscopique. 
@@ -131,7 +131,7 @@
 \noindent avec $G_{ij} = G(\mathbf{r}_i-\mathbf{r}_j)$ le noyau discret de redistribution en champ lointain d'Eshelby défini au \autoref{chapter:introduction} et décrit en coordonnées polaires dans l'espace continu par $\mathcal{G}(r,\theta) = \frac{\cos 4\theta}{\pi r^2}$. Cette description peut aisément se généraliser en trois dimensions mais notre étude s'est concentrée uniquement sur le cas bidimensionnel. Afin de simplifier l'implémentation numérique, ce système d'équations est adimensionné par les transformations :
 
 \begin{equation}
-	\tilde{\sigma_i} = \frac{\sigma_i}{\sigma_Y},\quad \tilde{t} = \frac{t}{\tau}, \quad \tilde{\epsilon}_{pl,i} = \frac{2\mu\tau}{\sigma_Y}\epsilon_{pl,i}
+	\tilde{\sigma_i} = \frac{\sigma_i}{\sigma_Y},\quad \tilde{t} = \frac{t}{\tau}, \quad \tilde{\epsilon}_{pl,i} = \frac{2\mu\tau}{\sigma_Y}\epsilon_{pl,i},
 	\label{eq:PicardDim}
 \end{equation}
 
@@ -157,7 +157,7 @@
 \subparagraph{}Afin de simuler l'écoulement cisaillé représenté par ce modèle, nous reprenons un code mis au point précédemment dans l'équipe PSM du LIPhy que nous modifions selon notre besoin \cite{martens_connecting_2011, liu_driving_2016}. $N$ sites sont positionnés sur une grille carrée périodique de taille $L\times L = N$ et d'axes principaux $(\hat{\mathbf{e}}_x, \hat{\mathbf{e}}_y)$. La position de chaque site est alors donnée par $\mathbf{r}_i = na\hat{\mathbf{e}}_x + ma \hat{\mathbf{e}}_y$ avec $(n,m) \in \mathbb{Z}^2$ et $a$ le pas du réseau que l'on prend égal à 1. En pratique, nous considérons la règle d'évolution directement sous sa forme intégrée :
 
 \begin{equation}
-	\sigma_i(t) = \sigma_{\text{int},i}(t)+\sigma_\text{ext} =  \sum_{j}G_{ij}\epsilon_{\text{pl},j}(t)+\Sigma
+	\sigma_i(t) = \sigma_{\text{int},i}(t)+\sigma_\text{ext} =  \sum_{j}G_{ij}\epsilon_{\text{pl},j}(t)+\Sigma,
 	\label{eq:DynPicardInteg}
 \end{equation}
 
@@ -166,7 +166,7 @@
 \subparagraph{}Le point clé de l'algorithme est alors le calcul de la convolution $\sum_{j}G_{ij}\epsilon_{\text{pl},j}$ puisqu'elle admet naïvement une complexité d'ordre $N^2$. Afin d'optimiser nos calculs, nous tirons parti du fait que les sites soient disposés sur une grille régulière. Cela nous permet de déterminer ce terme selon une méthode pseudo-spectrale : la convolution est calculée dans l'espace de Fourier discret où elle devient le simple produit $\hat{G}(\mathbf{q})\hat{\epsilon}_{\text{pl}}(\mathbf{q})$ puis l'on revient à sa représentation dans l'espace réel par une transformée de Fourier inverse discrète. Pour ce faire, nous implémentons directement le propagateur de Eshelby dans sa forme spectrale discrète \cite{picard_elastic_2004} :
 
 \begin{equation}
-	\hat{G}(\mathbf{q}) = -4\frac{q_x^2 q_y^2}{q^4}, \quad (q_x, q_y) = \frac{2\pi}{L} \times (n,m)
+	\hat{G}(\mathbf{q}) = -4\frac{q_x^2 q_y^2}{q^4}, \quad (q_x, q_y) = \frac{2\pi}{L} \times (n,m),
 	\label{eq:eshelbydiscretfourier}
 \end{equation}
 
@@ -268,25 +268,25 @@ n_i: 0\xrightarrow{h}1,\quad \forall \sigma_i \, .
 \subparagraph{}Néanmoins, comme dans le cas où l'on impose le taux de cisaillement $\dot{\gamma}$, dès lors que $\xi \sim L$ le système est soumis à des effets de taille finie. L'idée de l'analyse d'échelle en taille finie est alors de faire de ces effets de taille finie une force. Comme nous l'avons présenté au \autoref{chapter:introduction}, dans le régime critique et pour un système de taille infinie, les observables physiques sont des fonctions homogènes des paramètres de contrôle. En adaptant les notations au cas de la transition vers l'écoulement, cela signifie que l'on peut écrire $ \langle \dot{\gamma} \rangle$ comme :
 
 \begin{equation}
-\langle\dot{\gamma}\rangle \sim \lambda^{-\beta}R(a_\Sigma\lambda\delta\Sigma, a_h\lambda^\zeta h)
+\langle\dot{\gamma}\rangle \sim \lambda^{-\beta}R(a_\Sigma\lambda\delta\Sigma, a_h\lambda^\zeta h),
 \end{equation}
 
 \noindent avec $R$ une fonction universelle homogène de ses arguments, $a_i$ des paramètres non-universels et $\lambda > 0$. $\zeta$ représente alors un nouvel exposant critique caractérisant le champ d'activation $h$. En effet si l'on se place en $\Sigma = \Sigma_c$ et que l'on pose $\lambda=(a_h h)^{-1/\zeta}$ alors on obtient :
 
 \begin{equation}
-    \langle\dot{\gamma}\rangle \sim (a_h h)^{\beta/\zeta}R(0, 1)
+    \langle\dot{\gamma}\rangle \sim (a_h h)^{\beta/\zeta}R(0, 1),
 \end{equation}
 
 \noindent et donc $\langle\dot{\gamma}\rangle \sim  h^{\beta/\zeta}$. Afin d'intégrer les effets de taille finie dans cette description, nous considérons $L$ comme un nouveau paramètre de contrôle dont les propriétés d'échelle sont décrites par le même exposant $\nu_\perp$ que la longueur de corrélation $\xi$ :
 
 \begin{equation}
-    \langle\dot{\gamma}\rangle \sim \lambda^{-\beta}\tilde{R}(a_\Sigma \lambda\delta\Sigma,a_h\lambda^\zeta h, a_L L \lambda^{-\nu_\perp})
+    \langle\dot{\gamma}\rangle \sim \lambda^{-\beta}\tilde{R}(a_\Sigma \lambda\delta\Sigma,a_h\lambda^\zeta h, a_L L \lambda^{-\nu_\perp}).
 \end{equation}
 
 \noindent En prenant alors $\Sigma=\Sigma_c$ et $\lambda=(a_LL)^{1/\nu_\perp}$ on obtient :
 
 \begin{equation}
-    \langle\dot{\gamma}\rangle \sim (a_LL)^{-\beta/\nu_\perp}\tilde{R}(0, a_h(a_LL)^{\zeta/\nu_\perp} h, 1)
+    \langle\dot{\gamma}\rangle \sim (a_LL)^{-\beta/\nu_\perp}\tilde{R}(0, a_h(a_LL)^{\zeta/\nu_\perp} h, 1).
 \end{equation}
 
 \subparagraph{}$\tilde{R}$ étant une fonction universelle, cela signifie qu'en redimensionnant $\langle\dot{\gamma}\rangle $ par $(a_LL)^{-\beta/\nu_\perp}$ et $h$ par $(a_LL)^{-\zeta/\nu_\perp}/a_h$, les courbes $\langle\tilde{\dot{\gamma}}\rangle = f(\tilde{h})$ ainsi représentées ne dépendent pas de la taille du système choisie. En des termes graphiques, les courbes obtenues pour différents $L$ se superposent, même au niveau des effets de taille finie. On peut alors établir une méthode graphique de détermination des exposants : en traçant les courbes $\langle \dot{\gamma} \rangle = f(h)$ pour différentes tailles $L$, les exposants critiques sont déterminés comme ceux définissant le redimensionnement permettant la superposition de toutes les courbes. En pratique, étant donné que cette étude ne sera menée que sur ce modèle spécifique, nous oublierons les paramètres non-universels $a_i$.
@@ -294,7 +294,7 @@ n_i: 0\xrightarrow{h}1,\quad \forall \sigma_i \, .
 \subparagraph{}Ce raisonnement peut être mené sur deux autres quantités mesurables dans l'état stationnaire : les fluctuations du taux de cisaillement global $\langle\delta\dot{\gamma}^2\rangle = N\langle\Delta\dot{\gamma}^2\rangle$\footnote{Comme dans le cas des modèles de particules des chapitres précédents, le facteur $N$ permet de comparer les évolutions des fluctuations à des tailles de systèmes différentes.} et son cumulant de Binder $Q$ \cite{binder_finite_1981} défini selon :
 
 \begin{equation}
-    Q = 1 - \frac{\langle\dot{\gamma}^4\rangle}{3\langle\dot{\gamma}^2\rangle^2}
+    Q = 1 - \frac{\langle\dot{\gamma}^4\rangle}{3\langle\dot{\gamma}^2\rangle^2}.
 \end{equation}
 
 \noindent L'universalité est alors obtenue avec le redimensionnement de $\langle\delta\dot{\gamma}^2\rangle$ par $L^{\gamma^\prime/\nu_\perp}$ tandis que $Q$ ne nécessite pas de redimensionnement. La méthode que nous suivons pour la détermination des exposants est donc la suivante : 
@@ -344,7 +344,7 @@ CDP \cite{lubeck_universal_2004} & 0.64 & 0.37 & 0.80 & 2.23 \\
 \subparagraph{}L'exposant lié aux fluctuations critiques prend lui une valeur $\gamma^\prime \approx -0.7$, elle aussi exclue du cadre théorique LR-CDP pour lequel on a nécessairement $\gamma^\prime>0$. Le point le plus intéressant est que cette valeur est négative. Cela signifie que lorsque l'on approche la contrainte seuil du système, les fluctuations du taux de déformation diminuent et finissent par s'annuler complètement au point critique exactement. Ce comportement est assez contre-intuitif de prime abord. En effet, du fait du renforcement des corrélations spatiales et temporelles à l'approche du point critique, le scénario habituel des phénomènes critiques présente des fluctuations critiques qui, au contraire, divergent \cite{kardar_statistical_2007}. Cette observation surprenante permet néanmoins de satisfaire la relation d'hyperscaling introduite au \autoref{chapter:introduction} :
 
 \begin{equation}
-	\gamma^\prime = \nu_\perp D - 2\beta
+	\gamma^\prime = \nu_\perp D - 2\beta,
 	\label{eq:hyperscalingEPM}
 \end{equation}
 
@@ -353,7 +353,7 @@ CDP \cite{lubeck_universal_2004} & 0.64 & 0.37 & 0.80 & 2.23 \\
 \subparagraph{}Cette dernière peut en fait être rationalisée par un scénario simple dans le cas de la transition vers l'écoulement. Dans l'état stationnaire, le système peut être vu comme une collection de $(L/\xi)^D$ sous-systèmes indépendants de taille $\xi \times \xi$. Conforté par le scénario proposé dans \cite{lin_scaling_2014}, dans chaque compartiment le taux de cisaillement moyen $\langle\dot{\gamma}\rangle_\xi$ est imposé par celui produit par les plus grands évènements, ici d'extension spatiale $\xi$. Les compartiments étant indépendants, chacun d'entre eux possède un taux de cisaillement moyen égal au taux de cisaillement moyen global du système $\langle \dot{\gamma} \rangle$. En supposant alors que la durée des évènements et leur période d'apparition suivent les mêmes lois d'échelles, la variance du taux de cisaillement dans chaque compartiment, qui est une quantité positive, se comporte comme le carré du taux de cisaillement moyen $\langle \Delta\dot{\gamma}^2 \rangle_\xi \sim \langle\dot{\gamma}\rangle_\xi^2 \sim \langle\dot{\gamma}\rangle^2$. La variance globale $\langle \Delta\dot{\gamma}^2 \rangle$ se comporte alors de la même manière que l'addition de celle de tous les compartiments indépendants :
 
 \begin{equation}
-	\langle \Delta\dot{\gamma}^2 \rangle \sim \left(\frac{L}{\xi}\right)^D\langle \Delta\dot{\gamma}^2 \rangle_\xi \sim \left(\frac{L}{\xi}\right)^D\langle \dot{\gamma} \rangle^2
+	\langle \Delta\dot{\gamma}^2 \rangle \sim \left(\frac{L}{\xi}\right)^D\langle \Delta\dot{\gamma}^2 \rangle_\xi \sim \left(\frac{L}{\xi}\right)^D\langle \dot{\gamma} \rangle^2,
 \end{equation}
 
 \noindent ce qui permet d'arriver à la relation d'hyperscaling en ré-exprimant toutes les grandeurs en fonction de la distance au point critique $\delta\Sigma$. En d'autres termes, l'évolution des fluctuations du taux de cisaillement est le fruit de deux phénomènes en compétition. D'une part à l'approche de la transition le nombre de zones indépendantes spatialement diminue, augmentant de ce fait les fluctuations globales (terme $\nu_\perp D$ dans l'équation \autoref{eq:hyperscalingEPM}). D'autre part le taux de cisaillement moyen, et donc sa variance, diminue dans chacune de ces zones à l'approche du point critique (terme $-2\beta$ dans l'équation \autoref{eq:hyperscalingEPM}). Dès lors que l'exposant $\beta$ est suffisamment grand, l'exposant $\gamma^\prime$ est donc susceptible de devenir négatif, ce qui est bien le cas ici.
@@ -395,7 +395,7 @@ CDP \cite{lubeck_universal_2004} & 0.64 & 0.37 & 0.80 & 2.23 \\
 \subparagraph{}Si le modèle fait bien intervenir une infinité d'états absorbants, des interactions à courte portée et une quantité conservée, il n'est pas dépourvu de symétrie supplémentaire. En effet, si l'on se penche sur la structure du noyau de redistribution, on remarque que la somme des contributions sur chaque ligne et chaque colonne est nulle (voir \autoref{fig:Omodesshortrange}-(a)). Cette symétrie n'est pas anodine puisqu'elle implique qu'au cours de l'écoulement la contrainte portée par une ligne ou une colonne est conservée. Le système n'est donc pas contraint uniquement par la conservation de la contrainte globale mais aussi par celle de $2L$ contraintes partielles. En espace de Fourier, cette symétrie correspond à $\hat{G}(q_x=0,q_y)=\hat{G}(q_x,q_y=0)=0$, qui est bien apparente dans le cas du modèle Picard-CP où l'on a :
 
 \begin{equation}
-	\hat{G}(\mathbf{q}) = \cos(q_x) + \cos(q_y) -\cos(q_x)\cos(q_y) -1
+	\hat{G}(\mathbf{q}) = \cos(q_x) + \cos(q_y) -\cos(q_x)\cos(q_y) -1.
 	\label{eq:PicardCP}
 \end{equation}
 
@@ -411,7 +411,7 @@ CDP \cite{lubeck_universal_2004} & 0.64 & 0.37 & 0.80 & 2.23 \\
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.8\textwidth]{Chapitre4/Figures/CourtePortee/StrainLoc.pdf}
-	\caption{(a) Carte d'activité plastique cumulée au cours d'une simulation du modèle de Picard. Les zones blanches représentent des zones de forte activité plastique. (b) Même carte dans le cas d'un modèle élastoplastique tensoriel implémenté par une méthode d'éléments finis \cite{budrikis_universal_2017}.}
+	\caption{(a) Carte d'activité plastique cumulée au cours d'une simulation du modèle de Picard. Les zones blanches représentent des zones de forte activité plastique. Les graduations indiquent l'échelle de longueur en nombre de sites. (b) Même carte dans le cas d'un modèle élastoplastique tensoriel implémenté par une méthode d'éléments finis \cite{budrikis_universal_2017}.}
 	\label{fig:FractalDim}
 \end{figure} 
 
@@ -448,14 +448,14 @@ CDP \cite{lubeck_universal_2004} & 0.64 & 0.37 & 0.80 & 2.23 \\
 \subparagraph{}Un dernier argument en faveur de l'existence d'une telle classe d'universalité se base sur une description en termes de théorie continue des champs. Dans le cas de la classe d'universalité CDP, la quantité conservée $\rho$ suit une dynamique non-diffusive dépendante de la répartition spatiale de l'activité $A$ dans le système : $\partial_t \rho = \kappa\nabla^2 A$ (voir \autoref{chapter:introduction}). Dans notre système, le champ dynamique conservé est la contrainte $\sigma$ tandis que l'activité peut être directement associée au taux de déformation plastique $\partial_t \epsilon_{pl}$. Une description de type CDP donnerait donc :
 
 \begin{equation}
-	\partial_t \sigma(\mathbf{r},t) = \kappa\nabla^2 A(\mathbf{r},t)
+	\partial_t \sigma(\mathbf{r},t) = \kappa\nabla^2 A(\mathbf{r},t),
 \end{equation}
 
 \noindent où l'on a noté $A(\mathbf{r},t) = \partial_t \epsilon_{pl}(\mathbf{r},t)$ pour alléger l'écriture. Cette forme d'évolution du champ de contrainte est en réalité très proche de la règle d'évolution implémentée dans les variations du modèle de Picard étudiées. On a en effet sur la grille discrète en deux dimensions :
 
 
 \begin{equation}
-    \partial_t\sigma_{i,j} = \sum_{k,l}G_{k,l}A_{i-k, j-l}
+    \partial_t\sigma_{i,j} = \sum_{k,l}G_{k,l}A_{i-k, j-l},
     \label{eq:1}
 \end{equation}
 
@@ -465,7 +465,7 @@ CDP \cite{lubeck_universal_2004} & 0.64 & 0.37 & 0.80 & 2.23 \\
 
 \begin{equation}
     A_{i, j} = \left( \frac{a}{L} \right)^2A(x=i\frac{a}{L},y=j\frac{a}{L}),\quad
-    \sigma_{i, j} = \left( \frac{a}{L} \right)^2\sigma(x=i\frac{a}{L},y=j\frac{a}{L})
+    \sigma_{i, j} = \left( \frac{a}{L} \right)^2\sigma(x=i\frac{a}{L},y=j\frac{a}{L}),
 \end{equation}
 
 \noindent avec $L$ la taille du système. Dans la limite $(a/L) \rightarrow 0$, les densités continues correspondent aux champs de la théorie dynamique. L'équation d'évolution du modèle peut alors se ré-écrire selon :
@@ -484,14 +484,14 @@ CDP \cite{lubeck_universal_2004} & 0.64 & 0.37 & 0.80 & 2.23 \\
 \subparagraph{}De plus, dans le cas du modèle Picard-CP, le propagateur $G$ présente une symétrie $C_4$ (quadrupolaire) et des modes zéros. De ce fait, seuls les termes correspondant à des puissances $n$ et $m$ paires et strictement positives survivent à la convolution discrète. On obtient alors :
 
 \begin{equation}
-    \partial_t\sigma (x,y) = \sum_{u,v=1}^{\infty}K_{u,v}\left( \frac{a}{L} \right)^{2(u+v)}\partial_x^{2u}\partial_y^{2v}A(x, y), \quad K_{u,v} = \sum_{k,l}G_{k,l}\frac{k^{2u}l^{2v}}{(2u)!(2v)!}
+    \partial_t\sigma (x,y) = \sum_{u,v=1}^{\infty}K_{u,v}\left( \frac{a}{L} \right)^{2(u+v)}\partial_x^{2u}\partial_y^{2v}A(x, y), \quad K_{u,v} = \sum_{k,l}G_{k,l}\frac{k^{2u}l^{2v}}{(2u)!(2v)!}.
 \label{eq:3}
 \end{equation}
 
 \noindent Pour obtenir une description de champ de type CDP, on s'intéresse à la limite continue de grande échelle où $a/L\rightarrow 0$. Dans ce cas, le terme dominant est le premier de la somme et on a alors :
 
 \begin{equation}
-    \partial_t\sigma (x,y) = \left( \frac{a}{L} \right)^{4}K\partial_x^{2}\partial_y^{2}A(x, y), \quad K \equiv K_{1,1}
+    \partial_t\sigma (x,y) = \left( \frac{a}{L} \right)^{4}K\partial_x^{2}\partial_y^{2}A(x, y), \quad K \equiv K_{1,1}.
     \label{eq:evol:sigma:CDP0:raw}
 \end{equation}
 
@@ -505,7 +505,7 @@ CDP \cite{lubeck_universal_2004} & 0.64 & 0.37 & 0.80 & 2.23 \\
 \subparagraph{}Dans le cas du modèle $\text{FES}^\pm$, la contrainte des modes zéros est relâchée et donc les puissances $n$ et $m$ nulles survivent aussi à la convolution, à l'exception de $(n=0,m=0)$ qui disparaît par moyenne nulle du propagateur. Dans ce cas la même procédure donne comme équation continue : 
 
 \begin{equation}
-    \partial_t\sigma (x,y) = \left( \frac{a}{L} \right)^{2}K^\prime\nabla^2 A(x, y), \quad K^\prime \equiv K_{1,0} = K_{0,1}
+    \partial_t\sigma (x,y) = \left( \frac{a}{L} \right)^{2}K^\prime\nabla^2 A(x, y), \quad K^\prime \equiv K_{1,0} = K_{0,1}.
     \label{eq:evol:sigma:CDP:raw}
 \end{equation}
 
@@ -531,15 +531,15 @@ CDP \cite{lubeck_universal_2004} & 0.64 & 0.37 & 0.80 & 2.23 \\
 \subparagraph{}Pour ce faire, nous généralisons le modèle de Picard à une portée d'interaction arbitraire, i.e. $\mathcal{G}(\mathbf{r})\sim 1/r^\alpha$. Pour conserver les propriétés centrales du propagateur classique d'Eshelby (symétrie quadrupolaire, modes zéros\footnote{qui impliquent $\hat{\mathcal{G}}(q_x=0,q_y)=\hat{\mathcal{G}}(q_x,q_y=0)=0$.}.) nous définissons cette continuité de propagateurs dans l'espace de Fourier continu selon :
 
 \begin{equation}
-	\hat{\mathcal{G}}(\mathbf{q}) = -b_\alpha \frac{q_x^2 q_y^2}{q^{6-\alpha}}
+	\hat{\mathcal{G}}(\mathbf{q}) = -b_\alpha \frac{q_x^2 q_y^2}{q^{6-\alpha}}.
 \end{equation}
 
 \noindent Dans l'espace réel continu, le calcul détaillé dans l'\annexeref{sec:TFinverse} donne la forme suivante pour l'interaction :
 
 \begin{equation}
 \begin{aligned}
-    \mathcal{G}(r, \theta) = B_\alpha\frac{C_\alpha+\cos 4\theta}{r^\alpha}, \quad B_\alpha &= b_\alpha\frac{\alpha\Gamma(\alpha/2-2)(\alpha-2)(\alpha-4)(2+\alpha)}{\pi 2^{9-\alpha}\Gamma(3-\alpha/2)}\\
-    C_\alpha &= \frac{(\alpha-2)(4-\alpha)}{\alpha (2+\alpha)}
+    \mathcal{G}(r, \theta) = B_\alpha\frac{C_\alpha+\cos 4\theta}{r^\alpha}, \quad B_\alpha &= b_\alpha\frac{\alpha\Gamma(\alpha/2-2)(\alpha-2)(\alpha-4)(2+\alpha)}{\pi 2^{9-\alpha}\Gamma(3-\alpha/2)},\\
+    C_\alpha &= \frac{(\alpha-2)(4-\alpha)}{\alpha (2+\alpha)},
 \end{aligned}
     \label{eq:RealAlphaPicard}
 \end{equation}
@@ -562,7 +562,7 @@ CDP \cite{lubeck_universal_2004} & 0.64 & 0.37 & 0.80 & 2.23 \\
 \subparagraph{}L'instabilité numérique vient en réalité de l'implémentation du propagateur dans l'espace de Fourier qui est ici discret et non continu. Pour passer de la forme continue souhaitée à la forme discrète à implémenter, il faut en fait réinterpréter les nombres d'onde selon\footnote{par opposition à l'\autoref{eq:eshelbydiscretfourier}.} :
 
 \begin{equation}
-	q_x^2 = 2-2\cos\left( \frac{2\pi}{L}n \right),\quad q_y^2 = 2-2\cos\left( \frac{2\pi}{L}m \right)
+	q_x^2 = 2-2\cos\left( \frac{2\pi}{L}n \right),\quad q_y^2 = 2-2\cos\left( \frac{2\pi}{L}m \right).
 \end{equation}
 
 \noindent Cette méthode déjà présentée dans la littérature \cite{ferrero_criticality_2019, rossi_finite-disorder_2022} et dans le \autoref{chapter:Susp} est indispensable pour obtenir des redistributions bien définies à plus courtes portées (voir \annexeref{sec:impl_disc_propag}). Les corrections apportées par cette conversion sont représentées \autoref{fig:instabnum}, montrant ainsi que les instabilités peuvent être supprimées de la sorte. Les propagateurs du modèle généralisé seront donc implémentés de cette façon. Notons par ailleurs que sous cette définition, le modèle $\alpha$-Picard pour $\alpha = 6$ représente un cas singulier équivalent au modèle Picard-CP (voir \autoref{eq:PicardCP}).
@@ -578,7 +578,7 @@ CDP \cite{lubeck_universal_2004} & 0.64 & 0.37 & 0.80 & 2.23 \\
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.9\textwidth]{Chapitre4/Figures/LonguePortee/alphaPicard.pdf}
-	\caption{(a) Courbes d'écoulement $\langle\dot{\gamma}\rangle = f(\delta\Sigma)$ pour les modèles $\alpha$-Picard $\alpha \in \{5, 4, 3, 2, 1.5, 1\}$ et pour le modèle Picard-CP.
+	\caption{(a) Courbes d'écoulement $\langle\dot{\gamma}\rangle = f(\delta\Sigma)$ pour les modèles $\alpha$-Picard $\alpha \in \{5, 4, 3, 2, 1.5, 1\}$ et pour le modèle Picard-CP. En encart, l'évolution associée des fluctuations du taux de cisaillement.
 (b) Évolution de l'exposant critique $\beta$ avec l'exposant de portée d'interaction $\alpha$.}
 	\label{fig:PLVar_EPM}
 \end{figure}
@@ -589,34 +589,34 @@ CDP \cite{lubeck_universal_2004} & 0.64 & 0.37 & 0.80 & 2.23 \\
 
 \subsubsection{Description continue}
 
-\subparagraph{}En suivant cette idée, nous pensons que les deux régions, d'influence faible ($4<\alpha < 6$) puis forte ($\alpha < 4$) de $\alpha$ sur $\beta$, peuvent être interprétées par un raisonnement analytique simple. Pour cela, nous allons essayer d'inférer, comme à la \autoref{sec:continuCDP0}, la bonne description continue à grande échelle de l'évolution du champ de contrainte en fonction de la portée $\alpha$. Pour ce faire, nous repartons de l'\autoref{eq:3}. Cette fois-ci, avec la forme à longue portée du propagateur que l'on notera $G^\text{LR}$, la somme dans l'expression de $K^\text{LR}_{u,v}$ ne se restreint plus uniquement aux petites valeurs de $k$ et $l$. 
+\subparagraph{}En suivant cette idée, nous pensons que les deux régions, d'influence faible ($4<\alpha < 6$) puis forte ($\alpha < 4$) de $\alpha$ sur $\beta$, peuvent être interprétées par un raisonnement analytique simple. Pour cela, nous allons essayer d'inférer, comme à la \autoref{sec:continuCDP0}, la bonne description continue à grande échelle de l'évolution du champ de contrainte en fonction de la portée $\alpha$. Pour ce faire, nous repartons de l'\autoref{eq:3}. Cette fois-ci, avec la forme à longue portée du propagateur que l'on notera $G^\text{LR}$, la somme dans l'expression de $K^\text{LR}_{u,v}$ ne se restreint plus uniquement aux petites valeurs de $k$ et $l$ : 
 
 \begin{equation}
-	K^\text{LR}_{u,v} = \sum_{k,l}G^\text{LR}_{k,l}\frac{k^{2u}l^{2v}}{(2u)!(2v)!}
+	K^\text{LR}_{u,v} = \sum_{k,l}G^\text{LR}_{k,l}\frac{k^{2u}l^{2v}}{(2u)!(2v)!}.
 	\label{eq:sommekuv}
 \end{equation}
 
-Nous cherchons donc d'abord à évaluer $K^\text{LR}_{u,v}$ pour un propagateur décroissant comme $1/r^\alpha$. Pour ce faire, de la même manière que pour la contrainte et l'activité, nous définissons un équivalent continu du propagateur discret selon :
+\noindent Nous cherchons donc d'abord à évaluer $K^\text{LR}_{u,v}$ pour un propagateur décroissant comme $1/r^\alpha$. Pour ce faire, de la même manière que pour la contrainte et l'activité, nous définissons un équivalent continu du propagateur discret selon :
 
 \begin{equation}
-    \mathcal{G}\left(\mathbf{r}=(k\frac{a}{L},l\frac{a}{L})\right) = \left(\frac{L}{a}\right)^\alpha G^\text{LR}(k,l)
+    \mathcal{G}\left(\mathbf{r}=(k\frac{a}{L},l\frac{a}{L})\right) = \left(\frac{L}{a}\right)^\alpha G^\text{LR}(k,l).
     \label{eq:rescaled:propagator}
 \end{equation}
 
 \noindent Dans la limite de grande échelle $a/L \rightarrow 0$, la somme peut  alors être approximée par l'intégrale de Riemann associée :
 
 \begin{equation}
-    K^\text{LR}_{u,v} = \sum_{k,l = 1}^{L/a}G_{k,l}^\text{LR}(k,l)k^{2u}l^{2v}
-    \rightarrow \left(\frac{L}{a}\right)^{2(1+u+v)-\alpha}\int \mathrm{d}\mathbf{r}~B_\alpha\frac{C_\alpha+\cos 4\theta}{r^\alpha}x^{2u}y^{2v}
+    K^\text{LR}_{u,v} = \sum_{k,l = 1}^{L/a}G_{k,l}^\text{LR}(k,l)\frac{k^{2u}l^{2v}}{(2u)!(2v)!}
+     \sim \left(\frac{L}{a}\right)^{2(1+u+v)-\alpha}\int \mathrm{d}\mathbf{r}~B_\alpha\frac{C_\alpha+\cos 4\theta}{r^\alpha}x^{2u}y^{2v},
 \end{equation}
 
 \noindent et donc en intégrant :
 
 \begin{equation}
 \begin{aligned}
-    K^\text{LR}_{u,v} &= \left(\frac{L}{a}\right)^{2(1+u+v)-\alpha}\int_{-\pi}^\pi \mathrm{d}\theta~B_\alpha(C_\alpha+\cos 4\theta)\cos^2\theta\sin^2\theta \int_{a/L}^1 \mathrm{d}r ~ r^{1-\alpha+2(u+v)}\\
-    &=\left(\frac{L}{a}\right)^{2(1+u+v)-\alpha}\frac{\pi}{8}B_\alpha(2C_\alpha-1)\int_{a/L}^1 \mathrm{d}r ~ r^{1-\alpha+2(u+v)}\\
-    &\sim \left[ \left(\frac{L}{a}\right)^{2(1+u+v)-\alpha}-1 \right]
+    K^\text{LR}_{u,v} &\sim \left(\frac{L}{a}\right)^{2(1+u+v)-\alpha}\int_{-\pi}^\pi \mathrm{d}\theta~B_\alpha(C_\alpha+\cos 4\theta)\cos^2\theta\sin^2\theta \int_{a/L}^1 \mathrm{d}r ~ r^{1-\alpha+2(u+v)}\\
+    &\sim\left(\frac{L}{a}\right)^{2(1+u+v)-\alpha}\frac{\pi}{8}B_\alpha(2C_\alpha-1)\int_{a/L}^1 \mathrm{d}r ~ r^{1-\alpha+2(u+v)}\\
+    &\sim \left[ \left(\frac{L}{a}\right)^{2(1+u+v)-\alpha}-1 \right].
     \label{eq:eval:I}
 \end{aligned}
 \end{equation}
@@ -673,7 +673,7 @@ Nous cherchons donc d'abord à évaluer $K^\text{LR}_{u,v}$ pour un propagateur 
 %
 %\noindent qui converge bien uniquement pour $\alpha<4$ puisque le terme $\frac{1}{2}r_i^\prime r_j^\prime \partial_i\partial_jA(\mathbf{r})$ ne peut plus être ajouté librement cette fois dans la convolution. 
 
-\paragraph{Raisonnement simple dans l'espace réciproque}
+\paragraph{Raisonnement plus simple dans l'espace réciproque}
 
 \subparagraph{}Ces résultats peuvent être tout aussi bien déduits d'une analyse d'échelle simple dans l'espace réciproque. Dans le cas de la transition vers l'écoulement, nous avons montré que le terme d'interaction de courte portée avait la forme donnée par l'\autoref{eq:evol:sigma:Classa6}. Dans l'espace réciproque il est donc représenté par un terme en $\sim q^4$. L'interaction à longue portée, elle, se comporte comme $\frac{q_x^2q_y^2}{q^{6-\alpha}}$, soit en $\sim q^{\alpha-2}$. Ainsi, selon le raisonnement déjà présenté dans le cadre LR-CDP au \autoref{chapter:TransportLP}, nous nous attendons à ce que le terme de longue portée domine pour $\alpha < 6$ et que le terme de courte portée domine pour $\alpha > 6$.
 
@@ -708,7 +708,7 @@ Nous cherchons donc d'abord à évaluer $K^\text{LR}_{u,v}$ pour un propagateur 
 
 \subparagraph{}Il est alors intéressant de voir si les autres propriétés critiques du système suivent cette même évolution caractéristique.
 
-\subsection{Influence de la portée sur les corrélations de contrainte dans l'état stationnaire}
+\subsection[Influence de la portée sur les corrélations de contrainte dans l'état\\ stationnaire]{Influence de la portée sur les corrélations de contrainte dans l'état stationnaire}
 
 \subparagraph{}Si notre étude statique s'est essentiellement concentrée sur des propriétés très globales du système, nous proposons dans cette partie de nous intéresser à une observable plus structurelle. Plus particulièrement, une propriété intéressante des systèmes appartenant à la classe CDP est celle d'hyperuniformité, définie au \autoref{chapter:introduction}.
 
@@ -717,13 +717,13 @@ Nous cherchons donc d'abord à évaluer $K^\text{LR}_{u,v}$ pour un propagateur 
 \subparagraph{}Dans les modèles de particules appartenant à la classe CDP, l'hyperuniformité se traduit par une évanescence du facteur de structure $S(\mathbf{q})$ à petits nombres d'onde :
 
 \begin{equation}
-	S(\mathbf{q})\sim q^{\alpha_\text{HU}}, \quad 0<\alpha_\text{HU}<1
+	S(\mathbf{q})\sim q^{\alpha_\text{HU}}, \quad 0<\alpha_\text{HU}<1.
 \end{equation}
 
 \noindent Dans une théorie continue, le facteur de structure est défini via la transformée de Fourier $\hat{\rho}(\mathbf{q})$ de la densité particulaire $\rho(\mathbf{r})$ selon :
 
 \begin{equation}
-	S(\mathbf{q}) \propto  \langle \hat{\rho}(\mathbf{q})\hat{\rho}(\mathbf{-q}) \rangle
+	S(\mathbf{q}) \propto  \langle \hat{\rho}(\mathbf{q})\hat{\rho}(\mathbf{-q}) \rangle,
 \end{equation}
 
 \noindent $\langle \cdot \rangle$ désignant une moyenne sur les réalisations du système.
@@ -733,7 +733,7 @@ Nous cherchons donc d'abord à évaluer $K^\text{LR}_{u,v}$ pour un propagateur 
 \subparagraph{}Il est alors naturel de penser que la contrainte $\sigma$ dans le cas des modèles élastoplastiques joue le même rôle que la densité $\rho$ dans les modèles de particules. Dans ce cas, nous pouvons supposer que pour un modèle élastoplastique tombant dans la classe CDP comme le modèle $\text{FES}^\pm$, nous obtiendrions :
 
 \begin{equation}
-	S_\sigma(\mathbf{q}) \equiv \langle\hat{\sigma}(\mathbf{q})\hat{\sigma}(\mathbf{-q})\rangle \sim q^{\alpha_\text{HU}^\text{CDP}}
+	S_\sigma(\mathbf{q}) \equiv \langle\hat{\sigma}(\mathbf{q})\hat{\sigma}(\mathbf{-q})\rangle \sim q^{\alpha_\text{HU}^\text{CDP}},
 \end{equation}
 
 \noindent $S_\sigma(\mathbf{q})$ n'étant alors rien d'autre que la transformée de Fourier de la fonction d'auto-corrélation de contrainte qui est un objet d'étude bien plus étudié par la communauté des fluides à seuil \cite{chowdhury_long_2016, maier_emergence_2017, lerner_simple_2020}.
@@ -781,20 +781,20 @@ Nous cherchons donc d'abord à évaluer $K^\text{LR}_{u,v}$ pour un propagateur 
 \subparagraph{}En fournissant une compréhension plus simple de l'équivalence entre les deux phénomènes critiques, K. Wiese \cite{wiese_hyperuniformity_2024} a en effet pu faire un parallèle direct entre la densité $\rho$ dans les modèles de particules et la position de l'interface $u$ dans les modèles de dépiégeage, qui est :
 
 \begin{equation}
-	\rho(\mathbf{r},t) \sim \Delta u(\mathbf{r},t) + \rho_0
+	\rho(\mathbf{r},t) \sim \Delta u(\mathbf{r},t) + \rho_0,
 \end{equation}
 
 \noindent dans le cas de courte portée, avec $\rho_0$ la densité moyenne de particules. Le terme $\Delta u(\mathbf{r},t)$ ne représente alors rien d'autre que l'interaction élastique entre les différents points du système. Ainsi, l'équivalent du déplacement dans nos simulations élastoplastiques étant la déformation plastique $
 \epsilon_{pl}(\mathbf{r},t)$, la quantité équivalente à $\rho$ dans ce cas serait :
 
 \begin{equation}
-	\rho (\mathbf{r},t) \sim \left(\mathcal{G}\ast\epsilon_{pl}\right)(\mathbf{r},t)+ \rho_0
+	\rho (\mathbf{r},t) \sim \left(\mathcal{G}\ast\epsilon_{pl}\right)(\mathbf{r},t)+ \rho_0.
 \end{equation}
 
 \noindent Donc d'après l'\autoref{eq:DynPicardInteg} de la dynamique intégrée on aurait :
 
 \begin{equation}
-	\rho (\mathbf{r},t) - \rho_0 \sim \sigma (\mathbf{r},t)- \Sigma
+	\rho (\mathbf{r},t) - \rho_0 \sim \sigma (\mathbf{r},t)- \Sigma,
 \end{equation}
 
 \noindent ce qui confirme l'intuition initiale.
@@ -802,13 +802,13 @@ Nous cherchons donc d'abord à évaluer $K^\text{LR}_{u,v}$ pour un propagateur 
 \subparagraph{}De cette équivalence, le travail \cite{wiese_hyperuniformity_2024} parvient à relier l'exposant d'hyperuniformité $\alpha_\text{HU}$ du modèle Manna à l'exposant de rugosité $\eta$ du dépiégeage avec la relation d'échelle :
 
 \begin{equation}
-	\alpha_\text{HU} = 4 - D - 2\eta
+	\alpha_\text{HU} = 4 - D - 2\eta,
 \end{equation}
 
 \noindent que l'on peut généraliser dans notre cas pour une portée arbitraire $\alpha$ du propagateur :
 
 \begin{equation}
-	\alpha_\text{HU} = 2\alpha - 3D - 2\eta
+	\alpha_\text{HU} = 2\alpha - 3D - 2\eta.
 	\label{eq:scalingHULP}
 \end{equation}
 
@@ -847,7 +847,7 @@ Nous cherchons donc d'abord à évaluer $K^\text{LR}_{u,v}$ pour un propagateur 
 \subparagraph{}Nous pouvons par ailleurs mesurer les corrélations de déformation dans le matériau afin d'évaluer un équivalent de la rugosité du système. En effet, si l'on note de la même manière $S_{\epsilon_\text{pl}}(\mathbf{q})$ le spectre de la déformation plastique on a alors :
 
 \begin{equation}
-	S_{\epsilon_\text{pl}}(\mathbf{q}) \sim q^{-D-2\eta}
+	S_{\epsilon_\text{pl}}(\mathbf{q}) \sim q^{-D-2\eta},
 \end{equation}
 
 \noindent par définition de l'exposant de rugosité. En appliquant la même méthode que précédemment, nous obtenons les résultats présentés à la \autoref{fig:SfactDispFES}. Nous mesurons alors $D+2\eta \approx 3.5$ soit $\eta\approx 0.75$, qui est bien la valeur attendue dans le cas du dépiégeage à courte portée en deux dimensions \cite{semeikin_roughness_2024}. Ces mesures de structure semblent donc confirmer l'appartenance du modèle $\text{FES}^\pm$ à la classe CDP. Notons par ailleurs que ces mesures d'hyperuniformité sont bien plus évidentes que dans le cas des modèles de particules, dans le sens où nous observons ici des lois de puissance claires. Ceci peut potentiellement s'expliquer par le fait d'une redistribution continue et non discrète dans le cas des modèles élastoplastiques.
@@ -922,7 +922,7 @@ Picard-CP & 2.5 & 1.75  \\
 \subparagraph{}De la même manière que dans le cas des systèmes de particules, on peut caractériser ces évènements dynamiques par leur taille $S$ et leur durée $T$. Dans le cas des avalanches de plasticité, on définit communément la taille $S$ d'une avalanche via la chute de contrainte $\Delta\Sigma$ associée selon :
 
 \begin{equation}
-	S = \Delta\Sigma\times L^D
+	S = \Delta\Sigma\times L^D,
 \end{equation}
 
 \noindent avec $L^D$ le volume du système afin de rendre cette quantité extensive. D'autre part, la durée d'une avalanche correspond simplement à la durée sur laquelle a lieu cette chute brutale de contrainte.
@@ -930,7 +930,7 @@ Picard-CP & 2.5 & 1.75  \\
 \subparagraph{}Ces deux quantités $S$ et $T$ suivent alors des distributions de probabilité en loi de puissance :
 
 \begin{equation}
-	P(S) \sim S^{-\tau}g_S\left( \frac{S}{S_c} \right), \quad P(T) \sim T^{-\tau^\prime}g_T\left( \frac{T}{T_c} \right)
+	P(S) \sim S^{-\tau}g_S\left( \frac{S}{S_c} \right), \quad P(T) \sim T^{-\tau^\prime}g_T\left( \frac{T}{T_c} \right),
 	\label{eq:AvalancheDistrib}
 \end{equation}
 
@@ -957,7 +957,7 @@ Picard-CP & 2.5 & 1.75  \\
 \subparagraph{}Étant dans ce cas à la valeur critique du paramètre $\dot{\gamma} = 0^+$, les cut-offs sur la distribution des tailles et des durées d'avalanche dépendent uniquement de la taille $L$ du système étudié selon :
 
 \begin{equation}
-	S_c \sim L^{d_f}, \quad T_c \sim L^z
+	S_c \sim L^{d_f}, \quad T_c \sim L^z,
 \end{equation}
 
 \noindent avec $d_f$ la dimension fractale et $z$ l'exposant dynamique. Plus $d_f$ est grand, plus les avalanches sont compactes.
@@ -979,7 +979,7 @@ Picard-CP & 2.5 & 1.75  \\
 \subparagraph{}Par les simplifications adoptées, l'étude des avalanches dans les modèles élastoplastiques se révèle très efficace. Ainsi, il est tout à fait envisageable d'étudier ces phénomènes dans des systèmes de grande taille. De plus, il est possible dans ce cas d'implémenter exactement le protocole quasistatique de manière astucieuse. En effet, la distance au seuil microscopique local $\sigma_Y$ étant connue à chaque instant et pour chaque site, il est possible de contourner la phase de forçage infiniment lente par l'ajout direct d'un chargement élastique $\mu\gamma^*$ uniforme sur tous les sites, de telle manière que le site le plus proche de sa contrainte seuil devienne plastique :
 
 \begin{equation}
-	\mu\gamma^* = \mathrm{min}(\sigma_{Y,i}-\sigma_i)
+	\mu\gamma^* = \mathrm{min}(\sigma_{Y,i}-\sigma_i).
 \end{equation}
 
 \noindent Il est ainsi possible de passer de la fin d'une avalanche au début de la suivante en un unique pas de temps \cite{lin_scaling_2014}. Cette implémentation, résumée à la \autoref{fig:AQS} et que nous appellerons AQS pour \textit{athermal quasistatic}, permet de produire des statistiques riches pour les observables $S$ et $T$ dans les différents modèles élastoplastiques.
@@ -1049,7 +1049,7 @@ Picard-CP & 2.5 & 1.75  \\
 \subparagraph{}Pour comparer plus précisément ces protocoles, nous menons une analyse de taille finie sur les distributions de tailles et de durées d'avalanche qu'ils produisent. D'après les lois d'échelle présentées à l'\autoref{eq:AvalancheDistrib}, en mesurant ces distributions pour différentes tailles de système et en opérant le redimensionnement suivant :
 
 \begin{equation}
-	S \rightarrow \frac{S}{L^{d_f}}, \quad P(S) \rightarrow \frac{P(S)}{L^{-d_f\tau}},\quad S \rightarrow \frac{T}{L^{z}}, \quad P(T) \rightarrow \frac{P(T)}{L^{-z\tau^\prime}}
+	S \rightarrow \frac{S}{L^{d_f}}, \quad P(S) \rightarrow \frac{P(S)}{L^{-d_f\tau}},\quad S \rightarrow \frac{T}{L^{z}}, \quad P(T) \rightarrow \frac{P(T)}{L^{-z\tau^\prime}},
 \end{equation}
 
 \noindent les distributions pour différentes tailles se superposent sur une même courbe maîtresse. Ainsi, cela constitue une méthode graphique précise et efficace pour la détermination des exposants $(\tau, \tau^\prime, d_f, z)$. En suivant cette méthode pour les protocoles AQS et RTP, nous obtenons les résultats présentés à la \autoref{fig:CollapseAv}.
@@ -1086,7 +1086,7 @@ Picard-CP & 2.5 & 1.75  \\
 \subparagraph{}En plus de la taille et de la durée des avalanches, nous caractérisons leur étendue spatiale $A$. Celle-ci correspond en fait à la surface, exprimée en nombre de sites, sur laquelle a pris part l'avalanche. De la même manière que pour les deux autres observables, nous postulons que cette quantité est distribuée selon :
 
 \begin{equation}
-	P(A) \sim A^{-\tau^{\prime\prime}}g_A\left( \frac{A}{A_c} \right),\quad A_c \sim L^\chi
+	P(A) \sim A^{-\tau^{\prime\prime}}g_A\left( \frac{A}{A_c} \right),\quad A_c \sim L^\chi,
 	\label{eq:distA}
 \end{equation}
 

@@ -13,21 +13,21 @@
 \subparagraph{}Dans tout cet ouvrage, nous définissons la transformée de Fourier d'une fonction $f(\mathbf{r})$ dans l'espace continu selon la convention :
 
 \begin{equation}
-	\hat{f}(\mathbf{q}) = \int \mathrm{d}\mathbf{r}~f(\mathbf{r})e^{-i\mathbf{q}\cdot\mathbf{r}}
+	\hat{f}(\mathbf{q}) = \int \mathrm{d}\mathbf{r}~f(\mathbf{r})e^{-i\mathbf{q}\cdot\mathbf{r}},
 \end{equation}
 
 \noindent et de manière réciproque :
 
 \begin{equation}
-	f(\mathbf{r}) = \frac{1}{(2\pi)^D}\int \mathrm{d}\mathbf{q}~\hat{f}(\mathbf{q})e^{i\mathbf{q}\cdot\mathbf{r}}
+	f(\mathbf{r}) = \frac{1}{(2\pi)^D}\int \mathrm{d}\mathbf{q}~\hat{f}(\mathbf{q})e^{i\mathbf{q}\cdot\mathbf{r}},
 \end{equation}
 
 \noindent avec $D$ la dimension de l'espace. Nous utilisons aussi parfois par ailleurs la notation $\mathcal{F}[\cdot]$ à la place de la notation $\hat{\cdot}$ pour des soucis de lisibilité.
 
-\subparagraph{}Dans le cas de grandeurs discrètes définies sur un réseau, nous utiliserons aussi la notation $\hat{\cdot}$ pour désigner la transformée de Fourier discrète associée. Celle-ci est alors définie selon les conventions choisies par le module cuFFT de CUDA \cite{cuda}. Pour un réseau 1D de taille $L$ dans l'espace réel défini par les positions $x_n = n$ (réseau de pas $1$) on a :
+\subparagraph{}Dans le cas de grandeurs discrètes définies sur un réseau, nous utiliserons aussi la notation $\hat{\cdot}$ pour désigner la transformée de Fourier discrète associée. Celle-ci est alors définie selon les conventions choisies par le module cuFFT de CUDA \cite{cuda}. Pour un réseau 1D de taille $L$ dans l'espace réel défini par les positions $x_n = n$ avec $n\in\{-\frac{L}{2}+1, ..., \frac{L}{2}\}$ (réseau de pas $1$) on a :
 
 \begin{equation}
-	\hat{f}(q_m = \frac{2\pi}{L}m) = \sum_{n} f(x_n)e^{-i q_m x_n}
+	\hat{f}(q_m = \frac{2\pi}{L}m) = \sum_{n} f(x_n)e^{-i q_m x_n}.
 	\label{eq:TFdisc}
 \end{equation}
 
@@ -40,19 +40,19 @@
 \subparagraph{}Une manière de comprendre cette conversion est de considérer l'exemple simple du propagateur représenté par l'opérateur laplacien $\nabla^2$ en 1D. Dans l'espace continu, on a :
 
 \begin{equation}
-	\nabla^2 f(x) \xrightarrow[]{\mathcal{F}} -q^2 \hat{f}(q)
+	\nabla^2 f(x) \xrightarrow[]{\mathcal{F}} -q^2 \hat{f}(q).
 \end{equation}
 
 \noindent Dans l'espace discret représenté par le réseau de positions $\{x_n = n\}$, l'opérateur laplacien est calculé par une méthode de différences finies selon :
 
 \begin{equation}
-	\nabla^2 f(x_n) \equiv f(x_{n+1})+f(x_{n-1})-2f(x_n)
+	\nabla^2 f(x_n) \equiv f(x_{n+1})+f(x_{n-1})-2f(x_n).
 \end{equation}
 
 \noindent En appliquant la transformée de Fourier discrète donnée par l'\autoref{eq:TFdisc}, on obtient :
 
 \begin{equation}
-	\nabla^2 f(x_n) \xrightarrow[]{\mathcal{F}} [2\cos(q_n)-2]\hat{f}(q_n)
+	\nabla^2 f(x_n) \xrightarrow[]{\mathcal{F}} [2\cos(q_n)-2]\hat{f}(q_n).
 \end{equation}
 
 \noindent Ainsi, pour retrouver l'équivalence entre forme continue et forme discrète dans l'espace de Fourier, la conversion $q^2 \rightarrow 2(1-\cos (q_n))$ est nécessaire. C'est donc selon ce raisonnement que les propagateurs d'interaction sont implémentés numériquement dans les \autoref{chapter:Susp} et \autoref{chapter:yielding}.
@@ -95,21 +95,21 @@
 \subparagraph{}Pour répondre à cette question, nous reprenons les calculs des travaux \cite{picard_elastic_2004, goff_flow_2021}. Considérons un milieu continu élastique infini, isotrope et incompressible dans lequel nous définissons un champ de déplacement $u_i(\mathbf{r}) = u_i^\text{él}(\mathbf{r}) + u_i^\text{pl}(\mathbf{r})$, décomposable en une composante élastique et une composante plastique. \`A ce champ est associé un tenseur de déformation $\epsilon_{ij}$ défini comme :
 
 \begin{equation}
-	\epsilon_{ij}(\mathbf{r}) = \epsilon^\text{él}_{ij}(\mathbf{r})+\epsilon^\text{pl}_{ij}(\mathbf{r}) = \frac{1}{2}\left( \partial_i u_j^\text{él}(\mathbf{r}) + \partial_j u_i^\text{él}(\mathbf{r}) \right) + \frac{1}{2}\left( \partial_i u_j^\text{pl}(\mathbf{r}) + \partial_j u_i^\text{pl}(\mathbf{r}) \right)
+	\epsilon_{ij}(\mathbf{r}) = \epsilon^\text{él}_{ij}(\mathbf{r})+\epsilon^\text{pl}_{ij}(\mathbf{r}) = \frac{1}{2}\left( \partial_i u_j^\text{él}(\mathbf{r}) + \partial_j u_i^\text{él}(\mathbf{r}) \right) + \frac{1}{2}\left( \partial_i u_j^\text{pl}(\mathbf{r}) + \partial_j u_i^\text{pl}(\mathbf{r}) \right),
 	\label{eq:tenseurdeformation}
 \end{equation}
 
 \noindent et un tenseur des contraintes $\sigma_{ij}$ défini via la condition d'incompressibilité comme :
 
 \begin{equation}
-	\sigma_{ij}(\mathbf{r}) = 2\mu\epsilon^\text{él}_{ij}(\mathbf{r}) = 2\mu\epsilon_{ij}(\mathbf{r}) - 2\mu \epsilon^\text{pl}_{ij}(\mathbf{r})
+	\sigma_{ij}(\mathbf{r}) = 2\mu\epsilon^\text{él}_{ij}(\mathbf{r}) = 2\mu\epsilon_{ij}(\mathbf{r}) - 2\mu \epsilon^\text{pl}_{ij}(\mathbf{r}).
 	\label{eq:tenseurcontrainte}
 \end{equation}
 
 \subparagraph{}Dans le cas de notre étude, il est d'usage de décomposer les champs dans le milieu en une partie de réponse purement élastique au forçage extérieur ($\sigma^0$, $u^0$) et une partie de réponse à la déformation plastique ($\sigma^1$, $u^1$), donnant alors avec ces notations :
 
 \begin{equation}
-	\epsilon_{ij}^{\text{él}} = \epsilon_{ij}^{\text{él}, 0} + \epsilon_{ij}^{\text{él}, 1}, \quad \epsilon_{ij}^{\text{pl}} = \epsilon_{ij}^{\text{pl}, 1}, \quad \sigma_{ij} = \sigma_{ij}^0 + \sigma_{ij}^1
+	\epsilon_{ij}^{\text{él}} = \epsilon_{ij}^{\text{él}, 0} + \epsilon_{ij}^{\text{él}, 1}, \quad \epsilon_{ij}^{\text{pl}} = \epsilon_{ij}^{\text{pl}, 1}, \quad \sigma_{ij} = \sigma_{ij}^0 + \sigma_{ij}^1.
 \end{equation}
 
 \noindent L'effet non-trivial de la déformation plastique est alors encodé dans les équations :
@@ -129,27 +129,27 @@
 \subparagraph{}En utilisant l'\autoref{eq:tenseurdeformation} et l'\autoref{eq:tenseurcontrainte}, nous pouvons ré-exprimer la condition d'équilibre mécanique comme suit :
 
 \begin{equation}
-	-\partial_i P + \mu \partial_j\partial_j u_i = 2\mu \partial_j\epsilon_{ij}^\text{pl}
+	-\partial_i P + \mu \partial_j\partial_j u_i = 2\mu \partial_j\epsilon_{ij}^\text{pl}.
 \end{equation}
 
 \noindent En passant dans l'espace de Fourier, avec les conventions exposées dans la \autoref{sec:conv_fourier}, on obtient grâce à la condition d'incompressibilité :
 
 \begin{equation}
-	\hat{P} = -2\mu\frac{q_iq_j}{q^2}\hat{\epsilon}_{ij}^\text{pl}
+	\hat{P} = -2\mu\frac{q_iq_j}{q^2}\hat{\epsilon}_{ij}^\text{pl},
 \end{equation}
 
 \noindent soit :
 
 \begin{equation}
-	\hat{u}_i = \left( q_j\hat{\epsilon}_{ij}^\text{pl}-q_i\frac{q_\alpha q_\beta}{q^2}\hat{\epsilon}_{\alpha\beta}^\text{pl} \right)\frac{2i}{q^2}
+	\hat{u}_i = \left( q_j\hat{\epsilon}_{ij}^\text{pl}-q_i\frac{q_\alpha q_\beta}{q^2}\hat{\epsilon}_{\alpha\beta}^\text{pl} \right)\frac{2i}{q^2}.
 \end{equation}
 
 \noindent En se rapportant à la définition du tenseur des contraintes dans l'espace de Fourier on a alors finalement :
 
 \begin{equation}
 \begin{aligned}
-	\hat{\sigma}_{ij} &= 2\mu \hat{\mathcal{G}}_{ijkl}\hat{\epsilon}_{kl}^\text{pl}\\
-	\hat{\mathcal{G}}_{ijkl} &= \frac{q_i q_l\delta_{kj}+q_j q_l\delta_{ki}}{q^2}-2\frac{q_iq_jq_kq_l}{q^4}-\delta_{ki}\delta_{jl}
+	\hat{\sigma}_{ij} &= 2\mu \hat{\mathcal{G}}_{ijkl}\hat{\epsilon}_{kl}^\text{pl},\\
+	\hat{\mathcal{G}}_{ijkl} &= \frac{q_i q_l\delta_{kj}+q_j q_l\delta_{ki}}{q^2}-2\frac{q_iq_jq_kq_l}{q^4}-\delta_{ki}\delta_{jl}.
 \end{aligned}
 \label{eq:eshelbygene}
 \end{equation}
@@ -157,13 +157,13 @@
 \subparagraph{}Afin d'obtenir une expression finale du champ de contrainte suite au réarrangement plastique, nous faisons l'hypothèse que celui-ci possède la même symétrie que le forçage, que nous prenons comme un cisaillement simple dans la direction $\hat{\mathbf{e}}_x$. Sous cette hypothèse, on a alors en deux dimensions $\hat{\epsilon}_{xy}^\text{pl} = \hat{\epsilon}_{yx}^\text{pl} = \hat{\epsilon}^\text{pl} \neq 0$ et $\hat{\epsilon}_{xx}^\text{pl} = \hat{\epsilon}_{yy}^\text{pl} = 0$. L'\autoref{eq:eshelbygene} nous permet alors d'obtenir l'expression :
 
 \begin{equation}
-	\hat{\sigma}_{xy} = 2\mu \hat{\mathcal{G}} \epsilon^\text{pl}, \quad \hat{\mathcal{G}}(\mathbf{q}) = -4\frac{q_x^2q_y^2}{q^4}
+	\hat{\sigma}_{xy} = 2\mu \hat{\mathcal{G}} \epsilon^\text{pl}, \quad \hat{\mathcal{G}}(\mathbf{q}) = -4\frac{q_x^2q_y^2}{q^4},
 \end{equation}
 
 \noindent qui relie directement la perturbation du champ de contrainte au réarrangement plastique. Des expressions similaires peuvent être obtenues pour les composantes $\sigma_{xx}$ et $\sigma_{yy}$ du tenseur des contraintes. En espace réel, cette relation devient :
 
 \begin{equation}
-	\sigma_{xy}(\mathbf{r}) = \int\mathrm{d}\mathbf{r}^\prime~\mathcal{G}(\mathbf{r}-\mathbf{r}^\prime)\epsilon^\text{pl}(\mathbf{r}^\prime), \quad \mathcal{G}(\mathbf{r}) = \frac{\cos (4\theta)}{\pi r^2}
+	\sigma_{xy}(\mathbf{r}) = \int\mathrm{d}\mathbf{r}^\prime~\mathcal{G}(\mathbf{r}-\mathbf{r}^\prime)\epsilon^\text{pl}(\mathbf{r}^\prime), \quad \mathcal{G}(\mathbf{r}) = \frac{\cos (4\theta)}{\pi r^2}.
 	\label{eq:EshelbyReel}
 \end{equation}
 
@@ -185,7 +185,7 @@
 \noindent En intégrant alors sur $x$ la première équation et sur $y$ la seconde, et en se rappelant que $\sigma_{xy} = \sigma_{yx}$ on a :
 
 \begin{equation}
-	\partial_x \int \mathrm{d}y~ \sigma_{xy}^1 = \partial_y \int \mathrm{d}x~ \sigma_{xy}^1 = 0
+	\partial_x \int \mathrm{d}y~ \sigma_{xy}^1 = \partial_y \int \mathrm{d}x~ \sigma_{xy}^1 = 0,
 \end{equation}
 
 \noindent ce qui implique que la contrainte partielle redistribuée sur chaque ligne et colonne est la même. Le propagateur de redistribution d'Eshelby qui répond à cette contrainte d'équilibre mécanique doit donc redistribuer la même contrainte partielle sur chaque ligne et colonne. De plus, étant de moyenne nulle afin de conserver la contrainte globale, cette contrainte partielle redistribuée est nécessairement nulle.
@@ -202,8 +202,8 @@
 
 \begin{equation}
 \begin{aligned}
-	-\partial_i P + \eta \partial_j\partial_j v_i + f_i &= 0 \\
-	\partial_j v_j = 0
+	-\partial_i P + \eta \partial_j\partial_j v_i + f_i &= 0, \\
+	\partial_j v_j = 0,
 \end{aligned}
 \end{equation}
 
@@ -212,7 +212,7 @@
 \subparagraph{}La résolution de ce problème bien connu (voir \cite{lisicki_four_2013} par exemple) permet de définir le tenseur d'Oseen $\mathcal{G}_{ij}$, reliant $\mathbf{F}^1$ à $\mathbf{v}(\mathbf{r}^\prime)$ par la relation linéaire :
 
 \begin{equation}
-	v_i (\mathbf{r}^\prime) = \mathcal{G}_{ij}(\mathbf{r} -\mathbf{r}^\prime)F^1_j, \quad \mathcal{G}_{ij}(\mathbf{r}) = \frac{1}{8\pi\eta r}\left( \delta_{ij}+\frac{r_ir_j}{r^2} \right)
+	v_i (\mathbf{r}^\prime) = \mathcal{G}_{ij}(\mathbf{r} -\mathbf{r}^\prime)F^1_j, \quad \mathcal{G}_{ij}(\mathbf{r}) = \frac{1}{8\pi\eta r}\left( \delta_{ij}+\frac{r_ir_j}{r^2} \right),
 \end{equation}
 
 \noindent définissant ainsi une interaction hydrodynamique entre les deux particules, décroissant comme $\sim 1/r$ dans un milieu tridimensionnel infini.
@@ -220,7 +220,7 @@
 \subparagraph{}Ce résultat calculatoire peut aussi se comprendre plus intuitivement, comme l'explique très clairement l'étude \cite{diamant_hydrodynamic_2009}. Dans la suite de cette partie, nous présentons le raisonnement de l'auteur. En fait, les équations de Stokes dérivent de deux lois de conservation fondamentales : celle de la quantité de mouvement et celle de la masse. Lorsqu'une particule applique une force locale sur le fluide, celle-ci se comporte comme une source de quantité de mouvement. Pour que cette dernière soit conservée, le flux local de quantité de mouvement émanant de la particule doit décroître comme $\sim 1/r^2$ en 3D. Or ce flux local de quantité de mouvement n'étant autre que le tenseur des contraintes $\sigma$ associé au fluide, cette conservation implique directement $\sigma \sim 1/r^2$. La partie associée au cisaillement de ce tenseur étant $\sigma_\text{cis}\sim \eta \mathbf{\nabla} \mathbf{v}$ on a donc $\mathbf{v}\sim 1/\eta r$. De plus, par des considérations de symétrie, la partie adimensionnelle du propagateur hydrodynamique prend nécessairement la forme $\delta_{ij}+C\frac{r_ir_j}{r^2}$. On retrouve donc finalement, basé sur ces arguments simples :
 
 \begin{equation}
-	\mathcal{G}_{ij} \sim \frac{1}{\eta r}\left( \delta_{ij}+C\frac{r_ir_j}{r^2} \right)
+	\mathcal{G}_{ij} \sim \frac{1}{\eta r}\left( \delta_{ij}+C\frac{r_ir_j}{r^2} \right),
 	\label{eq:diamantinfini}
 \end{equation}
 
@@ -235,7 +235,7 @@
 \subparagraph{}Un premier exemple vient des systèmes quasi-2D. Lorsque le fluide suspendant est confiné entre deux plaques rigides, espacées d'une faible distance $\lambda$, les frottements avec le solide constituent une perte de quantité de mouvement dans la direction orthogonale aux plaques. Dans ce cas, le flux local de quantité de mouvement généré par la particule $1$ décroît exponentiellement avec la distance au-delà de cette distance typique de confinement $r>\lambda$. Toutefois, dans une telle configuration, la masse du fluide est toujours conservée. Le déplacement de la particule $1$ peut toujours être vu comme un dipôle de source de matière mais prenant cette fois place dans un milieu 2D. La vitesse de l'écoulement associé décroît alors comme $\sim 1/r^2$, amenant à un propagateur hydrodynamique de la forme :
 
 \begin{equation}
-	\mathcal{G}_{ij} \sim \frac{1}{\eta r^2}\left( \delta_{ij}-2\frac{r_ir_j}{r^2} \right)
+	\mathcal{G}_{ij} \sim \frac{1}{\eta r^2}\left( \delta_{ij}-2\frac{r_ir_j}{r^2} \right).
 \end{equation}
 
 \noindent Ainsi, sous confinement, les interactions médiées par le fluide restent à longue portée.
@@ -247,7 +247,7 @@
 \subparagraph{}De manière tout à fait générale, le fluide suspendant permet donc de médier des interactions entre les particules, représentées par un propagateur hydrodynamique de la forme :
 
 \begin{equation}
-	\mathcal{G}_{ij} \sim \frac{1}{r^\gamma}\left( \delta_{ij}+C\frac{r_ir_j}{r^2} \right)
+	\mathcal{G}_{ij} \sim \frac{1}{r^\gamma}\left( \delta_{ij}+C\frac{r_ir_j}{r^2} \right),
 \end{equation}
 
 \noindent avec $\gamma$ un entier pouvant prendre différentes valeurs en fonction du dispositif spécifique étudié. Via a minima la conservation de la masse, ces interactions présentent donc toujours la particularité d'être à longue portée. 
@@ -259,13 +259,13 @@
 \subparagraph{}Considérons le choc d'une particule 1 située en $\mathbf{r}+\frac{\mathbf{a}}{2}$, appliquant alors une force $\mathbf{F}^1(\mathbf{r})=\mathbf{F}\delta(\mathbf{r}+\frac{\mathbf{a}}{2})$ sur le fluide, et une particule 3 située en $\mathbf{r}-\frac{\mathbf{a}}{2}$, appliquant alors une force $\mathbf{F}^3(\mathbf{r})=-\mathbf{F}\delta(\mathbf{r}-\frac{\mathbf{a}}{2})$ sur le fluide. D'après les résultats obtenus précédemment sur les monopôles de force, la vitesse induite sur une particule 2 située en $\mathbf{r}^\prime$ sera dans le cas général :
 
 \begin{equation}
-	v_i (\mathbf{r}^\prime) = \mathcal{G}_{ij}(\mathbf{r}+\frac{\mathbf{a}}{2} -\mathbf{r}^\prime)F_j - \mathcal{G}_{ij}(\mathbf{r}-\frac{\mathbf{a}}{2} -\mathbf{r}^\prime)F_j
+	v_i (\mathbf{r}^\prime) = \mathcal{G}_{ij}(\mathbf{r}+\frac{\mathbf{a}}{2} -\mathbf{r}^\prime)F_j - \mathcal{G}_{ij}(\mathbf{r}-\frac{\mathbf{a}}{2} -\mathbf{r}^\prime)F_j,
 \end{equation}
 
 \noindent et donc dans l'approximation dipolaire $|\mathbf{a}|\ll |\mathbf{r}-\mathbf{r}^\prime|$ on a au premier ordre :
 
 \begin{equation}
-	v_i (\mathbf{r}^\prime) \approx a_k\partial_k \mathcal{G}_{ij}(\mathbf{r} -\mathbf{r}^\prime)F_j, \quad \partial_k \equiv \frac{\partial}{\partial r_k}
+	v_i (\mathbf{r}^\prime) \approx a_k\partial_k \mathcal{G}_{ij}(\mathbf{r} -\mathbf{r}^\prime)F_j, \quad \partial_k \equiv \frac{\partial}{\partial r_k}.
 \end{equation}
 
 \noindent Cela définit donc un propagateur dipolaire $\mathcal{G}_{ijk} = \partial_k\mathcal{G}_{ij}$ traduisant l'interaction générée par le dipôle $p_{kj} = a_kF_j$. Le propagateur dipolaire correspond donc au gradient du propagateur associé au monopôle de force. Ainsi, si l'interaction propagée par un monopôle de force décroît comme $\sim 1/r^\gamma$, celle propagée par un dipôle décroît comme $\sim 1/r^{\alpha}$ avec $\alpha = \gamma + 1$. Par exemple, en milieu 3D infini, nous nous attendons donc à ce qu'un évènement irréversible dans la transition de réversibilité affecte les autres particules du système via une interaction décroissant comme $\sim 1/r^2$ soit $\alpha = 2$.
@@ -319,7 +319,7 @@
 \subparagraph{}Dans cette sous-section, nous présentons le calcul dans l'espace continu de la transformée de Fourier des propagateurs $\mathcal{G}^2$ utilisés dans le $\alpha$-ROM et donnés par :
 
 \begin{equation}
-	\mathcal{G}^2(\mathbf{r}) = \frac{c}{\left(1+\left(\frac{r}{D_p}\right)^2\right)^\alpha}, \quad c > 0
+	\mathcal{G}^2(\mathbf{r}) = \frac{c}{\left(1+\left(\frac{r}{D_p}\right)^2\right)^\alpha}, \quad c > 0.
 \end{equation}
 
 \noindent Nous prenons alors $D_p = 1$ (comme dans nos simulations numériques) et notons $f(\mathbf{r}) = \mathcal{G}^2(\mathbf{r})$ pour alléger l'écriture.
@@ -327,31 +327,31 @@
 \subparagraph{}Nous commençons par utiliser le lien entre transformée de Fourier d'une fonction radiale et transformée de Hankel \cite{poularikas_transforms_2018} permettant d'obtenir\footnote{Il suffit, à partir de la définition de la transformée de Fourier, de faire l'intégrale sur la variable angulaire $\theta$ qui permet d'obtenir la fonction de Bessel de première espèce.} :
 
 \begin{equation}
-	\hat{f}(\mathbf{q}) = q^{\frac{2-D}{2}}(2\pi)^{\frac{D}{2}}\int\mathrm{d}r~J_{\frac{D-2}{2}}(qr)r^\frac{D-2}{2}f(r)r
+	\hat{f}(\mathbf{q}) = q^{\frac{2-D}{2}}(2\pi)^{\frac{D}{2}}\int\mathrm{d}r~J_{\frac{D-2}{2}}(qr)r^\frac{D-2}{2}f(r)r,
 \end{equation}
 
 \noindent qui dans notre cas amène à : 
 
 \begin{equation}
-	\hat{f}(\mathbf{q}) = c q^{\frac{2-D}{2}}(2\pi)^{\frac{D}{2}}\int\mathrm{d}r~J_{\frac{D-2}{2}}(qr)\frac{r^\frac{D}{2}}{(1+r^2)^\alpha}
+	\hat{f}(\mathbf{q}) = c q^{\frac{2-D}{2}}(2\pi)^{\frac{D}{2}}\int\mathrm{d}r~J_{\frac{D-2}{2}}(qr)\frac{r^\frac{D}{2}}{(1+r^2)^\alpha}.
 \end{equation}
 
 \noindent Puis nous utilisons le résultat suivant concernant les fonctions de Bessel \cite{zwillinger_6_7_2014} :
 
 \begin{equation}
-\int_0^{\infty} \frac{J_\nu(b x) x^{\nu+1}}{\left(x^2+a^2\right)^{\mu+1}} d x=\frac{a^{\nu-\mu} b^\mu}{2^\mu \Gamma(\mu+1)} K_{\nu-\mu}(a b), \quad -1 < \nu < 2\mu + \frac{3}{2}
+\int_0^{\infty} \frac{J_\nu(b x) x^{\nu+1}}{\left(x^2+a^2\right)^{\mu+1}} d x=\frac{a^{\nu-\mu} b^\mu}{2^\mu \Gamma(\mu+1)} K_{\nu-\mu}(a b), \quad -1 < \nu < 2\mu + \frac{3}{2}.
 \end{equation}
 
 \noindent Par identification des deux équations on arrive alors directement à :
 
 \begin{equation}
-	\hat{f}(\mathbf{q}) = c q^{\frac{2-D}{2}}(2\pi)^{\frac{D}{2}}\frac{q^{\alpha-1}}{2^{\alpha - 1}\Gamma(\alpha)}K_{\frac{D-2}{2}-(\alpha-1)}(q)
+	\hat{f}(\mathbf{q}) = c q^{\frac{2-D}{2}}(2\pi)^{\frac{D}{2}}\frac{q^{\alpha-1}}{2^{\alpha - 1}\Gamma(\alpha)}K_{\frac{D-2}{2}-(\alpha-1)}(q),
 \end{equation}
 
 \noindent soit en simplifiant et en utilisant $K_\nu (q) = K_{-\nu}(q)$ :
 
 \begin{equation}
-	\hat{f}(\mathbf{q}) = \frac{(2\pi)^{\frac{D}{2}}}{2^{\alpha-1}\Gamma(\alpha)}q^{\alpha-\frac{D}{2}}K_{\alpha-\frac{D}{2}}(q), \quad \alpha > \frac{D-1}{4}
+	\hat{f}(\mathbf{q}) = \frac{(2\pi)^{\frac{D}{2}}}{2^{\alpha-1}\Gamma(\alpha)}q^{\alpha-\frac{D}{2}}K_{\alpha-\frac{D}{2}}(q), \quad \alpha > \frac{D-1}{4},
 \end{equation}
 
 \noindent ce qui nous permet bien de retrouver les expressions données au \autoref{chapter:Susp} pour $D=2$ et $D=3$.
@@ -364,8 +364,8 @@
 
 \begin{equation}
 \begin{aligned}
-    \partial_t P(\mathbf{r}, t) &= -a\Gamma (t)|\nabla|^{\mu} P(\mathbf{r}, t) - \frac{1}{\tau}\Theta(|\mathbf{r}|>R)P(\mathbf{r}, t) + \delta(\mathbf{r})\Gamma (t)\\
-     \Gamma (t) &= \frac{1}{\tau}\int_{|\mathbf{r}|>R}\mathrm{d}\mathbf{r}~P(\mathbf{r}, t)
+    \partial_t P(\mathbf{r}, t) &= -a\Gamma (t)|\nabla|^{\mu} P(\mathbf{r}, t) - \frac{1}{\tau}\Theta(|\mathbf{r}|>R)P(\mathbf{r}, t) + \delta(\mathbf{r})\Gamma (t),\\
+     \Gamma (t) &= \frac{1}{\tau}\int_{|\mathbf{r}|>R}\mathrm{d}\mathbf{r}~P(\mathbf{r}, t),
 \end{aligned}
 \end{equation}
 
@@ -374,13 +374,13 @@
 \subparagraph{}En pratique, nous considérons donc $N$ particules dont les positions $\mathbf{r}_i$ évoluent dans un espace de dimension $D$, présentant une barrière en $|\mathbf{r}|=R$. La dynamique du mouvement des particules se fait en temps continu, discrétisé selon un pas de temps $\Delta t$. \`A chaque pas de temps $t_i$, chaque particule effectue un saut distribué selon une loi de Lévy stable $S_\mu(0,c,0)$ définie par sa fonction caractéristique :
 
 \begin{equation}
-	\phi(k) = \exp (-|ck|^\mu)
+	\phi(k) = \exp (-|ck|^\mu),
 \end{equation}
 
 \noindent modélisant le terme en dérivée fractionnaire dans l'équation sur $P$ \cite{hinrichsen_non_equilibrium_2007, jespersen_levy_1999}. Par équivalence des deux descriptions, la constante $c$ est alors définie selon\footnote{De cette manière, un saut effectué sur un pas de temps $n\times\Delta t$ est statistiquement équivalent à la succession de $n$ sauts effectués sur un pas de temps $\Delta t$ et un saut effectué avec une activité $n\times \Gamma$ est statistiquement équivalent à la succession de $n$ sauts effectués avec une activité $\Gamma$.} :
 
 \begin{equation}
-	c = \left( s \Gamma(t) \Delta t \right)^{1/\mu}
+	c = \left( s \Gamma(t) \Delta t \right)^{1/\mu},
 \end{equation}
 
 \noindent la constante $s$ dans la vision dynamique de population jouant un rôle similaire à la constante $a$ dans l'équation d'évolution de la distribution. Il est théoriquement possible de relier $a$ à $s$ mais ce n'est pas nécessaire dans notre cas puisque nous nous intéressons simplement au comportement critique associé. Lorsqu'une particule est au-delà de la barrière, celle-ci est remise à l'origine du repère selon un taux $1/\tau$, représentant alors les deux derniers termes du membre de droite dans l'équation de Fokker-Planck généralisée.
@@ -397,14 +397,14 @@
 \subparagraph{}En simulant le mouvement de ces particules, nous pouvons remonter à la forme instantanée de la distribution $P(\mathbf{r},t)$ prise alors comme la distribution des positions des différentes particules. Pour déterminer le comportement critique de cette transition, nous mesurons la valeur de l'activité moyenne $\Gamma$ dans l'état stationnaire pour différentes valeurs de $R$ afin d'identifier l'exposant $\beta$ définissant la relation :
 
 \begin{equation}
-	\Gamma \sim (R_c-R)^\beta
+	\Gamma \sim (R_c-R)^\beta.
 \end{equation}
 
 \subparagraph{} Les résultats présentés à la \autoref{fig:LHLNum} ont été obtenus pour les valeurs des paramètres $s=1$, $\Delta t  = 10^{-2}$, $\tau = 1$ et $N \sim 10^7$. Dans le cas $\mu = 2$ où la loi stable devient une loi normale, nous vérifions que nous retrouvons les résultats attendus soit $\beta = 2$ et $R_c = \sqrt{2a}$, et la distribution stationnaire  prédite via la résolution analytique (rendue possible dans ce cas). Cela suggère la validité de notre approche.
 
 \paragraph{Détails d'implémentation}
 
-\subparagraph{}L'algorithme présenté a été implémenté en langage C++/CUDA pour fonctionner sur cartes graphiques. Les détails d'implémentation peuvent être retrouvés sur \textbf{lien github}. Les nombres aléatoires distribués selon des lois stables, utilisés pour générer les sauts des particules, ont été générés via la méthode Chambers-Mallows-Stuck \cite{chambers_method_1976, weron_chambers_mallows_stuck_1996}.
+\subparagraph{}L'algorithme présenté a été implémenté en langage C++/CUDA pour fonctionner sur cartes graphiques. Les détails d'implémentation peuvent être retrouvés sur : \url{https://github.com/tjocteur/mu_HL}. Les nombres aléatoires distribués selon des lois stables, utilisés pour générer les sauts des particules, ont été générés via la méthode Chambers-Mallows-Stuck \cite{chambers_method_1976, weron_chambers_mallows_stuck_1996}.
 
 \section{Fonctions de corrélation de paire}
 
@@ -540,7 +540,7 @@
 \subparagraph{}Dans cette partie, nous faisons le lien entre les formes spectrales des propagateurs dans les modèles $\alpha$-Picard présentées au \autoref{chapter:yielding} et leur forme dans l'espace réel. Pour ce faire, nous cherchons la transformée de Fourier inverse en 2D en espace continue de la fonction :
 
 \begin{equation}
-	f(\mathbf{q}) = \frac{q_x^2 q_y^2}{q^{6-\alpha}}
+	f(\mathbf{q}) = \frac{q_x^2 q_y^2}{q^{6-\alpha}},
 \end{equation}
 
 \noindent et nous notons $\beta = 6 - \alpha$ pour simplifier les notations dans le calcul qui suit.
@@ -548,13 +548,13 @@
 \paragraph{}Nous commençons par partir du résultat général :
 
 \begin{equation}
-    \mathcal{F}\left( \frac{1}{r^\alpha} \right)=\frac{\pi^{\alpha-d / 2} \Gamma((D-\alpha) / 2)}{\Gamma(\alpha / 2)} \times\frac{1}{|k|^{D-\alpha}}
+    \mathcal{F}\left( \frac{1}{r^\alpha} \right)=\frac{\pi^{\alpha-d / 2} \Gamma((D-\alpha) / 2)}{\Gamma(\alpha / 2)} \times\frac{1}{|k|^{D-\alpha}},
 \end{equation}
 
 \noindent avec $\mathbf{q} = 2\pi \mathbf{k}$ et $D$ la dimension de l'espace. Ce résultat est valable pour $0<\alpha<D$ dans le sens des fonctions mais peut être étendu à tout $\alpha$ au sens des distributions. De manière équivalente nous avons donc en 2D :
 
 \begin{equation}
-    \mathcal{F}^{-1}\left( \frac{1}{\lvert k \rvert^\beta} \right) = \frac{\Gamma\left( 1-\frac{\beta}{2} \right)}{\pi^{1-\beta}\Gamma\left( \frac{\beta}{2} \right)}\times\frac{1}{r^{2-\beta}}
+    \mathcal{F}^{-1}\left( \frac{1}{\lvert k \rvert^\beta} \right) = \frac{\Gamma\left( 1-\frac{\beta}{2} \right)}{\pi^{1-\beta}\Gamma\left( \frac{\beta}{2} \right)}\times\frac{1}{r^{2-\beta}},
 \end{equation}
 
 \noindent et donc :
@@ -562,7 +562,7 @@
 \begin{equation}
 \begin{aligned}
     (2\pi)^4\mathcal{F}^{-1}\left( \frac{k_x^2k_y^2}{\lvert k \rvert^\beta} \right) &= \partial_x^2\partial_y^2\mathcal{F}^{-1}\left( \frac{1}{\lvert k \rvert^\beta} \right)\\
-    &=\frac{\Gamma\left( 1-\frac{\beta}{2} \right)}{\pi^{1-\beta}\Gamma\left( \frac{\beta}{2} \right)}\partial_x^2\partial_y^2\left( \frac{1}{r^{2-\beta}} \right)
+    &=\frac{\Gamma\left( 1-\frac{\beta}{2} \right)}{\pi^{1-\beta}\Gamma\left( \frac{\beta}{2} \right)}\partial_x^2\partial_y^2\left( \frac{1}{r^{2-\beta}} \right).
 \end{aligned}
 \end{equation}
 
@@ -571,20 +571,20 @@
 \begin{equation}
 \begin{aligned}
     \partial_x^2\partial_y^2\left( \frac{1}{r^{2-\beta}} \right) &= \frac{1}{r^{10-\beta}}(8-6\beta+\beta^2)\\
-    &\times\left(x^4(\beta-5)+y^4(\beta-5)+x^2y^2(38-12\beta+\beta^2)\right)
+    &\times\left(x^4(\beta-5)+y^4(\beta-5)+x^2y^2(38-12\beta+\beta^2)\right),
 \end{aligned}
 \end{equation}
 
 \noindent et nous pouvons simplifier cette expression en utilisant  $r^2=x^2+y^2$ et $(x,y)=(r\cos\theta,r\sin\theta)$ selon :
 
 \begin{equation}
-    \partial_x^2\partial_y^2\left( \frac{1}{r^{2-\beta}} \right) = \frac{1}{r^{6-\beta}}(8-6\beta+\beta^2)\times\left(\beta-5+\cos^2\theta\sin^2\theta(48-14\beta+\beta^2)\right)
+    \partial_x^2\partial_y^2\left( \frac{1}{r^{2-\beta}} \right) = \frac{1}{r^{6-\beta}}(8-6\beta+\beta^2)\times\left(\beta-5+\cos^2\theta\sin^2\theta(48-14\beta+\beta^2)\right),
 \end{equation}
 
 \noindent puis en utilisant la relation trigonométrique $\cos^2\theta\sin^2\theta = \frac{1}{8}(1-\cos4\theta)$ on a :
 
 \begin{equation}
-    \partial_x^2\partial_y^2\left( \frac{1}{r^{2-\beta}} \right) = \frac{1}{8r^{6-\beta}}(8-6\beta+\beta^2)\times\left((8-6\beta+\beta^2)-\cos4\theta(48-14\beta+\beta^2)\right)
+    \partial_x^2\partial_y^2\left( \frac{1}{r^{2-\beta}} \right) = \frac{1}{8r^{6-\beta}}(8-6\beta+\beta^2)\times\left((8-6\beta+\beta^2)-\cos4\theta(48-14\beta+\beta^2)\right),
 \end{equation}
 
 \noindent et donc en factorisant on a finalement :
@@ -592,7 +592,7 @@
 \begin{equation}
 \begin{aligned}
     (2\pi)^4\mathcal{F}^{-1}\left( \frac{k_x^2k_y^2}{\lvert k \rvert^\beta} \right) &= \frac{\Gamma\left( 1-\frac{\beta}{2} \right)}{\pi^{1-\beta}\Gamma\left( \frac{\beta}{2} \right)}\\
-    &\times\frac{(\beta-4)(\beta-2)}{8r^{6-\beta}}\left( (\beta-4)(\beta-2)-\cos4\theta(\beta-8)(\beta-6) \right)
+    &\times\frac{(\beta-4)(\beta-2)}{8r^{6-\beta}}\left( (\beta-4)(\beta-2)-\cos4\theta(\beta-8)(\beta-6) \right),
 \end{aligned}
 \end{equation}
 
@@ -601,7 +601,7 @@
 \begin{equation}
 \begin{aligned}
     \mathcal{F}^{-1}\left( \frac{q_x^2q_y^2}{\lvert q \rvert^\beta} \right) &= \frac{\Gamma\left( 1-\frac{\beta}{2} \right)}{\pi 2^\beta\Gamma\left( \frac{\beta}{2} \right)}\\
-    &\times\frac{(\beta-4)(\beta-2)}{8r^{6-\beta}}\left( (\beta-4)(\beta-2)-\cos4\theta(\beta-8)(\beta-6) \right)
+    &\times\frac{(\beta-4)(\beta-2)}{8r^{6-\beta}}\left( (\beta-4)(\beta-2)-\cos4\theta(\beta-8)(\beta-6) \right),
 \end{aligned}
 \end{equation}
 
@@ -613,19 +613,19 @@
 \subparagraph{}Les entiers négatifs (zéro inclus) sont des pôles de la fonction $\Gamma$. Le cas $\beta = 4$ correspondant au propagateur d'Eshelby doit être pris comme une limite. Pour ce faire, nous utilisons le développement :
 
 \begin{equation}
-    \Gamma(-n+\epsilon) = \frac{(-1)^n}{n!}\left( \frac{1}{\epsilon}+\mathcal{O}(1) \right)
+    \Gamma(-n+\epsilon) = \frac{(-1)^n}{n!}\left( \frac{1}{\epsilon}+\mathcal{O}(1) \right),
 \end{equation}
 
 \noindent qui nous permet donc d'obtenir pour $\beta=4+\epsilon$ :
 
 \begin{equation}
-    (2\pi)^4\mathcal{F}^{-1}\left( \frac{k_x^2k_y^2}{\lvert k \rvert^{4+\epsilon}} \right)=\frac{2/\epsilon}{\pi^{-3-\epsilon/2}\Gamma\left( 2+\frac{\epsilon}{2} \right)}\times\frac{(\epsilon+2)\epsilon}{8r^{2-\epsilon}}((\epsilon+2)\epsilon-\cos4\theta(\epsilon-2)(\epsilon-4))
+    (2\pi)^4\mathcal{F}^{-1}\left( \frac{k_x^2k_y^2}{\lvert k \rvert^{4+\epsilon}} \right)=\frac{2/\epsilon}{\pi^{-3-\epsilon/2}\Gamma\left( 2+\frac{\epsilon}{2} \right)}\times\frac{(\epsilon+2)\epsilon}{8r^{2-\epsilon}}((\epsilon+2)\epsilon-\cos4\theta(\epsilon-2)(\epsilon-4)),
 \end{equation}
 
 \noindent qui permet d'arriver dans la limite $\epsilon \rightarrow 0$ à :
 
 \begin{equation}
-    \mathcal{F}^{-1}\left( \frac{-4q_x^2q_y^2}{\lvert q \rvert^{4}} \right)=\frac{\cos4\theta}{\pi r^2}
+    \mathcal{F}^{-1}\left( \frac{-4q_x^2q_y^2}{\lvert q \rvert^{4}} \right)=\frac{\cos4\theta}{\pi r^2}.
 \end{equation}
 
 \subsection{Détermination des points critiques}
@@ -680,13 +680,13 @@
 \subparagraph{}Pour le comprendre, nous proposons de modéliser ces frottements par un terme de dissipation proportionnel à la déformation du fluide de la même manière que dans le cas de l'étude des écoulements en milieux poreux \cite{long_note_2001} ou fluides de Brinkman \cite{brinkman_calculation_1949}. En reprenant le cadre décrit à la \autoref{sec:Annexe_Eshelby}, la condition d'équilibre mécanique dans l'espace 2D effectif devient :
 
 \begin{equation}
-	-\partial_i P^1(\mathbf{r}) + \partial_j\sigma_{ij}^1(\mathbf{r}) - \mu\lambda^2 u^1_{i}= 0
+	-\partial_i P^1(\mathbf{r}) + \partial_j\sigma_{ij}^1(\mathbf{r}) - \mu\lambda^2 u^1_{i}= 0,
 \end{equation}
 
 \noindent avec $\lambda$ un coefficient retranscrivant l'intensité de la dissipation et définissant une longueur d'écrantage selon $\xi \sim 1/\lambda$. Par une résolution similaire à celle présentée dans la \autoref{sec:Annexe_Eshelby}, ce cas de figure nous amène à un propagateur dans l'espace réciproque dont la forme est la suivante :
 
 \begin{equation}
-    \hat{\mathcal{G}}_\lambda(\mathbf{q}) = -4\frac{q_x^2q_y^2}{q^2(q^2+\lambda^2)}-\frac{\lambda^2}{\lambda^2+q^2}
+    \hat{\mathcal{G}}_\lambda(\mathbf{q}) = -4\frac{q_x^2q_y^2}{q^2(q^2+\lambda^2)}-\frac{\lambda^2}{\lambda^2+q^2},
     \label{eq:screenedEshelby}
 \end{equation}
 
@@ -694,8 +694,8 @@
 
 \begin{equation}
 \begin{aligned}
-    \hat{\mathcal{G}}_\lambda(\mathbf{q})\xrightarrow[q\gg \lambda]{}-4\frac{q_x^2q_y^2}{q^4} \quad &\Rightarrow \quad \mathcal{G}_\lambda(\mathbf{r})\xrightarrow[r\ll \xi]{}\sim\frac{\cos 4\theta}{r^2}\\
-    \hat{\mathcal{G}}_\lambda(\mathbf{q})\xrightarrow[q \ll \lambda]{}-4\frac{q_x^2q_y^2}{\lambda^2 q^2}-1 \quad &\Rightarrow \quad \mathcal{G}_\lambda(\mathbf{r})\xrightarrow[r \gg \xi]{}\sim\frac{\cos 4\theta}{r^4}
+    \hat{\mathcal{G}}_\lambda(\mathbf{q})\xrightarrow[q\gg \lambda]{}-4\frac{q_x^2q_y^2}{q^4} \quad &\Rightarrow \quad \mathcal{G}_\lambda(\mathbf{r})\xrightarrow[r\ll \xi]{}\sim\frac{\cos 4\theta}{r^2},\\
+    \hat{\mathcal{G}}_\lambda(\mathbf{q})\xrightarrow[q \ll \lambda]{}-4\frac{q_x^2q_y^2}{\lambda^2 q^2}-1 \quad &\Rightarrow \quad \mathcal{G}_\lambda(\mathbf{r})\xrightarrow[r \gg \xi]{}\sim\frac{\cos 4\theta}{r^4}.
 \end{aligned}
 \label{eq:LPicardAsymp}
 \end{equation}
@@ -707,13 +707,13 @@
 \subparagraph{}Pour obtenir l'expression complète du propagateur en espace réel, nous pouvons décomposer le premier terme de l'\autoref{eq:screenedEshelby} de la manière suivante :
 
 \begin{equation}
-    \hat{\mathcal{G}}_\lambda(\mathbf{q}) = -4\frac{q_x^2q_y^2}{\lambda^2 q^2} + 4\frac{q_x^2q_y^2}{\lambda^2 (\lambda^2 + q^2)}-\frac{\lambda^2}{\lambda^2+q^2}
+    \hat{\mathcal{G}}_\lambda(\mathbf{q}) = -4\frac{q_x^2q_y^2}{\lambda^2 q^2} + 4\frac{q_x^2q_y^2}{\lambda^2 (\lambda^2 + q^2)}-\frac{\lambda^2}{\lambda^2+q^2},
 \end{equation}
 
 \noindent pour obtenir dans l'espace réel :
 
 \begin{equation}
-    \mathcal{G}_\lambda(r,\theta) = \frac{12}{\pi\lambda^2}\frac{\cos 4\theta}{r^4}-\frac{\lambda^2}{2\pi}K_0(\lambda r)+\frac{2}{\pi\lambda^2}\partial_x^2\partial_y^2K_0(\lambda r)
+    \mathcal{G}_\lambda(r,\theta) = \frac{12}{\pi\lambda^2}\frac{\cos 4\theta}{r^4}-\frac{\lambda^2}{2\pi}K_0(\lambda r)+\frac{2}{\pi\lambda^2}\partial_x^2\partial_y^2K_0(\lambda r).
 \end{equation}
 
 %\noindent En calculant les dérivées associées au troisème terme du membre de droite, nous obtenons donc :
@@ -760,7 +760,7 @@
 \subparagraph{}Pour le plus faible écrantage ($\lambda^2 = 10^{-3}$), nous retrouvons des distributions en loi de puissance avec $\tau \approx 1.35$ comme dans le cas du modèle de Picard ($\lambda = 0$). Par contre, à mesure que $\lambda$ augmente, ces lois de puissance montrent un cut-off $S_c(\lambda)$ diminuant peu à peu. De ce fait, à $\lambda=1$ la criticalité des avalanches est perdue à toutes les tailles. Cette diminution du cut-off ne dépendant pas de la taille du système, cela suggère qu'il est uniquement contrôlé par la longueur d'écrantage $\xi \sim 1/\lambda$. En d'autres termes, il n'y aurait des avalanches qu'en-dessous de la longueur d'écrantage. Au-delà, le système perd sa criticalité. Étant donné qu'en-dessous de $\xi$ le propagateur prend la forme de celui du propagateur d'Eshelby, il est raisonnable de penser que les avalanches ont la même structure que celles dans le modèle de Picard dans la zone non-écrantée. Pour valider cette hypothèse, nous redimensionnons les distributions obtenues pour les systèmes de plus grande taille ($L=512$) selon :
 
 \begin{equation}
-	P(S) \rightarrow \frac{P(S)}{\xi^{-\tau_\text{eff}d_{f,\text{eff}}}},\quad S\rightarrow \frac{S}{\xi^{d_{f,\text{eff}}}}, \quad \xi = \frac{1}{\lambda}
+	P(S) \rightarrow \frac{P(S)}{\xi^{-\tau_\text{eff}d_{f,\text{eff}}}},\quad S\rightarrow \frac{S}{\xi^{d_{f,\text{eff}}}}, \quad \xi = \frac{1}{\lambda}.
 \end{equation}
 
 \begin{figure}[h]
@@ -796,7 +796,7 @@
 	\item Chaque site reçoit un ajout de contrainte $\delta\Sigma$ permettant de conserver la contrainte globale $\Sigma = \frac{1}{N}\sum_{i}\sigma_i$.
 \end{enumerate}
 
-\noindent Ce schéma numérique est alors à mi-chemin entre les modèles $\alpha$-ROM et $\alpha$-Picard. En regard de l'analyse proposée au \autoref{chapter:discussion}, l'étape 2 représente le processus de création d'activité par diffusion induite non-localement par l'activité et l'étape 4 représente le processus de création d'activité par transport à longue portée de la quantité conservée (qui prend ici un aspect champ moyen). L'implémentation détaillée peut-être retrouvée sur : \textbf{Lien github}
+\noindent Ce schéma numérique est alors à mi-chemin entre les modèles $\alpha$-ROM et $\alpha$-Picard. En regard de l'analyse proposée au \autoref{chapter:discussion}, l'étape 2 représente le processus de création d'activité par diffusion induite non-localement par l'activité et l'étape 4 représente le processus de création d'activité par transport à longue portée de la quantité conservée (qui prend ici un aspect champ moyen). L'implémentation détaillée peut-être retrouvée sur : \url{https://github.com/tjocteur/EPM_decorr}.
 
 \subparagraph{}Avec ce modèle, nous pouvons mesurer l'activité moyenne $\langle A \rangle = \langle \frac{1}{N}\sum_{i}n_i \rangle $ dans l'état stationnaire pour différentes contraintes globales $\Sigma$. En déterminant la contrainte critique $\Sigma_c$ séparant la phase active de la phase absorbante, nous pouvons alors déterminer l'exposant critique $\beta$ défini comme $\langle A \rangle \sim (\Sigma - \Sigma_c)^\beta$ et son évolution avec la portée $\alpha$. Les méthodes utilisées sont les mêmes que dans le cas de la détermination de l'exposant $\beta$ pour les modèles $\alpha$-Picard. Des résultats préliminaires concernant ces déterminations sont présentés à la \autoref{fig:DiscreteEPM}.
 
@@ -828,8 +828,8 @@
 
 \begin{equation}
 \begin{aligned}
-	&\partial_t A(\mathbf{r}, t) = (\omega\rho (\mathbf{r}, t) - r)A(\mathbf{r}, t) - uA^2(\mathbf{r}, t) + \kappa\nabla^2 A (\mathbf{r}, t) + \sigma \sqrt{A(\mathbf{r}, t)} \eta(\mathbf{r}, t)\\
-	&\partial_t \rho (\mathbf{r}, t) = \kappa\nabla^2 A (\mathbf{r}, t)
+	&\partial_t A(\mathbf{r}, t) = (\omega\rho (\mathbf{r}, t) - r)A(\mathbf{r}, t) - uA^2(\mathbf{r}, t) + \kappa\nabla^2 A (\mathbf{r}, t) + \sigma \sqrt{A(\mathbf{r}, t)} \eta(\mathbf{r}, t),\\
+	&\partial_t \rho (\mathbf{r}, t) = \kappa\nabla^2 A (\mathbf{r}, t),
 \end{aligned}
 \label{eq:CDP2}
 \end{equation}
@@ -877,8 +877,8 @@
 \begin{equation}
     \begin{aligned}
         \partial_t A (\mathbf{r}, t) &= \left(\omega \rho (\mathbf{r}, t)-r\right) A (\mathbf{r}, t) - uA^2 (\mathbf{r}, t) + \kappa \left(\mathcal{G}^+\ast A \right)(\mathbf{r}, t) + \kappa\left(\mathcal{G}\ast A \right)(\mathbf{r}, t)A (\mathbf{r}, t) \\
-        &+\sigma \sqrt{A (\mathbf{r}, t)}\eta(\mathbf{r}, t)\\
-        \partial_t \rho (\mathbf{r}, t) &= \kappa_\sigma \left(\mathcal{G}\ast A \right)(\mathbf{r}, t)
+        &+\sigma \sqrt{A (\mathbf{r}, t)}\eta(\mathbf{r}, t),\\
+        \partial_t \rho (\mathbf{r}, t) &= \kappa_\sigma \left(\mathcal{G}\ast A \right)(\mathbf{r}, t),
     \end{aligned}
 \label{eq:YieldingD}
 \end{equation}
@@ -886,7 +886,7 @@
 \noindent avec $\mathcal{G}$ le propagateur d'Eshelby et $\mathcal{G}^+$ sa partie positive définie selon :
 
 \begin{equation}
-	\mathcal{G}^+(\mathbf{r}) = \mathcal{G}(\mathbf{r})\Theta\left(\mathcal{G}(\mathbf{r})\right)
+	\mathcal{G}^+(\mathbf{r}) = \mathcal{G}(\mathbf{r})\Theta\left(\mathcal{G}(\mathbf{r})\right),
 \end{equation}
 
 \noindent avec $\Theta$ la fonction de Heaviside. Sous cette formulation, les deux critères énoncés précédemment sont respectés : le terme en $\sim \mathcal{G}^+\ast A$ permet une création à distance d'activité dans les zones inactives et le terme en $A\times (\mathcal{G}\ast A)$ permet une inhibition de l'activité à distance tout en préservant sa positivité.
@@ -907,8 +907,8 @@
 \begin{equation}
     \begin{aligned}
         \partial_t A (\mathbf{r}, t) &= \left(\omega \rho (\mathbf{r}, t)-r\right) A (\mathbf{r}, t) - uA^2 (\mathbf{r}, t) +\kappa \nabla^2 A (\mathbf{r}, t)\\
-        &+ \kappa \left(\mathcal{G}^2\ast A \right)(\mathbf{r}, t)\left(1-\gamma \sqrt{ \left(\mathcal{G}^2\ast A \right)(\mathbf{r}, t)}\right)\rho (\mathbf{r}, t)+ \sigma \sqrt{A (\mathbf{r}, t)}\eta (\mathbf{r}, t)\\
-        \partial_t \rho (\mathbf{r}, t) &= \kappa_\sigma \nabla^2 A (\mathbf{r}, t)
+        &+ \kappa \left(\mathcal{G}^2\ast A \right)(\mathbf{r}, t)\left(1-\gamma \sqrt{ \left(\mathcal{G}^2\ast A \right)(\mathbf{r}, t)}\right)\rho (\mathbf{r}, t)+ \sigma \sqrt{A (\mathbf{r}, t)}\eta (\mathbf{r}, t),\\
+        \partial_t \rho (\mathbf{r}, t) &= \kappa_\sigma \nabla^2 A (\mathbf{r}, t),
     \end{aligned}
 \label{eq:SuspensionsB}
 \end{equation}
@@ -932,8 +932,8 @@
 
 \begin{equation}
 \begin{aligned}
-	&\partial_t A(\mathbf{r}, t) = (\omega\rho (\mathbf{r}, t) - r)A(\mathbf{r}, t) - uA^{3/2}(\mathbf{r}, t) + \kappa\nabla^2 A (\mathbf{r}, t) + \sigma \sqrt{A(\mathbf{r}, t)} \eta(\mathbf{r}, t)\\
-	&\partial_t \rho (\mathbf{r}, t) = \kappa\nabla^2 A (\mathbf{r}, t)
+	&\partial_t A(\mathbf{r}, t) = (\omega\rho (\mathbf{r}, t) - r)A(\mathbf{r}, t) - uA^{3/2}(\mathbf{r}, t) + \kappa\nabla^2 A (\mathbf{r}, t) + \sigma \sqrt{A(\mathbf{r}, t)} \eta(\mathbf{r}, t),\\
+	&\partial_t \rho (\mathbf{r}, t) = \kappa\nabla^2 A (\mathbf{r}, t).
 \end{aligned}
 \label{eq:CDP32}
 \end{equation}
@@ -951,121 +951,109 @@
 	\label{fig:MFCDP32}
 \end{figure}
 
-\subsection{Champ moyen des transitions avec bruit multiplicatif}
+\subsection{Aparté sur le champ moyen des transitions avec un bruit multiplicatif}
 
 \subparagraph{}Dans cette partie, nous proposons une explication par rapport au fait que les théories de champ faisant intervenir un bruit multiplicatif ne peuvent pas être associées à un comportement champ moyen via la méthode habituelle. D'habitude, pour déterminer l'exposant $\beta$ dans la limite champ moyen, il est d'usage de simplifier les équations de champ associées en supprimant les termes de dépendances spatiales et de bruit. Si l'on prend l'exemple de la théorie DP, celle-ci devient dans ce cas (voir \autoref{eq:eqDP}) :
 
 \begin{equation}
-	\frac{\mathrm{d}A}{\mathrm{d}t} = rA(t) - u A^2(t)
+	\frac{\mathrm{d}A}{\mathrm{d}t} = rA(t) - u A^2(t),
 \end{equation}
 
 \noindent dont on tire de la solution stationnaire $\beta^\text{CM} = 1$.
 
 \paragraph{Principe de l'approche}
 
-\subparagraph{}Dans le cadre général d'une équation de champ représentée par un bruit multiplicatif, cette méthode ne tient plus, comme l'ont montré les travaux de Munoz et al. \cite{munoz_multiplicative_2003, munoz_mean_field_2005}. Nous proposons dans cette partie d'exposer leur raisonnement. Dans ces études, les auteurs se sont concentrés sur la théorie de champ suivante :
+\subparagraph{}Dans le cadre général d'une équation de champ représentée par un bruit multiplicatif, cette méthode ne tient plus, comme l'ont montré les travaux de Mu\~noz et al. \cite{munoz_multiplicative_2003, munoz_mean_field_2005}. Nous proposons dans cette partie d'exposer leur raisonnement. Dans ces études, les auteurs se sont concentrés sur la théorie de champ suivante :
 
 \begin{equation}
-	\partial_t A(\mathbf{r}, t) = rA(\mathbf{r}, t) - uA^{p+1}(\mathbf{r}, t) + \kappa\nabla^2 A (\mathbf{r}, t) + \sigma A(\mathbf{r}, t) \eta(\mathbf{r}, t)
+	\partial_t A(\mathbf{r}, t) = rA(\mathbf{r}, t) - uA^{p+1}(\mathbf{r}, t) + \kappa\nabla^2 A (\mathbf{r}, t) + \sigma A(\mathbf{r}, t) \eta(\mathbf{r}, t),
 	\label{eq:eqMN}
 \end{equation}
 
-\noindent représentant la classe \textit{multiplicative noise} (MN). Au lieu de déterminer l'exposant $\beta^\text{CM}$ via la méthode habituelle qui ne permettait pas l'accord avec les résultats numériques, Munoz et al. ont proposé de rendre cette équation 0-dimensionnelle en considérant un système discret de $N$ sites dans la limite de couplage total. Dans ce cas, l'opérateur laplacien pour un site $i$ devient :
+\noindent représentant la classe \textit{multiplicative noise} (MN). Au lieu de déterminer l'exposant $\beta^\text{CM}$ via la méthode habituelle qui ne permettait pas l'accord avec les résultats numériques, Mu\~noz et al. ont proposé de rendre cette équation 0-dimensionnelle en considérant un système discret de $N$ sites dans la limite de couplage total. Dans ce cas, l'opérateur laplacien pour un site $i$ devient :
 
 \begin{equation}
-    \nabla^2 A_i = \frac{1}{N-1}\sum_{j\neq i}\left( A_j - A_i \right) = \mathcal{A} - A_i
+    \nabla^2 A_i = \frac{1}{N-1}\sum_{j\neq i}\left( A_j - A_i \right) = \mathcal{A} - A_i,
 \end{equation}
 
 \noindent avec $\mathcal{A}$ la valeur moyenne spatiale de l'activité. Dans la limite de couplage total où tous le sites sont équivalents, on a donc, en abandonnant la notation indicielle :
 
 \begin{equation}
-	\partial_t A = (r-\kappa)A - uA^{p+1} + \kappa\mathcal{A} + \sigma A \eta
+	\partial_t A = (r-\kappa)A - uA^{p+1} + \kappa\mathcal{A} + \sigma A \eta.
 	\label{eq:eqMN0}
 \end{equation}
 
 \subparagraph{}Nous pouvons alors associer à cette équation de Langevin une équation de Fokker-Planck stationnaire au sens de Ito :
 
 \begin{equation}
-    0 = -\partial_A\left( \left[(r-\kappa)A - u\phi^{p+1}+\kappa\mathcal{A} \right] P(A)\right) + \frac{\sigma^2}{2}\partial_A^2\left( A^2 P(A)\right)
+    0 = -\partial_A\left( \left[(r-\kappa)A - u\phi^{p+1}+\kappa\mathcal{A} \right] P(A)\right) + \frac{\sigma^2}{2}\partial_A^2\left( A^2 P(A)\right),
 \end{equation}
 
 \noindent dont on peut dériver la solution analytique :
 
 \begin{equation}
-    P(A) = A^{-2-2(\kappa-r)/\sigma^2}\exp\left( -\frac{2u}{p\sigma^2}A^p - \frac{2\mathcal{A} \kappa}{\sigma^2}\frac{1}{A} \right)
+    P(A) = A^{-2-2(\kappa-r)/\sigma^2}\exp\left( -\frac{2u}{p\sigma^2}A^p - \frac{2\mathcal{A} \kappa}{\sigma^2}\frac{1}{A} \right).
 \end{equation}
 
 \subparagraph{}Afin de déterminer le comportement critique associé à l'\autoref{eq:eqMN0}, il suffit alors de développer la relation d'auto-cohérence :
 
 \begin{equation}
-    \mathcal{A} = \langle A \rangle = \frac{\int_0^\infty\mathrm{d}A~A P(A)}{\int_0^\infty\mathrm{d}A~P(A)}
+    \mathcal{A} = \langle A \rangle = \frac{\int_0^\infty\mathrm{d}A~A P(A)}{\int_0^\infty\mathrm{d}A~P(A)},
 \end{equation}
 
 \noindent pour déterminer l'exposant $\beta^\text{CM}$ tel que $\langle A \rangle \sim r^{\beta^\text{CM}}$. Le calcul développé dans \cite{munoz_multiplicative_2003, munoz_mean_field_2005} amène alors à :
 
 \begin{equation}
-	\beta = \mathrm{max}\left\{ \frac{1}{p}, \frac{\sigma^2}{2\kappa}\right\}
+	\beta = \mathrm{max}\left\{ \frac{1}{p}, \frac{\sigma^2}{2\kappa}\right\},
 \end{equation}
 
 \noindent qui ne permet de retrouver la prédiction naïve $\beta^\text{CM} = 1/p$ que dans un régime de faible bruit $\sigma^2 < 2\kappa/p$.
 
 \paragraph{Application au cas de la théorie DP généralisée}
 
-\subparagraph{}Dans cette partie, nous proposons de suivre cette approche dans le cas des équations de champ associées à la classe DP avec un degré de non-linéarité arbitraire, i.e. avec un terme de bruit en $\sim \sqrt{A}$ et non en $\sim A$ comme dans le cas de la classe MN :
+\subparagraph{}Dans cette partie, nous présentons une tentative pour suivre cette approche dans le cas des équations de champ associées à la classe DP avec un degré de non-linéarité arbitraire, i.e. avec un terme de bruit en $\sim \sqrt{A}$ et non en $\sim A$ comme dans le cas de la classe MN :
 
 \begin{equation}
-	\partial_t A(\mathbf{r}, t) = rA(\mathbf{r}, t) - uA^{p+1}(\mathbf{r}, t) + \kappa\nabla^2 A (\mathbf{r}, t) + \sigma \sqrt{A(\mathbf{r}, t)} \eta(\mathbf{r}, t)
+	\partial_t A(\mathbf{r}, t) = rA(\mathbf{r}, t) - uA^{p+1}(\mathbf{r}, t) + \kappa\nabla^2 A (\mathbf{r}, t) + \sigma \sqrt{A(\mathbf{r}, t)} \eta(\mathbf{r}, t).
 	\label{eq:eqDParb}
 \end{equation}
 
 \noindent En suivant le même raisonnement, nous obtenons la distribution stationnaire de l'activité :
 
 \begin{equation}
-    P(A)=A^{-1+2\kappa\mathcal{A}/\sigma^2}\exp\left( \frac{2(r-\kappa)}{\sigma^2}A-\frac{2u}{(p+1)\sigma^2}A^{p+1} \right)
+    P(A)=A^{-1+2\kappa\mathcal{A}/\sigma^2}\exp\left( \frac{2(r-\kappa)}{\sigma^2}A-\frac{2u}{(p+1)\sigma^2}A^{p+1} \right),
 \end{equation}
 
 \noindent et la relation d'auto-cohérence :
 
 \begin{equation}
-    \mathcal{A} = \frac{\int_ 0^\infty \mathrm{d}A~A^{2\kappa\mathcal{A}/\sigma^2}\exp\left( -2\frac{(\kappa-r)}{\sigma^2} A - \frac{2u}{(p+1)\sigma^2}A^{p+1} \right)}{\int_ 0^\infty \mathrm{d}A~A^{-1+2\kappa\mathcal{A}/\sigma^2}\exp\left( -2\frac{(\kappa-r)}{\sigma^2} A - \frac{2u}{(p+1)\sigma^2}A^{p+1} \right)}
+    \mathcal{A} = \frac{\int_ 0^\infty \mathrm{d}A~A^{2\kappa\mathcal{A}/\sigma^2}\exp\left( -2\frac{(\kappa-r)}{\sigma^2} A - \frac{2u}{(p+1)\sigma^2}A^{p+1} \right)}{\int_ 0^\infty \mathrm{d}A~A^{-1+2\kappa\mathcal{A}/\sigma^2}\exp\left( -2\frac{(\kappa-r)}{\sigma^2} A - \frac{2u}{(p+1)\sigma^2}A^{p+1} \right)}.
 \end{equation}
 
-\subparagraph{}La difficulté réside dans le fait que le dénominateur du membre de droite diverge. Toutefois, en menant une intégration par partie nous pouvons obtenir la relation suivante :
+\subparagraph{}La difficulté réside dans le fait que le dénominateur du membre de droite diverge. Nous proposons toutefois une méthode pour essayer d'aller un peu plus loin. En menant une intégration par partie sur le dénominateur nous pouvons obtenir la relation suivante :
 
 \begin{equation}
 \begin{aligned}
-    \frac{f\left( \mathcal{A} + p\sigma^2/2\kappa, r \right)}{f\left(\mathcal{A}, r\right)}&=\frac{r}{u}\\
-     f(\mathcal{A}, r) &= \int_ 0^\infty \mathrm{d}A~A^{2\kappa\mathcal{A}/\sigma^2}\exp\left( -2\frac{(\kappa-r)}{\sigma^2} A - \frac{2u}{(p+1)\sigma^2}A^{p+1} \right)
+    \frac{f\left( \mathcal{A} + p\sigma^2/2\kappa, r \right)}{f\left(\mathcal{A}, r\right)}&=\frac{r}{u},\\
+     f(\mathcal{A}, r) &= \int_ 0^\infty \mathrm{d}A~A^{2\kappa\mathcal{A}/\sigma^2}\exp\left( -2\frac{(\kappa-r)}{\sigma^2} A - \frac{2u}{(p+1)\sigma^2}A^{p+1} \right),
     \label{eq:selfconsistencyDP}
 \end{aligned}
 \end{equation}
 
-\noindent qui est a priori cette fois bien définie. Nous définissons alors le paramètre critique $r_c$ selon la relation :
-
-\begin{equation}
-    r_c = u\frac{f\left(p\sigma^2/2\kappa, r_c \right)}{f\left(0, r_c\right)}
-\end{equation}
-
-\noindent En considérant que la fonction $f$ se comporte bien, on peut la développer en série pour obtenir : 
-
-\begin{equation}
-    \mathcal{A} = \frac{1-r_c\left( \frac{\partial_r f(\frac{p\sigma^2}{2\kappa},r_c)}{f(\frac{p\sigma^2}{2\kappa},r_c)}- \frac{\partial_rf(0,r_c)}{f(0,r_c)} \right)}{r_c\left( \frac{\partial_\mathcal{A} f(\frac{p\sigma^2}{2\kappa},r_c)}{f(\frac{p\sigma^2}{2\kappa},r_c)}- \frac{\partial_\mathcal{A} f(0,r_c)}{f(0,r_c)} \right)}\epsilon,\quad \epsilon = \frac{r-r_c}{r_c}
-\end{equation}
-
-\noindent ce qui suggère donc que l'on a $\beta^\text{CM} = 1$ peu importe le degré de non-linéarité $p$ de l'équation de champ.
+\noindent qui est a priori cette fois bien définie. Nous proposons alors de la résoudre numériquement
 
 \paragraph{Résolution numérique}
 
-\subparagraph{}Pour contrôler nos calculs et les hypothèses faites, nous résolvons numériquement l'\autoref{eq:selfconsistencyDP} pour obtenir $\mathcal{A} = f(r)$ avec le logiciel Mathematica. Sur la \autoref{fig:MathematicaMunoz} nous présentons les résultats obtenus pour la détermination de l'exposant $\beta$ pour différents degrés de non-linéarité $p$. Comme nous pouvons le remarquer, la mesure $\beta^\text{CM}=1$ semble être retrouvée peu importe la valeur de $p$.
+\subparagraph{}Nous résolvons numériquement l'\autoref{eq:selfconsistencyDP} pour obtenir $\mathcal{A} = f(r)$ avec le logiciel Mathematica afin de tracer la courbe d'évolution du paramètre d'ordre avec la distance au point critique qu'elle représente. Sur la \autoref{fig:MathematicaMunoz} nous présentons les résultats obtenus pour la détermination de l'exposant $\beta$ pour différents degrés de non-linéarité $p$. Comme nous pouvons le remarquer, la mesure $\beta^\text{CM}=1$ semble être retrouvée peu importe la valeur de $p$.
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{Chapitre6/Figures/MathematicaMunozDP.pdf}
-	\caption{Détermination de l'exposant $\beta$ via la résolution numérique de l'\autoref{eq:selfconsistencyDP} pour différentes valeurs du degré de non-linéarité $p$.}
+	\caption{Détermination de l'exposant $\beta$ via la résolution numérique de l'\autoref{eq:selfconsistencyDP} pour différentes valeurs du degré de non-linéarité $p$. $\delta r = r-r_c$ représente la distance au paramètre critique $r_c$ pour lequel on mesure $\mathcal{A} \rightarrow 0$.}
 	\label{fig:MathematicaMunoz}
 \end{figure}
 
-\subparagraph{}Ainsi, ce raisonnement, peut-être discutable d'un point de vue technique, semble montrer qu'en effet, le degré de non-linéarité dans l'équation de champ ne permet pas de modifier la valeur de l'exposant $\beta$ dans la limite de champ moyen. Cela permet de proposer une explication aux résultats suprenants de la \autoref{sec:CMnaif}. En effet, les classes CDP et DP étant représentées par les mêmes champs moyens, nous nous attendons à ce que ces résultats se transposent aux équations de champ associées à la classe CDP.
+\subparagraph{}Ainsi ce raisonnement, bien qu'à un stade de réflexion préliminaire, semble montrer qu'en effet, le degré de non-linéarité dans l'équation de champ ne permet pas de modifier la valeur de l'exposant $\beta$ dans la limite de champ moyen. Cela permet de suggérer un début d'explication quant aux résultats suprenants de la \autoref{sec:CMnaif}. En effet, les classes CDP et DP étant représentées par les mêmes champs moyens, nous nous attendons à ce que ces résultats se transposent aux équations de champ associées à la classe CDP.
 
 \subsection{Conclusion de la section}
 
