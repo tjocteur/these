@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.1.12)  16 APR 2025 23:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.1.12)  17 APR 2025 08:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2958,7 +2958,7 @@ Package pdftex.def Info: Chapitre5/Figures/MFCDP32.pdf  used on input line 927.
 File: Chapitre6/Figures/MathematicaMunozDP.pdf Graphic file (type pdf)
 <use Chapitre6/Figures/MathematicaMunozDP.pdf>
 Package pdftex.def Info: Chapitre6/Figures/MathematicaMunozDP.pdf  used on inpu
-t line 1038.
+t line 1041.
 (pdftex.def)             Requested size: 455.24411pt x 165.54922pt.
  [263 <./Chapitre6/Figures/MathematicaMunozDP.pdf>]) [264] [265]
 (./compilation_these_avec_page_de_garde_et_abstract.aux)
@@ -2969,7 +2969,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  24495 strings out of 478287
  474842 string characters out of 5849289
- 732760 words of memory out of 5000000
+ 732761 words of memory out of 5000000
  41032 multiletter control sequences out of 15000+600000
  613824 words of font info for 147 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3006,7 +3006,7 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb>
 Output written on compilation_these_avec_page_de_garde_et_abstract.pdf (271 pag
-es, 11897903 bytes).
+es, 11897866 bytes).
 PDF statistics:
  8224 PDF objects out of 8907 (max. 8388607)
  6369 compressed objects within 64 object streams
