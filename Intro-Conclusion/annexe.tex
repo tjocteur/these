@@ -121,6 +121,7 @@
 	\partial_k u^1_k(\mathbf{r})&=0
 	\end{aligned}
 	\right.
+	\label{eq:P1}
 \end{equation}
 
 \noindent la première équation correspondant à la condition d'équilibre mécanique et la seconde à l'incompressibilité du matériau. L'objectif est alors de déterminer $\sigma_{ij}^1$ en fonction de $\epsilon_{ij}^{\text{pl},1}$ à partir de ces équations. Dans la suite, nous omettrons les notations $^1$ et $(\mathbf{r})$ pour alléger l'écriture.
@@ -147,8 +148,8 @@
 
 \begin{equation}
 \begin{aligned}
-	\hat{\sigma}_{ij} &= 2\mu \hat{G}_{ijkl}\hat{\epsilon}_{kl}^\text{pl}\\
-	\hat{G}_{ijkl} &= \frac{q_i q_l\delta_{kj}+q_j q_l\delta_{ki}}{q^2}-2\frac{q_iq_jq_kq_l}{q^4}-\delta_{ki}\delta_{jl}
+	\hat{\sigma}_{ij} &= 2\mu \hat{\mathcal{G}}_{ijkl}\hat{\epsilon}_{kl}^\text{pl}\\
+	\hat{\mathcal{G}}_{ijkl} &= \frac{q_i q_l\delta_{kj}+q_j q_l\delta_{ki}}{q^2}-2\frac{q_iq_jq_kq_l}{q^4}-\delta_{ki}\delta_{jl}
 \end{aligned}
 \label{eq:eshelbygene}
 \end{equation}
@@ -156,17 +157,38 @@
 \subparagraph{}Afin d'obtenir une expression finale du champ de contrainte suite au réarrangement plastique, nous faisons l'hypothèse que celui-ci possède la même symétrie que le forçage, que nous prenons comme un cisaillement simple dans la direction $\hat{\mathbf{e}}_x$. Sous cette hypothèse, on a alors en deux dimensions $\hat{\epsilon}_{xy}^\text{pl} = \hat{\epsilon}_{yx}^\text{pl} = \hat{\epsilon}^\text{pl} \neq 0$ et $\hat{\epsilon}_{xx}^\text{pl} = \hat{\epsilon}_{yy}^\text{pl} = 0$. L'\autoref{eq:eshelbygene} nous permet alors d'obtenir l'expression :
 
 \begin{equation}
-	\hat{\sigma}_{xy} = 2\mu \hat{G} \epsilon^\text{pl}, \quad \hat{G}(\mathbf{q}) = -4\frac{q_x^2q_y^2}{q^4}
+	\hat{\sigma}_{xy} = 2\mu \hat{\mathcal{G}} \epsilon^\text{pl}, \quad \hat{\mathcal{G}}(\mathbf{q}) = -4\frac{q_x^2q_y^2}{q^4}
 \end{equation}
 
 \noindent qui relie directement la perturbation du champ de contrainte au réarrangement plastique. Des expressions similaires peuvent être obtenues pour les composantes $\sigma_{xx}$ et $\sigma_{yy}$ du tenseur des contraintes. En espace réel, cette relation devient :
 
 \begin{equation}
-	\sigma_{xy}(\mathbf{r}) = \int\mathrm{d}\mathbf{r}^\prime~G(\mathbf{r}-\mathbf{r}^\prime)\epsilon^\text{pl}(\mathbf{r}^\prime), \quad G(\mathbf{r}) = \frac{\cos (4\theta)}{\pi r^2}
+	\sigma_{xy}(\mathbf{r}) = \int\mathrm{d}\mathbf{r}^\prime~\mathcal{G}(\mathbf{r}-\mathbf{r}^\prime)\epsilon^\text{pl}(\mathbf{r}^\prime), \quad \mathcal{G}(\mathbf{r}) = \frac{\cos (4\theta)}{\pi r^2}
 	\label{eq:EshelbyReel}
 \end{equation}
 
-\subparagraph{}On appelle alors le propagateur $G$ propagateur d'Eshelby. Celui-ci correspond à la redistribution de contrainte de cisaillement induite par un réarrangement plastique infiniment localisé (de la forme $\epsilon^\text{pl}(\mathbf{r}) = \epsilon_0 \delta (\mathbf{r})$) ou de manière équivalente à celle induite en champ lointain par un évènement d'extension finie.
+\subparagraph{}On appelle alors le propagateur $\mathcal{G}$ propagateur d'Eshelby. Celui-ci correspond à la redistribution de contrainte de cisaillement induite par un réarrangement plastique infiniment localisé (de la forme $\epsilon^\text{pl}(\mathbf{r}) = \epsilon_0 \delta (\mathbf{r})$) ou de manière équivalente à celle induite en champ lointain par un évènement d'extension finie.
+
+\paragraph{Modes 0 dans le propagateur d'Eshelby}
+
+\subparagraph{}Nous pouvons montrer que la propriété de modes 0 du propagateur d'Eshelby discutée au \autoref{chapter:yielding} peut se comprendre simplement via la condition d'équilibre mécanique. En repartant de l'\autoref{eq:P1} on a en effet :
+
+\begin{equation}
+	\left\{
+    \begin{array}{lccc}
+    -\partial_xP^1 + \partial_x \sigma_{xx}^1 & +& \partial_y \sigma_{xy}^1 & =0 \\
+    -\partial_y P^1 + \partial_x \sigma_{yx}^1 & +& \partial_y \sigma_{yy}^1 & =0 \\
+    \end{array}
+    \right.
+\end{equation}
+
+\noindent En intégrant alors sur $x$ la première équation et sur $y$ la seconde, et en se rappelant que $\sigma_{xy} = \sigma_{yx}$ on a :
+
+\begin{equation}
+	\partial_x \int \mathrm{d}y~ \sigma_{xy}^1 = \partial_y \int \mathrm{d}x~ \sigma_{xy}^1 = 0
+\end{equation}
+
+\noindent ce qui implique que la contrainte partielle redistribuée sur chaque ligne et colonne est la même. Le propagateur de redistribution d'Eshelby qui répond à cette contrainte d'équilibre mécanique doit donc redistribuer la même contrainte partielle sur chaque ligne et colonne. De plus, étant de moyenne nulle afin de conserver la contrainte globale, cette contrainte partielle redistribuée est nécessairement nulle.
 
 \section{Propagateurs hydrodynamiques}
 
@@ -187,10 +209,10 @@
 
 \noindent avec $\mathbf{v}(\mathbf{r})$ le champ de vitesse eulérien du fluide, $P(\mathbf{r})$ le champ de pression, $\eta$ la viscosité dynamique et $\mathbf{f}(\mathbf{r})$ le champ de force extérieur. Dans la limite de champ lointain, i.e. à grande distance des particules, celles-ci peuvent être assimilées à des objets ponctuels. Dans cette approximation, nous pouvons décrire la force exercée par la particule $1$ sur le fluide comme infiniment localisée $\mathbf{F}^1(\mathbf{r}) = \mathbf{F}^1\delta (\mathbf{r})$ et la vitesse de la particule $2$ comme correspondant à celle du fluide en ce point $\mathbf{v}^2 = \mathbf{v}(\mathbf{r}^\prime)$ \cite{diamant_hydrodynamic_2009}. La résolution de ce problème revient donc à résoudre les équations de Stokes pour obtenir le champ de vitesse du fluide en $\mathbf{r}^\prime$ sous l'action du champ de force extérieur $\mathbf{f}(\mathbf{r}) = \mathbf{F}^1\delta (\mathbf{r})$. En d'autres termes, cela revient à calculer la fonction de Green associée aux équations de Stokes \cite{noauthor_physique_nodate}.
 
-\subparagraph{}La résolution de ce problème bien connu (voir \cite{lisicki_four_2013} par exemple) permet de définir le tenseur d'Oseen $G_{ij}$, reliant $\mathbf{F}^1$ à $\mathbf{v}(\mathbf{r}^\prime)$ par la relation linéaire :
+\subparagraph{}La résolution de ce problème bien connu (voir \cite{lisicki_four_2013} par exemple) permet de définir le tenseur d'Oseen $\mathcal{G}_{ij}$, reliant $\mathbf{F}^1$ à $\mathbf{v}(\mathbf{r}^\prime)$ par la relation linéaire :
 
 \begin{equation}
-	v_i (\mathbf{r}^\prime) = G_{ij}(\mathbf{r} -\mathbf{r}^\prime)F^1_j, \quad G_{ij}(\mathbf{r}) = \frac{1}{8\pi\eta r}\left( \delta_{ij}+\frac{r_ir_j}{r^2} \right)
+	v_i (\mathbf{r}^\prime) = \mathcal{G}_{ij}(\mathbf{r} -\mathbf{r}^\prime)F^1_j, \quad \mathcal{G}_{ij}(\mathbf{r}) = \frac{1}{8\pi\eta r}\left( \delta_{ij}+\frac{r_ir_j}{r^2} \right)
 \end{equation}
 
 \noindent définissant ainsi une interaction hydrodynamique entre les deux particules, décroissant comme $\sim 1/r$ dans un milieu tridimensionnel infini.
@@ -198,11 +220,11 @@
 \subparagraph{}Ce résultat calculatoire peut aussi se comprendre plus intuitivement, comme l'explique très clairement l'étude \cite{diamant_hydrodynamic_2009}. Dans la suite de cette partie, nous présentons le raisonnement de l'auteur. En fait, les équations de Stokes dérivent de deux lois de conservation fondamentales : celle de la quantité de mouvement et celle de la masse. Lorsqu'une particule applique une force locale sur le fluide, celle-ci se comporte comme une source de quantité de mouvement. Pour que cette dernière soit conservée, le flux local de quantité de mouvement émanant de la particule doit décroître comme $\sim 1/r^2$ en 3D. Or ce flux local de quantité de mouvement n'étant autre que le tenseur des contraintes $\sigma$ associé au fluide, cette conservation implique directement $\sigma \sim 1/r^2$. La partie associée au cisaillement de ce tenseur étant $\sigma_\text{cis}\sim \eta \mathbf{\nabla} \mathbf{v}$ on a donc $\mathbf{v}\sim 1/\eta r$. De plus, par des considérations de symétrie, la partie adimensionnelle du propagateur hydrodynamique prend nécessairement la forme $\delta_{ij}+C\frac{r_ir_j}{r^2}$. On retrouve donc finalement, basé sur ces arguments simples :
 
 \begin{equation}
-	G_{ij} \sim \frac{1}{\eta r}\left( \delta_{ij}+C\frac{r_ir_j}{r^2} \right)
+	\mathcal{G}_{ij} \sim \frac{1}{\eta r}\left( \delta_{ij}+C\frac{r_ir_j}{r^2} \right)
 	\label{eq:diamantinfini}
 \end{equation}
 
-\noindent avec $C$ une constante qui peut être déterminée par conservation de la masse (en imposant $\partial_i G_{ij}=0$) pour donner $C=1$.
+\noindent avec $C$ une constante qui peut être déterminée par conservation de la masse (en imposant $\partial_i \mathcal{G}_{ij}=0$) pour donner $C=1$.
 
 \subparagraph{}En plus de ce premier effet, nous pouvons identifier une autre source de modification de l'écoulement. Celle-ci vient de la conservation de la masse de fluide. En fait, lors de son déplacement, la particule $1$ modifie la répartition de masse dans le fluide. Celle-ci peut alors être vue, en plus d'une source de quantité de mouvement, comme un dipôle de source de matière (avec création de masse à l'avant du mouvement et suppression de masse à l'arrière). En 3D, un tel dipôle génère une vitesse d'écoulement décroissant comme $\sim 1/r^3$, générant ainsi un terme additionnel à l'\autoref{eq:diamantinfini} en $\sim 1/r^3$. Cependant, à grande distance, cette contribution est négligeable devant celle décroissant comme $\sim 1/r$. On retrouve donc bien en champ lointain le tenseur d'Oseen.
 
@@ -213,7 +235,7 @@
 \subparagraph{}Un premier exemple vient des systèmes quasi-2D. Lorsque le fluide suspendant est confiné entre deux plaques rigides, espacées d'une faible distance $\lambda$, les frottements avec le solide constituent une perte de quantité de mouvement dans la direction orthogonale aux plaques. Dans ce cas, le flux local de quantité de mouvement généré par la particule $1$ décroît exponentiellement avec la distance au-delà de cette distance typique de confinement $r>\lambda$. Toutefois, dans une telle configuration, la masse du fluide est toujours conservée. Le déplacement de la particule $1$ peut toujours être vu comme un dipôle de source de matière mais prenant cette fois place dans un milieu 2D. La vitesse de l'écoulement associé décroît alors comme $\sim 1/r^2$, amenant à un propagateur hydrodynamique de la forme :
 
 \begin{equation}
-	G_{ij} \sim \frac{1}{\eta r^2}\left( \delta_{ij}-2\frac{r_ir_j}{r^2} \right)
+	\mathcal{G}_{ij} \sim \frac{1}{\eta r^2}\left( \delta_{ij}-2\frac{r_ir_j}{r^2} \right)
 \end{equation}
 
 \noindent Ainsi, sous confinement, les interactions médiées par le fluide restent à longue portée.
@@ -225,28 +247,28 @@
 \subparagraph{}De manière tout à fait générale, le fluide suspendant permet donc de médier des interactions entre les particules, représentées par un propagateur hydrodynamique de la forme :
 
 \begin{equation}
-	G_{ij} \sim \frac{1}{r^\gamma}\left( \delta_{ij}+C\frac{r_ir_j}{r^2} \right)
+	\mathcal{G}_{ij} \sim \frac{1}{r^\gamma}\left( \delta_{ij}+C\frac{r_ir_j}{r^2} \right)
 \end{equation}
 
 \noindent avec $\gamma$ un entier pouvant prendre différentes valeurs en fonction du dispositif spécifique étudié. Via a minima la conservation de la masse, ces interactions présentent donc toujours la particularité d'être à longue portée. 
 
 \paragraph{Interactions dipolaires dans le cas de la transition de réversibilité}
 
-\subparagraph{}Dans une modélisation plus spécifique de la transition de réversibilité, les interactions irréversibles de contact entre deux particules peuvent être vues comme des dipôles de force sur le fluide plutôt que des monopôles. Le propagateur d'interaction pertinent pour la modélisation de la transition n'est donc pas directement $G_{ij}$ mais plutôt son équivalent dipolaire. Nous proposons ici d'en déterminer la forme.
+\subparagraph{}Dans une modélisation plus spécifique de la transition de réversibilité, les interactions irréversibles de contact entre deux particules peuvent être vues comme des dipôles de force sur le fluide plutôt que des monopôles. Le propagateur d'interaction pertinent pour la modélisation de la transition n'est donc pas directement $\mathcal{G}_{ij}$ mais plutôt son équivalent dipolaire. Nous proposons ici d'en déterminer la forme.
 
 \subparagraph{}Considérons le choc d'une particule 1 située en $\mathbf{r}+\frac{\mathbf{a}}{2}$, appliquant alors une force $\mathbf{F}^1(\mathbf{r})=\mathbf{F}\delta(\mathbf{r}+\frac{\mathbf{a}}{2})$ sur le fluide, et une particule 3 située en $\mathbf{r}-\frac{\mathbf{a}}{2}$, appliquant alors une force $\mathbf{F}^3(\mathbf{r})=-\mathbf{F}\delta(\mathbf{r}-\frac{\mathbf{a}}{2})$ sur le fluide. D'après les résultats obtenus précédemment sur les monopôles de force, la vitesse induite sur une particule 2 située en $\mathbf{r}^\prime$ sera dans le cas général :
 
 \begin{equation}
-	v_i (\mathbf{r}^\prime) = G_{ij}(\mathbf{r}+\frac{\mathbf{a}}{2} -\mathbf{r}^\prime)F_j - G_{ij}(\mathbf{r}-\frac{\mathbf{a}}{2} -\mathbf{r}^\prime)F_j
+	v_i (\mathbf{r}^\prime) = \mathcal{G}_{ij}(\mathbf{r}+\frac{\mathbf{a}}{2} -\mathbf{r}^\prime)F_j - \mathcal{G}_{ij}(\mathbf{r}-\frac{\mathbf{a}}{2} -\mathbf{r}^\prime)F_j
 \end{equation}
 
 \noindent et donc dans l'approximation dipolaire $|\mathbf{a}|\ll |\mathbf{r}-\mathbf{r}^\prime|$ on a au premier ordre :
 
 \begin{equation}
-	v_i (\mathbf{r}^\prime) \approx a_k\partial_k G_{ij}(\mathbf{r} -\mathbf{r}^\prime)F_j, \quad \partial_k \equiv \frac{\partial}{\partial r_k}
+	v_i (\mathbf{r}^\prime) \approx a_k\partial_k \mathcal{G}_{ij}(\mathbf{r} -\mathbf{r}^\prime)F_j, \quad \partial_k \equiv \frac{\partial}{\partial r_k}
 \end{equation}
 
-\noindent Cela définit donc un propagateur dipolaire $G_{ijk} = \partial_kG_{ij}$ traduisant l'interaction générée par le dipôle $p_{kj} = a_kF_j$. Le propagateur dipolaire correspond donc au gradient du propagateur associé au monopôle de force. Ainsi, si l'interaction propagée par un monopôle de force décroît comme $\sim 1/r^\gamma$, celle propagée par un dipôle décroît comme $\sim 1/r^{\alpha}$ avec $\alpha = \gamma + 1$. Par exemple, en milieu 3D infini, nous nous attendons donc à ce qu'un évènement irréversible dans la transition de réversibilité affecte les autres particules du système via une interaction décroissant comme $\sim 1/r^2$ soit $\alpha = 2$.
+\noindent Cela définit donc un propagateur dipolaire $\mathcal{G}_{ijk} = \partial_k\mathcal{G}_{ij}$ traduisant l'interaction générée par le dipôle $p_{kj} = a_kF_j$. Le propagateur dipolaire correspond donc au gradient du propagateur associé au monopôle de force. Ainsi, si l'interaction propagée par un monopôle de force décroît comme $\sim 1/r^\gamma$, celle propagée par un dipôle décroît comme $\sim 1/r^{\alpha}$ avec $\alpha = \gamma + 1$. Par exemple, en milieu 3D infini, nous nous attendons donc à ce qu'un évènement irréversible dans la transition de réversibilité affecte les autres particules du système via une interaction décroissant comme $\sim 1/r^2$ soit $\alpha = 2$.
 
 \FloatBarrier
 
@@ -664,7 +686,7 @@
 \noindent avec $\lambda$ un coefficient retranscrivant l'intensité de la dissipation et définissant une longueur d'écrantage selon $\xi \sim 1/\lambda$. Par une résolution similaire à celle présentée dans la \autoref{sec:Annexe_Eshelby}, ce cas de figure nous amène à un propagateur dans l'espace réciproque dont la forme est la suivante :
 
 \begin{equation}
-    \hat{G}_\lambda(\mathbf{q}) = -4\frac{q_x^2q_y^2}{q^2(q^2+\lambda^2)}-\frac{\lambda^2}{\lambda^2+q^2}
+    \hat{\mathcal{G}}_\lambda(\mathbf{q}) = -4\frac{q_x^2q_y^2}{q^2(q^2+\lambda^2)}-\frac{\lambda^2}{\lambda^2+q^2}
     \label{eq:screenedEshelby}
 \end{equation}
 
@@ -672,8 +694,8 @@
 
 \begin{equation}
 \begin{aligned}
-    \hat{G}_\lambda(\mathbf{q})\xrightarrow[q\gg \lambda]{}-4\frac{q_x^2q_y^2}{q^4} \quad &\Rightarrow \quad G_\lambda(\mathbf{r})\xrightarrow[r\ll \xi]{}\sim\frac{\cos 4\theta}{r^2}\\
-    \hat{G}_\lambda(\mathbf{q})\xrightarrow[q \ll \lambda]{}-4\frac{q_x^2q_y^2}{\lambda^2 q^2}-1 \quad &\Rightarrow \quad G_\lambda(\mathbf{r})\xrightarrow[r \gg \xi]{}\sim\frac{\cos 4\theta}{r^4}
+    \hat{\mathcal{G}}_\lambda(\mathbf{q})\xrightarrow[q\gg \lambda]{}-4\frac{q_x^2q_y^2}{q^4} \quad &\Rightarrow \quad \mathcal{G}_\lambda(\mathbf{r})\xrightarrow[r\ll \xi]{}\sim\frac{\cos 4\theta}{r^2}\\
+    \hat{\mathcal{G}}_\lambda(\mathbf{q})\xrightarrow[q \ll \lambda]{}-4\frac{q_x^2q_y^2}{\lambda^2 q^2}-1 \quad &\Rightarrow \quad \mathcal{G}_\lambda(\mathbf{r})\xrightarrow[r \gg \xi]{}\sim\frac{\cos 4\theta}{r^4}
 \end{aligned}
 \label{eq:LPicardAsymp}
 \end{equation}
@@ -685,13 +707,13 @@
 \subparagraph{}Pour obtenir l'expression complète du propagateur en espace réel, nous pouvons décomposer le premier terme de l'\autoref{eq:screenedEshelby} de la manière suivante :
 
 \begin{equation}
-    \hat{G}_\lambda(\mathbf{q}) = -4\frac{q_x^2q_y^2}{\lambda^2 q^2} + 4\frac{q_x^2q_y^2}{\lambda^2 (\lambda^2 + q^2)}-\frac{\lambda^2}{\lambda^2+q^2}
+    \hat{\mathcal{G}}_\lambda(\mathbf{q}) = -4\frac{q_x^2q_y^2}{\lambda^2 q^2} + 4\frac{q_x^2q_y^2}{\lambda^2 (\lambda^2 + q^2)}-\frac{\lambda^2}{\lambda^2+q^2}
 \end{equation}
 
 \noindent pour obtenir dans l'espace réel :
 
 \begin{equation}
-    G(r,\theta) = \frac{12}{\pi\lambda^2}\frac{\cos 4\theta}{r^4}-\frac{\lambda^2}{2\pi}K_0(\lambda r)+\frac{2}{\pi\lambda^2}\partial_x^2\partial_y^2K_0(\lambda r)
+    \mathcal{G}_\lambda(r,\theta) = \frac{12}{\pi\lambda^2}\frac{\cos 4\theta}{r^4}-\frac{\lambda^2}{2\pi}K_0(\lambda r)+\frac{2}{\pi\lambda^2}\partial_x^2\partial_y^2K_0(\lambda r)
 \end{equation}
 
 %\noindent En calculant les dérivées associées au troisème terme du membre de droite, nous obtenons donc :
@@ -716,7 +738,7 @@
 
 \label{sec:screenedav}
 
-\subparagraph{}Pour étudier la transition vers l'écoulement dans un dispositif confiné quasi-2D, nous implémentons la forme du propagateur donnée par l'\autoref{eq:screenedEshelby} dans le modèle de Picard de la même façon que dans le cas du modèle $\alpha$-Picard. Ce modèle dépend d'un paramètre continu $\lambda$ et nous le baptisons alors modèle $\lambda$-Picard. Via cette implémentation, nous obtenons les formes de décroissance du propagateur représentées à la \autoref{fig:screenedprop} et compatibles avec les comportements asymptotiques en $\sim 1/r^2$ et en $\sim 1/r^4$.
+\subparagraph{}Pour étudier la transition vers l'écoulement dans un dispositif confiné quasi-2D, nous implémentons la forme du propagateur donnée par l'\autoref{eq:screenedEshelby} dans le modèle de Picard de la même façon que dans le cas du modèle $\alpha$-Picard. Nous notons alors $G$ la forme du propagateur obtenue dans l'espace discret réel. Ce modèle dépend d'un paramètre continu $\lambda$ et nous le baptisons alors modèle $\lambda$-Picard. Via cette implémentation, nous obtenons les formes de décroissance du propagateur représentées à la \autoref{fig:screenedprop} et compatibles avec les comportements asymptotiques en $\sim 1/r^2$ et en $\sim 1/r^4$.
 
 \begin{figure}[h]
 	\centering
@@ -885,13 +907,13 @@
 \begin{equation}
     \begin{aligned}
         \partial_t A (\mathbf{r}, t) &= \left(\omega \rho (\mathbf{r}, t)-r\right) A (\mathbf{r}, t) - uA^2 (\mathbf{r}, t) +\kappa \nabla^2 A (\mathbf{r}, t)\\
-        &+ \kappa \left(G^2\ast A \right)(\mathbf{r}, t)\left(1-\gamma \sqrt{ \left(G^2\ast A \right)(\mathbf{r}, t)}\right)\rho (\mathbf{r}, t)+ \sigma \sqrt{A (\mathbf{r}, t)}\eta (\mathbf{r}, t)\\
+        &+ \kappa \left(\mathcal{G}^2\ast A \right)(\mathbf{r}, t)\left(1-\gamma \sqrt{ \left(\mathcal{G}^2\ast A \right)(\mathbf{r}, t)}\right)\rho (\mathbf{r}, t)+ \sigma \sqrt{A (\mathbf{r}, t)}\eta (\mathbf{r}, t)\\
         \partial_t \rho (\mathbf{r}, t) &= \kappa_\sigma \nabla^2 A (\mathbf{r}, t)
     \end{aligned}
 \label{eq:SuspensionsB}
 \end{equation}
 
-\noindent avec $G^2(\mathbf{r})$ un propagateur positif décroissant comme $\sim 1/r^{2\alpha}$ à grande distance. En pratique, nous considérons le même propagateur que dans les modèles $\alpha$-ROM et conservons son implémentation décrite au \autoref{chapter:Susp}.
+\noindent avec $\mathcal{G}^2(\mathbf{r})$ un propagateur positif décroissant comme $\sim 1/r^{2\alpha}$ à grande distance. En pratique, nous considérons le même propagateur que dans les modèles $\alpha$-ROM et conservons son implémentation décrite au \autoref{chapter:Susp}.
 
 \subparagraph{}Afin de voir si cette formulation permet de reproduire la convexité de la transition, nous intégrons ces équations stochastiques pour différentes valeurs de $r$. Nous retrouvons alors une transition de phase absorbante dont la caractérisation préliminaire est présentée sur la \autoref{fig:SuspensionsB}. Via une analyse similaire au cas précédent, nous déterminons $\beta \approx 1.09$ pour $\alpha = 0.5$, la valeur $\beta = 1$ étant comprise dans les incertitudes de détermination. \`A cette valeur de la portée, nous sommes dans la limite de portée infinie du $\alpha$-ROM caractérisée précédemment par $\beta \approx 1.85$. Ce résultat $\beta \approx 1$ suggère donc que cette théorie continue ne permet pas non plus d'expliquer la convexité de la transition dans le modèle de particules.
 

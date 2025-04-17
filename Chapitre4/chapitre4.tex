@@ -128,7 +128,7 @@
 \label{eq:PicardRules}
 \end{equation}
 
-\noindent avec $G_{ij} = G(\mathbf{r}_i-\mathbf{r}_j)$ le noyau de redistribution en champ lointain d'Eshelby  défini au \autoref{chapter:introduction} et décrit en coordonnées polaires par $G(r,\theta) = \frac{\cos 4\theta}{\pi r^2}$. Cette description peut aisément se généraliser en trois dimensions mais notre étude s'est concentrée uniquement sur le cas bidimensionnel. Afin de simplifier l'implémentation numérique, ce système d'équations est adimensionné par les transformations :
+\noindent avec $G_{ij} = G(\mathbf{r}_i-\mathbf{r}_j)$ le noyau discret de redistribution en champ lointain d'Eshelby défini au \autoref{chapter:introduction} et décrit en coordonnées polaires dans l'espace continu par $\mathcal{G}(r,\theta) = \frac{\cos 4\theta}{\pi r^2}$. Cette description peut aisément se généraliser en trois dimensions mais notre étude s'est concentrée uniquement sur le cas bidimensionnel. Afin de simplifier l'implémentation numérique, ce système d'équations est adimensionné par les transformations :
 
 \begin{equation}
 	\tilde{\sigma_i} = \frac{\sigma_i}{\sigma_Y},\quad \tilde{t} = \frac{t}{\tau}, \quad \tilde{\epsilon}_{pl,i} = \frac{2\mu\tau}{\sigma_Y}\epsilon_{pl,i}
@@ -154,7 +154,7 @@
 
 \subsection{Implémentation numérique}
 
-\subparagraph{}Afin de simuler l'écoulement cisaillé représenté par ce modèle, nous reprenons un code mis au point précédemment dans l'équipe PSM du LIPhy que nous modifions selon notre besoin. $N$ sites sont positionnés sur une grille carrée périodique de taille $L\times L = N$ et d'axes principaux $(\hat{\mathbf{e}}_x, \hat{\mathbf{e}}_y)$. La position de chaque site est alors donnée par $\mathbf{r}_i = na\hat{\mathbf{e}}_x + ma \hat{\mathbf{e}}_y$ avec $(n,m) \in \mathbb{N}^2$ et $a$ le pas du réseau que l'on prend égal à 1. En pratique, nous considérons la règle d'évolution directement sous sa forme intégrée :
+\subparagraph{}Afin de simuler l'écoulement cisaillé représenté par ce modèle, nous reprenons un code mis au point précédemment dans l'équipe PSM du LIPhy que nous modifions selon notre besoin \cite{martens_connecting_2011, liu_driving_2016}. $N$ sites sont positionnés sur une grille carrée périodique de taille $L\times L = N$ et d'axes principaux $(\hat{\mathbf{e}}_x, \hat{\mathbf{e}}_y)$. La position de chaque site est alors donnée par $\mathbf{r}_i = na\hat{\mathbf{e}}_x + ma \hat{\mathbf{e}}_y$ avec $(n,m) \in \mathbb{Z}^2$ et $a$ le pas du réseau que l'on prend égal à 1. En pratique, nous considérons la règle d'évolution directement sous sa forme intégrée :
 
 \begin{equation}
 	\sigma_i(t) = \sigma_{\text{int},i}(t)+\sigma_\text{ext} =  \sum_{j}G_{ij}\epsilon_{\text{pl},j}(t)+\Sigma
@@ -415,24 +415,7 @@ CDP \cite{lubeck_universal_2004} & 0.64 & 0.37 & 0.80 & 2.23 \\
 	\label{fig:FractalDim}
 \end{figure} 
 
-\subparagraph{}Dans le cas classique, cette propriété de modes zéros qui se retrouve dans le noyau d'Eshelby n'est pas un hasard. En effet, elle vient du fait que l'interaction considérée est regardée dans la théorie de l’élasticité linéaire à l'équilibre mécanique. Cela implique donc que la divergence du tenseur des contraintes est nulle à tout moment de l'écoulement :
-
-\begin{equation}
-	\partial_i\sigma_{ij} = 0 \Rightarrow \left\{
-    \begin{array}{lccc}
-    \partial_x \sigma_{xx} & +& \partial_y \sigma_{yx} & =0 \\
-    \partial_y \sigma_{yy} & +& \partial_x \sigma_{xy} & =0 \\
-    \end{array}
-    \right.
-\end{equation}
-
-\noindent En intégrant alors sur $x$ la première équation et sur $y$ la seconde, et en se rappelant que $\sigma_{xy} = \sigma_{yx}$ on a :
-
-\begin{equation}
-	\partial_x \int \mathrm{d}y~ \sigma_{xy} = \partial_y \int \mathrm{d}x~ \sigma_{xy} = 0
-\end{equation}
-
-\noindent ce qui implique que la contrainte partielle portée par chaque ligne et colonne est la même. Le propagateur de redistribution d'Eshelby qui répond à cette contrainte d'équilibre mécanique doit donc redistribuer la même contrainte partielle sur chaque ligne et colonne. De plus, étant de moyenne nulle afin de conserver la contrainte globale, cette contrainte partielle redistribuée est nécessairement nulle.
+\subparagraph{}Dans le cas classique, cette propriété de modes zéros qui se retrouve dans le noyau d'Eshelby vient du fait que l'interaction considérée est regardée dans la théorie de l’élasticité linéaire à l'équilibre mécanique (voir \annexeref{sec:Annexe_Eshelby}). 
 
 \subsubsection{Retour à l'universalité et classe CDP-0}
 
@@ -545,23 +528,23 @@ CDP \cite{lubeck_universal_2004} & 0.64 & 0.37 & 0.80 & 2.23 \\
 
 \subsubsection{Le modèle $\alpha$-Picard}
 
-\subparagraph{}Pour ce faire, nous généralisons le modèle de Picard à une portée d'interaction arbitraire, i.e. $G(\mathbf{r})\sim 1/r^\alpha$. Pour conserver les propriétés centrales du propagateur classique d'Eshelby (symétrie quadrupolaire, modes zéros\footnote{qui impliquent $\hat{G}(q_x=0,q_y)=\hat{G}(q_x,q_y=0)=0$.}.) nous définissons cette continuité de propagateurs dans l'espace de Fourier selon :
+\subparagraph{}Pour ce faire, nous généralisons le modèle de Picard à une portée d'interaction arbitraire, i.e. $\mathcal{G}(\mathbf{r})\sim 1/r^\alpha$. Pour conserver les propriétés centrales du propagateur classique d'Eshelby (symétrie quadrupolaire, modes zéros\footnote{qui impliquent $\hat{\mathcal{G}}(q_x=0,q_y)=\hat{\mathcal{G}}(q_x,q_y=0)=0$.}.) nous définissons cette continuité de propagateurs dans l'espace de Fourier continu selon :
 
 \begin{equation}
-	\hat{G}(\mathbf{q}) = -b_\alpha \frac{q_x^2 q_y^2}{q^{6-\alpha}}
+	\hat{\mathcal{G}}(\mathbf{q}) = -b_\alpha \frac{q_x^2 q_y^2}{q^{6-\alpha}}
 \end{equation}
 
-\noindent Dans l'espace réel, le calcul détaillé dans l'\annexeref{sec:TFinverse} donne la forme suivante pour l'interaction :
+\noindent Dans l'espace réel continu, le calcul détaillé dans l'\annexeref{sec:TFinverse} donne la forme suivante pour l'interaction :
 
 \begin{equation}
 \begin{aligned}
-    G(r, \theta) = B_\alpha\frac{C_\alpha+\cos 4\theta}{r^\alpha}, \quad B_\alpha &= b_\alpha\frac{\alpha\Gamma(\alpha/2-2)(\alpha-2)(\alpha-4)(2+\alpha)}{\pi 2^{9-\alpha}\Gamma(3-\alpha/2)}\\
+    \mathcal{G}(r, \theta) = B_\alpha\frac{C_\alpha+\cos 4\theta}{r^\alpha}, \quad B_\alpha &= b_\alpha\frac{\alpha\Gamma(\alpha/2-2)(\alpha-2)(\alpha-4)(2+\alpha)}{\pi 2^{9-\alpha}\Gamma(3-\alpha/2)}\\
     C_\alpha &= \frac{(\alpha-2)(4-\alpha)}{\alpha (2+\alpha)}
 \end{aligned}
     \label{eq:RealAlphaPicard}
 \end{equation}
 
-\noindent avec $\Gamma$ la fonction gamma d'Euler et $b_\alpha$ étant choisi pour que $G(0)\approx-1$. Nous appelons ce modèle généralisé $\alpha$-Picard. Celui-ci coïncide alors avec le cas classique pour $\alpha=2$ ($b_2 = 4$).
+\noindent avec $\Gamma$ la fonction gamma d'Euler et $b_\alpha$ étant choisi pour avoir dans l'espace réel discret, via notre implémentation numérique, $G(0)\approx-1$. Nous appelons ce modèle généralisé $\alpha$-Picard. Celui-ci coïncide alors avec le cas classique pour $\alpha=2$ ($b_2 = 4$).
 
 \subsubsection{Implémentation numérique et instabilités}
 
@@ -576,13 +559,13 @@ CDP \cite{lubeck_universal_2004} & 0.64 & 0.37 & 0.80 & 2.23 \\
 	\label{fig:instabnum}
 \end{figure}
 
-\subparagraph{}L'instabilité numérique vient en réalité de l'implémentation du propagateur dans l'espace de Fourier qui est ici discret et non continu. Pour passer de la forme continue souhaitée à la forme discrète à implémenter, il faut en fait réinterpréter les nombres d'onde selon :
+\subparagraph{}L'instabilité numérique vient en réalité de l'implémentation du propagateur dans l'espace de Fourier qui est ici discret et non continu. Pour passer de la forme continue souhaitée à la forme discrète à implémenter, il faut en fait réinterpréter les nombres d'onde selon\footnote{par opposition à l'\autoref{eq:eshelbydiscretfourier}.} :
 
 \begin{equation}
 	q_x^2 = 2-2\cos\left( \frac{2\pi}{L}n \right),\quad q_y^2 = 2-2\cos\left( \frac{2\pi}{L}m \right)
 \end{equation}
 
-\noindent Cette méthode déjà présentée dans la littérature \cite{ferrero_criticality_2019, rossi_finite-disorder_2022} et dans le \autoref{chapter:Susp} est indispensable pour obtenir des redistributions bien définies à plus courtes portées. Les corrections apportées par cette conversion sont représentées \autoref{fig:instabnum}, montrant ainsi que les instabilités peuvent être supprimées de la sorte. Les propagateurs du modèle généralisé seront donc implémentés de cette façon. Notons par ailleurs que sous cette définition, le modèle $\alpha$-Picard pour $\alpha = 6$ représente un cas singulier équivalent au modèle Picard-CP (voir \autoref{eq:PicardCP}).
+\noindent Cette méthode déjà présentée dans la littérature \cite{ferrero_criticality_2019, rossi_finite-disorder_2022} et dans le \autoref{chapter:Susp} est indispensable pour obtenir des redistributions bien définies à plus courtes portées (voir \annexeref{sec:impl_disc_propag}). Les corrections apportées par cette conversion sont représentées \autoref{fig:instabnum}, montrant ainsi que les instabilités peuvent être supprimées de la sorte. Les propagateurs du modèle généralisé seront donc implémentés de cette façon. Notons par ailleurs que sous cette définition, le modèle $\alpha$-Picard pour $\alpha = 6$ représente un cas singulier équivalent au modèle Picard-CP (voir \autoref{eq:PicardCP}).
 
 \subsubsection{Comportement critique des modèles $\alpha$-Picard}
 
@@ -613,7 +596,7 @@ CDP \cite{lubeck_universal_2004} & 0.64 & 0.37 & 0.80 & 2.23 \\
 	\label{eq:sommekuv}
 \end{equation}
 
-Nous cherchons donc d'abord à évaluer $K^\text{LR}_{u,v}$ pour un propagateur décroissant comme $1/r^\alpha$. Pour ce faire, de la même manière que pour la contrainte et l'activité, nous définissons un équivalent continu du propagateur selon :
+Nous cherchons donc d'abord à évaluer $K^\text{LR}_{u,v}$ pour un propagateur décroissant comme $1/r^\alpha$. Pour ce faire, de la même manière que pour la contrainte et l'activité, nous définissons un équivalent continu du propagateur discret selon :
 
 \begin{equation}
     \mathcal{G}\left(\mathbf{r}=(k\frac{a}{L},l\frac{a}{L})\right) = \left(\frac{L}{a}\right)^\alpha G^\text{LR}(k,l)
@@ -696,7 +679,7 @@ Nous cherchons donc d'abord à évaluer $K^\text{LR}_{u,v}$ pour un propagateur 
 
 \subparagraph{}Dans le cadre de la transition de dépiégeage, l'interaction de courte portée se comporte comme $\sim q^2$ dans l'espace réciproque alors que l'interaction de longue portée, représentée par l'opérateur fractionnaire $-|\nabla|^{\alpha-D}$ se comporte comme $q^{\alpha-2}$. Dans ce cas, nous nous attendons à ce que le terme de longue portée domine pour $\alpha < 4$ et que le terme de courte portée domine pour $\alpha > 4$.
 
-\subparagraph{}Ainsi, la présence de modes 0 dans les interactions ouvre une zone d'influence des interactions à longue portée située entre $\alpha = 6$ et $\alpha = 4$.
+\subparagraph{}Ainsi, la présence de modes zéros dans les interactions ouvre une zone d'influence des interactions à longue portée située entre $\alpha = 6$ et $\alpha = 4$.
 
 \subsubsection{Paysage global}
 
@@ -837,7 +820,7 @@ Nous cherchons donc d'abord à évaluer $K^\text{LR}_{u,v}$ pour un propagateur 
 
 \paragraph{Méthode}
 
-\subparagraph{}Afin de sonder les propriétés de répartition de contrainte dans les modèles étudiés, nous nous plaçons, pour chaque modèle, dans un état stationnaire du système proche du point critique ($\delta\Sigma \ll 1$). La fonction $S_\sigma(\mathbf{q})$ est alors calculée en tout point de l'espace réciproque en prenant la transformée de Fourier du champ de contrainte discret $\{\sigma_i\}$ après lui avoir soustrait sa valeur moyenne $\Sigma$.
+\subparagraph{}Afin de sonder les propriétés de répartition de contrainte dans les modèles étudiés, nous nous plaçons, pour chaque modèle, dans un état stationnaire du système proche du point critique ($\delta\Sigma \ll 1$). La fonction $S_\sigma(\mathbf{q})$ est alors calculée en tout point de l'espace réciproque en prenant la transformée de Fourier du champ de contrainte discret $\{\sigma_i\}$.
 
 \subparagraph{}Afin d'obtenir une estimation propre de ce pseudo-facteur de structure et ce sur une large gamme de $\mathbf{q}$, il est nécessaire de ne pas limiter le calcul à une unique configuration. Pour ce faire, nous réalisons pour une même mesure une centaine de simulations issues de conditions initiales différentes. La mesure finale est alors la moyenne de chaque mesure individuelle. Afin de sonder des valeurs de $\mathbf{q}$ suffisamment petites, nous choisissons de nous placer à une taille de système suffisamment grande, ici $L=1024$.
 
@@ -947,11 +930,11 @@ Picard-CP & 2.5 & 1.75  \\
 \subparagraph{}Ces deux quantités $S$ et $T$ suivent alors des distributions de probabilité en loi de puissance :
 
 \begin{equation}
-	P(S) \sim S^{-\tau}f\left( \frac{S}{S_c} \right), \quad P(T) \sim T^{-\tau^\prime}f\left( \frac{T}{T_c} \right)
+	P(S) \sim S^{-\tau}g_S\left( \frac{S}{S_c} \right), \quad P(T) \sim T^{-\tau^\prime}g_T\left( \frac{T}{T_c} \right)
 	\label{eq:AvalancheDistrib}
 \end{equation}
 
-\noindent avec $\tau$ et $\tau^\prime$ les exposants d'avalanche, $f(x)$ et $g(x)$ à décroissance rapide pour $x>1$, et $S_c$ et $T_c$ les cut-offs de taille et de durée du système, de la même manière que dans le cas du dépiégeage présenté au \autoref{chapter:introduction}. Tracées sur une échelle logarithmique, ces distributions prennent alors la forme donnée à la \autoref{fig:av_pheno_EPM}-(b)-(c).
+\noindent avec $\tau$ et $\tau^\prime$ les exposants d'avalanche, $g_S(x)$ et $g_T(x)$ à décroissance rapide pour $x>1$, et $S_c$ et $T_c$ les cut-offs de taille et de durée du système, de la même manière que dans le cas du dépiégeage présenté au \autoref{chapter:introduction}. Tracées sur une échelle logarithmique, ces distributions prennent alors la forme donnée à la \autoref{fig:av_pheno_EPM}-(b)-(c).
 
 \begin{figure}[h]
 	\centering
@@ -1103,11 +1086,11 @@ Picard-CP & 2.5 & 1.75  \\
 \subparagraph{}En plus de la taille et de la durée des avalanches, nous caractérisons leur étendue spatiale $A$. Celle-ci correspond en fait à la surface, exprimée en nombre de sites, sur laquelle a pris part l'avalanche. De la même manière que pour les deux autres observables, nous postulons que cette quantité est distribuée selon :
 
 \begin{equation}
-	P(A) \sim A^{-\tau^{\prime\prime}}h\left( \frac{A}{A_c} \right),\quad A_c \sim L^\chi
+	P(A) \sim A^{-\tau^{\prime\prime}}g_A\left( \frac{A}{A_c} \right),\quad A_c \sim L^\chi
 	\label{eq:distA}
 \end{equation}
 
-\noindent avec $h(x)$ à décroissance rapide pour $x>1$ et $A_c$ le cut-off associé. De cette façon, $\chi=D=2$ signifie que les avalanches occupent au maximum toute la surface du système. Cette quantité permet alors d'offrir une nouvelle caractérisation des avalanches, utile à l'interprétation des résultats qui suit.
+\noindent avec $g_A(x)$ à décroissance rapide pour $x>1$ et $A_c$ le cut-off associé. De cette façon, $\chi=D=2$ signifie que les avalanches occupent au maximum toute la surface du système. Cette quantité permet alors d'offrir une nouvelle caractérisation des avalanches, utile à l'interprétation des résultats qui suit.
 
 \paragraph{\'Evolution des exposants}
 

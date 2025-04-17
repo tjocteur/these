@@ -92,11 +92,7 @@ N.~Theodorakopoulos, T.~Dauxois, and M.~Peyrard, ``Order of the {Phase}
 \newblock Publisher: American Physical Society.
 
 \bibitem{bishop_study_1980}
-D.~J. Bishop, ``Study of the superfluid transition in two-dimensional
-  {\textless}span class="aps-inline-formula"{\textgreater}{\textless}math
-  xmlns="http://www.w3.org/1998/{Math}/{MathML}"
-  display="inline"{\textgreater}{\textless}mrow{\textgreater}{\textless}mmultiscripts{\textgreater}{\textless}mrow{\textgreater}{\textless}mi
-  mathvariant="normal"{\textgreater}{He}{\textless}/mi{\textgreater}{\textless}/mrow{\textgreater}{\textless}mprescripts{\textgreater}{\textless}/mprescripts{\textgreater}{\textless}mrow{\textgreater}{\textless}/mrow{\textgreater}{\textless}mrow{\textgreater}{\textless}mn{\textgreater}4{\textless}/mn{\textgreater}{\textless}/mrow{\textgreater}{\textless}mrow{\textgreater}{\textless}/mrow{\textgreater}{\textless}mrow{\textgreater}{\textless}/mrow{\textgreater}{\textless}/mmultiscripts{\textgreater}{\textless}/mrow{\textgreater}{\textless}/math{\textgreater}{\textless}/span{\textgreater}
+D.~J. Bishop, ``Study of the superfluid transition in two-dimensional $^4${H}e
   films,'' {\em Physical Review B}, vol.~22, no.~11, pp.~5171--5185, 1980.
 
 \bibitem{kardar_statistical_2007}
@@ -113,8 +109,6 @@ S.~Lubeck, ``Universal scaling behavior of non-equilibrium phase transitions,''
 H.~Hinrichsen, ``Non-equilibrium critical phenomena and phase transitions into
   absorbing states,'' {\em Advances in Physics}, vol.~49, pp.~815--958, Nov.
   2000.
-\newblock Publisher: Taylor \& Francis \_eprint:
-  https://doi.org/10.1080/00018730050198152.
 
 \bibitem{dickman_nonequilibrium_2002}
 R.~Dickman, ``Nonequilibrium phase transitions in epidemics and sandpiles,''
@@ -415,13 +409,9 @@ H.~Hinrichsen and M.~Howard, ``A model for anomalous directed percolation,''
 
 \bibitem{dos_santos_crossover_2018}
 T.~B. dos Santos, C.~I.~N. Sampaio~Filho, N.~A.~M. Araújo, C.~L.~N. Oliveira,
-  and A.~A. Moreira, ``Crossover from mean-field to
-  2d{\textless}math{\textgreater}{\textless}mn
-  is="true"{\textgreater}2{\textless}/mn{\textgreater}{\textless}mi
-  is="true"{\textgreater}d{\textless}/mi{\textgreater}{\textless}/math{\textgreater}
-  {Directed} {Percolation} in the contact process,'' {\em Physica A:
-  Statistical Mechanics and its Applications}, vol.~512, pp.~352--358, Dec.
-  2018.
+  and A.~A. Moreira, ``Crossover from mean-field to 2d directed percolation in
+  the contact process,'' {\em Physica A: Statistical Mechanics and its
+  Applications}, vol.~512, pp.~352--358, Dec. 2018.
 
 \bibitem{tanguy_individual_1998}
 A.~Tanguy, M.~Gounelle, and S.~Roux, ``From individual to collective pinning:
@@ -628,7 +618,7 @@ P.~Hebraud and F.~Lequeux, ``Mode-{Coupling} {Theory} for the {Pasty}
 J.~Olivier, {\em Fluides vitreux, sutures craniofaciales, diffusion reactive :
   quelques contributions à l'etude de ces systèmes multi-echelles ou
   singuliers}.
-\newblock phdthesis, Universite de Grenoble, July 2011.
+\newblock Thèse de doctorat, Universite de Grenoble, July 2011.
 
 \bibitem{bertin_stochastic_2022}
 E.~Bertin, ``Stochastic resetting of a population of random walks with
@@ -660,6 +650,11 @@ Z.~Budrikis, D.~F. Castellanos, S.~Sandfeld, M.~Zaiser, and S.~Zapperi,
   vol.~8, p.~15928, July 2017.
 \newblock Number: 1 Publisher: Nature Publishing Group.
 
+\bibitem{martens_connecting_2011}
+K.~Martens, ``Connecting {Diffusion} and {Dynamical} {Heterogeneities} in
+  {Actively} {Deformed} {Amorphous} {Systems},'' {\em Physical Review Letters},
+  vol.~106, no.~15, 2011.
+
 \bibitem{jagla_different_2017}
 E.~A. Jagla, ``Different universality classes at the yielding transition of
   amorphous systems,'' {\em Physical Review E}, vol.~96, p.~023006, Aug. 2017.
@@ -672,7 +667,7 @@ D.~J. Korchinski and J.~Rottler, ``Thermally activated intermittent flow in
 \bibitem{liu_critical_2016}
 C.~Liu, {\em Critical dynamics at the yielding transition and creep behavior of
   amorphous systems : mesoscopic modeling}.
-\newblock phdthesis, Universite Grenoble Alpes, Nov. 2016.
+\newblock Thèse de doctorat, Universite Grenoble Alpes, Nov. 2016.
 
 \bibitem{binder_finite_1981}
 K.~Binder, ``Finite size scaling analysis of ising model block distribution
@@ -792,14 +787,13 @@ J.~F. Joanny and P.~G. de~Gennes, ``A model for contact angle hysteresis,''
 
 \bibitem{rosso_depiegeage_2002}
 A.~Rosso, {\em Dépiégeage de variétés élastiques en milieu aléatoire}.
-\newblock thesis, Paris 6, Jan. 2002.
+\newblock Thèse de doctorat, Paris 6, Jan. 2002.
 
 \bibitem{moulinet_roughness_2002}
 S.~Moulinet, C.~Guthmann, and E.~Rolley, ``Roughness and dynamics of a contact
   line of a viscous fluid on a disordered substrate,'' {\em The European
   Physical Journal E}, vol.~8, pp.~437--443, July 2002.
-\newblock Company: Springer Distributor: Springer Institution: Springer Label:
-  Springer Number: 4 Publisher: EDP Sciences.
+\newblock Publisher: EDP Sciences.
 
 \bibitem{le_doussal_height_2009}
 P.~Le~Doussal, K.~J. Wiese, S.~Moulinet, and E.~Rolley, ``Height fluctuations
@@ -832,7 +826,7 @@ C.~Le~Priol, J.~Chopin, P.~Le~Doussal, L.~Ponson, and A.~Rosso, ``Universal
 \bibitem{goff_flow_2021}
 M.~L. Goff, {\em Flow and dynamics of driven and active amorphous materials : a
   multi-scale modeling approach}.
-\newblock phdthesis, Université Grenoble Alpes [2020-....], Mar. 2021.
+\newblock Thèse de doctorat, Université Grenoble Alpes, Mar. 2021.
 
 \bibitem{noauthor_physique_nodate}
 {\em Physique et outils mathématiques ; méthodes et exemples - {Angel}
@@ -859,14 +853,11 @@ A.~V. Chechkin, V.~Y. Gonchar, J.~Klafter, and R.~Metzler, ``Fundamentals of
   {Lévy} {Flight} {Processes},'' in {\em Fractals, {Diffusion}, and
   {Relaxation} in {Disordered} {Complex} {Systems}}, pp.~439--496, John Wiley
   \& Sons, Ltd, 2006.
-\newblock Section: 9 \_eprint:
-  https://onlinelibrary.wiley.com/doi/pdf/10.1002/0470037148.ch9.
 
 \bibitem{jespersen_levy_1999}
-S.~Jespersen, R.~Metzler, and H.~C. Fogedby, ``L{\textbackslash}'evy flights in
-  external force fields: {Langevin} and fractional {Fokker}-{Planck} equations
-  and their solutions,'' {\em Physical Review E}, vol.~59, pp.~2736--2745, Mar.
-  1999.
+S.~Jespersen, R.~Metzler, and H.~C. Fogedby, ``Lévy flights in external force
+  fields: {Langevin} and fractional {Fokker}-{Planck} equations and their
+  solutions,'' {\em Physical Review E}, vol.~59, pp.~2736--2745, Mar. 1999.
 \newblock Publisher: American Physical Society.
 
 \bibitem{chambers_method_1976}

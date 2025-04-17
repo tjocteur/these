@@ -134,7 +134,7 @@
 
 \subsubsection{Calcul de l'influence des particules actives}
 
-\subparagraph{}Afin de simplifier le calcul numérique de la somme de l'\autoref{eq:convol_model}, nous choisissons de considérer une version gros grains de l'activité dans le système. Pour ce faire, nous définissons un champ d'activité discret $A(\mathbf{r}_i)$, défini sur le réseau utilisé pour la méthode cell-list, introduite à la \autoref{sec:DetImpl}. Chaque case du réseau est alors définie autour d'une position $\mathbf{r}_i = na\hat{\mathbf{e}}_x + ma \hat{\mathbf{e}}_y$ avec $(n,m) \in \mathbb{N}^2$ et $a$ le pas du réseau que l'on prend de nouveau égal à $D_p=1$. \`A chaque pas de temps, après identification des particules actives, nous calculons ce champ d'activité sur la case du réseau centrée autour de $\mathbf{r}_i$ comme le nombre de particules actives dans cette case (voir \autoref{fig:modelsusp}). $A(\mathbf{r}_i)$ représente alors en quelque sorte une quantité d'activité locale.
+\subparagraph{}Afin de simplifier le calcul numérique de la somme de l'\autoref{eq:convol_model}, nous choisissons de considérer une version gros grains de l'activité dans le système. Pour ce faire, nous définissons un champ d'activité discret $A(\mathbf{r}_i)$, défini sur le réseau utilisé pour la méthode cell-list, introduite à la \autoref{sec:DetImpl}. Chaque case du réseau est alors définie autour d'une position $\mathbf{r}_i = na\hat{\mathbf{e}}_x + ma \hat{\mathbf{e}}_y$ avec $(n,m) \in \mathbb{Z}^2$ et $a$ le pas du réseau que l'on prend de nouveau égal à $D_p=1$. \`A chaque pas de temps, après identification des particules actives, nous calculons ce champ d'activité sur la case du réseau centrée autour de $\mathbf{r}_i$ comme le nombre de particules actives dans cette case (voir \autoref{fig:modelsusp}). $A(\mathbf{r}_i)$ représente alors en quelque sorte une quantité d'activité locale.
 
 \begin{figure}[h]
 	\centering
@@ -902,9 +902,9 @@ P(\mathbf{r}) = \left\{
 
 \begin{equation}
 	\begin{aligned}
-		&P(S) \sim S^{-\tau}f\left( \frac{S}{S_c} \right), \quad S_c \sim L^{d_f}\\
-		&P(T) \sim T^{-\tau^\prime}g\left( \frac{T}{T_c} \right), \quad T_c \sim L^{z}\\
-		&P(N) \sim N^{-\tau^{\prime\prime}}h\left( \frac{N}{N_c} \right), \quad N_c \sim L^{\chi}\\
+		&P(S) \sim S^{-\tau}g_S\left( \frac{S}{S_c} \right), \quad S_c \sim L^{d_f}\\
+		&P(T) \sim T^{-\tau^\prime}g_T\left( \frac{T}{T_c} \right), \quad T_c \sim L^{z}\\
+		&P(N) \sim N^{-\tau^{\prime\prime}}g_N\left( \frac{N}{N_c} \right), \quad N_c \sim L^{\chi}\\
 	\end{aligned}
 	\label{eq:AvDistribSusp}
 \end{equation}
@@ -925,7 +925,7 @@ P(\mathbf{r}) = \left\{
 \subparagraph{}Les formes des distributions sont alors celles supposées, présentant une décroissance en loi de puissance, commune à chaque taille, puis un cut-off, augmentant avec la taille du système. Par ailleurs, ce cut-off, dans le cas de $P(S)$ et $P(T)$, semble présenter une bosse qui s'étale à mesure que la portée augmente. Afin de déterminer précisément les exposants d'avalanche associés à ces distributions, nous procédons à une analyse d'échelle en taille finie. Pour ce faire, nous reprenons les formes définies par l'\autoref{eq:AvDistribSusp}. Selon ces ansatz, toute la dépendance des distributions en $L$ est portée par le cut-off. Prenons alors l'exemple de la distribution des tailles $P(S)$. En redimensionnant $S$ par $S_c$, nous obtenons :
 
 \begin{equation}
-	P(S) \sim L^{-d_f\tau}\tilde{S}^{-\tau}f\left( \tilde{S} \right),  \quad \tilde{S} = \frac{S}{L^{d_f}}
+	P(S) \sim L^{-d_f\tau}\tilde{S}^{-\tau}g_S\left( \tilde{S} \right),  \quad \tilde{S} = \frac{S}{L^{d_f}}
 \end{equation}
 
 \noindent Ainsi, en redimensionnant $P(S)$ par $L^{-d_f\tau}$ et $S$ par $L^{d_f}$, les courbes obtenues pour différentes tailles de systèmes $L$ sont indépendantes de $L$, i.e. se superposent. Ce principe constitue alors une méthode graphique de détermination des exposants : les exposants $d_f$ et $\tau$ sont déterminés comme ceux définissant le redimensionnement qui permet la meilleure superposition des courbes obtenues pour différents $L$. Nous représentons alors sur la \autoref{fig:AvSuspRescaled} la meilleure superposition obtenue pour $\alpha = 1.5$. Les représentations graphiques obtenues pour les autres portées sont reportées dans l'\annexeref{sec:AvTBLRRAnnexe} et les exposants ainsi déterminés sont tous reportés dans le \autoref{tab:expocritavsusp}.
