@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.10.26)  17 APR 2025 16:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.5.5)  16 MAY 2025 10:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -80,9 +80,9 @@ Package: babel 2022/01/26 3.70 The Babel package
 (/usr/share/texlive/texmf-dist/tex/generic/babel-french/french.ldf
 Language: french 2021/07/20 v3.5m French support from the babel system
 Package babel Info: Hyphen rules for 'acadian' set to \l@french
-(babel)             (\language15). Reported on input line 91.
+(babel)             (\language76). Reported on input line 91.
 Package babel Info: Hyphen rules for 'canadien' set to \l@french
-(babel)             (\language15). Reported on input line 92.
+(babel)             (\language76). Reported on input line 92.
 \FB@nonchar=\count196
 Package babel Info: Making : an active character on input line 430.
 Package babel Info: Making ; an active character on input line 431.
@@ -2928,8 +2928,8 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  24541 strings out of 478287
- 475540 string characters out of 5849288
- 733053 words of memory out of 5000000
+ 475540 string characters out of 5849290
+ 733052 words of memory out of 5000000
  41073 multiletter control sequences out of 15000+600000
  614142 words of font info for 148 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
