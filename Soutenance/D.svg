@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="2.6844211mm"
+   height="2.4033093mm"
+   viewBox="0 0 2.6844211 2.4033093"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="gamma0.svg"
+   inkscape:export-xdpi="320"
+   inkscape:export-ydpi="320"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.72248176"
+     inkscape:cx="397.24186"
+     inkscape:cy="561.25984"
+     inkscape:window-width="1850"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="2.6844211"
+       height="2.4033093"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-105.104,-148.50001)">
+    <g
+       inkscape:label=""
+       transform="translate(105.104,148.5)"
+       id="g1">
+      <g
+         id="surface4"
+         transform="matrix(0.352778,0,0,0.352778,-0.846402,-0.701146)">
+        <g
+           style="fill:#000000;fill-opacity:1"
+           id="g3">
+          <g
+             id="use2"
+             transform="translate(1.993,8.8000002)">
+            <path
+               style="stroke:none"
+               d="m 1.578125,-0.78125 c -0.09375,0.390625 -0.109375,0.46875 -0.90625,0.46875 -0.15625,0 -0.265625,0 -0.265625,0.1875 C 0.40625,0 0.484375,0 0.671875,0 h 3.3125 c 2.0625,0 4.03125,-2.109375 4.03125,-4.28125 0,-1.40625 -0.84375,-2.53125 -2.34375,-2.53125 h -3.34375 c -0.1875,0 -0.296875,0 -0.296875,0.1875 0,0.125 0.078125,0.125 0.28125,0.125 0.125,0 0.3125,0.015625 0.421875,0.015625 0.171875,0.03125 0.21875,0.046875 0.21875,0.171875 0,0.03125 0,0.0625 -0.03125,0.1875 z M 3.734375,-6.125 C 3.828125,-6.46875 3.84375,-6.5 4.28125,-6.5 h 1.0625 c 0.96875,0 1.796875,0.53125 1.796875,1.84375 0,0.484375 -0.1875,2.125 -1.046875,3.21875 -0.28125,0.375 -1.0625,1.125 -2.296875,1.125 h -1.125 c -0.140625,0 -0.15625,0 -0.21875,0 -0.09375,-0.015625 -0.125,-0.03125 -0.125,-0.109375 0,-0.03125 0,-0.046875 0.046875,-0.21875 z m 0,0"
+               id="path3" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
