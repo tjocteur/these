@@ -9,45 +9,45 @@ Warning--empty author and editor in noauthor_physique_nodate
 Warning--empty publisher in noauthor_physique_nodate
 Warning--empty year in noauthor_physique_nodate
 Warning--empty author in zwillinger_6_7_2014
-You've used 168 entries,
+You've used 172 entries,
             1876 wiz_defined-function locations,
-            1340 strings with 31609 characters,
-and the built_in function-call counts, 48344 in all, are:
-= -- 5327
-> -- 1558
+            1359 strings with 32251 characters,
+and the built_in function-call counts, 49542 in all, are:
+= -- 5463
+> -- 1596
 < -- 0
-+ -- 593
-- -- 425
-* -- 3244
-:= -- 6513
-add.period$ -- 263
-call.type$ -- 168
-change.case$ -- 163
++ -- 607
+- -- 435
+* -- 3317
+:= -- 6670
+add.period$ -- 270
+call.type$ -- 172
+change.case$ -- 167
 chr.to.int$ -- 0
-cite$ -- 174
-duplicate$ -- 2672
-empty$ -- 4020
-format.name$ -- 425
-if$ -- 12041
+cite$ -- 178
+duplicate$ -- 2744
+empty$ -- 4112
+format.name$ -- 435
+if$ -- 12347
 int.to.chr$ -- 0
-int.to.str$ -- 168
-missing$ -- 160
-newline$ -- 603
-num.names$ -- 171
-pop$ -- 255
+int.to.str$ -- 172
+missing$ -- 164
+newline$ -- 618
+num.names$ -- 175
+pop$ -- 259
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2367
+skip$ -- 2439
 stack$ -- 0
-substring$ -- 3123
-swap$ -- 1469
+substring$ -- 3187
+swap$ -- 1513
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 436
-width$ -- 171
-write$ -- 1828
+while$ -- 446
+width$ -- 175
+write$ -- 1874
 (There were 6 warnings)

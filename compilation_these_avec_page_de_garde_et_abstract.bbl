@@ -227,6 +227,12 @@ P.~Bak, C.~Tang, and K.~Wiesenfeld, ``Self-organized criticality,'' {\em
 D.~L. Turcotte, ``Self-organized criticality,'' {\em Reports on Progress in
   Physics}, vol.~62, p.~1377, Oct. 1999.
 
+\bibitem{janssen_directed_2016}
+H.-K. Janssen and O.~Stenull, ``Directed percolation with a conserved field and
+  the depinning transition,'' {\em Physical Review E}, vol.~94, p.~042138, Oct.
+  2016.
+\newblock Publisher: American Physical Society.
+
 \bibitem{wiese_hyperuniformity_2024}
 K.~J. Wiese, ``Hyperuniformity in the {Manna} {Model}, {Conserved} {Directed}
   {Percolation} and {Depinning},'' {\em Physical Review Letters}, vol.~133,
@@ -384,6 +390,12 @@ H.~Hinrichsen, ``Non-equilibrium {Phase} {Transitions} with {Long}-{Range}
 M.~E. Fisher, ``Critical {Exponents} for {Long}-{Range} {Interactions},'' {\em
   Physical Review Letters}, vol.~29, no.~14, pp.~917--920, 1972.
 
+\bibitem{janssen_levy_flight_1999}
+H.~K. Janssen, K.~Oerding, F.~v. Wijland, and H.~J. Hilhorst, ``Lévy-flight
+  spreading of epidemic processes leading to percolating clusters,'' {\em The
+  European Physical Journal B}, vol.~7, pp.~137--145, Jan. 1999.
+\newblock Number: 1 Publisher: EDP Sciences.
+
 \bibitem{chessa_universality_1999}
 A.~Chessa, H.~E. Stanley, A.~Vespignani, and S.~Zapperi, ``Universality in
   sandpiles,'' {\em Physical Review E}, vol.~59, pp.~R12--R15, Jan. 1999.
@@ -401,6 +413,10 @@ A.~Rosso, ``Depinning of elastic manifolds,'' {\em Physical Review E}, vol.~67,
 \bibitem{wiese_longrange}
 K.~Wiese, T.~Jocteur, R.~Mari, and E.~Bertin, ``Hyperuniformity in the manna
   model for long-range toppling,'' à paraître.
+
+\bibitem{le_doussal_two_loop_2002}
+P.~Le~Doussal, ``Two-loop functional renormalization group theory of the
+  depinning transition,'' {\em Physical Review B}, vol.~66, no.~17, 2002.
 
 \bibitem{hinrichsen_model_1999}
 H.~Hinrichsen and M.~Howard, ``A model for anomalous directed percolation,''
@@ -425,10 +441,6 @@ A.~Rosso, ``Roughness at the depinning threshold for a long-range elastic
 \bibitem{ramanathan_onset_1998}
 S.~Ramanathan, ``Onset of propagation of planar cracks in heterogeneous
   media,'' {\em Physical Review B}, vol.~58, no.~10, pp.~6026--6046, 1998.
-
-\bibitem{le_doussal_two_loop_2002}
-P.~Le~Doussal, ``Two-loop functional renormalization group theory of the
-  depinning transition,'' {\em Physical Review B}, vol.~66, no.~17, 2002.
 
 \bibitem{zhao_interface_2013}
 B.~Zhao, ``Interface pinning of immiscible gravity-exchange flows in porous
@@ -469,6 +481,11 @@ M.~P. Allen and D.~J. Tildesley, {\em Computer {Simulation} of {Liquids}}.
 \bibitem{cuda}
 NVIDIA, P.~Vingelmann, and F.~H. Fitzek, ``Cuda, release: 10.2.89,'' 2020.
 
+\bibitem{dickman_quasi_stationary_2002}
+R.~Dickman and R.~Vidigal, ``Quasi-stationary distributions for stochastic
+  processes with an absorbing state,'' {\em Journal of Physics A: Mathematical
+  and General}, vol.~35, p.~1147, Jan. 2002.
+
 \bibitem{torquato_local_2003}
 S.~Torquato, ``Local density fluctuations, hyperuniformity, and order
   metrics,'' {\em Physical Review E}, vol.~68, no.~4, 2003.
@@ -501,6 +518,11 @@ Z.~Ma, ``Hyperuniformity of generalized random organization models,'' {\em
 
 \bibitem{wiese_blabla}
 ``Conversations privées avec {K}. {W}iese.''
+
+\bibitem{barkema_universality_2003}
+G.~T. Barkema and E.~Carlon, ``Universality in the pair contact process with
+  diffusion,'' {\em Physical Review E}, vol.~68, p.~036113, Sept. 2003.
+\newblock Publisher: American Physical Society.
 
 \bibitem{ge_rheology_2022}
 Z.~Ge and G.~J. Elfring, ``Rheology of periodically sheared suspensions

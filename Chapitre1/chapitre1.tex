@@ -257,14 +257,14 @@
 
 \subparagraph{}Beaucoup d'autres systèmes avec des dynamiques plus complexes ont été caractérisés comme appartenant à la classe DP. Cette ubiquité a motivé une conjecture simple d'appartenance formulée par Janssen et Grassberger \cite{janssen_nonequilibrium_1981, grassberger_phase_1982} : les systèmes présentant une transition de phase absorbante continue vers un unique état absorbant, faisant intervenir des interactions à courte portée et aucune symétrie particulière, appartiennent à la classe DP.
 
-\subparagraph{}D'un point de vue des processus plus abstraits de réaction-diffusion \cite{tauber_applications_2005}, les modèles appartenant à la classe DP peuvent être modélisés par deux processus, un de création et un d’annihilation :
+\subparagraph{}D'un point de vue des processus plus abstraits de réaction-diffusion \cite{tauber_applications_2005}, les modèles sur réseaux appartenant à la classe DP peuvent être modélisés par deux processus, un de création et un d’annihilation :
 
 \begin{equation}
 A \xrightarrow[]{\lambda} 2A, \quad A \xrightarrow[]{\gamma} \o,
 \label{eq:ReacDiffDP}
 \end{equation}
 
-\noindent avec $A$ une espèce représentant les agents actifs, diffusant avec un coefficient de diffusion $D_A$. Via cette approche il est possible d'associer, comme pour la classe d'Ising, une théorie de champ à la classe DP :
+\noindent avec $A$ une espèce représentant les agents actifs. Via cette approche il est possible d'associer, comme pour la classe d'Ising, une théorie de champ à la classe DP\footnote{Il est aussi possible de définir un tel processus dans l'espace continu, simplement dans ce cas l'espèce $A$ diffuse avec un coefficient de diffusion $D_A$, et une réaction d'annihilation du type $2A \xrightarrow[]{\gamma^\prime} \o$ est nécessaire pour obtenir un terme de saturation dans l'\autoref{eq:eqDP} (émergeant du principe d'exclusion associé au réseau sinon).} :
 
 \begin{equation}
 	\partial_t A(\mathbf{r}, t) = rA(\mathbf{r}, t) - uA^2(\mathbf{r}, t) + \kappa\nabla^2 A (\mathbf{r}, t) + \sigma \sqrt{A(\mathbf{r}, t)} \eta(\mathbf{r}, t),
@@ -329,7 +329,7 @@ A \xrightarrow[]{\lambda} 2A, \quad A \xrightarrow[]{\gamma} \o,
 \label{fig:ROM}
 \end{figure}
 
-\subparagraph{}Dans le cadre de ce modèle, $N$ particules sphériques de diamètre $D_p$ sont positionnées dans un espace de $D$ dimensions et d'extension spatiale $L$. Chacune de ces $N$ particules peut alors prendre deux états à chaque pas de temps : si la particule se recouvre avec une autre particule elle est active, sinon elle est passive. Lorsqu'une particule est active, celle-ci est soumise à un déplacement d'amplitude aléatoire, modifiant sa position dans l'espace continu. Ce déplacement représente alors la possibilité d'un recouvrement avec une nouvelle particule, menant à une potentielle propagation de l'activité dans le système. Cette dynamique présente une transition de phase absorbante dont le paramètre d'ordre est la fraction volumique $\phi$ de particules dans le système et dont l'activité $A$ correspond à la proportion de particules actives. Pour $\phi>\phi_c$, le système traverse des configurations où il existe toujours au moins un recouvrement entre particules ($A>0$). Cependant, pour $\phi<\phi_c$, le système finit par tomber dans une configuration où toutes les particules sont suffisamment éloignées pour qu'aucunes ne se recouvrent ($A=0$). Une telle configuration est un état absorbant puisque sans le déplacement d'une particule active, aucune particule passive ne peut le devenir. 
+\subparagraph{}Dans le cadre de ce modèle, $N$ particules sphériques de diamètre $D_p$ sont positionnées dans un espace de $D$ dimensions et d'extension spatiale $L$. Chacune de ces $N$ particules peut alors prendre deux états à chaque pas de temps : si la particule se recouvre avec une autre particule elle est active, sinon elle est passive. Lorsqu'une particule est active, celle-ci est soumise à un déplacement d'amplitude aléatoire, modifiant sa position dans l'espace continu. Ce déplacement représente alors la possibilité d'un recouvrement avec une nouvelle particule, menant à une potentielle propagation de l'activité dans le système. Cette dynamique présente une transition de phase absorbante dont le paramètre de contrôle est la fraction volumique $\phi$ de particules dans le système et dont l'activité $A$ correspond à la proportion de particules actives. Pour $\phi>\phi_c$, le système traverse des configurations où il existe toujours au moins un recouvrement entre particules ($A>0$). Cependant, pour $\phi<\phi_c$, le système finit par tomber dans une configuration où toutes les particules sont suffisamment éloignées pour qu'aucunes ne se recouvrent ($A=0$). Une telle configuration est un état absorbant puisque sans le déplacement d'une particule active, aucune particule passive ne peut le devenir. 
 
 \subparagraph{}Comme dans le cas du modèle Manna, le ROM possède un nombre infini d'états absorbants. En effet, chaque ensemble de position des particules $\{\mathbf{r}_i\}_{i<N}$ vérifiant $|\mathbf{r}_i-\mathbf{r}_j|<D_p$ pour tout $i\neq j$ est un état absorbant. Les positions étant continues, il y en a une infinité (et pas seulement dans la limite thermodynamique). Le ROM vérifie donc la première condition de la conjecture de Rossi et al. \cite{rossi_universality_2000}. Par ailleurs, de la même manière que dans le modèle Manna, ce modèle fait intervenir la dynamique non-diffusive de $N$ particules dont le nombre est conservé à chaque instant, vérifiant de ce fait la seconde condition de la conjecture. La seule différence ici est que l'activité est aussi représentée par les particules (actives) et non l'espace (comme c'est le cas dans le modèle Manna via la notion de sites actifs). Ce modèle est donc aussi un représentant de la classe CDP.
 
@@ -345,7 +345,7 @@ A \xrightarrow[]{\lambda} 2A, \quad A \xrightarrow[]{\gamma} \o,
 	A +B \xrightarrow[]{\lambda} 2A, \quad A \xrightarrow[]{\gamma} B,
 \end{equation}
 
-\noindent avec l'espèce $A$ diffusant avec un coefficient de diffusion $D_A$. Ces deux processus conservent alors le nombre total $N=N_A+N_B$ de particules, comme c'est le cas dans le modèle Manna et le ROM. Via ce formalisme, il est possible de définir une théorie de champ décrivant cette dynamique proche de celle de DP \cite{van_wijland_universality_2002, le_doussal_exact_2015} :
+\noindent avec l'espèce $A$ diffusant avec un coefficient de diffusion $D_A$ dans le cas continu. Ces deux processus conservent alors le nombre total $N=N_A+N_B$ de particules, comme c'est le cas dans le modèle Manna et le ROM. Via ce formalisme, il est possible de définir une théorie de champ décrivant cette dynamique proche de celle de DP \cite{van_wijland_universality_2002, le_doussal_exact_2015} :
 
 \begin{equation}
 \begin{aligned}
@@ -436,7 +436,7 @@ P_S(S) \sim S^{-\tau}g_S\left( \frac{S}{S_c} \right), \quad P_T(T) \sim T^{-\tau
 
 \label{sec:mapping_dep_cdp}
 
-\subparagraph{}L'intérêt de présenter la transition de dépiégeage dans le cadre de notre travail est que toute la richesse de ce phénomène longuement étudié se retrouve dans les modèles appartenant à la classe CDP. En effet, nous présentons dans cette partie les travaux de Le Doussal et Wiese qui montrent que la transition de dépiégeage peut être directement mise en équivalence avec l'universalité de la percolation dirigée conservée \cite{le_doussal_exact_2015, wiese_hyperuniformity_2024}.
+\subparagraph{}L'intérêt de présenter la transition de dépiégeage dans le cadre de notre travail est que toute la richesse de ce phénomène longuement étudié se retrouve dans les modèles appartenant à la classe CDP. En effet, nous présentons dans cette partie les travaux de Le Doussal et Wiese, confirmés par la suite par Janssen et Stenull \cite{janssen_directed_2016}, qui montrent que la transition de dépiégeage peut être directement mise en équivalence avec l'universalité de la percolation dirigée conservée \cite{le_doussal_exact_2015, wiese_hyperuniformity_2024}.
 
 \subparagraph{}La transition de dépiégeage peut être modélisée simplement par une équation du mouvement continue sur la ligne. Dans le cas où l'élasticité de la ligne est à courte portée, celle-ci prend la forme suivante \cite{fisher_collective_1998, wiese_theory_2022} :
 
