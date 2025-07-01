@@ -1,113 +1,99 @@
 \begin{thebibliography}{100}
 
-\bibitem{eckstein_self_diffusion_1977}
-E.~C. Eckstein, D.~G. Bailey, and A.~H. Shapiro, ``Self-diffusion of particles
-  in shear flow of a suspension,'' {\em Journal of Fluid Mechanics}, vol.~79,
-  pp.~191--208, Jan. 1977.
-
 \bibitem{breedveld_shear_induced_2001}
-V.~Breedveld, D.~van~den Ende, R.~Jongschaap, and J.~Mellema, ``Shear-induced
-  diffusion and rheology of noncolloidal suspensions: {Time} scales and
+V.~Breedveld, D.~{van den Ende}, R.~Jongschaap, and J.~Mellema, ``Shear-induced
+  diffusion and rheology of noncolloidal suspensions: {{Time}} scales and
   particle displacements,'' {\em The Journal of Chemical Physics}, vol.~114,
   pp.~5923--5936, Apr. 2001.
 
 \bibitem{drazer_microstructure_2004}
-G.~Drazer, J.~Koplik, B.~Khusid, and A.~Acrivos, ``Microstructure and velocity
+G.~DRAZER, J.~KOPLIK, B.~KHUSID, and A.~ACRIVOS, ``Microstructure and velocity
   fluctuations in sheared suspensions,'' {\em Journal of Fluid Mechanics},
-  vol.~511, pp.~237--263, July 2004.
+  vol.~511, p.~237–263, 2004.
 
 \bibitem{maegochi_critical_2021}
 S.~Maegochi, K.~Ienaga, and S.~Okuma, ``Critical behavior of density-driven and
-  shear-driven reversible–irreversible transitions in cyclically sheared
+  shear-driven reversible--irreversible transitions in cyclically sheared
   vortices,'' {\em Scientific Reports}, vol.~11, p.~19280, Sept. 2021.
-\newblock Number: 1 Publisher: Nature Publishing Group.
 
 \bibitem{pine_chaos_2005}
 D.~J. Pine, J.~P. Gollub, J.~F. Brady, and A.~M. Leshansky, ``Chaos and
   threshold for irreversibility in sheared suspensions,'' {\em Nature},
   vol.~438, pp.~997--1000, Dec. 2005.
-\newblock Number: 7070 Publisher: Nature Publishing Group.
 
 \bibitem{corte_random_2008}
-L.~Corté, P.~M. Chaikin, J.~P. Gollub, and D.~J. Pine, ``Random organization
-  in periodically driven systems,'' {\em Nature Physics}, vol.~4, pp.~420--424,
-  May 2008.
-\newblock Publisher: Nature Publishing Group.
+L.~Cort{\'e}, P.~M. Chaikin, J.~P. Gollub, and D.~J. Pine, ``Random
+  organization in periodically driven systems,'' {\em Nature Physics}, vol.~4,
+  pp.~420--424, May 2008.
 
 \bibitem{dollet_rheology_2014}
-B.~Dollet and C.~Raufaste, ``Rheology of aqueous foams,'' {\em Comptes Rendus
-  Physique}, vol.~15, pp.~731--747, Oct. 2014.
+B.~Dollet and C.~Raufaste, ``{Rheology of aqueous foams},'' {\em Comptes
+  Rendus. Physique}, vol.~15, no.~8-9, pp.~731--747, 2014.
 
 \bibitem{moller_origin_2009}
-P.~C.~F. Møller, A.~Fall, and D.~Bonn, ``Origin of apparent viscosity in yield
-  stress fluids below yielding,'' {\em Europhysics Letters}, vol.~87, p.~38004,
-  Aug. 2009.
+P.~C.~F. M{\o}ller, A.~Fall, and D.~Bonn, ``Origin of apparent viscosity in
+  yield stress fluids below yielding,'' {\em Europhysics Letters}, vol.~87,
+  p.~38004, Aug. 2009.
 
 \bibitem{bonn_yield_2017}
 D.~Bonn, M.~M. Denn, L.~Berthier, T.~Divoux, and S.~Manneville, ``Yield stress
   materials in soft condensed matter,'' {\em Reviews of Modern Physics},
   vol.~89, p.~035005, Aug. 2017.
-\newblock Publisher: American Physical Society.
 
 \bibitem{nicolas_deformation_2018}
 A.~Nicolas, E.~E. Ferrero, K.~Martens, and J.-L. Barrat, ``Deformation and flow
-  of amorphous solids: {Insights} from elastoplastic models,'' {\em Reviews of
-  Modern Physics}, vol.~90, p.~045006, Dec. 2018.
-\newblock Publisher: American Physical Society.
+  of amorphous solids: {{Insights}} from elastoplastic models,'' {\em Reviews
+  of Modern Physics}, vol.~90, p.~045006, Dec. 2018.
 
 \bibitem{princen_rheology_1986}
 H.~M. Princen and A.~D. Kiss, ``Rheology of foams and highly concentrated
-  emulsions: {III}. {Static} shear modulus,'' {\em Journal of Colloid and
+  emulsions: {{III}}. {{Static}} shear modulus,'' {\em Journal of Colloid and
   Interface Science}, vol.~112, pp.~427--437, Aug. 1986.
 
 \bibitem{biance_topological_2009}
-A.-L. Biance, S.~Cohen-Addad, and R.~Höhler, ``Topological transition dynamics
-  in a strained bubble cluster,'' {\em Soft Matter}, vol.~5, pp.~4672--4679,
-  Nov. 2009.
-\newblock Publisher: The Royal Society of Chemistry.
+A.-L. Biance, S.~{Cohen-Addad}, and R.~H{\"o}hler, ``Topological transition
+  dynamics in a strained bubble cluster,'' {\em Soft Matter}, vol.~5,
+  pp.~4672--4679, Nov. 2009.
 
 \bibitem{picard_elastic_2004}
 G.~Picard, A.~Ajdari, F.~Lequeux, and L.~Bocquet, ``Elastic consequences of a
-  single plastic event : a step towards the microscopic modeling of the flow of
-  yield stress fluids,'' {\em The European Physical Journal E}, vol.~15,
+  single plastic event: {{A}} step towards the microscopic modeling of the flow
+  of yield stress fluids,'' {\em The European Physical Journal E}, vol.~15,
   pp.~371--381, Dec. 2004.
-\newblock arXiv:cond-mat/0403647.
 
 \bibitem{mari_absorbing_2022}
 R.~Mari, E.~Bertin, and C.~Nardini, ``Absorbing phase transitions in systems
   with mediated interactions,'' {\em Physical Review E}, vol.~105, p.~L032602,
   Mar. 2022.
-\newblock Publisher: American Physical Society.
 
 \bibitem{xie_mechanism_2014}
 H.~Xie, F.~Yin, T.~Yu, J.-T. Wang, and C.~Liang, ``Mechanism for direct
   graphite-to-diamond phase transition,'' {\em Scientific Reports}, vol.~4,
   p.~5930, Aug. 2014.
-\newblock Publisher: Nature Publishing Group.
 
 \bibitem{theodorakopoulos_order_2000}
-N.~Theodorakopoulos, T.~Dauxois, and M.~Peyrard, ``Order of the {Phase}
-  {Transition} in {Models} of {DNA} {Thermal} {Denaturation},'' {\em Physical
+N.~Theodorakopoulos, T.~Dauxois, and M.~Peyrard, ``Order of the {{Phase
+  Transition}} in {{Models}} of {{DNA Thermal Denaturation}},'' {\em Physical
   Review Letters}, vol.~85, pp.~6--9, July 2000.
-\newblock Publisher: American Physical Society.
 
 \bibitem{bishop_study_1980}
-D.~J. Bishop, ``Study of the superfluid transition in two-dimensional $^4${H}e
-  films,'' {\em Physical Review B}, vol.~22, no.~11, pp.~5171--5185, 1980.
+D.~J. Bishop and J.~D. Reppy, ``Study of the superfluid transition in
+  two-dimensional
+  \${\textasciicircum}\{4\}{\textbackslash}mathrm\{\vphantom\}{{He}}\vphantom\{\}\$
+  films,'' {\em Physical Review B}, vol.~22, pp.~5171--5185, Dec. 1980.
 
 \bibitem{kardar_statistical_2007}
-M.~Kardar, {\em Statistical {Physics} of {Fields}}.
-\newblock Cambridge: Cambridge University Press, 2007.
+M.~Kardar, {\em Statistical Physics of Fields}.
+\newblock Cambridge University Press, 2007.
 
 \bibitem{lubeck_universal_2004}
-S.~Lubeck, ``Universal scaling behavior of non-equilibrium phase transitions,''
-  {\em International Journal of Modern Physics B}, vol.~18, pp.~3977--4118,
-  Dec. 2004.
-\newblock arXiv:cond-mat/0501259.
+S.~L{\"u}beck, ``Universal scaling behavior of non-equilibrium phase
+  transitions,'' {\em International Journal of Modern Physics B}, vol.~18,
+  pp.~3977--4118, Dec. 2004.
 
 \bibitem{hinrichsen_non_equilibrium_2000}
-H.~Hinrichsen, ``Non-equilibrium critical phenomena and phase transitions into
-  absorbing states,'' {\em Advances in Physics}, vol.~49, pp.~815--958, Nov.
+H.~H. and, ``Non-equilibrium critical phenomena and phase transitions into
+  absorbing states,'' {\em Advances in Physics}, vol.~49, no.~7, pp.~815--958,
   2000.
 
 \bibitem{dickman_nonequilibrium_2002}
@@ -123,25 +109,24 @@ E.~V. Albano, ``Spreading analysis and finite-size scaling study of the
 
 \bibitem{janssen_nonequilibrium_1981}
 H.~K. Janssen, ``On the nonequilibrium phase transition in reaction-diffusion
-  systems with an absorbing stationary state,'' {\em Zeitschrift für Physik B
-  Condensed Matter}, vol.~42, pp.~151--154, June 1981.
+  systems with an absorbing stationary state,'' {\em Zeitschrift f{\"u}r Physik
+  B Condensed Matter}, vol.~42, pp.~151--154, June 1981.
 
 \bibitem{grassberger_phase_1982}
-P.~Grassberger, ``On phase transitions in {Schlögl}'s second model,'' {\em
-  Zeitschrift fur Physik B Condensed Matter}, vol.~47, pp.~365--374, Dec. 1982.
-\newblock Publisher: Springer ADS Bibcode: 1982ZPhyB..47..365G.
+P.~Grassberger, ``On phase transitions in {{Schl{\"o}gl}}'s second model,''
+  {\em Zeitschrift f{\"u}r Physik B Condensed Matter}, vol.~47, pp.~365--374,
+  Dec. 1982.
 
 \bibitem{tauber_applications_2005}
-U.~C. Täuber, M.~Howard, and B.~P. Vollmayr-Lee, ``Applications of
-  field-theoretic renormalization group methods to reaction–diffusion
+U.~C. T{\"a}uber, M.~Howard, and B.~P. {Vollmayr-Lee}, ``Applications of
+  field-theoretic renormalization group methods to reaction--diffusion
   problems,'' {\em Journal of Physics A: Mathematical and General}, vol.~38,
   p.~R79, Apr. 2005.
 
 \bibitem{rossi_universality_2000}
-M.~Rossi, R.~Pastor-Satorras, and A.~Vespignani, ``Universality {Class} of
-  {Absorbing} {Phase} {Transitions} with a {Conserved} {Field},'' {\em Physical
+M.~Rossi, R.~{Pastor-Satorras}, and A.~Vespignani, ``Universality {{Class}} of
+  {{Absorbing Phase Transitions}} with a {{Conserved Field}},'' {\em Physical
   Review Letters}, vol.~85, pp.~1803--1806, Aug. 2000.
-\newblock Publisher: American Physical Society.
 
 \bibitem{manna_two_state_1991}
 S.~S. Manna, ``Two-state model of self-organized criticality,'' {\em Journal of
@@ -152,76 +137,70 @@ E.~Tjhung and L.~Berthier, ``Criticality and correlated dynamics at the
   irreversibility transition in periodically driven colloidal suspensions,''
   {\em Journal of Statistical Mechanics: Theory and Experiment}, vol.~2016,
   p.~033501, Mar. 2016.
-\newblock Publisher: IOP Publishing and SISSA.
 
 \bibitem{van_wijland_wilson_1998}
-F.~van Wijland, K.~Oerding, and H.~J. Hilhorst, ``Wilson renormalization of a
-  reaction–diffusion process,'' {\em Physica A: Statistical Mechanics and its
+F.~{van Wijland}, K.~Oerding, and H.~J. Hilhorst, ``Wilson renormalization of a
+  reaction--diffusion process,'' {\em Physica A: Statistical Mechanics and its
   Applications}, vol.~251, pp.~179--201, Mar. 1998.
 
 \bibitem{pastor_satorras_reaction_diffusion_2001}
-R.~Pastor-Satorras and A.~Vespignani, ``Reaction-diffusion system with
+R.~{Pastor-Satorras} and A.~Vespignani, ``Reaction-diffusion system with
   self-organized critical behavior,'' {\em The European Physical Journal B -
   Condensed Matter and Complex Systems}, vol.~19, pp.~583--587, Feb. 2001.
 
 \bibitem{pastor_satorras_field_2000}
-R.~Pastor-Satorras and A.~Vespignani, ``Field theory of absorbing phase
+R.~{Pastor-Satorras} and A.~Vespignani, ``Field theory of absorbing phase
   transitions with a nondiffusive conserved field,'' {\em Physical Review E},
   vol.~62, pp.~R5875--R5878, Nov. 2000.
-\newblock Publisher: American Physical Society.
 
 \bibitem{van_wijland_universality_2002}
-F.~van Wijland, ``Universality {Class} of {Nonequilibrium} {Phase}
-  {Transitions} with {Infinitely} {Many} {Absorbing} {States},'' {\em Physical
+F.~{van Wijland}, ``Universality {{Class}} of {{Nonequilibrium Phase
+  Transitions}} with {{Infinitely Many Absorbing States}},'' {\em Physical
   Review Letters}, vol.~89, p.~190602, Oct. 2002.
-\newblock Publisher: American Physical Society.
 
 \bibitem{le_doussal_exact_2015}
-P.~Le~Doussal and K.~J. Wiese, ``Exact {Mapping} of the {Stochastic} {Field}
-  {Theory} for {Manna} {Sandpiles} to {Interfaces} in {Random} {Media},'' {\em
-  Physical Review Letters}, vol.~114, p.~110601, Mar. 2015.
-\newblock Publisher: American Physical Society.
+P.~Le~Doussal and K.~J. Wiese, ``Exact {{Mapping}} of the {{Stochastic Field
+  Theory}} for {{Manna Sandpiles}} to {{Interfaces}} in {{Random Media}},''
+  {\em Physical Review Letters}, vol.~114, p.~110601, Mar. 2015.
 
 \bibitem{fisher_collective_1998}
-D.~S. Fisher, ``Collective transport in random media: from superconductors to
+D.~S. Fisher, ``Collective transport in random media: From superconductors to
   earthquakes,'' {\em Physics Reports}, vol.~301, pp.~113--150, July 1998.
 
 \bibitem{wiese_theory_2022}
 K.~J. Wiese, ``Theory and experiments for disordered elastic manifolds,
   depinning, avalanches, and sandpiles,'' {\em Reports on Progress in Physics},
   vol.~85, p.~086502, Aug. 2022.
-\newblock Publisher: IOP Publishing.
 
 \bibitem{narayan_threshold_1993}
-O.~Narayan, ``Threshold critical dynamics of driven interfaces in random
-  media,'' {\em Physical Review B}, vol.~48, no.~10, pp.~7030--7042, 1993.
+O.~Narayan and D.~S. Fisher, ``Threshold critical dynamics of driven interfaces
+  in random media,'' {\em Physical Review B}, vol.~48, pp.~7030--7042, Sept.
+  1993.
 
 \bibitem{rosso_avalanche_size_2009}
 A.~Rosso, P.~Le~Doussal, and K.~J. Wiese, ``Avalanche-size distribution at the
-  depinning transition: {A} numerical test of the theory,'' {\em Physical
+  depinning transition: {{A}} numerical test of the theory,'' {\em Physical
   Review B}, vol.~80, p.~144204, Oct. 2009.
-\newblock Publisher: American Physical Society.
 
 \bibitem{le_doussal_statistics_2009}
 P.~Le~Doussal, A.~A. Middleton, and K.~J. Wiese, ``Statistics of static
   avalanches in a random pinning landscape,'' {\em Physical Review E}, vol.~79,
   p.~050101, May 2009.
-\newblock Publisher: American Physical Society.
 
 \bibitem{le_doussal_size_2009}
-P.~Le~Doussal, ``Size distributions of shocks and static avalanches from the
-  functional renormalization group,'' {\em Physical Review E}, vol.~79, no.~5,
-  2009.
+P.~Le~Doussal and K.~J. Wiese, ``Size distributions of shocks and static
+  avalanches from the functional renormalization group,'' {\em Physical Review
+  E}, vol.~79, p.~051106, May 2009.
 
 \bibitem{le_priol_long_range_2020}
-C.~Le~Priol, {\em Long-range interactions in the avalanches of elastic
-  interfaces}.
-\newblock These de doctorat, Université Paris sciences et lettres, Nov. 2020.
+C.~Le~Priol, {\em Long-Range Interactions in the Avalanches of Elastic
+  Interfaces}.
+\newblock These de doctorat, Universit{\'e} Paris sciences et lettres, Nov.
+  2020.
 
 \bibitem{bak_self_organized_1988}
 P.~Bak, C.~Tang, and K.~Wiesenfeld, ``Self-organized criticality,'' {\em
   Physical Review A}, vol.~38, pp.~364--374, July 1988.
-\newblock Publisher: American Physical Society.
 
 \bibitem{turcotte_self_organized_1999}
 D.~L. Turcotte, ``Self-organized criticality,'' {\em Reports on Progress in
@@ -231,54 +210,45 @@ D.~L. Turcotte, ``Self-organized criticality,'' {\em Reports on Progress in
 H.-K. Janssen and O.~Stenull, ``Directed percolation with a conserved field and
   the depinning transition,'' {\em Physical Review E}, vol.~94, p.~042138, Oct.
   2016.
-\newblock Publisher: American Physical Society.
 
 \bibitem{wiese_hyperuniformity_2024}
-K.~J. Wiese, ``Hyperuniformity in the {Manna} {Model}, {Conserved} {Directed}
-  {Percolation} and {Depinning},'' {\em Physical Review Letters}, vol.~133,
+K.~J. Wiese, ``Hyperuniformity in the {{Manna Model}}, {{Conserved Directed
+  Percolation}} and {{Depinning}},'' {\em Physical Review Letters}, vol.~133,
   p.~067103, Aug. 2024.
-\newblock Publisher: American Physical Society.
 
 \bibitem{nattermann_dynamics_1992}
 T.~Nattermann, S.~Stepanow, L.-H. Tang, and H.~Leschhorn, ``Dynamics of
   interface depinning in a disordered medium,'' {\em Journal de Physique II},
   vol.~2, pp.~1483--1488, Aug. 1992.
-\newblock Publisher: EDP Sciences.
 
 \bibitem{lubeck_moment_2000}
-S.~Lübeck, ``Moment analysis of the probability distribution of different
-  sandpile models,'' {\em Physical Review E}, vol.~61, no.~1, pp.~204--209,
-  2000.
+S.~L{\"u}beck, ``Moment analysis of the probability distribution of different
+  sandpile models,'' {\em Physical Review E}, vol.~61, pp.~204--209, Jan. 2000.
 
 \bibitem{dickman_paths_2000}
-R.~Dickman, M.~A. Muñoz, A.~Vespignani, and S.~Zapperi, ``Paths to
+R.~Dickman, M.~A. Mu{\~n}oz, A.~Vespignani, and S.~Zapperi, ``Paths to
   self-organized criticality,'' {\em Brazilian Journal of Physics}, vol.~30,
   pp.~27--41, Mar. 2000.
-\newblock Publisher: Sociedade Brasileira de Física.
 
 \bibitem{munoz_avalanche_1999}
-M.~A. Muñoz, R.~Dickman, A.~Vespignani, and S.~Zapperi, ``Avalanche and
+M.~A. Mu{\~n}oz, R.~Dickman, A.~Vespignani, and S.~Zapperi, ``Avalanche and
   spreading exponents in systems with absorbing states,'' {\em Physical Review
   E}, vol.~59, pp.~6175--6179, May 1999.
-\newblock Publisher: American Physical Society.
 
 \bibitem{tjhung_hyperuniform_2015}
-E.~Tjhung and L.~Berthier, ``Hyperuniform {Density} {Fluctuations} and
-  {Diverging} {Dynamic} {Correlations} in {Periodically} {Driven} {Colloidal}
-  {Suspensions},'' {\em Physical Review Letters}, vol.~114, p.~148301, Apr.
+E.~Tjhung and L.~Berthier, ``Hyperuniform {{Density Fluctuations}} and
+  {{Diverging Dynamic Correlations}} in {{Periodically Driven Colloidal
+  Suspensions}},'' {\em Physical Review Letters}, vol.~114, p.~148301, Apr.
   2015.
-\newblock Publisher: American Physical Society.
 
 \bibitem{hexner_hyperuniformity_2015}
-D.~Hexner and D.~Levine, ``Hyperuniformity of {Critical} {Absorbing}
-  {States},'' {\em Physical Review Letters}, vol.~114, p.~110602, Mar. 2015.
-\newblock Publisher: American Physical Society.
+D.~Hexner and D.~Levine, ``Hyperuniformity of {{Critical Absorbing States}},''
+  {\em Physical Review Letters}, vol.~114, p.~110602, Mar. 2015.
 
 \bibitem{weijs_emergent_2015}
 J.~H. Weijs, R.~Jeanneret, R.~Dreyfus, and D.~Bartolo, ``Emergent
-  {Hyperuniformity} in {Periodically} {Driven} {Emulsions},'' {\em Physical
+  {{Hyperuniformity}} in {{Periodically Driven Emulsions}},'' {\em Physical
   Review Letters}, vol.~115, p.~108301, Sept. 2015.
-\newblock Publisher: American Physical Society.
 
 \bibitem{kimMicrohydrodynamicsPrinciplesSelected1991}
 S.~Kim and S.~J. Karrila, {\em Microhydrodynamics: Principles and Selected
@@ -287,26 +257,23 @@ S.~Kim and S.~J. Karrila, {\em Microhydrodynamics: Principles and Selected
   Butterworth-Heinemann, 1991.
 
 \bibitem{diamant_hydrodynamic_2009}
-H.~Diamant, ``Hydrodynamic interaction in confined geometries,'' {\em Journal
-  of the Physical Society of Japan}, vol.~78, p.~041002, Apr. 2009.
-\newblock arXiv:0812.4971 [cond-mat, physics:physics].
+H.~Diamant, ``Hydrodynamic {{Interaction}} in {{Confined Geometries}},'' {\em
+  Journal of the Physical Society of Japan}, vol.~78, p.~041002, Apr. 2009.
 
 \bibitem{lin_scaling_2014}
 J.~Lin, E.~Lerner, A.~Rosso, and M.~Wyart, ``Scaling description of the
   yielding transition in soft amorphous solids at zero temperature,'' {\em
   Proceedings of the National Academy of Sciences}, vol.~111, pp.~14382--14387,
   Oct. 2014.
-\newblock arXiv:1403.6735 [cond-mat].
 
 \bibitem{ferrero_elastic_2019}
-E.~E. Ferrero and E.~A. Jagla, ``Elastic interfaces on disordered substrates:
-  {From} mean-field depinning to yielding,'' {\em Physical Review Letters},
-  vol.~123, p.~218002, Nov. 2019.
-\newblock arXiv:1905.08771 [cond-mat].
+E.~E. Ferrero and E.~A. Jagla, ``Elastic {{Interfaces}} on {{Disordered
+  Substrates}}: {{From Mean-Field Depinning}} to {{Yielding}},'' {\em Physical
+  Review Letters}, vol.~123, p.~218002, Nov. 2019.
 
 \bibitem{tyukodi_depinning_2016}
 B.~Tyukodi, S.~Patinet, S.~Roux, and D.~Vandembroucq, ``From depinning
-  transition to plastic yielding of amorphous media: {A} soft-modes
+  transition to plastic yielding of amorphous media: {{A}} soft-modes
   perspective,'' {\em Physical Review E}, vol.~93, p.~063005, June 2016.
 
 \bibitem{eshelby_determination_1997}
@@ -314,109 +281,99 @@ J.~D. Eshelby and R.~E. Peierls, ``The determination of the elastic field of an
   ellipsoidal inclusion, and related problems,'' {\em Proceedings of the Royal
   Society of London. Series A. Mathematical and Physical Sciences}, vol.~241,
   pp.~376--396, Jan. 1997.
-\newblock Publisher: Royal Society.
 
 \bibitem{desmond_measurement_2015}
-K.~W. Desmond and E.~R. Weeks, ``Measurement of {Stress} {Redistribution} in
-  {Flowing} {Emulsions},'' {\em Physical Review Letters}, vol.~115, p.~098302,
+K.~W. Desmond and E.~R. Weeks, ``Measurement of {{Stress Redistribution}} in
+  {{Flowing Emulsions}},'' {\em Physical Review Letters}, vol.~115, p.~098302,
   Aug. 2015.
-\newblock Publisher: American Physical Society.
 
 \bibitem{schott_multiscale_2024}
-F.~Schott, B.~Dollet, S.~Santucci, C.~M. Schlepütz, C.~Claudet, S.~Gstöhl,
-  C.~Raufaste, and R.~Mokso, ``Multiscale stress dynamics in sheared liquid
-  foams revealed by tomo-rheoscopy.'' Nov. 2024.
+F.~Schott, B.~Dollet, S.~Santucci, C.~M. Schlep{\"u}tz, C.~Claudet,
+  S.~Gst{\"o}hl, C.~Raufaste, and R.~Mokso, ``Multiscale stress dynamics in
+  sheared liquid foams revealed by tomo-rheoscopy,'' Nov. 2024.
 
 \bibitem{jensen_local_2014}
 K.~E. Jensen, D.~A. Weitz, and F.~Spaepen, ``Local shear transformations in
   deformed and quiescent hard-sphere colloidal glasses,'' {\em Physical Review
   E}, vol.~90, p.~042305, Oct. 2014.
-\newblock Publisher: American Physical Society.
 
 \bibitem{kabla_local_2003}
-A.~Kabla, ``Local {Stress} {Relaxation} and {Shear} {Banding} in a {Dry} {Foam}
-  under {Shear},'' {\em Physical Review Letters}, vol.~90, no.~25, 2003.
+A.~Kabla and G.~Debr{\'e}geas, ``Local {{Stress Relaxation}} and {{Shear
+  Banding}} in a {{Dry Foam}} under {{Shear}},'' {\em Physical Review Letters},
+  vol.~90, p.~258303, June 2003.
 
 \bibitem{maloney_amorphous_2006}
-C.~E. Maloney, ``Amorphous systems in athermal, quasistatic shear,'' {\em
-  Physical Review E}, vol.~74, no.~1, 2006.
+C.~E. Maloney and A.~Lema{\^i}tre, ``Amorphous systems in athermal, quasistatic
+  shear,'' {\em Physical Review E}, vol.~74, p.~016118, July 2006.
 
 \bibitem{tanguy_plastic_2006}
-A.~Tanguy, F.~Leonforte, and J.~L. Barrat, ``Plastic response of a {2D}
-  {Lennard}-{Jones} amorphous solid: {Detailed} analysis of the local
+A.~Tanguy, F.~Leonforte, and J.-L. Barrat, ``Plastic response of a {{2D
+  Lennard-Jones}} amorphous solid: {{Detailed}} analysis of the local
   rearrangements at very slow strain rate,'' {\em The European Physical Journal
   E}, vol.~20, pp.~355--364, July 2006.
 
 \bibitem{metzger_irreversibility_2010}
-B.~Metzger, ``Irreversibility and chaos: {Role} of long-range hydrodynamic
-  interactions in sheared suspensions,'' {\em Physical Review E}, vol.~82,
-  no.~5, 2010.
+B.~Metzger and J.~E. Butler, ``Irreversibility and chaos: {{Role}} of
+  long-range hydrodynamic interactions in sheared suspensions,'' {\em Physical
+  Review E}, vol.~82, p.~051406, Nov. 2010.
 
 \bibitem{agrawal_dense_2024}
 N.~K. Agrawal, Z.~Ge, M.~Trulsson, O.~Tammisola, and L.~Brandt, ``Dense
-  {Suspensions} in {Rotary} {Shear},'' Nov. 2024.
-\newblock arXiv:2411.13463 [cond-mat].
+  {{Suspensions}} in {{Rotary Shear}},'' Nov. 2024.
 
 \bibitem{liu_driving_2016}
-C.~Liu, E.~E. Ferrero, F.~Puosi, J.-L. Barrat, and K.~Martens, ``Driving rate
-  dependence of avalanche statistics and shapes at the yielding transition,''
-  {\em Physical Review Letters}, vol.~116, p.~065501, Feb. 2016.
-\newblock arXiv:1506.08161 [cond-mat].
+C.~Liu, E.~E. Ferrero, F.~Puosi, J.-L. Barrat, and K.~Martens, ``Driving {{Rate
+  Dependence}} of {{Avalanche Statistics}} and {{Shapes}} at the {{Yielding
+  Transition}},'' {\em Physical Review Letters}, vol.~116, p.~065501, Feb.
+  2016.
 
 \bibitem{ferrero_criticality_2019}
 E.~E. Ferrero and E.~A. Jagla, ``Criticality in elastoplastic models of
   amorphous solids with stress-dependent yielding rates,'' {\em Soft Matter},
-  vol.~15, no.~44, pp.~9041--9055, 2019.
+  vol.~15, pp.~9041--9055, Nov. 2019.
 
 \bibitem{picard_slow_2005}
 G.~Picard, A.~Ajdari, F.~Lequeux, and L.~Bocquet, ``Slow flows of yield stress
-  fluids: complex spatio-temporal behaviour within a simple elasto-plastic
-  model,'' {\em Physical Review E : Statistical, Nonlinear, and Soft Matter
-  Physics}, vol.~71, p.~010501, 2005.
-
-\bibitem{lin_mean-field_2016}
-J.~Lin and M.~Wyart, ``Mean-{Field} {Description} of {Plastic} {Flow} in
-  {Amorphous} {Solids},'' {\em Physical Review X}, vol.~6, p.~011005, Jan.
-  2016.
-\newblock Publisher: American Physical Society.
+  fluids: {{Complex}} spatiotemporal behavior within a simple elastoplastic
+  model,'' {\em Physical Review E}, vol.~71, p.~010501, Jan. 2005.
 
 \bibitem{hinrichsen_non_equilibrium_2007}
-H.~Hinrichsen, ``Non-equilibrium {Phase} {Transitions} with {Long}-{Range}
-  {Interactions},'' {\em Journal of Statistical Mechanics: Theory and
-  Experiment}, vol.~2007, pp.~P07006--P07006, July 2007.
-\newblock arXiv:cond-mat/0702169.
+H.~Hinrichsen, ``Non-equilibrium phase transitions with long-range
+  interactions,'' {\em Journal of Statistical Mechanics: Theory and
+  Experiment}, vol.~2007, p.~P07006, July 2007.
 
 \bibitem{fisher_critical_1972}
-M.~E. Fisher, ``Critical {Exponents} for {Long}-{Range} {Interactions},'' {\em
-  Physical Review Letters}, vol.~29, no.~14, pp.~917--920, 1972.
+M.~E. Fisher, S.-k. Ma, and B.~G. Nickel, ``Critical {{Exponents}} for
+  {{Long-Range Interactions}},'' {\em Physical Review Letters}, vol.~29,
+  pp.~917--920, Oct. 1972.
 
 \bibitem{janssen_levy_flight_1999}
-H.~K. Janssen, K.~Oerding, F.~v. Wijland, and H.~J. Hilhorst, ``Lévy-flight
+H.~Janssen, K.~Oerding, F.~{van Wijland}, and H.~Hilhorst, ``L{\'e}vy-flight
   spreading of epidemic processes leading to percolating clusters,'' {\em The
-  European Physical Journal B}, vol.~7, pp.~137--145, Jan. 1999.
-\newblock Number: 1 Publisher: EDP Sciences.
+  European Physical Journal B - Condensed Matter and Complex Systems}, vol.~7,
+  pp.~137--145, Jan. 1999.
 
 \bibitem{chessa_universality_1999}
 A.~Chessa, H.~E. Stanley, A.~Vespignani, and S.~Zapperi, ``Universality in
   sandpiles,'' {\em Physical Review E}, vol.~59, pp.~R12--R15, Jan. 1999.
-\newblock Publisher: American Physical Society.
 
 \bibitem{chessa_critical_1999}
 A.~Chessa, A.~Vespignani, and S.~Zapperi, ``Critical exponents in stochastic
-  sandpile models,'' {\em Computer Physics Communications}, vol.~121-122,
+  sandpile models,'' {\em Computer Physics Communications}, vol.~121--122,
   pp.~299--302, Sept. 1999.
 
 \bibitem{rosso_depinning_2003}
-A.~Rosso, ``Depinning of elastic manifolds,'' {\em Physical Review E}, vol.~67,
-  no.~2, 2003.
+A.~Rosso, A.~K. Hartmann, and W.~Krauth, ``Depinning of elastic manifolds,''
+  {\em Physical Review E}, vol.~67, p.~021602, Feb. 2003.
 
 \bibitem{wiese_longrange}
 K.~Wiese, T.~Jocteur, R.~Mari, and E.~Bertin, ``Hyperuniformity in the manna
-  model for long-range toppling,'' à paraître.
+  model for long-range toppling,'' \a` para\^itre.
 
 \bibitem{le_doussal_two_loop_2002}
-P.~Le~Doussal, ``Two-loop functional renormalization group theory of the
-  depinning transition,'' {\em Physical Review B}, vol.~66, no.~17, 2002.
+P.~Le~Doussal, K.~J. Wiese, and P.~Chauve, ``Two-loop functional
+  renormalization group theory of the depinning transition,'' {\em Physical
+  Review B}, vol.~66, p.~174201, Nov. 2002.
 
 \bibitem{hinrichsen_model_1999}
 H.~Hinrichsen and M.~Howard, ``A model for anomalous directed percolation,''
@@ -424,59 +381,61 @@ H.~Hinrichsen and M.~Howard, ``A model for anomalous directed percolation,''
   vol.~7, pp.~635--643, Feb. 1999.
 
 \bibitem{dos_santos_crossover_2018}
-T.~B. dos Santos, C.~I.~N. Sampaio~Filho, N.~A.~M. Araújo, C.~L.~N. Oliveira,
-  and A.~A. Moreira, ``Crossover from mean-field to 2d directed percolation in
-  the contact process,'' {\em Physica A: Statistical Mechanics and its
+T.~B. {dos Santos}, C.~I.~N. Sampaio~Filho, N.~A.~M. Ara{\'u}jo, C.~L.~N.
+  Oliveira, and A.~A. Moreira, ``Crossover from mean-field to
+  2d{$<$}math{$><$}mn is="true"{$>$}2{$<$}/mn{$><$}mi
+  is="true"{$>$}d{$<$}/mi{$><$}/math{$>$} {{Directed Percolation}} in the
+  contact process,'' {\em Physica A: Statistical Mechanics and its
   Applications}, vol.~512, pp.~352--358, Dec. 2018.
 
 \bibitem{tanguy_individual_1998}
 A.~Tanguy, M.~Gounelle, and S.~Roux, ``From individual to collective pinning:
-  {Effect} of long-range elastic interactions,'' {\em Physical Review E},
+  {{Effect}} of long-range elastic interactions,'' {\em Physical Review E},
   vol.~58, pp.~1577--1590, Aug. 1998.
 
 \bibitem{rosso_roughness_2002}
-A.~Rosso, ``Roughness at the depinning threshold for a long-range elastic
-  string,'' {\em Physical Review E}, vol.~65, no.~2, 2002.
+A.~Rosso and W.~Krauth, ``Roughness at the depinning threshold for a long-range
+  elastic string,'' {\em Physical Review E}, vol.~65, p.~025101, Jan. 2002.
 
 \bibitem{ramanathan_onset_1998}
-S.~Ramanathan, ``Onset of propagation of planar cracks in heterogeneous
-  media,'' {\em Physical Review B}, vol.~58, no.~10, pp.~6026--6046, 1998.
+S.~Ramanathan and D.~S. Fisher, ``Onset of propagation of planar cracks in
+  heterogeneous media,'' {\em Physical Review B}, vol.~58, pp.~6026--6046,
+  Sept. 1998.
 
 \bibitem{zhao_interface_2013}
-B.~Zhao, ``Interface pinning of immiscible gravity-exchange flows in porous
-  media,'' {\em Physical Review E}, vol.~87, no.~2, 2013.
+B.~Zhao, C.~W. MacMinn, M.~L. Szulczewski, J.~A. Neufeld, H.~E. Huppert, and
+  R.~Juanes, ``Interface pinning of immiscible gravity-exchange flows in porous
+  media,'' {\em Physical Review E}, vol.~87, p.~023015, Feb. 2013.
 
 \bibitem{alava_disorder_induced_1996}
-M.~J. Alava, ``Disorder-induced roughening in the three-dimensional {Ising}
-  model,'' {\em Physical Review B}, vol.~54, no.~21, pp.~14990--14993, 1996.
+M.~J. Alava and P.~M. Duxbury, ``Disorder-induced roughening in the
+  three-dimensional {{Ising}} model,'' {\em Physical Review B}, vol.~54,
+  pp.~14990--14993, Dec. 1996.
 
 \bibitem{sanhedrai_epidemics_2022}
 H.~Sanhedrai and S.~Havlin, ``Epidemics on evolving networks with varying
   degrees,'' {\em New Journal of Physics}, vol.~24, p.~053002, May 2022.
-\newblock Publisher: IOP Publishing.
 
 \bibitem{mota_critical_2018}
-M.~P.~S. Mota, G.~A. Alves, A.~Macedo-Filho, and T.~F.~A. Alves, ``Critical
-  behavior of {SIS} model on two-dimensional quasiperiodic tilings,'' {\em
+M.~P.~S. Mota, G.~A. Alves, A.~{Macedo-Filho}, and T.~F.~A. Alves, ``Critical
+  behavior of {{SIS}} model on two-dimensional quasiperiodic tilings,'' {\em
   Physica A: Statistical Mechanics and its Applications}, vol.~510,
   pp.~577--586, Nov. 2018.
 
 \bibitem{nettuno_role_2024}
-B.~Nettuno, D.~Toffenetti, C.~Metzl, L.~Weigand, F.~Raßhofer, R.~Swiderski,
+B.~Nettuno, D.~Toffenetti, C.~Metzl, L.~Weigand, F.~Ra{\ss}hofer, R.~Swiderski,
   and E.~Frey, ``The role of mobility in epidemics near criticality,'' {\em
   Journal of Physics A: Mathematical and Theoretical}, vol.~57, p.~405002,
   Sept. 2024.
-\newblock Publisher: IOP Publishing.
 
 \bibitem{devroye_general_1986}
-L.~Devroye, ``General {Principles} in {Random} {Variate} {Generation},'' in
-  {\em Non-{Uniform} {Random} {Variate} {Generation}} (L.~Devroye, ed.),
+L.~Devroye, ``General {{Principles}} in {{Random Variate Generation}},'' in
+  {\em Non-{{Uniform Random Variate Generation}}} (L.~Devroye, ed.),
   pp.~27--82, New York, NY: Springer, 1986.
 
 \bibitem{allen_computer_2017}
-M.~P. Allen and D.~J. Tildesley, {\em Computer {Simulation} of {Liquids}}.
-\newblock Oxford University Press, Aug. 2017.
-\newblock Google-Books-ID: WFExDwAAQBAJ.
+M.~P. Allen and D.~J. Tildesley, {\em Computer Simulation of Liquids}.
+\newblock Oxford University Press, 06 2017.
 
 \bibitem{cuda}
 NVIDIA, P.~Vingelmann, and F.~H. Fitzek, ``Cuda, release: 10.2.89,'' 2020.
@@ -487,34 +446,31 @@ R.~Dickman and R.~Vidigal, ``Quasi-stationary distributions for stochastic
   and General}, vol.~35, p.~1147, Jan. 2002.
 
 \bibitem{torquato_local_2003}
-S.~Torquato, ``Local density fluctuations, hyperuniformity, and order
-  metrics,'' {\em Physical Review E}, vol.~68, no.~4, 2003.
+S.~Torquato and F.~H. Stillinger, ``Local density fluctuations,
+  hyperuniformity, and order metrics,'' {\em Physical Review E}, vol.~68,
+  p.~041113, Oct. 2003.
 
 \bibitem{lei_non_equilibrium_2024}
 Y.~Lei and R.~Ni, ``Non-equilibrium dynamic hyperuniform states,'' {\em Journal
   of Physics: Condensed Matter}, vol.~37, p.~023004, Oct. 2024.
-\newblock Publisher: IOP Publishing.
 
 \bibitem{bub_lee_hyperuniformity_2019}
 S.~Bub~Lee, ``Hyperuniformity and absorbing phase transition in continuous
   media with a conserved field,'' {\em Journal of Statistical Mechanics: Theory
   and Experiment}, vol.~2019, p.~053201, May 2019.
-\newblock Publisher: IOP Publishing and SISSA.
 
 \bibitem{hexner_noise_2017}
-D.~Hexner and D.~Levine, ``Noise, {Diffusion}, and {Hyperuniformity},'' {\em
-  Physical Review Letters}, vol.~118, p.~020601, Jan. 2017.
-\newblock Publisher: American Physical Society.
+D.~Hexner and D.~Levine, ``Noise, {{Diffusion}}, and {{Hyperuniformity}},''
+  {\em Physical Review Letters}, vol.~118, p.~020601, Jan. 2017.
 
 \bibitem{hexner_enhanced_2017}
 D.~Hexner, P.~M. Chaikin, and D.~Levine, ``Enhanced hyperuniformity from random
   reorganization,'' {\em Proceedings of the National Academy of Sciences},
   vol.~114, pp.~4294--4299, Apr. 2017.
-\newblock Publisher: Proceedings of the National Academy of Sciences.
 
 \bibitem{ma_hyperuniformity_2019}
-Z.~Ma, ``Hyperuniformity of generalized random organization models,'' {\em
-  Physical Review E}, vol.~99, no.~2, 2019.
+Z.~Ma and S.~Torquato, ``Hyperuniformity of generalized random organization
+  models,'' {\em Physical Review E}, vol.~99, p.~022115, Feb. 2019.
 
 \bibitem{wiese_blabla}
 ``Conversations privées avec {K}. {W}iese.''
@@ -522,7 +478,6 @@ Z.~Ma, ``Hyperuniformity of generalized random organization models,'' {\em
 \bibitem{barkema_universality_2003}
 G.~T. Barkema and E.~Carlon, ``Universality in the pair contact process with
   diffusion,'' {\em Physical Review E}, vol.~68, p.~036113, Sept. 2003.
-\newblock Publisher: American Physical Society.
 
 \bibitem{ge_rheology_2022}
 Z.~Ge and G.~J. Elfring, ``Rheology of periodically sheared suspensions
@@ -533,120 +488,97 @@ Z.~Ge and G.~J. Elfring, ``Rheology of periodically sheared suspensions
 J.~S. Guasto, A.~S. Ross, and J.~P. Gollub, ``Hydrodynamic irreversibility in
   particle suspensions with nonuniform strain,'' {\em Physical Review E},
   vol.~81, p.~061401, June 2010.
-\newblock Publisher: American Physical Society.
 
 \bibitem{farhadi_shear_induced_2017}
-S.~Farhadi and P.~E. Arratia, ``Shear-induced reversibility of {2D} colloidal
+S.~Farhadi and P.~E. Arratia, ``Shear-induced reversibility of {{2D}} colloidal
   suspensions in the presence of minimal thermal noise,'' {\em Soft Matter},
   vol.~13, pp.~4278--4284, June 2017.
-\newblock Publisher: The Royal Society of Chemistry.
 
 \bibitem{menon_universality_2009}
-G.~I. Menon, ``Universality class of the reversible-irreversible transition in
-  sheared suspensions,'' {\em Physical Review E}, vol.~79, no.~6, 2009.
+G.~I. Menon and S.~Ramaswamy, ``Universality class of the
+  reversible-irreversible transition in sheared suspensions,'' {\em Physical
+  Review E}, vol.~79, p.~061108, June 2009.
 
 \bibitem{abramowitz_handbook_1965}
-M.~Abramowitz and I.~A. Stegun, eds., {\em Handbook of {Mathematical}
-  {Functions}: with {Formulas}, {Graphs}, and {Mathematical} {Tables}}.
-\newblock New York, NY: Dover Publications, 0009-revised edition~ed., June
-  1965.
-
-\bibitem{rossi_finite-disorder_2022}
-S.~Rossi, G.~Biroli, M.~Ozawa, G.~Tarjus, and F.~Zamponi, ``Finite-{Disorder}
-  {Critical} {Point} in the {Yielding} {Transition} of {Elastoplastic}
-  {Models},'' {\em Physical Review Letters}, vol.~129, p.~228002, Nov. 2022.
-\newblock Publisher: American Physical Society.
+M.~Abramowitz and I.~A. Stegun, {\em {{HANDBOOK OF MATHEMATICAL FUNCTIONS}} :
+  {{With}} Formulas, Graphs, and Mathematical Tables}.
+\newblock New York NY: Dover publications, 1970.
 
 \bibitem{cooley_algorithm_1965}
 J.~W. Cooley and J.~W. Tukey, ``An algorithm for the machine calculation of
-  complex {Fourier} series,'' {\em Mathematics of Computation}, vol.~19,
+  complex {{Fourier}} series,'' {\em Mathematics of Computation}, vol.~19,
   no.~90, pp.~297--301, 1965.
 
-\bibitem{hebraud_mode-coupling_1998}
-P.~Hebraud and F.~Lequeux, ``Mode-{Coupling} {Theory} for the {Pasty}
-  {Rheology} of {Soft} {Glassy} {Materials},'' {\em Physical Review Letters},
+\bibitem{hebraud_mode_coupling_1998}
+P.~H{\'e}braud and F.~Lequeux, ``Mode-{{Coupling Theory}} for the {{Pasty
+  Rheology}} of {{Soft Glassy Materials}},'' {\em Physical Review Letters},
   vol.~81, pp.~2934--2937, Oct. 1998.
-\newblock Publisher: American Physical Society.
 
 \bibitem{lin_microscopic_2018}
 J.~Lin and M.~Wyart, ``Microscopic processes controlling the
-  {Herschel}-{Bulkley} exponent,'' {\em Physical Review E}, vol.~97, p.~012603,
+  {{Herschel-Bulkley}} exponent,'' {\em Physical Review E}, vol.~97, p.~012603,
   Jan. 2018.
 
 \bibitem{lubeck_universal_2003}
-S.~Lübeck, ``Universal finite-size scaling behavior and universal dynamical
-  scaling behavior of absorbing phase transitions with a conserved field,''
-  {\em Physical Review E}, vol.~68, no.~5, 2003.
+S.~L{\"u}beck and P.~C. Heger, ``Universal finite-size scaling behavior and
+  universal dynamical scaling behavior of absorbing phase transitions with a
+  conserved field,'' {\em Physical Review E}, vol.~68, p.~056102, Nov. 2003.
 
 \bibitem{vespignani_absorbing_state_2000}
-A.~Vespignani, R.~Dickman, M.~A. Muñoz, and S.~Zapperi, ``Absorbing-state
+A.~Vespignani, R.~Dickman, M.~A. Mu{\~n}oz, and S.~Zapperi, ``Absorbing-state
   phase transitions in fixed-energy sandpiles,'' {\em Physical Review E},
   vol.~62, pp.~4564--4582, Oct. 2000.
-\newblock Publisher: American Physical Society.
 
 \bibitem{herschel_konsistenzmessungen_1926}
-W.~H. Herschel and R.~Bulkley, ``Konsistenzmessungen von
-  {Gummi}-{Benzollösungen},'' {\em Kolloid-Zeitschrift}, vol.~39,
+W.~H. Herschel and R.~Bulkley, ``{Konsistenzmessungen von
+  Gummi-Benzoll{\"o}sungen},'' {\em Kolloid-Zeitschrift}, vol.~39,
   pp.~291--300, Aug. 1926.
 
 \bibitem{katgert_flow_2009}
-G.~Katgert, A.~Latka, M.~E. Möbius, and M.~van Hecke, ``Flow in linearly
-  sheared two-dimensional foams: {From} bubble to bulk scale,'' {\em Physical
+G.~Katgert, A.~Latka, M.~E. M{\"o}bius, and M.~{van Hecke}, ``Flow in linearly
+  sheared two-dimensional foams: {{From}} bubble to bulk scale,'' {\em Physical
   Review E}, vol.~79, p.~066318, June 2009.
-\newblock Publisher: American Physical Society.
 
 \bibitem{becu_yielding_2006}
-L.~Becu, S.~Manneville, and A.~Colin, ``Yielding and {Flow} in {Adhesive} and
-  {Nonadhesive} {Concentrated} {Emulsions},'' {\em Physical Review Letters},
-  vol.~96, p.~138302, Apr. 2006.
-\newblock Publisher: American Physical Society.
+L.~B{\'e}cu, S.~Manneville, and A.~Colin, ``Yielding and {{Flow}} in
+  {{Adhesive}} and {{Nonadhesive Concentrated Emulsions}},'' {\em Physical
+  Review Letters}, vol.~96, p.~138302, Apr. 2006.
 
 \bibitem{jop_microscale_2012}
 P.~Jop, V.~Mansard, P.~Chaudhuri, L.~Bocquet, and A.~Colin, ``Microscale
-  {Rheology} of a {Soft} {Glassy} {Material} {Close} to {Yielding},'' {\em
+  {{Rheology}} of a {{Soft Glassy Material Close}} to {{Yielding}},'' {\em
   Physical Review Letters}, vol.~108, p.~148301, Apr. 2012.
-\newblock Publisher: American Physical Society.
 
 \bibitem{ovarlez_rheopexy_2013}
 G.~Ovarlez, L.~Tocquer, F.~Bertrand, and P.~Coussot, ``Rheopexy and tunable
   yield stress of carbon black suspensions,'' {\em Soft Matter}, vol.~9,
   pp.~5540--5549, May 2013.
-\newblock Publisher: The Royal Society of Chemistry.
 
 \bibitem{besseling_three_dimensional_2007}
 R.~Besseling, E.~R. Weeks, A.~B. Schofield, and W.~C.~K. Poon,
-  ``Three-{Dimensional} {Imaging} of {Colloidal} {Glasses} under {Steady}
-  {Shear},'' {\em Physical Review Letters}, vol.~99, p.~028301, July 2007.
-\newblock Publisher: American Physical Society.
+  ``Three-{{Dimensional Imaging}} of {{Colloidal Glasses}} under {{Steady
+  Shear}},'' {\em Physical Review Letters}, vol.~99, p.~028301, July 2007.
 
 \bibitem{delbecq_rheological_2023}
-V.~Delbecq, P.~Carrez, and P.~Cordier, ``Rheological properties of {Mg2SiO4}
-  glass: {A} molecular dynamics study,'' {\em Journal of Non-Crystalline
+V.~Delbecq, P.~Carrez, and P.~Cordier, ``Rheological properties of {{Mg2SiO4}}
+  glass: {{A}} molecular dynamics study,'' {\em Journal of Non-Crystalline
   Solids}, vol.~619, p.~122572, Nov. 2023.
 
 \bibitem{fusco_rheological_2014}
 C.~Fusco, T.~Albaret, and A.~Tanguy, ``Rheological properties vs. local
   dynamics in model disordered materials at low temperature,'' {\em The
-  European Physical Journal E}, vol.~37, pp.~1--9, May 2014.
-\newblock Company: Springer Distributor: Springer Institution: Springer Label:
-  Springer Number: 5 Publisher: Springer Berlin Heidelberg.
-
-\bibitem{hebraud_mode_coupling_1998}
-P.~Hebraud and F.~Lequeux, ``Mode-{Coupling} {Theory} for the {Pasty}
-  {Rheology} of {Soft} {Glassy} {Materials},'' {\em Physical Review Letters},
-  vol.~81, pp.~2934--2937, Oct. 1998.
+  European Physical Journal E}, vol.~37, p.~43, May 2014.
 
 \bibitem{olivier_fluides_2011}
-J.~Olivier, {\em Fluides vitreux, sutures craniofaciales, diffusion reactive :
-  quelques contributions à l'etude de ces systèmes multi-echelles ou
-  singuliers}.
-\newblock Thèse de doctorat, Universite de Grenoble, July 2011.
+J.~Olivier, {\em Fluides Vitreux, Sutures Craniofaciales, Diffusion
+  R{\'e}active : Quelques Contributions {\`a} l'{\'e}tude de Ces Syst{\`e}mes
+  Multi-{\'E}chelles Ou Singuliers}.
+\newblock These de doctorat, Grenoble, July 2011.
 
 \bibitem{bertin_stochastic_2022}
 E.~Bertin, ``Stochastic resetting of a population of random walks with
   resetting-rate-dependent diffusivity,'' {\em Journal of Physics A:
   Mathematical and Theoretical}, vol.~55, p.~384007, Aug. 2022.
-\newblock Publisher: IOP Publishing.
 
 \bibitem{agoritsas_relevance_2015}
 E.~Agoritsas, E.~Bertin, K.~Martens, and J.-L. Barrat, ``On the relevance of
@@ -655,27 +587,25 @@ E.~Agoritsas, E.~Bertin, K.~Martens, and J.-L. Barrat, ``On the relevance of
 
 \bibitem{bouchaud_spontaneous_2016}
 J.-P. Bouchaud, S.~Gualdi, M.~Tarzia, and F.~Zamponi, ``Spontaneous
-  instabilities and stick-slip motion in a generalized {Hebraud}–{Lequeux}
-  model,'' {\em Soft Matter}, vol.~12, pp.~1230--1237, Jan. 2016.
-\newblock Publisher: The Royal Society of Chemistry.
+  instabilities and stick-slip motion in a generalized
+  {{H{\'e}braud}}--{{Lequeux}} model,'' {\em Soft Matter}, vol.~12,
+  pp.~1230--1237, Jan. 2016.
 
 \bibitem{pan_experimental_2008}
 D.~Pan, A.~Inoue, T.~Sakurai, and M.~W. Chen, ``Experimental characterization
   of shear transformation zones for plastic flow of bulk metallic glasses,''
   {\em Proceedings of the National Academy of Sciences}, vol.~105,
   pp.~14769--14772, Sept. 2008.
-\newblock Publisher: Proceedings of the National Academy of Sciences.
 
 \bibitem{budrikis_universal_2017}
 Z.~Budrikis, D.~F. Castellanos, S.~Sandfeld, M.~Zaiser, and S.~Zapperi,
   ``Universal features of amorphous plasticity,'' {\em Nature Communications},
   vol.~8, p.~15928, July 2017.
-\newblock Number: 1 Publisher: Nature Publishing Group.
 
 \bibitem{martens_connecting_2011}
-K.~Martens, ``Connecting {Diffusion} and {Dynamical} {Heterogeneities} in
-  {Actively} {Deformed} {Amorphous} {Systems},'' {\em Physical Review Letters},
-  vol.~106, no.~15, 2011.
+K.~Martens, L.~Bocquet, and J.-L. Barrat, ``Connecting {{Diffusion}} and
+  {{Dynamical Heterogeneities}} in {{Actively Deformed Amorphous Systems}},''
+  {\em Physical Review Letters}, vol.~106, p.~156001, Apr. 2011.
 
 \bibitem{jagla_different_2017}
 E.~A. Jagla, ``Different universality classes at the yielding transition of
@@ -684,40 +614,37 @@ E.~A. Jagla, ``Different universality classes at the yielding transition of
 \bibitem{korchinski_thermally_2024}
 D.~J. Korchinski and J.~Rottler, ``Thermally activated intermittent flow in
   amorphous solids,'' {\em Soft Matter}, vol.~20, pp.~7891--7913, Oct. 2024.
-\newblock Publisher: The Royal Society of Chemistry.
 
 \bibitem{liu_critical_2016}
-C.~Liu, {\em Critical dynamics at the yielding transition and creep behavior of
-  amorphous systems : mesoscopic modeling}.
-\newblock Thèse de doctorat, Universite Grenoble Alpes, Nov. 2016.
+C.~Liu, {\em Critical Dynamics at the Yielding Transition and Creep Behavior of
+  Amorphous Systems : Mesoscopic Modeling}.
+\newblock PhD thesis, Universit{\'e} Grenoble Alpes, Nov. 2016.
 
 \bibitem{binder_finite_1981}
 K.~Binder, ``Finite size scaling analysis of ising model block distribution
-  functions,'' {\em Zeitschrift für Physik B Condensed Matter}, vol.~43,
+  functions,'' {\em Zeitschrift f{\"u}r Physik B Condensed Matter}, vol.~43,
   pp.~119--140, June 1981.
 
 \bibitem{martens_spontaneous_2012}
 K.~Martens, L.~Bocquet, and J.-L. Barrat, ``Spontaneous formation of permanent
   shear bands in a mesoscopic model of flowing disordered matter,'' {\em Soft
   Matter}, vol.~8, pp.~4197--4205, Mar. 2012.
-\newblock Publisher: The Royal Society of Chemistry.
 
 \bibitem{nishimori_elements_2015}
 H.~Nishimori, G.~Ortiz, H.~Nishimori, and G.~Ortiz, {\em Elements of {Phase}
   {Transitions} and {Critical} {Phenomena}}.
 \newblock Oxford {Graduate} {Texts}, Oxford, New York: Oxford University Press,
-  Oct. 2015.
+  2015.
 
 \bibitem{nicolas_ecoulements_2014}
-A.~Nicolas, {\em Ecoulements des solides amorphes : modelisation
-  elastoplastique et theorie de couplage de modes}.
+A.~Nicolas, {\em Ecoulements Des Solides Amorphes : Mod{\'e}lisation
+  {\'E}lastoplastique et Th{\'e}orie de Couplage de Modes}.
 \newblock These de doctorat, Grenoble, Oct. 2014.
 
 \bibitem{cao_localization_2018}
 X.~Cao, S.~Bouzat, A.~B. Kolton, and A.~Rosso, ``Localization of soft modes at
   the depinning transition,'' {\em Physical Review E}, vol.~97, p.~022118, Feb.
   2018.
-\newblock Publisher: American Physical Society.
 
 \bibitem{chowdhury_long_2016}
 S.~Chowdhury, S.~Abraham, T.~Hudson, and P.~Harrowell, ``Long range stress
@@ -725,10 +652,9 @@ S.~Chowdhury, S.~Abraham, T.~Hudson, and P.~Harrowell, ``Long range stress
   Journal of Chemical Physics}, vol.~144, p.~124508, Mar. 2016.
 
 \bibitem{maier_emergence_2017}
-M.~Maier, A.~Zippelius, and M.~Fuchs, ``Emergence of {Long}-{Ranged} {Stress}
-  {Correlations} at the {Liquid} to {Glass} {Transition},'' {\em Physical
+M.~Maier, A.~Zippelius, and M.~Fuchs, ``Emergence of {{Long-Ranged Stress
+  Correlations}} at the {{Liquid}} to {{Glass Transition}},'' {\em Physical
   Review Letters}, vol.~119, p.~265701, Dec. 2017.
-\newblock Publisher: American Physical Society.
 
 \bibitem{lerner_simple_2020}
 E.~Lerner, ``Simple argument for emergent anisotropic stress correlations in
@@ -738,159 +664,138 @@ E.~Lerner, ``Simple argument for emergent anisotropic stress correlations in
 \bibitem{semeikin_roughness_2024}
 M.~N. Semeikin and K.~J. Wiese, ``Roughness and critical force for depinning at
   3-loop order,'' {\em Physical Review B}, vol.~109, p.~134203, Apr. 2024.
-\newblock Publisher: American Physical Society.
 
 \bibitem{sun_plasticity_2010}
 B.~A. Sun, H.~B. Yu, W.~Jiao, H.~Y. Bai, D.~Q. Zhao, and W.~H. Wang,
-  ``Plasticity of {Ductile} {Metallic} {Glasses}: {A} {Self}-{Organized}
-  {Critical} {State},'' {\em Physical Review Letters}, vol.~105, p.~035501,
-  July 2010.
-\newblock Publisher: American Physical Society.
-
-\bibitem{lauridsen_shear-induced_2002}
-J.~Lauridsen, M.~Twardos, and M.~Dennin, ``Shear-{Induced} {Stress}
-  {Relaxation} in a {Two}-{Dimensional} {Wet} {Foam},'' {\em Physical Review
-  Letters}, vol.~89, p.~098303, Aug. 2002.
-\newblock Publisher: American Physical Society.
+  ``Plasticity of {{Ductile Metallic Glasses}}: {{A Self-Organized Critical
+  State}},'' {\em Physical Review Letters}, vol.~105, p.~035501, July 2010.
 
 \bibitem{salerno_effect_2013}
-K.~M. Salerno, ``Effect of inertia on sheared disordered solids: {Critical}
-  scaling of avalanches in two and three dimensions,'' {\em Physical Review E},
-  vol.~88, no.~6, 2013.
+K.~M. Salerno and M.~O. Robbins, ``Effect of inertia on sheared disordered
+  solids: {{Critical}} scaling of avalanches in two and three dimensions,''
+  {\em Physical Review E}, vol.~88, p.~062206, Dec. 2013.
 
 \bibitem{oyama_unified_2021}
 N.~Oyama, H.~Mizuno, and A.~Ikeda, ``Unified view of avalanche criticality in
   sheared glasses,'' {\em Physical Review E}, vol.~104, p.~015002, July 2021.
-\newblock Publisher: American Physical Society.
 
 \bibitem{talamali_avalanches_2011}
-M.~Talamali, V.~Petäjä, D.~Vandembroucq, and S.~Roux, ``Avalanches,
+M.~Talamali, V.~Pet{\"a}j{\"a}, D.~Vandembroucq, and S.~Roux, ``Avalanches,
   precursors, and finite-size fluctuations in a mesoscopic model of amorphous
   plasticity,'' {\em Physical Review E}, vol.~84, p.~016115, July 2011.
-\newblock Publisher: American Physical Society.
 
 \bibitem{denisov_universality_2016}
-D.~V. Denisov, K.~A. Lörincz, J.~T. Uhl, K.~A. Dahmen, and P.~Schall,
+D.~V. Denisov, K.~A. L{\"o}rincz, J.~T. Uhl, K.~A. Dahmen, and P.~Schall,
   ``Universality of slip avalanches in flowing granular matter,'' {\em Nature
   Communications}, vol.~7, p.~10641, Feb. 2016.
-\newblock Publisher: Nature Publishing Group.
 
 \bibitem{makinen_avalanches_2025}
-T.~Mäkinen, A.~D.~S. Parmar, S.~Bonfanti, and M.~J. Alava, ``Avalanches in
-  {Cu}-{Zr}-{Al} metallic glasses,'' {\em Physical Review E}, vol.~111,
+T.~M{\"a}kinen, A.~D.~S. Parmar, S.~Bonfanti, and M.~J. Alava, ``Avalanches in
+  {{Cu-Zr-Al}} metallic glasses,'' {\em Physical Review E}, vol.~111,
   p.~014107, Jan. 2025.
-\newblock Publisher: American Physical Society.
 
 \bibitem{le_priol_spatial_2021}
-C.~Le~Priol, ``Spatial {Clustering} of {Depinning} {Avalanches} in {Presence}
-  of {Long}-{Range} {Interactions},'' {\em Physical Review Letters}, vol.~126,
-  no.~2, 2021.
+C.~Le~Priol, P.~Le~Doussal, and A.~Rosso, ``Spatial {{Clustering}} of
+  {{Depinning Avalanches}} in {{Presence}} of {{Long-Range Interactions}},''
+  {\em Physical Review Letters}, vol.~126, p.~025702, Jan. 2021.
 
 \bibitem{jocteur_protocol_2025}
 T.~Jocteur, E.~Bertin, R.~Mari, and K.~Martens, ``Protocol dependence for
   avalanches under constant stress in elastoplastic models,'' {\em Physical
   Review E}, vol.~111, p.~024101, Feb. 2025.
-\newblock Publisher: American Physical Society.
 
 \bibitem{mackay_countoscope_2024}
-E.~K. Mackay, ``The {Countoscope}: {Measuring} {Self} and {Collective}
-  {Dynamics} without {Trajectories},'' {\em Physical Review X}, vol.~14, no.~4,
-  2024.
+E.~K.~R. Mackay, S.~Marbach, B.~Sprinkle, and A.~L. Thorneywork, ``The
+  {{Countoscope}}: {{Measuring Self}} and {{Collective Dynamics}} without
+  {{Trajectories}},'' {\em Physical Review X}, vol.~14, p.~041016, Oct. 2024.
 
 \bibitem{jeanneret_geometrically_2014}
 R.~Jeanneret and D.~Bartolo, ``Geometrically protected reversibility in
-  hydrodynamic {Loschmidt}-echo experiments,'' {\em Nature Communications},
+  hydrodynamic {{Loschmidt-echo}} experiments,'' {\em Nature Communications},
   vol.~5, p.~3474, Mar. 2014.
-\newblock Publisher: Nature Publishing Group.
 
 \bibitem{joanny_model_1984}
-J.~F. Joanny and P.~G. de~Gennes, ``A model for contact angle hysteresis,''
+J.~F. Joanny and P.~G. {de Gennes}, ``A model for contact angle hysteresis,''
   {\em The Journal of Chemical Physics}, vol.~81, pp.~552--562, July 1984.
 
 \bibitem{rosso_depiegeage_2002}
-A.~Rosso, {\em Dépiégeage de variétés élastiques en milieu aléatoire}.
-\newblock Thèse de doctorat, Paris 6, Jan. 2002.
+A.~Rosso, {\em {D{\'e}pi{\'e}geage de vari{\'e}t{\'e}s {\'e}lastiques en milieu
+  al{\'e}atoire}}.
+\newblock {thesis}, Paris 6, Jan. 2002.
 
 \bibitem{moulinet_roughness_2002}
 S.~Moulinet, C.~Guthmann, and E.~Rolley, ``Roughness and dynamics of a contact
   line of a viscous fluid on a disordered substrate,'' {\em The European
   Physical Journal E}, vol.~8, pp.~437--443, July 2002.
-\newblock Publisher: EDP Sciences.
 
 \bibitem{le_doussal_height_2009}
 P.~Le~Doussal, K.~J. Wiese, S.~Moulinet, and E.~Rolley, ``Height fluctuations
-  of a contact line: {A} direct measurement of the renormalized disorder
+  of a contact line: {{A}} direct measurement of the renormalized disorder
   correlator,'' {\em Europhysics Letters}, vol.~87, p.~56001, Sept. 2009.
 
 \bibitem{schmittbuhl_direct_1997}
-J.~Schmittbuhl and K.~J. Måløy, ``Direct {Observation} of a {Self}-{Affine}
-  {Crack} {Propagation},'' {\em Physical Review Letters}, vol.~78,
+J.~Schmittbuhl and K.~J. M{\aa}l{\o}y, ``Direct {{Observation}} of a
+  {{Self-Affine Crack Propagation}},'' {\em Physical Review Letters}, vol.~78,
   pp.~3888--3891, May 1997.
-\newblock Publisher: American Physical Society.
 
 \bibitem{delaplace_high_1999}
-A.~Delaplace, J.~Schmittbuhl, and K.~J. Måløy, ``High resolution description
-  of a crack front in a heterogeneous {Plexiglas} block,'' {\em Physical Review
-  E}, vol.~60, pp.~1337--1343, Aug. 1999.
-\newblock Publisher: American Physical Society.
+A.~Delaplace, J.~Schmittbuhl, and K.~J. M{\aa}l{\o}y, ``High resolution
+  description of a crack front in a heterogeneous {{Plexiglas}} block,'' {\em
+  Physical Review E}, vol.~60, pp.~1337--1343, Aug. 1999.
 
 \bibitem{santucci_fracture_2010}
 S.~Santucci, M.~Grob, R.~Toussaint, J.~Schmittbuhl, A.~Hansen, and K.~J.
-  Maløy, ``Fracture roughness scaling: {A} case study on planar cracks,'' {\em
-  Europhysics Letters}, vol.~92, p.~44001, Nov. 2010.
+  Mal{\o}y, ``Fracture roughness scaling: {{A}} case study on planar cracks,''
+  {\em Europhysics Letters}, vol.~92, p.~44001, Nov. 2010.
 
 \bibitem{le_priol_universal_2020}
 C.~Le~Priol, J.~Chopin, P.~Le~Doussal, L.~Ponson, and A.~Rosso, ``Universal
-  {Scaling} of the {Velocity} {Field} in {Crack} {Front} {Propagation},'' {\em
+  {{Scaling}} of the {{Velocity Field}} in {{Crack Front Propagation}},'' {\em
   Physical Review Letters}, vol.~124, p.~065501, Feb. 2020.
-\newblock Publisher: American Physical Society.
 
 \bibitem{goff_flow_2021}
-M.~L. Goff, {\em Flow and dynamics of driven and active amorphous materials : a
-  multi-scale modeling approach}.
-\newblock Thèse de doctorat, Université Grenoble Alpes, Mar. 2021.
+M.~L. Goff, {\em Flow and Dynamics of Driven and Active Amorphous Materials : A
+  Multi-Scale Modeling Approach}.
+\newblock PhD thesis, Universit{\'e} Grenoble Alpes [2020-....], Mar. 2021.
 
 \bibitem{noauthor_physique_nodate}
-{\em Physique et outils mathématiques ; méthodes et exemples - {Angel}
-  {Alastuey}, {Marc} {Magro}, {Pierre} {Pujol} - {Edp} {Sciences} - {Grand}
-  format - {Librairie} {Gallimard} {Paris}}.
+A.~Alastuey, M.~Magro, and P.~Pujol, {\em Physique et outils math{\'e}matiques:
+  M{\'e}thodes et exemples}.
+\newblock EDP sciences Les Ulis, France, 2008.
 
 \bibitem{lisicki_four_2013}
-M.~Lisicki, ``Four approaches to hydrodynamic {Green}'s functions -- the
-  {Oseen} tensors,'' Dec. 2013.
-\newblock arXiv:1312.6231 [physics].
+M.~Lisicki, ``Four approaches to hydrodynamic {{Green}}'s functions -- the
+  {{Oseen}} tensors,'' Dec. 2013.
 
 \bibitem{poularikas_transforms_2018}
-A.~D. Poularikas, ed., {\em Transforms and {Applications} {Handbook}}.
+A.~D. Poularikas, ed., {\em Transforms and {{Applications Handbook}}}.
 \newblock Boca Raton: CRC Press, 3~ed., Sept. 2018.
 
 \bibitem{zwillinger_6_7_2014}
-``6-7 - {Definite} {Integrals} of {Special} {Functions},'' in {\em Table of
-  {Integrals}, {Series}, and {Products} ({Eighth} {Edition})} (D.~Zwillinger,
-  V.~Moll, I.~S. Gradshteyn, and I.~M. Ryzhik, eds.), pp.~637--775, Boston:
-  Academic Press, Jan. 2014.
+``6-7 - {{Definite Integrals}} of {{Special Functions}},'' in {\em Table of
+  {{Integrals}}, {{Series}}, and {{Products}} ({{Eighth Edition}})}
+  (D.~Zwillinger, V.~Moll, I.~S. Gradshteyn, and I.~M. Ryzhik, eds.),
+  pp.~637--775, Boston: Academic Press, Jan. 2014.
 
 \bibitem{chechkin_fundamentals_2006}
 A.~V. Chechkin, V.~Y. Gonchar, J.~Klafter, and R.~Metzler, ``Fundamentals of
-  {Lévy} {Flight} {Processes},'' in {\em Fractals, {Diffusion}, and
-  {Relaxation} in {Disordered} {Complex} {Systems}}, pp.~439--496, John Wiley
-  \& Sons, Ltd, 2006.
+  {{L{\'e}vy Flight Processes}},'' in {\em Fractals, {{Diffusion}}, and
+  {{Relaxation}} in {{Disordered Complex Systems}}}, ch.~9, pp.~439--496, John
+  Wiley \& Sons, Ltd, 2006.
 
 \bibitem{jespersen_levy_1999}
-S.~Jespersen, R.~Metzler, and H.~C. Fogedby, ``Lévy flights in external force
-  fields: {Langevin} and fractional {Fokker}-{Planck} equations and their
-  solutions,'' {\em Physical Review E}, vol.~59, pp.~2736--2745, Mar. 1999.
-\newblock Publisher: American Physical Society.
+S.~Jespersen, R.~Metzler, and H.~C. Fogedby, ``L{\textbackslash}'evy flights in
+  external force fields: {{Langevin}} and fractional {{Fokker-Planck}}
+  equations and their solutions,'' {\em Physical Review E}, vol.~59,
+  pp.~2736--2745, Mar. 1999.
 
 \bibitem{chambers_method_1976}
-J.~M. Chambers, C.~L. Mallows, and B.~W. Stuck, ``A {Method} for {Simulating}
-  {Stable} {Random} {Variables},'' {\em Journal of the American Statistical
+J.~M. Chambers, C.~L. Mallows, and B.~W.~S. and, ``A method for simulating
+  stable random variables,'' {\em Journal of the American Statistical
   Association}, vol.~71, no.~354, pp.~340--344, 1976.
-\newblock Publisher: [American Statistical Association, Taylor \& Francis,
-  Ltd.].
 
 \bibitem{weron_chambers_mallows_stuck_1996}
-R.~Weron, ``On the {Chambers}-{Mallows}-{Stuck} method for simulating skewed
+R.~Weron, ``On the {{Chambers-Mallows-Stuck}} method for simulating skewed
   stable random variables,'' {\em Statistics \& Probability Letters}, vol.~28,
   pp.~165--171, June 1996.
 
@@ -905,25 +810,24 @@ H.~C. Brinkman, ``A calculation of the viscous force exerted by a flowing fluid
   vol.~1, pp.~27--34, Dec. 1949.
 
 \bibitem{weiss_finite_2014}
-J.~Weiss, L.~Girard, F.~Gimbert, D.~Amitrano, and D.~Vandembroucq, ``({Finite})
-  statistical size effects on compressive strength,'' {\em Proceedings of the
-  National Academy of Sciences}, vol.~111, pp.~6231--6236, Apr. 2014.
-\newblock Publisher: Proceedings of the National Academy of Sciences.
+J.~Weiss, L.~Girard, F.~Gimbert, D.~Amitrano, and D.~Vandembroucq,
+  ``({{Finite}}) statistical size effects on compressive strength,'' {\em
+  Proceedings of the National Academy of Sciences}, vol.~111, pp.~6231--6236,
+  Apr. 2014.
 
 \bibitem{dornic_integration_2005}
-I.~Dornic, H.~Chaté, and M.~A. Muñoz, ``Integration of {Langevin} {Equations}
-  with {Multiplicative} {Noise} and the {Viability} of {Field} {Theories} for
-  {Absorbing} {Phase} {Transitions},'' {\em Physical Review Letters}, vol.~94,
-  p.~100601, Mar. 2005.
-\newblock Publisher: American Physical Society.
+I.~Dornic, H.~Chat{\'e}, and M.~A. Mu{\~n}oz, ``Integration of {{Langevin
+  Equations}} with {{Multiplicative Noise}} and the {{Viability}} of {{Field
+  Theories}} for {{Absorbing Phase Transitions}},'' {\em Physical Review
+  Letters}, vol.~94, p.~100601, Mar. 2005.
 
 \bibitem{munoz_mean_field_2005}
-M.~A. Muñoz, ``Mean-field limit of systems with multiplicative noise,'' {\em
-  Physical Review E}, vol.~72, no.~5, 2005.
+M.~A. Mu{\~n}oz, F.~Colaiori, and C.~Castellano, ``Mean-field limit of systems
+  with multiplicative noise,'' {\em Physical Review E}, vol.~72, p.~056102,
+  Nov. 2005.
 
 \bibitem{munoz_multiplicative_2003}
-M.~A. Munoz, ``Multiplicative {Noise} in {Non}-equilibrium {Phase}
-  {Transitions}: {A} tutorial,'' May 2003.
-\newblock arXiv:cond-mat/0303650.
+M.~A. Munoz, ``Multiplicative {{Noise}} in {{Non-equilibrium Phase
+  Transitions}}: {{A}} tutorial,'' May 2003.
 
 \end{thebibliography}

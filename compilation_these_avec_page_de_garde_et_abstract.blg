@@ -3,51 +3,50 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: compilation_these_avec_page_de_garde_et_abstract.aux
 The style file: ieeetr.bst
 Database file #1: biblio.bib
-Warning--empty note in schott_multiscale_2024
-Warning--empty journal in wiese_longrange
-Warning--empty author and editor in noauthor_physique_nodate
-Warning--empty publisher in noauthor_physique_nodate
-Warning--empty year in noauthor_physique_nodate
+Warning--I didn't find a database entry for "eckstein_self_diffusion_1977"
+Warning--I didn't find a database entry for "lin_mean-field_2016"
+Warning--I didn't find a database entry for "rossi_finite-disorder_2022"
+Warning--I didn't find a database entry for "lauridsen_shear-induced_2002"
 Warning--empty author in zwillinger_6_7_2014
-You've used 172 entries,
+You've used 167 entries,
             1876 wiz_defined-function locations,
-            1359 strings with 32251 characters,
-and the built_in function-call counts, 49542 in all, are:
-= -- 5463
-> -- 1596
+            1353 strings with 32201 characters,
+and the built_in function-call counts, 49498 in all, are:
+= -- 5326
+> -- 1674
 < -- 0
-+ -- 607
-- -- 435
-* -- 3317
-:= -- 6670
-add.period$ -- 270
-call.type$ -- 172
-change.case$ -- 167
++ -- 624
+- -- 457
+* -- 3281
+:= -- 6503
+add.period$ -- 179
+call.type$ -- 167
+change.case$ -- 159
 chr.to.int$ -- 0
-cite$ -- 178
-duplicate$ -- 2744
-empty$ -- 4112
-format.name$ -- 435
-if$ -- 12347
+cite$ -- 168
+duplicate$ -- 2833
+empty$ -- 4054
+format.name$ -- 457
+if$ -- 12420
 int.to.chr$ -- 0
-int.to.str$ -- 172
-missing$ -- 164
-newline$ -- 618
-num.names$ -- 175
-pop$ -- 259
+int.to.str$ -- 167
+missing$ -- 160
+newline$ -- 517
+num.names$ -- 170
+pop$ -- 343
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2439
+skip$ -- 2706
 stack$ -- 0
-substring$ -- 3187
-swap$ -- 1513
+substring$ -- 3205
+swap$ -- 1666
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 6
-while$ -- 446
-width$ -- 175
-write$ -- 1874
-(There were 6 warnings)
+warning$ -- 1
+while$ -- 442
+width$ -- 170
+write$ -- 1648
+(There were 5 warnings)
