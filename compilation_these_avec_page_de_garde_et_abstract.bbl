@@ -1,5 +1,10 @@
 \begin{thebibliography}{100}
 
+\bibitem{Eckstein_Bailey_Shapiro_1977}
+E.~C. Eckstein, D.~G. Bailey, and A.~H. Shapiro, ``Self-diffusion of particles
+  in shear flow of a suspension,'' {\em Journal of Fluid Mechanics}, vol.~79,
+  no.~1, p.~191–208, 1977.
+
 \bibitem{breedveld_shear_induced_2001}
 V.~Breedveld, D.~{van den Ende}, R.~Jongschaap, and J.~Mellema, ``Shear-induced
   diffusion and rheology of noncolloidal suspensions: {{Time}} scales and
@@ -7,7 +12,7 @@ V.~Breedveld, D.~{van den Ende}, R.~Jongschaap, and J.~Mellema, ``Shear-induced
   pp.~5923--5936, Apr. 2001.
 
 \bibitem{drazer_microstructure_2004}
-G.~DRAZER, J.~KOPLIK, B.~KHUSID, and A.~ACRIVOS, ``Microstructure and velocity
+G.~Drazer, J.~Koplik, B.~Khusid, and A.~Acrivos, ``Microstructure and velocity
   fluctuations in sheared suspensions,'' {\em Journal of Fluid Mechanics},
   vol.~511, p.~237–263, 2004.
 
@@ -78,9 +83,8 @@ N.~Theodorakopoulos, T.~Dauxois, and M.~Peyrard, ``Order of the {{Phase
 
 \bibitem{bishop_study_1980}
 D.~J. Bishop and J.~D. Reppy, ``Study of the superfluid transition in
-  two-dimensional
-  \${\textasciicircum}\{4\}{\textbackslash}mathrm\{\vphantom\}{{He}}\vphantom\{\}\$
-  films,'' {\em Physical Review B}, vol.~22, pp.~5171--5185, Dec. 1980.
+  two-dimensional $^4\text{He}$ films,'' {\em Physical Review B}, vol.~22,
+  pp.~5171--5185, Dec. 1980.
 
 \bibitem{kardar_statistical_2007}
 M.~Kardar, {\em Statistical Physics of Fields}.
@@ -337,6 +341,11 @@ G.~Picard, A.~Ajdari, F.~Lequeux, and L.~Bocquet, ``Slow flows of yield stress
   fluids: {{Complex}} spatiotemporal behavior within a simple elastoplastic
   model,'' {\em Physical Review E}, vol.~71, p.~010501, Jan. 2005.
 
+\bibitem{lin_mean_field_2016}
+J.~Lin and M.~Wyart, ``Mean-{{Field Description}} of {{Plastic Flow}} in
+  {{Amorphous Solids}},'' {\em Physical Review X}, vol.~6, p.~011005, Jan.
+  2016.
+
 \bibitem{hinrichsen_non_equilibrium_2007}
 H.~Hinrichsen, ``Non-equilibrium phase transitions with long-range
   interactions,'' {\em Journal of Statistical Mechanics: Theory and
@@ -368,7 +377,7 @@ A.~Rosso, A.~K. Hartmann, and W.~Krauth, ``Depinning of elastic manifolds,''
 
 \bibitem{wiese_longrange}
 K.~Wiese, T.~Jocteur, R.~Mari, and E.~Bertin, ``Hyperuniformity in the manna
-  model for long-range toppling,'' \a` para\^itre.
+  model for long-range toppling,'' \`a para\^itre.
 
 \bibitem{le_doussal_two_loop_2002}
 P.~Le~Doussal, K.~J. Wiese, and P.~Chauve, ``Two-loop functional
@@ -382,11 +391,9 @@ H.~Hinrichsen and M.~Howard, ``A model for anomalous directed percolation,''
 
 \bibitem{dos_santos_crossover_2018}
 T.~B. {dos Santos}, C.~I.~N. Sampaio~Filho, N.~A.~M. Ara{\'u}jo, C.~L.~N.
-  Oliveira, and A.~A. Moreira, ``Crossover from mean-field to
-  2d{$<$}math{$><$}mn is="true"{$>$}2{$<$}/mn{$><$}mi
-  is="true"{$>$}d{$<$}/mi{$><$}/math{$>$} {{Directed Percolation}} in the
-  contact process,'' {\em Physica A: Statistical Mechanics and its
-  Applications}, vol.~512, pp.~352--358, Dec. 2018.
+  Oliveira, and A.~A. Moreira, ``Crossover from mean-field to 2d directed
+  percolation in the contact process,'' {\em Physica A: Statistical Mechanics
+  and its Applications}, vol.~512, pp.~352--358, Dec. 2018.
 
 \bibitem{tanguy_individual_1998}
 A.~Tanguy, M.~Gounelle, and S.~Roux, ``From individual to collective pinning:
@@ -503,6 +510,11 @@ G.~I. Menon and S.~Ramaswamy, ``Universality class of the
 M.~Abramowitz and I.~A. Stegun, {\em {{HANDBOOK OF MATHEMATICAL FUNCTIONS}} :
   {{With}} Formulas, Graphs, and Mathematical Tables}.
 \newblock New York NY: Dover publications, 1970.
+
+\bibitem{rossi_finite_disorder_2022}
+S.~Rossi, G.~Biroli, M.~Ozawa, G.~Tarjus, and F.~Zamponi, ``Finite-{{Disorder
+  Critical Point}} in the {{Yielding Transition}} of {{Elastoplastic
+  Models}},'' {\em Physical Review Letters}, vol.~129, p.~228002, Nov. 2022.
 
 \bibitem{cooley_algorithm_1965}
 J.~W. Cooley and J.~W. Tukey, ``An algorithm for the machine calculation of
@@ -670,6 +682,11 @@ B.~A. Sun, H.~B. Yu, W.~Jiao, H.~Y. Bai, D.~Q. Zhao, and W.~H. Wang,
   ``Plasticity of {{Ductile Metallic Glasses}}: {{A Self-Organized Critical
   State}},'' {\em Physical Review Letters}, vol.~105, p.~035501, July 2010.
 
+\bibitem{lauridsen_shear_induced_2002}
+J.~Lauridsen, M.~Twardos, and M.~Dennin, ``Shear-{{Induced Stress Relaxation}}
+  in a {{Two-Dimensional Wet Foam}},'' {\em Physical Review Letters}, vol.~89,
+  p.~098303, Aug. 2002.
+
 \bibitem{salerno_effect_2013}
 K.~M. Salerno and M.~O. Robbins, ``Effect of inertia on sheared disordered
   solids: {{Critical}} scaling of avalanches in two and three dimensions,''
@@ -784,10 +801,9 @@ A.~V. Chechkin, V.~Y. Gonchar, J.~Klafter, and R.~Metzler, ``Fundamentals of
   Wiley \& Sons, Ltd, 2006.
 
 \bibitem{jespersen_levy_1999}
-S.~Jespersen, R.~Metzler, and H.~C. Fogedby, ``L{\textbackslash}'evy flights in
-  external force fields: {{Langevin}} and fractional {{Fokker-Planck}}
-  equations and their solutions,'' {\em Physical Review E}, vol.~59,
-  pp.~2736--2745, Mar. 1999.
+S.~Jespersen, R.~Metzler, and H.~C. Fogedby, ``L\'evy flights in external force
+  fields: {{Langevin}} and fractional {{Fokker-Planck}} equations and their
+  solutions,'' {\em Physical Review E}, vol.~59, pp.~2736--2745, Mar. 1999.
 
 \bibitem{chambers_method_1976}
 J.~M. Chambers, C.~L. Mallows, and B.~W.~S. and, ``A method for simulating

@@ -170,7 +170,7 @@
 	\hat{G^2}(\mathbf{q}_i) = \hat{\mathcal{G}^2}(q), \quad q = \sqrt{\left( 2-2\cos \left( \frac{2\pi}{L}n \right) \right) + \left( 2-2\cos \left( \frac{2\pi}{L}m \right) \right)},
 \end{equation}
 
-\noindent la conversion du nombre d'onde sous sa forme discrète étant essentielle pour définir proprement le propagateur dans l'espace réciproque discret \cite{ferrero_criticality_2019, rossi_finite-disorder_2022}, comme nous l'expliquons dans l'\annexeref{sec:impl_disc_propag}.
+\noindent la conversion du nombre d'onde sous sa forme discrète étant essentielle pour définir proprement le propagateur dans l'espace réciproque discret \cite{ferrero_criticality_2019, rossi_finite_disorder_2022}, comme nous l'expliquons dans l'\annexeref{sec:impl_disc_propag}.
 
 \subparagraph{}Finalement, la valeur réelle de la convolution est obtenue en opérant une transformée de Fourier inverse discrète sur le produit. La forme alors obtenue par cette procédure pour $\alpha \in \{ 3, 2, 1.5 \}$ est présentée à la \autoref{fig:PropagTBLRR}-(a). Cette méthode de calcul de la convolution étant parallélisable, elle nous permet de conserver l'architecture GPU utilisée pour les simulations des modèles LR-ROM et LR-Manna. De plus, la méthode pseudo-spectrale permet de prendre en compte les conditions aux limites périodiques du système naturellement. Enfin, afin d'optimiser notre utilisation des fonctions de Fast Fourier Transform \cite{cooley_algorithm_1965}, nous privilégions les tailles de système de la forme $L = 2^p$ avec $p \in \mathbb{N}$.
 
@@ -449,7 +449,7 @@
 
 \subsection{Un cadre de description champ moyen}
 
-\subparagraph{}Dans le cadre de la transition vers l'écoulement des fluides à seuil, la présence d'un bruit mécanique issu des interactions à longue portée médiées par le milieu a fait l'objet de diverses études \cite{lin_mean-field_2016, ferrero_criticality_2019}. D'un point de vue champ moyen, cette interprétation permet d'établir un modèle permettant de rendre compte de la convexité de la transition observée expérimentalement. Ce modèle est le modèle de Hébraud-Lequeux\cite{hebraud_mode_coupling_1998}, que l'on présentera plus spécifiquement à la \autoref{sec:HL_def} du \autoref{chapter:yielding}. Du fait des similarités entre les transitions de réversibilité et d'écoulement présentées au \autoref{chapter:introduction}, notamment la présence d'un bruit interne, nous cherchons dans cette partie à définir un modèle équivalent au modèle Hébraud-Lequeux dans le cas de la transition de réversibilité afin de rendre compte des convexités mesurées dans la section précédente.
+\subparagraph{}Dans le cadre de la transition vers l'écoulement des fluides à seuil, la présence d'un bruit mécanique issu des interactions à longue portée médiées par le milieu a fait l'objet de diverses études \cite{lin_mean_field_2016, ferrero_criticality_2019}. D'un point de vue champ moyen, cette interprétation permet d'établir un modèle permettant de rendre compte de la convexité de la transition observée expérimentalement. Ce modèle est le modèle de Hébraud-Lequeux\cite{hebraud_mode_coupling_1998}, que l'on présentera plus spécifiquement à la \autoref{sec:HL_def} du \autoref{chapter:yielding}. Du fait des similarités entre les transitions de réversibilité et d'écoulement présentées au \autoref{chapter:introduction}, notamment la présence d'un bruit interne, nous cherchons dans cette partie à définir un modèle équivalent au modèle Hébraud-Lequeux dans le cas de la transition de réversibilité afin de rendre compte des convexités mesurées dans la section précédente.
 
 \subparagraph{}Pour ce faire, nous présenterons d'abord l'image champ moyen permettant d'établir un tel modèle. Nous montrerons alors que si celui-ci est très proche du modèle original de Hébraud-Lequeux, il existe entre ces deux formulations certaines différences. Malgré cela, nous montrerons par une résolution analytique que ce cadre d'interprétation champ moyen permet effectivement de décrire une transition convexe dans le cadre de la transition de réversibilité. Toujours inspiré du cadre de la transition vers l'écoulement, nous mettrons alors ce modèle à profit pour interpréter l'effet de la portée des interactions sur le comportement critique observé dans le $\alpha$-ROM.
 
@@ -600,7 +600,7 @@ P(\mathbf{r}) = \left\{
 
 \label{sec:LPHL}
 
-\subparagraph{}Dans le cadre de la transition vers l'écoulement, les auteurs de l'étude \cite{lin_mean-field_2016} ont montré que la modélisation gaussienne du bruit n'était pas toujours la plus pertinente pour décrire l'effet des interactions à longue portée dans le système. Dans cette partie, nous reprenons cet argument pour le transposer au modèle de suspensions.
+\subparagraph{}Dans le cadre de la transition vers l'écoulement, les auteurs de l'étude \cite{lin_mean_field_2016} ont montré que la modélisation gaussienne du bruit n'était pas toujours la plus pertinente pour décrire l'effet des interactions à longue portée dans le système. Dans cette partie, nous reprenons cet argument pour le transposer au modèle de suspensions.
 
 \paragraph{Interactions à longue portée et distributions de bruit interne}
 
@@ -634,7 +634,7 @@ P(\mathbf{r}) = \left\{
 
 \paragraph{Résultats dans le cadre de la transition vers l'écoulement}
 
-\subparagraph{}La généralisation du modèle de Hébraud-Lequeux à un bruit largement distribué a déjà été étudiée dans le cas de la transition vers l'écoulement. Via cette formulation, les auteurs des études \cite{lin_mean-field_2016, lin_microscopic_2018} sont parvenus à formuler des prédictions sur le comportement critique du modèle en fonction de l'exposant de bruit $\mu$. Dans cette partie, nous rappelons brièvement ces résultats. Ceux-ci sont en fait utiles à notre étude puisque l'on peut penser qu'ils se transposent à notre modèle $\mu$-Hébraud-Lequeux, de la même manière que dans le cas d'une diffusion normale.
+\subparagraph{}La généralisation du modèle de Hébraud-Lequeux à un bruit largement distribué a déjà été étudiée dans le cas de la transition vers l'écoulement. Via cette formulation, les auteurs des études \cite{lin_mean_field_2016, lin_microscopic_2018} sont parvenus à formuler des prédictions sur le comportement critique du modèle en fonction de l'exposant de bruit $\mu$. Dans cette partie, nous rappelons brièvement ces résultats. Ceux-ci sont en fait utiles à notre étude puisque l'on peut penser qu'ils se transposent à notre modèle $\mu$-Hébraud-Lequeux, de la même manière que dans le cas d'une diffusion normale.
 
 \subparagraph{}Par une étude quasistatique de la généralisation de l'\autoref{eq:HL_comp}, il a été montré que l'exposant $\beta$ caractérisant la transition vers l'écoulement via l'\autoref{eq:paramordre_HL} évoluait en fonction de $\mu$ selon :
 
@@ -649,9 +649,9 @@ P(\mathbf{r}) = \left\{
 	\label{eq:PredicBetaLW}
 \end{equation}
 
-\noindent retrouvant $\beta = 2$ dans la limite gaussienne et $\beta = 1$ dans la limite $\mu<1$ où la dynamique est dominée par le terme de forçage \cite{lin_mean-field_2016}.
+\noindent retrouvant $\beta = 2$ dans la limite gaussienne et $\beta = 1$ dans la limite $\mu<1$ où la dynamique est dominée par le terme de forçage \cite{lin_mean_field_2016}.
 
-\subparagraph{}Par ailleurs, dans cette même limite d'activité nulle ($P(\sigma>\sigma_Y)=0$), il a été démontré que la distribution $P(\sigma)$ présentait un comportement algébrique proche de la barrière $\sigma = \sigma_Y$ \cite{lin_mean-field_2016} :
+\subparagraph{}Par ailleurs, dans cette même limite d'activité nulle ($P(\sigma>\sigma_Y)=0$), il a été démontré que la distribution $P(\sigma)$ présentait un comportement algébrique proche de la barrière $\sigma = \sigma_Y$ \cite{lin_mean_field_2016} :
 
 \begin{equation}
 	P(\sigma_Y-\sigma) \sim (\sigma_Y-\sigma)^\theta,
@@ -669,7 +669,7 @@ P(\mathbf{r}) = \left\{
 	\label{eq:PredicThetaLW}
 \end{equation}
 
-\subparagraph{}Le modèle d'écoulement étudié dans \cite{lin_mean-field_2016, lin_microscopic_2018} permet donc de qualifier une évolution de la criticalité de la transition vers l'écoulement en fonction du bruit interne associé. \'Etant très similaire au modèle $\mu$-Hébraud-Lequeux établi dans le cas de la transition de réversibilité, nous nous demandons si nous pouvons transposer ces résultats analytiques à notre cadre d'interprétation champ moyen. En d'autres termes, l'\autoref{eq:PredicBetaLW} et l'\autoref{eq:PredicThetaLW} sont-elles toujours valables dans ce cas ?
+\subparagraph{}Le modèle d'écoulement étudié dans \cite{lin_mean_field_2016, lin_microscopic_2018} permet donc de qualifier une évolution de la criticalité de la transition vers l'écoulement en fonction du bruit interne associé. \'Etant très similaire au modèle $\mu$-Hébraud-Lequeux établi dans le cas de la transition de réversibilité, nous nous demandons si nous pouvons transposer ces résultats analytiques à notre cadre d'interprétation champ moyen. En d'autres termes, l'\autoref{eq:PredicBetaLW} et l'\autoref{eq:PredicThetaLW} sont-elles toujours valables dans ce cas ?
 
 \subparagraph{}Dans le cadre de l'image champ moyen que nous avons proposée pour la transition de réversibilité, l'exposant $\beta$ définit la relation entre l'activité $\Gamma$ et la taille de la cage effective $R$ selon :
 
@@ -687,7 +687,7 @@ P(\mathbf{r}) = \left\{
 
 \paragraph{Résolution numérique}
 
-\subparagraph{}Afin de confirmer que le modèle $\mu$-Hébraud-Lequeux suit bien le même comportement critique que dans le cas des études \cite{lin_mean-field_2016, lin_microscopic_2018}, nous proposons une résolution de l'\autoref{eq:muHL} par une méthode numérique originale. Celle-ci, détaillée dans l'\annexeref{sec:ResolNumMuHL}, consiste à interpréter cette équation comme une équation de Fokker-Planck généralisée et de la résoudre statistiquement par son équivalent en équation de Langevin avec diffusion anormale. Il est alors possible de déterminer l'évolution de $\Gamma$ avec $R$ et d'en déduire l'exposant critique $\beta$ associé. La méthode de détermination de l'exposant $\beta$ suit alors le même principe que celle dans le cas du $\alpha$-ROM. Les résultats obtenus en 1D et en 2D sont reportés sur la \autoref{fig:LHLNum} où nous avons aussi représenté le comportement prédit dans la théorie homologue pour la transition vers l'écoulement.
+\subparagraph{}Afin de confirmer que le modèle $\mu$-Hébraud-Lequeux suit bien le même comportement critique que dans le cas des études \cite{lin_mean_field_2016, lin_microscopic_2018}, nous proposons une résolution de l'\autoref{eq:muHL} par une méthode numérique originale. Celle-ci, détaillée dans l'\annexeref{sec:ResolNumMuHL}, consiste à interpréter cette équation comme une équation de Fokker-Planck généralisée et de la résoudre statistiquement par son équivalent en équation de Langevin avec diffusion anormale. Il est alors possible de déterminer l'évolution de $\Gamma$ avec $R$ et d'en déduire l'exposant critique $\beta$ associé. La méthode de détermination de l'exposant $\beta$ suit alors le même principe que celle dans le cas du $\alpha$-ROM. Les résultats obtenus en 1D et en 2D sont reportés sur la \autoref{fig:LHLNum} où nous avons aussi représenté le comportement prédit dans la théorie homologue pour la transition vers l'écoulement.
 
 \begin{figure}[h]
 	\centering

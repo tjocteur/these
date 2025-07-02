@@ -7,6 +7,10 @@
 \contentsline {subparagraph}{}{2}{Doc-Start}%
 \contentsline {subparagraph}{}{2}{Doc-Start}%
 \contentsline {subparagraph}{}{2}{Doc-Start}%
+\contentsline {subparagraph}{}{2}{Doc-Start}%
+\contentsline {subparagraph}{}{3}{Doc-Start}%
+\contentsline {subparagraph}{}{3}{Doc-Start}%
+\contentsline {subparagraph}{}{3}{Doc-Start}%
 \contentsline {subparagraph}{}{3}{Doc-Start}%
 \contentsline {subparagraph}{}{3}{Doc-Start}%
 \contentsline {chapter}{\numberline {1}Criticalité absorbante et interactions à longue portée en matière molle}{5}{chapter.1}%
@@ -22,1041 +26,1041 @@
 \contentsline {subparagraph}{}{7}{subsection.1.1.2}%
 \contentsline {subparagraph}{}{7}{figure.caption.2}%
 \contentsline {subparagraph}{}{7}{figure.caption.2}%
-\contentsline {subsection}{\numberline {1.1.3}Des similarités non-conventionnelles}{8}{subsection.1.1.3}%
-\contentsline {subparagraph}{}{8}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.3}Des similarités non-conventionnelles}{7}{subsection.1.1.3}%
+\contentsline {subparagraph}{}{7}{subsection.1.1.3}%
 \contentsline {subparagraph}{}{8}{figure.caption.3}%
 \contentsline {subparagraph}{}{9}{figure.caption.3}%
 \contentsline {subparagraph}{}{9}{figure.caption.3}%
 \contentsline {section}{\numberline {1.2}Transitions de phases absorbantes}{9}{section.1.2}%
 \contentsline {subparagraph}{}{9}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Phénomènes critiques à l'équilibre}{10}{subsection.1.2.1}%
-\contentsline {subsubsection}{\numberline {1.2.1.1}Phénoménologie d'une transition de phase}{10}{subsubsection.1.2.1.1}%
-\contentsline {subparagraph}{}{10}{subsubsection.1.2.1.1}%
-\contentsline {subparagraph}{}{10}{subsubsection.1.2.1.1}%
-\contentsline {subparagraph}{}{11}{figure.caption.4}%
-\contentsline {subsubsection}{\numberline {1.2.1.2}Hypothèse de scaling}{11}{subsubsection.1.2.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Phénomènes critiques à l'équilibre}{9}{subsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.1.1}Phénoménologie d'une transition de phase}{9}{subsubsection.1.2.1.1}%
+\contentsline {subparagraph}{}{9}{subsubsection.1.2.1.1}%
+\contentsline {subparagraph}{}{9}{subsubsection.1.2.1.1}%
+\contentsline {subparagraph}{}{10}{figure.caption.4}%
+\contentsline {subsubsection}{\numberline {1.2.1.2}Hypothèse de scaling}{10}{subsubsection.1.2.1.2}%
+\contentsline {subparagraph}{}{10}{subsubsection.1.2.1.2}%
 \contentsline {subparagraph}{}{11}{subsubsection.1.2.1.2}%
-\contentsline {subparagraph}{}{11}{subsubsection.1.2.1.2}%
-\contentsline {subparagraph}{}{12}{figure.caption.5}%
-\contentsline {subparagraph}{}{12}{equation.1.2.3}%
+\contentsline {subparagraph}{}{11}{figure.caption.5}%
+\contentsline {subparagraph}{}{11}{equation.1.2.3}%
 \contentsline {subparagraph}{}{12}{equation.1.2.4}%
 \contentsline {subsubsection}{\numberline {1.2.1.3}Universalité}{12}{subsubsection.1.2.1.3}%
 \contentsline {paragraph}{Principe}{12}{subsubsection.1.2.1.3}%
 \contentsline {subparagraph}{}{12}{subsubsection.1.2.1.3}%
-\contentsline {paragraph}{Théorie continue}{13}{subsubsection.1.2.1.3}%
-\contentsline {subparagraph}{}{13}{subsubsection.1.2.1.3}%
-\contentsline {subparagraph}{}{13}{equation.1.2.6}%
+\contentsline {paragraph}{Théorie continue}{12}{subsubsection.1.2.1.3}%
+\contentsline {subparagraph}{}{12}{subsubsection.1.2.1.3}%
+\contentsline {subparagraph}{}{12}{equation.1.2.6}%
 \contentsline {subparagraph}{}{13}{equation.1.2.7}%
-\contentsline {subparagraph}{}{14}{equation.1.2.9}%
-\contentsline {subparagraph}{}{14}{equation.1.2.9}%
-\contentsline {subsection}{\numberline {1.2.2}Transitions de phase absorbantes}{14}{subsection.1.2.2}%
-\contentsline {subparagraph}{}{14}{subsection.1.2.2}%
+\contentsline {subparagraph}{}{13}{equation.1.2.9}%
+\contentsline {subparagraph}{}{13}{equation.1.2.9}%
+\contentsline {subsection}{\numberline {1.2.2}Transitions de phase absorbantes}{13}{subsection.1.2.2}%
+\contentsline {subparagraph}{}{13}{subsection.1.2.2}%
 \contentsline {subsubsection}{\numberline {1.2.2.1}Définition}{14}{subsubsection.1.2.2.1}%
 \contentsline {subparagraph}{}{14}{subsubsection.1.2.2.1}%
-\contentsline {subparagraph}{}{15}{subsubsection.1.2.2.1}%
-\contentsline {subsubsection}{\numberline {1.2.2.2}Exemples}{15}{subsubsection.1.2.2.2}%
-\contentsline {subparagraph}{}{15}{subsubsection.1.2.2.2}%
-\contentsline {subparagraph}{}{15}{subsubsection.1.2.2.2}%
-\contentsline {subparagraph}{}{15}{figure.caption.6}%
+\contentsline {subparagraph}{}{14}{subsubsection.1.2.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2.2}Exemples}{14}{subsubsection.1.2.2.2}%
+\contentsline {subparagraph}{}{14}{subsubsection.1.2.2.2}%
+\contentsline {subparagraph}{}{14}{subsubsection.1.2.2.2}%
+\contentsline {subparagraph}{}{14}{figure.caption.6}%
 \contentsline {subsubsection}{\numberline {1.2.2.3}Exposants critiques}{15}{subsubsection.1.2.2.3}%
 \contentsline {subparagraph}{}{15}{subsubsection.1.2.2.3}%
-\contentsline {subparagraph}{}{16}{figure.caption.7}%
-\contentsline {subparagraph}{}{17}{equation.1.2.12}%
-\contentsline {subparagraph}{}{17}{equation.1.2.13}%
-\contentsline {subsubsection}{\numberline {1.2.2.4}Classes d'universalité}{17}{subsubsection.1.2.2.4}%
+\contentsline {subparagraph}{}{15}{figure.caption.7}%
+\contentsline {subparagraph}{}{16}{equation.1.2.12}%
+\contentsline {subparagraph}{}{16}{equation.1.2.13}%
+\contentsline {subsubsection}{\numberline {1.2.2.4}Classes d'universalité}{16}{subsubsection.1.2.2.4}%
+\contentsline {subparagraph}{}{16}{subsubsection.1.2.2.4}%
 \contentsline {subparagraph}{}{17}{subsubsection.1.2.2.4}%
-\contentsline {subparagraph}{}{17}{subsubsection.1.2.2.4}%
-\contentsline {subparagraph}{}{18}{figure.caption.8}%
-\contentsline {subparagraph}{}{18}{figure.caption.8}%
-\contentsline {subparagraph}{}{19}{table.caption.9}%
-\contentsline {section}{\numberline {1.3}Percolation dirigée conservée}{19}{section.1.3}%
-\contentsline {subparagraph}{}{19}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Conditions d'appartenance}{20}{subsection.1.3.1}%
-\contentsline {subparagraph}{}{20}{subsection.1.3.1}%
-\contentsline {subparagraph}{}{20}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Modèles représentatifs}{20}{subsection.1.3.2}%
-\contentsline {subsubsection}{\numberline {1.3.2.1}Modèle Manna}{20}{subsubsection.1.3.2.1}%
-\contentsline {subparagraph}{}{20}{subsubsection.1.3.2.1}%
+\contentsline {subparagraph}{}{17}{figure.caption.8}%
+\contentsline {subparagraph}{}{17}{figure.caption.8}%
+\contentsline {subparagraph}{}{18}{table.caption.9}%
+\contentsline {section}{\numberline {1.3}Percolation dirigée conservée}{18}{section.1.3}%
+\contentsline {subparagraph}{}{18}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Conditions d'appartenance}{19}{subsection.1.3.1}%
+\contentsline {subparagraph}{}{19}{subsection.1.3.1}%
+\contentsline {subparagraph}{}{19}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Modèles représentatifs}{19}{subsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {1.3.2.1}Modèle Manna}{19}{subsubsection.1.3.2.1}%
+\contentsline {subparagraph}{}{19}{subsubsection.1.3.2.1}%
+\contentsline {subparagraph}{}{19}{figure.caption.10}%
 \contentsline {subparagraph}{}{20}{figure.caption.10}%
-\contentsline {subparagraph}{}{21}{figure.caption.10}%
-\contentsline {subsubsection}{\numberline {1.3.2.2}Random Organization Model}{21}{subsubsection.1.3.2.2}%
-\contentsline {subparagraph}{}{21}{subsubsection.1.3.2.2}%
+\contentsline {subsubsection}{\numberline {1.3.2.2}Random Organization Model}{20}{subsubsection.1.3.2.2}%
+\contentsline {subparagraph}{}{20}{subsubsection.1.3.2.2}%
+\contentsline {subparagraph}{}{20}{figure.caption.11}%
+\contentsline {subparagraph}{}{20}{figure.caption.11}%
 \contentsline {subparagraph}{}{21}{figure.caption.11}%
-\contentsline {subparagraph}{}{22}{figure.caption.11}%
-\contentsline {subparagraph}{}{22}{figure.caption.11}%
-\contentsline {subsection}{\numberline {1.3.3}Comportement critique}{22}{subsection.1.3.3}%
-\contentsline {subparagraph}{}{22}{subsection.1.3.3}%
-\contentsline {subparagraph}{}{22}{equation.1.3.17}%
-\contentsline {subparagraph}{}{22}{equation.1.3.17}%
-\contentsline {subsection}{\numberline {1.3.4}Classe CDP et transition de dépiégeage}{23}{subsection.1.3.4}%
-\contentsline {subparagraph}{}{23}{subsection.1.3.4}%
-\contentsline {subsubsection}{\numberline {1.3.4.1}Phénoménologie de la transition de dépiégeage}{23}{subsubsection.1.3.4.1}%
-\contentsline {paragraph}{Une transition de phase absorbante}{23}{subsubsection.1.3.4.1}%
-\contentsline {subparagraph}{}{23}{subsubsection.1.3.4.1}%
-\contentsline {subparagraph}{}{24}{figure.caption.12}%
-\contentsline {subparagraph}{}{24}{figure.caption.12}%
-\contentsline {subparagraph}{}{24}{figure.caption.12}%
-\contentsline {paragraph}{Rugosité}{24}{figure.caption.12}%
-\contentsline {subparagraph}{}{24}{figure.caption.12}%
-\contentsline {paragraph}{Avalanches}{25}{equation.1.3.20}%
-\contentsline {subparagraph}{}{25}{equation.1.3.20}%
-\contentsline {subparagraph}{}{25}{equation.1.3.23}%
-\contentsline {subsubsection}{\numberline {1.3.4.2}Mapping avec la classe CDP}{25}{subsubsection.1.3.4.2}%
-\contentsline {subparagraph}{}{25}{subsubsection.1.3.4.2}%
-\contentsline {subparagraph}{}{26}{subsubsection.1.3.4.2}%
-\contentsline {subparagraph}{}{26}{equation.1.3.25}%
-\contentsline {subparagraph}{}{26}{equation.1.3.26}%
-\contentsline {subsection}{\numberline {1.3.5}Avalanches}{27}{subsection.1.3.5}%
-\contentsline {subparagraph}{}{27}{subsection.1.3.5}%
-\contentsline {subparagraph}{}{27}{subsection.1.3.5}%
-\contentsline {subparagraph}{}{27}{subsection.1.3.5}%
-\contentsline {subsection}{\numberline {1.3.6}Hyperuniformité}{27}{subsection.1.3.6}%
-\contentsline {paragraph}{Fluctuations de position, fluctuations de densité}{27}{subsection.1.3.6}%
-\contentsline {subparagraph}{}{27}{subsection.1.3.6}%
-\contentsline {paragraph}{Répartition de masse et hyperuniformité}{27}{equation.1.3.27}%
-\contentsline {subparagraph}{}{27}{equation.1.3.27}%
-\contentsline {subparagraph}{}{28}{equation.1.3.27}%
-\contentsline {subparagraph}{}{28}{equation.1.3.28}%
-\contentsline {subparagraph}{}{28}{equation.1.3.29}%
-\contentsline {paragraph}{Hyperuniformité dans les modèles de particules appartenant à la classe CDP}{29}{figure.caption.13}%
-\contentsline {subparagraph}{}{29}{figure.caption.13}%
-\contentsline {subsection}{\numberline {1.3.7}Bilan}{29}{subsection.1.3.7}%
-\contentsline {subparagraph}{}{29}{subsection.1.3.7}%
-\contentsline {section}{\numberline {1.4}Les transitions de réversibilité et d'écoulement comme transitions de phase \\ absorbantes}{29}{section.1.4}%
-\contentsline {subparagraph}{}{29}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Transition de réversibilité}{30}{subsection.1.4.1}%
-\contentsline {subparagraph}{}{30}{subsection.1.4.1}%
-\contentsline {subsubsection}{\numberline {1.4.1.1}La diffusion comme une succession d'interactions irréversibles}{30}{subsubsection.1.4.1.1}%
-\contentsline {subparagraph}{}{30}{subsubsection.1.4.1.1}%
-\contentsline {subparagraph}{}{31}{figure.caption.14}%
-\contentsline {subparagraph}{}{31}{figure.caption.14}%
-\contentsline {subsubsection}{\numberline {1.4.1.2}Similitudes avec la classe CDP}{31}{subsubsection.1.4.1.2}%
-\contentsline {subparagraph}{}{31}{subsubsection.1.4.1.2}%
-\contentsline {subparagraph}{}{31}{subsubsection.1.4.1.2}%
-\contentsline {subparagraph}{}{31}{subsubsection.1.4.1.2}%
-\contentsline {subsubsection}{\numberline {1.4.1.3}Interactions visqueuses médiées par le fluide}{32}{subsubsection.1.4.1.3}%
-\contentsline {subparagraph}{}{32}{subsubsection.1.4.1.3}%
-\contentsline {subparagraph}{}{32}{equation.1.4.32}%
-\contentsline {subparagraph}{}{32}{equation.1.4.33}%
-\contentsline {subsection}{\numberline {1.4.2}Transition vers l'écoulement}{33}{subsection.1.4.2}%
-\contentsline {subparagraph}{}{33}{subsection.1.4.2}%
-\contentsline {subsubsection}{\numberline {1.4.2.1}L'écoulement comme une succession de réarrangements}{33}{subsubsection.1.4.2.1}%
-\contentsline {subparagraph}{}{33}{subsubsection.1.4.2.1}%
-\contentsline {subparagraph}{}{33}{subsubsection.1.4.2.1}%
-\contentsline {subparagraph}{}{33}{subsubsection.1.4.2.1}%
-\contentsline {subparagraph}{}{33}{subsubsection.1.4.2.1}%
-\contentsline {subparagraph}{}{34}{figure.caption.15}%
-\contentsline {subparagraph}{}{34}{equation.1.4.34}%
-\contentsline {subsubsection}{\numberline {1.4.2.2}Similitudes avec la classe CDP}{35}{subsubsection.1.4.2.2}%
-\contentsline {subparagraph}{}{35}{subsubsection.1.4.2.2}%
-\contentsline {subparagraph}{}{35}{subsubsection.1.4.2.2}%
-\contentsline {subsubsection}{\numberline {1.4.2.3}Interactions élastiques médiées par le solide}{35}{subsubsection.1.4.2.3}%
-\contentsline {subparagraph}{}{35}{subsubsection.1.4.2.3}%
-\contentsline {subparagraph}{}{35}{equation.1.4.35}%
-\contentsline {subparagraph}{}{36}{equation.1.4.36}%
-\contentsline {paragraph}{Forme et observations expérimentales}{36}{equation.1.4.36}%
-\contentsline {subparagraph}{}{36}{equation.1.4.36}%
-\contentsline {subparagraph}{}{36}{figure.caption.16}%
-\contentsline {subparagraph}{}{37}{figure.caption.16}%
-\contentsline {subparagraph}{}{37}{figure.caption.16}%
-\contentsline {section}{\numberline {1.5}Atypicité des transitions étudiées}{37}{section.1.5}%
-\contentsline {subparagraph}{}{37}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Incompatibilité avec le cadre générique de la longue portée}{37}{subsection.1.5.1}%
-\contentsline {subsubsection}{\numberline {1.5.1.1}Attendu générique de l'influence d'interactions à longue portée}{37}{subsubsection.1.5.1.1}%
-\contentsline {subparagraph}{}{37}{subsubsection.1.5.1.1}%
-\contentsline {subparagraph}{}{37}{subsubsection.1.5.1.1}%
-\contentsline {subparagraph}{}{38}{subsubsection.1.5.1.1}%
-\contentsline {subparagraph}{}{38}{subsubsection.1.5.1.1}%
-\contentsline {subsubsection}{\numberline {1.5.1.2}Contradiction du cadre générique par les transitions de réversibilité et d'écoulement}{38}{subsubsection.1.5.1.2}%
-\contentsline {paragraph}{Transition de réversibilité}{38}{subsubsection.1.5.1.2}%
-\contentsline {subparagraph}{}{38}{subsubsection.1.5.1.2}%
-\contentsline {subparagraph}{}{38}{subsubsection.1.5.1.2}%
-\contentsline {subparagraph}{}{39}{figure.caption.17}%
-\contentsline {subparagraph}{}{39}{figure.caption.17}%
-\contentsline {paragraph}{Transition vers l'écoulement}{39}{figure.caption.17}%
-\contentsline {subparagraph}{}{39}{figure.caption.17}%
-\contentsline {subparagraph}{}{39}{figure.caption.17}%
-\contentsline {subparagraph}{}{39}{equation.1.5.38}%
-\contentsline {subsection}{\numberline {1.5.2}Des interactions à longue portée de nature différente}{40}{subsection.1.5.2}%
-\contentsline {subsubsection}{\numberline {1.5.2.1}La longue portée comme transport dans le cadre d'interprétation générique}{40}{subsubsection.1.5.2.1}%
-\contentsline {subparagraph}{}{40}{subsubsection.1.5.2.1}%
-\contentsline {subparagraph}{}{40}{subsubsection.1.5.2.1}%
-\contentsline {subparagraph}{}{40}{subsubsection.1.5.2.1}%
-\contentsline {subparagraph}{}{40}{subsubsection.1.5.2.1}%
-\contentsline {subsubsection}{\numberline {1.5.2.2}La longue portée comme source de diffusion dans les transitions de réversibilité et d'écoulement}{41}{subsubsection.1.5.2.2}%
-\contentsline {paragraph}{Transition de réversibilité}{41}{subsubsection.1.5.2.2}%
-\contentsline {subparagraph}{}{41}{subsubsection.1.5.2.2}%
-\contentsline {paragraph}{Transition vers l'écoulement}{41}{subsubsection.1.5.2.2}%
-\contentsline {subparagraph}{}{41}{subsubsection.1.5.2.2}%
-\contentsline {subparagraph}{}{41}{subsubsection.1.5.2.2}%
-\contentsline {section}{\numberline {1.6}Problématisation}{42}{section.1.6}%
-\contentsline {subsection}{\numberline {1.6.1}Questions guidant ce travail}{42}{subsection.1.6.1}%
-\contentsline {paragraph}{Quelle criticalité caractérise les transitions de réversibilité et d'écoulement ?}{42}{subsection.1.6.1}%
-\contentsline {subparagraph}{}{42}{subsection.1.6.1}%
-\contentsline {subparagraph}{}{42}{subsection.1.6.1}%
-\contentsline {subparagraph}{}{42}{subsection.1.6.1}%
-\contentsline {subparagraph}{}{42}{subsection.1.6.1}%
-\contentsline {paragraph}{Quelle est l'influence de la portée des interactions médiées sur la criticalité de ces systèmes ?}{42}{subsection.1.6.1}%
-\contentsline {subparagraph}{}{42}{subsection.1.6.1}%
-\contentsline {subparagraph}{}{43}{subsection.1.6.1}%
-\contentsline {subparagraph}{}{43}{subsection.1.6.1}%
-\contentsline {paragraph}{Peut-on comprendre ces systèmes similaires dans un cadre de description commun ?}{43}{subsection.1.6.1}%
-\contentsline {subparagraph}{}{43}{subsection.1.6.1}%
-\contentsline {subsection}{\numberline {1.6.2}Déroulé du manuscrit}{43}{subsection.1.6.2}%
-\contentsline {subparagraph}{}{43}{subsection.1.6.2}%
-\contentsline {subparagraph}{}{43}{subsection.1.6.2}%
-\contentsline {subparagraph}{}{43}{subsection.1.6.2}%
-\contentsline {subparagraph}{}{44}{subsection.1.6.2}%
-\contentsline {subparagraph}{}{44}{subsection.1.6.2}%
-\contentsline {chapter}{\numberline {2}Transport à longue portée dans la classe CDP}{45}{chapter.2}%
-\contentsline {subparagraph}{}{45}{chapter.2}%
-\contentsline {subparagraph}{}{45}{equation.2.0.1}%
-\contentsline {subparagraph}{}{45}{equation.2.0.1}%
-\contentsline {section}{\numberline {2.1}Longue portée et comportement critique}{46}{section.2.1}%
-\contentsline {subparagraph}{}{46}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Phénoménologie}{46}{subsection.2.1.1}%
-\contentsline {subparagraph}{}{46}{subsection.2.1.1}%
-\contentsline {subparagraph}{}{46}{subsection.2.1.1}%
-\contentsline {subparagraph}{}{46}{figure.caption.19}%
-\contentsline {subparagraph}{}{47}{figure.caption.19}%
-\contentsline {subsection}{\numberline {2.1.2}Formulation théorique dans la classe CDP}{47}{subsection.2.1.2}%
-\contentsline {paragraph}{Équations de champ et transport à longue portée}{47}{subsection.2.1.2}%
-\contentsline {subparagraph}{}{47}{subsection.2.1.2}%
-\contentsline {subparagraph}{}{48}{equation.2.1.3}%
-\contentsline {paragraph}{Zone continue d'évolution des exposants}{48}{equation.2.1.3}%
-\contentsline {subparagraph}{}{48}{equation.2.1.3}%
-\contentsline {subparagraph}{}{48}{equation.2.1.3}%
-\contentsline {subparagraph}{}{48}{equation.2.1.3}%
-\contentsline {subparagraph}{}{48}{equation.2.1.4}%
-\contentsline {subsection}{\numberline {2.1.3}Prédictions}{49}{subsection.2.1.3}%
-\contentsline {subsubsection}{\numberline {2.1.3.1}Prédictions issues des cas limites}{49}{subsubsection.2.1.3.1}%
-\contentsline {subparagraph}{}{49}{subsubsection.2.1.3.1}%
-\contentsline {paragraph}{Exposants critiques}{49}{subsubsection.2.1.3.1}%
-\contentsline {subparagraph}{}{49}{subsubsection.2.1.3.1}%
-\contentsline {paragraph}{Avalanches}{49}{subsubsection.2.1.3.1}%
-\contentsline {subparagraph}{}{49}{subsubsection.2.1.3.1}%
-\contentsline {paragraph}{Hyperuniformité}{49}{subsubsection.2.1.3.1}%
-\contentsline {subparagraph}{}{49}{subsubsection.2.1.3.1}%
-\contentsline {subsubsection}{\numberline {2.1.3.2}Prédictions analytiques spécifiques}{49}{subsubsection.2.1.3.2}%
-\contentsline {subparagraph}{}{49}{subsubsection.2.1.3.2}%
-\contentsline {subparagraph}{}{50}{subsubsection.2.1.3.2}%
-\contentsline {subparagraph}{}{50}{figure.caption.20}%
-\contentsline {section}{\numberline {2.2}Motivations pour une caractérisation numérique}{50}{section.2.2}%
-\contentsline {subparagraph}{}{50}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Motivation principale : un point manquant dans la littérature}{51}{subsection.2.2.1}%
-\contentsline {subparagraph}{}{51}{subsection.2.2.1}%
-\contentsline {subparagraph}{}{51}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Motivation secondaire : un cadre d'intérêt pour la modélisation de\\ systèmes réels}{51}{subsection.2.2.2}%
-\contentsline {subparagraph}{}{51}{subsection.2.2.2}%
-\contentsline {subparagraph}{}{51}{subsection.2.2.2}%
-\contentsline {subparagraph}{}{51}{subsection.2.2.2}%
-\contentsline {subparagraph}{}{52}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Modèles}{52}{section.2.3}%
-\contentsline {subparagraph}{}{52}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}LR-Manna}{52}{subsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.1.1}Implémentation générale}{52}{subsubsection.2.3.1.1}%
-\contentsline {subparagraph}{}{52}{subsubsection.2.3.1.1}%
-\contentsline {subparagraph}{}{52}{subsubsection.2.3.1.1}%
-\contentsline {subparagraph}{}{52}{subsubsection.2.3.1.1}%
-\contentsline {subsubsection}{\numberline {2.3.1.2}Transport à longue portée}{53}{subsubsection.2.3.1.2}%
-\contentsline {subparagraph}{}{53}{subsubsection.2.3.1.2}%
-\contentsline {subparagraph}{}{53}{equation.2.3.7}%
-\contentsline {subparagraph}{}{53}{figure.caption.21}%
-\contentsline {subsection}{\numberline {2.3.2}LR-ROM}{54}{subsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.2.1}Implémentation générale}{54}{subsubsection.2.3.2.1}%
-\contentsline {subparagraph}{}{54}{subsubsection.2.3.2.1}%
-\contentsline {subparagraph}{}{54}{subsubsection.2.3.2.1}%
-\contentsline {subparagraph}{}{54}{subsubsection.2.3.2.1}%
-\contentsline {subsubsection}{\numberline {2.3.2.2}Transport à longue portée}{54}{subsubsection.2.3.2.2}%
-\contentsline {subparagraph}{}{54}{subsubsection.2.3.2.2}%
-\contentsline {subsection}{\numberline {2.3.3}Détails d'implémentation}{54}{subsection.2.3.3}%
-\contentsline {subsubsection}{\numberline {2.3.3.1}Distributions de sauts}{54}{subsubsection.2.3.3.1}%
-\contentsline {subparagraph}{}{54}{subsubsection.2.3.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.3.2}Méthode cell-list dans le ROM}{55}{subsubsection.2.3.3.2}%
-\contentsline {subparagraph}{}{55}{subsubsection.2.3.3.2}%
-\contentsline {subparagraph}{}{55}{subsubsection.2.3.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.3.3}Parallélisation et implémentation GPU}{55}{subsubsection.2.3.3.3}%
-\contentsline {subparagraph}{}{55}{subsubsection.2.3.3.3}%
-\contentsline {subparagraph}{}{55}{subsubsection.2.3.3.3}%
-\contentsline {subsubsection}{\numberline {2.3.3.4}Valeurs des paramètres}{55}{subsubsection.2.3.3.4}%
-\contentsline {subparagraph}{}{55}{subsubsection.2.3.3.4}%
-\contentsline {subparagraph}{}{55}{subsubsection.2.3.3.4}%
-\contentsline {section}{\numberline {2.4}Méthodes de caractérisation du comportement critique}{56}{section.2.4}%
-\contentsline {subparagraph}{}{56}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Détermination des exposants critiques}{56}{subsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {2.4.1.1}Détermination du point critique}{56}{subsubsection.2.4.1.1}%
-\contentsline {subparagraph}{}{56}{subsubsection.2.4.1.1}%
-\contentsline {subparagraph}{}{56}{figure.caption.22}%
-\contentsline {subparagraph}{}{57}{figure.caption.22}%
-\contentsline {subsubsection}{\numberline {2.4.1.2}Détermination des exposants statiques}{57}{subsubsection.2.4.1.2}%
-\contentsline {subparagraph}{}{57}{subsubsection.2.4.1.2}%
-\contentsline {subparagraph}{}{58}{subsubsection.2.4.1.2}%
-\contentsline {subsubsection}{\numberline {2.4.1.3}Détermination de l'exposant dynamique}{58}{subsubsection.2.4.1.3}%
-\contentsline {subparagraph}{}{58}{subsubsection.2.4.1.3}%
-\contentsline {subparagraph}{}{58}{equation.2.4.11}%
-\contentsline {subsection}{\numberline {2.4.2}Caractérisation de l'hyperuniformité}{59}{subsection.2.4.2}%
-\contentsline {subparagraph}{}{59}{subsection.2.4.2}%
-\contentsline {subsubsection}{\numberline {2.4.2.1}Mesure directe du facteur de structure}{59}{subsubsection.2.4.2.1}%
-\contentsline {subparagraph}{}{59}{subsubsection.2.4.2.1}%
-\contentsline {subparagraph}{}{60}{equation.2.4.13}%
-\contentsline {subsubsection}{\numberline {2.4.2.2}Méthode de box-counting}{60}{subsubsection.2.4.2.2}%
-\contentsline {paragraph}{Définition}{60}{subsubsection.2.4.2.2}%
-\contentsline {subparagraph}{}{60}{subsubsection.2.4.2.2}%
-\contentsline {subparagraph}{}{60}{equation.2.4.15}%
-\contentsline {subparagraph}{}{60}{equation.2.4.15}%
-\contentsline {paragraph}{Implémentation}{61}{equation.2.4.17}%
-\contentsline {subparagraph}{}{61}{equation.2.4.17}%
-\contentsline {subparagraph}{}{61}{equation.2.4.17}%
-\contentsline {paragraph}{Détermination par redimensionnement}{61}{equation.2.4.17}%
-\contentsline {subparagraph}{}{61}{equation.2.4.17}%
-\contentsline {subparagraph}{}{61}{equation.2.4.18}%
-\contentsline {subsubsection}{\numberline {2.4.2.3}Des mesures complexes}{62}{subsubsection.2.4.2.3}%
-\contentsline {subparagraph}{}{62}{subsubsection.2.4.2.3}%
-\contentsline {subparagraph}{}{62}{subsubsection.2.4.2.3}%
-\contentsline {subparagraph}{}{62}{subsubsection.2.4.2.3}%
-\contentsline {section}{\numberline {2.5}Exposants critiques}{62}{section.2.5}%
-\contentsline {subparagraph}{}{62}{section.2.5}%
-\contentsline {subparagraph}{}{62}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Exposants statiques}{63}{subsection.2.5.1}%
-\contentsline {subparagraph}{}{63}{subsection.2.5.1}%
-\contentsline {subparagraph}{}{63}{figure.caption.25}%
-\contentsline {subparagraph}{}{64}{figure.caption.25}%
-\contentsline {subsection}{\numberline {2.5.2}Exposant dynamique}{64}{subsection.2.5.2}%
-\contentsline {subparagraph}{}{64}{subsection.2.5.2}%
-\contentsline {subparagraph}{}{64}{figure.caption.26}%
-\contentsline {subparagraph}{}{65}{figure.caption.27}%
-\contentsline {section}{\numberline {2.6}Hyperuniformité}{65}{section.2.6}%
-\contentsline {subparagraph}{}{65}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Hyperuniformité dans le LR-ROM}{66}{subsection.2.6.1}%
-\contentsline {subparagraph}{}{66}{subsection.2.6.1}%
-\contentsline {subparagraph}{}{66}{figure.caption.29}%
-\contentsline {subparagraph}{}{67}{equation.2.6.20}%
-\contentsline {subsection}{\numberline {2.6.2}Difficultés dans les mesures d'hyperuniformité}{68}{subsection.2.6.2}%
-\contentsline {subsubsection}{\numberline {2.6.2.1}Importance de la conservation du centre de masse}{68}{subsubsection.2.6.2.1}%
-\contentsline {subparagraph}{}{68}{subsubsection.2.6.2.1}%
-\contentsline {subparagraph}{}{68}{subsubsection.2.6.2.1}%
-\contentsline {subparagraph}{}{68}{figure.caption.31}%
-\contentsline {subparagraph}{}{69}{figure.caption.31}%
-\contentsline {subsubsection}{\numberline {2.6.2.2}Effet de taille finie}{69}{subsubsection.2.6.2.2}%
-\contentsline {subparagraph}{}{69}{subsubsection.2.6.2.2}%
-\contentsline {subparagraph}{}{69}{subsubsection.2.6.2.2}%
-\contentsline {subparagraph}{}{70}{figure.caption.32}%
-\contentsline {subparagraph}{}{70}{figure.caption.32}%
-\contentsline {subsection}{\numberline {2.6.3}Hyperuniformité dans le modèle LR-Manna}{71}{subsection.2.6.3}%
-\contentsline {subsubsection}{\numberline {2.6.3.1}Résultats préliminaires}{71}{subsubsection.2.6.3.1}%
-\contentsline {subparagraph}{}{71}{subsubsection.2.6.3.1}%
-\contentsline {subparagraph}{}{71}{figure.caption.33}%
-\contentsline {subparagraph}{}{72}{figure.caption.33}%
-\contentsline {subparagraph}{}{72}{figure.caption.33}%
-\contentsline {subparagraph}{}{72}{figure.caption.33}%
-\contentsline {subsubsection}{\numberline {2.6.3.2}Perspectives}{72}{subsubsection.2.6.3.2}%
-\contentsline {subparagraph}{}{72}{subsubsection.2.6.3.2}%
-\contentsline {subparagraph}{}{73}{subsubsection.2.6.3.2}%
-\contentsline {subparagraph}{}{73}{figure.caption.34}%
-\contentsline {subparagraph}{}{74}{figure.caption.35}%
-\contentsline {subparagraph}{}{74}{figure.caption.35}%
-\contentsline {subsubsection}{\numberline {2.6.3.3}Retour sur les exposants critiques}{74}{subsubsection.2.6.3.3}%
-\contentsline {subparagraph}{}{74}{subsubsection.2.6.3.3}%
-\contentsline {subparagraph}{}{75}{subsubsection.2.6.3.3}%
-\contentsline {section}{\numberline {2.7}Conclusion de chapitre}{75}{section.2.7}%
-\contentsline {subparagraph}{}{75}{section.2.7}%
-\contentsline {subparagraph}{}{75}{section.2.7}%
-\contentsline {subparagraph}{}{75}{section.2.7}%
-\contentsline {subparagraph}{}{75}{section.2.7}%
-\contentsline {chapter}{\numberline {3}Transition de réversibilité dans les suspensions cisaillées cycliquement}{77}{chapter.3}%
-\contentsline {subparagraph}{}{77}{chapter.3}%
-\contentsline {subparagraph}{}{77}{equation.3.0.1}%
-\contentsline {subparagraph}{}{77}{equation.3.0.1}%
-\contentsline {subparagraph}{}{78}{equation.3.0.1}%
-\contentsline {section}{\numberline {3.1}Importance de la spatialisation des interactions}{78}{section.3.1}%
-\contentsline {paragraph}{Limite de l'approche champ moyen}{78}{section.3.1}%
-\contentsline {subparagraph}{}{78}{section.3.1}%
-\contentsline {subparagraph}{}{78}{equation.3.1.2}%
-\contentsline {paragraph}{Quelle portée étudier ?}{78}{equation.3.1.2}%
-\contentsline {subparagraph}{}{78}{equation.3.1.2}%
-\contentsline {subparagraph}{}{79}{equation.3.1.2}%
-\contentsline {subparagraph}{}{79}{equation.3.1.2}%
-\contentsline {subparagraph}{}{79}{equation.3.1.2}%
-\contentsline {section}{\numberline {3.2}Méthode}{79}{section.3.2}%
-\contentsline {subparagraph}{}{79}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Le ROM comme modèle de dynamique stroboscopique}{79}{subsection.3.2.1}%
-\contentsline {subparagraph}{}{79}{subsection.3.2.1}%
-\contentsline {subparagraph}{}{80}{subsection.3.2.1}%
-\contentsline {subparagraph}{}{80}{subsection.3.2.1}%
-\contentsline {subparagraph}{}{81}{figure.caption.36}%
-\contentsline {subparagraph}{}{81}{figure.caption.37}%
-\contentsline {subsection}{\numberline {3.2.2}Modélisation des interactions médiées}{82}{subsection.3.2.2}%
-\contentsline {subparagraph}{}{82}{subsection.3.2.2}%
-\contentsline {subparagraph}{}{82}{subsection.3.2.2}%
-\contentsline {subparagraph}{}{82}{equation.3.2.3}%
-\contentsline {subparagraph}{}{82}{equation.3.2.4}%
-\contentsline {subparagraph}{}{83}{equation.3.2.7}%
-\contentsline {subparagraph}{}{83}{equation.3.2.8}%
-\contentsline {subsection}{\numberline {3.2.3}Implémentation numérique}{84}{subsection.3.2.3}%
-\contentsline {subparagraph}{}{84}{subsection.3.2.3}%
-\contentsline {subsubsection}{\numberline {3.2.3.1}Calcul de l'influence des particules actives}{84}{subsubsection.3.2.3.1}%
-\contentsline {subparagraph}{}{84}{subsubsection.3.2.3.1}%
-\contentsline {subparagraph}{}{84}{figure.caption.38}%
-\contentsline {subparagraph}{}{85}{equation.3.2.12}%
-\contentsline {subparagraph}{}{85}{equation.3.2.12}%
-\contentsline {subparagraph}{}{85}{equation.3.2.12}%
-\contentsline {subsubsection}{\numberline {3.2.3.2}Non-intégrabilité du propagateur à longue portée}{85}{subsubsection.3.2.3.2}%
-\contentsline {subparagraph}{}{85}{subsubsection.3.2.3.2}%
-\contentsline {subparagraph}{}{86}{subsubsection.3.2.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.3.3}Extension aux dimensions supérieures}{86}{subsubsection.3.2.3.3}%
-\contentsline {subparagraph}{}{86}{subsubsection.3.2.3.3}%
-\contentsline {subparagraph}{}{86}{subsubsection.3.2.3.3}%
-\contentsline {subparagraph}{}{87}{subsubsection.3.2.3.3}%
-\contentsline {subparagraph}{}{87}{equation.3.2.13}%
-\contentsline {section}{\numberline {3.3}Comportement critique}{87}{section.3.3}%
-\contentsline {subparagraph}{}{87}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Détermination du point critique}{87}{subsection.3.3.1}%
-\contentsline {subparagraph}{}{87}{subsection.3.3.1}%
-\contentsline {subparagraph}{}{87}{figure.caption.40}%
-\contentsline {subparagraph}{}{88}{figure.caption.40}%
-\contentsline {subsection}{\numberline {3.3.2}Évolution des exposants critiques}{88}{subsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.2.1}Exposants statiques}{88}{subsubsection.3.3.2.1}%
-\contentsline {subparagraph}{}{88}{subsubsection.3.3.2.1}%
-\contentsline {subparagraph}{}{89}{figure.caption.41}%
-\contentsline {paragraph}{Zones d'évolution}{89}{figure.caption.43}%
-\contentsline {subparagraph}{}{89}{figure.caption.43}%
-\contentsline {paragraph}{Comportement exotique et point singulier}{90}{figure.caption.43}%
-\contentsline {subparagraph}{}{90}{figure.caption.43}%
-\contentsline {subparagraph}{}{90}{figure.caption.43}%
-\contentsline {subparagraph}{}{91}{equation.3.3.14}%
-\contentsline {subparagraph}{}{91}{equation.3.3.14}%
-\contentsline {paragraph}{Une limite non triviale}{91}{equation.3.3.14}%
-\contentsline {subparagraph}{}{91}{equation.3.3.14}%
-\contentsline {subparagraph}{}{91}{equation.3.3.14}%
-\contentsline {subsubsection}{\numberline {3.3.2.2}Exposant dynamique}{91}{subsubsection.3.3.2.2}%
-\contentsline {subparagraph}{}{91}{subsubsection.3.3.2.2}%
-\contentsline {subparagraph}{}{92}{equation.3.3.15}%
-\contentsline {subparagraph}{}{92}{figure.caption.44}%
-\contentsline {subparagraph}{}{92}{figure.caption.44}%
-\contentsline {subparagraph}{}{92}{figure.caption.44}%
-\contentsline {subparagraph}{}{93}{figure.caption.44}%
-\contentsline {subsubsection}{\numberline {3.3.2.3}Comparaison avec le cadre LR-CDP}{93}{subsubsection.3.3.2.3}%
-\contentsline {subparagraph}{}{93}{subsubsection.3.3.2.3}%
-\contentsline {subparagraph}{}{93}{subsubsection.3.3.2.3}%
-\contentsline {subparagraph}{}{93}{subsubsection.3.3.2.3}%
-\contentsline {subparagraph}{}{93}{subsubsection.3.3.2.3}%
-\contentsline {subsubsection}{\numberline {3.3.2.4}Extension à trois dimensions}{93}{subsubsection.3.3.2.4}%
-\contentsline {subparagraph}{}{93}{subsubsection.3.3.2.4}%
-\contentsline {subparagraph}{}{93}{subsubsection.3.3.2.4}%
-\contentsline {subparagraph}{}{94}{figure.caption.45}%
-\contentsline {subparagraph}{}{94}{figure.caption.45}%
-\contentsline {subsection}{\numberline {3.3.3}Hyperuniformité}{95}{subsection.3.3.3}%
-\contentsline {subparagraph}{}{95}{subsection.3.3.3}%
-\contentsline {subparagraph}{}{95}{subsection.3.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.3.1}Méthode}{95}{subsubsection.3.3.3.1}%
-\contentsline {subparagraph}{}{95}{subsubsection.3.3.3.1}%
-\contentsline {subparagraph}{}{95}{equation.3.3.16}%
-\contentsline {subsubsection}{\numberline {3.3.3.2}Résultats}{96}{subsubsection.3.3.3.2}%
-\contentsline {subparagraph}{}{96}{figure.caption.46}%
-\contentsline {subparagraph}{}{96}{figure.caption.46}%
-\contentsline {subparagraph}{}{96}{figure.caption.46}%
-\contentsline {subparagraph}{}{97}{figure.caption.46}%
-\contentsline {subparagraph}{}{97}{figure.caption.46}%
-\contentsline {subsection}{\numberline {3.3.4}Retour sur les cas physiques}{97}{subsection.3.3.4}%
-\contentsline {subparagraph}{}{97}{subsection.3.3.4}%
-\contentsline {subparagraph}{}{97}{subsection.3.3.4}%
-\contentsline {subparagraph}{}{97}{subsection.3.3.4}%
-\contentsline {section}{\numberline {3.4}Interprétation}{98}{section.3.4}%
-\contentsline {subparagraph}{}{98}{section.3.4}%
-\contentsline {subparagraph}{}{98}{section.3.4}%
-\contentsline {subparagraph}{}{98}{equation.3.4.17}%
-\contentsline {subparagraph}{}{98}{equation.3.4.17}%
-\contentsline {subparagraph}{}{99}{equation.3.4.17}%
-\contentsline {subsection}{\numberline {3.4.1}Un cadre de description champ moyen}{99}{subsection.3.4.1}%
-\contentsline {subparagraph}{}{99}{subsection.3.4.1}%
-\contentsline {subparagraph}{}{99}{subsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.1.1}Première modélisation et diffusion normale}{99}{subsubsection.3.4.1.1}%
-\contentsline {paragraph}{Présentation du modèle}{99}{subsubsection.3.4.1.1}%
-\contentsline {subparagraph}{}{99}{subsubsection.3.4.1.1}%
-\contentsline {subparagraph}{}{99}{subsubsection.3.4.1.1}%
-\contentsline {subparagraph}{}{100}{figure.caption.47}%
-\contentsline {subparagraph}{}{100}{figure.caption.47}%
-\contentsline {subparagraph}{}{100}{figure.caption.47}%
-\contentsline {subparagraph}{}{101}{equation.3.4.18}%
-\contentsline {paragraph}{Comparaison avec la formulation originale}{101}{equation.3.4.18}%
-\contentsline {subparagraph}{}{101}{equation.3.4.18}%
-\contentsline {subparagraph}{}{101}{equation.3.4.19}%
-\contentsline {subparagraph}{}{101}{equation.3.4.19}%
-\contentsline {subparagraph}{}{101}{equation.3.4.20}%
-\contentsline {paragraph}{Résolution en 2D}{102}{equation.3.4.20}%
-\contentsline {subparagraph}{}{102}{equation.3.4.20}%
-\contentsline {subparagraph}{}{102}{equation.3.4.22}%
-\contentsline {subparagraph}{}{102}{equation.3.4.25}%
-\contentsline {subparagraph}{}{103}{equation.3.4.28}%
-\contentsline {subparagraph}{}{103}{equation.3.4.32}%
-\contentsline {subparagraph}{}{103}{equation.3.4.32}%
-\contentsline {subsubsection}{\numberline {3.4.1.2}Influence de la longue portée et diffusion anormale}{103}{subsubsection.3.4.1.2}%
-\contentsline {subparagraph}{}{103}{subsubsection.3.4.1.2}%
-\contentsline {paragraph}{Interactions à longue portée et distributions de bruit interne}{104}{subsubsection.3.4.1.2}%
-\contentsline {subparagraph}{}{104}{subsubsection.3.4.1.2}%
-\contentsline {subparagraph}{}{104}{equation.3.4.34}%
-\contentsline {subparagraph}{}{104}{equation.3.4.35}%
-\contentsline {paragraph}{Résultats dans le cadre de la transition vers l'écoulement}{104}{equation.3.4.35}%
-\contentsline {subparagraph}{}{104}{equation.3.4.35}%
-\contentsline {subparagraph}{}{105}{equation.3.4.35}%
-\contentsline {subparagraph}{}{105}{equation.3.4.36}%
-\contentsline {subparagraph}{}{105}{equation.3.4.38}%
-\contentsline {subparagraph}{}{105}{equation.3.4.38}%
-\contentsline {subparagraph}{}{105}{equation.3.4.40}%
-\contentsline {paragraph}{Résolution numérique}{106}{equation.3.4.40}%
-\contentsline {subparagraph}{}{106}{equation.3.4.40}%
-\contentsline {subparagraph}{}{106}{figure.caption.48}%
-\contentsline {subparagraph}{}{106}{figure.caption.48}%
-\contentsline {subparagraph}{}{107}{figure.caption.48}%
-\contentsline {subsection}{\numberline {3.4.2}Interprétation champ moyen du mécanisme de diffusion dans le $\alpha $-ROM}{107}{subsection.3.4.2}%
-\contentsline {subparagraph}{}{107}{subsection.3.4.2}%
-\contentsline {subparagraph}{}{107}{subsection.3.4.2}%
-\contentsline {subparagraph}{}{107}{subsection.3.4.2}%
-\contentsline {subparagraph}{}{107}{subsection.3.4.2}%
-\contentsline {subsubsection}{\numberline {3.4.2.1}Image champ moyen dans une dynamique d'activité décorrélée}{108}{subsubsection.3.4.2.1}%
-\contentsline {paragraph}{Approche du champ moyen par les grandes dimensions}{108}{subsubsection.3.4.2.1}%
-\contentsline {subparagraph}{}{108}{subsubsection.3.4.2.1}%
-\contentsline {subparagraph}{}{108}{subsubsection.3.4.2.1}%
-\contentsline {subparagraph}{}{108}{subsubsection.3.4.2.1}%
-\contentsline {subparagraph}{}{108}{subsubsection.3.4.2.1}%
-\contentsline {subparagraph}{}{109}{figure.caption.49}%
-\contentsline {paragraph}{Interprétation champ moyen du mécanisme de diffusion en dimension finie}{109}{figure.caption.49}%
-\contentsline {subparagraph}{}{109}{figure.caption.49}%
-\contentsline {subparagraph}{}{109}{figure.caption.49}%
-\contentsline {paragraph}{Évolution de la convexité}{109}{figure.caption.49}%
-\contentsline {subparagraph}{}{109}{figure.caption.49}%
-\contentsline {subparagraph}{}{110}{figure.caption.49}%
-\contentsline {paragraph}{Évolution de la distribution des distances à l'activation}{110}{figure.caption.50}%
-\contentsline {subparagraph}{}{110}{figure.caption.50}%
-\contentsline {subparagraph}{}{110}{equation.3.4.41}%
-\contentsline {subparagraph}{}{111}{equation.3.4.41}%
-\contentsline {subparagraph}{}{111}{figure.caption.51}%
-\contentsline {subparagraph}{}{112}{equation.3.4.42}%
-\contentsline {paragraph}{Complexité dans la dynamique des particules passives}{112}{equation.3.4.42}%
-\contentsline {subparagraph}{}{112}{equation.3.4.42}%
-\contentsline {subparagraph}{}{112}{equation.3.4.42}%
-\contentsline {subparagraph}{}{112}{equation.3.4.42}%
-\contentsline {subsubsection}{\numberline {3.4.2.2}Image champ moyen dans le $\alpha $-ROM}{113}{subsubsection.3.4.2.2}%
-\contentsline {subparagraph}{}{113}{subsubsection.3.4.2.2}%
-\contentsline {paragraph}{Évolution de la convexité : une influence moindre des corrélations d'activité ?}{113}{subsubsection.3.4.2.2}%
-\contentsline {subparagraph}{}{113}{subsubsection.3.4.2.2}%
-\contentsline {subparagraph}{}{113}{figure.caption.53}%
-\contentsline {subparagraph}{}{114}{figure.caption.53}%
-\contentsline {paragraph}{Évolution de l'exposant $\theta $ de pseudo-gap}{114}{figure.caption.53}%
-\contentsline {subparagraph}{}{114}{figure.caption.53}%
-\contentsline {subparagraph}{}{114}{figure.caption.54}%
-\contentsline {subparagraph}{}{115}{figure.caption.55}%
-\contentsline {subparagraph}{}{115}{figure.caption.55}%
-\contentsline {subsubsection}{\numberline {3.4.2.3}Conclusion de la sous-section}{116}{subsubsection.3.4.2.3}%
-\contentsline {subparagraph}{}{116}{subsubsection.3.4.2.3}%
-\contentsline {subparagraph}{}{116}{subsubsection.3.4.2.3}%
-\contentsline {subsection}{\numberline {3.4.3}Disqualification complète du cadre LR-CDP}{116}{subsection.3.4.3}%
-\contentsline {subparagraph}{}{116}{subsection.3.4.3}%
-\contentsline {subparagraph}{}{116}{subsection.3.4.3}%
-\contentsline {subparagraph}{}{117}{subsection.3.4.3}%
-\contentsline {subparagraph}{}{117}{equation.3.4.43}%
-\contentsline {subparagraph}{}{117}{figure.caption.56}%
-\contentsline {subsection}{\numberline {3.4.4}Conclusion de la section}{118}{subsection.3.4.4}%
-\contentsline {subparagraph}{}{118}{subsection.3.4.4}%
-\contentsline {section}{\numberline {3.5}Avalanches}{118}{section.3.5}%
-\contentsline {subparagraph}{}{118}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Avalanches à densité fixée}{118}{subsection.3.5.1}%
-\contentsline {subsubsection}{\numberline {3.5.1.1}Redéfinition}{118}{subsubsection.3.5.1.1}%
-\contentsline {subparagraph}{}{118}{subsubsection.3.5.1.1}%
-\contentsline {subparagraph}{}{118}{subsubsection.3.5.1.1}%
-\contentsline {subparagraph}{}{119}{subsubsection.3.5.1.1}%
-\contentsline {subparagraph}{}{119}{equation.3.5.44}%
-\contentsline {subsubsection}{\numberline {3.5.1.2}Protocole}{119}{subsubsection.3.5.1.2}%
-\contentsline {subparagraph}{}{119}{subsubsection.3.5.1.2}%
-\contentsline {subparagraph}{}{120}{figure.caption.57}%
-\contentsline {subsection}{\numberline {3.5.2}Évolution des exposants}{120}{subsection.3.5.2}%
-\contentsline {subparagraph}{}{120}{subsection.3.5.2}%
-\contentsline {subparagraph}{}{121}{subsection.3.5.2}%
-\contentsline {subparagraph}{}{121}{table.caption.59}%
-\contentsline {subparagraph}{}{122}{table.caption.59}%
-\contentsline {subparagraph}{}{122}{figure.caption.60}%
-\contentsline {section}{\numberline {3.6}Conclusion}{122}{section.3.6}%
-\contentsline {subparagraph}{}{122}{section.3.6}%
-\contentsline {subparagraph}{}{122}{section.3.6}%
-\contentsline {subparagraph}{}{123}{section.3.6}%
-\contentsline {subparagraph}{}{123}{section.3.6}%
-\contentsline {chapter}{\numberline {4}Transition vers l'écoulement des fluides à seuil}{125}{chapter.4}%
-\contentsline {subparagraph}{}{125}{chapter.4}%
-\contentsline {subparagraph}{}{125}{equation.4.0.1}%
-\contentsline {subparagraph}{}{126}{equation.4.0.1}%
-\contentsline {section}{\numberline {4.1}Étudier la transition vers l'écoulement des fluides à seuil}{126}{section.4.1}%
-\contentsline {subparagraph}{}{126}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Expérimentalement}{126}{subsection.4.1.1}%
-\contentsline {subparagraph}{}{126}{subsection.4.1.1}%
-\contentsline {subparagraph}{}{126}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Numériquement}{127}{subsection.4.1.2}%
-\contentsline {subparagraph}{}{127}{subsection.4.1.2}%
-\contentsline {subparagraph}{}{127}{subsection.4.1.2}%
-\contentsline {subparagraph}{}{127}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Théoriquement}{127}{subsection.4.1.3}%
-\contentsline {subparagraph}{}{127}{subsection.4.1.3}%
-\contentsline {subsubsection}{\numberline {4.1.3.1}Groupe de renormalisation et difficultés}{127}{subsubsection.4.1.3.1}%
-\contentsline {subparagraph}{}{127}{subsubsection.4.1.3.1}%
-\contentsline {subparagraph}{}{128}{subsubsection.4.1.3.1}%
-\contentsline {subsubsection}{\numberline {4.1.3.2}Modèle de Hébraud-Lequeux et généralisation}{128}{subsubsection.4.1.3.2}%
-\contentsline {subparagraph}{}{128}{subsubsection.4.1.3.2}%
-\contentsline {subparagraph}{}{128}{equation.4.1.3}%
-\contentsline {subparagraph}{}{129}{equation.4.1.4}%
-\contentsline {section}{\numberline {4.2}Les modèles élastoplastiques comme outils privilégiés}{129}{section.4.2}%
-\contentsline {subparagraph}{}{129}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Principe d'un modèle élastoplastique}{129}{subsection.4.2.1}%
-\contentsline {subparagraph}{}{129}{subsection.4.2.1}%
-\contentsline {subparagraph}{}{129}{subsection.4.2.1}%
-\contentsline {subparagraph}{}{130}{figure.caption.61}%
-\contentsline {subparagraph}{}{130}{figure.caption.61}%
-\contentsline {subparagraph}{}{130}{figure.caption.61}%
-\contentsline {subsection}{\numberline {4.2.2}Le modèle de Picard}{131}{subsection.4.2.2}%
-\contentsline {subparagraph}{}{131}{subsection.4.2.2}%
-\contentsline {subparagraph}{}{131}{subsection.4.2.2}%
-\contentsline {subparagraph}{}{131}{figure.caption.62}%
-\contentsline {subparagraph}{}{132}{equation.4.2.7}%
-\contentsline {subsection}{\numberline {4.2.3}Implémentation numérique}{132}{subsection.4.2.3}%
-\contentsline {subparagraph}{}{132}{subsection.4.2.3}%
-\contentsline {subparagraph}{}{132}{equation.4.2.8}%
-\contentsline {subparagraph}{}{133}{equation.4.2.9}%
-\contentsline {subsection}{\numberline {4.2.4}Changement du paramètre de contrôle}{133}{subsection.4.2.4}%
-\contentsline {subparagraph}{}{133}{subsection.4.2.4}%
-\contentsline {subparagraph}{}{134}{equation.4.2.10}%
-\contentsline {subparagraph}{}{134}{equation.4.2.10}%
-\contentsline {section}{\numberline {4.3}Comportement critique}{134}{section.4.3}%
-\contentsline {subparagraph}{}{134}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Transition vers l'écoulement en milieu élastique}{134}{subsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.1.1}Détermination du point critique}{134}{subsubsection.4.3.1.1}%
-\contentsline {paragraph}{Méthodes}{134}{subsubsection.4.3.1.1}%
-\contentsline {subparagraph}{}{134}{subsubsection.4.3.1.1}%
-\contentsline {subparagraph}{}{134}{subsubsection.4.3.1.1}%
-\contentsline {subparagraph}{}{134}{subsubsection.4.3.1.1}%
-\contentsline {subparagraph}{}{135}{subsubsection.4.3.1.1}%
-\contentsline {subparagraph}{}{135}{subsubsection.4.3.1.1}%
-\contentsline {paragraph}{Détermination à taux de cisaillement imposé}{135}{subsubsection.4.3.1.1}%
-\contentsline {subparagraph}{}{135}{subsubsection.4.3.1.1}%
-\contentsline {subparagraph}{}{135}{figure.caption.64}%
-\contentsline {subsubsection}{\numberline {4.3.1.2}Analyse d'échelle de taille finie}{136}{subsubsection.4.3.1.2}%
-\contentsline {paragraph}{Difficultés dans la détermination des exposants critiques}{136}{subsubsection.4.3.1.2}%
-\contentsline {subparagraph}{}{136}{subsubsection.4.3.1.2}%
-\contentsline {paragraph}{Méthode}{136}{subsubsection.4.3.1.2}%
-\contentsline {subparagraph}{}{136}{subsubsection.4.3.1.2}%
-\contentsline {subparagraph}{}{137}{equation.4.3.11}%
-\contentsline {subparagraph}{}{137}{figure.caption.65}%
-\contentsline {subparagraph}{}{138}{equation.4.3.15}%
-\contentsline {subparagraph}{}{138}{equation.4.3.15}%
-\contentsline {subparagraph}{}{138}{equation.4.3.16}%
-\contentsline {paragraph}{Résultats}{138}{equation.4.3.16}%
-\contentsline {subparagraph}{}{138}{equation.4.3.16}%
-\contentsline {subparagraph}{}{139}{equation.4.3.16}%
-\contentsline {subparagraph}{}{139}{figure.caption.66}%
-\contentsline {subsubsection}{\numberline {4.3.1.3}Relation d'hyperscaling}{140}{subsubsection.4.3.1.3}%
-\contentsline {subparagraph}{}{140}{subsubsection.4.3.1.3}%
-\contentsline {subparagraph}{}{140}{equation.4.3.17}%
-\contentsline {subparagraph}{}{140}{equation.4.3.18}%
-\contentsline {subsection}{\numberline {4.3.2}Modèles d'écoulement à courte portée}{141}{subsection.4.3.2}%
-\contentsline {subparagraph}{}{141}{subsection.4.3.2}%
-\contentsline {subsubsection}{\numberline {4.3.2.1}Le modèle Picard-CP}{141}{subsubsection.4.3.2.1}%
-\contentsline {subparagraph}{}{141}{subsubsection.4.3.2.1}%
-\contentsline {subparagraph}{}{141}{subsubsection.4.3.2.1}%
-\contentsline {subparagraph}{}{141}{figure.caption.68}%
-\contentsline {subparagraph}{}{142}{figure.caption.69}%
-\contentsline {subparagraph}{}{142}{figure.caption.69}%
-\contentsline {subsubsection}{\numberline {4.3.2.2}Modes zéros, propriété fondamentale de la transition vers l'écoulement}{142}{subsubsection.4.3.2.2}%
-\contentsline {subparagraph}{}{142}{subsubsection.4.3.2.2}%
-\contentsline {subparagraph}{}{143}{figure.caption.70}%
-\contentsline {subparagraph}{}{144}{figure.caption.71}%
-\contentsline {subsubsection}{\numberline {4.3.2.3}Retour à l'universalité et classe CDP-0}{144}{subsubsection.4.3.2.3}%
-\contentsline {subparagraph}{}{144}{subsubsection.4.3.2.3}%
-\contentsline {subparagraph}{}{145}{subsubsection.4.3.2.3}%
-\contentsline {subparagraph}{}{145}{figure.caption.72}%
-\contentsline {subparagraph}{}{146}{figure.caption.72}%
-\contentsline {paragraph}{Une description continue différente}{146}{figure.caption.73}%
-\contentsline {subparagraph}{}{146}{figure.caption.73}%
-\contentsline {subparagraph}{}{147}{equation.4.3.21}%
-\contentsline {subparagraph}{}{147}{equation.4.3.24}%
-\contentsline {subparagraph}{}{148}{equation.4.3.27}%
-\contentsline {subparagraph}{}{148}{equation.4.3.29}%
-\contentsline {subparagraph}{}{148}{equation.4.3.29}%
-\contentsline {subsection}{\numberline {4.3.3}Situer la transition vers l'écoulement}{148}{subsection.4.3.3}%
-\contentsline {subparagraph}{}{148}{subsection.4.3.3}%
-\contentsline {subsubsection}{\numberline {4.3.3.1}Le modèle $\alpha $-Picard}{148}{subsubsection.4.3.3.1}%
-\contentsline {subparagraph}{}{148}{subsubsection.4.3.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.3.2}Implémentation numérique et instabilités}{149}{subsubsection.4.3.3.2}%
-\contentsline {subparagraph}{}{149}{subsubsection.4.3.3.2}%
-\contentsline {subparagraph}{}{149}{figure.caption.74}%
-\contentsline {subsubsection}{\numberline {4.3.3.3}Comportement critique des modèles $\alpha $-Picard}{150}{subsubsection.4.3.3.3}%
-\contentsline {subparagraph}{}{150}{subsubsection.4.3.3.3}%
-\contentsline {subparagraph}{}{150}{subsubsection.4.3.3.3}%
-\contentsline {subparagraph}{}{151}{figure.caption.75}%
-\contentsline {subparagraph}{}{151}{figure.caption.75}%
-\contentsline {subsubsection}{\numberline {4.3.3.4}Description continue}{151}{subsubsection.4.3.3.4}%
-\contentsline {subparagraph}{}{151}{subsubsection.4.3.3.4}%
-\contentsline {subparagraph}{}{152}{equation.4.3.36}%
-\contentsline {subparagraph}{}{152}{equation.4.3.37}%
-\contentsline {paragraph}{Comparaison avec la transition de dépiégeage}{152}{equation.4.3.37}%
-\contentsline {subparagraph}{}{152}{equation.4.3.37}%
-\contentsline {subparagraph}{}{152}{equation.4.3.37}%
-\contentsline {paragraph}{Raisonnement plus simple dans l'espace réciproque}{152}{equation.4.3.37}%
-\contentsline {subparagraph}{}{152}{equation.4.3.37}%
-\contentsline {subparagraph}{}{153}{equation.4.3.37}%
-\contentsline {subparagraph}{}{153}{equation.4.3.37}%
-\contentsline {subsubsection}{\numberline {4.3.3.5}Paysage global}{153}{subsubsection.4.3.3.5}%
-\contentsline {subparagraph}{}{153}{subsubsection.4.3.3.5}%
-\contentsline {subparagraph}{}{153}{subsubsection.4.3.3.5}%
-\contentsline {subparagraph}{}{153}{subsubsection.4.3.3.5}%
-\contentsline {subparagraph}{}{153}{subsubsection.4.3.3.5}%
-\contentsline {subparagraph}{}{154}{figure.caption.76}%
-\contentsline {subparagraph}{}{154}{figure.caption.76}%
-\contentsline {subsection}{\numberline {4.3.4}Influence de la portée sur les corrélations de contrainte dans l'état\\ stationnaire}{154}{subsection.4.3.4}%
-\contentsline {subparagraph}{}{154}{subsection.4.3.4}%
-\contentsline {subsubsection}{\numberline {4.3.4.1}Hyperuniformité dans les modèles élastoplastiques}{155}{subsubsection.4.3.4.1}%
-\contentsline {subparagraph}{}{155}{subsubsection.4.3.4.1}%
-\contentsline {subparagraph}{}{155}{equation.4.3.39}%
-\contentsline {subparagraph}{}{155}{equation.4.3.39}%
-\contentsline {subparagraph}{}{155}{equation.4.3.40}%
-\contentsline {subsubsection}{\numberline {4.3.4.2}Approche par le dépiégeage}{155}{subsubsection.4.3.4.2}%
-\contentsline {subparagraph}{}{155}{subsubsection.4.3.4.2}%
-\contentsline {subparagraph}{}{156}{subsubsection.4.3.4.2}%
-\contentsline {subparagraph}{}{156}{equation.4.3.43}%
-\contentsline {subsubsection}{\numberline {4.3.4.3}Résultats numériques}{156}{subsubsection.4.3.4.3}%
-\contentsline {paragraph}{Méthode}{156}{subsubsection.4.3.4.3}%
-\contentsline {subparagraph}{}{156}{subsubsection.4.3.4.3}%
-\contentsline {subparagraph}{}{157}{subsubsection.4.3.4.3}%
-\contentsline {paragraph}{Confirmation de l'analogie via le modèle $\text {FES}^\pm $}{157}{subsubsection.4.3.4.3}%
-\contentsline {subparagraph}{}{157}{subsubsection.4.3.4.3}%
-\contentsline {subparagraph}{}{157}{subsubsection.4.3.4.3}%
-\contentsline {subparagraph}{}{157}{figure.caption.77}%
-\contentsline {subparagraph}{}{158}{figure.caption.78}%
-\contentsline {paragraph}{Hyperuniformité dans le modèle $\alpha $-Picard}{158}{equation.4.3.46}%
-\contentsline {subparagraph}{}{158}{equation.4.3.46}%
-\contentsline {subparagraph}{}{158}{figure.caption.79}%
-\contentsline {subparagraph}{}{159}{figure.caption.79}%
-\contentsline {subparagraph}{}{159}{figure.caption.79}%
-\contentsline {subparagraph}{}{160}{table.caption.81}%
-\contentsline {subparagraph}{}{160}{table.caption.81}%
-\contentsline {subparagraph}{}{160}{table.caption.81}%
-\contentsline {subparagraph}{}{160}{table.caption.81}%
-\contentsline {section}{\numberline {4.4}Caractérisation dynamique et avalanches}{161}{section.4.4}%
-\contentsline {subparagraph}{}{161}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Avalanches de plasticité}{161}{subsection.4.4.1}%
-\contentsline {subparagraph}{}{161}{subsection.4.4.1}%
-\contentsline {subsubsection}{\numberline {4.4.1.1}Phénoménologie}{161}{subsubsection.4.4.1.1}%
-\contentsline {paragraph}{Dynamique à l'approche du point critique}{161}{subsubsection.4.4.1.1}%
-\contentsline {subparagraph}{}{161}{subsubsection.4.4.1.1}%
-\contentsline {paragraph}{Observables d'intérêt}{161}{subsubsection.4.4.1.1}%
-\contentsline {subparagraph}{}{161}{subsubsection.4.4.1.1}%
-\contentsline {subparagraph}{}{161}{equation.4.4.47}%
-\contentsline {subsubsection}{\numberline {4.4.1.2}L'approche quasistatique comme cadre de référence}{162}{subsubsection.4.4.1.2}%
-\contentsline {subparagraph}{}{162}{subsubsection.4.4.1.2}%
-\contentsline {subparagraph}{}{162}{figure.caption.83}%
-\contentsline {subparagraph}{}{163}{equation.4.4.49}%
-\contentsline {subsubsection}{\numberline {4.4.1.3}Résultats dans les différents cadre d'étude}{163}{subsubsection.4.4.1.3}%
-\contentsline {subparagraph}{}{163}{subsubsection.4.4.1.3}%
-\contentsline {subparagraph}{}{163}{subsubsection.4.4.1.3}%
-\contentsline {subparagraph}{}{163}{subsubsection.4.4.1.3}%
-\contentsline {subparagraph}{}{164}{subsubsection.4.4.1.3}%
-\contentsline {paragraph}{Modèles élastoplastiques}{164}{subsubsection.4.4.1.3}%
-\contentsline {subparagraph}{}{164}{subsubsection.4.4.1.3}%
-\contentsline {subparagraph}{}{164}{equation.4.4.50}%
-\contentsline {subparagraph}{}{165}{equation.4.4.50}%
-\contentsline {subparagraph}{}{165}{equation.4.4.50}%
-\contentsline {subsection}{\numberline {4.4.2}Avalanches à contrainte imposée}{165}{subsection.4.4.2}%
-\contentsline {subparagraph}{}{165}{subsection.4.4.2}%
-\contentsline {subparagraph}{}{165}{subsection.4.4.2}%
-\contentsline {subsubsection}{\numberline {4.4.2.1}Un problème d'états absorbants}{165}{subsubsection.4.4.2.1}%
-\contentsline {paragraph}{Dynamique proche du point critique en taille finie}{165}{subsubsection.4.4.2.1}%
-\contentsline {subparagraph}{}{165}{subsubsection.4.4.2.1}%
-\contentsline {paragraph}{Redéfinition des avalanches}{166}{figure.caption.84}%
-\contentsline {subparagraph}{}{166}{figure.caption.84}%
-\contentsline {subparagraph}{}{166}{figure.caption.84}%
-\contentsline {subparagraph}{}{166}{figure.caption.84}%
-\contentsline {subparagraph}{}{167}{figure.caption.84}%
-\contentsline {subsubsection}{\numberline {4.4.2.2}Importance du choix d'un protocole}{167}{subsubsection.4.4.2.2}%
-\contentsline {subparagraph}{}{167}{subsubsection.4.4.2.2}%
-\contentsline {paragraph}{Protocoles étudiés}{167}{subsubsection.4.4.2.2}%
-\contentsline {subparagraph}{}{167}{subsubsection.4.4.2.2}%
-\contentsline {subparagraph}{}{167}{subsubsection.4.4.2.2}%
-\contentsline {subparagraph}{}{167}{subsubsection.4.4.2.2}%
-\contentsline {subparagraph}{}{167}{subsubsection.4.4.2.2}%
-\contentsline {paragraph}{Comparaisons statistiques}{168}{subsubsection.4.4.2.2}%
-\contentsline {subparagraph}{}{168}{subsubsection.4.4.2.2}%
-\contentsline {subparagraph}{}{168}{figure.caption.85}%
-\contentsline {subparagraph}{}{168}{figure.caption.86}%
-\contentsline {subparagraph}{}{169}{figure.caption.86}%
-\contentsline {subsubsection}{\numberline {4.4.2.3}Le protocole RTP comme protocole naturel}{169}{subsubsection.4.4.2.3}%
-\contentsline {subparagraph}{}{169}{subsubsection.4.4.2.3}%
-\contentsline {subparagraph}{}{169}{subsubsection.4.4.2.3}%
-\contentsline {subsection}{\numberline {4.4.3}Influence de la portée sur les avalanches en contrainte imposée}{169}{subsection.4.4.3}%
-\contentsline {subparagraph}{}{169}{subsection.4.4.3}%
-\contentsline {subsubsection}{\numberline {4.4.3.1}Avalanches dans le modèle $\alpha $-Picard}{170}{subsubsection.4.4.3.1}%
-\contentsline {paragraph}{Méthode}{170}{subsubsection.4.4.3.1}%
-\contentsline {subparagraph}{}{170}{subsubsection.4.4.3.1}%
-\contentsline {subparagraph}{}{170}{subsubsection.4.4.3.1}%
-\contentsline {paragraph}{\'Evolution des exposants}{170}{equation.4.4.52}%
-\contentsline {subparagraph}{}{170}{equation.4.4.52}%
-\contentsline {subparagraph}{}{171}{table.caption.88}%
-\contentsline {subparagraph}{}{171}{table.caption.88}%
-\contentsline {subparagraph}{}{171}{table.caption.88}%
-\contentsline {subparagraph}{}{171}{table.caption.88}%
-\contentsline {subsubsection}{\numberline {4.4.3.2}Aparté sur les avalanches écrantées}{172}{subsubsection.4.4.3.2}%
-\contentsline {subparagraph}{}{172}{subsubsection.4.4.3.2}%
-\contentsline {subparagraph}{}{172}{subsubsection.4.4.3.2}%
-\contentsline {section}{\numberline {4.5}Conclusion}{172}{section.4.5}%
-\contentsline {subparagraph}{}{172}{section.4.5}%
-\contentsline {subparagraph}{}{172}{section.4.5}%
-\contentsline {subparagraph}{}{173}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Discussion : interprétation conjointe des transitions de réversibilité\\ et d'écoulement}{175}{chapter.5}%
-\contentsline {subparagraph}{}{175}{chapter.5}%
-\contentsline {subparagraph}{}{175}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Des similarités globales}{175}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Analogie entre les deux systèmes}{175}{subsection.5.1.1}%
-\contentsline {subparagraph}{}{175}{subsection.5.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.1.1}Activité et quantité conservée}{175}{subsubsection.5.1.1.1}%
-\contentsline {subparagraph}{}{175}{subsubsection.5.1.1.1}%
-\contentsline {subparagraph}{}{176}{subsubsection.5.1.1.1}%
-\contentsline {subparagraph}{}{176}{subsubsection.5.1.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.1.2}Avalanches et hyperuniformité}{176}{subsubsection.5.1.1.2}%
-\contentsline {subparagraph}{}{176}{subsubsection.5.1.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.1.3}Effets multiples des évènements d'activité}{176}{subsubsection.5.1.1.3}%
-\contentsline {subparagraph}{}{176}{subsubsection.5.1.1.3}%
-\contentsline {subparagraph}{}{177}{subsubsection.5.1.1.3}%
-\contentsline {subparagraph}{}{177}{subsubsection.5.1.1.3}%
-\contentsline {subparagraph}{}{177}{equation.5.1.2}%
-\contentsline {paragraph}{Aparté sur le transport à longue portée dans la transition de réversibilité}{178}{equation.5.1.2}%
-\contentsline {subparagraph}{}{178}{equation.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.2}Bruit interne, bruit mécanique}{178}{subsection.5.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.2.1}Diffusion vers une barrière}{178}{subsubsection.5.1.2.1}%
-\contentsline {subparagraph}{}{178}{subsubsection.5.1.2.1}%
-\contentsline {subparagraph}{}{179}{subsubsection.5.1.2.1}%
-\contentsline {subparagraph}{}{179}{subsubsection.5.1.2.1}%
-\contentsline {subsubsection}{\numberline {5.1.2.2}Modélisation champ moyen}{179}{subsubsection.5.1.2.2}%
-\contentsline {subparagraph}{}{179}{subsubsection.5.1.2.2}%
-\contentsline {subparagraph}{}{180}{subsubsection.5.1.2.2}%
-\contentsline {subparagraph}{}{180}{equation.5.1.4}%
-\contentsline {subparagraph}{}{180}{equation.5.1.5}%
-\contentsline {subparagraph}{}{180}{equation.5.1.5}%
-\contentsline {paragraph}{Extension à l'influence de la portée des interactions}{181}{equation.5.1.6}%
-\contentsline {subparagraph}{}{181}{equation.5.1.6}%
-\contentsline {subparagraph}{}{181}{equation.5.1.7}%
-\contentsline {subsection}{\numberline {5.1.3}Répartition de la masse et distance à l'activation :\\ des indices microscopiques}{181}{subsection.5.1.3}%
-\contentsline {subparagraph}{}{181}{subsection.5.1.3}%
-\contentsline {subparagraph}{}{181}{subsection.5.1.3}%
-\contentsline {subparagraph}{}{182}{equation.5.1.8}%
-\contentsline {subparagraph}{}{182}{equation.5.1.8}%
-\contentsline {subsection}{\numberline {5.1.4}Des évolutions qualitativement similaires dans les modèles numériques}{182}{subsection.5.1.4}%
-\contentsline {subparagraph}{}{182}{subsection.5.1.4}%
-\contentsline {subparagraph}{}{182}{subsection.5.1.4}%
-\contentsline {subparagraph}{}{183}{subsection.5.1.4}%
-\contentsline {subparagraph}{}{183}{subsection.5.1.4}%
-\contentsline {section}{\numberline {5.2}Des différences en dimension finie}{184}{section.5.2}%
-\contentsline {subparagraph}{}{184}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Cadres d'interprétation théoriques}{184}{subsection.5.2.1}%
-\contentsline {subparagraph}{}{184}{figure.caption.90}%
-\contentsline {subsection}{\numberline {5.2.2}Zone concave : des évolutions décalées}{185}{subsection.5.2.2}%
-\contentsline {subparagraph}{}{185}{subsection.5.2.2}%
-\contentsline {subparagraph}{}{186}{subsection.5.2.2}%
-\contentsline {subparagraph}{}{186}{subsection.5.2.2}%
-\contentsline {subparagraph}{}{186}{subsection.5.2.2}%
-\contentsline {subparagraph}{}{186}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Zone convexe : importance des corrélations}{187}{subsection.5.2.3}%
-\contentsline {subparagraph}{}{187}{subsection.5.2.3}%
-\contentsline {subparagraph}{}{187}{subsection.5.2.3}%
-\contentsline {subparagraph}{}{187}{subsection.5.2.3}%
-\contentsline {subparagraph}{}{188}{subsection.5.2.3}%
-\contentsline {subparagraph}{}{188}{subsection.5.2.3}%
-\contentsline {subparagraph}{}{188}{figure.caption.92}%
-\contentsline {subsection}{\numberline {5.2.4}Limites du scénario proposé}{189}{subsection.5.2.4}%
-\contentsline {subparagraph}{}{189}{subsection.5.2.4}%
-\contentsline {subsubsection}{\numberline {5.2.4.1}Une approche découplée des mécanismes de création de l'activité}{189}{subsubsection.5.2.4.1}%
-\contentsline {subparagraph}{}{189}{subsubsection.5.2.4.1}%
-\contentsline {paragraph}{$\alpha $-ROM}{189}{subsubsection.5.2.4.1}%
-\contentsline {subparagraph}{}{189}{subsubsection.5.2.4.1}%
-\contentsline {subparagraph}{}{190}{subsubsection.5.2.4.1}%
-\contentsline {paragraph}{$\alpha $-Picard}{190}{subsubsection.5.2.4.1}%
-\contentsline {subparagraph}{}{190}{subsubsection.5.2.4.1}%
-\contentsline {subparagraph}{}{190}{subsubsection.5.2.4.1}%
-\contentsline {subsubsection}{\numberline {5.2.4.2}Une vision réduite de la criticalité}{190}{subsubsection.5.2.4.2}%
-\contentsline {subparagraph}{}{190}{subsubsection.5.2.4.2}%
-\contentsline {subparagraph}{}{191}{subsubsection.5.2.4.2}%
-\contentsline {subsection}{\numberline {5.2.5}Vers un cadre théorique complet}{191}{subsection.5.2.5}%
-\contentsline {subparagraph}{}{191}{subsection.5.2.5}%
-\contentsline {subparagraph}{}{191}{subsection.5.2.5}%
-\contentsline {section}{\numberline {5.3}Conclusion}{191}{section.5.3}%
-\contentsline {subparagraph}{}{191}{section.5.3}%
-\contentsline {subparagraph}{}{192}{section.5.3}%
-\contentsline {subparagraph}{}{192}{section.5.3}%
-\contentsline {chapter}{Conclusion}{193}{chapter*.93}%
-\contentsline {subparagraph}{}{193}{chapter*.93}%
-\contentsline {subparagraph}{}{193}{chapter*.93}%
-\contentsline {subparagraph}{}{193}{chapter*.93}%
-\contentsline {subparagraph}{}{194}{chapter*.93}%
-\contentsline {subparagraph}{}{194}{chapter*.93}%
-\contentsline {subparagraph}{}{194}{chapter*.93}%
-\contentsline {subparagraph}{}{194}{chapter*.93}%
-\contentsline {subparagraph}{}{194}{chapter*.93}%
-\contentsline {subparagraph}{}{195}{chapter*.93}%
-\contentsline {subparagraph}{}{195}{chapter*.93}%
-\contentsline {subparagraph}{}{195}{chapter*.93}%
-\contentsline {subparagraph}{}{196}{chapter*.93}%
-\contentsline {subparagraph}{}{196}{chapter*.93}%
-\contentsline {subparagraph}{}{196}{chapter*.93}%
-\contentsline {subparagraph}{}{196}{chapter*.93}%
-\contentsline {subparagraph}{}{196}{chapter*.93}%
-\contentsline {subparagraph}{}{197}{chapter*.93}%
-\contentsline {subparagraph}{}{197}{chapter*.93}%
-\contentsline {subparagraph}{}{197}{chapter*.93}%
-\contentsline {subparagraph}{}{197}{chapter*.93}%
-\contentsline {subparagraph}{}{198}{chapter*.93}%
-\contentsline {subparagraph}{}{198}{chapter*.93}%
-\contentsline {chapter}{Bibliographie}{199}{chapter*.94}%
-\contentsline {chapter}{Annexes}{211}{section*.95}%
-\contentsline {chapter}{\numberline {A}Conventions et implémentations}{213}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Conventions}{213}{section.A.1}%
-\contentsline {subparagraph}{}{213}{section.A.1}%
-\contentsline {subparagraph}{}{213}{equation.A.1.2}%
-\contentsline {section}{\numberline {A.2}Implémentation discrète des propagateurs}{213}{section.A.2}%
-\contentsline {subparagraph}{}{213}{section.A.2}%
-\contentsline {subparagraph}{}{214}{section.A.2}%
-\contentsline {chapter}{\numberline {B}Annexes au chapitre 1}{215}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Réalisations expérimentales de la transition de dépiégeage à longue portée}{215}{section.B.1}%
-\contentsline {subparagraph}{}{215}{section.B.1}%
-\contentsline {paragraph}{Dynamique de mouillage à la ligne triple}{215}{section.B.1}%
-\contentsline {subparagraph}{}{215}{section.B.1}%
-\contentsline {subparagraph}{}{215}{section.B.1}%
-\contentsline {paragraph}{Propagation d'une fracture}{215}{figure.caption.96}%
-\contentsline {subparagraph}{}{215}{figure.caption.96}%
-\contentsline {subparagraph}{}{216}{figure.caption.96}%
-\contentsline {section}{\numberline {B.2}Propagateur de Eshelby}{216}{section.B.2}%
-\contentsline {subparagraph}{}{216}{section.B.2}%
-\contentsline {subparagraph}{}{216}{section.B.2}%
-\contentsline {subparagraph}{}{216}{section.B.2}%
-\contentsline {subparagraph}{}{217}{equation.B.2.2}%
-\contentsline {subparagraph}{}{217}{equation.B.2.4}%
-\contentsline {subparagraph}{}{218}{equation.B.2.8}%
-\contentsline {subparagraph}{}{218}{equation.B.2.10}%
-\contentsline {paragraph}{Modes 0 dans le propagateur d'Eshelby}{218}{equation.B.2.10}%
-\contentsline {subparagraph}{}{218}{equation.B.2.10}%
-\contentsline {section}{\numberline {B.3}Propagateurs hydrodynamiques}{218}{section.B.3}%
-\contentsline {subparagraph}{}{218}{section.B.3}%
-\contentsline {paragraph}{Hydrodynamique en milieu infini}{219}{section.B.3}%
-\contentsline {subparagraph}{}{219}{section.B.3}%
-\contentsline {subparagraph}{}{219}{equation.B.3.13}%
-\contentsline {subparagraph}{}{219}{equation.B.3.14}%
-\contentsline {subparagraph}{}{220}{equation.B.3.15}%
-\contentsline {subparagraph}{}{220}{equation.B.3.15}%
-\contentsline {paragraph}{Hydrodynamique en milieux complexes}{220}{equation.B.3.15}%
-\contentsline {subparagraph}{}{220}{equation.B.3.15}%
-\contentsline {subparagraph}{}{221}{equation.B.3.16}%
-\contentsline {subparagraph}{}{221}{equation.B.3.16}%
-\contentsline {subparagraph}{}{221}{equation.B.3.16}%
-\contentsline {paragraph}{Interactions dipolaires dans le cas de la transition de réversibilité}{221}{equation.B.3.17}%
-\contentsline {subparagraph}{}{221}{equation.B.3.17}%
-\contentsline {subparagraph}{}{221}{equation.B.3.17}%
-\contentsline {chapter}{\numberline {C}Annexes au chapitre 2}{223}{appendix.C}%
-\contentsline {section}{\numberline {C.1}Mesures d'hyperuniformité dans le modèle LR-Manna}{223}{section.C.1}%
-\contentsline {subparagraph}{}{223}{section.C.1}%
-\contentsline {chapter}{\numberline {D}Annexes au chapitre 3}{225}{appendix.D}%
-\contentsline {section}{\numberline {D.1}Transformée de Fourier des propagateurs}{225}{section.D.1}%
-\contentsline {subparagraph}{}{225}{section.D.1}%
-\contentsline {subparagraph}{}{225}{equation.D.1.1}%
-\contentsline {section}{\numberline {D.2}Résolution numérique du modèle $\mu $-Hébraud-Lequeux}{226}{section.D.2}%
-\contentsline {subparagraph}{}{226}{section.D.2}%
-\contentsline {subparagraph}{}{226}{equation.D.2.7}%
-\contentsline {subparagraph}{}{227}{equation.D.2.9}%
-\contentsline {subparagraph}{}{227}{figure.caption.101}%
-\contentsline {subparagraph}{}{227}{equation.D.2.10}%
-\contentsline {paragraph}{Détails d'implémentation}{227}{equation.D.2.10}%
-\contentsline {subparagraph}{}{227}{equation.D.2.10}%
-\contentsline {section}{\numberline {D.3}Fonctions de corrélation de paire}{228}{section.D.3}%
+\contentsline {subsection}{\numberline {1.3.3}Comportement critique}{21}{subsection.1.3.3}%
+\contentsline {subparagraph}{}{21}{subsection.1.3.3}%
+\contentsline {subparagraph}{}{21}{equation.1.3.17}%
+\contentsline {subparagraph}{}{21}{equation.1.3.17}%
+\contentsline {subsection}{\numberline {1.3.4}Classe CDP et transition de dépiégeage}{21}{subsection.1.3.4}%
+\contentsline {subparagraph}{}{21}{subsection.1.3.4}%
+\contentsline {subsubsection}{\numberline {1.3.4.1}Phénoménologie de la transition de dépiégeage}{22}{subsubsection.1.3.4.1}%
+\contentsline {paragraph}{Une transition de phase absorbante}{22}{subsubsection.1.3.4.1}%
+\contentsline {subparagraph}{}{22}{subsubsection.1.3.4.1}%
+\contentsline {subparagraph}{}{22}{figure.caption.12}%
+\contentsline {subparagraph}{}{23}{figure.caption.12}%
+\contentsline {subparagraph}{}{23}{figure.caption.12}%
+\contentsline {paragraph}{Rugosité}{23}{figure.caption.12}%
+\contentsline {subparagraph}{}{23}{figure.caption.12}%
+\contentsline {paragraph}{Avalanches}{23}{equation.1.3.20}%
+\contentsline {subparagraph}{}{23}{equation.1.3.20}%
+\contentsline {subparagraph}{}{24}{equation.1.3.23}%
+\contentsline {subsubsection}{\numberline {1.3.4.2}Mapping avec la classe CDP}{24}{subsubsection.1.3.4.2}%
+\contentsline {subparagraph}{}{24}{subsubsection.1.3.4.2}%
+\contentsline {subparagraph}{}{24}{subsubsection.1.3.4.2}%
+\contentsline {subparagraph}{}{25}{equation.1.3.25}%
+\contentsline {subparagraph}{}{25}{equation.1.3.26}%
+\contentsline {subsection}{\numberline {1.3.5}Avalanches}{25}{subsection.1.3.5}%
+\contentsline {subparagraph}{}{25}{subsection.1.3.5}%
+\contentsline {subparagraph}{}{25}{subsection.1.3.5}%
+\contentsline {subparagraph}{}{26}{subsection.1.3.5}%
+\contentsline {subsection}{\numberline {1.3.6}Hyperuniformité}{26}{subsection.1.3.6}%
+\contentsline {paragraph}{Fluctuations de position, fluctuations de densité}{26}{subsection.1.3.6}%
+\contentsline {subparagraph}{}{26}{subsection.1.3.6}%
+\contentsline {paragraph}{Répartition de masse et hyperuniformité}{26}{equation.1.3.27}%
+\contentsline {subparagraph}{}{26}{equation.1.3.27}%
+\contentsline {subparagraph}{}{26}{equation.1.3.27}%
+\contentsline {subparagraph}{}{26}{equation.1.3.28}%
+\contentsline {subparagraph}{}{26}{equation.1.3.29}%
+\contentsline {paragraph}{Hyperuniformité dans les modèles de particules appartenant à la classe CDP}{27}{figure.caption.13}%
+\contentsline {subparagraph}{}{27}{figure.caption.13}%
+\contentsline {subsection}{\numberline {1.3.7}Bilan}{27}{subsection.1.3.7}%
+\contentsline {subparagraph}{}{27}{subsection.1.3.7}%
+\contentsline {section}{\numberline {1.4}Les transitions de réversibilité et d'écoulement comme transitions de phase \\ absorbantes}{28}{section.1.4}%
+\contentsline {subparagraph}{}{28}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Transition de réversibilité}{28}{subsection.1.4.1}%
+\contentsline {subparagraph}{}{28}{subsection.1.4.1}%
+\contentsline {subsubsection}{\numberline {1.4.1.1}La diffusion comme une succession d'interactions irréversibles}{28}{subsubsection.1.4.1.1}%
+\contentsline {subparagraph}{}{28}{subsubsection.1.4.1.1}%
+\contentsline {subparagraph}{}{28}{figure.caption.14}%
+\contentsline {subparagraph}{}{28}{figure.caption.14}%
+\contentsline {subsubsection}{\numberline {1.4.1.2}Similitudes avec la classe CDP}{29}{subsubsection.1.4.1.2}%
+\contentsline {subparagraph}{}{29}{subsubsection.1.4.1.2}%
+\contentsline {subparagraph}{}{29}{subsubsection.1.4.1.2}%
+\contentsline {subparagraph}{}{30}{subsubsection.1.4.1.2}%
+\contentsline {subsubsection}{\numberline {1.4.1.3}Interactions visqueuses médiées par le fluide}{30}{subsubsection.1.4.1.3}%
+\contentsline {subparagraph}{}{30}{subsubsection.1.4.1.3}%
+\contentsline {subparagraph}{}{30}{equation.1.4.32}%
+\contentsline {subparagraph}{}{31}{equation.1.4.33}%
+\contentsline {subsection}{\numberline {1.4.2}Transition vers l'écoulement}{31}{subsection.1.4.2}%
+\contentsline {subparagraph}{}{31}{subsection.1.4.2}%
+\contentsline {subsubsection}{\numberline {1.4.2.1}L'écoulement comme une succession de réarrangements}{31}{subsubsection.1.4.2.1}%
+\contentsline {subparagraph}{}{31}{subsubsection.1.4.2.1}%
+\contentsline {subparagraph}{}{31}{subsubsection.1.4.2.1}%
+\contentsline {subparagraph}{}{31}{subsubsection.1.4.2.1}%
+\contentsline {subparagraph}{}{31}{subsubsection.1.4.2.1}%
+\contentsline {subparagraph}{}{32}{figure.caption.15}%
+\contentsline {subparagraph}{}{32}{equation.1.4.34}%
+\contentsline {subsubsection}{\numberline {1.4.2.2}Similitudes avec la classe CDP}{33}{subsubsection.1.4.2.2}%
+\contentsline {subparagraph}{}{33}{subsubsection.1.4.2.2}%
+\contentsline {subparagraph}{}{33}{subsubsection.1.4.2.2}%
+\contentsline {subsubsection}{\numberline {1.4.2.3}Interactions élastiques médiées par le solide}{33}{subsubsection.1.4.2.3}%
+\contentsline {subparagraph}{}{33}{subsubsection.1.4.2.3}%
+\contentsline {subparagraph}{}{33}{equation.1.4.35}%
+\contentsline {subparagraph}{}{33}{equation.1.4.36}%
+\contentsline {paragraph}{Forme et observations expérimentales}{34}{equation.1.4.36}%
+\contentsline {subparagraph}{}{34}{equation.1.4.36}%
+\contentsline {subparagraph}{}{34}{figure.caption.16}%
+\contentsline {subparagraph}{}{34}{figure.caption.16}%
+\contentsline {subparagraph}{}{34}{figure.caption.16}%
+\contentsline {section}{\numberline {1.5}Atypicité des transitions étudiées}{35}{section.1.5}%
+\contentsline {subparagraph}{}{35}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Incompatibilité avec le cadre générique de la longue portée}{35}{subsection.1.5.1}%
+\contentsline {subsubsection}{\numberline {1.5.1.1}Attendu générique de l'influence d'interactions à longue portée}{35}{subsubsection.1.5.1.1}%
+\contentsline {subparagraph}{}{35}{subsubsection.1.5.1.1}%
+\contentsline {subparagraph}{}{35}{subsubsection.1.5.1.1}%
+\contentsline {subparagraph}{}{35}{subsubsection.1.5.1.1}%
+\contentsline {subparagraph}{}{35}{subsubsection.1.5.1.1}%
+\contentsline {subsubsection}{\numberline {1.5.1.2}Contradiction du cadre générique par les transitions de réversibilité et d'écoulement}{36}{subsubsection.1.5.1.2}%
+\contentsline {paragraph}{Transition de réversibilité}{36}{subsubsection.1.5.1.2}%
+\contentsline {subparagraph}{}{36}{subsubsection.1.5.1.2}%
+\contentsline {subparagraph}{}{36}{subsubsection.1.5.1.2}%
+\contentsline {subparagraph}{}{36}{figure.caption.17}%
+\contentsline {subparagraph}{}{37}{figure.caption.17}%
+\contentsline {paragraph}{Transition vers l'écoulement}{37}{figure.caption.17}%
+\contentsline {subparagraph}{}{37}{figure.caption.17}%
+\contentsline {subparagraph}{}{37}{figure.caption.17}%
+\contentsline {subparagraph}{}{37}{equation.1.5.38}%
+\contentsline {subsection}{\numberline {1.5.2}Des interactions à longue portée de nature différente}{37}{subsection.1.5.2}%
+\contentsline {subsubsection}{\numberline {1.5.2.1}La longue portée comme transport dans le cadre d'interprétation générique}{37}{subsubsection.1.5.2.1}%
+\contentsline {subparagraph}{}{37}{subsubsection.1.5.2.1}%
+\contentsline {subparagraph}{}{37}{subsubsection.1.5.2.1}%
+\contentsline {subparagraph}{}{38}{subsubsection.1.5.2.1}%
+\contentsline {subparagraph}{}{38}{subsubsection.1.5.2.1}%
+\contentsline {subsubsection}{\numberline {1.5.2.2}La longue portée comme source de diffusion dans les transitions de réversibilité et d'écoulement}{38}{subsubsection.1.5.2.2}%
+\contentsline {paragraph}{Transition de réversibilité}{38}{subsubsection.1.5.2.2}%
+\contentsline {subparagraph}{}{38}{subsubsection.1.5.2.2}%
+\contentsline {paragraph}{Transition vers l'écoulement}{38}{subsubsection.1.5.2.2}%
+\contentsline {subparagraph}{}{38}{subsubsection.1.5.2.2}%
+\contentsline {subparagraph}{}{39}{subsubsection.1.5.2.2}%
+\contentsline {section}{\numberline {1.6}Problématisation}{39}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}Questions guidant ce travail}{39}{subsection.1.6.1}%
+\contentsline {paragraph}{Quelle criticalité caractérise les transitions de réversibilité et d'écoulement ?}{39}{subsection.1.6.1}%
+\contentsline {subparagraph}{}{39}{subsection.1.6.1}%
+\contentsline {subparagraph}{}{39}{subsection.1.6.1}%
+\contentsline {subparagraph}{}{40}{subsection.1.6.1}%
+\contentsline {subparagraph}{}{40}{subsection.1.6.1}%
+\contentsline {paragraph}{Quelle est l'influence de la portée des interactions médiées sur la criticalité de ces systèmes ?}{40}{subsection.1.6.1}%
+\contentsline {subparagraph}{}{40}{subsection.1.6.1}%
+\contentsline {subparagraph}{}{40}{subsection.1.6.1}%
+\contentsline {subparagraph}{}{40}{subsection.1.6.1}%
+\contentsline {paragraph}{Peut-on comprendre ces systèmes similaires dans un cadre de description commun ?}{40}{subsection.1.6.1}%
+\contentsline {subparagraph}{}{40}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}Déroulé du manuscrit}{41}{subsection.1.6.2}%
+\contentsline {subparagraph}{}{41}{subsection.1.6.2}%
+\contentsline {subparagraph}{}{41}{subsection.1.6.2}%
+\contentsline {subparagraph}{}{41}{subsection.1.6.2}%
+\contentsline {subparagraph}{}{41}{subsection.1.6.2}%
+\contentsline {subparagraph}{}{41}{subsection.1.6.2}%
+\contentsline {chapter}{\numberline {2}Transport à longue portée dans la classe CDP}{43}{chapter.2}%
+\contentsline {subparagraph}{}{43}{chapter.2}%
+\contentsline {subparagraph}{}{43}{equation.2.0.1}%
+\contentsline {subparagraph}{}{43}{equation.2.0.1}%
+\contentsline {section}{\numberline {2.1}Longue portée et comportement critique}{44}{section.2.1}%
+\contentsline {subparagraph}{}{44}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Phénoménologie}{44}{subsection.2.1.1}%
+\contentsline {subparagraph}{}{44}{subsection.2.1.1}%
+\contentsline {subparagraph}{}{44}{subsection.2.1.1}%
+\contentsline {subparagraph}{}{45}{figure.caption.19}%
+\contentsline {subparagraph}{}{45}{figure.caption.19}%
+\contentsline {subsection}{\numberline {2.1.2}Formulation théorique dans la classe CDP}{45}{subsection.2.1.2}%
+\contentsline {paragraph}{Équations de champ et transport à longue portée}{45}{subsection.2.1.2}%
+\contentsline {subparagraph}{}{45}{subsection.2.1.2}%
+\contentsline {subparagraph}{}{45}{equation.2.1.3}%
+\contentsline {paragraph}{Zone continue d'évolution des exposants}{46}{equation.2.1.3}%
+\contentsline {subparagraph}{}{46}{equation.2.1.3}%
+\contentsline {subparagraph}{}{46}{equation.2.1.3}%
+\contentsline {subparagraph}{}{46}{equation.2.1.3}%
+\contentsline {subparagraph}{}{46}{equation.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.3}Prédictions}{46}{subsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.3.1}Prédictions issues des cas limites}{46}{subsubsection.2.1.3.1}%
+\contentsline {subparagraph}{}{46}{subsubsection.2.1.3.1}%
+\contentsline {paragraph}{Exposants critiques}{46}{subsubsection.2.1.3.1}%
+\contentsline {subparagraph}{}{46}{subsubsection.2.1.3.1}%
+\contentsline {paragraph}{Avalanches}{47}{subsubsection.2.1.3.1}%
+\contentsline {subparagraph}{}{47}{subsubsection.2.1.3.1}%
+\contentsline {paragraph}{Hyperuniformité}{47}{subsubsection.2.1.3.1}%
+\contentsline {subparagraph}{}{47}{subsubsection.2.1.3.1}%
+\contentsline {subsubsection}{\numberline {2.1.3.2}Prédictions analytiques spécifiques}{47}{subsubsection.2.1.3.2}%
+\contentsline {subparagraph}{}{47}{subsubsection.2.1.3.2}%
+\contentsline {subparagraph}{}{47}{subsubsection.2.1.3.2}%
+\contentsline {subparagraph}{}{47}{figure.caption.20}%
+\contentsline {section}{\numberline {2.2}Motivations pour une caractérisation numérique}{48}{section.2.2}%
+\contentsline {subparagraph}{}{48}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Motivation principale : un point manquant dans la littérature}{48}{subsection.2.2.1}%
+\contentsline {subparagraph}{}{48}{subsection.2.2.1}%
+\contentsline {subparagraph}{}{48}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Motivation secondaire : un cadre d'intérêt pour la modélisation de\\ systèmes réels}{49}{subsection.2.2.2}%
+\contentsline {subparagraph}{}{49}{subsection.2.2.2}%
+\contentsline {subparagraph}{}{49}{subsection.2.2.2}%
+\contentsline {subparagraph}{}{49}{subsection.2.2.2}%
+\contentsline {subparagraph}{}{49}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Modèles}{49}{section.2.3}%
+\contentsline {subparagraph}{}{49}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}LR-Manna}{50}{subsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.1.1}Implémentation générale}{50}{subsubsection.2.3.1.1}%
+\contentsline {subparagraph}{}{50}{subsubsection.2.3.1.1}%
+\contentsline {subparagraph}{}{50}{subsubsection.2.3.1.1}%
+\contentsline {subparagraph}{}{50}{subsubsection.2.3.1.1}%
+\contentsline {subsubsection}{\numberline {2.3.1.2}Transport à longue portée}{50}{subsubsection.2.3.1.2}%
+\contentsline {subparagraph}{}{50}{subsubsection.2.3.1.2}%
+\contentsline {subparagraph}{}{50}{equation.2.3.7}%
+\contentsline {subparagraph}{}{51}{figure.caption.21}%
+\contentsline {subsection}{\numberline {2.3.2}LR-ROM}{51}{subsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.2.1}Implémentation générale}{51}{subsubsection.2.3.2.1}%
+\contentsline {subparagraph}{}{51}{subsubsection.2.3.2.1}%
+\contentsline {subparagraph}{}{51}{subsubsection.2.3.2.1}%
+\contentsline {subparagraph}{}{51}{subsubsection.2.3.2.1}%
+\contentsline {subsubsection}{\numberline {2.3.2.2}Transport à longue portée}{51}{subsubsection.2.3.2.2}%
+\contentsline {subparagraph}{}{51}{subsubsection.2.3.2.2}%
+\contentsline {subsection}{\numberline {2.3.3}Détails d'implémentation}{52}{subsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.3.1}Distributions de sauts}{52}{subsubsection.2.3.3.1}%
+\contentsline {subparagraph}{}{52}{subsubsection.2.3.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.3.2}Méthode cell-list dans le ROM}{52}{subsubsection.2.3.3.2}%
+\contentsline {subparagraph}{}{52}{subsubsection.2.3.3.2}%
+\contentsline {subparagraph}{}{52}{subsubsection.2.3.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3.3}Parallélisation et implémentation GPU}{52}{subsubsection.2.3.3.3}%
+\contentsline {subparagraph}{}{52}{subsubsection.2.3.3.3}%
+\contentsline {subparagraph}{}{53}{subsubsection.2.3.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.3.4}Valeurs des paramètres}{53}{subsubsection.2.3.3.4}%
+\contentsline {subparagraph}{}{53}{subsubsection.2.3.3.4}%
+\contentsline {subparagraph}{}{53}{subsubsection.2.3.3.4}%
+\contentsline {section}{\numberline {2.4}Méthodes de caractérisation du comportement critique}{53}{section.2.4}%
+\contentsline {subparagraph}{}{53}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Détermination des exposants critiques}{53}{subsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.1.1}Détermination du point critique}{53}{subsubsection.2.4.1.1}%
+\contentsline {subparagraph}{}{53}{subsubsection.2.4.1.1}%
+\contentsline {subparagraph}{}{54}{figure.caption.22}%
+\contentsline {subparagraph}{}{54}{figure.caption.22}%
+\contentsline {subsubsection}{\numberline {2.4.1.2}Détermination des exposants statiques}{55}{subsubsection.2.4.1.2}%
+\contentsline {subparagraph}{}{55}{subsubsection.2.4.1.2}%
+\contentsline {subparagraph}{}{55}{subsubsection.2.4.1.2}%
+\contentsline {subsubsection}{\numberline {2.4.1.3}Détermination de l'exposant dynamique}{55}{subsubsection.2.4.1.3}%
+\contentsline {subparagraph}{}{55}{subsubsection.2.4.1.3}%
+\contentsline {subparagraph}{}{56}{equation.2.4.11}%
+\contentsline {subsection}{\numberline {2.4.2}Caractérisation de l'hyperuniformité}{56}{subsection.2.4.2}%
+\contentsline {subparagraph}{}{56}{subsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.2.1}Mesure directe du facteur de structure}{56}{subsubsection.2.4.2.1}%
+\contentsline {subparagraph}{}{56}{subsubsection.2.4.2.1}%
+\contentsline {subparagraph}{}{57}{equation.2.4.13}%
+\contentsline {subsubsection}{\numberline {2.4.2.2}Méthode de box-counting}{57}{subsubsection.2.4.2.2}%
+\contentsline {paragraph}{Définition}{57}{subsubsection.2.4.2.2}%
+\contentsline {subparagraph}{}{57}{subsubsection.2.4.2.2}%
+\contentsline {subparagraph}{}{57}{equation.2.4.15}%
+\contentsline {subparagraph}{}{57}{equation.2.4.15}%
+\contentsline {paragraph}{Implémentation}{58}{equation.2.4.17}%
+\contentsline {subparagraph}{}{58}{equation.2.4.17}%
+\contentsline {subparagraph}{}{58}{equation.2.4.17}%
+\contentsline {paragraph}{Détermination par redimensionnement}{58}{equation.2.4.17}%
+\contentsline {subparagraph}{}{58}{equation.2.4.17}%
+\contentsline {subparagraph}{}{58}{equation.2.4.18}%
+\contentsline {subsubsection}{\numberline {2.4.2.3}Des mesures complexes}{59}{subsubsection.2.4.2.3}%
+\contentsline {subparagraph}{}{59}{subsubsection.2.4.2.3}%
+\contentsline {subparagraph}{}{59}{subsubsection.2.4.2.3}%
+\contentsline {subparagraph}{}{59}{subsubsection.2.4.2.3}%
+\contentsline {section}{\numberline {2.5}Exposants critiques}{59}{section.2.5}%
+\contentsline {subparagraph}{}{59}{section.2.5}%
+\contentsline {subparagraph}{}{59}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Exposants statiques}{59}{subsection.2.5.1}%
+\contentsline {subparagraph}{}{59}{subsection.2.5.1}%
+\contentsline {subparagraph}{}{60}{figure.caption.25}%
+\contentsline {subparagraph}{}{60}{figure.caption.25}%
+\contentsline {subsection}{\numberline {2.5.2}Exposant dynamique}{61}{subsection.2.5.2}%
+\contentsline {subparagraph}{}{61}{subsection.2.5.2}%
+\contentsline {subparagraph}{}{61}{figure.caption.26}%
+\contentsline {subparagraph}{}{61}{figure.caption.27}%
+\contentsline {section}{\numberline {2.6}Hyperuniformité}{61}{section.2.6}%
+\contentsline {subparagraph}{}{61}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Hyperuniformité dans le LR-ROM}{62}{subsection.2.6.1}%
+\contentsline {subparagraph}{}{62}{subsection.2.6.1}%
+\contentsline {subparagraph}{}{62}{figure.caption.29}%
+\contentsline {subparagraph}{}{64}{equation.2.6.20}%
+\contentsline {subsection}{\numberline {2.6.2}Difficultés dans les mesures d'hyperuniformité}{64}{subsection.2.6.2}%
+\contentsline {subsubsection}{\numberline {2.6.2.1}Importance de la conservation du centre de masse}{64}{subsubsection.2.6.2.1}%
+\contentsline {subparagraph}{}{64}{subsubsection.2.6.2.1}%
+\contentsline {subparagraph}{}{65}{subsubsection.2.6.2.1}%
+\contentsline {subparagraph}{}{65}{figure.caption.31}%
+\contentsline {subparagraph}{}{65}{figure.caption.31}%
+\contentsline {subsubsection}{\numberline {2.6.2.2}Effet de taille finie}{66}{subsubsection.2.6.2.2}%
+\contentsline {subparagraph}{}{66}{subsubsection.2.6.2.2}%
+\contentsline {subparagraph}{}{66}{subsubsection.2.6.2.2}%
+\contentsline {subparagraph}{}{67}{figure.caption.32}%
+\contentsline {subparagraph}{}{67}{figure.caption.32}%
+\contentsline {subsection}{\numberline {2.6.3}Hyperuniformité dans le modèle LR-Manna}{67}{subsection.2.6.3}%
+\contentsline {subsubsection}{\numberline {2.6.3.1}Résultats préliminaires}{67}{subsubsection.2.6.3.1}%
+\contentsline {subparagraph}{}{67}{subsubsection.2.6.3.1}%
+\contentsline {subparagraph}{}{67}{figure.caption.33}%
+\contentsline {subparagraph}{}{67}{figure.caption.33}%
+\contentsline {subparagraph}{}{68}{figure.caption.33}%
+\contentsline {subparagraph}{}{68}{figure.caption.33}%
+\contentsline {subsubsection}{\numberline {2.6.3.2}Perspectives}{68}{subsubsection.2.6.3.2}%
+\contentsline {subparagraph}{}{68}{subsubsection.2.6.3.2}%
+\contentsline {subparagraph}{}{69}{subsubsection.2.6.3.2}%
+\contentsline {subparagraph}{}{69}{figure.caption.34}%
+\contentsline {subparagraph}{}{70}{figure.caption.35}%
+\contentsline {subparagraph}{}{70}{figure.caption.35}%
+\contentsline {subsubsection}{\numberline {2.6.3.3}Retour sur les exposants critiques}{70}{subsubsection.2.6.3.3}%
+\contentsline {subparagraph}{}{70}{subsubsection.2.6.3.3}%
+\contentsline {subparagraph}{}{71}{subsubsection.2.6.3.3}%
+\contentsline {section}{\numberline {2.7}Conclusion de chapitre}{71}{section.2.7}%
+\contentsline {subparagraph}{}{71}{section.2.7}%
+\contentsline {subparagraph}{}{71}{section.2.7}%
+\contentsline {subparagraph}{}{71}{section.2.7}%
+\contentsline {subparagraph}{}{71}{section.2.7}%
+\contentsline {chapter}{\numberline {3}Transition de réversibilité dans les suspensions cisaillées cycliquement}{73}{chapter.3}%
+\contentsline {subparagraph}{}{73}{chapter.3}%
+\contentsline {subparagraph}{}{73}{equation.3.0.1}%
+\contentsline {subparagraph}{}{73}{equation.3.0.1}%
+\contentsline {subparagraph}{}{73}{equation.3.0.1}%
+\contentsline {section}{\numberline {3.1}Importance de la spatialisation des interactions}{74}{section.3.1}%
+\contentsline {paragraph}{Limite de l'approche champ moyen}{74}{section.3.1}%
+\contentsline {subparagraph}{}{74}{section.3.1}%
+\contentsline {subparagraph}{}{74}{equation.3.1.2}%
+\contentsline {paragraph}{Quelle portée étudier ?}{74}{equation.3.1.2}%
+\contentsline {subparagraph}{}{74}{equation.3.1.2}%
+\contentsline {subparagraph}{}{74}{equation.3.1.2}%
+\contentsline {subparagraph}{}{75}{equation.3.1.2}%
+\contentsline {subparagraph}{}{75}{equation.3.1.2}%
+\contentsline {section}{\numberline {3.2}Méthode}{75}{section.3.2}%
+\contentsline {subparagraph}{}{75}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Le ROM comme modèle de dynamique stroboscopique}{75}{subsection.3.2.1}%
+\contentsline {subparagraph}{}{75}{subsection.3.2.1}%
+\contentsline {subparagraph}{}{75}{subsection.3.2.1}%
+\contentsline {subparagraph}{}{76}{subsection.3.2.1}%
+\contentsline {subparagraph}{}{76}{figure.caption.36}%
+\contentsline {subparagraph}{}{77}{figure.caption.37}%
+\contentsline {subsection}{\numberline {3.2.2}Modélisation des interactions médiées}{77}{subsection.3.2.2}%
+\contentsline {subparagraph}{}{77}{subsection.3.2.2}%
+\contentsline {subparagraph}{}{77}{subsection.3.2.2}%
+\contentsline {subparagraph}{}{78}{equation.3.2.3}%
+\contentsline {subparagraph}{}{78}{equation.3.2.4}%
+\contentsline {subparagraph}{}{79}{equation.3.2.7}%
+\contentsline {subparagraph}{}{79}{equation.3.2.8}%
+\contentsline {subsection}{\numberline {3.2.3}Implémentation numérique}{79}{subsection.3.2.3}%
+\contentsline {subparagraph}{}{79}{subsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.3.1}Calcul de l'influence des particules actives}{79}{subsubsection.3.2.3.1}%
+\contentsline {subparagraph}{}{79}{subsubsection.3.2.3.1}%
+\contentsline {subparagraph}{}{80}{figure.caption.38}%
+\contentsline {subparagraph}{}{80}{equation.3.2.12}%
+\contentsline {subparagraph}{}{80}{equation.3.2.12}%
+\contentsline {subparagraph}{}{81}{equation.3.2.12}%
+\contentsline {subsubsection}{\numberline {3.2.3.2}Non-intégrabilité du propagateur à longue portée}{81}{subsubsection.3.2.3.2}%
+\contentsline {subparagraph}{}{81}{subsubsection.3.2.3.2}%
+\contentsline {subparagraph}{}{81}{subsubsection.3.2.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.3.3}Extension aux dimensions supérieures}{81}{subsubsection.3.2.3.3}%
+\contentsline {subparagraph}{}{81}{subsubsection.3.2.3.3}%
+\contentsline {subparagraph}{}{82}{subsubsection.3.2.3.3}%
+\contentsline {subparagraph}{}{82}{subsubsection.3.2.3.3}%
+\contentsline {subparagraph}{}{82}{equation.3.2.13}%
+\contentsline {section}{\numberline {3.3}Comportement critique}{82}{section.3.3}%
+\contentsline {subparagraph}{}{82}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Détermination du point critique}{82}{subsection.3.3.1}%
+\contentsline {subparagraph}{}{82}{subsection.3.3.1}%
+\contentsline {subparagraph}{}{83}{figure.caption.40}%
+\contentsline {subparagraph}{}{83}{figure.caption.40}%
+\contentsline {subsection}{\numberline {3.3.2}Évolution des exposants critiques}{83}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.1}Exposants statiques}{83}{subsubsection.3.3.2.1}%
+\contentsline {subparagraph}{}{83}{subsubsection.3.3.2.1}%
+\contentsline {subparagraph}{}{84}{figure.caption.41}%
+\contentsline {paragraph}{Zones d'évolution}{84}{figure.caption.43}%
+\contentsline {subparagraph}{}{84}{figure.caption.43}%
+\contentsline {paragraph}{Comportement exotique et point singulier}{85}{figure.caption.43}%
+\contentsline {subparagraph}{}{85}{figure.caption.43}%
+\contentsline {subparagraph}{}{85}{figure.caption.43}%
+\contentsline {subparagraph}{}{86}{equation.3.3.14}%
+\contentsline {subparagraph}{}{86}{equation.3.3.14}%
+\contentsline {paragraph}{Une limite non triviale}{86}{equation.3.3.14}%
+\contentsline {subparagraph}{}{86}{equation.3.3.14}%
+\contentsline {subparagraph}{}{86}{equation.3.3.14}%
+\contentsline {subsubsection}{\numberline {3.3.2.2}Exposant dynamique}{86}{subsubsection.3.3.2.2}%
+\contentsline {subparagraph}{}{86}{subsubsection.3.3.2.2}%
+\contentsline {subparagraph}{}{86}{equation.3.3.15}%
+\contentsline {subparagraph}{}{87}{figure.caption.44}%
+\contentsline {subparagraph}{}{87}{figure.caption.44}%
+\contentsline {subparagraph}{}{87}{figure.caption.44}%
+\contentsline {subparagraph}{}{87}{figure.caption.44}%
+\contentsline {subsubsection}{\numberline {3.3.2.3}Comparaison avec le cadre LR-CDP}{87}{subsubsection.3.3.2.3}%
+\contentsline {subparagraph}{}{87}{subsubsection.3.3.2.3}%
+\contentsline {subparagraph}{}{87}{subsubsection.3.3.2.3}%
+\contentsline {subparagraph}{}{88}{subsubsection.3.3.2.3}%
+\contentsline {subparagraph}{}{88}{subsubsection.3.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.3.2.4}Extension à trois dimensions}{88}{subsubsection.3.3.2.4}%
+\contentsline {subparagraph}{}{88}{subsubsection.3.3.2.4}%
+\contentsline {subparagraph}{}{88}{subsubsection.3.3.2.4}%
+\contentsline {subparagraph}{}{88}{figure.caption.45}%
+\contentsline {subparagraph}{}{88}{figure.caption.45}%
+\contentsline {subsection}{\numberline {3.3.3}Hyperuniformité}{89}{subsection.3.3.3}%
+\contentsline {subparagraph}{}{89}{subsection.3.3.3}%
+\contentsline {subparagraph}{}{89}{subsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.3.1}Méthode}{89}{subsubsection.3.3.3.1}%
+\contentsline {subparagraph}{}{89}{subsubsection.3.3.3.1}%
+\contentsline {subparagraph}{}{90}{equation.3.3.16}%
+\contentsline {subsubsection}{\numberline {3.3.3.2}Résultats}{90}{subsubsection.3.3.3.2}%
+\contentsline {subparagraph}{}{90}{figure.caption.46}%
+\contentsline {subparagraph}{}{91}{figure.caption.46}%
+\contentsline {subparagraph}{}{91}{figure.caption.46}%
+\contentsline {subparagraph}{}{91}{figure.caption.46}%
+\contentsline {subparagraph}{}{91}{figure.caption.46}%
+\contentsline {subsection}{\numberline {3.3.4}Retour sur les cas physiques}{91}{subsection.3.3.4}%
+\contentsline {subparagraph}{}{91}{subsection.3.3.4}%
+\contentsline {subparagraph}{}{92}{subsection.3.3.4}%
+\contentsline {subparagraph}{}{92}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}Interprétation}{92}{section.3.4}%
+\contentsline {subparagraph}{}{92}{section.3.4}%
+\contentsline {subparagraph}{}{92}{section.3.4}%
+\contentsline {subparagraph}{}{93}{equation.3.4.17}%
+\contentsline {subparagraph}{}{93}{equation.3.4.17}%
+\contentsline {subparagraph}{}{93}{equation.3.4.17}%
+\contentsline {subsection}{\numberline {3.4.1}Un cadre de description champ moyen}{93}{subsection.3.4.1}%
+\contentsline {subparagraph}{}{93}{subsection.3.4.1}%
+\contentsline {subparagraph}{}{93}{subsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.1.1}Première modélisation et diffusion normale}{93}{subsubsection.3.4.1.1}%
+\contentsline {paragraph}{Présentation du modèle}{93}{subsubsection.3.4.1.1}%
+\contentsline {subparagraph}{}{93}{subsubsection.3.4.1.1}%
+\contentsline {subparagraph}{}{94}{subsubsection.3.4.1.1}%
+\contentsline {subparagraph}{}{94}{figure.caption.47}%
+\contentsline {subparagraph}{}{94}{figure.caption.47}%
+\contentsline {subparagraph}{}{94}{figure.caption.47}%
+\contentsline {subparagraph}{}{95}{equation.3.4.18}%
+\contentsline {paragraph}{Comparaison avec la formulation originale}{95}{equation.3.4.18}%
+\contentsline {subparagraph}{}{95}{equation.3.4.18}%
+\contentsline {subparagraph}{}{95}{equation.3.4.19}%
+\contentsline {subparagraph}{}{95}{equation.3.4.19}%
+\contentsline {subparagraph}{}{96}{equation.3.4.20}%
+\contentsline {paragraph}{Résolution en 2D}{96}{equation.3.4.20}%
+\contentsline {subparagraph}{}{96}{equation.3.4.20}%
+\contentsline {subparagraph}{}{96}{equation.3.4.22}%
+\contentsline {subparagraph}{}{96}{equation.3.4.25}%
+\contentsline {subparagraph}{}{97}{equation.3.4.28}%
+\contentsline {subparagraph}{}{97}{equation.3.4.32}%
+\contentsline {subparagraph}{}{97}{equation.3.4.32}%
+\contentsline {subsubsection}{\numberline {3.4.1.2}Influence de la longue portée et diffusion anormale}{97}{subsubsection.3.4.1.2}%
+\contentsline {subparagraph}{}{97}{subsubsection.3.4.1.2}%
+\contentsline {paragraph}{Interactions à longue portée et distributions de bruit interne}{98}{subsubsection.3.4.1.2}%
+\contentsline {subparagraph}{}{98}{subsubsection.3.4.1.2}%
+\contentsline {subparagraph}{}{98}{equation.3.4.34}%
+\contentsline {subparagraph}{}{98}{equation.3.4.35}%
+\contentsline {paragraph}{Résultats dans le cadre de la transition vers l'écoulement}{98}{equation.3.4.35}%
+\contentsline {subparagraph}{}{98}{equation.3.4.35}%
+\contentsline {subparagraph}{}{99}{equation.3.4.35}%
+\contentsline {subparagraph}{}{99}{equation.3.4.36}%
+\contentsline {subparagraph}{}{99}{equation.3.4.38}%
+\contentsline {subparagraph}{}{99}{equation.3.4.38}%
+\contentsline {subparagraph}{}{99}{equation.3.4.40}%
+\contentsline {paragraph}{Résolution numérique}{100}{equation.3.4.40}%
+\contentsline {subparagraph}{}{100}{equation.3.4.40}%
+\contentsline {subparagraph}{}{100}{figure.caption.48}%
+\contentsline {subparagraph}{}{100}{figure.caption.48}%
+\contentsline {subparagraph}{}{100}{figure.caption.48}%
+\contentsline {subsection}{\numberline {3.4.2}Interprétation champ moyen du mécanisme de diffusion dans le $\alpha $-ROM}{101}{subsection.3.4.2}%
+\contentsline {subparagraph}{}{101}{subsection.3.4.2}%
+\contentsline {subparagraph}{}{101}{subsection.3.4.2}%
+\contentsline {subparagraph}{}{101}{subsection.3.4.2}%
+\contentsline {subparagraph}{}{101}{subsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.2.1}Image champ moyen dans une dynamique d'activité décorrélée}{101}{subsubsection.3.4.2.1}%
+\contentsline {paragraph}{Approche du champ moyen par les grandes dimensions}{101}{subsubsection.3.4.2.1}%
+\contentsline {subparagraph}{}{101}{subsubsection.3.4.2.1}%
+\contentsline {subparagraph}{}{102}{subsubsection.3.4.2.1}%
+\contentsline {subparagraph}{}{102}{subsubsection.3.4.2.1}%
+\contentsline {subparagraph}{}{102}{subsubsection.3.4.2.1}%
+\contentsline {subparagraph}{}{102}{figure.caption.49}%
+\contentsline {paragraph}{Interprétation champ moyen du mécanisme de diffusion en dimension finie}{103}{figure.caption.49}%
+\contentsline {subparagraph}{}{103}{figure.caption.49}%
+\contentsline {subparagraph}{}{103}{figure.caption.49}%
+\contentsline {paragraph}{Évolution de la convexité}{103}{figure.caption.49}%
+\contentsline {subparagraph}{}{103}{figure.caption.49}%
+\contentsline {subparagraph}{}{103}{figure.caption.49}%
+\contentsline {paragraph}{Évolution de la distribution des distances à l'activation}{103}{figure.caption.50}%
+\contentsline {subparagraph}{}{103}{figure.caption.50}%
+\contentsline {subparagraph}{}{104}{equation.3.4.41}%
+\contentsline {subparagraph}{}{104}{equation.3.4.41}%
+\contentsline {subparagraph}{}{105}{figure.caption.51}%
+\contentsline {subparagraph}{}{105}{equation.3.4.42}%
+\contentsline {paragraph}{Complexité dans la dynamique des particules passives}{105}{equation.3.4.42}%
+\contentsline {subparagraph}{}{105}{equation.3.4.42}%
+\contentsline {subparagraph}{}{105}{equation.3.4.42}%
+\contentsline {subparagraph}{}{106}{equation.3.4.42}%
+\contentsline {subsubsection}{\numberline {3.4.2.2}Image champ moyen dans le $\alpha $-ROM}{106}{subsubsection.3.4.2.2}%
+\contentsline {subparagraph}{}{106}{subsubsection.3.4.2.2}%
+\contentsline {paragraph}{Évolution de la convexité : une influence moindre des corrélations d'activité ?}{106}{subsubsection.3.4.2.2}%
+\contentsline {subparagraph}{}{106}{subsubsection.3.4.2.2}%
+\contentsline {subparagraph}{}{107}{figure.caption.53}%
+\contentsline {subparagraph}{}{107}{figure.caption.53}%
+\contentsline {paragraph}{Évolution de l'exposant $\theta $ de pseudo-gap}{107}{figure.caption.53}%
+\contentsline {subparagraph}{}{107}{figure.caption.53}%
+\contentsline {subparagraph}{}{108}{figure.caption.54}%
+\contentsline {subparagraph}{}{108}{figure.caption.55}%
+\contentsline {subparagraph}{}{109}{figure.caption.55}%
+\contentsline {subsubsection}{\numberline {3.4.2.3}Conclusion de la sous-section}{109}{subsubsection.3.4.2.3}%
+\contentsline {subparagraph}{}{109}{subsubsection.3.4.2.3}%
+\contentsline {subparagraph}{}{109}{subsubsection.3.4.2.3}%
+\contentsline {subsection}{\numberline {3.4.3}Disqualification complète du cadre LR-CDP}{109}{subsection.3.4.3}%
+\contentsline {subparagraph}{}{109}{subsection.3.4.3}%
+\contentsline {subparagraph}{}{109}{subsection.3.4.3}%
+\contentsline {subparagraph}{}{110}{subsection.3.4.3}%
+\contentsline {subparagraph}{}{110}{equation.3.4.43}%
+\contentsline {subparagraph}{}{111}{figure.caption.56}%
+\contentsline {subsection}{\numberline {3.4.4}Conclusion de la section}{111}{subsection.3.4.4}%
+\contentsline {subparagraph}{}{111}{subsection.3.4.4}%
+\contentsline {section}{\numberline {3.5}Avalanches}{111}{section.3.5}%
+\contentsline {subparagraph}{}{111}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Avalanches à densité fixée}{111}{subsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.1.1}Redéfinition}{111}{subsubsection.3.5.1.1}%
+\contentsline {subparagraph}{}{111}{subsubsection.3.5.1.1}%
+\contentsline {subparagraph}{}{111}{subsubsection.3.5.1.1}%
+\contentsline {subparagraph}{}{112}{subsubsection.3.5.1.1}%
+\contentsline {subparagraph}{}{112}{equation.3.5.44}%
+\contentsline {subsubsection}{\numberline {3.5.1.2}Protocole}{112}{subsubsection.3.5.1.2}%
+\contentsline {subparagraph}{}{112}{subsubsection.3.5.1.2}%
+\contentsline {subparagraph}{}{112}{figure.caption.57}%
+\contentsline {subsection}{\numberline {3.5.2}Évolution des exposants}{113}{subsection.3.5.2}%
+\contentsline {subparagraph}{}{113}{subsection.3.5.2}%
+\contentsline {subparagraph}{}{114}{subsection.3.5.2}%
+\contentsline {subparagraph}{}{114}{table.caption.59}%
+\contentsline {subparagraph}{}{114}{table.caption.59}%
+\contentsline {subparagraph}{}{115}{figure.caption.60}%
+\contentsline {section}{\numberline {3.6}Conclusion}{115}{section.3.6}%
+\contentsline {subparagraph}{}{115}{section.3.6}%
+\contentsline {subparagraph}{}{115}{section.3.6}%
+\contentsline {subparagraph}{}{115}{section.3.6}%
+\contentsline {subparagraph}{}{115}{section.3.6}%
+\contentsline {chapter}{\numberline {4}Transition vers l'écoulement des fluides à seuil}{117}{chapter.4}%
+\contentsline {subparagraph}{}{117}{chapter.4}%
+\contentsline {subparagraph}{}{117}{equation.4.0.1}%
+\contentsline {subparagraph}{}{117}{equation.4.0.1}%
+\contentsline {section}{\numberline {4.1}Étudier la transition vers l'écoulement des fluides à seuil}{118}{section.4.1}%
+\contentsline {subparagraph}{}{118}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Expérimentalement}{118}{subsection.4.1.1}%
+\contentsline {subparagraph}{}{118}{subsection.4.1.1}%
+\contentsline {subparagraph}{}{118}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Numériquement}{118}{subsection.4.1.2}%
+\contentsline {subparagraph}{}{118}{subsection.4.1.2}%
+\contentsline {subparagraph}{}{119}{subsection.4.1.2}%
+\contentsline {subparagraph}{}{119}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Théoriquement}{119}{subsection.4.1.3}%
+\contentsline {subparagraph}{}{119}{subsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.3.1}Groupe de renormalisation et difficultés}{119}{subsubsection.4.1.3.1}%
+\contentsline {subparagraph}{}{119}{subsubsection.4.1.3.1}%
+\contentsline {subparagraph}{}{119}{subsubsection.4.1.3.1}%
+\contentsline {subsubsection}{\numberline {4.1.3.2}Modèle de Hébraud-Lequeux et généralisation}{120}{subsubsection.4.1.3.2}%
+\contentsline {subparagraph}{}{120}{subsubsection.4.1.3.2}%
+\contentsline {subparagraph}{}{120}{equation.4.1.3}%
+\contentsline {subparagraph}{}{120}{equation.4.1.4}%
+\contentsline {section}{\numberline {4.2}Les modèles élastoplastiques comme outils privilégiés}{121}{section.4.2}%
+\contentsline {subparagraph}{}{121}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Principe d'un modèle élastoplastique}{121}{subsection.4.2.1}%
+\contentsline {subparagraph}{}{121}{subsection.4.2.1}%
+\contentsline {subparagraph}{}{121}{subsection.4.2.1}%
+\contentsline {subparagraph}{}{121}{figure.caption.61}%
+\contentsline {subparagraph}{}{122}{figure.caption.61}%
+\contentsline {subparagraph}{}{122}{figure.caption.61}%
+\contentsline {subsection}{\numberline {4.2.2}Le modèle de Picard}{122}{subsection.4.2.2}%
+\contentsline {subparagraph}{}{122}{subsection.4.2.2}%
+\contentsline {subparagraph}{}{122}{subsection.4.2.2}%
+\contentsline {subparagraph}{}{122}{figure.caption.62}%
+\contentsline {subparagraph}{}{123}{equation.4.2.7}%
+\contentsline {subsection}{\numberline {4.2.3}Implémentation numérique}{123}{subsection.4.2.3}%
+\contentsline {subparagraph}{}{123}{subsection.4.2.3}%
+\contentsline {subparagraph}{}{123}{equation.4.2.8}%
+\contentsline {subparagraph}{}{124}{equation.4.2.9}%
+\contentsline {subsection}{\numberline {4.2.4}Changement du paramètre de contrôle}{124}{subsection.4.2.4}%
+\contentsline {subparagraph}{}{124}{subsection.4.2.4}%
+\contentsline {subparagraph}{}{125}{equation.4.2.10}%
+\contentsline {subparagraph}{}{125}{equation.4.2.10}%
+\contentsline {section}{\numberline {4.3}Comportement critique}{125}{section.4.3}%
+\contentsline {subparagraph}{}{125}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Transition vers l'écoulement en milieu élastique}{125}{subsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.1.1}Détermination du point critique}{125}{subsubsection.4.3.1.1}%
+\contentsline {paragraph}{Méthodes}{125}{subsubsection.4.3.1.1}%
+\contentsline {subparagraph}{}{125}{subsubsection.4.3.1.1}%
+\contentsline {subparagraph}{}{125}{subsubsection.4.3.1.1}%
+\contentsline {subparagraph}{}{126}{subsubsection.4.3.1.1}%
+\contentsline {subparagraph}{}{126}{subsubsection.4.3.1.1}%
+\contentsline {subparagraph}{}{126}{subsubsection.4.3.1.1}%
+\contentsline {paragraph}{Détermination à taux de cisaillement imposé}{126}{subsubsection.4.3.1.1}%
+\contentsline {subparagraph}{}{126}{subsubsection.4.3.1.1}%
+\contentsline {subparagraph}{}{126}{figure.caption.64}%
+\contentsline {subsubsection}{\numberline {4.3.1.2}Analyse d'échelle de taille finie}{127}{subsubsection.4.3.1.2}%
+\contentsline {paragraph}{Difficultés dans la détermination des exposants critiques}{127}{subsubsection.4.3.1.2}%
+\contentsline {subparagraph}{}{127}{subsubsection.4.3.1.2}%
+\contentsline {paragraph}{Méthode}{127}{subsubsection.4.3.1.2}%
+\contentsline {subparagraph}{}{127}{subsubsection.4.3.1.2}%
+\contentsline {subparagraph}{}{128}{equation.4.3.11}%
+\contentsline {subparagraph}{}{128}{figure.caption.65}%
+\contentsline {subparagraph}{}{129}{equation.4.3.15}%
+\contentsline {subparagraph}{}{129}{equation.4.3.15}%
+\contentsline {subparagraph}{}{129}{equation.4.3.16}%
+\contentsline {paragraph}{Résultats}{129}{equation.4.3.16}%
+\contentsline {subparagraph}{}{129}{equation.4.3.16}%
+\contentsline {subparagraph}{}{129}{equation.4.3.16}%
+\contentsline {subparagraph}{}{130}{figure.caption.66}%
+\contentsline {subsubsection}{\numberline {4.3.1.3}Relation d'hyperscaling}{130}{subsubsection.4.3.1.3}%
+\contentsline {subparagraph}{}{130}{subsubsection.4.3.1.3}%
+\contentsline {subparagraph}{}{130}{equation.4.3.17}%
+\contentsline {subparagraph}{}{131}{equation.4.3.18}%
+\contentsline {subsection}{\numberline {4.3.2}Modèles d'écoulement à courte portée}{131}{subsection.4.3.2}%
+\contentsline {subparagraph}{}{131}{subsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.1}Le modèle Picard-CP}{131}{subsubsection.4.3.2.1}%
+\contentsline {subparagraph}{}{131}{subsubsection.4.3.2.1}%
+\contentsline {subparagraph}{}{131}{subsubsection.4.3.2.1}%
+\contentsline {subparagraph}{}{132}{figure.caption.68}%
+\contentsline {subparagraph}{}{132}{figure.caption.69}%
+\contentsline {subparagraph}{}{132}{figure.caption.69}%
+\contentsline {subsubsection}{\numberline {4.3.2.2}Modes zéros, propriété fondamentale de la transition vers l'écoulement}{133}{subsubsection.4.3.2.2}%
+\contentsline {subparagraph}{}{133}{subsubsection.4.3.2.2}%
+\contentsline {subparagraph}{}{134}{figure.caption.70}%
+\contentsline {subparagraph}{}{134}{figure.caption.71}%
+\contentsline {subsubsection}{\numberline {4.3.2.3}Retour à l'universalité et classe CDP-0}{134}{subsubsection.4.3.2.3}%
+\contentsline {subparagraph}{}{134}{subsubsection.4.3.2.3}%
+\contentsline {subparagraph}{}{135}{subsubsection.4.3.2.3}%
+\contentsline {subparagraph}{}{135}{figure.caption.72}%
+\contentsline {subparagraph}{}{135}{figure.caption.72}%
+\contentsline {paragraph}{Une description continue différente}{136}{figure.caption.73}%
+\contentsline {subparagraph}{}{136}{figure.caption.73}%
+\contentsline {subparagraph}{}{137}{equation.4.3.21}%
+\contentsline {subparagraph}{}{137}{equation.4.3.24}%
+\contentsline {subparagraph}{}{138}{equation.4.3.27}%
+\contentsline {subparagraph}{}{138}{equation.4.3.29}%
+\contentsline {subparagraph}{}{138}{equation.4.3.29}%
+\contentsline {subsection}{\numberline {4.3.3}Situer la transition vers l'écoulement}{138}{subsection.4.3.3}%
+\contentsline {subparagraph}{}{138}{subsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.3.1}Le modèle $\alpha $-Picard}{138}{subsubsection.4.3.3.1}%
+\contentsline {subparagraph}{}{138}{subsubsection.4.3.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.3.2}Implémentation numérique et instabilités}{139}{subsubsection.4.3.3.2}%
+\contentsline {subparagraph}{}{139}{subsubsection.4.3.3.2}%
+\contentsline {subparagraph}{}{139}{figure.caption.74}%
+\contentsline {subsubsection}{\numberline {4.3.3.3}Comportement critique des modèles $\alpha $-Picard}{139}{subsubsection.4.3.3.3}%
+\contentsline {subparagraph}{}{139}{subsubsection.4.3.3.3}%
+\contentsline {subparagraph}{}{140}{subsubsection.4.3.3.3}%
+\contentsline {subparagraph}{}{140}{figure.caption.75}%
+\contentsline {subparagraph}{}{140}{figure.caption.75}%
+\contentsline {subsubsection}{\numberline {4.3.3.4}Description continue}{141}{subsubsection.4.3.3.4}%
+\contentsline {subparagraph}{}{141}{subsubsection.4.3.3.4}%
+\contentsline {subparagraph}{}{141}{equation.4.3.36}%
+\contentsline {subparagraph}{}{141}{equation.4.3.37}%
+\contentsline {paragraph}{Comparaison avec la transition de dépiégeage}{142}{equation.4.3.37}%
+\contentsline {subparagraph}{}{142}{equation.4.3.37}%
+\contentsline {subparagraph}{}{142}{equation.4.3.37}%
+\contentsline {paragraph}{Raisonnement plus simple dans l'espace réciproque}{142}{equation.4.3.37}%
+\contentsline {subparagraph}{}{142}{equation.4.3.37}%
+\contentsline {subparagraph}{}{142}{equation.4.3.37}%
+\contentsline {subparagraph}{}{142}{equation.4.3.37}%
+\contentsline {subsubsection}{\numberline {4.3.3.5}Paysage global}{142}{subsubsection.4.3.3.5}%
+\contentsline {subparagraph}{}{142}{subsubsection.4.3.3.5}%
+\contentsline {subparagraph}{}{143}{subsubsection.4.3.3.5}%
+\contentsline {subparagraph}{}{143}{subsubsection.4.3.3.5}%
+\contentsline {subparagraph}{}{143}{subsubsection.4.3.3.5}%
+\contentsline {subparagraph}{}{143}{figure.caption.76}%
+\contentsline {subparagraph}{}{144}{figure.caption.76}%
+\contentsline {subsection}{\numberline {4.3.4}Influence de la portée sur les corrélations de contrainte dans l'état\\ stationnaire}{144}{subsection.4.3.4}%
+\contentsline {subparagraph}{}{144}{subsection.4.3.4}%
+\contentsline {subsubsection}{\numberline {4.3.4.1}Hyperuniformité dans les modèles élastoplastiques}{144}{subsubsection.4.3.4.1}%
+\contentsline {subparagraph}{}{144}{subsubsection.4.3.4.1}%
+\contentsline {subparagraph}{}{144}{equation.4.3.39}%
+\contentsline {subparagraph}{}{144}{equation.4.3.39}%
+\contentsline {subparagraph}{}{145}{equation.4.3.40}%
+\contentsline {subsubsection}{\numberline {4.3.4.2}Approche par le dépiégeage}{145}{subsubsection.4.3.4.2}%
+\contentsline {subparagraph}{}{145}{subsubsection.4.3.4.2}%
+\contentsline {subparagraph}{}{145}{subsubsection.4.3.4.2}%
+\contentsline {subparagraph}{}{145}{equation.4.3.43}%
+\contentsline {subsubsection}{\numberline {4.3.4.3}Résultats numériques}{145}{subsubsection.4.3.4.3}%
+\contentsline {paragraph}{Méthode}{145}{subsubsection.4.3.4.3}%
+\contentsline {subparagraph}{}{145}{subsubsection.4.3.4.3}%
+\contentsline {subparagraph}{}{146}{subsubsection.4.3.4.3}%
+\contentsline {paragraph}{Confirmation de l'analogie via le modèle $\text {FES}^\pm $}{146}{subsubsection.4.3.4.3}%
+\contentsline {subparagraph}{}{146}{subsubsection.4.3.4.3}%
+\contentsline {subparagraph}{}{146}{subsubsection.4.3.4.3}%
+\contentsline {subparagraph}{}{146}{figure.caption.77}%
+\contentsline {subparagraph}{}{147}{figure.caption.78}%
+\contentsline {paragraph}{Hyperuniformité dans le modèle $\alpha $-Picard}{147}{equation.4.3.46}%
+\contentsline {subparagraph}{}{147}{equation.4.3.46}%
+\contentsline {subparagraph}{}{147}{figure.caption.79}%
+\contentsline {subparagraph}{}{147}{figure.caption.79}%
+\contentsline {subparagraph}{}{148}{figure.caption.79}%
+\contentsline {subparagraph}{}{148}{table.caption.81}%
+\contentsline {subparagraph}{}{149}{table.caption.81}%
+\contentsline {subparagraph}{}{149}{table.caption.81}%
+\contentsline {subparagraph}{}{149}{table.caption.81}%
+\contentsline {section}{\numberline {4.4}Caractérisation dynamique et avalanches}{149}{section.4.4}%
+\contentsline {subparagraph}{}{149}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Avalanches de plasticité}{150}{subsection.4.4.1}%
+\contentsline {subparagraph}{}{150}{subsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.1.1}Phénoménologie}{150}{subsubsection.4.4.1.1}%
+\contentsline {paragraph}{Dynamique à l'approche du point critique}{150}{subsubsection.4.4.1.1}%
+\contentsline {subparagraph}{}{150}{subsubsection.4.4.1.1}%
+\contentsline {paragraph}{Observables d'intérêt}{150}{subsubsection.4.4.1.1}%
+\contentsline {subparagraph}{}{150}{subsubsection.4.4.1.1}%
+\contentsline {subparagraph}{}{150}{equation.4.4.47}%
+\contentsline {subsubsection}{\numberline {4.4.1.2}L'approche quasistatique comme cadre de référence}{150}{subsubsection.4.4.1.2}%
+\contentsline {subparagraph}{}{150}{subsubsection.4.4.1.2}%
+\contentsline {subparagraph}{}{151}{figure.caption.83}%
+\contentsline {subparagraph}{}{151}{equation.4.4.49}%
+\contentsline {subsubsection}{\numberline {4.4.1.3}Résultats dans les différents cadre d'étude}{152}{subsubsection.4.4.1.3}%
+\contentsline {subparagraph}{}{152}{subsubsection.4.4.1.3}%
+\contentsline {subparagraph}{}{152}{subsubsection.4.4.1.3}%
+\contentsline {subparagraph}{}{152}{subsubsection.4.4.1.3}%
+\contentsline {subparagraph}{}{152}{subsubsection.4.4.1.3}%
+\contentsline {paragraph}{Modèles élastoplastiques}{153}{subsubsection.4.4.1.3}%
+\contentsline {subparagraph}{}{153}{subsubsection.4.4.1.3}%
+\contentsline {subparagraph}{}{153}{equation.4.4.50}%
+\contentsline {subparagraph}{}{153}{equation.4.4.50}%
+\contentsline {subparagraph}{}{153}{equation.4.4.50}%
+\contentsline {subsection}{\numberline {4.4.2}Avalanches à contrainte imposée}{153}{subsection.4.4.2}%
+\contentsline {subparagraph}{}{153}{subsection.4.4.2}%
+\contentsline {subparagraph}{}{154}{subsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.2.1}Un problème d'états absorbants}{154}{subsubsection.4.4.2.1}%
+\contentsline {paragraph}{Dynamique proche du point critique en taille finie}{154}{subsubsection.4.4.2.1}%
+\contentsline {subparagraph}{}{154}{subsubsection.4.4.2.1}%
+\contentsline {paragraph}{Redéfinition des avalanches}{154}{figure.caption.84}%
+\contentsline {subparagraph}{}{154}{figure.caption.84}%
+\contentsline {subparagraph}{}{155}{figure.caption.84}%
+\contentsline {subparagraph}{}{155}{figure.caption.84}%
+\contentsline {subparagraph}{}{155}{figure.caption.84}%
+\contentsline {subsubsection}{\numberline {4.4.2.2}Importance du choix d'un protocole}{155}{subsubsection.4.4.2.2}%
+\contentsline {subparagraph}{}{155}{subsubsection.4.4.2.2}%
+\contentsline {paragraph}{Protocoles étudiés}{155}{subsubsection.4.4.2.2}%
+\contentsline {subparagraph}{}{155}{subsubsection.4.4.2.2}%
+\contentsline {subparagraph}{}{155}{subsubsection.4.4.2.2}%
+\contentsline {subparagraph}{}{155}{subsubsection.4.4.2.2}%
+\contentsline {subparagraph}{}{156}{subsubsection.4.4.2.2}%
+\contentsline {paragraph}{Comparaisons statistiques}{156}{subsubsection.4.4.2.2}%
+\contentsline {subparagraph}{}{156}{subsubsection.4.4.2.2}%
+\contentsline {subparagraph}{}{156}{figure.caption.85}%
+\contentsline {subparagraph}{}{157}{figure.caption.86}%
+\contentsline {subparagraph}{}{157}{figure.caption.86}%
+\contentsline {subsubsection}{\numberline {4.4.2.3}Le protocole RTP comme protocole naturel}{157}{subsubsection.4.4.2.3}%
+\contentsline {subparagraph}{}{157}{subsubsection.4.4.2.3}%
+\contentsline {subparagraph}{}{157}{subsubsection.4.4.2.3}%
+\contentsline {subsection}{\numberline {4.4.3}Influence de la portée sur les avalanches en contrainte imposée}{158}{subsection.4.4.3}%
+\contentsline {subparagraph}{}{158}{subsection.4.4.3}%
+\contentsline {subsubsection}{\numberline {4.4.3.1}Avalanches dans le modèle $\alpha $-Picard}{158}{subsubsection.4.4.3.1}%
+\contentsline {paragraph}{Méthode}{158}{subsubsection.4.4.3.1}%
+\contentsline {subparagraph}{}{158}{subsubsection.4.4.3.1}%
+\contentsline {subparagraph}{}{158}{subsubsection.4.4.3.1}%
+\contentsline {paragraph}{\'Evolution des exposants}{158}{equation.4.4.52}%
+\contentsline {subparagraph}{}{158}{equation.4.4.52}%
+\contentsline {subparagraph}{}{159}{table.caption.88}%
+\contentsline {subparagraph}{}{159}{table.caption.88}%
+\contentsline {subparagraph}{}{159}{table.caption.88}%
+\contentsline {subparagraph}{}{159}{table.caption.88}%
+\contentsline {subsubsection}{\numberline {4.4.3.2}Aparté sur les avalanches écrantées}{160}{subsubsection.4.4.3.2}%
+\contentsline {subparagraph}{}{160}{subsubsection.4.4.3.2}%
+\contentsline {subparagraph}{}{160}{subsubsection.4.4.3.2}%
+\contentsline {section}{\numberline {4.5}Conclusion}{160}{section.4.5}%
+\contentsline {subparagraph}{}{160}{section.4.5}%
+\contentsline {subparagraph}{}{160}{section.4.5}%
+\contentsline {subparagraph}{}{160}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Discussion : interprétation conjointe des transitions de réversibilité\\ et d'écoulement}{163}{chapter.5}%
+\contentsline {subparagraph}{}{163}{chapter.5}%
+\contentsline {subparagraph}{}{163}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Des similarités globales}{163}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Analogie entre les deux systèmes}{163}{subsection.5.1.1}%
+\contentsline {subparagraph}{}{163}{subsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.1}Activité et quantité conservée}{163}{subsubsection.5.1.1.1}%
+\contentsline {subparagraph}{}{163}{subsubsection.5.1.1.1}%
+\contentsline {subparagraph}{}{164}{subsubsection.5.1.1.1}%
+\contentsline {subparagraph}{}{164}{subsubsection.5.1.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.2}Avalanches et hyperuniformité}{164}{subsubsection.5.1.1.2}%
+\contentsline {subparagraph}{}{164}{subsubsection.5.1.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.1.3}Effets multiples des évènements d'activité}{164}{subsubsection.5.1.1.3}%
+\contentsline {subparagraph}{}{164}{subsubsection.5.1.1.3}%
+\contentsline {subparagraph}{}{164}{subsubsection.5.1.1.3}%
+\contentsline {subparagraph}{}{165}{subsubsection.5.1.1.3}%
+\contentsline {subparagraph}{}{165}{equation.5.1.2}%
+\contentsline {paragraph}{Aparté sur le transport à longue portée dans la transition de réversibilité}{165}{equation.5.1.2}%
+\contentsline {subparagraph}{}{165}{equation.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.2}Bruit interne, bruit mécanique}{166}{subsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.1}Diffusion vers une barrière}{166}{subsubsection.5.1.2.1}%
+\contentsline {subparagraph}{}{166}{subsubsection.5.1.2.1}%
+\contentsline {subparagraph}{}{166}{subsubsection.5.1.2.1}%
+\contentsline {subparagraph}{}{167}{subsubsection.5.1.2.1}%
+\contentsline {subsubsection}{\numberline {5.1.2.2}Modélisation champ moyen}{167}{subsubsection.5.1.2.2}%
+\contentsline {subparagraph}{}{167}{subsubsection.5.1.2.2}%
+\contentsline {subparagraph}{}{167}{subsubsection.5.1.2.2}%
+\contentsline {subparagraph}{}{167}{equation.5.1.4}%
+\contentsline {subparagraph}{}{168}{equation.5.1.5}%
+\contentsline {subparagraph}{}{168}{equation.5.1.5}%
+\contentsline {paragraph}{Extension à l'influence de la portée des interactions}{168}{equation.5.1.6}%
+\contentsline {subparagraph}{}{168}{equation.5.1.6}%
+\contentsline {subparagraph}{}{169}{equation.5.1.7}%
+\contentsline {subsection}{\numberline {5.1.3}Répartition de la masse et distance à l'activation :\\ des indices microscopiques}{169}{subsection.5.1.3}%
+\contentsline {subparagraph}{}{169}{subsection.5.1.3}%
+\contentsline {subparagraph}{}{169}{subsection.5.1.3}%
+\contentsline {subparagraph}{}{169}{equation.5.1.8}%
+\contentsline {subparagraph}{}{169}{equation.5.1.8}%
+\contentsline {subsection}{\numberline {5.1.4}Des évolutions qualitativement similaires dans les modèles numériques}{169}{subsection.5.1.4}%
+\contentsline {subparagraph}{}{169}{subsection.5.1.4}%
+\contentsline {subparagraph}{}{170}{subsection.5.1.4}%
+\contentsline {subparagraph}{}{170}{subsection.5.1.4}%
+\contentsline {subparagraph}{}{170}{subsection.5.1.4}%
+\contentsline {section}{\numberline {5.2}Des différences en dimension finie}{171}{section.5.2}%
+\contentsline {subparagraph}{}{171}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Cadres d'interprétation théoriques}{171}{subsection.5.2.1}%
+\contentsline {subparagraph}{}{171}{figure.caption.90}%
+\contentsline {subsection}{\numberline {5.2.2}Zone concave : des évolutions décalées}{172}{subsection.5.2.2}%
+\contentsline {subparagraph}{}{172}{subsection.5.2.2}%
+\contentsline {subparagraph}{}{172}{subsection.5.2.2}%
+\contentsline {subparagraph}{}{173}{subsection.5.2.2}%
+\contentsline {subparagraph}{}{173}{subsection.5.2.2}%
+\contentsline {subparagraph}{}{173}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Zone convexe : importance des corrélations}{174}{subsection.5.2.3}%
+\contentsline {subparagraph}{}{174}{subsection.5.2.3}%
+\contentsline {subparagraph}{}{174}{subsection.5.2.3}%
+\contentsline {subparagraph}{}{174}{subsection.5.2.3}%
+\contentsline {subparagraph}{}{174}{subsection.5.2.3}%
+\contentsline {subparagraph}{}{175}{subsection.5.2.3}%
+\contentsline {subparagraph}{}{175}{figure.caption.92}%
+\contentsline {subsection}{\numberline {5.2.4}Limites du scénario proposé}{176}{subsection.5.2.4}%
+\contentsline {subparagraph}{}{176}{subsection.5.2.4}%
+\contentsline {subsubsection}{\numberline {5.2.4.1}Une approche découplée des mécanismes de création de l'activité}{176}{subsubsection.5.2.4.1}%
+\contentsline {subparagraph}{}{176}{subsubsection.5.2.4.1}%
+\contentsline {paragraph}{$\alpha $-ROM}{176}{subsubsection.5.2.4.1}%
+\contentsline {subparagraph}{}{176}{subsubsection.5.2.4.1}%
+\contentsline {subparagraph}{}{176}{subsubsection.5.2.4.1}%
+\contentsline {paragraph}{$\alpha $-Picard}{176}{subsubsection.5.2.4.1}%
+\contentsline {subparagraph}{}{176}{subsubsection.5.2.4.1}%
+\contentsline {subparagraph}{}{177}{subsubsection.5.2.4.1}%
+\contentsline {subsubsection}{\numberline {5.2.4.2}Une vision réduite de la criticalité}{177}{subsubsection.5.2.4.2}%
+\contentsline {subparagraph}{}{177}{subsubsection.5.2.4.2}%
+\contentsline {subparagraph}{}{177}{subsubsection.5.2.4.2}%
+\contentsline {subsection}{\numberline {5.2.5}Vers un cadre théorique complet}{177}{subsection.5.2.5}%
+\contentsline {subparagraph}{}{177}{subsection.5.2.5}%
+\contentsline {subparagraph}{}{177}{subsection.5.2.5}%
+\contentsline {section}{\numberline {5.3}Conclusion}{178}{section.5.3}%
+\contentsline {subparagraph}{}{178}{section.5.3}%
+\contentsline {subparagraph}{}{178}{section.5.3}%
+\contentsline {subparagraph}{}{178}{section.5.3}%
+\contentsline {chapter}{Conclusion}{179}{chapter*.93}%
+\contentsline {subparagraph}{}{179}{chapter*.93}%
+\contentsline {subparagraph}{}{179}{chapter*.93}%
+\contentsline {subparagraph}{}{179}{chapter*.93}%
+\contentsline {subparagraph}{}{180}{chapter*.93}%
+\contentsline {subparagraph}{}{180}{chapter*.93}%
+\contentsline {subparagraph}{}{180}{chapter*.93}%
+\contentsline {subparagraph}{}{180}{chapter*.93}%
+\contentsline {subparagraph}{}{180}{chapter*.93}%
+\contentsline {subparagraph}{}{181}{chapter*.93}%
+\contentsline {subparagraph}{}{181}{chapter*.93}%
+\contentsline {subparagraph}{}{181}{chapter*.93}%
+\contentsline {subparagraph}{}{181}{chapter*.93}%
+\contentsline {subparagraph}{}{182}{chapter*.93}%
+\contentsline {subparagraph}{}{182}{chapter*.93}%
+\contentsline {subparagraph}{}{182}{chapter*.93}%
+\contentsline {subparagraph}{}{182}{chapter*.93}%
+\contentsline {subparagraph}{}{182}{chapter*.93}%
+\contentsline {subparagraph}{}{183}{chapter*.93}%
+\contentsline {subparagraph}{}{183}{chapter*.93}%
+\contentsline {subparagraph}{}{183}{chapter*.93}%
+\contentsline {subparagraph}{}{183}{chapter*.93}%
+\contentsline {subparagraph}{}{183}{chapter*.93}%
+\contentsline {chapter}{Bibliographie}{185}{chapter*.94}%
+\contentsline {chapter}{Annexes}{195}{section*.95}%
+\contentsline {chapter}{\numberline {A}Conventions et implémentations}{197}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Conventions}{197}{section.A.1}%
+\contentsline {subparagraph}{}{197}{section.A.1}%
+\contentsline {subparagraph}{}{197}{equation.A.1.2}%
+\contentsline {section}{\numberline {A.2}Implémentation discrète des propagateurs}{197}{section.A.2}%
+\contentsline {subparagraph}{}{197}{section.A.2}%
+\contentsline {subparagraph}{}{198}{section.A.2}%
+\contentsline {chapter}{\numberline {B}Annexes au chapitre 1}{199}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Réalisations expérimentales de la transition de dépiégeage à longue portée}{199}{section.B.1}%
+\contentsline {subparagraph}{}{199}{section.B.1}%
+\contentsline {paragraph}{Dynamique de mouillage à la ligne triple}{199}{section.B.1}%
+\contentsline {subparagraph}{}{199}{section.B.1}%
+\contentsline {subparagraph}{}{199}{section.B.1}%
+\contentsline {paragraph}{Propagation d'une fracture}{199}{figure.caption.96}%
+\contentsline {subparagraph}{}{199}{figure.caption.96}%
+\contentsline {subparagraph}{}{200}{figure.caption.96}%
+\contentsline {section}{\numberline {B.2}Propagateur de Eshelby}{200}{section.B.2}%
+\contentsline {subparagraph}{}{200}{section.B.2}%
+\contentsline {subparagraph}{}{200}{section.B.2}%
+\contentsline {subparagraph}{}{200}{section.B.2}%
+\contentsline {subparagraph}{}{201}{equation.B.2.2}%
+\contentsline {subparagraph}{}{201}{equation.B.2.4}%
+\contentsline {subparagraph}{}{201}{equation.B.2.8}%
+\contentsline {subparagraph}{}{202}{equation.B.2.10}%
+\contentsline {paragraph}{Modes 0 dans le propagateur d'Eshelby}{202}{equation.B.2.10}%
+\contentsline {subparagraph}{}{202}{equation.B.2.10}%
+\contentsline {section}{\numberline {B.3}Propagateurs hydrodynamiques}{202}{section.B.3}%
+\contentsline {subparagraph}{}{202}{section.B.3}%
+\contentsline {paragraph}{Hydrodynamique en milieu infini}{202}{section.B.3}%
+\contentsline {subparagraph}{}{202}{section.B.3}%
+\contentsline {subparagraph}{}{203}{equation.B.3.13}%
+\contentsline {subparagraph}{}{203}{equation.B.3.14}%
+\contentsline {subparagraph}{}{203}{equation.B.3.15}%
+\contentsline {subparagraph}{}{203}{equation.B.3.15}%
+\contentsline {paragraph}{Hydrodynamique en milieux complexes}{204}{equation.B.3.15}%
+\contentsline {subparagraph}{}{204}{equation.B.3.15}%
+\contentsline {subparagraph}{}{204}{equation.B.3.16}%
+\contentsline {subparagraph}{}{204}{equation.B.3.16}%
+\contentsline {subparagraph}{}{204}{equation.B.3.16}%
+\contentsline {paragraph}{Interactions dipolaires dans le cas de la transition de réversibilité}{205}{equation.B.3.17}%
+\contentsline {subparagraph}{}{205}{equation.B.3.17}%
+\contentsline {subparagraph}{}{205}{equation.B.3.17}%
+\contentsline {chapter}{\numberline {C}Annexes au chapitre 2}{207}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Mesures d'hyperuniformité dans le modèle LR-Manna}{207}{section.C.1}%
+\contentsline {subparagraph}{}{207}{section.C.1}%
+\contentsline {chapter}{\numberline {D}Annexes au chapitre 3}{209}{appendix.D}%
+\contentsline {section}{\numberline {D.1}Transformée de Fourier des propagateurs}{209}{section.D.1}%
+\contentsline {subparagraph}{}{209}{section.D.1}%
+\contentsline {subparagraph}{}{209}{equation.D.1.1}%
+\contentsline {section}{\numberline {D.2}Résolution numérique du modèle $\mu $-Hébraud-Lequeux}{210}{section.D.2}%
+\contentsline {subparagraph}{}{210}{section.D.2}%
+\contentsline {subparagraph}{}{210}{equation.D.2.7}%
+\contentsline {subparagraph}{}{210}{equation.D.2.9}%
+\contentsline {subparagraph}{}{211}{figure.caption.101}%
+\contentsline {subparagraph}{}{211}{equation.D.2.10}%
+\contentsline {paragraph}{Détails d'implémentation}{211}{equation.D.2.10}%
+\contentsline {subparagraph}{}{211}{equation.D.2.10}%
+\contentsline {section}{\numberline {D.3}Fonctions de corrélation de paire}{211}{section.D.3}%
 \setcounter {tocdepth}{-5}
-\contentsline {subsection}{\numberline {D.3.1}$\alpha $-ROM en 2D avec sauts infinis des particules actives}{228}{subsection.D.3.1}%
-\contentsline {subparagraph}{}{228}{subsection.D.3.1}%
-\contentsline {subsection}{\numberline {D.3.2}$\alpha $-ROM en 2D avec sauts finis des particules actives}{229}{subsection.D.3.2}%
-\contentsline {subparagraph}{}{229}{subsection.D.3.2}%
+\contentsline {subsection}{\numberline {D.3.1}$\alpha $-ROM en 2D avec sauts infinis des particules actives}{211}{subsection.D.3.1}%
+\contentsline {subparagraph}{}{211}{subsection.D.3.1}%
+\contentsline {subsection}{\numberline {D.3.2}$\alpha $-ROM en 2D avec sauts finis des particules actives}{213}{subsection.D.3.2}%
+\contentsline {subparagraph}{}{213}{subsection.D.3.2}%
 \setcounter {tocdepth}{2}
-\contentsline {section}{\numberline {D.4}Avalanches dans le modèle $\alpha $-ROM}{231}{section.D.4}%
-\contentsline {subparagraph}{}{231}{section.D.4}%
-\contentsline {chapter}{\numberline {E}Annexes au chapitre 4}{233}{appendix.E}%
-\contentsline {section}{\numberline {E.1}Modèles $\alpha $-Picard}{233}{section.E.1}%
+\contentsline {section}{\numberline {D.4}Avalanches dans le modèle $\alpha $-ROM}{215}{section.D.4}%
+\contentsline {subparagraph}{}{215}{section.D.4}%
+\contentsline {chapter}{\numberline {E}Annexes au chapitre 4}{217}{appendix.E}%
+\contentsline {section}{\numberline {E.1}Modèles $\alpha $-Picard}{217}{section.E.1}%
 \setcounter {tocdepth}{-5}
-\contentsline {subsection}{\numberline {E.1.1}Transformée de Fourier inverse du propagateur}{233}{subsection.E.1.1}%
-\contentsline {subparagraph}{}{233}{subsection.E.1.1}%
-\contentsline {paragraph}{}{233}{equation.E.1.1}%
-\contentsline {paragraph}{Développement autour de $\beta = 4$/$\alpha =2$}{234}{equation.E.1.9}%
-\contentsline {subparagraph}{}{234}{equation.E.1.9}%
-\contentsline {subsection}{\numberline {E.1.2}Détermination des points critiques}{235}{subsection.E.1.2}%
-\contentsline {subparagraph}{}{235}{subsection.E.1.2}%
-\contentsline {subsection}{\numberline {E.1.3}Avalanches}{235}{subsection.E.1.3}%
-\contentsline {subparagraph}{}{235}{subsection.E.1.3}%
+\contentsline {subsection}{\numberline {E.1.1}Transformée de Fourier inverse du propagateur}{217}{subsection.E.1.1}%
+\contentsline {subparagraph}{}{217}{subsection.E.1.1}%
+\contentsline {paragraph}{}{217}{equation.E.1.1}%
+\contentsline {paragraph}{Développement autour de $\beta = 4$/$\alpha =2$}{218}{equation.E.1.9}%
+\contentsline {subparagraph}{}{218}{equation.E.1.9}%
+\contentsline {subsection}{\numberline {E.1.2}Détermination des points critiques}{219}{subsection.E.1.2}%
+\contentsline {subparagraph}{}{219}{subsection.E.1.2}%
+\contentsline {subsection}{\numberline {E.1.3}Avalanches}{219}{subsection.E.1.3}%
+\contentsline {subparagraph}{}{219}{subsection.E.1.3}%
 \setcounter {tocdepth}{2}
-\contentsline {section}{\numberline {E.2}Dépendance en protocole des avalanches à contrainte imposée dans les modèles élastoplastiques}{236}{section.E.2}%
-\contentsline {section}{\numberline {E.3}Modèle de Picard confiné}{248}{section.E.3}%
+\contentsline {section}{\numberline {E.2}Dépendance en protocole des avalanches à contrainte imposée dans les modèles élastoplastiques}{220}{section.E.2}%
+\contentsline {section}{\numberline {E.3}Modèle de Picard confiné}{232}{section.E.3}%
 \setcounter {tocdepth}{-5}
-\contentsline {subparagraph}{}{248}{section.E.3}%
-\contentsline {subsection}{\numberline {E.3.1}Confinement et interaction d'Eshelby}{248}{subsection.E.3.1}%
-\contentsline {subparagraph}{}{248}{subsection.E.3.1}%
-\contentsline {subparagraph}{}{248}{subsection.E.3.1}%
-\contentsline {paragraph}{Transformée de Fourier inverse du propagateur}{249}{equation.E.3.15}%
-\contentsline {subparagraph}{}{249}{equation.E.3.15}%
-\contentsline {subsection}{\numberline {E.3.2}Étude des avalanches dans le modèle $\lambda $-Picard}{249}{subsection.E.3.2}%
-\contentsline {subparagraph}{}{249}{subsection.E.3.2}%
-\contentsline {subparagraph}{}{250}{figure.caption.116}%
-\contentsline {subparagraph}{}{250}{figure.caption.117}%
-\contentsline {subparagraph}{}{250}{figure.caption.118}%
-\contentsline {subparagraph}{}{250}{figure.caption.118}%
+\contentsline {subparagraph}{}{232}{section.E.3}%
+\contentsline {subsection}{\numberline {E.3.1}Confinement et interaction d'Eshelby}{232}{subsection.E.3.1}%
+\contentsline {subparagraph}{}{232}{subsection.E.3.1}%
+\contentsline {subparagraph}{}{232}{subsection.E.3.1}%
+\contentsline {paragraph}{Transformée de Fourier inverse du propagateur}{233}{equation.E.3.15}%
+\contentsline {subparagraph}{}{233}{equation.E.3.15}%
+\contentsline {subsection}{\numberline {E.3.2}Étude des avalanches dans le modèle $\lambda $-Picard}{233}{subsection.E.3.2}%
+\contentsline {subparagraph}{}{233}{subsection.E.3.2}%
+\contentsline {subparagraph}{}{233}{figure.caption.116}%
+\contentsline {subparagraph}{}{234}{figure.caption.117}%
+\contentsline {subparagraph}{}{234}{figure.caption.118}%
+\contentsline {subparagraph}{}{234}{figure.caption.118}%
 \setcounter {tocdepth}{2}
-\contentsline {chapter}{\numberline {F}Annexes au chapitre 5}{253}{appendix.F}%
-\contentsline {section}{\numberline {F.1}Modèle élastoplastique décorrélé}{253}{section.F.1}%
-\contentsline {subparagraph}{}{253}{section.F.1}%
-\contentsline {subparagraph}{}{253}{section.F.1}%
-\contentsline {subparagraph}{}{253}{section.F.1}%
-\contentsline {subparagraph}{}{254}{Item.4}%
-\contentsline {section}{\numberline {F.2}Équations de champ pour les transitions convexes}{254}{section.F.2}%
+\contentsline {chapter}{\numberline {F}Annexes au chapitre 5}{237}{appendix.F}%
+\contentsline {section}{\numberline {F.1}Modèle élastoplastique décorrélé}{237}{section.F.1}%
+\contentsline {subparagraph}{}{237}{section.F.1}%
+\contentsline {subparagraph}{}{237}{section.F.1}%
+\contentsline {subparagraph}{}{237}{section.F.1}%
+\contentsline {subparagraph}{}{238}{Item.4}%
+\contentsline {section}{\numberline {F.2}Équations de champ pour les transitions convexes}{238}{section.F.2}%
 \setcounter {tocdepth}{-5}
-\contentsline {subsection}{\numberline {F.2.1}Motivations et difficultés}{254}{subsection.F.2.1}%
-\contentsline {subparagraph}{}{254}{subsection.F.2.1}%
-\contentsline {subparagraph}{}{254}{subsection.F.2.1}%
-\contentsline {subparagraph}{}{254}{subsection.F.2.1}%
-\contentsline {subparagraph}{}{255}{subsection.F.2.1}%
-\contentsline {subparagraph}{}{255}{subsection.F.2.1}%
-\contentsline {subsection}{\numberline {F.2.2}Cadre de travail}{255}{subsection.F.2.2}%
-\contentsline {subparagraph}{}{255}{subsection.F.2.2}%
-\contentsline {subparagraph}{}{255}{equation.F.2.1}%
-\contentsline {subsection}{\numberline {F.2.3}Vérification de la méthode d'intégration numérique}{256}{subsection.F.2.3}%
-\contentsline {subparagraph}{}{256}{subsection.F.2.3}%
-\contentsline {subparagraph}{}{256}{subsection.F.2.3}%
-\contentsline {subparagraph}{}{256}{subsection.F.2.3}%
-\contentsline {subsection}{\numberline {F.2.4}Enjeux pratiques}{256}{subsection.F.2.4}%
-\contentsline {subparagraph}{}{256}{subsection.F.2.4}%
-\contentsline {subparagraph}{}{257}{subsection.F.2.4}%
-\contentsline {subparagraph}{}{257}{subsection.F.2.4}%
-\contentsline {subsection}{\numberline {F.2.5}Résultats préliminaires}{257}{subsection.F.2.5}%
-\contentsline {subparagraph}{}{257}{subsection.F.2.5}%
-\contentsline {paragraph}{Exemple de théorie motivée par le modèle de Picard}{257}{subsection.F.2.5}%
-\contentsline {subparagraph}{}{257}{subsection.F.2.5}%
-\contentsline {subparagraph}{}{258}{equation.F.2.3}%
-\contentsline {paragraph}{Exemple de théorie motivée par le modèle $\alpha $-ROM}{258}{figure.caption.120}%
-\contentsline {subparagraph}{}{258}{figure.caption.120}%
-\contentsline {subparagraph}{}{259}{equation.F.2.4}%
-\contentsline {paragraph}{Approche naïve via l'attendu champ moyen}{259}{figure.caption.121}%
-\contentsline {subparagraph}{}{259}{figure.caption.121}%
-\contentsline {subparagraph}{}{260}{equation.F.2.5}%
-\contentsline {subparagraph}{}{260}{equation.F.2.5}%
-\contentsline {subsection}{\numberline {F.2.6}Aparté sur le champ moyen des transitions avec un bruit multiplicatif}{261}{subsection.F.2.6}%
-\contentsline {subparagraph}{}{261}{subsection.F.2.6}%
-\contentsline {paragraph}{Principe de l'approche}{261}{equation.F.2.6}%
-\contentsline {subparagraph}{}{261}{equation.F.2.6}%
-\contentsline {subparagraph}{}{261}{equation.F.2.9}%
-\contentsline {subparagraph}{}{262}{equation.F.2.11}%
-\contentsline {paragraph}{Application au cas de la théorie DP généralisée}{262}{equation.F.2.13}%
-\contentsline {subparagraph}{}{262}{equation.F.2.13}%
-\contentsline {subparagraph}{}{262}{equation.F.2.16}%
-\contentsline {paragraph}{Résolution numérique}{263}{equation.F.2.17}%
-\contentsline {subparagraph}{}{263}{equation.F.2.17}%
-\contentsline {subparagraph}{}{263}{figure.caption.123}%
-\contentsline {subsection}{\numberline {F.2.7}Conclusion de la section}{263}{subsection.F.2.7}%
-\contentsline {subparagraph}{}{263}{subsection.F.2.7}%
-\contentsline {subparagraph}{}{263}{subsection.F.2.7}%
-\contentsline {subparagraph}{}{264}{subsection.F.2.7}%
+\contentsline {subsection}{\numberline {F.2.1}Motivations et difficultés}{238}{subsection.F.2.1}%
+\contentsline {subparagraph}{}{238}{subsection.F.2.1}%
+\contentsline {subparagraph}{}{238}{subsection.F.2.1}%
+\contentsline {subparagraph}{}{238}{subsection.F.2.1}%
+\contentsline {subparagraph}{}{238}{subsection.F.2.1}%
+\contentsline {subparagraph}{}{239}{subsection.F.2.1}%
+\contentsline {subsection}{\numberline {F.2.2}Cadre de travail}{239}{subsection.F.2.2}%
+\contentsline {subparagraph}{}{239}{subsection.F.2.2}%
+\contentsline {subparagraph}{}{239}{equation.F.2.1}%
+\contentsline {subsection}{\numberline {F.2.3}Vérification de la méthode d'intégration numérique}{239}{subsection.F.2.3}%
+\contentsline {subparagraph}{}{239}{subsection.F.2.3}%
+\contentsline {subparagraph}{}{240}{subsection.F.2.3}%
+\contentsline {subparagraph}{}{240}{subsection.F.2.3}%
+\contentsline {subsection}{\numberline {F.2.4}Enjeux pratiques}{240}{subsection.F.2.4}%
+\contentsline {subparagraph}{}{240}{subsection.F.2.4}%
+\contentsline {subparagraph}{}{240}{subsection.F.2.4}%
+\contentsline {subparagraph}{}{241}{subsection.F.2.4}%
+\contentsline {subsection}{\numberline {F.2.5}Résultats préliminaires}{241}{subsection.F.2.5}%
+\contentsline {subparagraph}{}{241}{subsection.F.2.5}%
+\contentsline {paragraph}{Exemple de théorie motivée par le modèle de Picard}{241}{subsection.F.2.5}%
+\contentsline {subparagraph}{}{241}{subsection.F.2.5}%
+\contentsline {subparagraph}{}{241}{equation.F.2.3}%
+\contentsline {paragraph}{Exemple de théorie motivée par le modèle $\alpha $-ROM}{242}{figure.caption.120}%
+\contentsline {subparagraph}{}{242}{figure.caption.120}%
+\contentsline {subparagraph}{}{242}{equation.F.2.4}%
+\contentsline {paragraph}{Approche naïve via l'attendu champ moyen}{243}{figure.caption.121}%
+\contentsline {subparagraph}{}{243}{figure.caption.121}%
+\contentsline {subparagraph}{}{243}{equation.F.2.5}%
+\contentsline {subparagraph}{}{243}{equation.F.2.5}%
+\contentsline {subsection}{\numberline {F.2.6}Aparté sur le champ moyen des transitions avec un bruit multiplicatif}{244}{subsection.F.2.6}%
+\contentsline {subparagraph}{}{244}{subsection.F.2.6}%
+\contentsline {paragraph}{Principe de l'approche}{244}{equation.F.2.6}%
+\contentsline {subparagraph}{}{244}{equation.F.2.6}%
+\contentsline {subparagraph}{}{245}{equation.F.2.9}%
+\contentsline {subparagraph}{}{245}{equation.F.2.11}%
+\contentsline {paragraph}{Application au cas de la théorie DP généralisée}{245}{equation.F.2.13}%
+\contentsline {subparagraph}{}{245}{equation.F.2.13}%
+\contentsline {subparagraph}{}{246}{equation.F.2.16}%
+\contentsline {paragraph}{Résolution numérique}{246}{equation.F.2.17}%
+\contentsline {subparagraph}{}{246}{equation.F.2.17}%
+\contentsline {subparagraph}{}{246}{figure.caption.123}%
+\contentsline {subsection}{\numberline {F.2.7}Conclusion de la section}{246}{subsection.F.2.7}%
+\contentsline {subparagraph}{}{246}{subsection.F.2.7}%
+\contentsline {subparagraph}{}{247}{subsection.F.2.7}%
+\contentsline {subparagraph}{}{247}{subsection.F.2.7}%
 \setcounter {tocdepth}{2}

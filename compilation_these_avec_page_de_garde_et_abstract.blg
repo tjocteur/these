@@ -3,50 +3,46 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: compilation_these_avec_page_de_garde_et_abstract.aux
 The style file: ieeetr.bst
 Database file #1: biblio.bib
-Warning--I didn't find a database entry for "eckstein_self_diffusion_1977"
-Warning--I didn't find a database entry for "lin_mean-field_2016"
-Warning--I didn't find a database entry for "rossi_finite-disorder_2022"
-Warning--I didn't find a database entry for "lauridsen_shear-induced_2002"
 Warning--empty author in zwillinger_6_7_2014
-You've used 167 entries,
+You've used 171 entries,
             1876 wiz_defined-function locations,
-            1353 strings with 32201 characters,
-and the built_in function-call counts, 49498 in all, are:
-= -- 5326
-> -- 1674
+            1367 strings with 32590 characters,
+and the built_in function-call counts, 50771 in all, are:
+= -- 5464
+> -- 1721
 < -- 0
-+ -- 624
-- -- 457
-* -- 3281
-:= -- 6503
-add.period$ -- 179
-call.type$ -- 167
-change.case$ -- 159
++ -- 641
+- -- 470
+* -- 3354
+:= -- 6662
+add.period$ -- 183
+call.type$ -- 171
+change.case$ -- 163
 chr.to.int$ -- 0
-cite$ -- 168
-duplicate$ -- 2833
-empty$ -- 4054
-format.name$ -- 457
-if$ -- 12420
+cite$ -- 172
+duplicate$ -- 2920
+empty$ -- 4147
+format.name$ -- 470
+if$ -- 12751
 int.to.chr$ -- 0
-int.to.str$ -- 167
-missing$ -- 160
-newline$ -- 517
-num.names$ -- 170
-pop$ -- 343
+int.to.str$ -- 171
+missing$ -- 164
+newline$ -- 529
+num.names$ -- 174
+pop$ -- 351
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2706
+skip$ -- 2795
 stack$ -- 0
-substring$ -- 3205
-swap$ -- 1666
+substring$ -- 3259
+swap$ -- 1724
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 442
-width$ -- 170
-write$ -- 1648
-(There were 5 warnings)
+while$ -- 450
+width$ -- 174
+write$ -- 1689
+(There was 1 warning)
